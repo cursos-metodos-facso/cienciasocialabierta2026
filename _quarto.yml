@@ -28,7 +28,7 @@ website:
   title: "Ciencia Social Abierta"
   site-url: "https://multinivel-facso.netlify.app"
 
-  favicon: "/files/img/logo.png"
+  favicon: "files/logo.png"
 
   # twitter-card:
   #  image: "/files/social-image-sp23.png"
