@@ -1,0 +1,85 @@
+---
+title: "Ciencia Social Abierta"
+subtitle: "Herramientas para la reproducilibidad, colaboración y comunicación de la investigación social"
+details: |
+  SOC01308/MCS • Primer Semestre 2026<br>Departamento de Sociología, Facultad de Ciencias Sociales<br>Universidad de Chile
+sidebar: false
+toc: false
+page-layout: full
+format:
+  html:
+    template-partials:
+      - html/home/title-block.html
+course-logo: files/logo.png
+listing:
+  id: informaciones
+  contents: "news/2025*.qmd"
+  type: grid
+  sort: "date desc"
+  categories: false
+---
+
+```{r set-dependencies, include=FALSE}
+# Site-wide targets dependencies
+withr::with_dir(here::here(), {
+  targets::tar_load(project_zips)
+  targets::tar_load(xaringan_slides)
+  targets::tar_load(xaringan_pdfs)
+})
+```
+
+
+::: {.home}
+
+::: {.grid .course-details}
+
+
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Profesor
+
+
+<div class="image-cropper">
+  <img src="https://ucampus.uchile.cl/d/r/usuario/ff/ffd4a9d15a5239c0a425a58a798889c8/perfil/bf49d6261628eb095bcaec76eda1e0d1.jpg" alt="avatar" class="profile-pic" width= "100" height= "auto">
+</div>
+
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa building >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; <a href="mailto:juancastillov@uchile.cl">juancastillov@uchile.cl</a>
+- {{< fa calendar-check >}} &nbsp; [Agendar reunión]({{< var instructor.appointment_url >}})
+
+#### Apoyo Docente
+
+<div class="image-cropper">
+  <img src="files/img/tomas.jpeg" alt="avatar" class="profile-pic"   width= "100" height= "auto">
+</div>
+- {{< fa user >}} &nbsp; Tomás Urzúa
+- {{< fa building >}} &nbsp; 328 Sociología FACSO, Universidad de Chile
+- {{< fa envelope >}} &nbsp; <a href="mailto:tomas.urzua@ug.uchile.cl ">tomas.urzua@ug.uchile.cl </a>
+- {{< fa calendar-check >}} &nbsp; Agendar reunión
+
+
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+### Actividades
+
+- {{< fa clock >}} &nbsp; **Jueves 14:30-17:45** - Salas 345 FACSO
+
+:::
+
+::: {.g-col-12 .g-col-md-4 .contact-policy}
+### Contacto
+
+{{< var instructor.contact_policy >}}
+:::
+
+:::
+:::
+
+## Últimas informaciones
+
+::: {#informaciones}
+:::
+
+-> ir a la [página de Informaciones](/news/index.qmd) del sitio.

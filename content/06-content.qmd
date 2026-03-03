@@ -1,0 +1,45 @@
+---
+title: "Presentación"
+date: "2025-05-15"
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/multinivel
+---
+
+# Documento de presentación
+
+<iframe src=/slides/06-ajuste_reporte.html height="550" width=100% allowfullscreen="true">
+</iframe> 
+
+# Video de la sesión
+
+(audio comienza al minuto)
+
+<video width="640" height="360" controls>
+  <source src="<video width="640" height="360" controls>
+  <source src="https://dl.dropboxusercontent.com/scl/fi/j2jqle07xcv8h2b5ulnin/clase6_ajuste-reporte.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+# Foro
+
+<script src="https://giscus.app/client.js"
+        data-repo="cursos-metodos-facso/multinivel", 
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyMDA3MTE2MDk="
+        data-category="Q&A"
+        data-category-id="DIC_kwDOC_aduc4CYhjI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
+

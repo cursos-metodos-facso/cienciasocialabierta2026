@@ -1,0 +1,15 @@
+---
+title: "Presentación"
+date: "2023-05-29"
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/multinivel
+---
+
+# Documento de presentación: Centrado
+
+<iframe src=/slides/08-centering.html height="550" width=100% allowfullscreen="true">
+</iframe> 
+

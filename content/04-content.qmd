@@ -1,0 +1,14 @@
+---
+title: "Presentación"
+date: "2025-04-10"
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/multinivel
+---
+
+# Documento de presentación
+
+<iframe src=/slides/04-primera_est.html height="550" width=100% allowfullscreen="true">
+</iframe> 

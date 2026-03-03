@@ -1,0 +1,192 @@
+---
+title: "Modelos multinivel para variables categóricas"
+date: "2025-06-05"
+lang: es
+number-sections: false
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/multinivel
+---
+
+Cargar paquetes
+```{r}
+pacman::p_load(car, # función recode
+                stargazer, # tablas latex
+                lme4, # multilevel
+                lattice, # dotplot
+                sjPlot, # multilevel plots
+                dplyr,
+                doBy, # agregar datos
+                VGAM, # predict logit
+                texreg,
+                nlme,
+                dplyr,
+                sjmisc,
+                sjPlot)
+
+options(scipen = 999) # para desactivar notacion cientifica
+```
+
+
+### 1. Ejemplo de regresión logística (simple,1 nivel)
+
+Ejemplo basado en Finch et al 2014, cap 7.
+
+- Dependiente: diagnóstico de enfermedad (arteria coronaria)
+- Independiente: tiempo de caminata hasta fatigarse
+- Pregunta: en qué medida la fatiga al caminar puede predecir enfermedad coronaria?
+
+### Leer y explorar los datos
+
+```{r}
+data=read.csv("https://github.com/cursos-metodos-facso/multinivel-facso/raw/refs/heads/main/assignment/data/CoronaryArtery.csv")
+names(data)
+```
+
+```{r}
+summary(data)
+```
+
+```{r results='asis'}
+stargazer(data,title="Estadísticos descriptivos", type = "html", digits=2)
+```
+
+
+### Recodificar datos de variable dependiente
+```{r}
+data$group=rec(data$group, rec="1=0;2=1")
+attach(data)
+
+## Estimar modelo
+
+coronary.logistic=glm(as.factor(group)~time, family = binomial, data = data)
+sjPlot::tab_model(coronary.logistic, show.ci = FALSE)
+```
+
+```{r}
+#odds ratios
+exp(coef(coronary.logistic))
+```
+
+Interpretación
+
+-	 General: mientras menos tiempo camina, más probable que tenga enfermedad coronaria
+-	 Logit: Por cada segundo que camina, el log de los odds de enfermedad coronaria disminuye en 0.0165
+-   Transformando el logit $e^{(-0.0165)}$=0.984: por cada segundo adicional antes de fatigarse, los odds estimados de tener un ataque al corazón se multiplican por 0.984
+-   Por cada minuto adicional antes de fatigarse, los odds de tener problemas cardiacos disminuyen en $exp^{(0.0165*60)}$=0.378
+
+
+### Multinivel Logístico
+
+	- Datos: Bangladesh Demographic and Health Survey 2004 Dataset (LEMMA 2011)
+	- Variable dependiente: recepción de atención profesional prenatal (antemed), mujeres de 13 a 49 años
+	- mage: edad madre
+	- magec: edad madre centrada
+	- urban: territorio urbano
+	- Cluster: comunidad (comm)
+
+### Datos
+```{r}
+mydata <- read.table("https://github.com/cursos-metodos-facso/multinivel-facso/raw/refs/heads/main/assignment/data/7.1.txt", header = TRUE, sep = ",")
+names(mydata)
+dim(mydata)
+```
+
+```{r}
+# Seleccionar variables a utilizar
+
+mydata = mydata %>% select(comm, antemed,
+                           magec, mage, urban)
+
+names(mydata)
+summary(mydata[2:3])
+
+mydata_agg = mydata %>% group_by(comm) %>%
+            summarise_all(funs(mean)) %>% as.data.frame()
+
+summary(mydata_agg)
+```
+
+
+```{r}
+stargazer(mydata_agg, type="text")
+str(mydata_agg)
+
+```
+
+
+### Casos nivel 2
+```{r}
+casesL2 = mydata %>% select(comm, antemed) %>% group_by(comm) %>% mutate(antemed.length=length(antemed)) # numero de casos por comunidad
+
+summary(casesL2)
+
+```
+
+Especificar modelo de intercepto aleatorio
+```{r}
+fit <- glmer(antemed ~ (1 | comm), family = binomial, data = mydata)
+summary(fit)
+
+sjPlot::tab_model(fit, show.ci = FALSE)
+```
+
+Interpretación:
+
+- Los log-odds de recibir cuidado prenatal en una comunidad "promedio" (con $\mu_{0j}=0$) se estima como $\beta_0=0.148$
+- El intercepto para una comunidad $_j$ es 0.148+$\mu_{0j}$
+- La varianza de $\mu_{0j}$ es $\sigma^2_{uj}$=1.464
+
+### Ajuste
+Para evaluar el ajuste, una posibilidad es comparar con un modelo logístico sin efectos aleatorios
+```{r}
+fita <- glm(antemed ~ 1, data = mydata, family = binomial("logit"))
+anova(fit,fita)
+```
+
+Dado que el test es signifícativo, existe evidencia de que la varianza entre comunidades no es cero.
+
+### Correlación intra-clase
+
+Para el cálculo de la correlación intra-clase hay que considerar el escalamiento de la varianza de los residuos
+a nivel individual. Para el caso de un modelo probit equivale a 1, mientras que para un logit=3.29
+```{r}
+(icc=1.46/(3.29+1.46))
+```
+
+### Agregando variable nivel 2 e interacción
+
+```{r}
+fit_l2 <- glmer(antemed ~ magec + urban + (1 | comm), 
+          data = mydata, family = binomial("logit"))
+
+
+fit_int <- glmer(antemed ~ magec + urban + magec*urban + (1 + magec | comm), data = mydata, family = binomial("logit"))
+
+sjPlot::tab_model(fit_l2, fit_int,
+                  show.ci = FALSE)
+```
+
+
+
+# Foro
+
+<script src="https://giscus.app/client.js"
+        data-repo="cursos-metodos-facso/multinivel"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyMDA3MTE2MDk="
+        data-category="Q&A"
+        data-category-id="DIC_kwDOC_aduc4CYhjI"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="es"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+

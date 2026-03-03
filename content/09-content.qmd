@@ -1,0 +1,15 @@
+---
+title: "Presentación"
+date: "2023-10-20"
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/multinivel
+---
+
+# Documento de presentación: influyentes, categóricas y 3 (o más) niveles
+
+<iframe src=/slides/09extensiones.html height="550" width=100% allowfullscreen="true">
+</iframe> 
+
