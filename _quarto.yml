@@ -37,7 +37,7 @@ website:
     # site: "@andrewheiss"
 
   open-graph:
-    image: "/files/img/logo.png" # cambiar luego
+    image: "files/logo.png" # cambiar luego
     locale: es
 
   navbar:
