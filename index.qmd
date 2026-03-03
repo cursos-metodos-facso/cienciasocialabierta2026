@@ -81,5 +81,3 @@ withr::with_dir(here::here(), {
 
 ::: {#informaciones}
 :::
-
--> ir a la [página de Informaciones](/news/index.qmd) del sitio.
