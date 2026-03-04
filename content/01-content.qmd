@@ -1,11 +1,11 @@
 ---
 title: "Presentación"
-date: "2025-03-13"
+date: "2026/03/12"
 lang: es
 website:
   comments:
     giscus:
-      repo: cursos-metodos-facso/multinivel
+      repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
 # Documento de presentación
@@ -17,7 +17,7 @@ website:
 # Foro
 
 <script src="https://giscus.app/client.js"
-        data-repo="cursos-metodos-facso/multinivel"
+        data-repo="cursos-metodos-facso/cienciasocialabierta2026"
         data-repo-id="MDEwOlJlcG9zaXRvcnkyMDA3MTE2MDk="
         data-category="Q&A"
         data-category-id="DIC_kwDOC_aduc4CYhjI"

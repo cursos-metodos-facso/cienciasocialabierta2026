@@ -1,23 +1,24 @@
 ---
-title: "2. Repaso regresión"
-date: "2025-03-20"
+title: "2. Bases de la Ciencia Abierta"
+date: "2026/03/19"
 lang: es
 website:
   comments:
     giscus:
-      repo: cursos-metodos-facso/multinivel
+      repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
-<iframe src=/slides/02-regresion.html height="550" width=100% allowfullscreen="true">
+# Documento de presentación
+
+<iframe src=/slides/02-bases.html height="550" width=100% 
+allowfullscreen="true">
 </iframe> 
-
-
 
 
 # Foro
 
 <script src="https://giscus.app/client.js"
-        data-repo="cursos-metodos-facso/multinivel"
+        data-repo="cursos-metodos-facso/cienciasocialabierta2026"
         data-repo-id="MDEwOlJlcG9zaXRvcnkyMDA3MTE2MDk="
         data-category="Q&A"
         data-category-id="DIC_kwDOC_aduc4CYhjI"

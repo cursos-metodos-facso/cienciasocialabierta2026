@@ -546,7 +546,7 @@
     "href": "content/01-content.html",
     "title": "Presentación",
     "section": "",
-    "text": "Sesión del jueves, 13 de marzo de 2025\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
+    "text": "Sesión del jueves, 12 de marzo de 2026\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
     "crumbs": [
       "Clases",
       "Sesiones",
@@ -737,9 +737,9 @@
   {
     "objectID": "content/02-content.html",
     "href": "content/02-content.html",
-    "title": "2. Repaso regresión",
+    "title": "2. Bases de la Ciencia Abierta",
     "section": "",
-    "text": "Sesión del jueves, 20 de marzo de 2025\n\n\n\n\n\n\n\nForo",
+    "text": "Sesión del jueves, 19 de marzo de 2026\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
     "crumbs": [
       "Clases",
       "Sesiones",
@@ -869,7 +869,7 @@
     "href": "resource/index.html#bases-de-datos",
     "title": "Recursos",
     "section": "Bases de datos",
-    "text": "Bases de datos\n\nComparativas internacionales\n\nWorld Values Survey\nISSP\nESS\nLAPOP\nLatinobarómetro\nICILS: International Computer and Information Literacy Study\n\n\n\nNacionales\n\nEncuestas CEP\nELSOC\nCASEN\nENE\nESI\nENCLA\nENUT\nEstudios PNUD\nEANNA\n\n\n\nInternacionales\n\nILO\nWID\nSWIID\nICTWSS\nOECD\nBanco Mundial"
+    "text": "Bases de datos\n\nComparativas internacionales\n\nWorld Values Survey\nISSP\nESS\nLAPOP\nLatinobarómetro\nICILS: International Computer and Information Literacy Study\n\n\n\nNacionales\n\nEncuestas CEP\nELSOC\nCASEN\nENE\nESI\nENCLA\nENUT\nEstudios PNUD\nEANNA\n\n\n\nInternacionales\n\nILO\nWID\nSWIID\nICTWSS\nOECD\nBanco Mundial\nISSP\nICCS"
   },
   {
     "objectID": "news/index.html",
@@ -1457,5 +1457,12 @@
     "title": "(titulo del trabajo)",
     "section": "",
     "text": "if (!require(\"pacman\")) install.packages(\"pacman\") # solo la primera vez\n\nLoading required package: pacman\n\npacman::p_load(lme4,\n               kableExtra,\n               haven,\n               car,\n               sjmisc,\n               sjPlot,\n               stargazer,\n               ggplot2, # gráficos\n               dplyr, # manipulacion de datos\n               equatiomatic) # paquetes a cargar\n\nInstalling package into '/home/tomasurzua/R/x86_64-pc-linux-gnu-library/4.3'\n(as 'lib' is unspecified)\n\n\n\nequatiomatic installed\n\nmlm = read_dta(\"http://www.stata-press.com/data/mlmus3/hsb.dta\")\n\nmlm = mlm %&gt;% \n  select(mathach, female,ses,sector,mnses,schoolid) %&gt;%\n  as.data.frame()\n\n\nresults_0 = lmer(mathach ~ 1 + (1 | schoolid), data = mlm)\nresults_1 = lmer(mathach ~ 1 + ses + female + (1 | schoolid), data = mlm)\nresults_2 = lmer(mathach ~ 1 + sector + mnses + (1 | schoolid), data = mlm)\nresults_3 = lmer(mathach ~ 1 + ses + female + sector + mnses + (1 | schoolid), data = mlm)\nresults_4 = lmer(mathach ~ 1 + ses + female + sector + mnses + ses*sector + (1 | schoolid), data = mlm)\n\n\n\n\n\n\n\n\nAutor1, autor2 & autor3\n\nAnálisis de datos multinivel - 2025\nDepartamento de Sociología, Universidad de Chile\n\nSantiago, 18 de Junio de 2025\n\nGithub repo\n\n\nAquí mis notas"
+  },
+  {
+    "objectID": "resource/index.html#artículos-de-investigación-relacionados-a-ciencia-abierta",
+    "href": "resource/index.html#artículos-de-investigación-relacionados-a-ciencia-abierta",
+    "title": "Recursos",
+    "section": "Artículos de investigación relacionados a ciencia abierta",
+    "text": "Artículos de investigación relacionados a ciencia abierta\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature (533), 452, 454. https://doi.org/10.1038/533452a.\nKnudtson, K. L., et al (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques : JBT, 30(3), 36–44. https://doi.org/10.7171/jbt.19-3003-001.\nCilibrasi, C. Empowering scientific progress: the vital role of open-access, peer-reviewed methods and protocols. BMC Methods 1, 1 (2024). https://doi.org/10.1186/s44330-024-00001-8."
   }
 ]

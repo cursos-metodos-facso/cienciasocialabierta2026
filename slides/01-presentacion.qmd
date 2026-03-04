@@ -56,15 +56,15 @@ Sociología FACSO UChile</span>
 
 ## Flujo de investigación científica 
 
-![](img/flujo_1.png)
+![](img/01/flujo_1.png)
 
 ## Flujo de investigación científica y ciencia abierta
 
-![](img/flujo_2.png)
+![](img/01/flujo_2.png)
 
 ## Flujo de investigación científica y ciencia abierta
 
-![](img/flujo_trans.png)
+![](img/01/flujo_trans.png)
 
 ## Transparencia 1: Diseño
 
@@ -92,7 +92,7 @@ Sociología FACSO UChile</span>
 
 ## Reproducibilidad
 
-![](img/flujo_rep.png)
+![](img/01/flujo_rep.png)
 
 ## ¿Qué porcentaje de los estudios publicados son reproducibles?
 
@@ -100,7 +100,7 @@ Sociología FACSO UChile</span>
 
 ::: {.column width="50%"}
 
-![](img/reproducibility_science.png)
+![](img/01/reproducibility_science.png)
 
 :::
 
@@ -131,11 +131,11 @@ Algunas razones:
 
 ## Acceso
 
-![](img/flujo_acceso.png)
+![](img/01/flujo_acceso.png)
 
 ## El ciclo actual de publicación científica
 
-![](img/ciclocerrado.png)
+![](img/01/ciclocerrado.png)
 
 (Adaptado de: [https://creativecommons.org/about/program-areas/open-access/](https://creativecommons.org/about/program-areas/open-access/))
 
@@ -145,11 +145,11 @@ Algunas razones:
 
 ## Márgenes de ganancia 
 
-![](img/profits.png)
+![](img/01/profits.png)
 
 ## Beneficios acceso abierto
 
-![](img/openbeneficios.png)
+![](img/01/openbeneficios.png)
 
 Adaptado de: [http://whyopenresearch.org/#](http://whyopenresearch.org/)
 
@@ -167,7 +167,7 @@ Adaptado de: [http://whyopenresearch.org/#](http://whyopenresearch.org/)
 
 ## Resumen
 
-![](img/esquema_general.png)
+![](img/01/esquema_general.png)
 
 # {.hide-logo data-background-color="rgb(12, 53, 71)"}
 
