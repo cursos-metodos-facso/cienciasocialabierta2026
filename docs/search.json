@@ -932,7 +932,7 @@
     "href": "syllabus.html#requisitos-de-aprobación",
     "title": "Programa",
     "section": "Requisitos de aprobación",
-    "text": "Requisitos de aprobación\nRequisitos de eximición a examen:\n\ncontar con un promedio ponderado igual o superior a 5.5\nno tener nota bajo 4.0 en ninguna de las evaluaciones\n\nRequisitos para presentación a examen:\n\nPodrán presentarse al examen de primera oportunidad los estudiantes que hayan obtenido una calificación final igual o superior a 3.5.\nEl examen de segunda oportunidad será para aquellos estudiantes que presenten una nota igual o inferior a 3.5 o aquellos que en el examen de primera oportunidad no hubiesen logrado una nota igual o superior a 4.0."
+    "text": "Requisitos de aprobación\nNota mínima de aprobación: 4,0 (en escala de 1 a 7)."
   },
   {
     "objectID": "syllabus.html#bibliografía-obligatoria",
@@ -1464,5 +1464,82 @@
     "title": "Recursos",
     "section": "Artículos de investigación relacionados a ciencia abierta",
     "text": "Artículos de investigación relacionados a ciencia abierta\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature (533), 452, 454. https://doi.org/10.1038/533452a.\nKnudtson, K. L., et al (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques : JBT, 30(3), 36–44. https://doi.org/10.7171/jbt.19-3003-001.\nCilibrasi, C. Empowering scientific progress: the vital role of open-access, peer-reviewed methods and protocols. BMC Methods 1, 1 (2024). https://doi.org/10.1186/s44330-024-00001-8."
+  },
+  {
+    "objectID": "syllabus.html#descripción-general",
+    "href": "syllabus.html#descripción-general",
+    "title": "Programa",
+    "section": "Descripción general",
+    "text": "Descripción general\nPartiendo desde la concepción de Ciencia Abierta (Open Science) y de investigación reproducible, este curso presenta formas alternativas a la manera tradicional de concebir la generación de conocimiento de manera cerrada y competitiva, y desde ahí se proponen y ejercitan una serie de herramientas técnicas en el análisis de datos que facilitan la reproducibilidad, colaboración y comunicación de procesos de investigación.\nEl curso permitirá a los participantes lograr un producto de investigación (artículo, documento de trabajo) con foco en el análisis de datos realizado de manera abierta y reproducible."
+  },
+  {
+    "objectID": "syllabus.html#propósito-general",
+    "href": "syllabus.html#propósito-general",
+    "title": "Programa",
+    "section": "Propósito general",
+    "text": "Propósito general\nEl quehacer académico muchas veces es criticado por su falta de aporte, transparencia y relevancia para la sociedad, crítica que se acentúa en las ciencias sociales. Desde la academia misma han surgido cuestionamientos sobre la capacidad de un trabajo que sea más abierto y auditable, que favorezca la colaboración entre académic_s y no académic_s, y que se comunique de manera eficiente dentro de la academia y fuera de ella.\nPartiendo desde la concepción de Ciencia Abierta (Open Science) y de investigación reproducible, este curso presenta formas alternativas a la manera tradicional de concebir la generación de conocimiento de manera cerrada y competitiva, y desde ahí se proponen y ejercitan una serie de herramientas técnicas que facilitan la reproducibilidad, colaboración y comunicación de procesos de investigación.\nEl curso se dirige no solamente a aquellos estudiantes con interés principal en la investigación académica, sino también a quienes se quieran dedicar profesionalmente al análisis y reporte de información y datos sociales, trabajo en equipo multidisciplinario, y al vínculo entre academia y políticas públicas."
+  },
+  {
+    "objectID": "syllabus.html#resultados-de-aprendizaje",
+    "href": "syllabus.html#resultados-de-aprendizaje",
+    "title": "Programa",
+    "section": "Resultados de aprendizaje",
+    "text": "Resultados de aprendizaje\nAl finalizar el curso, ud. será capaz de:\n\nComprender las limitaciones y problemas de la manera tradicional de realizar investigación social.\nConocer las herramientas computacionales que permiten y promueven una apertura de los procesos de investigación social\nConocer los flujos de trabajo reproducibles y transparentes\nDesarrollar un proceso de investigación abierto basado en los propios intereses de investigación, orientados hacia la publicación de un producto académico (artículo, documento de trabajo)."
+  },
+  {
+    "objectID": "syllabus.html#contenidos",
+    "href": "syllabus.html#contenidos",
+    "title": "Programa",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nIntroducción a la ciencia abierta y transparencia\n\nCierre y crisis de la ciencia\nMarquetización de la academia y consecuencias para su quehacer\nPropuestas de políticas de apertura científica a nivel internacional\n\n\n\nUnidad 1: Reproducibilidad\n1.1 Programación literaria\n\nTrabajando en texto plano: Introducción a Rmarkdown y Latex\nGeneración de reportes dinámicos vía Knitr.\nGestión de fuentes bibliográficas: Zotero, BibTex y BetterBibTex\n\n1.2 Documentos dinámicos - Rmarkdown - Quarto\n1.3 Flujos, control y documentación\n\nFlujos reproducibles (protocolo IPO)\nControl de versiones con Git\nTrabajo colaborativo y versionado con Github\n\n\n\nUnidad 2: Comunicación, registro y publicación\n\nPre-registros y planes de pre-analisis\nPublicación abierta vía pre-prints (SoxArxiv) y página web (Github pages)\nGeneración de presentaciones dinámicas en Quarto)\nProyectos de investigación en OSF (Open Science Framework)\nVisualización de datos"
+  },
+  {
+    "objectID": "syllabus.html#metodología",
+    "href": "syllabus.html#metodología",
+    "title": "Programa",
+    "section": "Metodología",
+    "text": "Metodología\nEl curso se organiza en sesiones semanales, con una parte lectiva seguida de una práctica. En la parte lectiva se transmiten y discuten los conceptos centrales de la ciencia abierta. En la parte práctica se aplicarán los conceptos transmitidos en la parte lectiva, además de resolver dudas en el avance de los trabajos de investigación.\nEl curso estará orientado a que l_s participantes puedan al final generar un producto de investigación con características de apertura científica. Para ello, pueden profundizar en algún trabajo previo que les permita avanzar hacia una publicación académica en un proceso de investigación supervisado y reproducible."
+  },
+  {
+    "objectID": "syllabus.html#evaluación",
+    "href": "syllabus.html#evaluación",
+    "title": "Programa",
+    "section": "Evaluación",
+    "text": "Evaluación\n\nEntrega 1 (40%): Ejercicio de reproducibilidad\nEl objetivo de esta entrega es evaluar la capacidad de los estudiantes para aplicar los conceptos de reproducibilidad en un proyecto de investigación, y para comunicar de manera efectiva el proceso y los resultados de su investigación a través de un reporte dinámico.\nPara este ejercicio de reproducibilidad, se les asignará un reporte de resultados de investigación social cuyos datos estén disponibles, y se les pedirá que repliquen el análisis y los resultados presentados en el reporte original, utilizando un flujo de trabajo reproducible basado en el protocolo IPO (Input-Process-Output).\nEl reporte debe incluir:\n\nUn repositorio abierto (por ejemplo, en GitHub) que contenga el código y los datos necesarios para reproducir el análisis.\nUn reporte dinámico generado a través de Rmarkdown/Quarto que documente el proceso de investigación, incluyendo la metodología, los resultados y las conclusiones. El reporte debe ser claro y detallado, permitiendo a otros investigadores seguir el mismo proceso y obtener los mismos resultados\nEl reporte debe ser presentado de manera clara y estructurada, siguiendo las secciones habituales de un trabajo académico (Resumen, Introducción, Antecedentes conceptuales/empíricos, Metodología, Análisis, Conclusiones)\nEl reporte debe ser reproducible, es decir, cualquier persona que tenga acceso al repositorio y al reporte dinámico debe ser capaz de ejecutar el código y obtener los mismos resultados que se presentan en el reporte\n\n\n\nEntrega 2 (10%): Evaluación cruzada de reproducibildiad\nLos estudiantes evaluarán de manera cruzada los reportes de reproducibilidad de sus compañeros, utilizando una rúbrica que se les proporcionará. Esta evaluación cruzada permitirá a los estudiantes reflexionar sobre los aspectos clave de la reproducibilidad y la comunicación efectiva en la investigación social, y les brindará la oportunidad de aprender de los enfoques y metodologías utilizados por sus compañeros.\n\n\nEntrega 3 (40%): Proyecto Abierto\nEl objetivo de esta entrega es evaluar la capacidad de los estudiantes para desarrollar un proyecto de investigación abierto, aplicando los conceptos y herramientas de la ciencia abierta, y para comunicar de manera efectiva el proceso y los resultados de su investigación a través de un reporte dinámico.\nPara este proyecto abierto, se les pedirá a los estudiantes que desarrollen un proyecto de investigación basado en sus propios intereses, utilizando un flujo de trabajo reproducible y abierto. El proyecto debe incluir:\n\nUn repositorio abierto (por ejemplo, en GitHub) que contenga el código y los datos necesarios para reproducir el análisis.\nUn reporte dinámico generado a través de Rmarkdown/Quarto que documente el proceso de investigación, incluyendo la metodología, los resultados y las conclusiones. El reporte debe ser claro y detallado, permitiendo a otros investigadores seguir el mismo proceso y obtener los mismos resultados.\nUna presentación de los resultados del proyecto, utilizando herramientas de visualización de datos y comunicación efectiva."
+  },
+  {
+    "objectID": "syllabus.html#palabras-clave",
+    "href": "syllabus.html#palabras-clave",
+    "title": "Programa",
+    "section": "Palabras clave",
+    "text": "Palabras clave\nCiencia abierta, reproducibilidad, acceso abierto, transparencia, pre-prints, repositorios, control de versiones, markdown."
+  },
+  {
+    "objectID": "syllabus.html#bibliografía-obligatoria-o-central",
+    "href": "syllabus.html#bibliografía-obligatoria-o-central",
+    "title": "Programa",
+    "section": "Bibliografía Obligatoria (… o central)",
+    "text": "Bibliografía Obligatoria (… o central)\nHay cuatro libros que son centrales para este curso:\n\nEl libro base del curso es “Transparent and Reproducible Social Science Research”, de Christensen, G. S., Freese, J., & Miguel, E. (2019). Es lo más cercano a los temas del curso, y como ven muy reciente, del tema no había bibliografía así de especializada hasta el año pasado. Lamentablemente, y también paradojicamente, es un libro no disponible de manera gratuita. Muy recomendable. Comentaremos algunos de sus contenidos en las primeras sesiones introductorias.\nUn segundo texto no tiene relación directa con apertura, pero sí muchos elementos que ayudan para llevar a cabo análisis reproducibles en R: R for Data Science (conocido como RDS) de Garrett Grolemund y Hadley Wickham (2017). Afortunadamente tenemos una versión traducida al español y disponible de manera abierta online: “R para Ciencia de Datos”\nEl tercero es más específico para la Unidad 2 sobre escritura en texto plano: “The Plain Person’s Guide to Plain Text Social Science”, de Kieran Healy en su última version 2019. Para mi gusto uno de los libros inspiradores sobre las implicancias para la escritura del trabajo académico abierto, y escrito por un gran sociólogo.\nY el cuarto es R Markdown: The definitive guide, de Yihui Xie, J. J. Allaire & Garrett Grolemund (2019). Abarca los detalles del proceso de investigación reproducible vinculando escritura y análisis, pero con mucho énfasis en publicación y presentación de resultados.\n\nEl detalle de otras lecturas sugeridas para cada clase aparece en la página de Planificación) de las sesiones."
+  },
+  {
+    "objectID": "syllabus.html#software",
+    "href": "syllabus.html#software",
+    "title": "Programa",
+    "section": "Software",
+    "text": "Software\nComo software vamos a utilizar VSC, Quarto, Git/Github, Zotero. VSC es un editor de texto generalizado, con muchas funciones que van más allá del análisis de datos, y que es gratuito y de código abierto. Si bien me parece apropiado para el curso, corresponde decir que la opción por editores también es algo abierto, sobre todo en un curso que tiene que ver con apertura. Otros editores muy usados son [Emacs]https://www.gnu.org/software/emacs/, Sublime y Atom. Si a alguien le interesa podemos hacer alguna sesión adicional sobre Atom, que es el editor que yo uso."
+  },
+  {
+    "objectID": "syllabus.html#planificación-de-las-sesiones-y-materiales-respectivos",
+    "href": "syllabus.html#planificación-de-las-sesiones-y-materiales-respectivos",
+    "title": "Programa",
+    "section": "Planificación de las sesiones y materiales respectivos",
+    "text": "Planificación de las sesiones y materiales respectivos\nConsultar la página Planificación."
+  },
+  {
+    "objectID": "syllabus.html#requisitos-de-aprobación-1",
+    "href": "syllabus.html#requisitos-de-aprobación-1",
+    "title": "Programa",
+    "section": "Requisitos de aprobación",
+    "text": "Requisitos de aprobación\nRequisitos de eximición a examen:\n\ncontar con un promedio ponderado igual o superior a 5.5\nno tener nota bajo 4.0 en ninguna de las evaluaciones\n\nRequisitos para presentación a examen:\n\nPodrán presentarse al examen de primera oportunidad los estudiantes que hayan obtenido una calificación final igual o superior a 3.5.\nEl examen de segunda oportunidad será para aquellos estudiantes que presenten una nota igual o inferior a 3.5 o aquellos que en el examen de primera oportunidad no hubiesen logrado una nota igual o superior a 4.0."
   }
 ]
