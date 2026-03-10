@@ -45,8 +45,9 @@ withr::with_dir(here::here(), {
 - {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
 - {{< fa building >}} &nbsp; {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; <a href="mailto:juancastillov@uchile.cl">juancastillov@uchile.cl</a>
+- {{< fa brands github >}} &nbsp; <a href="https://github.com/juancarloscastillo >}}">juancarloscastillo</a>
+- {{< fa house >}} &nbsp; <a href="}https://jc-castillo.com/">jc-castillo.com</a>
 - {{< fa calendar-check >}} &nbsp; [Agendar reunión]({{< var instructor.appointment_url >}})
-
 
 :::
 
@@ -59,6 +60,7 @@ withr::with_dir(here::here(), {
 - {{< fa user >}} &nbsp; Tomás Urzúa
 - {{< fa building >}} &nbsp; 328 Sociología FACSO, Universidad de Chile
 - {{< fa envelope >}} &nbsp; <a href="mailto:tomas.urzua@ug.uchile.cl ">tomas.urzua@ug.uchile.cl </a>
+- {{< fa brands github >}} &nbsp; <a href="https://github.com/tomasurzuam">tomasurzuam</a>
 - {{< fa calendar-check >}} &nbsp; Agendar reunión
 
 
