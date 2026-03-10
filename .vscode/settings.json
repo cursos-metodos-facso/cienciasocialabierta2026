@@ -1,0 +1,15 @@
+{
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true,
+    "**/_freeze/**": true,
+    "**/_targets/**": true,
+    "**/docs/**": true,
+    "**/assignment/*_files/**": true,
+    "**/slides/*_files/**": true,
+    "**/site_libs/**": true,
+    "**/.quarto/**": true
+  }
+}
