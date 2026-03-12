@@ -5,7 +5,7 @@ format:
     theme: [css/custom_2025.scss]
     title-slide-attributes:
       visibility: false
-    transition: slide
+    transition: fade
     transition-speed: slow
 # data-background-image: images/cover.jpg
 # data-background-size: cover
@@ -46,6 +46,10 @@ Sociología FACSO UChile</span>
 :::
 :::::
 
+#
+## ¿Cómo se produce el conocimiento científico? {.center .text-center data-background-color="#9B2626"}
+
+
 # ¿Crisis de reproducibilidad en ciencia? {data-background-color="#9B2626"}
 
 <span style="font-size: 1.5em; font-weight: bold; color: #dfc117;">1. Transparencia</span>
@@ -54,7 +58,8 @@ Sociología FACSO UChile</span>
 
 <span style="font-size: 1.5em; color: #5F6469;">3. Acceso</span>
 
-## Flujo de investigación científica 
+## 
+### Flujo de investigación científica 
 
 ![](img/01/flujo_1.png)
 
@@ -72,7 +77,8 @@ Sociología FACSO UChile</span>
 
 - Presión por publicar resultados "relevantes" (rechazar $H_0$ )
 
-:::{.incremental}
+
+:::{.incremental .highlight-last}
 - HARKing: Hypothesis After the Results are Known
 
   - Se adaptan las hipótesis y teorías a los resultados
@@ -82,9 +88,12 @@ Sociología FACSO UChile</span>
 
 ## Transparencia 2: Datos
 
-- Dificultades en el acceso y la documentación de la información levantada  en la investigación
+:::{.incremental .highlight-last}
+- Dificultades en el acceso y la documentación de la información levantada en la investigación
 
 - Barreras la reproducibilidad y al avance de investigaciones con datos muchas veces levantados con fondos públicos
+:::
+
 
 # ¿Crisis de reproducibilidad en ciencia?{data-background-color="#9B2626"}
 
@@ -120,9 +129,9 @@ alrededor de un **40%!** (varía por disciplina)
 
 Algunas razones:
 
+:::{.incremental .highlight-last}
 - pobre documentación metodológica
-
-:::{.incremental}
+  
 - sesgo hacia búsqueda y publicación de resultados significativos (p-hacking), atribuido a la presión por publicar
 
 - en algunos casos, falseamiento de datos/análisis

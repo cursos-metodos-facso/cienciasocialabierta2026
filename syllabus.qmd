@@ -196,5 +196,4 @@ Capítulos correspondientes a cada sesión se indican en la página de [Planific
 
 ## Programación de sesiones
 
-Visitar la página de [Planificación](https://cursos-metodos-facso.github.io/cienciasocialabierta2026/docs/schedule2.html).
-
+Visitar la página de [Planificación](schedule.html).
