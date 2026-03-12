@@ -46,23 +46,25 @@ Sociología FACSO UChile</span>
 :::
 :::::
 
-# ¿Crisis de reproducibilidad en ciencia? 
+# ¿Crisis de reproducibilidad en ciencia? {data-background-color="#9B2626"}
 
-<span style="font-size: 1.5em; color: #dfc117;">1. Transparencia</span>
+<span style="font-size: 1.5em; font-weight: bold; color: #dfc117;">1. Transparencia</span>
 
-<span style="font-size: 1.5em; color: #212529;">2. Reproducibilidad</span>
+<span style="font-size: 1.5em; color: #5f6469;">2. Reproducibilidad</span>
 
-<span style="font-size: 1.5em; color: #212529;">3. Acceso</span>
+<span style="font-size: 1.5em; color: #5F6469;">3. Acceso</span>
 
 ## Flujo de investigación científica 
 
 ![](img/01/flujo_1.png)
 
-## Flujo de investigación científica y ciencia abierta
+## 
+### Flujo de investigación científica y ciencia abierta
 
 ![](img/01/flujo_2.png)
 
-## Flujo de investigación científica y ciencia abierta
+##
+### Flujo de investigación científica y ciencia abierta
 
 ![](img/01/flujo_trans.png)
 
@@ -84,36 +86,37 @@ Sociología FACSO UChile</span>
 
 - Barreras la reproducibilidad y al avance de investigaciones con datos muchas veces levantados con fondos públicos
 
-# ¿Crisis de reproducibilidad en ciencia?
+# ¿Crisis de reproducibilidad en ciencia?{data-background-color="#9B2626"}
 
-<span style="font-size: 1.5em; color: #212529;">1. Transparencia</span>
+<span style="font-size: 1.5em; color: #5F6469;">1. Transparencia</span>
 
 <span style="font-size: 1.5em; color: #dfc117;">2. Reproducibilidad</span>
 
-<span style="font-size: 1.5em; color: #212529;">3. Acceso</span>
+<span style="font-size: 1.5em; color: #5F6469;">3. Acceso</span>
 
 ## Reproducibilidad
 
 ![](img/01/flujo_rep.png)
 
-## ¿Qué porcentaje de los estudios publicados son reproducibles?
+##
+### ¿Qué porcentaje de los estudios publicados son reproducibles?
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="80%"}
 
 ![](img/01/reproducibility_science.png)
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="20%"}
 
 alrededor de un **40%!** (varía por disciplina)
 
 :::
 ::::
 
-## ¿Por qué se ocurre la crisis de reproducibilidad?
+## ¿Por qué ocurre la crisis de reproducibilidad?
 
 Algunas razones:
 
@@ -125,11 +128,11 @@ Algunas razones:
 - en algunos casos, falseamiento de datos/análisis
 :::
 
-# ¿Crisis de reproducibilidad en ciencia?
+# ¿Crisis de reproducibilidad en ciencia?{data-background-color="#9B2626"}
 
-<span style="font-size: 1.5em; color: #212529;">1. Transparencia</span>
+<span style="font-size: 1.5em; color: #5F6469;">1. Transparencia</span>
 
-<span style="font-size: 1.5em; color: #212529;">2. Reproducibilidad</span>
+<span style="font-size: 1.5em; color: #5F6469;">2. Reproducibilidad</span>
 
 <span style="font-size: 1.5em; color: #dfc117;">3. Acceso</span>
 
@@ -137,11 +140,15 @@ Algunas razones:
 
 ![](img/01/flujo_acceso.png)
 
-## El ciclo actual de publicación científica
+##
 
-![](img/01/ciclocerrado.png)
+#### El ciclo actual de publicación científica
 
+![](img/01/ciclocerrado.png){width="100%"}
+
+:::{style="font-size: 0.6em;"}
 (Adaptado de: [https://creativecommons.org/about/program-areas/open-access/](https://creativecommons.org/about/program-areas/open-access/))
+:::
 
 ## Barreras de pago
 
@@ -151,24 +158,27 @@ Algunas razones:
 
 ![](img/01/profits.png)
 
-## Beneficios acceso abierto
+## 
+### Beneficios acceso abierto
 
-![](img/01/openbeneficios.png)
+![](img/01/openbeneficios.png){width="100%"}
 
+:::{style="font-size: 0.6em;"}
 Adaptado de: [http://whyopenresearch.org/#](http://whyopenresearch.org/)
+:::
 
 # Este curso
 
 ## Enfrentando la crisis
 
+:::{.incremental .highlight-last}
 - tema de **ética** científica y también de **eficiencia**
 
-:::{.incremental}
-- por ahora en Chile, la apertura depende de la **voluntad de los investigadores**, pero ... 
+- por ahora en Chile, la apertura depende de la **voluntad de los investigadores**, pero ...
 
-- crecientemente financistas y medios de publicación  se hacen **más exigentes**, gobiernos extranjeros ya han implementado políticas de transparencia, acceso y reproducibilidad.
+- crecientemente financistas y medios de publicación se hacen **más exigentes**, gobiernos extranjeros ya han implementado políticas de transparencia, acceso y reproducibilidad.
 
-- necesidad de **herramientas metodológicas** 
+- necesidad de **herramientas metodológicas**
 :::
 
 
