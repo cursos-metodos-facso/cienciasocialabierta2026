@@ -9,12 +9,12 @@
 <link>https://multinivel-facso.netlify.app/news/</link>
 <atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
-<lastBuildDate>Fri, 13 Jun 2025 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 12 Mar 2026 03:00:00 GMT</lastBuildDate>
 <item>
-  <title>Nuevas cositas: Presentaciones, Mathjax, Glosario &amp; Longitudinal</title>
-  <dc:creator>JC Castillo</dc:creator>
-  <link>https://multinivel-facso.netlify.app/news/2025-06-13_nuevos-practicos.html</link>
+  <title>Bienvenid@s al curso!</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</link>
   <description><![CDATA[ 
 
 <div class="back-nav"><a href="../news/">← News</a></div>
@@ -22,22 +22,17 @@
 
 
 
-<p><img src="https://multinivel-facso.netlify.app/news/images/cositas2.jpeg" class="img-fluid"></p>
-<p>En la página de prácticos agregamos:</p>
-<ul>
-<li><p><a href="../assignment/quarto-presentations.html">tutorial para presentaciones en Quarto</a>, para quienes quieran hacer su presentación en este formato. No es obligación, pero tiene la ventaja que combina bien con código R y sus respectivos outputs (tablas, gráficos …)</p></li>
-<li><p><a href="../assignment/mathjax.html">tutorial de Mathjax</a>, para quienes quieran mostrar sus modelos formalizados</p></li>
-<li><p><a href="../assignment/glosario.html">Glosario</a> de conceptos del curso</p></li>
-<li><p><a href="../assignment/11-practico.html">práctico estimación longitudinal con métodos multinivel</a>, para quienes se interesen por este tema y lo puedan tener como referencia.</p></li>
-</ul>
+<p>Como equipo docente, queremos darles una cálida bienvenida al curso “Ciencia Social Abierta: Herramientas para la reproducibilidad, colaboración y comunicación de la investigación social”. Esperamos que este espacio pueda cumplir con sus expectativas y que puedan aprovechar al máximo los contenidos de esta cátedra, los cuales consideramos cada vez más relevantes en las prácticas de investigación en ciencias sociales.</p>
+<p>Tenemos toda la disposición de acompañarles en este proceso de aprendizaje para que sea lo más provechoso posible en términos formativos. Con ello en mente, los invitamos a revisar los distintos recursos disponibles en la página y, ante cualquier consulta, no duden en contactarnos a través de los canales dispuestos.</p>
+<p>¡Que tengan un gran comienzo de semestre!</p>
 
 
 
  ]]></description>
   <category>info</category>
-  <guid>https://multinivel-facso.netlify.app/news/2025-06-13_nuevos-practicos.html</guid>
-  <pubDate>Fri, 13 Jun 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://multinivel-facso.netlify.app/news/images/cositas.png" medium="image" type="image/png" height="152" width="144"/>
+  <guid>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</guid>
+  <pubDate>Thu, 12 Mar 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/bienvenida.png" medium="image" type="image/png" height="148" width="144"/>
 </item>
 </channel>
 </rss>

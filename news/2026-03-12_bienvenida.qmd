@@ -1,0 +1,18 @@
+---
+title: "Bienvenid@s al curso!"
+author: "Equipo docente"
+date: "2026-03-12"
+categories: [info]
+image: images/bienvenida.png
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+Como equipo docente, queremos darles una cálida bienvenida al curso "Ciencia Social Abierta: Herramientas para la reproducibilidad, colaboración y comunicación de la investigación social". Esperamos que este espacio pueda cumplir con sus expectativas y que puedan aprovechar al máximo los contenidos de esta cátedra, los cuales consideramos cada vez más relevantes en las prácticas de investigación en ciencias sociales. 
+
+Tenemos toda la disposición de acompañarles en este proceso de aprendizaje para que sea lo más provechoso posible en términos formativos. Con ello en mente, los invitamos a revisar los distintos recursos disponibles en la página y, ante cualquier consulta, no duden en contactarnos a través de los canales dispuestos. 
+
+¡Que tengan un gran comienzo de semestre!

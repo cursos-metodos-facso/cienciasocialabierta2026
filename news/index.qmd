@@ -51,7 +51,7 @@ Puedes usar un lector de feeds como [Feedly](https://feedly.com/) o un servicio 
 :::
 
 ::: {.g-col-12 .g-col-md-10}
-<p><input class="form-control" type="text" value="https://multinivel-facso.netlify.app/news/index.xml" onclick="this.select()" readonly></p>
+<p><input class="form-control" type="text" value="" onclick="this.select()" readonly></p>
 :::
 
 :::
