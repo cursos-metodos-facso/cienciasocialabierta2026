@@ -3,7 +3,7 @@ title: "Recursos"
 website:
   comments:
     giscus:
-      repo: cursos-metodos-facso/multinivel
+      repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
 En esta sección se irán subiendo una serie de recursos relacionados con el curso.
@@ -48,6 +48,8 @@ En esta sección se irán subiendo una serie de recursos relacionados con el cur
 - [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp)
 
 - [ISSP](https://issp.org/)
+  
+- [ICCS](https://www.iea.nl/studies/iea/iccs)
 
 - [ESS](https://www.europeansocialsurvey.org/)
 
@@ -55,7 +57,7 @@ En esta sección se irán subiendo una serie de recursos relacionados con el cur
 
 - [Latinobarómetro](https://www.latinobarometro.org/lat.jsp)
 
-- [ICILS: International Computer and Information Literacy Study](https://www.iea.nl/studies/iea/icils)
+- [ICILS](https://www.iea.nl/studies/iea/icils)
 
 
 ### Nacionales
@@ -91,10 +93,6 @@ En esta sección se irán subiendo una serie de recursos relacionados con el cur
 - [OECD](https://data.oecd.org/)
 
 - [Banco Mundial](https://databank.worldbank.org/)
-
-- [ISSP](https://issp.org/)
-
-- [ICCS](https://www.iea.nl/studies/iea/iccs)
 
 # Foro
 

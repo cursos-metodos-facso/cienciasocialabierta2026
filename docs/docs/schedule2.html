@@ -8,7 +8,7 @@
 
 <meta name="description" content="Ciencia Social Abierta">
 
-<title>Ciencia Social Abierta</title>
+<title>Planificación – Ciencia Social Abierta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./files/logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,68 +71,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-informaciones .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-informaciones'] = new List('listing-informaciones', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Ciencia Social Abierta">
-<meta property="og:description" content="Herramientas para la reproducilibidad, colaboración y comunicación de la investigación social">
+<meta property="og:title" content="Planificación – Ciencia Social Abierta">
+<meta property="og:description" content="">
 <meta property="og:image" content="https://multinivel-facso.netlify.app/files/logo.png">
 <meta property="og:site_name" content="Ciencia Social Abierta">
 <meta property="og:locale" content="es">
@@ -170,7 +110,7 @@ window.Quarto = {
 <span class="menu-text">Programa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule2.html"> 
+    <a class="nav-link active" href="./schedule2.html" aria-current="page"> 
 <span class="menu-text">Planificación</span></a>
   </li>  
   <li class="nav-item">
@@ -207,107 +147,216 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
-            Ciencia Social Abierta
-        </h1></header>
+<main class="content column-page" id="quarto-document-content">
 
-<div class="grid title-block">
-    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
-        
-        <div class="course-subtitle">
-            <p>Herramientas para la reproducilibidad, colaboración y comunicación de la investigación social</p>
-        </div>
-        <div class="course-meta">
-            <p></p><p>SOC01308/MCS • Primer Semestre 2026<br>Departamento de Sociología, Facultad de Ciencias Sociales<br>Universidad de Chile</p><p></p>
-        </div>
-    </div>
-    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
-      <div class="grid" style="--bs-columns: 5;">
-        <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="files/logo.png" class="img-fluid"></div>
-        <div class="g-col-1 g-col-sm-0"></div>
-      </div>
-    </div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Planificación</h1>
 </div>
 
 
-<div class="home">
-<div class="grid course-details">
-<section id="profesor" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="profesor">Profesor</h3>
-<div class="image-cropper">
-<p><img src="files/img/jc.png" alt="avatar" class="profile-pic" width="100" height="auto"></p>
-</div>
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="forma-general-de-funcionamiento" class="level2">
+<h2 class="anchored" data-anchor-id="forma-general-de-funcionamiento">Forma general de funcionamiento</h2>
+<p>Este curso se compone de tres actividades principales a la semana:</p>
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> &nbsp; <a href="https://www.jc-castillo.com">Prof.&nbsp;Juan Carlos Castillo</a></li>
-<li><i class="fa-solid fa-building" aria-label="building"></i> &nbsp; 325 Sociología FACSO, Universidad de Chile</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> &nbsp; <a href="mailto:juancastillov@uchile.cl">juancastillov@uchile.cl</a></li>
-<li><i class="fa-brands fa-github" aria-label="github"></i> &nbsp; <a href="https://github.com/juancarloscastillo >}}">juancarloscastillo</a></li>
-<li><i class="fa-solid fa-house" aria-label="house"></i> &nbsp; <a href="https://jc-castillo.com/">jc-castillo.com</a></li>
-<li><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> &nbsp; <a href="https://calendly.com/juancastillov/horas-oficina">Agendar reunión</a></li>
+<li><p><i class="fas fa-chalkboard-teacher"></i> <a href=""><strong>Clases lectivas presenciales</strong></a>: los jueves de 14:30 a 16:00 en Sala 34, donde en base a las lecturas correspondientes a esa semana se presentará un resumen de los contenidos principales y se resolverán dudas.</p></li>
+<li><p><i class="fas fa-user-edit"></i> <a href=""><strong>Talleres prácticos</strong></a>: Jueves seguido a las clases lectivas, de 16:15 a 17:45 en sala 45 (computación).</p></li>
+<li><p><i class="fas fa-book-reader"></i> <a href=""><strong>Lecturas</strong></a>: cada sesión lectiva tiene una lectura obligatoria asignada a la semana, la que se encuentra a disposición en esta página.</p></li>
 </ul>
-</section>
-<section id="profesor-colaborador" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="profesor-colaborador">Profesor colaborador</h3>
-<div class="image-cropper">
-<p><img src="files/img/tomas.png" alt="avatar" class="profile-pic" width="100" height="auto"></p>
-</div>
+<p><br></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th><i class="fas fa-chalkboard-teacher"></i> Contenidos</th>
+<th><i class="fas fa-user-edit"></i> Prácticas y evaluaciones</th>
+<th><i class="fas fa-book-reader"></i> Lecturas y links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><font color="orange"> <strong>MARZO</strong> </font></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td><a href="./class/01-class"><strong>1. Presentación</strong></a> <br> - Programa y forma de trabajo <br> - La crisis de la ciencia cerrada</td>
+<td><ul>
+<li><a href="https://amara.org/en/videos/nTk5qVME6PP7/es/2350702/">Película Paywall</a></li>
+</ul></td>
+<td><p><a href="https://doi.org/10.1126/science.aab2374">Nosek, B. A. et al (2015). Promoting an open research culture. Science, 348(6242), 1422–1425.</a></p>
+<p><a href="https://www.springerprofessional.de/en/trust-in-science/52136648">Iordanou, Ravn &amp; Zwart (2026) Trust in Science</a></p>
+<p><a href="https://link.springer.com/article/10.1007/s41471-025-00218-5">Soliman et al (2025) A Tale of Open Science: Emergence of a New Normal</a></p></td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td><strong>2. Ciencia Abierta y Reproducibilidad</strong></td>
+<td><ul>
+<li>Taller VSC</li>
+</ul></td>
+<td><ul>
+<li><p><a href="http://blog.scielo.org/es/2014/02/27/la-reproducibilidad-en-los-resultados-de-investigacion-la-punta-del-iceberg/">Nassi-Calo (2014) La reproducibilidad en los resultados de investi|gación</a></p></li>
+<li><p><a href="https://atheneadigital.net/article/view/v20-1-fardela-carriel-lazcano-et-al">Fardella et al (2020) Escribir papers bajo el régimen del management académico: Cuerpo, afectos y estrategias</a></p></li>
+<li><p><a href="https://2021-cienciasocialabierta.netlify.app/docs/CAP2%20Christensen%20et%20al%20(2019)%20Transparent%20and%20Reproducible%20Social%20Science%20Research.pdf">Christensen et al cap2: What is ethical research</a></p></li>
+<li><p><a href="https://link.springer.com/article/10.3758/s13428-025-02920-y">Kyriazos &amp; Poga (2026) Ten particularly frequent and consequential questionable research practices in quantitative research</a></p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td><strong>3<a href="./class/05-class">. Escritura en texto plano</a></strong></td>
+<td><ul>
+<li><a href="./assignment/02-code">Markdown</a></li>
+</ul></td>
+<td><ul>
+<li><p><a href="https://plain-text.co/">Healey (2019) The Plain Person’s Guide to Plain Text Social S|cience</a></p></li>
+<li><p><a href="http://rusersgroup.com/blog/rmarkdown">Introducción a Markdown</a></p></li>
+<li><p><a href="https://juancarloscastillo.github.io/in-socabi/lenguaje-reproducible.html">Capítulo Lenguaje reproducible, secciones 1.1 y 1.2, libro Investigación Social Abierta</a></p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><font color="orange"> <strong>ABRIL</strong> </font></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><a href="./slides/06-rmarkdown/06_rmarkdown.html"><strong>4.</strong></a> <strong>Documentos dinámicos: Markdown, Rmarkdown &amp; Quarto</strong></td>
+<td><ul>
+<li><a href="">RMarkdown/Knitr</a></li>
+</ul></td>
+<td><ul>
+<li><a href="https://scielo.conicyt.cl/pdf/revcipol/v36n3/art11.pdf">Bowers &amp; Voors (2016) How to improve your relationship with your future self</a></li>
+</ul>
+<!-- -->
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> &nbsp; Tomás Urzúa</li>
-<li><i class="fa-solid fa-building" aria-label="building"></i> &nbsp; 328 Sociología FACSO, Universidad de Chile</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> &nbsp; <a href="mailto:tomas.urzua@ug.uchile.cl ">tomas.urzua@ug.uchile.cl </a></li>
-<li><i class="fa-brands fa-github" aria-label="github"></i> &nbsp; <a href="https://github.com/tomasurzuam">tomasurzuam</a></li>
-<li><i class="fa-solid fa-house" aria-label="house"></i> &nbsp; <a href="https://www.linkedin.com/in/tom%C3%A1s-urz%C3%BAa-moreno-b65755375/">linkedin</a></li>
-<li><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> &nbsp; Agendar reunión vía correo</li>
-</ul>
-</section>
-<div class="g-col-12 g-col-md-4 contact-policy">
-<section id="actividades" class="level3">
-<h3 class="anchored" data-anchor-id="actividades">Actividades</h3>
-<ul>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> &nbsp; <strong>Jueves 14:30-17:45</strong></li>
-<li><i class="fa-solid fa-building" aria-label="building"></i> &nbsp; <strong>Sala 345 FACSO</strong></li>
-</ul>
-</section>
-<section id="contacto" class="level3">
-<h3 class="anchored" data-anchor-id="contacto">Contacto</h3>
-<p>E-mail y foros (Giscus) en las páginas de las clases y prácticos</p>
-</section>
-</div>
-</div>
-</div>
-<section id="últimas-informaciones" class="level2">
-<h2 class="anchored" data-anchor-id="últimas-informaciones">Últimas informaciones</h2>
-<div id="listing-informaciones" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="aW5mbw==" data-listing-date-sort="1773284400000" data-listing-file-modified-sort="1773285297446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./news/2025-06-13_nuevos-practicos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./news/images/cositas.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bienvenid@s al curso!
-</h5>
-<div class="card-text listing-description delink">
-← News
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Equipo docente
-</div>
-<div class="listing-date">
-Mar 12, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<li><a href="https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf">Hoja referencia Rmarkdown</a></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td><a href="./class/07-class"><strong>5. Flujo de trabajo reproducible / Protocolo IPO</strong></a></td>
+<td><ul>
+<li><p>Plantilla IPO</p></li>
+<li><p>Rutas relativas</p></li>
+</ul></td>
+<td><ul>
+<li><p><a href="https://juancarloscastillo.github.io/ipo/">IPO</a></p></li>
+<li><p><a href="https://www.projecttier.org/">TIER</a></p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td><a href="./class/08-class"><strong>6. Control de versiones</strong></a><strong>: Git &amp; GIthub</strong></td>
+<td></td>
+<td><ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://github.com/">Github</a></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td><a href="./slides/06-rmarkdown/06_rmarkdown.html"><strong>7. Citas en texto plano</strong></a></td>
+<td><ul>
+<li>Zotero, Bibtex y Betterbibtex</li>
+</ul></td>
+<td><ul>
+<li><a href="https://www.zotero.org/">Zotero</a></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>30</td>
+<td><a href="./slides/06-rmarkdown/06_rmarkdown.html"><strong>8. Asesorías trabajos</strong></a></td>
+<td><font color="red"> <strong>Entrega informe 1</strong> </font></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><font color="orange"> <strong>MAYO</strong> </font></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>07</td>
+<td><ol start="9" type="1">
+<li><strong>Github pages</strong></li>
+</ol></td>
+<td></td>
+<td><a href="https://pages.github.com/">Github pages</a></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td><strong>10. Quarto websites y Quarto Book</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>21</td>
+<td><strong>FERIADO / Semana de receso</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>28</td>
+<td><strong>11. Presentaciones en Quarto</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><font color="orange"> <strong>JUNIO</strong> </font></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>04</td>
+<td><a href=""><strong>12. Pre-registros y pre-prints</strong></a></td>
+<td><a href="https://osf.io/">OSF</a> y <a href="https://socopen.org/">Pre-prints/Socarxiv</a></td>
+<td><ul>
+<li><a href="./docs/ciencia_abierta_psicologia.pdf">García-Garzón et al (2018) Estudios de replicación, pre-registros y ciencia abierta en Psicología</a> <br><br> <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01831/full">Yamada 2018 How to Crack Pre-registration</a></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td><strong>13<a href="">. Datos Abiertos</a></strong></td>
+<td>Asesoría informe 2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>18</td>
+<td><a href="./class/10-class"><strong>14. Acceso y publicación</strong></a></td>
+<td>Asesoría informe 2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>25</td>
+<td></td>
+<td><font color="red"> <strong>Entrega informe 2</strong> </font></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>

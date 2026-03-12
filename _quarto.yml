@@ -22,11 +22,11 @@ execute:
 
 bibliography: files/bib/references.bib
 csl: files/bib/chicago-author-date.csl
-description-meta: "Modelos Multinivel"
+description-meta: "Ciencia Social Abierta"
 
 website:
   title: "Ciencia Social Abierta"
-  site-url: "https://multinivel-facso.netlify.app"
+  site-url: "https://multinivel-facso.netlify.app" # cambiarlo cuando tengamos la dirección final
 
   favicon: "files/logo.png"
 
@@ -42,7 +42,7 @@ website:
 
   navbar:
     pinned: true
-    background: "#0069AA"
+    background: "#9b2626"
     right:
       - text: "Informaciones"
         file: news/index.qmd
@@ -74,8 +74,6 @@ website:
           contents:
             - text: "Sesión 1"
               file: content/01-content.qmd
-            - text: "Sesión 2"
-              file: content/02-content.qmd
 
 
     - title: "Prácticos"
@@ -85,12 +83,7 @@ website:
             - assignment/index.qmd
         - section: "Guías"
           contents:
-            - text: "Glosario"
-              file: assignment/glosario.qmd
-            - text: "Bonus track: MathJax"
-              file: assignment/mathjax.qmd
-            - text: "Presentaciones en Quarto"
-              file: assignment/quarto-presentations.qmd                        
+                       
   page-footer:
     left: |
       Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}}) <br>

@@ -90,7 +90,7 @@ Al finalizar el curso, ud. será capaz de:
 
 - Pre-registros y planes de pre-analisis
 - Publicación abierta vía pre-prints (SoxArxiv) y página web (Github pages)
-- Generación de presentaciones dinámicas en Quarto)
+- Generación de presentaciones dinámicas en Quarto
 - Proyectos de investigación en OSF (Open Science Framework)
 - Visualización de datos
 
@@ -121,13 +121,7 @@ Los estudiantes evaluarán de manera cruzada los reportes de reproducibilidad de
 
 ### Entrega 3 (40%): Proyecto Abierto
 
-El objetivo de esta entrega es evaluar la capacidad de los estudiantes para desarrollar un proyecto de investigación abierto, aplicando los conceptos y herramientas de la ciencia abierta, y para comunicar de manera efectiva el proceso y los resultados de su investigación a través de un reporte dinámico.
-
-Para este proyecto abierto, se les pedirá a los estudiantes que desarrollen un proyecto de investigación basado en sus propios intereses, utilizando un flujo de trabajo reproducible y abierto. El proyecto debe incluir:
-
-- Un repositorio abierto (por ejemplo, en GitHub) que contenga el código y los datos necesarios para reproducir el análisis.
-- Un reporte dinámico generado a través de Rmarkdown/Quarto que documente el proceso de investigación, incluyendo la metodología, los resultados y las conclusiones. El reporte debe ser claro y detallado, permitiendo a otros investigadores seguir el mismo proceso y obtener los mismos resultados.
-- Una presentación de los resultados del proyecto, utilizando herramientas de visualización de datos y comunicación efectiva.
+Los lineamientos de la entrega estarán disponibles próximamente. 
 
 
 ## Requisitos de aprobación
@@ -150,15 +144,15 @@ Hay cuatro libros que son centrales para este curso:
 
 - Y el cuarto es [R Markdown: The definitive guide](https://bookdown.org/yihui/rmarkdown/), de Yihui Xie, J. J. Allaire & Garrett Grolemund (2019). Abarca los detalles del proceso de investigación reproducible vinculando escritura y análisis, pero con mucho énfasis en publicación y presentación de resultados.
 
-El detalle de otras lecturas sugeridas para cada clase aparece en la página de [Planificación](/schedule/)) de las sesiones.
+El detalle de otras lecturas sugeridas para cada clase aparece en la página de [Planificación](https://cursos-metodos-facso.github.io/cienciasocialabierta2026/docs/schedule2.html) de las sesiones.
 
 ## Software
 
-Como software vamos a utilizar VSC, Quarto, Git/Github, Zotero. VSC es un editor de texto generalizado, con muchas funciones que van más allá del análisis de datos, y que es gratuito y de código abierto. Si bien me parece apropiado para el curso, corresponde decir que la opción por editores también es algo abierto, sobre todo en un curso que tiene que ver con apertura. Otros editores muy usados son [Emacs]https://www.gnu.org/software/emacs/, [Sublime](https://www.sublimetext.com/) y [Atom](https://atom.io/). Si a alguien le interesa podemos hacer alguna sesión adicional sobre Atom, que es el editor que yo uso.
+Como software vamos a utilizar VSC, Quarto, Git/Github, Zotero. VSC es un editor de texto generalizado, con muchas funciones que van más allá del análisis de datos, y que es gratuito y de código abierto. Si bien me parece apropiado para el curso, corresponde decir que la opción por editores también es algo abierto, sobre todo en un curso que tiene que ver con apertura. Otros editores muy usados son [Emacs](https://www.gnu.org/software/emacs/), [Sublime](https://www.sublimetext.com/) y [Atom](https://atom.io/). Si a alguien le interesa podemos hacer alguna sesión adicional sobre Atom, que es el editor que yo uso.
 
 ## Planificación de las sesiones y materiales respectivos
 
-Consultar la página [Planificación](/schedule/).
+Consultar la página [Planificación](https://cursos-metodos-facso.github.io/cienciasocialabierta2026/docs/schedule2.html).
 
 ## Inasistencias y atraso en entregas
 
@@ -181,7 +175,7 @@ Requisitos para presentación a examen:
 
 ## Bibliografía Obligatoria 
 
-Capítulos correspondientes a cada sesión se indican en la página de [Planificación](/schedule.html).
+Capítulos correspondientes a cada sesión se indican en la página de [Planificación](https://cursos-metodos-facso.github.io/cienciasocialabierta2026/docs/schedule2.html).
 
 ## VARIOS
 
@@ -202,5 +196,5 @@ Capítulos correspondientes a cada sesión se indican en la página de [Planific
 
 ## Programación de sesiones
 
-Visitar la página de [Planificación](/schedule.html).
+Visitar la página de [Planificación](https://cursos-metodos-facso.github.io/cienciasocialabierta2026/docs/schedule2.html).
 

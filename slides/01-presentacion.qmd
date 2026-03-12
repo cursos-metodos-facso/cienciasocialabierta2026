@@ -14,7 +14,7 @@ format:
 editor: source
 ---
 
-# {.hide-logo data-background-color="rgb(12, 53, 71)"}
+# {.hide-logo data-background-color="#9B2626"}
 
 ::::: columns
 ::: {.column width="35%"}
@@ -36,23 +36,23 @@ editor: source
 
 <span style="font-size: 3em; color: white;">Ciencia Social Abierta</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Juan Carlos Castillo
+<span style="font-size: 1.5em; color: white;">Juan Carlos Castillo
 Sociología FACSO UChile</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Primer Semestre 2026</span>
+<span style="font-size: 1.5em; color: white;">Primer Semestre 2026</span>
 
 [cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
 
 :::
 :::::
 
-# ¿Crisis de reproducibilidad en ciencia?
+# ¿Crisis de reproducibilidad en ciencia? 
 
-1. Transparencia
+<span style="font-size: 1.5em; color: #dfc117;">1. Transparencia</span>
 
-2. Reproducibilidad
+<span style="font-size: 1.5em; color: #212529;">2. Reproducibilidad</span>
 
-3. Acceso
+<span style="font-size: 1.5em; color: #212529;">3. Acceso</span>
 
 ## Flujo de investigación científica 
 
@@ -70,11 +70,13 @@ Sociología FACSO UChile</span>
 
 - Presión por publicar resultados "relevantes" (rechazar $H_0$ )
 
+:::{.incremental}
 - HARKing: Hypothesis After the Results are Known
 
   - Se adaptan las hipótesis y teorías a los resultados
   
   - Barreras al avance del conocimiento ya que solo conocemos lo que "resulta"
+:::
 
 ## Transparencia 2: Datos
 
@@ -84,11 +86,11 @@ Sociología FACSO UChile</span>
 
 # ¿Crisis de reproducibilidad en ciencia?
 
-1. Transparencia
+<span style="font-size: 1.5em; color: #212529;">1. Transparencia</span>
 
-2. Reproducibilidad
+<span style="font-size: 1.5em; color: #dfc117;">2. Reproducibilidad</span>
 
-3. Acceso
+<span style="font-size: 1.5em; color: #212529;">3. Acceso</span>
 
 ## Reproducibilidad
 
@@ -117,17 +119,19 @@ Algunas razones:
 
 - pobre documentación metodológica
 
+:::{.incremental}
 - sesgo hacia búsqueda y publicación de resultados significativos (p-hacking), atribuido a la presión por publicar
 
 - en algunos casos, falseamiento de datos/análisis
+:::
 
 # ¿Crisis de reproducibilidad en ciencia?
 
-1. Transparencia
+<span style="font-size: 1.5em; color: #212529;">1. Transparencia</span>
 
-2. Reproducibilidad
+<span style="font-size: 1.5em; color: #212529;">2. Reproducibilidad</span>
 
-3. Acceso
+<span style="font-size: 1.5em; color: #dfc117;">3. Acceso</span>
 
 ## Acceso
 
@@ -159,17 +163,20 @@ Adaptado de: [http://whyopenresearch.org/#](http://whyopenresearch.org/)
 
 - tema de **ética** científica y también de **eficiencia**
 
+:::{.incremental}
 - por ahora en Chile, la apertura depende de la **voluntad de los investigadores**, pero ... 
 
 - crecientemente financistas y medios de publicación  se hacen **más exigentes**, gobiernos extranjeros ya han implementado políticas de transparencia, acceso y reproducibilidad.
 
 - necesidad de **herramientas metodológicas** 
+:::
+
 
 ## Resumen
 
 ![](img/01/esquema_general.png)
 
-# {.hide-logo data-background-color="rgb(12, 53, 71)"}
+# {.hide-logo data-background-color="#9B2626"}
 
 ::::: columns
 ::: {.column width="35%"}
@@ -191,10 +198,10 @@ Adaptado de: [http://whyopenresearch.org/#](http://whyopenresearch.org/)
 
 <span style="font-size: 3em; color: white;">Ciencia Social Abierta</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Juan Carlos Castillo
+<span style="font-size: 1.5em; color: white;">Juan Carlos Castillo
 Sociología FACSO UChile</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Primer Semestre 2026</span>
+<span style="font-size: 1.5em; color: white;">Primer Semestre 2026</span>
 
 [cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
 

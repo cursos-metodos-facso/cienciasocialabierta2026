@@ -46,22 +46,24 @@ withr::with_dir(here::here(), {
 - {{< fa building >}} &nbsp; {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; <a href="mailto:juancastillov@uchile.cl">juancastillov@uchile.cl</a>
 - {{< fa brands github >}} &nbsp; <a href="https://github.com/juancarloscastillo >}}">juancarloscastillo</a>
-- {{< fa house >}} &nbsp; <a href="}https://jc-castillo.com/">jc-castillo.com</a>
+- {{< fa house >}} &nbsp; <a href="https://jc-castillo.com/">jc-castillo.com</a>
 - {{< fa calendar-check >}} &nbsp; [Agendar reunión]({{< var instructor.appointment_url >}})
 
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
-### Apoyo Docente
+### Profesor colaborador
 
 <div class="image-cropper">
   <img src="files/img/tomas.png" alt="avatar" class="profile-pic"   width= "100" height= "auto">
 </div>
+
 - {{< fa user >}} &nbsp; Tomás Urzúa
 - {{< fa building >}} &nbsp; 328 Sociología FACSO, Universidad de Chile
 - {{< fa envelope >}} &nbsp; <a href="mailto:tomas.urzua@ug.uchile.cl ">tomas.urzua@ug.uchile.cl </a>
 - {{< fa brands github >}} &nbsp; <a href="https://github.com/tomasurzuam">tomasurzuam</a>
-- {{< fa calendar-check >}} &nbsp; Agendar reunión
+- {{< fa house >}} &nbsp; <a href="https://www.linkedin.com/in/tom%C3%A1s-urz%C3%BAa-moreno-b65755375/">linkedin</a>
+- {{< fa calendar-check >}} &nbsp; Agendar reunión vía correo
 
 
 :::
@@ -71,7 +73,8 @@ withr::with_dir(here::here(), {
 
 ### Actividades
 
-- {{< fa clock >}} &nbsp; **Jueves 14:30-17:45** - Salas 345 FACSO
+- {{< fa clock >}} &nbsp; **Jueves 14:30-17:45**
+- {{< fa building >}} &nbsp; **Sala 345 FACSO**
 
 
 ### Contacto
