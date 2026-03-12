@@ -59,3 +59,15 @@ $code-block-border-color: #93a1a1 !default;
 .bg-darkgreen {
   background-color: "rgb(12, 53, 71)";
 }
+
+// Keep the active fragment bright while dimming previously revealed ones.
+.highlight-last li.fragment.visible,
+.highlight-list li.fragment.visible {
+  opacity: 0.35;
+  transition: opacity 0.4s ease;
+}
+
+.highlight-last li.fragment.current-fragment,
+.highlight-list li.fragment.current-fragment {
+  opacity: 1;
+}
