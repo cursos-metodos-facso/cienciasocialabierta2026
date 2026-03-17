@@ -14,8 +14,7 @@ format:
 editor: source
 ---
 
-
-# {.hide-logo data-background-color="rgb(12, 53, 71)"}
+# {.hide-logo data-background-color="#9B2626"}
 
 ::::: columns
 ::: {.column width="35%"}
@@ -37,27 +36,21 @@ editor: source
 
 <span style="font-size: 3em; color: white;">Ciencia Social Abierta</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Juan Carlos Castillo
+<span style="font-size: 1.5em; color: white;">Juan Carlos Castillo
 Sociología FACSO UChile</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Primer Semestre 2026</span>
+<span style="font-size: 1.5em; color: white;">Primer Semestre 2026</span>
 
 [cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
 
 :::
 :::::
 
-# Sesión 2: Antecedentes {data-background-color="red" style="text-align: right;"}
+# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
 
-[1. Resumen sesión anterior]{style="color: white;"}<br>
-[2. Principios de la ciencia]{style="color: white;"}<br>
-[3. Problemas de apertura]{style="color: white;"}
-
-# Sesión 2: Antecedentes {data-background-color="red" style="text-align: right;"}
-
-[**1. Resumen sesión anterior**]{style="color: yellow;"}<br>
-[2. Principios de la ciencia]{style="color: white;"}<br>
-[3. Problemas de apertura]{style="color: white;"}
+[**1. Resumen sesión anterior**]{style="color: #dfc117;"}<br>
+[2. Principios de la ciencia]{style="color: #797b7d;"}<br>
+[3. Problemas de apertura]{style="color: #797b7d;"}
 
 ## Flujo, ciencia abierta y herramientas
 
@@ -66,14 +59,7 @@ Sociología FACSO UChile</span>
 ## Sobre película Paywall
 
 :::: {.columns}
-::: {.column width="30%"}
-
-<br>
-
-![](https://i.pinimg.com/originals/d3/93/93/d39393c978cec32e2598c1d1261ace4f.jpg)
-
-:::
-::: {.column width="70%"}
+::: {.column width="70%" style="font-size: 34px;"}
 
  Modelo actual de publicación científica:
 
@@ -86,43 +72,42 @@ Sociología FACSO UChile</span>
 - luego el granjero le vende la leche de vuelta a las vacas
 
 :::
+::: {.column width="30%" style="text-align: right;"}
+
+![](https://i.pinimg.com/originals/d3/93/93/d39393c978cec32e2598c1d1261ace4f.jpg)
+
+:::
 ::::
 
----
+# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
 
-# Sesión 2: Antecedentes {data-background-color="red" style="text-align: right;"}
-
-[1. Resumen sesión anterior]{style="color: white;"}<br>
-[**2. Principios de la ciencia**]{style="color: yellow;"}<br>
-[3. Problemas de apertura]{style="color: white;"}
+[1. Resumen sesión anterior]{style="color: #797b7d;"}<br>
+[**2. Principios de la ciencia**]{style="color: #dfc117;"}<br>
+[3. Problemas de apertura]{style="color: #797b7d;"}
 
 # Ciencia abierta: Vuelta a los principios de la ciencia (Merton)
 
 ##
 
+:::{.incremental .highlight-last}
 - **Universalismo**: cualquier persona puede contribuir al conocimiento científico, independiente de su origen.
 
-. . .
+- Comunalidad: los hallazgos de la ciencia pertenecen a la comunidad y no a quién los descubrió.
 
-- **Comunalidad**: los hallazgos de la ciencia pertenecen a la comunidad y no a quién los descubrió.
+- Desinterés: la conducta de investigadores debe estar orientada por la búsqueda de la verdad, no con intereses personales ni monetarios.
 
-. . .
-
-- **Desinterés**: la conducta de investigadores debe estar orientada por la búsqueda de la verdad, no con intereses personales ni monetarios.
-
-. . .
-
-- **Escepticismo organizado**: los hallazgos no se aceptan porque sí, se requieren pruebas.
-
+- Escepticismo organizado: los hallazgos no se aceptan porque sí, se requieren pruebas.
+:::
 
 ## ¿Se cumplen los principios de la ciencia?
 
+:::{.incremental .highlight-last style="font-size: 38px;"}
 - Investigación de Anderson et al. (2007), pregunta a más de 3000 investigadores sobre cumplimiento de principios de la ciencia Mertonianos (agregan dos más: gobernanza y calidad)
 
 - Dos grupos de académicos: carrera temprana y carrera intermedia
 
 - Para todos los principios identifica normas y contranormas:
-
+:::
 
 ##
 
@@ -141,11 +126,11 @@ Sociología FACSO UChile</span>
 :::
 
 
-# Sesión 2: Antecedentes {data-background-color="red" style="text-align: right;"}
+# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
 
-[1. Resumen sesión anterior]{style="color: white;"}<br>
-[2. Principios de la ciencia]{style="color: white;"}<br>
-[**3. Problemas de apertura**]{style="color: yellow;"}
+[1. Resumen sesión anterior]{style="color: #797b7d;"}<br>
+[2. Principios de la ciencia]{style="color: #797b7d;"}<br>
+[**3. Problemas de apertura**]{style="color: #dfc117;"}
 
 ##
 
@@ -176,10 +161,10 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 ##
 
 :::: {.columns}
-::: {.column width="70%"}
+::: {.column width="75%"}
 ![](img/02/reproducibility-request.png){width="90%"}
 :::
-::: {.column width="30%"}
+::: {.column width="25%"}
 ::: {style="font-size: 0.6em;"}
 [Knudtson, K. L., et al (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques : JBT, 30(3), 36–44. https://doi.org/10.7171/jbt.19-3003-001](https://pubmed.ncbi.nlm.nih.gov/31452645/)
 :::
@@ -197,7 +182,7 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 :::
 ::::
 
-# Presión por publicar {data-background-color="#1c1c1c" style="text-align: right; vertical-align: bottom;"}
+# Presión por publicar {data-background-color="#212525" style="text-align: right; vertical-align: bottom;"}
 
 ##
 
@@ -205,21 +190,25 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 ![](img/02/authorship-language.png){width="80%"}
 :::
 
-::: {style="font-size: 0.6em; text-align: center;"}
+::: {style="font-size: 0.4em; text-align: center;"}
 [Koch, T., & Vanderstraeten, R. (2019). Internationalizing a national scientific community? Changes in publication and citation practices in Chile, 1976–2015. Current Sociology, 67(5), 723–741. https://doi.org/10.1177/0011392118807514](https://journals.sagepub.com/doi/10.1177/0011392118807514)
 :::
 
 ---
 
-## Cultura de "publica o perece" (publish or perish)
+##
+
+###  Cultura de "publica o perece" (publish or perish)
 
 #### Posibles correlatos:
 
+:::{.incremental .highlight-last}
 - Temor a que "te roben la idea" → evitar poner datos/código a disposición de terceros
 
 - p-hacking: "presionar los datos" para rechazar hipótesis nula
 
 - falseamiento de datos
+:::
 
 ##
 
@@ -227,13 +216,15 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 ![](img/02/stapelscandal.jpg)
 :::
 
-## Franco et al. (2014) Sesgo de publicaciones
+##
+
+### Franco et al. (2014) Sesgo de publicaciones
 
 ::: {style="text-align: center;"}
-![](img/02/publicationbias.png){width="50%"}
+![](img/02/publicationbias.png){width="55%"}
 :::
 
-# ¿Alternativas? {data-background-color="#1c1c1c"}
+# ¿Alternativas? {data-background-color="#212525"}
 
 - ### Estándares
 
@@ -246,11 +237,11 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 ![](img/02/top.jpg){width="100%"}
 
-::: {style="font-size: 0.7em;"}
-[Nosek et al (2015)](https://science.sciencemag.org/content/348/6242/1422)
+::: {style="font-size: 0.6em;"}
+[Nosek et al. (2015)](https://science.sciencemag.org/content/348/6242/1422)
 :::
 
-## [Resumen (I)]{style="color: orange;"} {data-background-color="#1c1c1c"}
+## [Resumen (I)]{style="color: #dfc117;"} {data-background-color="#212525"}
 
 - Crisis de acceso <-> crisis de reproducibilidad
 
@@ -262,7 +253,7 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 ---
 
-## [Resumen (II): Enfrentando la crisis]{style="color: orange;"} {data-background-color="#1c1c1c"}
+## [Resumen (II): Enfrentando la crisis]{style="color: #dfc117;"} {data-background-color="#212525"}
 
 - Pre-registro de estudios
 
@@ -274,11 +265,11 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 ---
 
-## [Próxima clase]{style="color: yellow;"} {data-background-color="red"}
+## Próxima clase {data-background-color="#9B2626"}
 
 ![](img/02/prox-sem.png)
 
-# {.hide-logo data-background-color="rgb(12, 53, 71)"}
+# {.hide-logo data-background-color="#9B2626"}
 
 ::::: columns
 ::: {.column width="35%"}
@@ -300,10 +291,10 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 <span style="font-size: 3em; color: white;">Ciencia Social Abierta</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Juan Carlos Castillo
+<span style="font-size: 1.5em; color: white;">Juan Carlos Castillo
 Sociología FACSO UChile</span>
 
-<span style="font-size: 1.5em; color: lightblue;">Primer Semestre 2026</span>
+<span style="font-size: 1.5em; color: white;">Primer Semestre 2026</span>
 
 [cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
 
