@@ -8,7 +8,7 @@
 
 <meta name="description" content="Ciencia Social Abierta">
 
-<title>Informaciones – Ciencia Social Abierta</title>
+<title>Pŕactico 1: Editores de texto – Ciencia Social Abierta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../files/logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,69 +71,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news-table .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news-table'] = new List('listing-news-table', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="Noticias y mensajes importantes Modelos Multinivel" href="index.xml" data-external="1"><meta property="og:title" content="Informaciones – Ciencia Social Abierta">
+<meta property="og:title" content="Pŕactico 1: Editores de texto – Ciencia Social Abierta">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://multinivel-facso.netlify.app/news/files/logo.png">
+<meta property="og:image" content="https://multinivel-facso.netlify.app/assignment/files/logo.png">
 <meta property="og:site_name" content="Ciencia Social Abierta">
 <meta property="og:locale" content="es">
 </head>
@@ -160,7 +100,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../news/index.html" aria-current="page"> 
+    <a class="nav-link" href="../news/index.html"> 
 <span class="menu-text">Informaciones</span></a>
   </li>  
   <li class="nav-item">
@@ -200,122 +140,159 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#qué-es-visual-studio-code" id="toc-qué-es-visual-studio-code" class="nav-link active" data-scroll-target="#qué-es-visual-studio-code">¿Qué es Visual Studio Code?</a></li>
+  <li><a href="#principales-ventajas" id="toc-principales-ventajas" class="nav-link" data-scroll-target="#principales-ventajas">Principales ventajas</a></li>
+  <li><a href="#instalación-del-programa" id="toc-instalación-del-programa" class="nav-link" data-scroll-target="#instalación-del-programa">Instalación del programa</a></li>
+  <li><a href="#interfaz" id="toc-interfaz" class="nav-link" data-scroll-target="#interfaz">Interfaz</a>
+  <ul class="collapse">
+  <li><a href="#menú-superior-describir-los-más-importantes" id="toc-menú-superior-describir-los-más-importantes" class="nav-link" data-scroll-target="#menú-superior-describir-los-más-importantes">Menú superior (describir los más importantes)</a>
+  <ul class="collapse">
+  <li><a href="#archivos" id="toc-archivos" class="nav-link" data-scroll-target="#archivos">Archivos</a></li>
+  <li><a href="#edición" id="toc-edición" class="nav-link" data-scroll-target="#edición">Edición</a></li>
+  <li><a href="#selección" id="toc-selección" class="nav-link" data-scroll-target="#selección">Selección</a></li>
+  <li><a href="#vista" id="toc-vista" class="nav-link" data-scroll-target="#vista">Vista</a></li>
+  </ul></li>
+  <li><a href="#barra-de-herramientas" id="toc-barra-de-herramientas" class="nav-link" data-scroll-target="#barra-de-herramientas">Barra de herramientas</a>
+  <ul class="collapse">
+  <li><a href="#buscador" id="toc-buscador" class="nav-link" data-scroll-target="#buscador">Buscador</a></li>
+  <li><a href="#documentos" id="toc-documentos" class="nav-link" data-scroll-target="#documentos">Documentos</a></li>
+  <li><a href="#extensiones" id="toc-extensiones" class="nav-link" data-scroll-target="#extensiones">Extensiones</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#shortcuts" id="toc-shortcuts" class="nav-link" data-scroll-target="#shortcuts">Shortcuts</a></li>
+  <li><a href="#actividades-prácticas" id="toc-actividades-prácticas" class="nav-link" data-scroll-target="#actividades-prácticas">Actividades prácticas</a>
+  <ul class="collapse">
+  <li><a href="#actividad-1" id="toc-actividad-1" class="nav-link" data-scroll-target="#actividad-1">Actividad 1</a></li>
+  <li><a href="#actividad-2" id="toc-actividad-2" class="nav-link" data-scroll-target="#actividad-2">Actividad 2</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Pŕactico 1: Editores de texto</h1></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Informaciones</h1>
+<header id="title-block-header">
+
+
+<div class="date-block bg-assignment text-white p-2">
+  <p class="date">Correspondiente a la sesión del jueves, 19 de marzo de 2026</p>
 </div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
 </header>
 
 
-<p>Acá las principales informaciones y actualizaciones del curso.</p>
-<div id="listing-news-table" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-news-table-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-news-table'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-      <option value="index" data-direction="asc">Por defecto</option>
-      <option value="listing-date-sort" data-direction="asc">
-        Fecha - Más antiguo
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Fecha - Más reciente
-      </option>
-      <option value="listing-title-sort" data-direction="asc">
-        Título
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
+<section id="qué-es-visual-studio-code" class="level1">
+<h1>¿Qué es Visual Studio Code?</h1>
+<p><img src="images/vscode.png" class="img-fluid"></p>
+<p>Es un <strong>editor de texto avanzado</strong> pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es una de las herramientas más utilizadas entre especialistas de la programación y analistas de datos.</p>
+</section>
+<section id="principales-ventajas" class="level1">
+<h1>Principales ventajas</h1>
+<ul>
+<li>Es un programa liviano y extensible, por tanto, personalizable</li>
+<li>Soporta múltiples lenguajes de programación (Python, R, HTML, etc)</li>
+<li>Facilita la aplicación de control de versiones</li>
+<li>Terminal integrada</li>
+<li>Ideal para flujos de trabajo reproducible (Git/GitHub y documentos dinámicos)</li>
+<li>Integra copilot</li>
+</ul>
+</section>
+<section id="instalación-del-programa" class="level1">
+<h1>Instalación del programa</h1>
+<p><a href="https://code.visualstudio.com/">Link de descarga</a></p>
+<p>-&gt; aquí incrustar un canva con los pasos de la instalación</p>
+</section>
+<section id="interfaz" class="level1">
+<h1>Interfaz</h1>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+<p><iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAHETpusuAQ/GxF81d5_GHNhAI7LTsueTg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"> </iframe></p>
 </div>
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
+<p><a href="https://www.canva.com/design/DAHETpusuAQ/GxF81d5_GHNhAI7LTsueTg/view?utm_content=DAHETpusuAQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Paso a paso</a> Interfaz VSCode</p>
+<p>En este punto la idea es presentar cada sección de la interfaz y sus opciones</p>
+<section id="menú-superior-describir-los-más-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="menú-superior-describir-los-más-importantes">Menú superior (describir los más importantes)</h2>
+<section id="archivos" class="level3">
+<h3 class="anchored" data-anchor-id="archivos">Archivos</h3>
+</section>
+<section id="edición" class="level3">
+<h3 class="anchored" data-anchor-id="edición">Edición</h3>
+</section>
+<section id="selección" class="level3">
+<h3 class="anchored" data-anchor-id="selección">Selección</h3>
+</section>
+<section id="vista" class="level3">
+<h3 class="anchored" data-anchor-id="vista">Vista</h3>
+</section>
+</section>
+<section id="barra-de-herramientas" class="level2">
+<h2 class="anchored" data-anchor-id="barra-de-herramientas">Barra de herramientas</h2>
+<p>mostrar las herramientas una por una y explicar brevemente qué hace cada una</p>
+<section id="buscador" class="level3">
+<h3 class="anchored" data-anchor-id="buscador">Buscador</h3>
+<ul>
+<li><p>El software tiene un buscador de archivos integrado</p></li>
+<li><p>Busca en distintos niveles de anidación: permite ubicar tanto palabras <br> dentro de los documentos como dentro de las carpeta</p></li>
+</ul>
+</section>
+<section id="documentos" class="level3">
+<h3 class="anchored" data-anchor-id="documentos">Documentos</h3>
+<ul>
+<li><p>VSCode trabaja con carpetas como áreas de trabajo.</p></li>
+<li><p>Cada carpeta puede contener múltiples archivos y subcarpetas.</p></li>
+<li><p>Se puede abrir una carpeta existente o crear una nueva desde VSCode.</p></li>
+<li><p>Los archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.</p></li>
+<li><p>La estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo IPO).</p></li>
+</ul>
+</section>
+<section id="extensiones" class="level3">
+<h3 class="anchored" data-anchor-id="extensiones">Extensiones</h3>
+<ul>
+<li><p>Las extensiones son complementos que agregan funcionalidades a VSCode.</p></li>
+<li><p>Existen extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.</p></li>
+<li><p>Buscar e instalar extensiones: desde el Marketplace de VSCode.</p></li>
+<li><p>Abre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo <code>Ctrl+Shift+X</code>.</p></li>
+<li><p>Busca las extensiones por nombre (ej: “Quarto”, “R”, “Zotero”).</p></li>
+<li><p>Haz clic en “Install” para instalar cada extensión.</p></li>
+<li><p>Reinicia VS Code si es necesario para activar las extensiones.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="shortcuts" class="level1">
+<h1>Shortcuts</h1>
+<p>Mostrar los principales atajos que existen en VSC para facilitar el flujo de trabajo</p>
+</section>
+<section id="actividades-prácticas" class="level1">
+<h1>Actividades prácticas</h1>
+<section id="actividad-1" class="level2">
+<h2 class="anchored" data-anchor-id="actividad-1">Actividad 1</h2>
+<ol type="1">
+<li>Genere un nuevo archivo, seleccionar un lenguaje y guardarlo</li>
+<li>Instale 3 extensiones de su interés y aplíquelas a su entorno de trabajo</li>
+</ol>
+</section>
+<section id="actividad-2" class="level2">
+<h2 class="anchored" data-anchor-id="actividad-2">Actividad 2</h2>
+<p>Cree una carpeta en el escritorio del computador (idealmente siguiendo el protocolo IPO) y siga las siguientes instrucciones:</p>
+<ol type="1">
+<li>Abra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo</li>
+<li>Genere un nuevo archivo y escriba un breve texto en él</li>
+<li>Guárdelo en la carpeta que creó anteriormente</li>
+<li>Busque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral</li>
+</ol>
 
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Fecha</a>
-</th>
 
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
-</th>
-
-<th>
-Categorías
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-categories="aW5mbw==" data-listing-date-sort="1773284400000" data-listing-file-modified-sort="1773327393261" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116" data-listing-title-sort="Bienvenid@s al curso!" data-listing-filename-sort="2026-03-12_bienvenida.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<span class="listing-date">jueves marzo 12, 2026 at 12:00 AM</span>
-</td>
-<td>
-<a href="../news/2026-03-12_bienvenida.html" class="title listing-title">Bienvenid@s al curso!</a>
-</td>
-<td>
-<span class="listing-categories">info</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Suscribirse!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Puedes usar un lector de feeds como <a href="https://feedly.com/">Feedly</a> o un servicio <a href="https://www.google.com/search?q=rss+to+email">RSS-to-email</a> como <a href="https://blogtrottr.com/">Blogtrottr</a> para suscribirte a cualquiera de estos mensajes.</p>
-</div>
-</div>
-<div class="grid">
-<div class="g-col-12 g-col-md-2">
-<p class="download-btn">
-<a class="btn btn-danger btn-sm" href="https://multinivel-facso.netlify.app/news/index.xml" role="button"><i class="fa-solid fa-square-rss" aria-label="square-rss"></i> RSS</a>
-</p>
-</div>
-<div class="g-col-12 g-col-md-10">
-<p>
-<input class="form-control" type="text" value="" onclick="this.select()" readonly="">
-</p>
-</div>
-</div>
-
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -876,7 +876,7 @@
     "href": "news/index.html",
     "title": "Informaciones",
     "section": "",
-    "text": "Acá las principales informaciones y actualizaciones del curso.\n\n\n   \n    \n    \n      Ordenar por\n      Por defecto\n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFecha\n\n\n\nTítulo\n\n\n\nCategorías\n\n\n\n\n\n\n\n\njueves marzo 12, 2026 at 12:00 AM\n\n\nBienvenid@s al curso!\n\n\ninfo\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\n\nSuscribirse!\n\n\n\nPuedes usar un lector de feeds como Feedly o un servicio RSS-to-email como Blogtrottr para suscribirte a cualquiera de estos mensajes.\n\n\n\n\n\n RSS"
+    "text": "Acá las principales informaciones y actualizaciones del curso.\n\n\n   \n    \n    \n      Ordenar por\n      Por defecto\n      \n        Fecha - Más antiguo\n      \n      \n        Fecha - Más reciente\n      \n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFecha\n\n\n\nTítulo\n\n\n\nCategorías\n\n\n\n\n\n\n\n\njueves marzo 12, 2026 at 12:00 AM\n\n\nBienvenid@s al curso!\n\n\ninfo\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\n\nTipSuscribirse!\n\n\n\nPuedes usar un lector de feeds como Feedly o un servicio RSS-to-email como Blogtrottr para suscribirte a cualquiera de estos mensajes.\n\n\n\n\n\n RSS"
   },
   {
     "objectID": "schedule.html",
@@ -1082,14 +1082,9 @@
   {
     "objectID": "assignment/01-practico.html",
     "href": "assignment/01-practico.html",
-    "title": "Repaso inferencia estadística",
+    "title": "Pŕactico 1: Editores de texto",
     "section": "",
-    "text": "El objetivo de esta guía práctica es repasar contenidos de inferencia estadística, revisando los conceptos y aplicaciones de distribución normal, cálculo de intervalos de confianza y test de hipótesis.\nEn detalle, aprenderemos y recordaremos:\n\nQué es la distribución normal\nCómo calcular e interpretar intervalos de confianza\nTest de hipótesis\n\n\n\nCargaremos algunas librerías que serán necesarias en las diferentes partes de esta guía práctica:\n\nlibrary(pacman)\npacman::p_load(tidyverse, # para sintaxis\n               ggplot2,  \n               rempsyc, # Reporte\n               kableExtra, # Tablas\n               broom,\n               Publish) # Varios\noptions(scipen = 999) # para desactivar notacion cientifica\nrm(list = ls())       # para limpar el entonrno de trabajo",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "1: Repaso inferencia"
-    ]
+    "text": "Correspondiente a la sesión del jueves, 19 de marzo de 2026"
   },
   {
     "objectID": "assignment/01-practico.html#librerías",
@@ -1548,5 +1543,47 @@
     "title": "Bienvenid@s al curso!",
     "section": "",
     "text": "← News\n\n\n\n\nComo equipo docente, queremos darles una cálida bienvenida al curso “Ciencia Social Abierta: Herramientas para la reproducibilidad, colaboración y comunicación de la investigación social”. Esperamos que este espacio pueda cumplir con sus expectativas y que puedan aprovechar al máximo los contenidos de esta cátedra, los cuales consideramos cada vez más relevantes en las prácticas de investigación en ciencias sociales.\nTenemos toda la disposición de acompañarles en este proceso de aprendizaje para que sea lo más provechoso posible en términos formativos. Con ello en mente, los invitamos a revisar los distintos recursos disponibles en la página y, ante cualquier consulta, no duden en contactarnos a través de los canales dispuestos.\n¡Que tengan un gran comienzo de semestre!"
+  },
+  {
+    "objectID": "assignment/01-practico.html#barra-de-herramientas",
+    "href": "assignment/01-practico.html#barra-de-herramientas",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Barra de herramientas",
+    "text": "Barra de herramientas\nmostrar las herramientas una por una y explicar brevemente qué hace cada una\n\nBuscador\n\nEl software tiene un buscador de archivos integrado\nBusca en distintos niveles de anidación: permite ubicar tanto palabras  dentro de los documentos como dentro de las carpeta\n\n\n\nDocumentos\n\nVSCode trabaja con carpetas como áreas de trabajo.\nCada carpeta puede contener múltiples archivos y subcarpetas.\nSe puede abrir una carpeta existente o crear una nueva desde VSCode.\nLos archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.\nLa estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo IPO).\n\n\n\nExtensiones\n\nLas extensiones son complementos que agregan funcionalidades a VSCode.\nExisten extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.\nBuscar e instalar extensiones: desde el Marketplace de VSCode.\nAbre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo Ctrl+Shift+X.\nBusca las extensiones por nombre (ej: “Quarto”, “R”, “Zotero”).\nHaz clic en “Install” para instalar cada extensión.\nReinicia VS Code si es necesario para activar las extensiones."
+  },
+  {
+    "objectID": "assignment/01-practico.html#menú-superior",
+    "href": "assignment/01-practico.html#menú-superior",
+    "title": "Visual Studio Code",
+    "section": "Menú superior",
+    "text": "Menú superior\nmostrar las principales acciones que se pueden ejecutar a partir del menú"
+  },
+  {
+    "objectID": "assignment/01-practico.html#menú-superior-describir-los-más-importantes",
+    "href": "assignment/01-practico.html#menú-superior-describir-los-más-importantes",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Menú superior (describir los más importantes)",
+    "text": "Menú superior (describir los más importantes)\n\nArchivos\n\n\nEdición\n\n\nSelección\n\n\nVista"
+  },
+  {
+    "objectID": "assignment/01-practico.html#extensiones",
+    "href": "assignment/01-practico.html#extensiones",
+    "title": "Visual Studio Code",
+    "section": "Extensiones",
+    "text": "Extensiones\n\nLas extensiones son complementos que agregan funcionalidades a VSCode.\nExisten extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.\nBuscar e instalar extensiones: desde el Marketplace de VSCode.\nAbre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo Ctrl+Shift+X.\nBusca las extensiones por nombre (ej: “Quarto”, “R”, “Zotero”).\nHaz clic en “Install” para instalar cada extensión.\nReinicia VS Code si es necesario para activar las extensiones."
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-1",
+    "href": "assignment/01-practico.html#actividad-1",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Actividad 1",
+    "text": "Actividad 1\n\nGenere un nuevo archivo, seleccionar un lenguaje y guardarlo\nInstale 3 extensiones de su interés y aplíquelas a su entorno de trabajo"
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-2",
+    "href": "assignment/01-practico.html#actividad-2",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Actividad 2",
+    "text": "Actividad 2\nCree una carpeta en el escritorio del computador (idealmente siguiendo el protocolo IPO) y siga las siguientes instrucciones:\n\nAbra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo\nGenere un nuevo archivo y escriba un breve texto en él\nGuárdelo en la carpeta que creó anteriormente\nBusque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral"
   }
 ]
