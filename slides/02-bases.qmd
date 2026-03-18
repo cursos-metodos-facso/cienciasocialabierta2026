@@ -24,7 +24,7 @@ editor: source
 ![](img/logo-ciencia-abierta.png){width="100%" fig-align="right"}
 :::
 
-:::{.column width="10%"}
+:::{.column width="2%"}
 
 :::
 
@@ -34,19 +34,29 @@ editor: source
 
 ### 
 
-<span style="font-size: 3em; color: white;">Ciencia Social Abierta</span>
+<span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
 
-<span style="font-size: 1.5em; color: white;">Juan Carlos Castillo
-Sociología FACSO UChile</span>
+----
+<span style="font-size: 1.5em; color: yellow;">Sesión 2: Principios y estándares </span>
 
-<span style="font-size: 1.5em; color: white;">Primer Semestre 2026</span>
+<br>
+
+<span style="font-size: 1em; color: white;">Juan Carlos Castillo & Tomás Urzúa</span>
+
+<span style="font-size: 1em; color: white;">Sociología FACSO UChile</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Primer Semestre 2026</span>
 
 [cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
 
 :::
 :::::
 
-# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
 
 [**1. Resumen sesión anterior**]{style="color: #dfc117;"}<br>
 [2. Principios de la ciencia]{style="color: #797b7d;"}<br>
@@ -56,28 +66,27 @@ Sociología FACSO UChile</span>
 
 ![](img/01/esquema_general.png)
 
-## Sobre película Paywall
+## ¿Por qué ocurre la crisis de reproducibilidad?
 
-:::: {.columns}
-::: {.column width="70%" style="font-size: 34px;"}
+Algunas razones:
 
- Modelo actual de publicación científica:
+:::{.incremental .highlight-last}
+- pobre documentación metodológica
+  
+- sesgo hacia búsqueda y publicación de resultados significativos (p-hacking), atribuido a la presión por publicar
 
-- las vacas hacen leche (se ordeñan solas)
-
-- otras vacas revisan la leche (gratis)
-
-- las vacas le pagan al granjero para distribuir la leche
-
-- luego el granjero le vende la leche de vuelta a las vacas
-
+- en algunos casos, falseamiento de datos/análisis
 :::
-::: {.column width="30%" style="text-align: right;"}
 
-![](https://i.pinimg.com/originals/d3/93/93/d39393c978cec32e2598c1d1261ace4f.jpg)
+##
 
+#### El ciclo actual de publicación científica
+
+![](img/01/ciclocerrado.png){width="100%"}
+
+:::{style="font-size: 0.6em;"}
+(Adaptado de: [https://creativecommons.org/about/program-areas/open-access/](https://creativecommons.org/about/program-areas/open-access/))
 :::
-::::
 
 # Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
 
@@ -90,13 +99,13 @@ Sociología FACSO UChile</span>
 ##
 
 :::{.incremental .highlight-last}
-- **Universalismo**: cualquier persona puede contribuir al conocimiento científico, independiente de su origen.
+- [**Universalismo**]{style="color: #a22711;"}: cualquier persona puede contribuir al conocimiento científico, independiente de su origen.
 
-- Comunalidad: los hallazgos de la ciencia pertenecen a la comunidad y no a quién los descubrió.
+- [**Comunalidad**]{style="color: #a22711;"}: los hallazgos de la ciencia pertenecen a la comunidad y no a quién los descubrió.
 
-- Desinterés: la conducta de investigadores debe estar orientada por la búsqueda de la verdad, no con intereses personales ni monetarios.
+- [**Desinterés**]{style="color: #a22711;"}: la conducta de investigadores debe estar orientada por la búsqueda de la verdad, no con intereses personales ni monetarios.
 
-- Escepticismo organizado: los hallazgos no se aceptan porque sí, se requieren pruebas.
+- [**Esceptisicmo organizado**]{style="color: #a22711;"}: los hallazgos no se aceptan porque sí, se requieren pruebas.
 :::
 
 ## ¿Se cumplen los principios de la ciencia?
