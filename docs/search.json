@@ -1577,14 +1577,14 @@
     "href": "assignment/01-practico.html#actividad-1",
     "title": "Pŕactico 1: Editores de texto",
     "section": "Actividad 1",
-    "text": "Actividad 1\n\nGenere un nuevo archivo, seleccionar un lenguaje y guardarlo\nInstale 3 extensiones de su interés y aplíquelas a su entorno de trabajo"
+    "text": "Actividad 1\nInstale las siguientes extensiones:\n\nQuarto\nMarkdown Preview Enhanced\nVSCode-pets"
   },
   {
     "objectID": "assignment/01-practico.html#actividad-2",
     "href": "assignment/01-practico.html#actividad-2",
     "title": "Pŕactico 1: Editores de texto",
     "section": "Actividad 2",
-    "text": "Actividad 2\nCree una carpeta en el escritorio del computador (idealmente siguiendo el protocolo IPO) y siga las siguientes instrucciones:\n\nAbra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo\nGenere un nuevo archivo y escriba un breve texto en él\nGuárdelo en la carpeta que creó anteriormente\nBusque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral"
+    "text": "Actividad 2\nCree una carpeta en el escritorio del computador siga las siguientes instrucciones:\n\nAbra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo\nGenere un nuevo archivo y escriba un breve texto en él\nGuárdelo en la carpeta que creó anteriormente\nBonus: Busque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral"
   },
   {
     "objectID": "news/2026-03-18_reel-research.html",
@@ -1592,5 +1592,47 @@
     "title": "Reel sobre reproducibilidad en la investigación social",
     "section": "",
     "text": "← News\n\n\n\n\nLes compartimos un video de divulgación que presenta una investigación bastante reciente, cuyo objetivo era responder a la pregunta ¿La inmigración influye en el apoyo público a los programas de bienestar social?. El artículo pone en boga cómo los sesgos ideológicos afectan las decisiones metodológicas, lo que termina por obstaculizar la reproducibilidad de los resultados en la investigación social.\n\n\n\n\n\nArtículo completo: Borjas, G. J., & Breznau, N. (2026). Ideological bias in the production of research findings. Science Advances, 12(1). 10.1126/sciadv.adz7173."
+  },
+  {
+    "objectID": "assignment/01-practico.html#principales-ventajas",
+    "href": "assignment/01-practico.html#principales-ventajas",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Principales ventajas",
+    "text": "Principales ventajas\n\nEs un programa liviano y extensible, por tanto, personalizable\nSoporta múltiples lenguajes de programación (Python, R, HTML, etc)\nFacilita la aplicación de control de versiones\nTerminal integrada\nIdeal para flujos de trabajo reproducible (Git/GitHub y documentos dinámicos)\nIntegra copilot"
+  },
+  {
+    "objectID": "assignment/01-practico.html#instalación-del-programa",
+    "href": "assignment/01-practico.html#instalación-del-programa",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Instalación del programa",
+    "text": "Instalación del programa\nLink de descarga\n-&gt; aquí incrustar un canva con los pasos de la instalación"
+  },
+  {
+    "objectID": "assignment/01-practico.html#interfaz",
+    "href": "assignment/01-practico.html#interfaz",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Interfaz",
+    "text": "Interfaz\n\n \n\nPaso a paso Interfaz VSCode\nEn este punto la idea es presentar cada sección de la interfaz y sus opciones\n\nMenú superior (describir los más importantes)\n\nArchivos\nAquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.\nEjemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.\n\n\nEdición\nOfrece alternativas de edición del documento.\nEjemplo: Copiar; Pegar; Deshacer; Encontrar, etc.\n\n\n\nBarra de herramientas\nmostrar las herramientas una por una y explicar brevemente qué hace cada una\n\n Buscador\n\nEl software tiene un buscador de archivos integrado\nBusca en distintos niveles de anidación: permite ubicar tanto palabras  dentro de los documentos como dentro de las carpeta\n\n\n\n Documentos\n\nVSCode trabaja con carpetas como áreas de trabajo.\nCada carpeta puede contener múltiples archivos y subcarpetas.\nSe puede abrir una carpeta existente o crear una nueva desde VSCode.\nLos archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.\nLa estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo IPO).\n\n\n\n Extensiones\n\nLas extensiones son complementos que agregan funcionalidades a VSCode.\nExisten extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.\nBuscar e instalar extensiones: desde el Marketplace de VSCode.\nAbre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo Ctrl+Shift+X.\nBusca las extensiones por nombre (ej: “Quarto”, “R”, “Zotero”).\nHaz clic en “Install” para instalar cada extensión.\nReinicia VS Code si es necesario para activar las extensiones."
+  },
+  {
+    "objectID": "assignment/01-practico.html#shortcuts",
+    "href": "assignment/01-practico.html#shortcuts",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Shortcuts",
+    "text": "Shortcuts\nCtrl + N: Crear documento\nCtrl + Shift + P: Abrir barra de comandos\nCtrl + Shift + K: Preview Quarto\nCtrl + K + C: Añadir comentario\nCtrl + K + T: Cambiar tema de VSCode"
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-3-opcional",
+    "href": "assignment/01-practico.html#actividad-3-opcional",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "Actividad 3 (opcional)",
+    "text": "Actividad 3 (opcional)\n\nInstale la extensión de R\nCorra algún código en VSCode"
+  },
+  {
+    "objectID": "assignment/01-practico.html#qué-es-visual-studio-code",
+    "href": "assignment/01-practico.html#qué-es-visual-studio-code",
+    "title": "Pŕactico 1: Editores de texto",
+    "section": "¿Qué es Visual Studio Code?",
+    "text": "¿Qué es Visual Studio Code?\n\nEs un editor de texto avanzado pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y nivel de personalización."
   }
 ]

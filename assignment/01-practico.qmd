@@ -8,13 +8,31 @@ website:
       repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
-# ¿Qué es Visual Studio Code?
+# ¿Qué son los editores de texto?
+
+Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos.
+
+Algunos editores de texto reconocidos son:
+
+- Visual Studio Code 
+
+- Positron
+
+- Sublime Text
+
+- Atom
+
+- Emacs
+
+En este práctico aprenderemos a usar Visual Studio Code.
+
+## ¿Qué es Visual Studio Code?
 
 ![](images/vscode.png)
 
-Es un **editor de texto avanzado** pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es una de las herramientas más utilizadas entre especialistas de la programación y analistas de datos.
+Es un **editor de texto avanzado** pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y nivel de personalización.
 
-# Principales ventajas
+## Principales ventajas
 
 - Es un programa liviano y extensible, por tanto, personalizable
 - Soporta múltiples lenguajes de programación (Python, R, HTML, etc)
@@ -23,13 +41,13 @@ Es un **editor de texto avanzado** pensado para escribir código. Es desarrollad
 - Ideal para flujos de trabajo reproducible (Git/GitHub y documentos dinámicos)
 - Integra copilot
 
-# Instalación del programa
+## Instalación del programa
 
 [Link de descarga](https://code.visualstudio.com/)
 
 -> aquí incrustar un canva con los pasos de la instalación
 
-# Interfaz
+## Interfaz
 
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -43,28 +61,32 @@ Es un **editor de texto avanzado** pensado para escribir código. Es desarrollad
 En este punto la idea es presentar cada sección de la interfaz y sus opciones
 
 
-## Menú superior (describir los más importantes)
+### Menú superior (describir los más importantes)
 
-### Archivos
+#### Archivos
 
-### Edición
+Aquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.
 
-### Selección
+Ejemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.
 
-### Vista
+#### Edición
+
+Ofrece alternativas de edición del documento.
+
+Ejemplo: Copiar; Pegar; Deshacer; Encontrar, etc.
 
 
-## Barra de herramientas
+### Barra de herramientas
 
 mostrar las herramientas una por una y explicar brevemente qué hace cada una 
 
-### Buscador
+#### ![](images/buscador.png) Buscador
 
 - El software tiene un buscador de archivos integrado
 
 - Busca en distintos niveles de anidación: permite ubicar tanto palabras <br> dentro de los documentos como dentro de las carpeta
 
-### Documentos
+#### ![](images/docs.png) Documentos
 
 - VSCode trabaja con carpetas como áreas de trabajo.
 
@@ -76,7 +98,7 @@ mostrar las herramientas una por una y explicar brevemente qué hace cada una
 
 - La estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo IPO).
 
-### Extensiones
+#### ![](images/extensiones.png) Extensiones
 
 - Las extensiones son complementos que agregan funcionalidades a VSCode.
   
@@ -93,22 +115,44 @@ mostrar las herramientas una por una y explicar brevemente qué hace cada una
 - Reinicia VS Code si es necesario para activar las extensiones.
 
 
-# Shortcuts
+## Shortcuts
 
-Mostrar los principales atajos que existen en VSC para facilitar el flujo de trabajo
+`Ctrl + N`: Crear documento
+
+`Ctrl + Shift + P`: Abrir barra de comandos
+
+`Ctrl + Shift + K`: Preview Quarto
+
+`Ctrl + K + C`: Añadir comentario
+
+`Ctrl + K + T`: Cambiar tema de VSCode 
 
 # Actividades prácticas
 
 ## Actividad 1
 
-1. Genere un nuevo archivo, seleccionar un lenguaje y guardarlo
-2. Instale 3 extensiones de su interés y aplíquelas a su entorno de trabajo
+Instale las siguientes extensiones:
+
+- Quarto
+
+- Markdown Preview Enhanced
+
+- VSCode-pets
 
 ## Actividad 2
 
-Cree una carpeta en el escritorio del computador (idealmente siguiendo el protocolo IPO) y siga las siguientes instrucciones:
+Cree una carpeta en el escritorio del computador siga las siguientes instrucciones:
 
-1. Abra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo
-2. Genere un nuevo archivo y escriba un breve texto en él
-3. Guárdelo en la carpeta que creó anteriormente
-4. Busque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral
+- Abra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo
+  
+- Genere un nuevo archivo y escriba un breve texto en él
+
+- Guárdelo en la carpeta que creó anteriormente
+
+- Bonus: Busque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral
+
+## Actividad 3 (opcional)
+
+- Instale la extensión de R
+
+- Corra algún código en VSCode
