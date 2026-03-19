@@ -1,0 +1,22 @@
+---
+title: "Reel sobre reproducibilidad en la investigación social"
+author: "Equipo docente"
+date: "2026-03-18"
+categories: [info]
+image: images/paper-nate.png
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+Les compartimos un video de divulgación que presenta una investigación bastante reciente, cuyo objetivo era responder a la pregunta __*¿La inmigración influye en el apoyo público a los programas de bienestar social?*__. El artículo pone en boga cómo los sesgos ideológicos afectan las decisiones metodológicas, lo que termina por obstaculizar la reproducibilidad de los resultados en la investigación social.
+
+
+<div>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DUYI8HwEvwD/?igsh=ZWt6NHNteGJpdGN1" data-instgrm-version="14"></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+</div>
+
+Artículo completo: [Borjas, G. J., & Breznau, N. (2026). Ideological bias in the production of research findings. Science Advances, 12(1). 10.1126/sciadv.adz7173.](https://www.science.org/doi/10.1126/sciadv.adz7173#bibliography)

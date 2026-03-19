@@ -10,7 +10,34 @@
 <atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 12 Mar 2026 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Mar 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Reel sobre reproducibilidad en la investigación social</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</link>
+  <description><![CDATA[ 
+
+<div class="back-nav"><a href="../news/">← News</a></div>
+
+
+
+
+<p>Les compartimos un video de divulgación que presenta una investigación bastante reciente, cuyo objetivo era responder a la pregunta <strong><em>¿La inmigración influye en el apoyo público a los programas de bienestar social?</em></strong>. El artículo pone en boga cómo los sesgos ideológicos afectan las decisiones metodológicas, lo que termina por obstaculizar la reproducibilidad de los resultados en la investigación social.</p>
+<div>
+<blockquote class="instagram-media blockquote" data-instgrm-permalink="https://www.instagram.com/reel/DUYI8HwEvwD/?igsh=ZWt6NHNteGJpdGN1" data-instgrm-version="14">
+</blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script>
+</div>
+<p>Artículo completo: <a href="https://www.science.org/doi/10.1126/sciadv.adz7173#bibliography">Borjas, G. J., &amp; Breznau, N. (2026). Ideological bias in the production of research findings. Science Advances, 12(1). 10.1126/sciadv.adz7173.</a></p>
+
+
+
+ ]]></description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</guid>
+  <pubDate>Wed, 18 Mar 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/paper-nate.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Bienvenid@s al curso!</title>
   <dc:creator>Equipo docente</dc:creator>
