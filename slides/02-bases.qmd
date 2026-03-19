@@ -88,13 +88,19 @@ Algunas razones:
 (Adaptado de: [https://creativecommons.org/about/program-areas/open-access/](https://creativecommons.org/about/program-areas/open-access/))
 :::
 
-# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
+# Contenidos{data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
 
 [1. Resumen sesión anterior]{style="color: #797b7d;"}<br>
 [**2. Principios de la ciencia**]{style="color: #dfc117;"}<br>
 [3. Problemas de apertura]{style="color: #797b7d;"}
+[1. Resumen sesión anterior]{style="color: #797b7d;"}<br>
+[**2. Principios de la ciencia**]{style="color: #dfc117;"}<br>
+[3. Problemas de apertura]{style="color: #797b7d;"}
 
-# Ciencia abierta: Vuelta a los principios de la ciencia (Merton)
+## Ciencia abierta: Vuelta a los principios de la ciencia (Merton){.vcenter} 
+
 
 ##
 
@@ -135,11 +141,14 @@ Algunas razones:
 :::
 
 
-# Sesión 2: Antecedentes {data-background-color="#9B2626" style="text-align: right;"}
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
 
 [1. Resumen sesión anterior]{style="color: #797b7d;"}<br>
 [2. Principios de la ciencia]{style="color: #797b7d;"}<br>
 [**3. Problemas de apertura**]{style="color: #dfc117;"}
+
 
 ##
 
@@ -235,20 +244,44 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 # ¿Alternativas? {data-background-color="#212525"}
 
+- ### Incentivos
+
 - ### Estándares
 
 - ### Herramientas
 
-- ### Incentivos
 
+## Incentivos
 
-##
+- Cambiar la cultura de "publica o perece" por una cultura de "publica y comparte"
 
-![](img/02/top.jpg){width="100%"}
+- Incentivar la publicación de estudios con resultados nulos
+
+- Incentivar la publicación de estudios con datos abiertos y análisis reproducibles
+
+- Requisitos crecientes en revistas científicas y proyectos de investigación para publicar con datos abiertos y análisis reproducibles
+
+## 
+Estándares
+
+![](img/02/top.jpg){width="100%" fig-align="center"} 
+
 
 ::: {style="font-size: 0.6em;"}
 [Nosek et al. (2015)](https://science.sciencemag.org/content/348/6242/1422)
 :::
+
+##
+Herramientas para la reproducibilidad
+
+![](img/02/herramientas_reproducibilidad.png)
+
+
+## Práctico 1: Entorno de edición abierto (VSC)
+
+
+
+
 
 ## [Resumen (I)]{style="color: #dfc117;"} {data-background-color="#212525"}
 
@@ -260,23 +293,16 @@ Fuente: [Baker (2016) 1,500 scientists lift the lid on reproducibility - Nature]
 
 - Dilemas de eficiencia y éticos
 
----
+
 
 ## [Resumen (II): Enfrentando la crisis]{style="color: #dfc117;"} {data-background-color="#212525"}
 
-- Pre-registro de estudios
+- Estándares
 
-- Datos abiertos
+- Incentivos
 
-- Análisis reproducible
+- Herramientas
 
-- Publicación abierta y oportuna
-
----
-
-## Próxima clase {data-background-color="#9B2626"}
-
-![](img/02/prox-sem.png)
 
 # {.hide-logo data-background-color="#9B2626"}
 
