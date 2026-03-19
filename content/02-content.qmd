@@ -1,5 +1,5 @@
 ---
-title: "2. Bases de la Ciencia Abierta"
+title: "2. Principios y estándares"
 date: "2026/03/19"
 lang: es
 website:

@@ -74,7 +74,8 @@ listing:
 ### Actividades
 
 - {{< fa clock >}} &nbsp; **Jueves 14:30-17:45**
-- {{< fa building >}} &nbsp; **Sala 345 FACSO**
+- {{< fa building >}} &nbsp; **Sala 35 FACSO** (14:30:16:00)
+- {{< fa building >}} &nbsp; **Sala 345 FACSO** (16:15-17:45)
 
 
 ### Contacto

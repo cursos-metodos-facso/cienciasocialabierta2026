@@ -9,7 +9,7 @@
 <link>https://multinivel-facso.netlify.app/news/</link>
 <atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.25</generator>
+<generator>quarto-1.7.33</generator>
 <lastBuildDate>Wed, 18 Mar 2026 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Reel sobre reproducibilidad en la investigación social</title>
@@ -28,7 +28,12 @@
 </blockquote>
 <script async="" src="//www.instagram.com/embed.js"></script>
 </div>
-<p>Artículo completo: <a href="https://www.science.org/doi/10.1126/sciadv.adz7173#bibliography">Borjas, G. J., &amp; Breznau, N. (2026). Ideological bias in the production of research findings. Science Advances, 12(1). 10.1126/sciadv.adz7173.</a></p>
+<p>Referencias:</p>
+<ul>
+<li><p>Breznau, N., Rinke, E. M., Wuttke, A., Nguyen, H. H. V., Adem, M., Adriaans, J., Alvarez-Benjumea, A., Andersen, H. K., Auer, D., Azevedo, F., Bahnsen, O., Balzer, D., Bauer, G., Bauer, P. C., Baumann, M., Baute, S., Benoit, V., Bernauer, J., Berning, C., … Żółtak, T. … <strong>Castillo, JC</strong> … (2022). Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty. Proceedings of the National Academy of Sciences, 119(44), e2203150119. https://doi.org/10.1073/pnas.2203150119</p></li>
+<li><p><a href="https://www.science.org/doi/10.1126/sciadv.adz7173#bibliography">Borjas, G. J., &amp; Breznau, N. (2026). Ideological bias in the production of research findings. Science Advances, 12(1). 10.1126/sciadv.adz7173.</a></p></li>
+<li></li>
+</ul>
 
 
 
@@ -36,7 +41,7 @@
   <category>info</category>
   <guid>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</guid>
   <pubDate>Wed, 18 Mar 2026 03:00:00 GMT</pubDate>
-  <media:content url="https://multinivel-facso.netlify.app/news/images/paper-nate.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/paper-nate.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 <item>
   <title>Bienvenid@s al curso!</title>
