@@ -14,15 +14,15 @@ Son programas para escribir y editar código fuente de distintos lenguajes. El u
 
 Algunos editores de código reconocidos son:
 
-- Emacs: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.
+- **Emacs**: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.
 
-- Sublime Text: es un editor de texto pero tiene licencia de pago
+- **Sublime Text**: es un editor de código más intuitivo que Emacs pero tiene licencia de pago.
 
-- Atom: es un muy buen editor de código abierto pero está descontinuado.
+- **Atom**: otro editor de código que es de código abierto pero está descontinuado.
 
-- Visual Studio Code
+- **Visual Studio Code**
 
-- Positron: Es una versión forkeada de Visual Studio Code.
+- **Positron**: editor de código creado por Posit (empresa a cargo de RStudio) que se inspira en Visual Studio Code.
 
 En este práctico aprenderemos a usar Visual Studio Code.
 
@@ -30,7 +30,7 @@ En este práctico aprenderemos a usar Visual Studio Code.
 
 ![](images/vscode.png)
 
-Es un **editor de texto avanzado** pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y nivel de personalización.
+Es un **editor de código avanzado** desarrollado por Microsoft que es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y alto nivel de personalización.
 
 ## Principales ventajas
 
@@ -85,13 +85,11 @@ En este punto la idea es presentar cada sección de la interfaz y sus opciones
 
 ### Barra de herramientas
 
-mostrar las herramientas una por una y explicar brevemente qué hace cada una 
-
 #### ![](images/buscador.png) Buscador
 
 - El software tiene un buscador de archivos integrado
 
-- Busca en distintos niveles de anidación: permite ubicar tanto palabras <br> dentro de los documentos como dentro de las carpeta
+- Opera en distintos niveles de anidación: permite ubicar palabras <br> buscando en todos los documentos y carpetas del directorio
 
 #### ![](images/docs.png) Documentos
 

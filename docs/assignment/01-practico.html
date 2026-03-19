@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../files/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f444981237ef2c2da2ea7c76384b50c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5df54514c0e00397a20b0409eab6ab00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -57,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -86,6 +87,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ciencia Social Abierta</span>
     </a>
@@ -150,6 +153,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -234,17 +241,17 @@ ul.task-list li input[type="checkbox"] {
 <p>Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos. Los editores de código permiten el uso de distintos lenguajes, tanto de programación como de comunicación, por ejemplo, el español.</p>
 <p>Algunos editores de código reconocidos son:</p>
 <ul>
-<li><p>Emacs: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.</p></li>
-<li><p>Sublime Text: es un editor de texto pero tiene licencia de pago</p></li>
-<li><p>Atom: es un muy buen editor de código abierto pero está descontinuado.</p></li>
-<li><p>Visual Studio Code</p></li>
-<li><p>Positron: Es una versión forkeada de Visual Studio Code.</p></li>
+<li><p><strong>Emacs</strong>: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.</p></li>
+<li><p><strong>Sublime Text</strong>: es un editor de código más intuitivo que Emacs pero tiene licencia de pago.</p></li>
+<li><p><strong>Atom</strong>: otro editor de código que es de código abierto pero está descontinuado.</p></li>
+<li><p><strong>Visual Studio Code</strong></p></li>
+<li><p><strong>Positron</strong>: editor de código creado por Posit (empresa a cargo de RStudio) que se inspira en Visual Studio Code.</p></li>
 </ul>
 <p>En este práctico aprenderemos a usar Visual Studio Code.</p>
 <section id="qué-es-visual-studio-code" class="level2">
 <h2 class="anchored" data-anchor-id="qué-es-visual-studio-code">¿Qué es Visual Studio Code?</h2>
 <p><img src="images/vscode.png" class="img-fluid"></p>
-<p>Es un <strong>editor de texto avanzado</strong> pensado para escribir código. Es desarrollado por Microsoft y es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y nivel de personalización.</p>
+<p>Es un <strong>editor de código avanzado</strong> desarrollado por Microsoft que es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y alto nivel de personalización.</p>
 </section>
 <section id="principales-ventajas" class="level2">
 <h2 class="anchored" data-anchor-id="principales-ventajas">Principales ventajas</h2>
@@ -295,12 +302,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="barra-de-herramientas" class="level3">
 <h3 class="anchored" data-anchor-id="barra-de-herramientas">Barra de herramientas</h3>
-<p>mostrar las herramientas una por una y explicar brevemente qué hace cada una</p>
 <section id="buscador" class="level4">
 <h4 class="anchored" data-anchor-id="buscador"><img src="images/buscador.png" class="img-fluid"> Buscador</h4>
 <ul>
 <li><p>El software tiene un buscador de archivos integrado</p></li>
-<li><p>Busca en distintos niveles de anidación: permite ubicar tanto palabras <br> dentro de los documentos como dentro de las carpeta</p></li>
+<li><p>Opera en distintos niveles de anidación: permite ubicar palabras <br> buscando en todos los documentos y carpetas del directorio</p></li>
 </ul>
 </section>
 <section id="documentos" class="level4">
@@ -421,13 +427,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
