@@ -1,5 +1,5 @@
 ---
-title: "Pŕactico 1: Editores de texto"
+title: "Pŕactico 1: Editores de código"
 date: "2026-03-19"
 lang: es
 website:
@@ -8,21 +8,21 @@ website:
       repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
-# ¿Qué son los editores de texto?
+# ¿Qué son los editores de código?
 
-Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos.
+Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos. Los editores de código permiten el uso de distintos lenguajes, tanto de programación como de comunicación, por ejemplo, el español. 
 
-Algunos editores de texto reconocidos son:
+Algunos editores de código reconocidos son:
 
-- Visual Studio Code 
+- Emacs: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.
 
-- Positron
+- Sublime Text: es un editor de texto pero tiene licencia de pago
 
-- Sublime Text
+- Atom: es un muy buen editor de código abierto pero está descontinuado.
 
-- Atom
+- Visual Studio Code
 
-- Emacs
+- Positron: Es una versión forkeada de Visual Studio Code.
 
 En este práctico aprenderemos a usar Visual Studio Code.
 
@@ -72,15 +72,15 @@ En este punto la idea es presentar cada sección de la interfaz y sus opciones
 
 #### Archivos
 
-Aquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.
+- Aquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.
 
-Ejemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.
+- Ejemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.
 
 #### Edición
 
-Ofrece alternativas de edición del documento.
+- Ofrece alternativas de edición del documento.
 
-Ejemplo: Copiar; Pegar; Deshacer; Encontrar, etc.
+- Ejemplo: Copiar; Pegar; Deshacer; Encontrar, etc.
 
 
 ### Barra de herramientas
@@ -125,6 +125,8 @@ mostrar las herramientas una por una y explicar brevemente qué hace cada una
 ## Shortcuts
 
 `Ctrl + N`: Crear documento
+
+`Ctrl + S`: Guardar documento
 
 `Ctrl + Shift + P`: Abrir barra de comandos
 

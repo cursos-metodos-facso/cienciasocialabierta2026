@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Ciencia Social Abierta">
 
-<title>Pŕactico 1: Editores de texto – Ciencia Social Abierta</title>
+<title>Pŕactico 1: Editores de código – Ciencia Social Abierta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../files/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9f30c2c2d2429ed22c1cf9f617479b3b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-714236981af90747fd9122a10e09e080.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5df54514c0e00397a20b0409eab6ab00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -57,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -72,20 +73,22 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Pŕactico 1: Editores de texto – Ciencia Social Abierta">
+<meta property="og:title" content="Pŕactico 1: Editores de código – Ciencia Social Abierta">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://multinivel-facso.netlify.app/assignment/files/logo.png">
 <meta property="og:site_name" content="Ciencia Social Abierta">
 <meta property="og:locale" content="es">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ciencia Social Abierta</span>
     </a>
@@ -113,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Clases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assignment/index.html"> 
+    <a class="nav-link active" href="../assignment/index.html" aria-current="page"> 
 <span class="menu-text">Prácticos</span></a>
   </li>  
   <li class="nav-item">
@@ -135,17 +138,72 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Guías</a></li><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Práctico 1</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sobre prácticos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignment/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instrucciones generales</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Guías</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignment/01-practico.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Práctico 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#qué-son-los-editores-de-texto" id="toc-qué-son-los-editores-de-texto" class="nav-link active" data-scroll-target="#qué-son-los-editores-de-texto">¿Qué son los editores de texto?</a>
+  <li><a href="#qué-son-los-editores-de-código" id="toc-qué-son-los-editores-de-código" class="nav-link active" data-scroll-target="#qué-son-los-editores-de-código">¿Qué son los editores de código?</a>
   <ul class="collapse">
   <li><a href="#qué-es-visual-studio-code" id="toc-qué-es-visual-studio-code" class="nav-link" data-scroll-target="#qué-es-visual-studio-code">¿Qué es Visual Studio Code?</a></li>
   <li><a href="#principales-ventajas" id="toc-principales-ventajas" class="nav-link" data-scroll-target="#principales-ventajas">Principales ventajas</a></li>
@@ -167,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Pŕactico 1: Editores de texto</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Guías</a></li><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Práctico 1</a></li></ol></nav><h1 class="title display-7">Pŕactico 1: Editores de código</h1></header>
 
 <header id="title-block-header">
 
@@ -178,16 +236,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="qué-son-los-editores-de-texto" class="level1">
-<h1>¿Qué son los editores de texto?</h1>
-<p>Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos.</p>
-<p>Algunos editores de texto reconocidos son:</p>
+<section id="qué-son-los-editores-de-código" class="level1">
+<h1>¿Qué son los editores de código?</h1>
+<p>Son programas para escribir y editar código fuente de distintos lenguajes. El uso de este tipo de herramientas es popular entre especialistas de la programación y analistas de datos. Los editores de código permiten el uso de distintos lenguajes, tanto de programación como de comunicación, por ejemplo, el español.</p>
+<p>Algunos editores de código reconocidos son:</p>
 <ul>
+<li><p>Emacs: es uno de los primeros editores de código, lanzado en 1985, y creado por Richarch Stallman, quien es el creador del movimiento Software libre.</p></li>
+<li><p>Sublime Text: es un editor de texto pero tiene licencia de pago</p></li>
+<li><p>Atom: es un muy buen editor de código abierto pero está descontinuado.</p></li>
 <li><p>Visual Studio Code</p></li>
-<li><p>Positron</p></li>
-<li><p>Sublime Text</p></li>
-<li><p>Atom</p></li>
-<li><p>Emacs</p></li>
+<li><p>Positron: Es una versión forkeada de Visual Studio Code.</p></li>
 </ul>
 <p>En este práctico aprenderemos a usar Visual Studio Code.</p>
 <section id="qué-es-visual-studio-code" class="level2">
@@ -229,13 +287,17 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="menú-superior-describir-los-más-importantes">Menú superior (describir los más importantes)</h3>
 <section id="archivos" class="level4">
 <h4 class="anchored" data-anchor-id="archivos">Archivos</h4>
-<p>Aquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.</p>
-<p>Ejemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.</p>
+<ul>
+<li><p>Aquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.</p></li>
+<li><p>Ejemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.</p></li>
+</ul>
 </section>
 <section id="edición" class="level4">
 <h4 class="anchored" data-anchor-id="edición">Edición</h4>
-<p>Ofrece alternativas de edición del documento.</p>
-<p>Ejemplo: Copiar; Pegar; Deshacer; Encontrar, etc.</p>
+<ul>
+<li><p>Ofrece alternativas de edición del documento.</p></li>
+<li><p>Ejemplo: Copiar; Pegar; Deshacer; Encontrar, etc.</p></li>
+</ul>
 </section>
 </section>
 <section id="barra-de-herramientas" class="level3">
@@ -275,6 +337,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="shortcuts" class="level2">
 <h2 class="anchored" data-anchor-id="shortcuts">Shortcuts</h2>
 <p><code>Ctrl + N</code>: Crear documento</p>
+<p><code>Ctrl + S</code>: Guardar documento</p>
 <p><code>Ctrl + Shift + P</code>: Abrir barra de comandos</p>
 <p><code>Ctrl + Shift + K</code>: Preview Quarto</p>
 <p><code>Ctrl + K + C</code>: Añadir comentario</p>
@@ -365,13 +428,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

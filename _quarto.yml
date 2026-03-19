@@ -83,6 +83,8 @@ website:
             - assignment/index.qmd
         - section: "Guías"
           contents:
+            - text: "Práctico 1"
+              file: assignment/01-practico.qmd          
                        
   page-footer:
     left: |
@@ -100,4 +102,4 @@ format:
       - litera
       - html/custom.scss
     toc: true
-    highlight-style: monokai
+    highlight-style: github
