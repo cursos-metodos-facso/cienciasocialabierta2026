@@ -1,100 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/11-practico.html</loc>
-    <lastmod>2025-06-05T18:32:51.372Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/02-practico.html</loc>
-    <lastmod>2025-03-19T21:12:32.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/05-practico.html</loc>
-    <lastmod>2025-05-27T18:27:38.361Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/08-practico.html</loc>
-    <lastmod>2025-06-05T18:07:21.439Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/03-practico.html</loc>
-    <lastmod>2025-04-03T12:41:47.214Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/10-practico.html</loc>
-    <lastmod>2025-06-05T18:32:51.372Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/mathjax.html</loc>
-    <lastmod>2025-06-13T18:40:12.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/pruebas_here.html</loc>
-    <lastmod>2023-09-15T22:07:16.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/index.html</loc>
-    <lastmod>2026-03-19T18:21:43.043Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/schedule2.html</loc>
-    <lastmod>2026-03-12T03:20:42.556Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/resource/install.html</loc>
-    <lastmod>2026-03-12T03:20:42.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/classroom.html</loc>
-    <lastmod>2025-05-22T12:22:53.020Z</lastmod>
-  </url>
-  <url>
     <loc>https://multinivel-facso.netlify.app/trabajos.html</loc>
     <lastmod>2026-03-12T13:51:26.430Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-06-13_nuevos-practicos.html</loc>
-    <lastmod>2026-03-12T03:20:42.524Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/schedule.html</loc>
+    <lastmod>2026-03-20T10:44:56.234Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-05-26_nuevas-practicas.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/resource/index.html</loc>
+    <lastmod>2026-03-12T13:51:26.429Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-05-23_github-desktop.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2023_Teaching_Constructiv.html</loc>
+    <lastmod>2026-03-21T12:44:01.266Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-04-24_githubclassrooom.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2023_Perceived_Benefits_o.html</loc>
+    <lastmod>2026-03-21T12:44:01.270Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-04-15_trabajos.html</loc>
-    <lastmod>2026-03-03T14:53:55.521Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2023_Care_to_Share_Experi.html</loc>
+    <lastmod>2026-03-21T12:44:01.304Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/index.html</loc>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Teaching_Constructiv.html</loc>
+    <lastmod>2026-03-21T12:44:01.264Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Rediscovering_the_1_.html</loc>
+    <lastmod>2026-03-21T12:44:01.299Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Métricas_de_La_Produ.html</loc>
+    <lastmod>2026-03-21T12:44:01.332Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Advances_in_Transpar.html</loc>
+    <lastmod>2026-03-21T12:44:01.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2021_Has_the_Credibility_.html</loc>
+    <lastmod>2026-03-21T12:44:01.249Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2021_Ciencia_Abierta_Un_M.html</loc>
+    <lastmod>2026-03-21T12:44:01.246Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Why_Researchers_Shou.html</loc>
+    <lastmod>2026-03-21T12:44:01.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Teaching_Replication.html</loc>
+    <lastmod>2026-03-21T12:44:01.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Internationalizing_a.html</loc>
+    <lastmod>2026-03-21T12:44:01.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2018_The_Preregistration_.html</loc>
+    <lastmod>2026-03-21T12:44:01.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2018_How_(and_Whether)_to.html</loc>
+    <lastmod>2026-03-21T12:44:01.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2016_1,500_Scientists_Lif.html</loc>
+    <lastmod>2026-03-21T12:44:01.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2015_The_Extent_and_Conse.html</loc>
+    <lastmod>2026-03-21T12:44:01.294Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2012_The_Conundrum_of_Sha.html</loc>
+    <lastmod>2026-03-21T12:44:01.268Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2011_Choosing_Your_Workfl.html</loc>
+    <lastmod>2026-03-21T12:44:01.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/index.html</loc>
+    <lastmod>2026-03-20T10:52:55.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</loc>
+    <lastmod>2026-03-19T17:16:15.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/index.html</loc>
+    <lastmod>2026-03-21T12:59:04.722Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/content/10-content.html</loc>
     <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/09-content.html</loc>
-    <lastmod>2025-06-04T02:27:33.667Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/08-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/07-content.html</loc>
-    <lastmod>2025-05-22T18:19:47.889Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/06-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/05-content.html</loc>
-    <lastmod>2025-04-10T14:47:15.479Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/04-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/03-content.html</loc>
-    <lastmod>2025-04-14T20:14:36.195Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/02-content.html</loc>
+    <lastmod>2026-03-19T17:09:44.433Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/01-content.html</loc>
-    <lastmod>2026-03-17T13:55:36.997Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/assignment/quarto-presentations.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/assignment/index.html</loc>
@@ -102,106 +126,290 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/assignment/desktop.html</loc>
-    <lastmod>2025-05-22T12:02:03.084Z</lastmod>
+    <lastmod>2026-03-04T20:35:28.913Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/quarto-presentations.html</loc>
-    <lastmod>2025-06-13T19:27:59.246Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/assignment/01-practico.html</loc>
+    <lastmod>2026-03-20T01:36:58.937Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/02-content.html</loc>
-    <lastmod>2026-03-19T17:09:44.433Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/assignment/classroom.html</loc>
+    <lastmod>2026-03-04T20:35:28.775Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/04-content.html</loc>
-    <lastmod>2025-04-10T14:46:26.651Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/assignment/glosario.html</loc>
+    <lastmod>2026-03-04T20:35:28.913Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/06-content.html</loc>
-    <lastmod>2025-05-22T14:34:20.786Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/assignment/pruebas_here.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/08-content.html</loc>
-    <lastmod>2025-05-29T18:29:29.061Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/01-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/content/10-content.html</loc>
-    <lastmod>2023-11-10T11:33:33.000Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/03-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/example/index.html</loc>
-    <lastmod>2026-03-03T14:53:54.310Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/05-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-04-23_inicio.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/07-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-04-24_nuevo-texto.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/09-content.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-05-23_video-tutorial-classroom.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/content/index.html</loc>
+    <lastmod>2026-03-04T20:35:28.915Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2025-06-12_feedback-avance.html</loc>
-    <lastmod>2026-03-03T14:53:55.522Z</lastmod>
-  </url>
-  <url>
-    <loc>https://multinivel-facso.netlify.app/resource/index.html</loc>
-    <lastmod>2026-03-12T03:20:42.550Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</loc>
+    <lastmod>2026-03-12T13:51:26.429Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/news/index.html</loc>
     <lastmod>2026-03-12T13:51:26.429Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/schedule.html</loc>
-    <lastmod>2026-03-19T03:12:48.356Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/1973_The_Sociology_of_Sci.html</loc>
+    <lastmod>2026-03-21T12:44:01.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2011_Reproducible_Researc.html</loc>
+    <lastmod>2026-03-21T12:44:01.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2015_Promoting_an_Open_Re.html</loc>
+    <lastmod>2026-03-21T12:44:01.318Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2015_The_Reproducibility_.html</loc>
+    <lastmod>2026-03-21T12:44:01.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2017_Cómo_mejorar_su_rela.html</loc>
+    <lastmod>2026-03-21T12:44:01.273Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2018_The_Plain_Person’s_G.html</loc>
+    <lastmod>2026-03-21T12:44:01.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Answers_to_18_Questi.html</loc>
+    <lastmod>2026-03-21T12:44:01.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Survey_on_Scientific.html</loc>
+    <lastmod>2026-03-21T12:44:01.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2019_Transparent_and_Repr.html</loc>
+    <lastmod>2026-03-21T12:44:01.285Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2021_Article_Processing_C.html</loc>
+    <lastmod>2026-03-21T12:44:01.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2021_Does_Sociology_Need_.html</loc>
+    <lastmod>2026-03-21T12:44:01.275Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2021_UNESCO_Recommendatio.html</loc>
+    <lastmod>2026-03-21T12:44:01.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_How_to_Increase_Repr.html</loc>
+    <lastmod>2026-03-21T12:44:01.251Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Observing_Many_Resea.html</loc>
+    <lastmod>2026-03-21T12:44:01.279Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_Sentencing_Social_Ps.html</loc>
+    <lastmod>2026-03-21T12:44:01.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2022_The_Impact_of_Open_a.html</loc>
+    <lastmod>2026-03-21T12:44:01.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2023_Exchanging_Words_Eng.html</loc>
+    <lastmod>2026-03-21T12:44:01.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2023_Philosophy_of_Open_S.html</loc>
+    <lastmod>2026-03-21T12:44:01.310Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/referencias/posts/2026_The_Path_toward_Ethi.html</loc>
+    <lastmod>2026-03-21T12:44:01.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/resource/install.html</loc>
+    <lastmod>2026-03-04T20:35:29.936Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/syllabus.html</loc>
-    <lastmod>2026-03-19T03:12:48.399Z</lastmod>
+    <lastmod>2026-03-12T13:56:30.114Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/glosario.html</loc>
-    <lastmod>2025-06-13T21:42:19.553Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2026_The_Path_toward_Ethi.html</loc>
+    <lastmod>2026-03-21T12:55:43.630Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/resource/presentacion-template.html</loc>
-    <lastmod>2026-03-12T03:20:42.556Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2023_Philosophy_of_Open_S.html</loc>
+    <lastmod>2026-03-21T12:55:43.627Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/example/cace.html</loc>
-    <lastmod>2026-03-03T14:53:54.310Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2023_Exchanging_Words_Eng.html</loc>
+    <lastmod>2026-03-21T12:55:43.624Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/01-practico.html</loc>
-    <lastmod>2026-03-19T18:43:14.367Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_The_Impact_of_Open_a.html</loc>
+    <lastmod>2026-03-21T12:55:43.621Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/07-practico.html</loc>
-    <lastmod>2025-05-29T18:13:18.301Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Sentencing_Social_Ps.html</loc>
+    <lastmod>2026-03-21T12:55:43.618Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/09-practico.html</loc>
-    <lastmod>2025-06-05T18:32:51.372Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Observing_Many_Resea.html</loc>
+    <lastmod>2026-03-21T12:55:43.615Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/06-practico.html</loc>
-    <lastmod>2025-05-27T18:27:38.362Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_How_to_Increase_Repr.html</loc>
+    <lastmod>2026-03-21T12:55:43.612Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/assignment/04-practico.html</loc>
-    <lastmod>2025-05-27T18:27:38.361Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2021_UNESCO_Recommendatio.html</loc>
+    <lastmod>2026-03-21T12:55:43.609Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</loc>
-    <lastmod>2026-03-12T14:56:33.261Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2021_Does_Sociology_Need_.html</loc>
+    <lastmod>2026-03-21T12:55:43.606Z</lastmod>
   </url>
   <url>
-    <loc>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</loc>
-    <lastmod>2026-03-19T18:21:43.045Z</lastmod>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2021_Article_Processing_C.html</loc>
+    <lastmod>2026-03-21T12:55:43.603Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Transparent_and_Repr.html</loc>
+    <lastmod>2026-03-21T12:55:43.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Survey_on_Scientific.html</loc>
+    <lastmod>2026-03-21T12:55:43.598Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Answers_to_18_Questi.html</loc>
+    <lastmod>2026-03-21T12:55:43.595Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2018_The_Plain_Person’s_G.html</loc>
+    <lastmod>2026-03-21T12:55:43.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2017_Cómo_mejorar_su_rela.html</loc>
+    <lastmod>2026-03-21T12:55:43.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2015_The_Reproducibility_.html</loc>
+    <lastmod>2026-03-21T12:55:43.586Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2015_Promoting_an_Open_Re.html</loc>
+    <lastmod>2026-03-21T12:55:43.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2011_Reproducible_Researc.html</loc>
+    <lastmod>2026-03-21T12:55:43.579Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/1973_The_Sociology_of_Sci.html</loc>
+    <lastmod>2026-03-21T12:55:43.576Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/index.html</loc>
+    <lastmod>2026-03-21T12:58:32.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2011_Choosing_Your_Workfl.html</loc>
+    <lastmod>2026-03-21T12:55:43.577Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2012_The_Conundrum_of_Sha.html</loc>
+    <lastmod>2026-03-21T12:55:43.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2015_The_Extent_and_Conse.html</loc>
+    <lastmod>2026-03-21T12:55:43.584Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2016_1,500_Scientists_Lif.html</loc>
+    <lastmod>2026-03-21T12:55:43.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2018_How_(and_Whether)_to.html</loc>
+    <lastmod>2026-03-21T12:55:43.590Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2018_The_Preregistration_.html</loc>
+    <lastmod>2026-03-21T12:55:43.593Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Internationalizing_a.html</loc>
+    <lastmod>2026-03-21T12:55:43.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Teaching_Replication.html</loc>
+    <lastmod>2026-03-21T12:55:43.599Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2019_Why_Researchers_Shou.html</loc>
+    <lastmod>2026-03-21T12:55:43.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2021_Ciencia_Abierta_Un_M.html</loc>
+    <lastmod>2026-03-21T12:55:43.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2021_Has_the_Credibility_.html</loc>
+    <lastmod>2026-03-21T12:55:43.608Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Advances_in_Transpar.html</loc>
+    <lastmod>2026-03-21T12:55:43.610Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Métricas_de_La_Produ.html</loc>
+    <lastmod>2026-03-21T12:55:43.613Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Rediscovering_the_1_.html</loc>
+    <lastmod>2026-03-21T12:55:43.616Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2022_Teaching_Constructiv.html</loc>
+    <lastmod>2026-03-21T12:55:43.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2023_Care_to_Share_Experi.html</loc>
+    <lastmod>2026-03-21T12:55:43.623Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2023_Perceived_Benefits_o.html</loc>
+    <lastmod>2026-03-21T12:55:43.626Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/references/publications/posts/2023_Teaching_Constructiv.html</loc>
+    <lastmod>2026-03-21T12:55:43.629Z</lastmod>
   </url>
 </urlset>

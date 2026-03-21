@@ -74,3 +74,10 @@ $code-block-border-color: #93a1a1 !default;
     color: #ffffff;
   }
 }
+
+.reveal .slides section.vcenter {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+}

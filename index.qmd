@@ -46,7 +46,7 @@ listing:
 - {{< fa building >}} &nbsp; {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; <a href="mailto:juancastillov@uchile.cl">juancastillov@uchile.cl</a>
 - {{< fa brands github >}} &nbsp; <a href="https://github.com/juancarloscastillo >}}">juancarloscastillo</a>
-- {{< fa house >}} &nbsp; <a href="https://jc-castillo.com/">jc-castillo.com</a>
+- {{< fa house >}} &nbsp; <a href="https://jc-castillo.com/">jc-castillo.com</a>}
 - {{< fa calendar-check >}} &nbsp; [Agendar reunión]({{< var instructor.appointment_url >}})
 
 :::

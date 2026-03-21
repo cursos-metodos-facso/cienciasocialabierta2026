@@ -56,9 +56,8 @@ website:
         file: trabajos.qmd
       - text: "Recursos"
         file: resource/index.qmd
-      - icon: cloud-fill
-        href: "https://rstudio.cloud"
-        aria-label: RStudio.cloud
+      - text: "Referencias"
+        file: references/publications/index.qmd
 
   sidebar:
     - title: "Clases"
