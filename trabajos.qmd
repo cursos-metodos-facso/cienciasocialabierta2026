@@ -12,7 +12,7 @@ website:
 Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.
 
 ## Pauta para el reporte
-1. **Selección del artículo**: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.
+1. **Selección del artículo**: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.
 2. **Evaluación de reproducibilidad**: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:
    - **Disponibilidad de datos**: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?
    - **Disponibilidad de código**: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?
@@ -34,6 +34,12 @@ Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de r
 ## Revisión cruzada
 
 Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
+
+## Artículos / reportes sugeridos
+
+
+
+
 
 # Trabajo 2: Reporte abierto 
 
