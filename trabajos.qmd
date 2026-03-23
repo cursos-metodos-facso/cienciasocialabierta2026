@@ -12,24 +12,25 @@ website:
 Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.
 
 ## Pauta para el reporte
-1. **Selección del artículo**: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.
-2. **Evaluación de reproducibilidad**: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:
-   - **Disponibilidad de datos**: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?
-   - **Disponibilidad de código**: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?
-   - **Documentación**: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?
-   - **Transparencia**: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?
-3. **Análisis reproducible**: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió. 
-4. **Conclusiones**: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.
-5. **Recomendaciones**: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
-6. **Formato del reporte**: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto
+
+1.  **Selección del artículo**: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.
+2.  **Evaluación de reproducibilidad**: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:
+    -   **Disponibilidad de datos**: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?
+    -   **Disponibilidad de código**: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?
+    -   **Documentación**: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?
+    -   **Transparencia**: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?
+3.  **Análisis reproducible**: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.
+4.  **Conclusiones**: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.
+5.  **Recomendaciones**: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
+6.  **Formato del reporte**: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto
 
 ## Plantilla y avance
 
-- se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.
-- con fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:
- - articulo seleccionado (enviar link o pdf)
- - disponibilidad de datos y código
- - tabla o figura seleccionada para reproducir
+-   se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.
+-   con fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:
+-   articulo seleccionado (enviar link o pdf)
+-   disponibilidad de datos y código
+-   tabla o figura seleccionada para reproducir
 
 ## Revisión cruzada
 
@@ -37,11 +38,21 @@ Una vez entregados los reportes finales, se realizará una revisión cruzada ent
 
 ## Artículos / reportes sugeridos
 
+La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.
 
+| Fuente | Ejemplo | Tipo de análisis | Datos | Por qué puede servir |
+|------------|---------------------------|------------|------------|------------|
+| CEP | [Encuesta CEP n°95, octubre 2025](https://www.cepchile.cl/encuesta/encuesta-cep-n-95-septiembre-octubre-2025/) | Descriptivos, cruces, comparaciones de grupos | Acceso abierto | Buen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas. |
+| CEP | [Mejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?](https://static.cepchile.cl/uploads/cepchile/2022/09/pder621_mjabud_aescobar_clefoulon_vsalvatierra.pdf) | Descriptivos y comparación entre grupos | Acceso abierto | Útil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático. |
+| ISSP | [The Perception of Social Inequality Around the Globe](https://doi.org/10.1080/00207659.2023.2251788) | Comparación internacional, asociaciones y modelos simples | Datos ISSP disponibles públicamente | Buen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países. |
+| CASEN | [CASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile](https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/casen/2022/Presentaci%C3%B3n_Resultados_Casen_2022%20_v20oct23.pdf) | Descriptivos, comparaciones temporales y regionales | Acceso abierto | Muy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles. |
+| ENUT | [Síntesis de resultados II ENUT 2023](http://www.ine.gob.cl/docs/default-source/uso-del-tiempo-tiempo-libre/publicaciones-y-anuarios/ii-enut/sintesis-de-resultados-ii-enut-2023.pdf?sfvrsn=b2f4183c_4) | Descriptivos y comparación por sexo, edad y situación laboral | Acceso abierto | Muy recomendable para temas de género, cuidados y trabajo no remunerado. |
+| Latinobarómetro | [Informe Latinobarómetro 2024: La Democracia Resiliente](https://www.latinobarometro.org/news/informe-latinobarometro-2024-la-democracia-resiliente) | Comparaciones entre países y en el tiempo | Acceso abierto | Muy útil para estudios de democracia, confianza y actitudes políticas en América Latina. |
+| ELSOC | [Radiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023](https://coes.cl/wp-content/uploads/2025/05/Radiografia-Cohesion-social-2016-2023-Sentido-de-pertenencia.pdf) | Descriptivos longitudinales y asociaciones simples | Información pública del estudio y reportes disponibles | Muy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social. |
 
+En general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable.
 
-
-# Trabajo 2: Reporte abierto 
+# Trabajo 2: Reporte abierto
 
 El objetivo de este trabajo es que los estudiantes apliquen los conceptos de ciencia abierta a un tema de su interés dentro del ámbito de las ciencias sociales. Para esto, deberán seleccionar un tema específico y desarrollar un reporte abierto siguiendo las pautas que se detallan a continuación. También pueden tomar algún trabajo realizado en el marco de alguna otra asignatura, siempre que se adapte a las pautas de este trabajo.
 
