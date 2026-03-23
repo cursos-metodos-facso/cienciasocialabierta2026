@@ -1,5 +1,5 @@
 ---
-title: "Trabajos"
+title: "Evaluaciones"
 lang: es
 website:
   comments:
@@ -7,3 +7,36 @@ website:
       repo: cursos-metodos-facso/cienciasocialabierta2026
 ---
 
+# Trabajo 1: Reporte de reproducibilidad
+
+Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.
+
+## Pauta para el reporte
+1. **Selección del artículo**: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.
+2. **Evaluación de reproducibilidad**: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:
+   - **Disponibilidad de datos**: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?
+   - **Disponibilidad de código**: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?
+   - **Documentación**: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?
+   - **Transparencia**: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?
+3. **Análisis reproducible**: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió. 
+4. **Conclusiones**: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.
+5. **Recomendaciones**: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
+6. **Formato del reporte**: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto
+
+## Plantilla y avance
+
+- se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.
+- con fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:
+ - articulo seleccionado (enviar link o pdf)
+ - disponibilidad de datos y código
+ - tabla o figura seleccionada para reproducir
+
+## Revisión cruzada
+
+Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
+
+# Trabajo 2: Reporte abierto 
+
+El objetivo de este trabajo es que los estudiantes apliquen los conceptos de ciencia abierta a un tema de su interés dentro del ámbito de las ciencias sociales. Para esto, deberán seleccionar un tema específico y desarrollar un reporte abierto siguiendo las pautas que se detallan a continuación. También pueden tomar algún trabajo realizado en el marco de alguna otra asignatura, siempre que se adapte a las pautas de este trabajo.
+
+## Pauta para el reporte (por definir)

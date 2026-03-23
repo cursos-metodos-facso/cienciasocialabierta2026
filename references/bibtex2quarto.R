@@ -442,7 +442,7 @@ out_fold   <- "references/publications/posts"
 bibtex_2academic(bibfile  = my_bibfile,
                   outfold   = out_fold,
                   abstract  = TRUE,
-                  overwrite = TRUE)
+                  overwrite = TRUE) 
 
 # Run this in R (within your website project folder): 
 

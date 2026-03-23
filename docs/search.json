@@ -1109,5 +1109,54 @@
     "title": "Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data",
     "section": "",
     "text": "How to cite this work\n\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2023). Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data. Teaching of Psychology 00986283231219503 https://doi.org/10.1177/00986283231219503"
+  },
+  {
+    "objectID": "trabajos.html",
+    "href": "trabajos.html",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.\n\n\n\nSelección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto\n\n\n\n\n\nse pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir\n\n\n\n\nUna vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado."
+  },
+  {
+    "objectID": "trabajos.html#pautas-para-el-reporte",
+    "href": "trabajos.html#pautas-para-el-reporte",
+    "title": "Trabajos",
+    "section": "",
+    "text": "Selección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto"
+  },
+  {
+    "objectID": "trabajos.html#pauta-para-el-reporte",
+    "href": "trabajos.html#pauta-para-el-reporte",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Selección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto"
+  },
+  {
+    "objectID": "trabajos.html#notas",
+    "href": "trabajos.html#notas",
+    "title": "Trabajos",
+    "section": "",
+    "text": "se pondrá a disponsición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir"
+  },
+  {
+    "objectID": "trabajos.html#plantilla-y-avance",
+    "href": "trabajos.html#plantilla-y-avance",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir"
+  },
+  {
+    "objectID": "trabajos.html#pauta-para-el-reporte-por-definir",
+    "href": "trabajos.html#pauta-para-el-reporte-por-definir",
+    "title": "Evaluaciones",
+    "section": "Pauta para el reporte (por definir)",
+    "text": "Pauta para el reporte (por definir)"
+  },
+  {
+    "objectID": "trabajos.html#revisión-cruzada",
+    "href": "trabajos.html#revisión-cruzada",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado."
   }
 ]
