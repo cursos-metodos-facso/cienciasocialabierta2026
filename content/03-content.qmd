@@ -1,5 +1,5 @@
 ---
-title: "Taller Git & Github"
+title: "Escritura y citas en Texto plano"
 date: "2025-03-27"
 lang: es
 website:
@@ -10,7 +10,7 @@ website:
 
 # Documento de presentación
 
-<iframe src="https://martin-venegas-m.github.io/taller-git-uch/#1" height="550" width=100% allowfullscreen="true">
+<iframe src="/slides/03-textoplano.html " height="550" width=100% allowfullscreen="true">
 </iframe> 
 
 
