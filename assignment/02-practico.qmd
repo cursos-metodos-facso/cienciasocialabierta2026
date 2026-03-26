@@ -113,13 +113,13 @@ El YAML (donde van los metadatos del documento) debería verse algo así:
 | Sabbagh `[-@sabbagh_dimension_2003, pp.35]` dice ...|  Sabbagh (`2003, p.35`) dice ...|
 
 
-Para las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y tachen la siguiente opción:
+Para las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y marcar la siguiente opción:
 
 ![](images/pandoc.png)
 
 # Actividades prácticas 
 
-## Actividad 1 
+## Actividad 1: Zotero 
 
 - Cree una carpeta en su escritorio que se llame "practico-02"
 
@@ -133,7 +133,7 @@ Para las actividades prácticas, necesitaremos que ingresen a las configuracione
 
 - Descargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada
 
-## Actividad 2
+## Actividad 2: Zotero en VSCode
 
 - Abra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo
 

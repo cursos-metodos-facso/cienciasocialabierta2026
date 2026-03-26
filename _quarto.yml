@@ -75,6 +75,8 @@ website:
               file: content/01-content.qmd
             - text: "Sesión 2"
               file: content/02-content.qmd
+            - text: "Sesión 3"
+              file: content/03-content.qmd              
 
     - title: "Prácticos"
       contents:
@@ -84,7 +86,9 @@ website:
         - section: "Guías"
           contents:
             - text: "Práctico 1"
-              file: assignment/01-practico.qmd          
+              file: assignment/01-practico.qmd      
+            - text: "Práctico 2"
+              file: assignment/02-practico.qmd                    
                        
   page-footer:
     left: |

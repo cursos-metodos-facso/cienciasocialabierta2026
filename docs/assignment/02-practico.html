@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:locale" content="es">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Clases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assignment/index.html"> 
+    <a class="nav-link active" href="../assignment/index.html" aria-current="page"> 
 <span class="menu-text">Prácticos</span></a>
   </li>  
   <li class="nav-item">
@@ -137,10 +137,71 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Guías</a></li><li class="breadcrumb-item"><a href="../assignment/02-practico.html">Práctico 2</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Sobre prácticos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignment/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instrucciones generales</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Guías</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignment/01-practico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Práctico 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignment/02-practico.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Práctico 2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -164,14 +225,14 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#actividades-prácticas" id="toc-actividades-prácticas" class="nav-link" data-scroll-target="#actividades-prácticas">Actividades prácticas</a>
   <ul class="collapse">
-  <li><a href="#actividad-1" id="toc-actividad-1" class="nav-link" data-scroll-target="#actividad-1">Actividad 1</a></li>
-  <li><a href="#actividad-2" id="toc-actividad-2" class="nav-link" data-scroll-target="#actividad-2">Actividad 2</a></li>
+  <li><a href="#actividad-1-zotero" id="toc-actividad-1-zotero" class="nav-link" data-scroll-target="#actividad-1-zotero">Actividad 1: Zotero</a></li>
+  <li><a href="#actividad-2-zotero-en-vscode" id="toc-actividad-2-zotero-en-vscode" class="nav-link" data-scroll-target="#actividad-2-zotero-en-vscode">Actividad 2: Zotero en VSCode</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Pŕactico 2: Automatización de referencias bibliográficas</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignment/01-practico.html">Guías</a></li><li class="breadcrumb-item"><a href="../assignment/02-practico.html">Práctico 2</a></li></ol></nav><h1 class="title display-7">Pŕactico 2: Automatización de referencias bibliográficas</h1></header>
 
 <header id="title-block-header">
 
@@ -297,14 +358,14 @@ editor: source
 </tr>
 </tbody>
 </table>
-<p>Para las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y tachen la siguiente opción:</p>
+<p>Para las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y marcar la siguiente opción:</p>
 <p><img src="images/pandoc.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="actividades-prácticas" class="level1">
 <h1>Actividades prácticas</h1>
-<section id="actividad-1" class="level2">
-<h2 class="anchored" data-anchor-id="actividad-1">Actividad 1</h2>
+<section id="actividad-1-zotero" class="level2">
+<h2 class="anchored" data-anchor-id="actividad-1-zotero">Actividad 1: Zotero</h2>
 <ul>
 <li><p>Cree una carpeta en su escritorio que se llame “practico-02”</p></li>
 <li><p>Abra Zotero y añada una nueva colección en su biblioteca</p></li>
@@ -314,8 +375,8 @@ editor: source
 <li><p>Descargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada</p></li>
 </ul>
 </section>
-<section id="actividad-2" class="level2">
-<h2 class="anchored" data-anchor-id="actividad-2">Actividad 2</h2>
+<section id="actividad-2-zotero-en-vscode" class="level2">
+<h2 class="anchored" data-anchor-id="actividad-2-zotero-en-vscode">Actividad 2: Zotero en VSCode</h2>
 <ul>
 <li><p>Abra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo</p></li>
 <li><p>Genere un nuevo documento</p></li>
