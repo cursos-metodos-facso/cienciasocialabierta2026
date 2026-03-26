@@ -1165,5 +1165,61 @@
     "title": "Evaluaciones",
     "section": "",
     "text": "La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.\n\n\n\nFuente\nEjemplo\nTipo de análisis\nDatos\nPor qué puede servir\n\n\n\n\nCEP\nEncuesta CEP n°95, octubre 2025\nDescriptivos, cruces, comparaciones de grupos\nAcceso abierto\nBuen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas.\n\n\nCEP\nMejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?\nDescriptivos y comparación entre grupos\nAcceso abierto\nÚtil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático.\n\n\nISSP\nThe Perception of Social Inequality Around the Globe\nComparación internacional, asociaciones y modelos simples\nDatos ISSP disponibles públicamente\nBuen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países.\n\n\nCASEN\nCASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile\nDescriptivos, comparaciones temporales y regionales\nAcceso abierto\nMuy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles.\n\n\nENUT\nSíntesis de resultados II ENUT 2023\nDescriptivos y comparación por sexo, edad y situación laboral\nAcceso abierto\nMuy recomendable para temas de género, cuidados y trabajo no remunerado.\n\n\nLatinobarómetro\nInforme Latinobarómetro 2024: La Democracia Resiliente\nComparaciones entre países y en el tiempo\nAcceso abierto\nMuy útil para estudios de democracia, confianza y actitudes políticas en América Latina.\n\n\nELSOC\nRadiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023\nDescriptivos longitudinales y asociaciones simples\nInformación pública del estudio y reportes disponibles\nMuy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social.\n\n\n\nEn general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable."
+  },
+  {
+    "objectID": "assignment/02-practico.html",
+    "href": "assignment/02-practico.html",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 26 de marzo de 2026"
+  },
+  {
+    "objectID": "assignment/02-practico.html#instalación",
+    "href": "assignment/02-practico.html#instalación",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Instalación",
+    "text": "Instalación\n\n \n\nInstalación de Zotero"
+  },
+  {
+    "objectID": "assignment/02-practico.html#uso-del-software",
+    "href": "assignment/02-practico.html#uso-del-software",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Uso del software",
+    "text": "Uso del software\n\nBibliotecas y colecciones\nAl entrar a Zotero, el software por defecto genera una  biblioteca personal. Dentro de su biblioteca pueden crear  colecciones, las cuales funcionan como carpetas para organizar de mejor manera los contenidos de la biblioteca.\nPara crear una colección, deben clickear el botón de la carpeta gris que está arriba de  My Librarie.\n\n\nCómo guardar citas\nPractiquemos cómo guardar las citas. Existen 3 maneras de guardarlas:\n\n\nMediante la extensión de Google Chrome\n\n\nPrimero hay que asegurar que esté abierto Zotero para que funcione la extensión\nDebemos abrir la página donde se encuentra alojado el artículo, como aquí\nClickeamos la extensión y nos dará la opción de guardar el artículo\nAparece una de nuestras bibliotecas por defecto. Al apretar la flecha que aparece al lado del nombre, se despliega la lista de las demás bibliotecas en caso de que necesitemos cambiarla\n\n\nMediante DOI/ISBN\n\n\nDebemos disponer del DOI y/o ISBN del artículo y copiarlo (Ctrl + C)\nEntramos a Zotero y abrimos la biblioteca en donde queremos guardar la referencia\nClickeamos la varita que se encuentra en la parte superior izquierda\nPegamos (Ctrl + V) el DOI/ISBN del texto y apretamos Enter para guardar\n\n\nVía manual\n\n\nAbrimos la biblioteca donde guardaremos la referencia\nClickeamos el botón de add item que se encuentra al lado izquierdo de la varita (parte superior izquierda)\nElegimos el tipo de documento que registraremos\nRellenamos las secciones con los datos del artículo"
+  },
+  {
+    "objectID": "assignment/02-practico.html#better-bibtex",
+    "href": "assignment/02-practico.html#better-bibtex",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Better BibTeX",
+    "text": "Better BibTeX\nEs un plugin de Zotero que permite exportar las referencias en un formato legible en Latex, Markdown y Quarto.\n\nPara utilizarlo, primero debemos instalar el plugin desde este link\nUna vez descargado, debemos abrir Zotero, ir al menú superior izquierdo y clickear en Tools &gt; Plugins &gt;  &gt; Install plugin from file y seleccionar el archivo descargado\nPara exportar referencias, debemos hacer click derecho en una biblioteca, colección o en los textos que necesitemos, y apretar Export items\nSeleccionamos el formato Betterbibtex y apretamos Ok.\nSe generará un archivo .bib que tendrá almacenadas nuestras referencias, las cuales podemos vincular a los documentos en VSCode"
+  },
+  {
+    "objectID": "assignment/02-practico.html#fundamentales",
+    "href": "assignment/02-practico.html#fundamentales",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Fundamentales",
+    "text": "Fundamentales\nPara referenciar correctamente nuestras citas en los documentos (Quarto), debemos tener en cuenta tres cosas: 1) incluir el archivo .bib en el YAML 2) añadir un archivo .csl (Citation Style Languaje) para especificar el estilo de citación 3) escribir correctamente la citation key\n\nEl archivo .bib debe estar idealmente dentro de nuestro directorio de trabajo para que sea sencillo agregarlo al YAML, ya que se debe escribir la ruta exacta de su ubicación\nEl archivo .csl debe integrarse al YAML al igual que el archivo .bib para que el documento reconozca el tipo de citación que necesitamos\nAquí pueden encontrar distintos tipos de .csl: www.zotero.org/styles\n\nEl YAML (donde van los metadatos del documento) debería verse algo así:\n---\ntitle: \"Práctico 2\"\nformat: html\nbibliography: references.bib\ncsl: apa.csl\neditor: source\n---\n\nPara agregar referencias al documento, la citation key debe estar escrita entre corchetes [] para que sea considerada como una referencia"
+  },
+  {
+    "objectID": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "href": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Maneras de citar en texto plano con Zotero",
+    "text": "Maneras de citar en texto plano con Zotero\n\n\n\n\n\n\n\nSe escribe\nRenderiza\n\n\n\n\nComo dice @sabbagh_dimension_2003\nComo dice Sabbagh (2003)\n\n\n[@sabbagh_dimension_2003] dice …\n(Sabbagh, 2003) dice …\n\n\nSabbagh [-@sabbagh_dimension_2003, pp.35] dice …\nSabbagh (2003, p.35) dice …\n\n\n\nPara las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y tachen la siguiente opción:"
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-1",
+    "href": "assignment/02-practico.html#actividad-1",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 1",
+    "text": "Actividad 1\n\nCree una carpeta en su escritorio que se llame “practico-02”\nAbra Zotero y añada una nueva colección en su biblioteca\nCambie la fórmula de la citation key a esta: [auth:lower]_[shorttitle1:lower]_[year]\nGuarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN\nExporte su colección en formato Better BibTeX y guárdelo en la carpeta del práctico\nDescargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada"
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-2",
+    "href": "assignment/02-practico.html#actividad-2",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 2",
+    "text": "Actividad 2\n\nAbra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo\nGenere un nuevo documento\nCambie el lenguaje del documento a Quarto\nAjuste el YAML para que reconozca los archivos .bib y .csl (puede guiarse con el que está en el ejemplo del práctico)\nEscriba un párrafo que le permita incluir al menos 2 de las referencias que guardó en el documento .bib\nRenderice el documento y verifique que las citas funcionen correctamente"
   }
 ]
