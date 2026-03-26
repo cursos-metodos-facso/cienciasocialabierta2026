@@ -39,7 +39,7 @@ editor: source
 <span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
 
 ----
-<span style="font-size: 1.5em; color: yellow;">Sesión 3: Escritura y citas en texto plano</span>
+<span style="font-size: 1.5em; color: #dfc117;">Sesión 3: Escritura y citas en texto plano</span>
 
 <br>
 
@@ -170,7 +170,7 @@ Herramientas para la reproducibilidad
 
 ### Abriendo el archivo de escritura tradicional
 
-![](slides-xaringan-previas/05-textoplano_bib/realWord.png)
+![](img/realWord.png)
 
 ## 
 ### Desventajas del procesador tradicional
@@ -191,7 +191,7 @@ Herramientas para la reproducibilidad
 <br>
 <br>
 
-![](slides-xaringan-previas/05-textoplano_bib/word.jpg)
+![](img/word.jpg)
 
 :::
 ::::
@@ -211,12 +211,12 @@ Herramientas para la reproducibilidad
 ## Inspiración
 
 ::: {style="text-align: center;"}
-![](slides-xaringan-previas/05-textoplano_bib/bowers&healey.png)
+![](img/bowers&healey.png)
 :::
 
 ## {.vcenter}
 
-![](/slides/img/healeysworkflow.png){width="80%"}
+![](img/healeysworkflow.png){width="80%"}
 
 ## 
 ### Funcionamiento de escritura simple / plana
@@ -233,7 +233,7 @@ Herramientas para la reproducibilidad
 
 Vínculo entre escritura en texto simple (input) y output
 
-![](slides-xaringan-previas/05-textoplano_bib/marcas-edi.png)
+![](img/marcas-edi.png)
 
 ##
 ### Principales Alternativas escritura simple
@@ -269,7 +269,7 @@ Vínculo entre escritura en texto simple (input) y output
 
 ::: {.column width="75%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/latex.jpg)
+![](img/latex.jpg)
 
 :::
 ::::
@@ -311,7 +311,7 @@ Vínculo entre escritura en texto simple (input) y output
 
 ::: {.column width="75%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/markdownpreview.png)
+![](img/markdownpreview.png)
 
 :::
 ::::
@@ -328,7 +328,7 @@ Vínculo entre escritura en texto simple (input) y output
 
 ## Markdown, pandoc y renderización
 
-![](slides-xaringan-previas/05-textoplano_bib/pandoc.png){width="90%"}
+![](img/pandoc.png){width="90%"}
 
 ## Ejemplos de marcas de edición en Markdown
 
@@ -361,7 +361,7 @@ Mayores detalles en la [**Práctica de Markdown** en el sitio web del curso](htt
 :::: {.columns}
 ::: {.column width="50%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/standing.png)
+![](img/standing.png)
 
 :::
 
@@ -397,7 +397,7 @@ Mayores detalles en la [**Práctica de Markdown** en el sitio web del curso](htt
 
 <br><br><br>
 
-![](slides-xaringan-previas/05-textoplano_bib/BibTeX_logo.svg.png)
+![](img/BibTeX_logo.svg.png)
 
 :::
 
@@ -413,7 +413,7 @@ Mayores detalles en la [**Práctica de Markdown** en el sitio web del curso](htt
 ## Ejemplo referencia en Bibtex
 
 ::: {style="text-align: center;"}
-![](slides-xaringan-previas/05-textoplano_bib/bibtex-record.png){width="80%"}
+![](img/bibtex-record.png){width="80%"}
 :::
 
 ## Archivo Bibtex (.bib)
@@ -478,7 +478,7 @@ Y además, agrega la bibliografía al final del documento.
 
 <br>
 
-![](slides-xaringan-previas/05-textoplano_bib/refman.jpg)
+![](img/refman.jpg)
 
 :::
 
@@ -500,7 +500,7 @@ Y además, agrega la bibliografía al final del documento.
 
 ::: {style="text-align: center;"}
 <br>
-![](slides-xaringan-previas/05-textoplano_bib/zotero.png){width="80%"}
+![](img/zotero.png){width="80%"}
 :::
 
 :::
@@ -537,7 +537,7 @@ a. vía [conector]{style="color: green;"} del navegador: cuando hay una referenc
 
 ::: {.column width="50%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/conector.png)
+![](img/conector.png)
 
 :::
 ::::
@@ -556,7 +556,7 @@ b) Vía identificador DOI / ISBN / ISSN
 
 <br><br><br>
 
-![](slides-xaringan-previas/05-textoplano_bib/doizotero.png)
+![](img/doizotero.png)
 
 :::
 ::::
@@ -573,7 +573,7 @@ c) Manual: llenando los campos
 
 ::: {.column width="50%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/zoteromanual.png)
+![](img/zoteromanual.png)
 
 :::
 ::::
@@ -603,7 +603,7 @@ c) Manual: llenando los campos
 :::: {.columns}
 ::: {.column width="33%"}
 
-![](slides-xaringan-previas/05-textoplano_bib/zoteroexport.png)
+![](img/zoteroexport.png)
 
 :::
 
@@ -653,7 +653,7 @@ Edit > setting
 ### Zotero-Better Bibtex - Citation Keys
 
 ::: {style="text-align: center;"}
-![](slides-xaringan-previas/05-textoplano_bib/exportbibtex.gif){width="80%"}
+![](img/exportbibtex.gif){width="80%"}
 :::
 
 ##
@@ -665,7 +665,7 @@ Edit > setting
 
 - se generan desde la pestaña Citation Keys de BetterBibTex
 
-- Recomendación: `[auth:lower]_[shorttitle1:lower]_[year]`
+- Recomendación: `auth.lower + "_" + title.select(1,1).lower + "_" + year`
 
 ## 
 ### Vinculando el archivo Markdown con los archivos de bibliografía

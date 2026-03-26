@@ -125,7 +125,7 @@ Para las actividades prácticas, necesitaremos que ingresen a las configuracione
 
 - Abra Zotero y añada una nueva colección en su biblioteca
 
-- Cambie la fórmula de la citation key a esta: `[auth:lower]_[shorttitle1:lower]_[year]`
+- Entre a Edit > Settings > BetterBibTeX y cambie la fórmula de la citation key a esta: `auth.lower + "_" + title.select(1,1).lower + "_" + year`
 
 - Guarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN
 
