@@ -2,6 +2,7 @@
 engine: knitr
 format:
   revealjs:
+    scrollable: true
     logo: img/logo-ciencia-abierta.png
     theme: [css/custom_2025.scss]
     title-slide-attributes:
@@ -29,7 +30,7 @@ editor: source
 
 :::
 
-::: {.column width="55%" style="font-size: 25px; text-align: right; margin: 0 auto;"}
+::: {.column width="65%" style="font-size: 25px; text-align: right; margin: 0 auto;"}
 
 <br>
 
@@ -59,7 +60,7 @@ editor: source
 
 <br>
 
-:::{style="position: absolute; bottom: 60px; right: 50px; text-align: right;"}
+:::{style="position: absolute; bottom: 60px; right: 1px; text-align: right;"}
 ### [**1. Resumen sesión anterior**]{style="color: #dfc117;"}
 ### [2. Escritura en texto plano]{style="color: #797b7d;"}
 ### [3. Citas en texto plano]{style="color: #797b7d;"}
@@ -117,14 +118,6 @@ Herramientas para la reproducibilidad
 
 ![](img/02/herramientas_reproducibilidad.png)
 
-##
-
-![](img/01/esquema_general.png)
-
-##
-
-![](https://juancarloscastillo.github.io/in-socabi/images/peng_spectrum.png)
-
 ## 
 ### Elementos para la [reproducibilidad]{style="color: red;"}
 
@@ -141,13 +134,22 @@ Herramientas para la reproducibilidad
 - Control de versiones
 :::
 
+##
+
+![](img/01/esquema_general.png)
+
+##
+
+![](https://juancarloscastillo.github.io/in-socabi/images/peng_spectrum.png)
+
+
 
 # Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
 
 <br>
 
-:::{style="position: absolute; bottom: 60px; right: 50px; text-align: right;"}
+:::{style="position: absolute; bottom: 60px; right: 1px; text-align: right;"}
 ### [**1. Resumen sesión anterior**]{style="color: #797b7d;"}
 
 ### [2. **Escritura en texto plano**]{style="color: #dfc117;"}
@@ -174,7 +176,7 @@ Herramientas para la reproducibilidad
 ### Desventajas del procesador tradicional
 
 :::: {.columns}
-::: {.column width="66%"}
+::: {.column width="75%"}
 
 - Barrera de **pago/licencia** para acceder a contenidos (propiedad)
 
@@ -184,7 +186,7 @@ Herramientas para la reproducibilidad
 
 :::
 
-::: {.column width="33%"}
+::: {.column width="25%"}
 
 <br>
 <br>
@@ -278,13 +280,12 @@ Vínculo entre escritura en texto simple (input) y output
 :::: {.columns}
 ::: {.column width="20%"}
 
-**Markdown**
-
+![](img/markdown_logo.svg){width="100%"}
 :::
 
 ::: {.column width="75%"}
 
-- creado por John Gruber y Aaron Swartz en 2004
+- creado por John Gruber y Aaron Swartz en 2004 <!-- cspell:disable-line -->
 
 - forma de escritura simple con pocas marcas de formato
 
@@ -293,6 +294,7 @@ Vínculo entre escritura en texto simple (input) y output
 - Soporta encabezados, tablas, imágenes, tablas de contenidos, ecuaciones, links ...
 
 - filosofía: foco en contenido primero, el formato después.
+:::
 
 :::
 ::::
@@ -622,18 +624,16 @@ c) Manual: llenando los campos
 - Instalación:
   - bajar archivo desde el sitio del desarrollador: [https://retorque.re/zotero-better-bibtex/installation/](https://retorque.re/zotero-better-bibtex/installation/)
 
-  - en Zotero: Tools -> Adds-on -> ruedita dentada -> install add-on from file
+  - en Zotero: Tools -> Plugins -> ruedita dentada -> install add-on from file
 
   - reiniciar Zotero
 
 ## Zotero-Better Bibtex
 
-![](slides-xaringan-previas/05-textoplano_bib/bbt-install.png)
-
-## Zotero-Better Bibtex
+Edit > setting
 
 ::: {style="text-align: center;"}
-![](slides-xaringan-previas/05-textoplano_bib/betterbibtex.png){width="90%"}
+![](img/bbt1.png)
 :::
 
 ##
@@ -680,8 +680,8 @@ csl: apa.csl
 ```
 
 
-## 
-### Citando en documentos en VSC
+## PRACTICO
+### Escrittura y citas en texto plano en  VSC
 
 
 ## Práctica Markdown {data-background-color="#212525"}
