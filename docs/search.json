@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "trabajos.html",
+    "href": "trabajos.html",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.\n\n\n\nSelección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto\n\n\n\n\n\nse pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir\n\n\n\n\nUna vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.\n\n\n\nLa siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.\n\n\n\nFuente\nEjemplo\nTipo de análisis\nDatos\nPor qué puede servir\n\n\n\n\nCEP\nEncuesta CEP n°95, octubre 2025\nDescriptivos, cruces, comparaciones de grupos\nAcceso abierto\nBuen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas.\n\n\nCEP\nMejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?\nDescriptivos y comparación entre grupos\nAcceso abierto\nÚtil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático.\n\n\nISSP\nThe Perception of Social Inequality Around the Globe\nComparación internacional, asociaciones y modelos simples\nDatos ISSP disponibles públicamente\nBuen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países.\n\n\nCASEN\nCASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile\nDescriptivos, comparaciones temporales y regionales\nAcceso abierto\nMuy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles.\n\n\nENUT\nSíntesis de resultados II ENUT 2023\nDescriptivos y comparación por sexo, edad y situación laboral\nAcceso abierto\nMuy recomendable para temas de género, cuidados y trabajo no remunerado.\n\n\nLatinobarómetro\nInforme Latinobarómetro 2024: La Democracia Resiliente\nComparaciones entre países y en el tiempo\nAcceso abierto\nMuy útil para estudios de democracia, confianza y actitudes políticas en América Latina.\n\n\nELSOC\nRadiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023\nDescriptivos longitudinales y asociaciones simples\nInformación pública del estudio y reportes disponibles\nMuy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social.\n\n\nISSP\nWork Orientations and Perceived Working Conditions across Countries: Results from the 2015 ISSP Survey\nTablas descriptivas\nInformación pública del estudio\nRecomendable para temáticas relacionadas a actitudes hacia el trabajo.\n\n\nISSP\nTodos Somos de Clase Media: Sobre el estatus social subjetivo en Chile\nTablas descriptivas y asociaciones simples\nInformación pública del estudio\nBuen ejemplo para temas actitudinales de clase.\n\n\n\nEn general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable."
+  },
+  {
+    "objectID": "trabajos.html#pauta-para-el-reporte",
+    "href": "trabajos.html#pauta-para-el-reporte",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Selección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto"
+  },
+  {
+    "objectID": "trabajos.html#plantilla-y-avance",
+    "href": "trabajos.html#plantilla-y-avance",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir"
+  },
+  {
+    "objectID": "trabajos.html#revisión-cruzada",
+    "href": "trabajos.html#revisión-cruzada",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado."
+  },
+  {
+    "objectID": "trabajos.html#artículos-reportes-sugeridos",
+    "href": "trabajos.html#artículos-reportes-sugeridos",
+    "title": "Evaluaciones",
+    "section": "",
+    "text": "La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.\n\n\n\nFuente\nEjemplo\nTipo de análisis\nDatos\nPor qué puede servir\n\n\n\n\nCEP\nEncuesta CEP n°95, octubre 2025\nDescriptivos, cruces, comparaciones de grupos\nAcceso abierto\nBuen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas.\n\n\nCEP\nMejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?\nDescriptivos y comparación entre grupos\nAcceso abierto\nÚtil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático.\n\n\nISSP\nThe Perception of Social Inequality Around the Globe\nComparación internacional, asociaciones y modelos simples\nDatos ISSP disponibles públicamente\nBuen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países.\n\n\nCASEN\nCASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile\nDescriptivos, comparaciones temporales y regionales\nAcceso abierto\nMuy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles.\n\n\nENUT\nSíntesis de resultados II ENUT 2023\nDescriptivos y comparación por sexo, edad y situación laboral\nAcceso abierto\nMuy recomendable para temas de género, cuidados y trabajo no remunerado.\n\n\nLatinobarómetro\nInforme Latinobarómetro 2024: La Democracia Resiliente\nComparaciones entre países y en el tiempo\nAcceso abierto\nMuy útil para estudios de democracia, confianza y actitudes políticas en América Latina.\n\n\nELSOC\nRadiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023\nDescriptivos longitudinales y asociaciones simples\nInformación pública del estudio y reportes disponibles\nMuy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social.\n\n\nISSP\nWork Orientations and Perceived Working Conditions across Countries: Results from the 2015 ISSP Survey\nTablas descriptivas\nInformación pública del estudio\nRecomendable para temáticas relacionadas a actitudes hacia el trabajo.\n\n\nISSP\nTodos Somos de Clase Media: Sobre el estatus social subjetivo en Chile\nTablas descriptivas y asociaciones simples\nInformación pública del estudio\nBuen ejemplo para temas actitudinales de clase.\n\n\n\nEn general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable."
+  },
+  {
+    "objectID": "trabajos.html#pauta-para-el-reporte-por-definir",
+    "href": "trabajos.html#pauta-para-el-reporte-por-definir",
+    "title": "Evaluaciones",
+    "section": "Pauta para el reporte (por definir)",
+    "text": "Pauta para el reporte (por definir)"
+  },
+  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Planificación",
@@ -56,135 +98,135 @@
     "text": "Bases de datos\n\nComparativas internacionales\n\nWorld Values Survey\nISSP\nICCS\nESS\nLAPOP\nLatinobarómetro\nICILS\n\n\n\nNacionales\n\nEncuestas CEP\nELSOC\nCASEN\nENE\nESI\nENCLA\nENUT\nEstudios PNUD\nEANNA\n\n\n\nInternacionales\n\nILO\nWID\nSWIID\nICTWSS\nOECD\nBanco Mundial"
   },
   {
-    "objectID": "referencias/posts/2023_Teaching_Constructiv.html",
-    "href": "referencias/posts/2023_Teaching_Constructiv.html",
+    "objectID": "references/publications/posts/2023_Teaching_Constructiv.html",
+    "href": "references/publications/posts/2023_Teaching_Constructiv.html",
     "title": "Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data",
     "section": "",
     "text": "How to cite this work\n\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2023). Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data. Teaching of Psychology 00986283231219503 https://doi.org/10.1177/00986283231219503"
   },
   {
-    "objectID": "referencias/posts/2023_Perceived_Benefits_o.html",
-    "href": "referencias/posts/2023_Perceived_Benefits_o.html",
+    "objectID": "references/publications/posts/2023_Perceived_Benefits_o.html",
+    "href": "references/publications/posts/2023_Perceived_Benefits_o.html",
     "title": "Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards",
     "section": "",
     "text": "How to cite this work\n\n\n\nJoshua Borycz, Robert Olendorf, Alison Specht, Bruce Grant, Kevin Crowston, Carol Tenopir, Suzie Allard, Natalie M. Rice, Rachael Hu, Robert J. Sandusky (2023). Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards. Humanities and Social Sciences Communications, 10(1) 1–12 : Palgrave https://doi.org/10.1057/s41599-023-01831-7"
   },
   {
-    "objectID": "referencias/posts/2023_Care_to_Share_Experi.html",
-    "href": "referencias/posts/2023_Care_to_Share_Experi.html",
+    "objectID": "references/publications/posts/2023_Care_to_Share_Experi.html",
+    "href": "references/publications/posts/2023_Care_to_Share_Experi.html",
     "title": "Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences",
     "section": "",
     "text": "How to cite this work\n\n\n\nDaniel Krahmer, Laura Schachtele, Andreas Schneck (2023). Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences. PLOS ONE, 18 e0289380 https://doi.org/10.1371/journal.pone.0289380"
   },
   {
-    "objectID": "referencias/posts/2022_Teaching_Constructiv.html",
-    "href": "referencias/posts/2022_Teaching_Constructiv.html",
+    "objectID": "references/publications/posts/2022_Teaching_Constructiv.html",
+    "href": "references/publications/posts/2022_Teaching_Constructiv.html",
     "title": "Teaching Constructive Replications in the Social Sciences",
     "section": "",
     "text": "How to cite this work\n\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2022). Teaching Constructive Replications in the Social Sciences. : MetaArXiv https://doi.org/10.31222/osf.io/ejkws"
   },
   {
-    "objectID": "referencias/posts/2022_Rediscovering_the_1_.html",
-    "href": "referencias/posts/2022_Rediscovering_the_1_.html",
+    "objectID": "references/publications/posts/2022_Rediscovering_the_1_.html",
+    "href": "references/publications/posts/2022_Rediscovering_the_1_.html",
     "title": "Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1",
     "section": "",
     "text": "How to cite this work\n\n\n\nDaniel Hirschman (2022). Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1. American Journal of Sociology: The University of Chicago PressChicago, IL https://doi.org/10.1086/718451"
   },
   {
-    "objectID": "referencias/posts/2022_Métricas_de_La_Produ.html",
-    "href": "referencias/posts/2022_Métricas_de_La_Produ.html",
+    "objectID": "references/publications/posts/2022_Métricas_de_La_Produ.html",
+    "href": "references/publications/posts/2022_Métricas_de_La_Produ.html",
     "title": "Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe",
     "section": "",
     "text": "How to cite this work\n\n\n\nGabriel Velez (2022). Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe."
   },
   {
-    "objectID": "referencias/posts/2022_Advances_in_Transpar.html",
-    "href": "referencias/posts/2022_Advances_in_Transpar.html",
+    "objectID": "references/publications/posts/2022_Advances_in_Transpar.html",
+    "href": "references/publications/posts/2022_Advances_in_Transpar.html",
     "title": "Advances in Transparency and Reproducibility in the Social Sciences",
     "section": "",
     "text": "How to cite this work\n\n\n\nJeremy Freese, Tamkinat Rauf, Jan Gerrit Voelkel (2022). Advances in Transparency and Reproducibility in the Social Sciences. Social Science Research 102770 https://doi.org/10.1016/j.ssresearch.2022.102770"
   },
   {
-    "objectID": "referencias/posts/2021_Has_the_Credibility_.html",
-    "href": "referencias/posts/2021_Has_the_Credibility_.html",
+    "objectID": "references/publications/posts/2021_Has_the_Credibility_.html",
+    "href": "references/publications/posts/2021_Has_the_Credibility_.html",
     "title": "Has the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project",
     "section": "",
     "text": "How to cite this work\n\n\n\nKatrin Auspurg, Josef Bruderl (2021). Has the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project. Socius, 7 23780231211024421 : SAGE Publications https://doi.org/10.1177/23780231211024421"
   },
   {
-    "objectID": "referencias/posts/2021_Ciencia_Abierta_Un_M.html",
-    "href": "referencias/posts/2021_Ciencia_Abierta_Un_M.html",
+    "objectID": "references/publications/posts/2021_Ciencia_Abierta_Un_M.html",
+    "href": "references/publications/posts/2021_Ciencia_Abierta_Un_M.html",
     "title": "Ciencia Abierta: Un Modelo Con Piezas Por Encajar",
     "section": "",
     "text": "How to cite this work\n\n\n\nErnest Abadal (2021). Ciencia Abierta: Un Modelo Con Piezas Por Encajar. Arbor, 197(799) a588 https://doi.org/10.3989/arbor.2021.799003"
   },
   {
-    "objectID": "referencias/posts/2019_Why_Researchers_Shou.html",
-    "href": "referencias/posts/2019_Why_Researchers_Shou.html",
+    "objectID": "references/publications/posts/2019_Why_Researchers_Shou.html",
+    "href": "references/publications/posts/2019_Why_Researchers_Shou.html",
     "title": "Why Researchers Should Share Their Analytic Code",
     "section": "",
     "text": "How to cite this work\n\n\n\nBen Goldacre, Caroline E Morton, Nicholas J DeVito (2019). Why Researchers Should Share Their Analytic Code. BMJ l6365 https://doi.org/10.1136/bmj.l6365"
   },
   {
-    "objectID": "referencias/posts/2019_Teaching_Replication.html",
-    "href": "referencias/posts/2019_Teaching_Replication.html",
+    "objectID": "references/publications/posts/2019_Teaching_Replication.html",
+    "href": "references/publications/posts/2019_Teaching_Replication.html",
     "title": "Teaching Replication to Graduate Students",
     "section": "",
     "text": "How to cite this work\n\n\n\nDragana Stojmenovska, Thijs Bol, Thomas Leopold (2019). Teaching Replication to Graduate Students. Teaching Sociology, 47(4) 303–313 https://doi.org/10.1177/0092055X19867996"
   },
   {
-    "objectID": "referencias/posts/2019_Internationalizing_a.html",
-    "href": "referencias/posts/2019_Internationalizing_a.html",
+    "objectID": "references/publications/posts/2019_Internationalizing_a.html",
+    "href": "references/publications/posts/2019_Internationalizing_a.html",
     "title": "Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015",
     "section": "",
     "text": "How to cite this work\n\n\n\nTomas Koch, Raf Vanderstraeten (2019). Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015. Current Sociology, 67(5) 723–741 https://doi.org/10.1177/0011392118807514"
   },
   {
-    "objectID": "referencias/posts/2018_The_Preregistration_.html",
-    "href": "referencias/posts/2018_The_Preregistration_.html",
+    "objectID": "references/publications/posts/2018_The_Preregistration_.html",
+    "href": "references/publications/posts/2018_The_Preregistration_.html",
     "title": "The Preregistration Revolution",
     "section": "",
     "text": "How to cite this work\n\n\n\nBrian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, David T. Mellor (2018). The Preregistration Revolution. Proceedings of the National Academy of Sciences, 115(11) 2600–2606 : National Academy of Sciences https://doi.org/10.1073/pnas.1708274114"
   },
   {
-    "objectID": "referencias/posts/2018_How_(and_Whether)_to.html",
-    "href": "referencias/posts/2018_How_(and_Whether)_to.html",
+    "objectID": "references/publications/posts/2018_How_(and_Whether)_to.html",
+    "href": "references/publications/posts/2018_How_(and_Whether)_to.html",
     "title": "How (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nWilliam J. Chopik, Ryan H. Bremner, Andrew M. Defever, Victor N. Keller (2018). How (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science. Teaching of Psychology, 45(2) 158–163 https://doi.org/10.1177/0098628318762900"
   },
   {
-    "objectID": "referencias/posts/2016_1,500_Scientists_Lif.html",
-    "href": "referencias/posts/2016_1,500_Scientists_Lif.html",
+    "objectID": "references/publications/posts/2016_1,500_Scientists_Lif.html",
+    "href": "references/publications/posts/2016_1,500_Scientists_Lif.html",
     "title": "1,500 Scientists Lift the Lid on Reproducibility :",
     "section": "",
     "text": "How to cite this work\n\n\n\nMonya Baker (2016). 1,500 Scientists Lift the Lid on Reproducibility :. Nature News & Comment"
   },
   {
-    "objectID": "referencias/posts/2015_The_Extent_and_Conse.html",
-    "href": "referencias/posts/2015_The_Extent_and_Conse.html",
+    "objectID": "references/publications/posts/2015_The_Extent_and_Conse.html",
+    "href": "references/publications/posts/2015_The_Extent_and_Conse.html",
     "title": "The Extent and Consequences of P-Hacking in Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nMegan L. Head, Luke Holman, Rob Lanfear, Andrew T. Kahn, Michael D. Jennions (2015). The Extent and Consequences of P-Hacking in Science. PLOS Biology, 13(3) e1002106 https://doi.org/10.1371/journal.pbio.1002106"
   },
   {
-    "objectID": "referencias/posts/2012_The_Conundrum_of_Sha.html",
-    "href": "referencias/posts/2012_The_Conundrum_of_Sha.html",
+    "objectID": "references/publications/posts/2012_The_Conundrum_of_Sha.html",
+    "href": "references/publications/posts/2012_The_Conundrum_of_Sha.html",
     "title": "The Conundrum of Sharing Research Data",
     "section": "",
     "text": "How to cite this work\n\n\n\nChristine L. Borgman (2012). The Conundrum of Sharing Research Data. Journal of the American Society for Information Science and Technology, 63(6) 1059–1078 https://doi.org/10.1002/asi.22634"
   },
   {
-    "objectID": "referencias/posts/2011_Choosing_Your_Workfl.html",
-    "href": "referencias/posts/2011_Choosing_Your_Workfl.html",
+    "objectID": "references/publications/posts/2011_Choosing_Your_Workfl.html",
+    "href": "references/publications/posts/2011_Choosing_Your_Workfl.html",
     "title": "Choosing Your Workflow Applications",
     "section": "",
     "text": "How to cite this work\n\n\n\nKieran Healy (2011). Choosing Your Workflow Applications. The Political Methodologist, 18(2) 9–18"
   },
   {
-    "objectID": "referencias/index.html",
-    "href": "referencias/index.html",
-    "title": "Referencias",
+    "objectID": "references/publications/index.html",
+    "href": "references/publications/index.html",
+    "title": "References",
     "section": "",
     "text": "The Path toward Ethical Science Is Paved with Diamonds\n\n\n\nJournal Article\n\n\n\n\n\n\nFeb 1, 2026\n\n\nNate Breznau\n\n\n\n\n\n\n\nTeaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data\n\n\n\nJournal Article\n\n\n\n\n\n\nDec 1, 2023\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine\n\n\n\n\n\n\n\nExchanging Words: Engaging the Challenges of Sharing Qualitative Research Data\n\n\n\nJournal Article\n\n\n\n\n\n\nOct 1, 2023\n\n\nJames M. DuBois, Jessica Mozersky, Meredith Parsons, Heidi A. Walsh, Annie Friedrich, Amy Pienta\n\n\n\n\n\n\n\nCare to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences\n\n\n\nJournal Article\n\n\n\n\n\n\nAug 1, 2023\n\n\nDaniel Krahmer, Laura Schachtele, Andreas Schneck\n\n\n\n\n\n\n\nPerceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2023\n\n\nJoshua Borycz, Robert Olendorf, Alison Specht, Bruce Grant, Kevin Crowston, Carol Tenopir, Suzie Allard, Natalie M. Rice, Rachael Hu, Robert J. Sandusky\n\n\n\n\n\n\n\nPhilosophy of Open Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2023\n\n\nSabina Leonelli\n\n\n\n\n\n\n\nObserving Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty\n\n\n\nJournal Article\n\n\n\n\n\n\nNov 1, 2022\n\n\nNate Breznau, Eike Mark Rinke, Alexander Wuttke, Hung H. V. Nguyen, Muna Adem, Jule Adriaans, Amalia Alvarez-Benjumea, Henrik K. Andersen, Daniel Auer, Flavio Azevedo, Oke Bahnsen, Dave Balzer, Gerrit Bauer, Paul C. Bauer, Markus Baumann, Sharon Baute, Verena Benoit, Julian Bernauer, Carl Berning, Anna Berthold, Felix S. Bethke, Thomas Biegert, Katharina Blinzler, Johannes N. Blumenberg, Licia Bobzien, Andrea Bohman, Thijs Bol, Amie Bostic, Zuzanna Brzozowska, Katharina Burgdorf, Kaspar Burger, Kathrin B. Busch, Juan Carlos-Castillo, Nathan Chan, Pablo Christmann, Roxanne Connelly, Christian S. Czymara, Elena Damian, Alejandro Ecker, Achim Edelmann, Maureen A. Eger, Simon Ellerbrock, Anna Forke, Andrea Forster, Chris Gaasendam, Konstantin Gavras, Vernon Gayle, Theresa Gessler, Timo Gnambs, Amelie Godefroidt, Max Gromping, Martin Gross, Stefan Gruber, Tobias Gummer, Andreas Hadjar, Jan Paul Heisig, Sebastian Hellmeier, Stefanie Heyne, Magdalena Hirsch, Mikael Hjerm, Oshrat Hochman, Andreas Hovermann, Sophia Hunger, Christian Hunkler, Nora Huth, Zsofia S. Ignacz, Laura Jacobs, Jannes Jacobsen, Bastian Jaeger, Sebastian Jungkunz, Nils Jungmann, Mathias Kauff, Manuel Kleinert, Julia Klinger, Jan-Philipp Kolb, Marta Kolczynska, John Kuk, Katharina Kunissen, Dafina {Kurti Sinatra}, Alexander Langenkamp, Philipp M. Lersch, Lea-Maria Lobel, Philipp Lutscher, Matthias Mader, Joan E. Madia, Natalia Malancu, Luis Maldonado, Helge Marahrens, Nicole Martin, Paul Martinez, Jochen Mayerl, Oscar J. Mayorga, Patricia McManus, Kyle McWagner, Cecil Meeusen, Daniel Meierrieks, Jonathan Mellon, Friedolin Merhout, Samuel Merk, Daniel Meyer, Leticia Micheli, Jonathan Mijs, Cristobal Moya, Marcel Neunhoeffer, Daniel Nust, Olav Nygard, Fabian Ochsenfeld, Gunnar Otte, Anna O. Pechenkina, Christopher Prosser, Louis Raes, Kevin Ralston, Miguel R. Ramos, Arne Roets, Jonathan Rogers, Guido Ropers, Robin Samuel, Gregor Sand, Ariela Schachter, Merlin Schaeffer, David Schieferdecker, Elmar Schlueter, Regine Schmidt, Katja M. Schmidt, Alexander Schmidt-Catran, Claudia Schmiedeberg, Jurgen Schneider, Martijn Schoonvelde, Julia Schulte-Cloos, Sandy Schumann, Reinhard Schunck, Jurgen Schupp, Julian Seuring, Henning Silber, Willem Sleegers, Nico Sonntag, Alexander Staudt, Nadia Steiber, Nils Steiner, Sebastian Sternberg, Dieter Stiers, Dragana Stojmenovska, Nora Storz, Erich Striessnig, Anne-Kathrin Stroppe, Janna Teltemann, Andrey Tibajev, Brian Tung, Giacomo Vagni, Jasper {Van Assche}, Meta {van der Linden}, Jolanda {van der Noll}, Arno {Van Hootegem}, Stefan Vogtenhuber, Bogdan Voicu, Fieke Wagemans, Nadja Wehl, Hannah Werner, Brenton M. Wiernik, Fabian Winter, Christof Wolf, Yuki Yamada, Nan Zhang, Conrad Ziller, Stefan Zins, Tomasz Zoltak\n\n\n\n\n\n\n\nSentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules\n\n\n\nJournal Article\n\n\n\n\n\n\nAug 1, 2022\n\n\nJulien Larregue\n\n\n\n\n\n\n\nAdvances in Transparency and Reproducibility in the Social Sciences\n\n\n\nJournal Article\n\n\n\n\n\n\nJul 1, 2022\n\n\nJeremy Freese, Tamkinat Rauf, Jan Gerrit Voelkel\n\n\n\n\n\n\n\nTeaching Constructive Replications in the Social Sciences\n\n\n\nPresentation\n\n\n\n\n\n\nJul 1, 2022\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine\n\n\n\n\n\n\n\nHow to Increase Reproducibility and Credibility of Sociological Research\n\n\n\nBook\n\n\n\n\n\n\nJun 1, 2022\n\n\nKatrin Auspurg, Josef Bruderl\n\n\n\n\n\n\n\nThe Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence\n\n\n\nPresentation\n\n\n\n\n\n\nApr 1, 2022\n\n\nMadeleine Pownall, Flavio Azevedo, Laura M. Konig, Hannah Rachael Slack, Thomas Rhys Evans, Zoe Flack, Sandra Grinschgl, Mahmoud Elsherif, Katie Gilligan-Lee, Catia Margarida Oliveira, Biljana Gjoneska, Tamara Kanadadze, Kate Button, Sarah Ashcroft-Jones, Jenny Terry, Nihan Albayrak-Aydemir, Filip Dechterenko, Shilaan Alzahawi, Bradley James Baker, Merle-Marie Pittelkow, Lydia Riedl, Kathleen Schmidt, Charlotte Rebecca Pennington, John J. Shaw, Timo Luke, Matthew C. Makel, Helena Hartmann, Mirela Zaneva, Daniel Walker, Steven Verheyen, Daniel Cox, Jennifer Mattschey, Thomas Gallagher-Mitchell, Peter Branney, Yanna Weisberg, Kamil Izydorczak, Ali H. Al-Hoorie, Ann-Marie Creaven, Suzanne Stewart, Kai Krautter, Karen Matvienko-Sikar, Samuel Westwood, Patricia Arriaga, Meng Liu, Myriam A. Baum, Tobias Wingen, Robert M. Ross, Aoife O’Mahony, Agata Bochynska, Michelle K. Jamieson, Myrthe Vel Tromp, Siu Kit Yeung, Martin Rachev Vasilev, Amelie Gourdon-Kanhukamwe, Leticia Micheli, Markus Konkol, David Moreau, James E. Bartlett, Gwen Brekelmans, Theofilos Gkinopoulos, Samantha Tyler, Jan Philipp Roer, Zlatomira Ilchovska, Christopher Madan, Olly Robertson, Bethan Iley, Samuel Guay, Martina Sladekova, Shanu Sadhwani, {FORRT}\n\n\n\n\n\n\n\nMétricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe\n\n\n\nPresentation\n\n\n\n\n\n\nJan 1, 2022\n\n\nGabriel Velez\n\n\n\n\n\n\n\nRediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2022\n\n\nDaniel Hirschman\n\n\n\n\n\n\n\nCiencia Abierta: Un Modelo Con Piezas Por Encajar\n\n\n\nJournal Article\n\n\n\n\n\n\nApr 1, 2021\n\n\nErnest Abadal\n\n\n\n\n\n\n\nArticle Processing Charge Expenditure in Chile: The Current Situation\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nErwin Krauskopf\n\n\n\n\n\n\n\nDoes Sociology Need Open Science?\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nNate Breznau\n\n\n\n\n\n\n\nHas the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nKatrin Auspurg, Josef Bruderl\n\n\n\n\n\n\n\nUNESCO Recommendation on Open Science\n\n\n\nReport\n\n\n\n\n\n\nJan 1, 2021\n\n\n{UNESCO}\n\n\n\n\n\n\n\nWhy Researchers Should Share Their Analytic Code\n\n\n\nJournal Article\n\n\n\n\n\n\nNov 1, 2019\n\n\nBen Goldacre, Caroline E Morton, Nicholas J DeVito\n\n\n\n\n\n\n\nTeaching Replication to Graduate Students\n\n\n\nJournal Article\n\n\n\n\n\n\nOct 1, 2019\n\n\nDragana Stojmenovska, Thijs Bol, Thomas Leopold\n\n\n\n\n\n\n\nInternationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015\n\n\n\nJournal Article\n\n\n\n\n\n\nSep 1, 2019\n\n\nTomas Koch, Raf Vanderstraeten\n\n\n\n\n\n\n\nSurvey on Scientific Shared Resource Rigor and Reproducibility\n\n\n\nJournal Article\n\n\n\n\n\n\nSep 1, 2019\n\n\nKevin L. Knudtson, Robert H. Carnahan, Rebecca L. Hegstad-Davies, Nancy C. Fisher, Belynda Hicks, Peter A. Lopez, Susan M. Meyn, Sheenah M. Mische, Frances Weis-Garcia, Lisa D. White, Katia Sol-Church\n\n\n\n\n\n\n\nAnswers to 18 Questions About Open Science Practices\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2019\n\n\nGeorge C. Banks, James G. Field, Frederick L. Oswald, Ernest H. O’Boyle, Ronald S. Landis, Deborah E. Rupp, Steven G. Rogelberg\n\n\n\n\n\n\n\nTransparent and Reproducible Social Science Research: How to Do Open Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2019\n\n\nGarret S. Christensen, Jeremy Freese, Edward Miguel\n\n\n\n\n\n\n\nHow (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science\n\n\n\nJournal Article\n\n\n\n\n\n\nApr 1, 2018\n\n\nWilliam J. Chopik, Ryan H. Bremner, Andrew M. Defever, Victor N. Keller\n\n\n\n\n\n\n\nThe Preregistration Revolution\n\n\n\nJournal Article\n\n\n\n\n\n\nMar 1, 2018\n\n\nBrian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, David T. Mellor\n\n\n\n\n\n\n\nThe Plain Person’s Guide to Plain Text Social Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2018\n\n\nKieran Healy\n\n\n\n\n\n\n\nCómo mejorar su relación con su futuro yo\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2017\n\n\nJake Bowers, Maarten Voors\n\n\n\n\n\n\n\n1,500 Scientists Lift the Lid on Reproducibility :\n\n\n\nPresentation\n\n\n\n\n\n\nJan 1, 2016\n\n\nMonya Baker\n\n\n\n\n\n\n\nPromoting an Open Research Culture\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2015\n\n\nB. A. Nosek, G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, C. D. Chambers, G. Chin, G. Christensen, M. Contestabile, A. Dafoe, E. Eich, J. Freese, R. Glennerster, D. Goroff, D. P. Green, B. Hesse, M. Humphreys, J. Ishiyama, D. Karlan, A. Kraut, A. Lupia, P. Mabry, T. Madon, N. Malhotra, E. Mayo-Wilson, M. McNutt, E. Miguel, E. Levy Paluck, U. Simonsohn, C. Soderberg, B. A. Spellman, J. Turitto, G. VandenBos, S. Vazire, E. J. Wagenmakers, R. Wilson, T. Yarkoni\n\n\n\n\n\n\n\nThe Reproducibility Crisis in Science: A Statistical Counterattack\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2015\n\n\nRoger Peng\n\n\n\n\n\n\n\nThe Extent and Consequences of P-Hacking in Science\n\n\n\nJournal Article\n\n\n\n\n\n\nMar 1, 2015\n\n\nMegan L. Head, Luke Holman, Rob Lanfear, Andrew T. Kahn, Michael D. Jennions\n\n\n\n\n\n\n\nThe Conundrum of Sharing Research Data\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2012\n\n\nChristine L. Borgman\n\n\n\n\n\n\n\nReproducible Research in Computational Science\n\n\n\nJournal Article\n\n\n\n\n\n\nDec 1, 2011\n\n\nRoger D. Peng\n\n\n\n\n\n\n\nChoosing Your Workflow Applications\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2011\n\n\nKieran Healy\n\n\n\n\n\n\n\nThe Sociology of Science: Theoretical and Empirical Investigations\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 1973\n\n\nRobert King Merton\n\n\n\n\n\nNo matching items"
   },
@@ -384,6 +426,102 @@
     "text": "Github pages\nAhora podemos ver los documentos modificados en nuestro repositorio online de github.\n\nVamos a settings\n\n\n\nDentro de Settings vamos a Pages, luego ‘none’ y seleccionamos ‘main’. Luego apretamos Save\n\n\nLuego de aproximadamente un minuto se actualiza la página y aparecerá un link en la parte superior, algo así como kevin-carrasco.github.io/ipo que es nuestra página principal de nuestro sitio web de github.\n\nEl link para llegar a nuestro documento renderizado de quarto sigue la estructura del repositorio:\nkevin-carrasco.github.io/ipo/trabajo.html"
   },
   {
+    "objectID": "assignment/02-practico.html",
+    "href": "assignment/02-practico.html",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 26 de marzo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#instalación",
+    "href": "assignment/02-practico.html#instalación",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Instalación",
+    "text": "Instalación\n\n \n\nInstalación de Zotero",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#uso-del-software",
+    "href": "assignment/02-practico.html#uso-del-software",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Uso del software",
+    "text": "Uso del software\n\nBibliotecas y colecciones\nAl entrar a Zotero, el software por defecto genera una  biblioteca personal. Dentro de su biblioteca pueden crear  colecciones, las cuales funcionan como carpetas para organizar de mejor manera los contenidos de la biblioteca.\nPara crear una colección, deben clickear el botón de la carpeta gris que está arriba de  My Librarie.\n\n\nCómo guardar citas\nPractiquemos cómo guardar las citas. Existen 3 maneras de guardarlas:\n\n\nMediante la extensión de Google Chrome\n\n\nPrimero hay que asegurar que esté abierto Zotero para que funcione la extensión\nDebemos abrir la página donde se encuentra alojado el artículo, como aquí\nClickeamos la extensión y nos dará la opción de guardar el artículo\nAparece una de nuestras bibliotecas por defecto. Al apretar la flecha que aparece al lado del nombre, se despliega la lista de las demás bibliotecas en caso de que necesitemos cambiarla\n\n\nMediante DOI/ISBN\n\n\nDebemos disponer del DOI y/o ISBN del artículo y copiarlo (Ctrl + C)\nEntramos a Zotero y abrimos la biblioteca en donde queremos guardar la referencia\nClickeamos la varita que se encuentra en la parte superior izquierda\nPegamos (Ctrl + V) el DOI/ISBN del texto y apretamos Enter para guardar\n\n\nVía manual\n\n\nAbrimos la biblioteca donde guardaremos la referencia\nClickeamos el botón de add item que se encuentra al lado izquierdo de la varita (parte superior izquierda)\nElegimos el tipo de documento que registraremos\nRellenamos las secciones con los datos del artículo",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#better-bibtex",
+    "href": "assignment/02-practico.html#better-bibtex",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Better BibTeX",
+    "text": "Better BibTeX\nEs un plugin de Zotero que permite exportar las referencias en un formato legible en Latex, Markdown y Quarto.\n\nPara utilizarlo, primero debemos instalar el plugin desde este link\nUna vez descargado, debemos abrir Zotero, ir al menú superior izquierdo y clickear en Tools &gt; Plugins &gt;  &gt; Install plugin from file y seleccionar el archivo descargado\nPara exportar referencias, debemos hacer click derecho en una biblioteca, colección o en los textos que necesitemos, y apretar Export items\nSeleccionamos el formato Betterbibtex y apretamos Ok.\nSe generará un archivo .bib que tendrá almacenadas nuestras referencias, las cuales podemos vincular a los documentos en VSCode",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#fundamentales",
+    "href": "assignment/02-practico.html#fundamentales",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Fundamentales",
+    "text": "Fundamentales\nPara referenciar correctamente nuestras citas en los documentos (Quarto), debemos tener en cuenta tres cosas: 1) incluir el archivo .bib en el YAML 2) añadir un archivo .csl (Citation Style Languaje) para especificar el estilo de citación 3) escribir correctamente la citation key\n\nEl archivo .bib debe estar idealmente dentro de nuestro directorio de trabajo para que sea sencillo agregarlo al YAML, ya que se debe escribir la ruta exacta de su ubicación\nEl archivo .csl debe integrarse al YAML al igual que el archivo .bib para que el documento reconozca el tipo de citación que necesitamos\nAquí pueden encontrar distintos tipos de .csl: www.zotero.org/styles\n\nEl YAML (donde van los metadatos del documento) debería verse algo así:\n---\ntitle: \"Práctico 2\"\nformat: html\nbibliography: references.bib\ncsl: apa.csl\neditor: source\n---\n\nPara agregar referencias al documento, la citation key debe estar escrita entre corchetes [] para que sea considerada como una referencia",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "href": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Maneras de citar en texto plano con Zotero",
+    "text": "Maneras de citar en texto plano con Zotero\n\n\n\n\n\n\n\nSe escribe\nRenderiza\n\n\n\n\nComo dice @sabbagh_dimension_2003\nComo dice Sabbagh (2003)\n\n\n[@sabbagh_dimension_2003] dice …\n(Sabbagh, 2003) dice …\n\n\nSabbagh [-@sabbagh_dimension_2003, pp.35] dice …\nSabbagh (2003, p.35) dice …\n\n\n\nPara las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y marcar la siguiente opción:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-1-zotero",
+    "href": "assignment/02-practico.html#actividad-1-zotero",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 1: Zotero",
+    "text": "Actividad 1: Zotero\n\nCree una carpeta en su escritorio que se llame “practico-02”\nAbra Zotero y añada una nueva colección en su biblioteca\nCambie la fórmula de la citation key a esta: [auth:lower]_[shorttitle1:lower]_[year]\nGuarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN\nExporte su colección en formato Better BibTeX y guárdelo en la carpeta del práctico\nDescargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
+    "href": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 2: Zotero en VSCode",
+    "text": "Actividad 2: Zotero en VSCode\n\nAbra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo\nGenere un nuevo documento\nCambie el lenguaje del documento a Quarto\nAjuste el YAML para que reconozca los archivos .bib y .csl (puede guiarse con el que está en el ejemplo del práctico)\nEscriba un párrafo que le permita incluir al menos 2 de las referencias que guardó en el documento .bib\nRenderice el documento y verifique que las citas funcionen correctamente",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 2"
+    ]
+  },
+  {
     "objectID": "assignment/01-practico.html",
     "href": "assignment/01-practico.html",
     "title": "Pŕactico 1: Editores de código",
@@ -543,7 +681,12 @@
     "href": "content/03-content.html",
     "title": "Escritura y citas en Texto plano",
     "section": "",
-    "text": "Sesión del jueves, 27 de marzo de 2025\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo"
+    "text": "Sesión del jueves, 27 de marzo de 2025\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "Sesión 3"
+    ]
   },
   {
     "objectID": "content/05-content.html",
@@ -593,134 +736,134 @@
     "text": "Acá las principales informaciones y actualizaciones del curso.\n\n\n   \n    \n    \n      Ordenar por\n      Por defecto\n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFecha\n\n\n\nTítulo\n\n\n\nCategorías\n\n\n\n\n\n\n\n\nmiércoles marzo 18, 2026 at 12:00 AM\n\n\nReel sobre reproducibilidad en la investigación social\n\n\ninfo\n\n\n\n\n\n\njueves marzo 12, 2026 at 12:00 AM\n\n\nBienvenid@s al curso!\n\n\ninfo\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\n\nSuscribirse!\n\n\n\nPuedes usar un lector de feeds como Feedly o un servicio RSS-to-email como Blogtrottr para suscribirte a cualquiera de estos mensajes.\n\n\n\n\n\n RSS"
   },
   {
-    "objectID": "referencias/posts/1973_The_Sociology_of_Sci.html",
-    "href": "referencias/posts/1973_The_Sociology_of_Sci.html",
+    "objectID": "references/publications/posts/1973_The_Sociology_of_Sci.html",
+    "href": "references/publications/posts/1973_The_Sociology_of_Sci.html",
     "title": "The Sociology of Science: Theoretical and Empirical Investigations",
     "section": "",
     "text": "How to cite this work\n\n\n\nRobert King Merton (1973). The Sociology of Science: Theoretical and Empirical Investigations. . Chicago: University of Chicago Press. ISBN: 978-0-226-52091-9"
   },
   {
-    "objectID": "referencias/posts/2011_Reproducible_Researc.html",
-    "href": "referencias/posts/2011_Reproducible_Researc.html",
+    "objectID": "references/publications/posts/2011_Reproducible_Researc.html",
+    "href": "references/publications/posts/2011_Reproducible_Researc.html",
     "title": "Reproducible Research in Computational Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nRoger D. Peng (2011). Reproducible Research in Computational Science. Science (New York, N.y.), 334(6060) 1226–1227 https://doi.org/10.1126/science.1213847"
   },
   {
-    "objectID": "referencias/posts/2015_Promoting_an_Open_Re.html",
-    "href": "referencias/posts/2015_Promoting_an_Open_Re.html",
+    "objectID": "references/publications/posts/2015_Promoting_an_Open_Re.html",
+    "href": "references/publications/posts/2015_Promoting_an_Open_Re.html",
     "title": "Promoting an Open Research Culture",
     "section": "",
     "text": "How to cite this work\n\n\n\nB. A. Nosek, G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, C. D. Chambers, G. Chin, G. Christensen, M. Contestabile, A. Dafoe, E. Eich, J. Freese, R. Glennerster, D. Goroff, D. P. Green, B. Hesse, M. Humphreys, J. Ishiyama, D. Karlan, A. Kraut, A. Lupia, P. Mabry, T. Madon, N. Malhotra, E. Mayo-Wilson, M. McNutt, E. Miguel, E. Levy Paluck, U. Simonsohn, C. Soderberg, B. A. Spellman, J. Turitto, G. VandenBos, S. Vazire, E. J. Wagenmakers, R. Wilson, T. Yarkoni (2015). Promoting an Open Research Culture. Science, 348(6242) 1422–1425 https://doi.org/10.1126/science.aab2374"
   },
   {
-    "objectID": "referencias/posts/2015_The_Reproducibility_.html",
-    "href": "referencias/posts/2015_The_Reproducibility_.html",
+    "objectID": "references/publications/posts/2015_The_Reproducibility_.html",
+    "href": "references/publications/posts/2015_The_Reproducibility_.html",
     "title": "The Reproducibility Crisis in Science: A Statistical Counterattack",
     "section": "",
     "text": "How to cite this work\n\n\n\nRoger Peng (2015). The Reproducibility Crisis in Science: A Statistical Counterattack. Significance, 12(3) 30–32 https://doi.org/10.1111/j.1740-9713.2015.00827.x"
   },
   {
-    "objectID": "referencias/posts/2017_Cómo_mejorar_su_rela.html",
-    "href": "referencias/posts/2017_Cómo_mejorar_su_rela.html",
+    "objectID": "references/publications/posts/2017_Cómo_mejorar_su_rela.html",
+    "href": "references/publications/posts/2017_Cómo_mejorar_su_rela.html",
     "title": "Cómo mejorar su relación con su futuro yo",
     "section": "",
     "text": "How to cite this work\n\n\n\nJake Bowers, Maarten Voors (2017). Cómo mejorar su relación con su futuro yo. Revista de Ciencia Política, 36(3) 829–848"
   },
   {
-    "objectID": "referencias/posts/2018_The_Plain_Person’s_G.html",
-    "href": "referencias/posts/2018_The_Plain_Person’s_G.html",
+    "objectID": "references/publications/posts/2018_The_Plain_Person’s_G.html",
+    "href": "references/publications/posts/2018_The_Plain_Person’s_G.html",
     "title": "The Plain Person’s Guide to Plain Text Social Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nKieran Healy (2018). The Plain Person’s Guide to Plain Text Social Science."
   },
   {
-    "objectID": "referencias/posts/2019_Answers_to_18_Questi.html",
-    "href": "referencias/posts/2019_Answers_to_18_Questi.html",
+    "objectID": "references/publications/posts/2019_Answers_to_18_Questi.html",
+    "href": "references/publications/posts/2019_Answers_to_18_Questi.html",
     "title": "Answers to 18 Questions About Open Science Practices",
     "section": "",
     "text": "How to cite this work\n\n\n\nGeorge C. Banks, James G. Field, Frederick L. Oswald, Ernest H. O’Boyle, Ronald S. Landis, Deborah E. Rupp, Steven G. Rogelberg (2019). Answers to 18 Questions About Open Science Practices. Journal of Business and Psychology, 34(3) 257–270 https://doi.org/10.1007/s10869-018-9547-8"
   },
   {
-    "objectID": "referencias/posts/2019_Survey_on_Scientific.html",
-    "href": "referencias/posts/2019_Survey_on_Scientific.html",
+    "objectID": "references/publications/posts/2019_Survey_on_Scientific.html",
+    "href": "references/publications/posts/2019_Survey_on_Scientific.html",
     "title": "Survey on Scientific Shared Resource Rigor and Reproducibility",
     "section": "",
     "text": "How to cite this work\n\n\n\nKevin L. Knudtson, Robert H. Carnahan, Rebecca L. Hegstad-Davies, Nancy C. Fisher, Belynda Hicks, Peter A. Lopez, Susan M. Meyn, Sheenah M. Mische, Frances Weis-Garcia, Lisa D. White, Katia Sol-Church (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques : JBT, 30(3) 36–44 https://doi.org/10.7171/jbt.19-3003-001"
   },
   {
-    "objectID": "referencias/posts/2019_Transparent_and_Repr.html",
-    "href": "referencias/posts/2019_Transparent_and_Repr.html",
+    "objectID": "references/publications/posts/2019_Transparent_and_Repr.html",
+    "href": "references/publications/posts/2019_Transparent_and_Repr.html",
     "title": "Transparent and Reproducible Social Science Research: How to Do Open Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nGarret S. Christensen, Jeremy Freese, Edward Miguel (2019). Transparent and Reproducible Social Science Research: How to Do Open Science. . Oakland, California: University of California Press. ISBN: 978-0-520-29693-0 978-0-520-29695-4"
   },
   {
-    "objectID": "referencias/posts/2021_Article_Processing_C.html",
-    "href": "referencias/posts/2021_Article_Processing_C.html",
+    "objectID": "references/publications/posts/2021_Article_Processing_C.html",
+    "href": "references/publications/posts/2021_Article_Processing_C.html",
     "title": "Article Processing Charge Expenditure in Chile: The Current Situation",
     "section": "",
     "text": "How to cite this work\n\n\n\nErwin Krauskopf (2021). Article Processing Charge Expenditure in Chile: The Current Situation. Learned Publishing, 34(4) 637–646 https://doi.org/10.1002/leap.1413"
   },
   {
-    "objectID": "referencias/posts/2021_Does_Sociology_Need_.html",
-    "href": "referencias/posts/2021_Does_Sociology_Need_.html",
+    "objectID": "references/publications/posts/2021_Does_Sociology_Need_.html",
+    "href": "references/publications/posts/2021_Does_Sociology_Need_.html",
     "title": "Does Sociology Need Open Science?",
     "section": "",
     "text": "How to cite this work\n\n\n\nNate Breznau (2021). Does Sociology Need Open Science?. Societies, 11(1) 9 https://doi.org/10.3390/soc11010009"
   },
   {
-    "objectID": "referencias/posts/2021_UNESCO_Recommendatio.html",
-    "href": "referencias/posts/2021_UNESCO_Recommendatio.html",
+    "objectID": "references/publications/posts/2021_UNESCO_Recommendatio.html",
+    "href": "references/publications/posts/2021_UNESCO_Recommendatio.html",
     "title": "UNESCO Recommendation on Open Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nUNESCO (2021). UNESCO Recommendation on Open Science. UNESCO"
   },
   {
-    "objectID": "referencias/posts/2022_How_to_Increase_Repr.html",
-    "href": "referencias/posts/2022_How_to_Increase_Repr.html",
+    "objectID": "references/publications/posts/2022_How_to_Increase_Repr.html",
+    "href": "references/publications/posts/2022_How_to_Increase_Repr.html",
     "title": "How to Increase Reproducibility and Credibility of Sociological Research",
     "section": "",
     "text": "How to cite this work\n\n\n\nKatrin Auspurg, Josef Bruderl (2022). How to Increase Reproducibility and Credibility of Sociological Research. Handbook of Sociological Science 512–527 : Edward Elgar Publishing. ISBN: 978-1-78990-943-2"
   },
   {
-    "objectID": "referencias/posts/2022_Observing_Many_Resea.html",
-    "href": "referencias/posts/2022_Observing_Many_Resea.html",
+    "objectID": "references/publications/posts/2022_Observing_Many_Resea.html",
+    "href": "references/publications/posts/2022_Observing_Many_Resea.html",
     "title": "Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty",
     "section": "",
     "text": "How to cite this work\n\n\n\nNate Breznau, Eike Mark Rinke, Alexander Wuttke, Hung H. V. Nguyen, Muna Adem, Jule Adriaans, Amalia Alvarez-Benjumea, Henrik K. Andersen, Daniel Auer, Flavio Azevedo, Oke Bahnsen, Dave Balzer, Gerrit Bauer, Paul C. Bauer, Markus Baumann, Sharon Baute, Verena Benoit, Julian Bernauer, Carl Berning, Anna Berthold, Felix S. Bethke, Thomas Biegert, Katharina Blinzler, Johannes N. Blumenberg, Licia Bobzien, Andrea Bohman, Thijs Bol, Amie Bostic, Zuzanna Brzozowska, Katharina Burgdorf, Kaspar Burger, Kathrin B. Busch, Juan Carlos-Castillo, Nathan Chan, Pablo Christmann, Roxanne Connelly, Christian S. Czymara, Elena Damian, Alejandro Ecker, Achim Edelmann, Maureen A. Eger, Simon Ellerbrock, Anna Forke, Andrea Forster, Chris Gaasendam, Konstantin Gavras, Vernon Gayle, Theresa Gessler, Timo Gnambs, Amelie Godefroidt, Max Gromping, Martin Gross, Stefan Gruber, Tobias Gummer, Andreas Hadjar, Jan Paul Heisig, Sebastian Hellmeier, Stefanie Heyne, Magdalena Hirsch, Mikael Hjerm, Oshrat Hochman, Andreas Hovermann, Sophia Hunger, Christian Hunkler, Nora Huth, Zsofia S. Ignacz, Laura Jacobs, Jannes Jacobsen, Bastian Jaeger, Sebastian Jungkunz, Nils Jungmann, Mathias Kauff, Manuel Kleinert, Julia Klinger, Jan-Philipp Kolb, Marta Kolczynska, John Kuk, Katharina Kunissen, Dafina Kurti Sinatra, Alexander Langenkamp, Philipp M. Lersch, Lea-Maria Lobel, Philipp Lutscher, Matthias Mader, Joan E. Madia, Natalia Malancu, Luis Maldonado, Helge Marahrens, Nicole Martin, Paul Martinez, Jochen Mayerl, Oscar J. Mayorga, Patricia McManus, Kyle McWagner, Cecil Meeusen, Daniel Meierrieks, Jonathan Mellon, Friedolin Merhout, Samuel Merk, Daniel Meyer, Leticia Micheli, Jonathan Mijs, Cristobal Moya, Marcel Neunhoeffer, Daniel Nust, Olav Nygard, Fabian Ochsenfeld, Gunnar Otte, Anna O. Pechenkina, Christopher Prosser, Louis Raes, Kevin Ralston, Miguel R. Ramos, Arne Roets, Jonathan Rogers, Guido Ropers, Robin Samuel, Gregor Sand, Ariela Schachter, Merlin Schaeffer, David Schieferdecker, Elmar Schlueter, Regine Schmidt, Katja M. Schmidt, Alexander Schmidt-Catran, Claudia Schmiedeberg, Jurgen Schneider, Martijn Schoonvelde, Julia Schulte-Cloos, Sandy Schumann, Reinhard Schunck, Jurgen Schupp, Julian Seuring, Henning Silber, Willem Sleegers, Nico Sonntag, Alexander Staudt, Nadia Steiber, Nils Steiner, Sebastian Sternberg, Dieter Stiers, Dragana Stojmenovska, Nora Storz, Erich Striessnig, Anne-Kathrin Stroppe, Janna Teltemann, Andrey Tibajev, Brian Tung, Giacomo Vagni, Jasper Van Assche, Meta van der Linden, Jolanda van der Noll, Arno Van Hootegem, Stefan Vogtenhuber, Bogdan Voicu, Fieke Wagemans, Nadja Wehl, Hannah Werner, Brenton M. Wiernik, Fabian Winter, Christof Wolf, Yuki Yamada, Nan Zhang, Conrad Ziller, Stefan Zins, Tomasz Zoltak (2022). Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty. Proceedings of the National Academy of Sciences, 119(44) e2203150119 https://doi.org/10.1073/pnas.2203150119"
   },
   {
-    "objectID": "referencias/posts/2022_Sentencing_Social_Ps.html",
-    "href": "referencias/posts/2022_Sentencing_Social_Ps.html",
+    "objectID": "references/publications/posts/2022_Sentencing_Social_Ps.html",
+    "href": "references/publications/posts/2022_Sentencing_Social_Ps.html",
     "title": "Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules",
     "section": "",
     "text": "How to cite this work\n\n\n\nJulien Larregue (2022). Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules. Current Sociology 00113921221117604 : SAGE Publications Ltd https://doi.org/10.1177/00113921221117604"
   },
   {
-    "objectID": "referencias/posts/2022_The_Impact_of_Open_a.html",
-    "href": "referencias/posts/2022_The_Impact_of_Open_a.html",
+    "objectID": "references/publications/posts/2022_The_Impact_of_Open_a.html",
+    "href": "references/publications/posts/2022_The_Impact_of_Open_a.html",
     "title": "The Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence",
     "section": "",
     "text": "How to cite this work\n\n\n\nMadeleine Pownall, Flavio Azevedo, Laura M. Konig, Hannah Rachael Slack, Thomas Rhys Evans, Zoe Flack, Sandra Grinschgl, Mahmoud Elsherif, Katie Gilligan-Lee, Catia Margarida Oliveira, Biljana Gjoneska, Tamara Kanadadze, Kate Button, Sarah Ashcroft-Jones, Jenny Terry, Nihan Albayrak-Aydemir, Filip Dechterenko, Shilaan Alzahawi, Bradley James Baker, Merle-Marie Pittelkow, Lydia Riedl, Kathleen Schmidt, Charlotte Rebecca Pennington, John J. Shaw, Timo Luke, Matthew C. Makel, Helena Hartmann, Mirela Zaneva, Daniel Walker, Steven Verheyen, Daniel Cox, Jennifer Mattschey, Thomas Gallagher-Mitchell, Peter Branney, Yanna Weisberg, Kamil Izydorczak, Ali H. Al-Hoorie, Ann-Marie Creaven, Suzanne Stewart, Kai Krautter, Karen Matvienko-Sikar, Samuel Westwood, Patricia Arriaga, Meng Liu, Myriam A. Baum, Tobias Wingen, Robert M. Ross, Aoife O’Mahony, Agata Bochynska, Michelle K. Jamieson, Myrthe Vel Tromp, Siu Kit Yeung, Martin Rachev Vasilev, Amelie Gourdon-Kanhukamwe, Leticia Micheli, Markus Konkol, David Moreau, James E. Bartlett, Gwen Brekelmans, Theofilos Gkinopoulos, Samantha Tyler, Jan Philipp Roer, Zlatomira Ilchovska, Christopher Madan, Olly Robertson, Bethan Iley, Samuel Guay, Martina Sladekova, Shanu Sadhwani, FORRT (2022). The Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence. MetaArXiv https://doi.org/10.31222/osf.io/9e526"
   },
   {
-    "objectID": "referencias/posts/2023_Exchanging_Words_Eng.html",
-    "href": "referencias/posts/2023_Exchanging_Words_Eng.html",
+    "objectID": "references/publications/posts/2023_Exchanging_Words_Eng.html",
+    "href": "references/publications/posts/2023_Exchanging_Words_Eng.html",
     "title": "Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data",
     "section": "",
     "text": "How to cite this work\n\n\n\nJames M. DuBois, Jessica Mozersky, Meredith Parsons, Heidi A. Walsh, Annie Friedrich, Amy Pienta (2023). Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data. Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences https://doi.org/10.1073/pnas.2206981120"
   },
   {
-    "objectID": "referencias/posts/2023_Philosophy_of_Open_S.html",
-    "href": "referencias/posts/2023_Philosophy_of_Open_S.html",
+    "objectID": "references/publications/posts/2023_Philosophy_of_Open_S.html",
+    "href": "references/publications/posts/2023_Philosophy_of_Open_S.html",
     "title": "Philosophy of Open Science",
     "section": "",
     "text": "How to cite this work\n\n\n\nSabina Leonelli (2023). Philosophy of Open Science. . Cambridge: Cambridge University Press https://doi.org/10.1017/9781009416368. ISBN: 978-1-009-41639-9"
   },
   {
-    "objectID": "referencias/posts/2026_The_Path_toward_Ethi.html",
-    "href": "referencias/posts/2026_The_Path_toward_Ethi.html",
+    "objectID": "references/publications/posts/2026_The_Path_toward_Ethi.html",
+    "href": "references/publications/posts/2026_The_Path_toward_Ethi.html",
     "title": "The Path toward Ethical Science Is Paved with Diamonds",
     "section": "",
     "text": "How to cite this work\n\n\n\nNate Breznau (2026). The Path toward Ethical Science Is Paved with Diamonds. Bulletin of Computer and Data Sciences, 7(1) 1–10 https://doi.org/10.71448/bcds2671-1"
@@ -843,437 +986,5 @@
     "title": "Programa",
     "section": "Programación de sesiones",
     "text": "Programación de sesiones\nVisitar la página de Planificación."
-  },
-  {
-    "objectID": "references/publications/posts/2026_The_Path_toward_Ethi.html",
-    "href": "references/publications/posts/2026_The_Path_toward_Ethi.html",
-    "title": "The Path toward Ethical Science Is Paved with Diamonds",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nNate Breznau (2026). The Path toward Ethical Science Is Paved with Diamonds. Bulletin of Computer and Data Sciences, 7(1) 1–10 https://doi.org/10.71448/bcds2671-1"
-  },
-  {
-    "objectID": "references/publications/posts/2023_Philosophy_of_Open_S.html",
-    "href": "references/publications/posts/2023_Philosophy_of_Open_S.html",
-    "title": "Philosophy of Open Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nSabina Leonelli (2023). Philosophy of Open Science. . Cambridge: Cambridge University Press https://doi.org/10.1017/9781009416368. ISBN: 978-1-009-41639-9"
-  },
-  {
-    "objectID": "references/publications/posts/2023_Exchanging_Words_Eng.html",
-    "href": "references/publications/posts/2023_Exchanging_Words_Eng.html",
-    "title": "Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nJames M. DuBois, Jessica Mozersky, Meredith Parsons, Heidi A. Walsh, Annie Friedrich, Amy Pienta (2023). Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data. Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences https://doi.org/10.1073/pnas.2206981120"
-  },
-  {
-    "objectID": "references/publications/posts/2022_The_Impact_of_Open_a.html",
-    "href": "references/publications/posts/2022_The_Impact_of_Open_a.html",
-    "title": "The Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nMadeleine Pownall, Flavio Azevedo, Laura M. Konig, Hannah Rachael Slack, Thomas Rhys Evans, Zoe Flack, Sandra Grinschgl, Mahmoud Elsherif, Katie Gilligan-Lee, Catia Margarida Oliveira, Biljana Gjoneska, Tamara Kanadadze, Kate Button, Sarah Ashcroft-Jones, Jenny Terry, Nihan Albayrak-Aydemir, Filip Dechterenko, Shilaan Alzahawi, Bradley James Baker, Merle-Marie Pittelkow, Lydia Riedl, Kathleen Schmidt, Charlotte Rebecca Pennington, John J. Shaw, Timo Luke, Matthew C. Makel, Helena Hartmann, Mirela Zaneva, Daniel Walker, Steven Verheyen, Daniel Cox, Jennifer Mattschey, Thomas Gallagher-Mitchell, Peter Branney, Yanna Weisberg, Kamil Izydorczak, Ali H. Al-Hoorie, Ann-Marie Creaven, Suzanne Stewart, Kai Krautter, Karen Matvienko-Sikar, Samuel Westwood, Patricia Arriaga, Meng Liu, Myriam A. Baum, Tobias Wingen, Robert M. Ross, Aoife O’Mahony, Agata Bochynska, Michelle K. Jamieson, Myrthe Vel Tromp, Siu Kit Yeung, Martin Rachev Vasilev, Amelie Gourdon-Kanhukamwe, Leticia Micheli, Markus Konkol, David Moreau, James E. Bartlett, Gwen Brekelmans, Theofilos Gkinopoulos, Samantha Tyler, Jan Philipp Roer, Zlatomira Ilchovska, Christopher Madan, Olly Robertson, Bethan Iley, Samuel Guay, Martina Sladekova, Shanu Sadhwani, FORRT (2022). The Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence. MetaArXiv https://doi.org/10.31222/osf.io/9e526"
-  },
-  {
-    "objectID": "references/publications/posts/2022_Sentencing_Social_Ps.html",
-    "href": "references/publications/posts/2022_Sentencing_Social_Ps.html",
-    "title": "Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nJulien Larregue (2022). Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules. Current Sociology 00113921221117604 : SAGE Publications Ltd https://doi.org/10.1177/00113921221117604"
-  },
-  {
-    "objectID": "references/publications/posts/2022_Observing_Many_Resea.html",
-    "href": "references/publications/posts/2022_Observing_Many_Resea.html",
-    "title": "Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nNate Breznau, Eike Mark Rinke, Alexander Wuttke, Hung H. V. Nguyen, Muna Adem, Jule Adriaans, Amalia Alvarez-Benjumea, Henrik K. Andersen, Daniel Auer, Flavio Azevedo, Oke Bahnsen, Dave Balzer, Gerrit Bauer, Paul C. Bauer, Markus Baumann, Sharon Baute, Verena Benoit, Julian Bernauer, Carl Berning, Anna Berthold, Felix S. Bethke, Thomas Biegert, Katharina Blinzler, Johannes N. Blumenberg, Licia Bobzien, Andrea Bohman, Thijs Bol, Amie Bostic, Zuzanna Brzozowska, Katharina Burgdorf, Kaspar Burger, Kathrin B. Busch, Juan Carlos-Castillo, Nathan Chan, Pablo Christmann, Roxanne Connelly, Christian S. Czymara, Elena Damian, Alejandro Ecker, Achim Edelmann, Maureen A. Eger, Simon Ellerbrock, Anna Forke, Andrea Forster, Chris Gaasendam, Konstantin Gavras, Vernon Gayle, Theresa Gessler, Timo Gnambs, Amelie Godefroidt, Max Gromping, Martin Gross, Stefan Gruber, Tobias Gummer, Andreas Hadjar, Jan Paul Heisig, Sebastian Hellmeier, Stefanie Heyne, Magdalena Hirsch, Mikael Hjerm, Oshrat Hochman, Andreas Hovermann, Sophia Hunger, Christian Hunkler, Nora Huth, Zsofia S. Ignacz, Laura Jacobs, Jannes Jacobsen, Bastian Jaeger, Sebastian Jungkunz, Nils Jungmann, Mathias Kauff, Manuel Kleinert, Julia Klinger, Jan-Philipp Kolb, Marta Kolczynska, John Kuk, Katharina Kunissen, Dafina Kurti Sinatra, Alexander Langenkamp, Philipp M. Lersch, Lea-Maria Lobel, Philipp Lutscher, Matthias Mader, Joan E. Madia, Natalia Malancu, Luis Maldonado, Helge Marahrens, Nicole Martin, Paul Martinez, Jochen Mayerl, Oscar J. Mayorga, Patricia McManus, Kyle McWagner, Cecil Meeusen, Daniel Meierrieks, Jonathan Mellon, Friedolin Merhout, Samuel Merk, Daniel Meyer, Leticia Micheli, Jonathan Mijs, Cristobal Moya, Marcel Neunhoeffer, Daniel Nust, Olav Nygard, Fabian Ochsenfeld, Gunnar Otte, Anna O. Pechenkina, Christopher Prosser, Louis Raes, Kevin Ralston, Miguel R. Ramos, Arne Roets, Jonathan Rogers, Guido Ropers, Robin Samuel, Gregor Sand, Ariela Schachter, Merlin Schaeffer, David Schieferdecker, Elmar Schlueter, Regine Schmidt, Katja M. Schmidt, Alexander Schmidt-Catran, Claudia Schmiedeberg, Jurgen Schneider, Martijn Schoonvelde, Julia Schulte-Cloos, Sandy Schumann, Reinhard Schunck, Jurgen Schupp, Julian Seuring, Henning Silber, Willem Sleegers, Nico Sonntag, Alexander Staudt, Nadia Steiber, Nils Steiner, Sebastian Sternberg, Dieter Stiers, Dragana Stojmenovska, Nora Storz, Erich Striessnig, Anne-Kathrin Stroppe, Janna Teltemann, Andrey Tibajev, Brian Tung, Giacomo Vagni, Jasper Van Assche, Meta van der Linden, Jolanda van der Noll, Arno Van Hootegem, Stefan Vogtenhuber, Bogdan Voicu, Fieke Wagemans, Nadja Wehl, Hannah Werner, Brenton M. Wiernik, Fabian Winter, Christof Wolf, Yuki Yamada, Nan Zhang, Conrad Ziller, Stefan Zins, Tomasz Zoltak (2022). Observing Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty. Proceedings of the National Academy of Sciences, 119(44) e2203150119 https://doi.org/10.1073/pnas.2203150119"
-  },
-  {
-    "objectID": "references/publications/posts/2022_How_to_Increase_Repr.html",
-    "href": "references/publications/posts/2022_How_to_Increase_Repr.html",
-    "title": "How to Increase Reproducibility and Credibility of Sociological Research",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nKatrin Auspurg, Josef Bruderl (2022). How to Increase Reproducibility and Credibility of Sociological Research. Handbook of Sociological Science 512–527 : Edward Elgar Publishing. ISBN: 978-1-78990-943-2"
-  },
-  {
-    "objectID": "references/publications/posts/2021_UNESCO_Recommendatio.html",
-    "href": "references/publications/posts/2021_UNESCO_Recommendatio.html",
-    "title": "UNESCO Recommendation on Open Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nUNESCO (2021). UNESCO Recommendation on Open Science. UNESCO"
-  },
-  {
-    "objectID": "references/publications/posts/2021_Does_Sociology_Need_.html",
-    "href": "references/publications/posts/2021_Does_Sociology_Need_.html",
-    "title": "Does Sociology Need Open Science?",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nNate Breznau (2021). Does Sociology Need Open Science?. Societies, 11(1) 9 https://doi.org/10.3390/soc11010009"
-  },
-  {
-    "objectID": "references/publications/posts/2021_Article_Processing_C.html",
-    "href": "references/publications/posts/2021_Article_Processing_C.html",
-    "title": "Article Processing Charge Expenditure in Chile: The Current Situation",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nErwin Krauskopf (2021). Article Processing Charge Expenditure in Chile: The Current Situation. Learned Publishing, 34(4) 637–646 https://doi.org/10.1002/leap.1413"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Transparent_and_Repr.html",
-    "href": "references/publications/posts/2019_Transparent_and_Repr.html",
-    "title": "Transparent and Reproducible Social Science Research: How to Do Open Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nGarret S. Christensen, Jeremy Freese, Edward Miguel (2019). Transparent and Reproducible Social Science Research: How to Do Open Science. . Oakland, California: University of California Press. ISBN: 978-0-520-29693-0 978-0-520-29695-4"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Survey_on_Scientific.html",
-    "href": "references/publications/posts/2019_Survey_on_Scientific.html",
-    "title": "Survey on Scientific Shared Resource Rigor and Reproducibility",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nKevin L. Knudtson, Robert H. Carnahan, Rebecca L. Hegstad-Davies, Nancy C. Fisher, Belynda Hicks, Peter A. Lopez, Susan M. Meyn, Sheenah M. Mische, Frances Weis-Garcia, Lisa D. White, Katia Sol-Church (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques : JBT, 30(3) 36–44 https://doi.org/10.7171/jbt.19-3003-001"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Answers_to_18_Questi.html",
-    "href": "references/publications/posts/2019_Answers_to_18_Questi.html",
-    "title": "Answers to 18 Questions About Open Science Practices",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nGeorge C. Banks, James G. Field, Frederick L. Oswald, Ernest H. O’Boyle, Ronald S. Landis, Deborah E. Rupp, Steven G. Rogelberg (2019). Answers to 18 Questions About Open Science Practices. Journal of Business and Psychology, 34(3) 257–270 https://doi.org/10.1007/s10869-018-9547-8"
-  },
-  {
-    "objectID": "references/publications/posts/2018_The_Plain_Person’s_G.html",
-    "href": "references/publications/posts/2018_The_Plain_Person’s_G.html",
-    "title": "The Plain Person’s Guide to Plain Text Social Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nKieran Healy (2018). The Plain Person’s Guide to Plain Text Social Science."
-  },
-  {
-    "objectID": "references/publications/posts/2017_Cómo_mejorar_su_rela.html",
-    "href": "references/publications/posts/2017_Cómo_mejorar_su_rela.html",
-    "title": "Cómo mejorar su relación con su futuro yo",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nJake Bowers, Maarten Voors (2017). Cómo mejorar su relación con su futuro yo. Revista de Ciencia Política, 36(3) 829–848"
-  },
-  {
-    "objectID": "references/publications/posts/2015_The_Reproducibility_.html",
-    "href": "references/publications/posts/2015_The_Reproducibility_.html",
-    "title": "The Reproducibility Crisis in Science: A Statistical Counterattack",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nRoger Peng (2015). The Reproducibility Crisis in Science: A Statistical Counterattack. Significance, 12(3) 30–32 https://doi.org/10.1111/j.1740-9713.2015.00827.x"
-  },
-  {
-    "objectID": "references/publications/posts/2015_Promoting_an_Open_Re.html",
-    "href": "references/publications/posts/2015_Promoting_an_Open_Re.html",
-    "title": "Promoting an Open Research Culture",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nB. A. Nosek, G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, C. D. Chambers, G. Chin, G. Christensen, M. Contestabile, A. Dafoe, E. Eich, J. Freese, R. Glennerster, D. Goroff, D. P. Green, B. Hesse, M. Humphreys, J. Ishiyama, D. Karlan, A. Kraut, A. Lupia, P. Mabry, T. Madon, N. Malhotra, E. Mayo-Wilson, M. McNutt, E. Miguel, E. Levy Paluck, U. Simonsohn, C. Soderberg, B. A. Spellman, J. Turitto, G. VandenBos, S. Vazire, E. J. Wagenmakers, R. Wilson, T. Yarkoni (2015). Promoting an Open Research Culture. Science, 348(6242) 1422–1425 https://doi.org/10.1126/science.aab2374"
-  },
-  {
-    "objectID": "references/publications/posts/2011_Reproducible_Researc.html",
-    "href": "references/publications/posts/2011_Reproducible_Researc.html",
-    "title": "Reproducible Research in Computational Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nRoger D. Peng (2011). Reproducible Research in Computational Science. Science (New York, N.y.), 334(6060) 1226–1227 https://doi.org/10.1126/science.1213847"
-  },
-  {
-    "objectID": "references/publications/posts/1973_The_Sociology_of_Sci.html",
-    "href": "references/publications/posts/1973_The_Sociology_of_Sci.html",
-    "title": "The Sociology of Science: Theoretical and Empirical Investigations",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nRobert King Merton (1973). The Sociology of Science: Theoretical and Empirical Investigations. . Chicago: University of Chicago Press. ISBN: 978-0-226-52091-9"
-  },
-  {
-    "objectID": "references/publications/index.html",
-    "href": "references/publications/index.html",
-    "title": "References",
-    "section": "",
-    "text": "The Path toward Ethical Science Is Paved with Diamonds\n\n\n\nJournal Article\n\n\n\n\n\n\nFeb 1, 2026\n\n\nNate Breznau\n\n\n\n\n\n\n\nTeaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data\n\n\n\nJournal Article\n\n\n\n\n\n\nDec 1, 2023\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine\n\n\n\n\n\n\n\nExchanging Words: Engaging the Challenges of Sharing Qualitative Research Data\n\n\n\nJournal Article\n\n\n\n\n\n\nOct 1, 2023\n\n\nJames M. DuBois, Jessica Mozersky, Meredith Parsons, Heidi A. Walsh, Annie Friedrich, Amy Pienta\n\n\n\n\n\n\n\nCare to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences\n\n\n\nJournal Article\n\n\n\n\n\n\nAug 1, 2023\n\n\nDaniel Krahmer, Laura Schachtele, Andreas Schneck\n\n\n\n\n\n\n\nPerceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2023\n\n\nJoshua Borycz, Robert Olendorf, Alison Specht, Bruce Grant, Kevin Crowston, Carol Tenopir, Suzie Allard, Natalie M. Rice, Rachael Hu, Robert J. Sandusky\n\n\n\n\n\n\n\nPhilosophy of Open Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2023\n\n\nSabina Leonelli\n\n\n\n\n\n\n\nObserving Many Researchers Using the Same Data and Hypothesis Reveals a Hidden Universe of Uncertainty\n\n\n\nJournal Article\n\n\n\n\n\n\nNov 1, 2022\n\n\nNate Breznau, Eike Mark Rinke, Alexander Wuttke, Hung H. V. Nguyen, Muna Adem, Jule Adriaans, Amalia Alvarez-Benjumea, Henrik K. Andersen, Daniel Auer, Flavio Azevedo, Oke Bahnsen, Dave Balzer, Gerrit Bauer, Paul C. Bauer, Markus Baumann, Sharon Baute, Verena Benoit, Julian Bernauer, Carl Berning, Anna Berthold, Felix S. Bethke, Thomas Biegert, Katharina Blinzler, Johannes N. Blumenberg, Licia Bobzien, Andrea Bohman, Thijs Bol, Amie Bostic, Zuzanna Brzozowska, Katharina Burgdorf, Kaspar Burger, Kathrin B. Busch, Juan Carlos-Castillo, Nathan Chan, Pablo Christmann, Roxanne Connelly, Christian S. Czymara, Elena Damian, Alejandro Ecker, Achim Edelmann, Maureen A. Eger, Simon Ellerbrock, Anna Forke, Andrea Forster, Chris Gaasendam, Konstantin Gavras, Vernon Gayle, Theresa Gessler, Timo Gnambs, Amelie Godefroidt, Max Gromping, Martin Gross, Stefan Gruber, Tobias Gummer, Andreas Hadjar, Jan Paul Heisig, Sebastian Hellmeier, Stefanie Heyne, Magdalena Hirsch, Mikael Hjerm, Oshrat Hochman, Andreas Hovermann, Sophia Hunger, Christian Hunkler, Nora Huth, Zsofia S. Ignacz, Laura Jacobs, Jannes Jacobsen, Bastian Jaeger, Sebastian Jungkunz, Nils Jungmann, Mathias Kauff, Manuel Kleinert, Julia Klinger, Jan-Philipp Kolb, Marta Kolczynska, John Kuk, Katharina Kunissen, Dafina {Kurti Sinatra}, Alexander Langenkamp, Philipp M. Lersch, Lea-Maria Lobel, Philipp Lutscher, Matthias Mader, Joan E. Madia, Natalia Malancu, Luis Maldonado, Helge Marahrens, Nicole Martin, Paul Martinez, Jochen Mayerl, Oscar J. Mayorga, Patricia McManus, Kyle McWagner, Cecil Meeusen, Daniel Meierrieks, Jonathan Mellon, Friedolin Merhout, Samuel Merk, Daniel Meyer, Leticia Micheli, Jonathan Mijs, Cristobal Moya, Marcel Neunhoeffer, Daniel Nust, Olav Nygard, Fabian Ochsenfeld, Gunnar Otte, Anna O. Pechenkina, Christopher Prosser, Louis Raes, Kevin Ralston, Miguel R. Ramos, Arne Roets, Jonathan Rogers, Guido Ropers, Robin Samuel, Gregor Sand, Ariela Schachter, Merlin Schaeffer, David Schieferdecker, Elmar Schlueter, Regine Schmidt, Katja M. Schmidt, Alexander Schmidt-Catran, Claudia Schmiedeberg, Jurgen Schneider, Martijn Schoonvelde, Julia Schulte-Cloos, Sandy Schumann, Reinhard Schunck, Jurgen Schupp, Julian Seuring, Henning Silber, Willem Sleegers, Nico Sonntag, Alexander Staudt, Nadia Steiber, Nils Steiner, Sebastian Sternberg, Dieter Stiers, Dragana Stojmenovska, Nora Storz, Erich Striessnig, Anne-Kathrin Stroppe, Janna Teltemann, Andrey Tibajev, Brian Tung, Giacomo Vagni, Jasper {Van Assche}, Meta {van der Linden}, Jolanda {van der Noll}, Arno {Van Hootegem}, Stefan Vogtenhuber, Bogdan Voicu, Fieke Wagemans, Nadja Wehl, Hannah Werner, Brenton M. Wiernik, Fabian Winter, Christof Wolf, Yuki Yamada, Nan Zhang, Conrad Ziller, Stefan Zins, Tomasz Zoltak\n\n\n\n\n\n\n\nSentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules\n\n\n\nJournal Article\n\n\n\n\n\n\nAug 1, 2022\n\n\nJulien Larregue\n\n\n\n\n\n\n\nAdvances in Transparency and Reproducibility in the Social Sciences\n\n\n\nJournal Article\n\n\n\n\n\n\nJul 1, 2022\n\n\nJeremy Freese, Tamkinat Rauf, Jan Gerrit Voelkel\n\n\n\n\n\n\n\nTeaching Constructive Replications in the Social Sciences\n\n\n\nPresentation\n\n\n\n\n\n\nJul 1, 2022\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine\n\n\n\n\n\n\n\nHow to Increase Reproducibility and Credibility of Sociological Research\n\n\n\nBook\n\n\n\n\n\n\nJun 1, 2022\n\n\nKatrin Auspurg, Josef Bruderl\n\n\n\n\n\n\n\nThe Impact of Open and Reproducible Scholarship on Students’ Scientific Literacy, Engagement, and Attitudes towards Science: A Review and Synthesis of the Evidence\n\n\n\nPresentation\n\n\n\n\n\n\nApr 1, 2022\n\n\nMadeleine Pownall, Flavio Azevedo, Laura M. Konig, Hannah Rachael Slack, Thomas Rhys Evans, Zoe Flack, Sandra Grinschgl, Mahmoud Elsherif, Katie Gilligan-Lee, Catia Margarida Oliveira, Biljana Gjoneska, Tamara Kanadadze, Kate Button, Sarah Ashcroft-Jones, Jenny Terry, Nihan Albayrak-Aydemir, Filip Dechterenko, Shilaan Alzahawi, Bradley James Baker, Merle-Marie Pittelkow, Lydia Riedl, Kathleen Schmidt, Charlotte Rebecca Pennington, John J. Shaw, Timo Luke, Matthew C. Makel, Helena Hartmann, Mirela Zaneva, Daniel Walker, Steven Verheyen, Daniel Cox, Jennifer Mattschey, Thomas Gallagher-Mitchell, Peter Branney, Yanna Weisberg, Kamil Izydorczak, Ali H. Al-Hoorie, Ann-Marie Creaven, Suzanne Stewart, Kai Krautter, Karen Matvienko-Sikar, Samuel Westwood, Patricia Arriaga, Meng Liu, Myriam A. Baum, Tobias Wingen, Robert M. Ross, Aoife O’Mahony, Agata Bochynska, Michelle K. Jamieson, Myrthe Vel Tromp, Siu Kit Yeung, Martin Rachev Vasilev, Amelie Gourdon-Kanhukamwe, Leticia Micheli, Markus Konkol, David Moreau, James E. Bartlett, Gwen Brekelmans, Theofilos Gkinopoulos, Samantha Tyler, Jan Philipp Roer, Zlatomira Ilchovska, Christopher Madan, Olly Robertson, Bethan Iley, Samuel Guay, Martina Sladekova, Shanu Sadhwani, {FORRT}\n\n\n\n\n\n\n\nMétricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe\n\n\n\nPresentation\n\n\n\n\n\n\nJan 1, 2022\n\n\nGabriel Velez\n\n\n\n\n\n\n\nRediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2022\n\n\nDaniel Hirschman\n\n\n\n\n\n\n\nCiencia Abierta: Un Modelo Con Piezas Por Encajar\n\n\n\nJournal Article\n\n\n\n\n\n\nApr 1, 2021\n\n\nErnest Abadal\n\n\n\n\n\n\n\nArticle Processing Charge Expenditure in Chile: The Current Situation\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nErwin Krauskopf\n\n\n\n\n\n\n\nDoes Sociology Need Open Science?\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nNate Breznau\n\n\n\n\n\n\n\nHas the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2021\n\n\nKatrin Auspurg, Josef Bruderl\n\n\n\n\n\n\n\nUNESCO Recommendation on Open Science\n\n\n\nReport\n\n\n\n\n\n\nJan 1, 2021\n\n\n{UNESCO}\n\n\n\n\n\n\n\nWhy Researchers Should Share Their Analytic Code\n\n\n\nJournal Article\n\n\n\n\n\n\nNov 1, 2019\n\n\nBen Goldacre, Caroline E Morton, Nicholas J DeVito\n\n\n\n\n\n\n\nTeaching Replication to Graduate Students\n\n\n\nJournal Article\n\n\n\n\n\n\nOct 1, 2019\n\n\nDragana Stojmenovska, Thijs Bol, Thomas Leopold\n\n\n\n\n\n\n\nInternationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015\n\n\n\nJournal Article\n\n\n\n\n\n\nSep 1, 2019\n\n\nTomas Koch, Raf Vanderstraeten\n\n\n\n\n\n\n\nSurvey on Scientific Shared Resource Rigor and Reproducibility\n\n\n\nJournal Article\n\n\n\n\n\n\nSep 1, 2019\n\n\nKevin L. Knudtson, Robert H. Carnahan, Rebecca L. Hegstad-Davies, Nancy C. Fisher, Belynda Hicks, Peter A. Lopez, Susan M. Meyn, Sheenah M. Mische, Frances Weis-Garcia, Lisa D. White, Katia Sol-Church\n\n\n\n\n\n\n\nAnswers to 18 Questions About Open Science Practices\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2019\n\n\nGeorge C. Banks, James G. Field, Frederick L. Oswald, Ernest H. O’Boyle, Ronald S. Landis, Deborah E. Rupp, Steven G. Rogelberg\n\n\n\n\n\n\n\nTransparent and Reproducible Social Science Research: How to Do Open Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2019\n\n\nGarret S. Christensen, Jeremy Freese, Edward Miguel\n\n\n\n\n\n\n\nHow (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science\n\n\n\nJournal Article\n\n\n\n\n\n\nApr 1, 2018\n\n\nWilliam J. Chopik, Ryan H. Bremner, Andrew M. Defever, Victor N. Keller\n\n\n\n\n\n\n\nThe Preregistration Revolution\n\n\n\nJournal Article\n\n\n\n\n\n\nMar 1, 2018\n\n\nBrian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, David T. Mellor\n\n\n\n\n\n\n\nThe Plain Person’s Guide to Plain Text Social Science\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 2018\n\n\nKieran Healy\n\n\n\n\n\n\n\nCómo mejorar su relación con su futuro yo\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2017\n\n\nJake Bowers, Maarten Voors\n\n\n\n\n\n\n\n1,500 Scientists Lift the Lid on Reproducibility :\n\n\n\nPresentation\n\n\n\n\n\n\nJan 1, 2016\n\n\nMonya Baker\n\n\n\n\n\n\n\nPromoting an Open Research Culture\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2015\n\n\nB. A. Nosek, G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, C. D. Chambers, G. Chin, G. Christensen, M. Contestabile, A. Dafoe, E. Eich, J. Freese, R. Glennerster, D. Goroff, D. P. Green, B. Hesse, M. Humphreys, J. Ishiyama, D. Karlan, A. Kraut, A. Lupia, P. Mabry, T. Madon, N. Malhotra, E. Mayo-Wilson, M. McNutt, E. Miguel, E. Levy Paluck, U. Simonsohn, C. Soderberg, B. A. Spellman, J. Turitto, G. VandenBos, S. Vazire, E. J. Wagenmakers, R. Wilson, T. Yarkoni\n\n\n\n\n\n\n\nThe Reproducibility Crisis in Science: A Statistical Counterattack\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2015\n\n\nRoger Peng\n\n\n\n\n\n\n\nThe Extent and Consequences of P-Hacking in Science\n\n\n\nJournal Article\n\n\n\n\n\n\nMar 1, 2015\n\n\nMegan L. Head, Luke Holman, Rob Lanfear, Andrew T. Kahn, Michael D. Jennions\n\n\n\n\n\n\n\nThe Conundrum of Sharing Research Data\n\n\n\nJournal Article\n\n\n\n\n\n\nJun 1, 2012\n\n\nChristine L. Borgman\n\n\n\n\n\n\n\nReproducible Research in Computational Science\n\n\n\nJournal Article\n\n\n\n\n\n\nDec 1, 2011\n\n\nRoger D. Peng\n\n\n\n\n\n\n\nChoosing Your Workflow Applications\n\n\n\nJournal Article\n\n\n\n\n\n\nJan 1, 2011\n\n\nKieran Healy\n\n\n\n\n\n\n\nThe Sociology of Science: Theoretical and Empirical Investigations\n\n\n\nBook\n\n\n\n\n\n\nJan 1, 1973\n\n\nRobert King Merton\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "references/publications/posts/2011_Choosing_Your_Workfl.html",
-    "href": "references/publications/posts/2011_Choosing_Your_Workfl.html",
-    "title": "Choosing Your Workflow Applications",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nKieran Healy (2011). Choosing Your Workflow Applications. The Political Methodologist, 18(2) 9–18"
-  },
-  {
-    "objectID": "references/publications/posts/2012_The_Conundrum_of_Sha.html",
-    "href": "references/publications/posts/2012_The_Conundrum_of_Sha.html",
-    "title": "The Conundrum of Sharing Research Data",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nChristine L. Borgman (2012). The Conundrum of Sharing Research Data. Journal of the American Society for Information Science and Technology, 63(6) 1059–1078 https://doi.org/10.1002/asi.22634"
-  },
-  {
-    "objectID": "references/publications/posts/2015_The_Extent_and_Conse.html",
-    "href": "references/publications/posts/2015_The_Extent_and_Conse.html",
-    "title": "The Extent and Consequences of P-Hacking in Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nMegan L. Head, Luke Holman, Rob Lanfear, Andrew T. Kahn, Michael D. Jennions (2015). The Extent and Consequences of P-Hacking in Science. PLOS Biology, 13(3) e1002106 https://doi.org/10.1371/journal.pbio.1002106"
-  },
-  {
-    "objectID": "references/publications/posts/2016_1,500_Scientists_Lif.html",
-    "href": "references/publications/posts/2016_1,500_Scientists_Lif.html",
-    "title": "1,500 Scientists Lift the Lid on Reproducibility :",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nMonya Baker (2016). 1,500 Scientists Lift the Lid on Reproducibility :. Nature News & Comment"
-  },
-  {
-    "objectID": "references/publications/posts/2018_How_(and_Whether)_to.html",
-    "href": "references/publications/posts/2018_How_(and_Whether)_to.html",
-    "title": "How (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nWilliam J. Chopik, Ryan H. Bremner, Andrew M. Defever, Victor N. Keller (2018). How (and Whether) to Teach Undergraduates About the Replication Crisis in Psychological Science. Teaching of Psychology, 45(2) 158–163 https://doi.org/10.1177/0098628318762900"
-  },
-  {
-    "objectID": "references/publications/posts/2018_The_Preregistration_.html",
-    "href": "references/publications/posts/2018_The_Preregistration_.html",
-    "title": "The Preregistration Revolution",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nBrian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, David T. Mellor (2018). The Preregistration Revolution. Proceedings of the National Academy of Sciences, 115(11) 2600–2606 : National Academy of Sciences https://doi.org/10.1073/pnas.1708274114"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Internationalizing_a.html",
-    "href": "references/publications/posts/2019_Internationalizing_a.html",
-    "title": "Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nTomas Koch, Raf Vanderstraeten (2019). Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015. Current Sociology, 67(5) 723–741 https://doi.org/10.1177/0011392118807514"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Teaching_Replication.html",
-    "href": "references/publications/posts/2019_Teaching_Replication.html",
-    "title": "Teaching Replication to Graduate Students",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nDragana Stojmenovska, Thijs Bol, Thomas Leopold (2019). Teaching Replication to Graduate Students. Teaching Sociology, 47(4) 303–313 https://doi.org/10.1177/0092055X19867996"
-  },
-  {
-    "objectID": "references/publications/posts/2019_Why_Researchers_Shou.html",
-    "href": "references/publications/posts/2019_Why_Researchers_Shou.html",
-    "title": "Why Researchers Should Share Their Analytic Code",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nBen Goldacre, Caroline E Morton, Nicholas J DeVito (2019). Why Researchers Should Share Their Analytic Code. BMJ l6365 https://doi.org/10.1136/bmj.l6365"
-  },
-  {
-    "objectID": "references/publications/posts/2021_Ciencia_Abierta_Un_M.html",
-    "href": "references/publications/posts/2021_Ciencia_Abierta_Un_M.html",
-    "title": "Ciencia Abierta: Un Modelo Con Piezas Por Encajar",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nErnest Abadal (2021). Ciencia Abierta: Un Modelo Con Piezas Por Encajar. Arbor, 197(799) a588 https://doi.org/10.3989/arbor.2021.799003"
-  },
-  {
-    "objectID": "references/publications/posts/2021_Has_the_Credibility_.html",
-    "href": "references/publications/posts/2021_Has_the_Credibility_.html",
-    "title": "Has the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nKatrin Auspurg, Josef Bruderl (2021). Has the Credibility of the Social Sciences Been Credibly Destroyed? Reanalyzing the “Many Analysts, One Data Set” Project. Socius, 7 23780231211024421 : SAGE Publications https://doi.org/10.1177/23780231211024421"
-  },
-  {
-    "objectID": "references/publications/posts/2022_Advances_in_Transpar.html",
-    "href": "references/publications/posts/2022_Advances_in_Transpar.html",
-    "title": "Advances in Transparency and Reproducibility in the Social Sciences",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nJeremy Freese, Tamkinat Rauf, Jan Gerrit Voelkel (2022). Advances in Transparency and Reproducibility in the Social Sciences. Social Science Research 102770 https://doi.org/10.1016/j.ssresearch.2022.102770"
-  },
-  {
-    "objectID": "references/publications/posts/2022_Métricas_de_La_Produ.html",
-    "href": "references/publications/posts/2022_Métricas_de_La_Produ.html",
-    "title": "Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nGabriel Velez (2022). Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe."
-  },
-  {
-    "objectID": "references/publications/posts/2022_Rediscovering_the_1_.html",
-    "href": "references/publications/posts/2022_Rediscovering_the_1_.html",
-    "title": "Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nDaniel Hirschman (2022). Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1. American Journal of Sociology: The University of Chicago PressChicago, IL https://doi.org/10.1086/718451"
-  },
-  {
-    "objectID": "references/publications/posts/2022_Teaching_Constructiv.html",
-    "href": "references/publications/posts/2022_Teaching_Constructiv.html",
-    "title": "Teaching Constructive Replications in the Social Sciences",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2022). Teaching Constructive Replications in the Social Sciences. : MetaArXiv https://doi.org/10.31222/osf.io/ejkws"
-  },
-  {
-    "objectID": "references/publications/posts/2023_Care_to_Share_Experi.html",
-    "href": "references/publications/posts/2023_Care_to_Share_Experi.html",
-    "title": "Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nDaniel Krahmer, Laura Schachtele, Andreas Schneck (2023). Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences. PLOS ONE, 18 e0289380 https://doi.org/10.1371/journal.pone.0289380"
-  },
-  {
-    "objectID": "references/publications/posts/2023_Perceived_Benefits_o.html",
-    "href": "references/publications/posts/2023_Perceived_Benefits_o.html",
-    "title": "Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nJoshua Borycz, Robert Olendorf, Alison Specht, Bruce Grant, Kevin Crowston, Carol Tenopir, Suzie Allard, Natalie M. Rice, Rachael Hu, Robert J. Sandusky (2023). Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards. Humanities and Social Sciences Communications, 10(1) 1–12 : Palgrave https://doi.org/10.1057/s41599-023-01831-7"
-  },
-  {
-    "objectID": "references/publications/posts/2023_Teaching_Constructiv.html",
-    "href": "references/publications/posts/2023_Teaching_Constructiv.html",
-    "title": "Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data",
-    "section": "",
-    "text": "How to cite this work\n\n\n\nGerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2023). Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data. Teaching of Psychology 00986283231219503 https://doi.org/10.1177/00986283231219503"
-  },
-  {
-    "objectID": "trabajos.html",
-    "href": "trabajos.html",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de reproducibilidad y ciencia abierta a un artículo científico de su elección. Para esto, deberán seleccionar un artículo publicado en una revista científica, preferentemente en el área de ciencias sociales, y realizar un reporte de reproducibilidad siguiendo las pautas que se detallan a continuación.\n\n\n\nSelección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto\n\n\n\n\n\nse pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir\n\n\n\n\nUna vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.\n\n\n\nLa siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.\n\n\n\nFuente\nEjemplo\nTipo de análisis\nDatos\nPor qué puede servir\n\n\n\n\nCEP\nEncuesta CEP n°95, octubre 2025\nDescriptivos, cruces, comparaciones de grupos\nAcceso abierto\nBuen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas.\n\n\nCEP\nMejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?\nDescriptivos y comparación entre grupos\nAcceso abierto\nÚtil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático.\n\n\nISSP\nThe Perception of Social Inequality Around the Globe\nComparación internacional, asociaciones y modelos simples\nDatos ISSP disponibles públicamente\nBuen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países.\n\n\nCASEN\nCASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile\nDescriptivos, comparaciones temporales y regionales\nAcceso abierto\nMuy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles.\n\n\nENUT\nSíntesis de resultados II ENUT 2023\nDescriptivos y comparación por sexo, edad y situación laboral\nAcceso abierto\nMuy recomendable para temas de género, cuidados y trabajo no remunerado.\n\n\nLatinobarómetro\nInforme Latinobarómetro 2024: La Democracia Resiliente\nComparaciones entre países y en el tiempo\nAcceso abierto\nMuy útil para estudios de democracia, confianza y actitudes políticas en América Latina.\n\n\nELSOC\nRadiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023\nDescriptivos longitudinales y asociaciones simples\nInformación pública del estudio y reportes disponibles\nMuy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social.\n\n\nISSP\nWork Orientations and Perceived Working Conditions across Countries: Results from the 2015 ISSP Survey\nTablas descriptivas\nInformación pública del estudio\nRecomendable para temáticas relacionadas a actitudes hacia el trabajo.\n\n\nISSP\nTodos Somos de Clase Media: Sobre el estatus social subjetivo en Chile\nTablas descriptivas y asociaciones simples\nInformación pública del estudio\nBuen ejemplo para temas actitudinales de clase.\n\n\n\nEn general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable."
-  },
-  {
-    "objectID": "trabajos.html#pautas-para-el-reporte",
-    "href": "trabajos.html#pautas-para-el-reporte",
-    "title": "Trabajos",
-    "section": "",
-    "text": "Selección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto"
-  },
-  {
-    "objectID": "trabajos.html#pauta-para-el-reporte",
-    "href": "trabajos.html#pauta-para-el-reporte",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "Selección del artículo: Elijan un artículo científico publicado en una revista de ciencias sociales. El artículo debe ser de acceso abierto o estar disponible a través de la biblioteca de la universidad. También pondremos a disposición una lista de artículos sugeridos.\nEvaluación de reproducibilidad: Realicen un análisis detallado del artículo seleccionado, evaluando los siguientes aspectos:\n\nDisponibilidad de datos: ¿El artículo proporciona acceso a los datos utilizados en el estudio? Si no es así, ¿qué dificultades se enfrentaron para obtener los datos?\nDisponibilidad de código: ¿El artículo proporciona acceso al código utilizado para el análisis? Si es así, ¿cómo se puede acceder?\nDocumentación: ¿El artículo incluye una descripción clara de los métodos y procedimientos utilizados en el estudio? ¿Es suficiente para que otro investigador pueda replicar el estudio?\nTransparencia: ¿El artículo proporciona información sobre los posibles conflictos de interés, financiamiento, y otros aspectos relacionados con la transparencia de la investigación?\n\nAnálisis reproducible: Seleccionar un resultado específico del artículo (por ejemplo, una tabla de resultados o una figura) y tratar de reproducirlo utilizando los datos y el código proporcionados. Documentar el proceso de reproducción, incluyendo cualquier dificultad encontrada y cómo se resolvió.\nConclusiones: Basándose en el análisis realizado, escriban una conclusión sobre el nivel de reproducibilidad del artículo seleccionado.\nRecomendaciones: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.\nFormato del reporte: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto"
-  },
-  {
-    "objectID": "trabajos.html#notas",
-    "href": "trabajos.html#notas",
-    "title": "Trabajos",
-    "section": "",
-    "text": "se pondrá a disponsición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir"
-  },
-  {
-    "objectID": "trabajos.html#plantilla-y-avance",
-    "href": "trabajos.html#plantilla-y-avance",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.\ncon fines de retroalimentación, se deberá enviar un reporte de avance el viernes 10 de abril, indicando:\narticulo seleccionado (enviar link o pdf)\ndisponibilidad de datos y código\ntabla o figura seleccionada para reproducir"
-  },
-  {
-    "objectID": "trabajos.html#pauta-para-el-reporte-por-definir",
-    "href": "trabajos.html#pauta-para-el-reporte-por-definir",
-    "title": "Evaluaciones",
-    "section": "Pauta para el reporte (por definir)",
-    "text": "Pauta para el reporte (por definir)"
-  },
-  {
-    "objectID": "trabajos.html#revisión-cruzada",
-    "href": "trabajos.html#revisión-cruzada",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado."
-  },
-  {
-    "objectID": "trabajos.html#artículos-reportes-sugeridos",
-    "href": "trabajos.html#artículos-reportes-sugeridos",
-    "title": "Evaluaciones",
-    "section": "",
-    "text": "La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.\n\n\n\nFuente\nEjemplo\nTipo de análisis\nDatos\nPor qué puede servir\n\n\n\n\nCEP\nEncuesta CEP n°95, octubre 2025\nDescriptivos, cruces, comparaciones de grupos\nAcceso abierto\nBuen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas.\n\n\nCEP\nMejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?\nDescriptivos y comparación entre grupos\nAcceso abierto\nÚtil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático.\n\n\nISSP\nThe Perception of Social Inequality Around the Globe\nComparación internacional, asociaciones y modelos simples\nDatos ISSP disponibles públicamente\nBuen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países.\n\n\nCASEN\nCASEN 2022: Baja la pobreza por ingresos y la pobreza multidimensional en Chile\nDescriptivos, comparaciones temporales y regionales\nAcceso abierto\nMuy útil como modelo de reporte aplicado con indicadores sociales, tablas y visualizaciones legibles.\n\n\nENUT\nSíntesis de resultados II ENUT 2023\nDescriptivos y comparación por sexo, edad y situación laboral\nAcceso abierto\nMuy recomendable para temas de género, cuidados y trabajo no remunerado.\n\n\nLatinobarómetro\nInforme Latinobarómetro 2024: La Democracia Resiliente\nComparaciones entre países y en el tiempo\nAcceso abierto\nMuy útil para estudios de democracia, confianza y actitudes políticas en América Latina.\n\n\nELSOC\nRadiografía del cambio social: Análisis de Resultados Longitudinales Estudio Longitudinal Social de Chile ELSOC 2016-2023\nDescriptivos longitudinales y asociaciones simples\nInformación pública del estudio y reportes disponibles\nMuy buen ejemplo chileno para temas de confianza, cohesión, desigualdad y cambio social.\n\n\nISSP\nWork Orientations and Perceived Working Conditions across Countries: Results from the 2015 ISSP Survey\nTablas descriptivas\nInformación pública del estudio\nRecomendable para temáticas relacionadas a actitudes hacia el trabajo.\n\n\nISSP\nTodos Somos de Clase Media: Sobre el estatus social subjetivo en Chile\nTablas descriptivas y asociaciones simples\nInformación pública del estudio\nBuen ejemplo para temas actitudinales de clase.\n\n\n\nEn general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable."
-  },
-  {
-    "objectID": "assignment/02-practico.html",
-    "href": "assignment/02-practico.html",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "",
-    "text": "Correspondiente a la sesión del jueves, 26 de marzo de 2026",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#instalación",
-    "href": "assignment/02-practico.html#instalación",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Instalación",
-    "text": "Instalación\n\n \n\nInstalación de Zotero",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#uso-del-software",
-    "href": "assignment/02-practico.html#uso-del-software",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Uso del software",
-    "text": "Uso del software\n\nBibliotecas y colecciones\nAl entrar a Zotero, el software por defecto genera una  biblioteca personal. Dentro de su biblioteca pueden crear  colecciones, las cuales funcionan como carpetas para organizar de mejor manera los contenidos de la biblioteca.\nPara crear una colección, deben clickear el botón de la carpeta gris que está arriba de  My Librarie.\n\n\nCómo guardar citas\nPractiquemos cómo guardar las citas. Existen 3 maneras de guardarlas:\n\n\nMediante la extensión de Google Chrome\n\n\nPrimero hay que asegurar que esté abierto Zotero para que funcione la extensión\nDebemos abrir la página donde se encuentra alojado el artículo, como aquí\nClickeamos la extensión y nos dará la opción de guardar el artículo\nAparece una de nuestras bibliotecas por defecto. Al apretar la flecha que aparece al lado del nombre, se despliega la lista de las demás bibliotecas en caso de que necesitemos cambiarla\n\n\nMediante DOI/ISBN\n\n\nDebemos disponer del DOI y/o ISBN del artículo y copiarlo (Ctrl + C)\nEntramos a Zotero y abrimos la biblioteca en donde queremos guardar la referencia\nClickeamos la varita que se encuentra en la parte superior izquierda\nPegamos (Ctrl + V) el DOI/ISBN del texto y apretamos Enter para guardar\n\n\nVía manual\n\n\nAbrimos la biblioteca donde guardaremos la referencia\nClickeamos el botón de add item que se encuentra al lado izquierdo de la varita (parte superior izquierda)\nElegimos el tipo de documento que registraremos\nRellenamos las secciones con los datos del artículo",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#better-bibtex",
-    "href": "assignment/02-practico.html#better-bibtex",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Better BibTeX",
-    "text": "Better BibTeX\nEs un plugin de Zotero que permite exportar las referencias en un formato legible en Latex, Markdown y Quarto.\n\nPara utilizarlo, primero debemos instalar el plugin desde este link\nUna vez descargado, debemos abrir Zotero, ir al menú superior izquierdo y clickear en Tools &gt; Plugins &gt;  &gt; Install plugin from file y seleccionar el archivo descargado\nPara exportar referencias, debemos hacer click derecho en una biblioteca, colección o en los textos que necesitemos, y apretar Export items\nSeleccionamos el formato Betterbibtex y apretamos Ok.\nSe generará un archivo .bib que tendrá almacenadas nuestras referencias, las cuales podemos vincular a los documentos en VSCode",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#fundamentales",
-    "href": "assignment/02-practico.html#fundamentales",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Fundamentales",
-    "text": "Fundamentales\nPara referenciar correctamente nuestras citas en los documentos (Quarto), debemos tener en cuenta tres cosas: 1) incluir el archivo .bib en el YAML 2) añadir un archivo .csl (Citation Style Languaje) para especificar el estilo de citación 3) escribir correctamente la citation key\n\nEl archivo .bib debe estar idealmente dentro de nuestro directorio de trabajo para que sea sencillo agregarlo al YAML, ya que se debe escribir la ruta exacta de su ubicación\nEl archivo .csl debe integrarse al YAML al igual que el archivo .bib para que el documento reconozca el tipo de citación que necesitamos\nAquí pueden encontrar distintos tipos de .csl: www.zotero.org/styles\n\nEl YAML (donde van los metadatos del documento) debería verse algo así:\n---\ntitle: \"Práctico 2\"\nformat: html\nbibliography: references.bib\ncsl: apa.csl\neditor: source\n---\n\nPara agregar referencias al documento, la citation key debe estar escrita entre corchetes [] para que sea considerada como una referencia",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
-    "href": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Maneras de citar en texto plano con Zotero",
-    "text": "Maneras de citar en texto plano con Zotero\n\n\n\n\n\n\n\nSe escribe\nRenderiza\n\n\n\n\nComo dice @sabbagh_dimension_2003\nComo dice Sabbagh (2003)\n\n\n[@sabbagh_dimension_2003] dice …\n(Sabbagh, 2003) dice …\n\n\nSabbagh [-@sabbagh_dimension_2003, pp.35] dice …\nSabbagh (2003, p.35) dice …\n\n\n\nPara las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y marcar la siguiente opción:",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#actividad-1",
-    "href": "assignment/02-practico.html#actividad-1",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Actividad 1",
-    "text": "Actividad 1\n\nCree una carpeta en su escritorio que se llame “practico-02”\nAbra Zotero y añada una nueva colección en su biblioteca\nCambie la fórmula de la citation key a esta: [auth:lower]_[shorttitle1:lower]_[year]\nGuarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN\nExporte su colección en formato Better BibTeX y guárdelo en la carpeta del práctico\nDescargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada"
-  },
-  {
-    "objectID": "assignment/02-practico.html#actividad-2",
-    "href": "assignment/02-practico.html#actividad-2",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Actividad 2",
-    "text": "Actividad 2\n\nAbra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo\nGenere un nuevo documento\nCambie el lenguaje del documento a Quarto\nAjuste el YAML para que reconozca los archivos .bib y .csl (puede guiarse con el que está en el ejemplo del práctico)\nEscriba un párrafo que le permita incluir al menos 2 de las referencias que guardó en el documento .bib\nRenderice el documento y verifique que las citas funcionen correctamente"
-  },
-  {
-    "objectID": "assignment/02-practico.html#actividad-1-zotero",
-    "href": "assignment/02-practico.html#actividad-1-zotero",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Actividad 1: Zotero",
-    "text": "Actividad 1: Zotero\n\nCree una carpeta en su escritorio que se llame “practico-02”\nAbra Zotero y añada una nueva colección en su biblioteca\nCambie la fórmula de la citation key a esta: [auth:lower]_[shorttitle1:lower]_[year]\nGuarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN\nExporte su colección en formato Better BibTeX y guárdelo en la carpeta del práctico\nDescargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
-  },
-  {
-    "objectID": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
-    "href": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
-    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
-    "section": "Actividad 2: Zotero en VSCode",
-    "text": "Actividad 2: Zotero en VSCode\n\nAbra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo\nGenere un nuevo documento\nCambie el lenguaje del documento a Quarto\nAjuste el YAML para que reconozca los archivos .bib y .csl (puede guiarse con el que está en el ejemplo del práctico)\nEscriba un párrafo que le permita incluir al menos 2 de las referencias que guardó en el documento .bib\nRenderice el documento y verifique que las citas funcionen correctamente",
-    "crumbs": [
-      "Prácticos",
-      "Guías",
-      "Práctico 2"
-    ]
   }
 ]
