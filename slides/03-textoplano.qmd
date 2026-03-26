@@ -163,7 +163,7 @@ Herramientas para la reproducibilidad
 ### Flujo de trabajo con procesador de texto tradicional
 
 ::: {style="text-align: center;"}
-![](slides-xaringan-previas/05-textoplano_bib/W_workflow.png){width="70%"}
+![](img/W_workflow.png){width="70%"}
 :::
 
 ## 
