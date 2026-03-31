@@ -1,7 +1,7 @@
 ---
 title : "Advances in Transparency and Reproducibility in the Social Sciences"
 date : "2022-07-01"
-author : ["Jeremy Freese", "Tamkinat Rauf", "Jan Gerrit Voelkel"]
+author : "Freese, Jeremy; Rauf, Tamkinat & Voelkel, Jan Gerrit"
 categories : ["Journal Article"]
 publication : "Social Science Research 102770  [https://doi.org/10.1016/j.ssresearch.2022.102770](https://doi.org/10.1016/j.ssresearch.2022.102770)"
 publication_short : "Social Science Research 102770  [https://doi.org/10.1016/j.ssresearch.2022.102770](https://doi.org/10.1016/j.ssresearch.2022.102770)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Jeremy Freese, Tamkinat Rauf, Jan Gerrit Voelkel (2022). *Advances in Transparency and Reproducibility in the Social Sciences*. Social Science Research 102770  [https://doi.org/10.1016/j.ssresearch.2022.102770](https://doi.org/10.1016/j.ssresearch.2022.102770)
+Freese, Jeremy; Rauf, Tamkinat & Voelkel, Jan Gerrit (2022). *Advances in Transparency and Reproducibility in the Social Sciences*. Social Science Research 102770  [https://doi.org/10.1016/j.ssresearch.2022.102770](https://doi.org/10.1016/j.ssresearch.2022.102770)
 
 :::
 

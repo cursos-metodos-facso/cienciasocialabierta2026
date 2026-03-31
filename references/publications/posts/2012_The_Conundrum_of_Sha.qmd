@@ -1,7 +1,7 @@
 ---
 title : "The Conundrum of Sharing Research Data"
 date : "2012-06-01"
-author : ["Christine L. Borgman"]
+author : "Borgman, Christine L."
 categories : ["Journal Article"]
 publication : "Journal of the American Society for Information Science and Technology, 63(6) 1059--1078  [https://doi.org/10.1002/asi.22634](https://doi.org/10.1002/asi.22634)"
 publication_short : "Journal of the American Society for Information Science and Technology, 63(6) 1059--1078  [https://doi.org/10.1002/asi.22634](https://doi.org/10.1002/asi.22634)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Christine L. Borgman (2012). *The Conundrum of Sharing Research Data*. Journal of the American Society for Information Science and Technology, 63(6) 1059--1078  [https://doi.org/10.1002/asi.22634](https://doi.org/10.1002/asi.22634)
+Borgman, Christine L. (2012). *The Conundrum of Sharing Research Data*. Journal of the American Society for Information Science and Technology, 63(6) 1059--1078  [https://doi.org/10.1002/asi.22634](https://doi.org/10.1002/asi.22634)
 
 :::
 

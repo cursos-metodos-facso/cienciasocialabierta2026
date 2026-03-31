@@ -1,7 +1,7 @@
 ---
 title : "The Preregistration Revolution"
 date : "2018-03-01"
-author : ["Brian A. Nosek", "Charles R. Ebersole", "Alexander C. DeHaven", "David T. Mellor"]
+author : "Nosek, Brian A.; Ebersole, Charles R.; DeHaven, Alexander C. & Mellor, David T."
 categories : ["Journal Article"]
 publication : "Proceedings of the National Academy of Sciences, 115(11) 2600--2606 : National Academy of Sciences [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114)"
 publication_short : "Proceedings of the National Academy of Sciences, 115(11) 2600--2606 : National Academy of Sciences [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Brian A. Nosek, Charles R. Ebersole, Alexander C. DeHaven, David T. Mellor (2018). *The Preregistration Revolution*. Proceedings of the National Academy of Sciences, 115(11) 2600--2606 : National Academy of Sciences [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114)
+Nosek, Brian A.; Ebersole, Charles R.; DeHaven, Alexander C. & Mellor, David T. (2018). *The Preregistration Revolution*. Proceedings of the National Academy of Sciences, 115(11) 2600--2606 : National Academy of Sciences [https://doi.org/10.1073/pnas.1708274114](https://doi.org/10.1073/pnas.1708274114)
 
 :::
 

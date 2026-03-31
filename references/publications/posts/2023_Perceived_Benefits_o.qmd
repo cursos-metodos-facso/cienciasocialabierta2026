@@ -1,7 +1,7 @@
 ---
 title : "Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards"
 date : "2023-06-01"
-author : ["Joshua Borycz", "Robert Olendorf", "Alison Specht", "Bruce Grant", "Kevin Crowston", "Carol Tenopir", "Suzie Allard", "Natalie M. Rice", "Rachael Hu", "Robert J. Sandusky"]
+author : "Borycz, Joshua; Olendorf, Robert; Specht, Alison; Grant, Bruce; Crowston, Kevin; Tenopir, Carol; Allard, Suzie; Rice, Natalie M.; Hu, Rachael & Sandusky, Robert J."
 categories : ["Journal Article"]
 publication : "Humanities and Social Sciences Communications, 10(1) 1--12 : Palgrave [https://doi.org/10.1057/s41599-023-01831-7](https://doi.org/10.1057/s41599-023-01831-7)"
 publication_short : "Humanities and Social Sciences Communications, 10(1) 1--12 : Palgrave [https://doi.org/10.1057/s41599-023-01831-7](https://doi.org/10.1057/s41599-023-01831-7)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Joshua Borycz, Robert Olendorf, Alison Specht, Bruce Grant, Kevin Crowston, Carol Tenopir, Suzie Allard, Natalie M. Rice, Rachael Hu, Robert J. Sandusky (2023). *Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards*. Humanities and Social Sciences Communications, 10(1) 1--12 : Palgrave [https://doi.org/10.1057/s41599-023-01831-7](https://doi.org/10.1057/s41599-023-01831-7)
+Borycz, Joshua; Olendorf, Robert; Specht, Alison; Grant, Bruce; Crowston, Kevin; Tenopir, Carol; Allard, Suzie; Rice, Natalie M.; Hu, Rachael & Sandusky, Robert J. (2023). *Perceived Benefits of Open Data Are Improving but Scientists Still Lack Resources, Skills, and Rewards*. Humanities and Social Sciences Communications, 10(1) 1--12 : Palgrave [https://doi.org/10.1057/s41599-023-01831-7](https://doi.org/10.1057/s41599-023-01831-7)
 
 :::
 

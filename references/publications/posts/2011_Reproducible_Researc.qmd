@@ -1,7 +1,7 @@
 ---
 title : "Reproducible Research in Computational Science"
 date : "2011-12-01"
-author : ["Roger D. Peng"]
+author : "Peng, Roger D."
 categories : ["Journal Article"]
 publication : "Science (New York, N.y.), 334(6060) 1226--1227  [https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847)"
 publication_short : "Science (New York, N.y.), 334(6060) 1226--1227  [https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Roger D. Peng (2011). *Reproducible Research in Computational Science*. Science (New York, N.y.), 334(6060) 1226--1227  [https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
+Peng, Roger D. (2011). *Reproducible Research in Computational Science*. Science (New York, N.y.), 334(6060) 1226--1227  [https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847)
 
 :::
 

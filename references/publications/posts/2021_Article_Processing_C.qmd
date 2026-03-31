@@ -1,7 +1,7 @@
 ---
 title : "Article Processing Charge Expenditure in Chile: The Current Situation"
 date : "2021-01-01"
-author : ["Erwin Krauskopf"]
+author : "Krauskopf, Erwin"
 categories : ["Journal Article"]
 publication : "Learned Publishing, 34(4) 637--646  [https://doi.org/10.1002/leap.1413](https://doi.org/10.1002/leap.1413)"
 publication_short : "Learned Publishing, 34(4) 637--646  [https://doi.org/10.1002/leap.1413](https://doi.org/10.1002/leap.1413)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Erwin Krauskopf (2021). *Article Processing Charge Expenditure in Chile: The Current Situation*. Learned Publishing, 34(4) 637--646  [https://doi.org/10.1002/leap.1413](https://doi.org/10.1002/leap.1413)
+Krauskopf, Erwin (2021). *Article Processing Charge Expenditure in Chile: The Current Situation*. Learned Publishing, 34(4) 637--646  [https://doi.org/10.1002/leap.1413](https://doi.org/10.1002/leap.1413)
 
 :::
 

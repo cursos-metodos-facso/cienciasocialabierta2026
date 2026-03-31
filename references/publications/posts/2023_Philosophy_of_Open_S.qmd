@@ -1,7 +1,7 @@
 ---
 title : "Philosophy of Open Science"
 date : "2023-01-01"
-author : ["Sabina Leonelli"]
+author : "Leonelli, Sabina"
 categories : ["Book"]
 publication : " . Cambridge: Cambridge University Press [https://doi.org/10.1017/9781009416368](https://doi.org/10.1017/9781009416368). ISBN: 978-1-009-41639-9"
 publication_short : " . Cambridge: Cambridge University Press [https://doi.org/10.1017/9781009416368](https://doi.org/10.1017/9781009416368). ISBN: 978-1-009-41639-9"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Sabina Leonelli (2023). *Philosophy of Open Science*.  . Cambridge: Cambridge University Press [https://doi.org/10.1017/9781009416368](https://doi.org/10.1017/9781009416368). ISBN: 978-1-009-41639-9
+Leonelli, Sabina (2023). *Philosophy of Open Science*.  . Cambridge: Cambridge University Press [https://doi.org/10.1017/9781009416368](https://doi.org/10.1017/9781009416368). ISBN: 978-1-009-41639-9
 
 :::
 

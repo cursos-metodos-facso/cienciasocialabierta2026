@@ -1,7 +1,7 @@
 ---
 title : "1,500 Scientists Lift the Lid on Reproducibility :"
 date : "2016-01-01"
-author : ["Monya Baker"]
+author : "Baker, Monya"
 categories : ["Presentation"]
 publication : "Nature News & Comment"
 publication_short : "Nature News & Comment"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Monya Baker (2016). *1,500 Scientists Lift the Lid on Reproducibility :*. Nature News & Comment
+Baker, Monya (2016). *1,500 Scientists Lift the Lid on Reproducibility :*. Nature News & Comment
 
 :::
 

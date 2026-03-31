@@ -1,7 +1,7 @@
 ---
 title : "Survey on Scientific Shared Resource Rigor and Reproducibility"
 date : "2019-09-01"
-author : ["Kevin L. Knudtson", "Robert H. Carnahan", "Rebecca L. Hegstad-Davies", "Nancy C. Fisher", "Belynda Hicks", "Peter A. Lopez", "Susan M. Meyn", "Sheenah M. Mische", "Frances Weis-Garcia", "Lisa D. White", "Katia Sol-Church"]
+author : "Knudtson, Kevin L.; Carnahan, Robert H.; Hegstad-Davies, Rebecca L.; Fisher, Nancy C.; Hicks, Belynda; Lopez, Peter A.; Meyn, Susan M.; Mische, Sheenah M.; Weis-Garcia, Frances; White, Lisa D. & Sol-Church, Katia"
 categories : ["Journal Article"]
 publication : "Journal of Biomolecular Techniques : JBT, 30(3) 36--44  [https://doi.org/10.7171/jbt.19-3003-001](https://doi.org/10.7171/jbt.19-3003-001)"
 publication_short : "Journal of Biomolecular Techniques : JBT, 30(3) 36--44  [https://doi.org/10.7171/jbt.19-3003-001](https://doi.org/10.7171/jbt.19-3003-001)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Kevin L. Knudtson, Robert H. Carnahan, Rebecca L. Hegstad-Davies, Nancy C. Fisher, Belynda Hicks, Peter A. Lopez, Susan M. Meyn, Sheenah M. Mische, Frances Weis-Garcia, Lisa D. White, Katia Sol-Church (2019). *Survey on Scientific Shared Resource Rigor and Reproducibility*. Journal of Biomolecular Techniques : JBT, 30(3) 36--44  [https://doi.org/10.7171/jbt.19-3003-001](https://doi.org/10.7171/jbt.19-3003-001)
+Knudtson, Kevin L.; Carnahan, Robert H.; Hegstad-Davies, Rebecca L.; Fisher, Nancy C.; Hicks, Belynda; Lopez, Peter A.; Meyn, Susan M.; Mische, Sheenah M.; Weis-Garcia, Frances; White, Lisa D. & Sol-Church, Katia (2019). *Survey on Scientific Shared Resource Rigor and Reproducibility*. Journal of Biomolecular Techniques : JBT, 30(3) 36--44  [https://doi.org/10.7171/jbt.19-3003-001](https://doi.org/10.7171/jbt.19-3003-001)
 
 :::
 

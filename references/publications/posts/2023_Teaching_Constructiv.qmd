@@ -1,7 +1,7 @@
 ---
 title : "Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data"
 date : "2023-12-01"
-author : ["Gerrit Bauer", "Nate Breznau", "Johanna Gereke", "Jan H. Hoffler", "Nicole Janz", "Rima-Maria Rahal", "Joachim K. Rennstich", "Hannah Soine"]
+author : "Bauer, Gerrit; Breznau, Nate; Gereke, Johanna; Hoffler, Jan H.; Janz, Nicole; Rahal, Rima-Maria; Rennstich, Joachim K. & Soine, Hannah"
 categories : ["Journal Article"]
 publication : "Teaching of Psychology 00986283231219503  [https://doi.org/10.1177/00986283231219503](https://doi.org/10.1177/00986283231219503)"
 publication_short : "Teaching of Psychology 00986283231219503  [https://doi.org/10.1177/00986283231219503](https://doi.org/10.1177/00986283231219503)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Gerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2023). *Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data*. Teaching of Psychology 00986283231219503  [https://doi.org/10.1177/00986283231219503](https://doi.org/10.1177/00986283231219503)
+Bauer, Gerrit; Breznau, Nate; Gereke, Johanna; Hoffler, Jan H.; Janz, Nicole; Rahal, Rima-Maria; Rennstich, Joachim K. & Soine, Hannah (2023). *Teaching Constructive Replications in the Behavioral and Social Sciences Using Quantitative Data*. Teaching of Psychology 00986283231219503  [https://doi.org/10.1177/00986283231219503](https://doi.org/10.1177/00986283231219503)
 
 :::
 

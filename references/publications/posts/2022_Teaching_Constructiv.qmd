@@ -1,7 +1,7 @@
 ---
 title : "Teaching Constructive Replications in the Social Sciences"
 date : "2022-07-01"
-author : ["Gerrit Bauer", "Nate Breznau", "Johanna Gereke", "Jan H. Hoffler", "Nicole Janz", "Rima-Maria Rahal", "Joachim K. Rennstich", "Hannah Soine"]
+author : "Bauer, Gerrit; Breznau, Nate; Gereke, Johanna; Hoffler, Jan H.; Janz, Nicole; Rahal, Rima-Maria; Rennstich, Joachim K. & Soine, Hannah"
 categories : ["Presentation"]
 publication : " : MetaArXiv [https://doi.org/10.31222/osf.io/ejkws](https://doi.org/10.31222/osf.io/ejkws)"
 publication_short : " : MetaArXiv [https://doi.org/10.31222/osf.io/ejkws](https://doi.org/10.31222/osf.io/ejkws)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Gerrit Bauer, Nate Breznau, Johanna Gereke, Jan H. Hoffler, Nicole Janz, Rima-Maria Rahal, Joachim K. Rennstich, Hannah Soine (2022). *Teaching Constructive Replications in the Social Sciences*.  : MetaArXiv [https://doi.org/10.31222/osf.io/ejkws](https://doi.org/10.31222/osf.io/ejkws)
+Bauer, Gerrit; Breznau, Nate; Gereke, Johanna; Hoffler, Jan H.; Janz, Nicole; Rahal, Rima-Maria; Rennstich, Joachim K. & Soine, Hannah (2022). *Teaching Constructive Replications in the Social Sciences*.  : MetaArXiv [https://doi.org/10.31222/osf.io/ejkws](https://doi.org/10.31222/osf.io/ejkws)
 
 :::
 

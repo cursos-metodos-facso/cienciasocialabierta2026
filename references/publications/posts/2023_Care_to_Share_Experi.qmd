@@ -1,7 +1,7 @@
 ---
 title : "Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences"
 date : "2023-08-01"
-author : ["Daniel Krahmer", "Laura Schachtele", "Andreas Schneck"]
+author : "Krahmer, Daniel; Schachtele, Laura & Schneck, Andreas"
 categories : ["Journal Article"]
 publication : "PLOS ONE, 18 e0289380  [https://doi.org/10.1371/journal.pone.0289380](https://doi.org/10.1371/journal.pone.0289380)"
 publication_short : "PLOS ONE, 18 e0289380  [https://doi.org/10.1371/journal.pone.0289380](https://doi.org/10.1371/journal.pone.0289380)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Daniel Krahmer, Laura Schachtele, Andreas Schneck (2023). *Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences*. PLOS ONE, 18 e0289380  [https://doi.org/10.1371/journal.pone.0289380](https://doi.org/10.1371/journal.pone.0289380)
+Krahmer, Daniel; Schachtele, Laura & Schneck, Andreas (2023). *Care to Share? Experimental Evidence on Code Sharing Behavior in the Social Sciences*. PLOS ONE, 18 e0289380  [https://doi.org/10.1371/journal.pone.0289380](https://doi.org/10.1371/journal.pone.0289380)
 
 :::
 

@@ -1,7 +1,7 @@
 ---
 title : "Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015"
 date : "2019-09-01"
-author : ["Tomas Koch", "Raf Vanderstraeten"]
+author : "Koch, Tomas & Vanderstraeten, Raf"
 categories : ["Journal Article"]
 publication : "Current Sociology, 67(5) 723--741  [https://doi.org/10.1177/0011392118807514](https://doi.org/10.1177/0011392118807514)"
 publication_short : "Current Sociology, 67(5) 723--741  [https://doi.org/10.1177/0011392118807514](https://doi.org/10.1177/0011392118807514)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Tomas Koch, Raf Vanderstraeten (2019). *Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015*. Current Sociology, 67(5) 723--741  [https://doi.org/10.1177/0011392118807514](https://doi.org/10.1177/0011392118807514)
+Koch, Tomas & Vanderstraeten, Raf (2019). *Internationalizing a National Scientific Community? Changes in Publication and Citation Practices in Chile, 1976–2015*. Current Sociology, 67(5) 723--741  [https://doi.org/10.1177/0011392118807514](https://doi.org/10.1177/0011392118807514)
 
 :::
 

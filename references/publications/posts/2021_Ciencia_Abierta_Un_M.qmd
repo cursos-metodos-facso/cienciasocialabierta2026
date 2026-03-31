@@ -1,7 +1,7 @@
 ---
 title : "Ciencia Abierta: Un Modelo Con Piezas Por Encajar"
 date : "2021-04-01"
-author : ["Ernest Abadal"]
+author : "Abadal, Ernest"
 categories : ["Journal Article"]
 publication : "Arbor, 197(799) a588  [https://doi.org/10.3989/arbor.2021.799003](https://doi.org/10.3989/arbor.2021.799003)"
 publication_short : "Arbor, 197(799) a588  [https://doi.org/10.3989/arbor.2021.799003](https://doi.org/10.3989/arbor.2021.799003)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Ernest Abadal (2021). *Ciencia Abierta: Un Modelo Con Piezas Por Encajar*. Arbor, 197(799) a588  [https://doi.org/10.3989/arbor.2021.799003](https://doi.org/10.3989/arbor.2021.799003)
+Abadal, Ernest (2021). *Ciencia Abierta: Un Modelo Con Piezas Por Encajar*. Arbor, 197(799) a588  [https://doi.org/10.3989/arbor.2021.799003](https://doi.org/10.3989/arbor.2021.799003)
 
 :::
 

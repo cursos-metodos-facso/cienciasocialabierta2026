@@ -1,7 +1,7 @@
 ---
 title : "Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe"
 date : "2022-01-01"
-author : ["Gabriel Velez"]
+author : "Velez, Gabriel"
 categories : ["Presentation"]
 publication : " "
 publication_short : " "
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Gabriel Velez (2022). *Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe*.  
+Velez, Gabriel (2022). *Métricas de La Producción Académica. Evaluación de La Investigación Desde América Latina y El Caribe*.  
 
 :::
 

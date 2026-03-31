@@ -1,7 +1,7 @@
 ---
 title : "Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1"
 date : "2022-01-01"
-author : ["Daniel Hirschman"]
+author : "Hirschman, Daniel"
 categories : ["Journal Article"]
 publication : "American Journal of Sociology: The University of Chicago PressChicago, IL [https://doi.org/10.1086/718451](https://doi.org/10.1086/718451)"
 publication_short : "American Journal of Sociology: The University of Chicago PressChicago, IL [https://doi.org/10.1086/718451](https://doi.org/10.1086/718451)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Daniel Hirschman (2022). *Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1*. American Journal of Sociology: The University of Chicago PressChicago, IL [https://doi.org/10.1086/718451](https://doi.org/10.1086/718451)
+Hirschman, Daniel (2022). *Rediscovering the 1%: Knowledge Infrastructures and the Stylized Facts of Inequality1*. American Journal of Sociology: The University of Chicago PressChicago, IL [https://doi.org/10.1086/718451](https://doi.org/10.1086/718451)
 
 :::
 

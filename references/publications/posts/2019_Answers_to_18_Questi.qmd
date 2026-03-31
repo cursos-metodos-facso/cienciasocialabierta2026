@@ -1,7 +1,7 @@
 ---
 title : "Answers to 18 Questions About Open Science Practices"
 date : "2019-06-01"
-author : ["George C. Banks", "James G. Field", "Frederick L. Oswald", "Ernest H. O'Boyle", "Ronald S. Landis", "Deborah E. Rupp", "Steven G. Rogelberg"]
+author : "Banks, George C.; Field, James G.; Oswald, Frederick L.; O'Boyle, Ernest H.; Landis, Ronald S.; Rupp, Deborah E. & Rogelberg, Steven G."
 categories : ["Journal Article"]
 publication : "Journal of Business and Psychology, 34(3) 257--270  [https://doi.org/10.1007/s10869-018-9547-8](https://doi.org/10.1007/s10869-018-9547-8)"
 publication_short : "Journal of Business and Psychology, 34(3) 257--270  [https://doi.org/10.1007/s10869-018-9547-8](https://doi.org/10.1007/s10869-018-9547-8)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-George C. Banks, James G. Field, Frederick L. Oswald, Ernest H. O'Boyle, Ronald S. Landis, Deborah E. Rupp, Steven G. Rogelberg (2019). *Answers to 18 Questions About Open Science Practices*. Journal of Business and Psychology, 34(3) 257--270  [https://doi.org/10.1007/s10869-018-9547-8](https://doi.org/10.1007/s10869-018-9547-8)
+Banks, George C.; Field, James G.; Oswald, Frederick L.; O'Boyle, Ernest H.; Landis, Ronald S.; Rupp, Deborah E. & Rogelberg, Steven G. (2019). *Answers to 18 Questions About Open Science Practices*. Journal of Business and Psychology, 34(3) 257--270  [https://doi.org/10.1007/s10869-018-9547-8](https://doi.org/10.1007/s10869-018-9547-8)
 
 :::
 

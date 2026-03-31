@@ -1,7 +1,7 @@
 ---
 title : "Choosing Your Workflow Applications"
 date : "2011-01-01"
-author : ["Kieran Healy"]
+author : "Healy, Kieran"
 categories : ["Journal Article"]
 publication : "The Political Methodologist, 18(2) 9--18 "
 publication_short : "The Political Methodologist, 18(2) 9--18 "
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Kieran Healy (2011). *Choosing Your Workflow Applications*. The Political Methodologist, 18(2) 9--18 
+Healy, Kieran (2011). *Choosing Your Workflow Applications*. The Political Methodologist, 18(2) 9--18 
 
 :::
 

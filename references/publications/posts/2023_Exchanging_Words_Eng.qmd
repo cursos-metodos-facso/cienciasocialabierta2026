@@ -1,7 +1,7 @@
 ---
 title : "Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data"
 date : "2023-10-01"
-author : ["James M. DuBois", "Jessica Mozersky", "Meredith Parsons", "Heidi A. Walsh", "Annie Friedrich", "Amy Pienta"]
+author : "DuBois, James M.; Mozersky, Jessica; Parsons, Meredith; Walsh, Heidi A.; Friedrich, Annie & Pienta, Amy"
 categories : ["Journal Article"]
 publication : "Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences [https://doi.org/10.1073/pnas.2206981120](https://doi.org/10.1073/pnas.2206981120)"
 publication_short : "Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences [https://doi.org/10.1073/pnas.2206981120](https://doi.org/10.1073/pnas.2206981120)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-James M. DuBois, Jessica Mozersky, Meredith Parsons, Heidi A. Walsh, Annie Friedrich, Amy Pienta (2023). *Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data*. Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences [https://doi.org/10.1073/pnas.2206981120](https://doi.org/10.1073/pnas.2206981120)
+DuBois, James M.; Mozersky, Jessica; Parsons, Meredith; Walsh, Heidi A.; Friedrich, Annie & Pienta, Amy (2023). *Exchanging Words: Engaging the Challenges of Sharing Qualitative Research Data*. Proceedings of the National Academy of Sciences, 120(43) e2206981120 : Proceedings of the National Academy of Sciences [https://doi.org/10.1073/pnas.2206981120](https://doi.org/10.1073/pnas.2206981120)
 
 :::
 

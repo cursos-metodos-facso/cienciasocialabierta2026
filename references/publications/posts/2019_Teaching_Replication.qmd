@@ -1,7 +1,7 @@
 ---
 title : "Teaching Replication to Graduate Students"
 date : "2019-10-01"
-author : ["Dragana Stojmenovska", "Thijs Bol", "Thomas Leopold"]
+author : "Stojmenovska, Dragana; Bol, Thijs & Leopold, Thomas"
 categories : ["Journal Article"]
 publication : "Teaching Sociology, 47(4) 303--313  [https://doi.org/10.1177/0092055X19867996](https://doi.org/10.1177/0092055X19867996)"
 publication_short : "Teaching Sociology, 47(4) 303--313  [https://doi.org/10.1177/0092055X19867996](https://doi.org/10.1177/0092055X19867996)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Dragana Stojmenovska, Thijs Bol, Thomas Leopold (2019). *Teaching Replication to Graduate Students*. Teaching Sociology, 47(4) 303--313  [https://doi.org/10.1177/0092055X19867996](https://doi.org/10.1177/0092055X19867996)
+Stojmenovska, Dragana; Bol, Thijs & Leopold, Thomas (2019). *Teaching Replication to Graduate Students*. Teaching Sociology, 47(4) 303--313  [https://doi.org/10.1177/0092055X19867996](https://doi.org/10.1177/0092055X19867996)
 
 :::
 

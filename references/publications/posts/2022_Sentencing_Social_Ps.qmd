@@ -1,7 +1,7 @@
 ---
 title : "Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules"
 date : "2022-08-01"
-author : ["Julien Larregue"]
+author : "Larregue, Julien"
 categories : ["Journal Article"]
 publication : "Current Sociology 00113921221117604 : SAGE Publications Ltd [https://doi.org/10.1177/00113921221117604](https://doi.org/10.1177/00113921221117604)"
 publication_short : "Current Sociology 00113921221117604 : SAGE Publications Ltd [https://doi.org/10.1177/00113921221117604](https://doi.org/10.1177/00113921221117604)"
@@ -17,7 +17,7 @@ about:
 
 ::: {.callout-note title="How to cite this work"}
 
-Julien Larregue (2022). *Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules*. Current Sociology 00113921221117604 : SAGE Publications Ltd [https://doi.org/10.1177/00113921221117604](https://doi.org/10.1177/00113921221117604)
+Larregue, Julien (2022). *Sentencing Social Psychology: Scientific Deviance and the Diffusion of Statistical Rules*. Current Sociology 00113921221117604 : SAGE Publications Ltd [https://doi.org/10.1177/00113921221117604](https://doi.org/10.1177/00113921221117604)
 
 :::
 
