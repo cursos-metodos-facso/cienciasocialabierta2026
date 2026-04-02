@@ -88,7 +88,9 @@ website:
             - text: "Práctico 1"
               file: assignment/01-practico.qmd      
             - text: "Práctico 2"
-              file: assignment/02-practico.qmd                    
+              file: assignment/02-practico.qmd    
+            - text: "Práctico 3"
+              file: assignment/03-practico.qmd                 
                        
   page-footer:
     left: |
