@@ -32,6 +32,8 @@ Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de r
 -   disponibilidad de datos y código
 -   tabla o figura seleccionada para reproducir
 
+Link al reporte de avance: [https://forms.gle/YWcxt8wHekuXxgYu8](https://forms.gle/YWcxt8wHekuXxgYu8)
+
 ## Revisión cruzada
 
 Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
