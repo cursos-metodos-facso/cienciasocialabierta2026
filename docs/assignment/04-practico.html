@@ -150,8 +150,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#repositorios" id="toc-repositorios" class="nav-link" data-scroll-target="#repositorios"><span class="header-section-number">1.2</span> Repositorios</a></li>
   <li><a href="#principales-términos" id="toc-principales-términos" class="nav-link" data-scroll-target="#principales-términos"><span class="header-section-number">1.3</span> Principales términos</a></li>
   <li><a href="#crear-cuenta" id="toc-crear-cuenta" class="nav-link" data-scroll-target="#crear-cuenta"><span class="header-section-number">1.4</span> Crear cuenta</a></li>
-  <li><a href="#github-desktop" id="toc-github-desktop" class="nav-link" data-scroll-target="#github-desktop"><span class="header-section-number">1.5</span> Github desktop</a></li>
-  <li><a href="#github-pages" id="toc-github-pages" class="nav-link" data-scroll-target="#github-pages"><span class="header-section-number">1.6</span> Github pages</a></li>
   </ul></li>
   <li><a href="#actividades-prácticas" id="toc-actividades-prácticas" class="nav-link" data-scroll-target="#actividades-prácticas"><span class="header-section-number">2</span> Actividades prácticas</a>
   <ul class="collapse">
@@ -261,48 +259,55 @@ Nota
 </ol>
 <p><img src="images/auth-prompt.png" class="img-fluid"></p>
 <ol start="3" type="1">
-<li><p>Una vez iniciada sesión, vamos a descargar un repositorio. Para esto, abrimos la barra de comandos (<code>Ctrl + Shift + P</code>) y escribimos <code>Git: Clone</code> y seleccionamos la opción que aparece (clone from Github).</p></li>
+<li>Una vez iniciada sesión, vamos a descargar un repositorio. Para esto, abrimos la barra de comandos (<code>Ctrl + Shift + P</code>) y escribimos <code>Git: Clone</code> y seleccionamos la opción que aparece (clone from Github).</li>
+</ol>
+<p><img src="images/github2.png" class="img-fluid"></p>
+<ol start="4" type="1">
 <li><p>Luego, se abrirá una ventana con los repositorios disponibles en nuestra cuenta de Github. Como no hemos creado ninguno aún, vamos a clonar uno existente. Escriben: kevin-carrasco/taller-github-csa y seleccionan el repositorio que aparece.</p></li>
 <li><p>Elegimos donde almacenar el repositorio en nuestro computador.</p></li>
+<li><p>Crear una nueva branch con sus nombres: abrir la barra de comandos (<code>Ctrl + Shift + P</code>) y escribir <code>Git: Create Branch</code> y seleccionar la opción que aparece. Luego, escribir el nombre de la branch (ej: kevin-carrasco) y presionar Enter.</p></li>
 </ol>
-<p>4- Seleccionamos nuestro repositorio</p>
-<p>5- seleccionamos la carpeta donde se almacenará. Siempre evitando tener tíldes, ñ y espacios en la dirección de almacenamiento y apretamos ‘clone’.</p>
-<p><img src="images/clonar2.png" class="img-fluid"></p>
-<ol start="6" type="1">
-<li>Cuando tengamos nuestros archivos (por ejemplo, analisis.qmd) podemos subirla a Github Pages a través de Github Desktop.</li>
-</ol>
-</section>
-<section id="github-desktop" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="github-desktop"><span class="header-section-number">1.5</span> Github desktop</h2>
-<p><img src="images/push-github.png" class="img-fluid"></p>
-</section>
-<section id="github-pages" class="level2" data-number="1.6">
-<h2 data-number="1.6" class="anchored" data-anchor-id="github-pages"><span class="header-section-number">1.6</span> Github pages</h2>
-<p>Ahora podemos ver los documentos modificados en nuestro repositorio online de github.</p>
+<p><img src="images/github3.png" class="img-fluid"></p>
 <ol start="7" type="1">
-<li>Vamos a settings</li>
+<li><p>Crear un nuevo archivo dentro del repositorio clonado, por ejemplo <code>nombre.r</code>, y escribir algo de texto dentro de este.</p></li>
+<li><p>Guardar el archivo (<code>Ctrl + S</code>).</p></li>
+<li><p>Ir a la sección de control de versiones en la barra lateral, donde aparecerá el nuevo archivo creado.</p></li>
+<li><p>Escribir un mensaje de commit y hacer click en el ícono de check para hacer el commit.</p></li>
 </ol>
-<p><img src="images/pages.png" class="img-fluid"></p>
-<ol start="8" type="1">
-<li>Dentro de Settings vamos a Pages, luego ‘none’ y seleccionamos ‘main’. Luego apretamos Save</li>
+<p><img src="images/github4.png" class="img-fluid"></p>
+<ol start="11" type="1">
+<li>Sincronizar los cambios y luego hacer un pull-request.</li>
 </ol>
-<p><img src="images/pages2.png" class="img-fluid"></p>
-<p>Luego de aproximadamente un minuto se actualiza la página y aparecerá un link en la parte superior, algo así como <a href="kevin-carrasco.github.io/ipo">kevin-carrasco.github.io/ipo</a> que es nuestra página principal de nuestro sitio web de github.</p>
-<p>El link para llegar a nuestro documento renderizado de quarto sigue la estructura del repositorio:</p>
-<p>kevin-carrasco.github.io/ipo/trabajo.html</p>
-<p><img src="images/url-pages.png" class="img-fluid"></p>
+<p><img src="images/github5.png" class="img-fluid"></p>
+<ol start="12" type="1">
+<li>Luego de que los pull-requests sean revisados y aceptados, el nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un “pull” de la rama principal.</li>
+</ol>
 </section>
 </section>
 <section id="actividades-prácticas" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Actividades prácticas</h1>
 <section id="crear-repositorio" class="level2" data-number="2.1">
 <h2 data-number="2.1" class="anchored" data-anchor-id="crear-repositorio"><span class="header-section-number">2.1</span> Crear repositorio</h2>
-<p>En la página principal de <a href="https://github.com/">github</a> hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios</p>
+<ol type="1">
+<li>En la página principal de <a href="https://github.com/">github</a> hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios</li>
+</ol>
 <p><img src="images/repos.png" class="img-fluid"></p>
-<p>Una vez accedemos a Tus repositorios hacemos click en New/Nuevo</p>
+<ol start="2" type="1">
+<li>Una vez accedemos a Tus repositorios hacemos click en New/Nuevo</li>
+</ol>
 <p><img src="images/repos2.png" class="img-fluid"></p>
-<p>Luego le ponemos un nombre a nuestro repositorio, evitando siempre espacios, ñ y tíldes, y apretamos Crear repositorio</p>
+<ol start="3" type="1">
+<li>Luego le ponemos un nombre a nuestro repositorio, evitando siempre espacios, ñ y tíldes, y apretamos Crear repositorio</li>
+</ol>
 <p><img src="images/repos3.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li><p>Clonar este nuevo repositorio en sus computadores</p></li>
+<li><p>Crear un nuevo archivo dentro del repositorio clonado, por ejemplo <code>tarea.qmd</code>, y escribir algo de texto dentro de este.</p></li>
+<li><p>Añadir como colaboradxr a un compañer- de curso. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.</p></li>
+<li><p>Que sus compañeres acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.</p></li>
+<li><p>Editar el documento <code>tarea.qmd</code> de sus compañer-s y agregar algo de texto. Luego, hacer commit y push de los cambios para que sus compañer-s puedan descargar los nuevos cambios realizados.</p></li>
+<li><p>Descargar los nuevos cambios en sus repositorios locales y verificar que el documento <code>tarea.qmd</code> se ha actualizado con los cambios realizados por sus compañer-s.</p></li>
+</ol>
 
 
 </section>
