@@ -79,38 +79,41 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 9. Ir a la sección de control de versiones en la barra lateral, donde aparecerá el nuevo archivo creado.
 
-10. Escribir un mensaje de commit y hacer click en el ícono de check para hacer el commit. Sincronizar los cambios y luego hacer un pull-request.
+10. Escribir un mensaje de commit y hacer click en el ícono de check para hacer el commit.
 
+![](images/github4.png)
 
-![](images/github3.png)
+11. Sincronizar los cambios y luego hacer un pull-request.
 
-11. Luego de que los pull-requests sean revisados y aceptados, el nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un "pull" de la rama principal.
+![](images/github5.png)
+
+12. Luego de que los pull-requests sean revisados y aceptados, el nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un "pull" de la rama principal.
 
 
 # Actividades prácticas
 
 ## Crear repositorio
 
-En la página principal de [github](https://github.com/) hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios
+1. En la página principal de [github](https://github.com/) hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios
 
 ![](images/repos.png)
 
-Una vez accedemos a Tus repositorios hacemos click en New/Nuevo
+2. Una vez accedemos a Tus repositorios hacemos click en New/Nuevo
 
 ![](images/repos2.png)
 
-Luego le ponemos un nombre a nuestro repositorio, evitando siempre espacios, ñ y tíldes, y apretamos Crear repositorio
+3. Luego le ponemos un nombre a nuestro repositorio, evitando siempre espacios, ñ y tíldes, y apretamos Crear repositorio
 
 ![](images/repos3.png)
 
-1. Clonar este nuevo repositorio en sus computadores
+4. Clonar este nuevo repositorio en sus computadores
 
-2. Crear un nuevo archivo dentro del repositorio clonado, por ejemplo `tarea.qmd`, y escribir algo de texto dentro de este.
+5. Crear un nuevo archivo dentro del repositorio clonado, por ejemplo `tarea.qmd`, y escribir algo de texto dentro de este.
 
-3. Añadir como colaboradxr a un compañer- de curso. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.
+6. Añadir como colaboradxr a un compañer- de curso. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.
 
-4. Que sus compañeres acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.
+7. Que sus compañeres acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.
 
-5. Editar el documento `tarea.qmd` de sus compañer-s y agregar algo de texto. Luego, hacer commit y push de los cambios para que sus compañer-s puedan descargar los nuevos cambios realizados.
+8. Editar el documento `tarea.qmd` de sus compañer-s y agregar algo de texto. Luego, hacer commit y push de los cambios para que sus compañer-s puedan descargar los nuevos cambios realizados.
 
-6. Descargar los nuevos cambios en sus repositorios locales y verificar que el documento `tarea.qmd` se ha actualizado con los cambios realizados por sus compañer-s.
+9. Descargar los nuevos cambios en sus repositorios locales y verificar que el documento `tarea.qmd` se ha actualizado con los cambios realizados por sus compañer-s.
