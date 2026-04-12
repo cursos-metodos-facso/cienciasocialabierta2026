@@ -146,6 +146,32 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 :::
 :::
 
+
+
+# Git  {data-background-color="#9B2626"}
+
+*Git es un sistema de control de versiones*
+
+---
+
+### Git
+
+::: columns
+::: {.column width="30%"}
+![](img/03/git.png)
+:::
+
+::: {.column width="70%"}
+
+- Su propósito original era ayudar a grupos de desarrolladores a trabajar de forma colaborativa en grandes proyectos de software. 
+
+- Git gestiona la evolución de un conjunto de archivos —llamado repositorio— de una manera lógica y altamente estructurada. 
+
+- Similar a la función "Control de cambios" de Microsoft Word, pero mucho más avanzada.
+
+:::
+:::
+
 ---
 
 ### Git
@@ -180,6 +206,50 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 :::
 
 ::: {.column width="70%"}
+
+- Espacio para tus proyectos basados ​​en Git en internet. 
+
+- Similar a Dropbox, pero mejor. 
+
+- El servidor remoto actúa como un canal de distribución o centro de intercambio para tu proyecto vinculado a Git. Permite que otras personas vean tu trabajo, se sincronicen contigo e incluso realicen cambios.
+
+:::
+:::
+::::
+
+---
+
+#### Git/github
+
+:::: {style="font-size: 80%;"}
+
+::: columns
+::: {.column width="30%"}
+![](img/03/github.png)
+:::
+
+::: {.column width="70%"}
+
+- Incluso para proyectos personales, es buena idea guardar tu trabajo en una ubicación remota para tener un respaldo
+
+- Si has subido tu trabajo a GitHub, es fácil obtener una copia nueva, corregir los cambios que solo existen localmente y seguir trabajando.
+
+:::
+:::
+::::
+
+---
+
+#### Git/github
+
+:::: {style="font-size: 80%;"}
+
+::: columns
+::: {.column width="30%"}
+![](img/03/github.png)
+:::
+
+::: {.column width="70%"}
 -   actualmente, Git / Github posee más de 100 millones de repositorios
 
 -   mayor fuente de código en el mundo
@@ -189,6 +259,31 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 -   entorno de trabajo que favorece la ciencia abierta
 
 -   En 2018 Microsoft compró GitHub por la cantidad de 7500 millones de dólares. Al inicio, el cambio de propietario generó preocupaciones y la salida de algunos proyectos de este sitio; sin embargo, no fueron representativos.
+:::
+:::
+::::
+
+---
+
+#### Git/github
+
+:::: {style="font-size: 80%;"}
+
+::: columns
+::: {.column width="30%"}
+![](img/03/github.png)
+:::
+
+::: {.column width="70%"}
+
+- Debemos instalar Git y vincular Git con VSCode. Esto es un proceso que solo se realiza una vez o una vez por computador.
+
+- Un repositorio puede ser público o privado (todos los visibles son públicos y clonable)
+
+- cualquier repositorio remoto de Github que es clonado localmente quedará **vinculado al repositorio remoto** 
+
+- si se clona un repositorio **de otra cuenta** no se puede sincronizar luego con cambios locales (a menos que ese repositorio  lo incluya como colaborador)
+
 :::
 :::
 ::::
@@ -206,6 +301,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ## 
 
 ![](img/03/gitflow.jpeg)
+
 
 ---
 
@@ -281,6 +377,37 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 - Lo mejor es trabajar coordinadamente en tareas separadas (en momentos o archivos diferentes)
 
 - Mediante *pull request*, donde una persona a cargo decide qué modificaciones aceptar y cuando.
+
+---
+
+### Ventajas
+
+::: {.incremental}
+
+- **Visibilidad**: Si alguien necesita ver tu trabajo o si quieres que pruebe tu código, puede acceder fácilmente a él desde GitHub.
+
+- **Colaboración**: Para analizar datos en conjunto. Usar GitHub permite que cada persona trabaje de forma independiente y luego envía su trabajo a revisión al resto del equipo.
+
+- **Seguimiento**: Si te interesa mucho el proyecto de otra persona, como un paquete de R, puedes seguir su desarrollo en GitHub.
+
+:::
+
+---
+
+### Anécdota
+
+[Ingeniero chileno aportó código a helicóptero en Marte y recibió una insignia](https://www.las3claves.com/innovacion/ingeniero-chileno-aporto-codigo-a-helicoptero-en-marte-y-recibio-una)
+
+```{=html}
+<iframe src="https://www.las3claves.com/innovacion/ingeniero-chileno-aporto-codigo-a-helicoptero-en-marte-y-recibio-una" width="1000" height="800"></iframe>
+
+```
+
+---
+
+### Anécdota
+
+![](img/03/achievement.png)
 
 
 # {.hide-logo data-background-color="#9B2626"}
