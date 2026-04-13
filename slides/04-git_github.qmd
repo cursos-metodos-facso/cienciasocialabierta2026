@@ -161,7 +161,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/git.png)
 :::
 
-::: {.column width="70%"}
+::: {.column width="70%" .incremental style="font-size: 30px;"}
 
 - Su propósito original era ayudar a grupos de desarrolladores a trabajar de forma colaborativa en grandes proyectos de software. 
 
@@ -181,22 +181,28 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/git.png)
 :::
 
-::: {.column width="70%"}
--   es una especie de memoria local que registra:
+::: {.column width="70%" .incremental style="font-size: 32px;"}
+-   Es una especie de memoria local que registra:
 
     -   quién hizo un cambio
     -   cuándo lo hizo
     -   qué hizo
 
--   mantiene la información de todos los cambios en la historia de la carpeta
+-   Mantiene la información de todos los cambios en la historia de la carpeta
 
--   se puede sincronizar con un repositorio remoto (ej. Github)
+-   Se puede sincronizar con un repositorio remoto (ej. Github)
 :::
 :::
+
+# GitHub  {data-background-color="#9B2626"}
+
+*GitHub es una plataforma de desarrollo de código orientada a la colaboración*
 
 ---
 
-#### Git/github
+
+
+#### GitHub
 
 :::: {style="font-size: 80%;"}
 
@@ -205,13 +211,15 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/github.png)
 :::
 
-::: {.column width="70%"}
+::: {.column width="70%" .incremental}
 
 - Espacio para tus proyectos basados ​​en Git en internet. 
 
-- Similar a Dropbox, pero mejor. 
+- Similar a Dropbox, pero con mejor control de versiones. 
 
-- El servidor remoto actúa como un canal de distribución o centro de intercambio para tu proyecto vinculado a Git. Permite que otras personas vean tu trabajo, se sincronicen contigo e incluso realicen cambios.
+- El servidor remoto actúa como un canal de distribución o centro de intercambio para tu proyecto vinculado a Git. 
+
+- Permite que otras personas vean tu trabajo, se sincronicen contigo e incluso realicen cambios.
 
 :::
 :::
@@ -219,7 +227,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 ---
 
-#### Git/github
+#### GitHub
 
 :::: {style="font-size: 80%;"}
 
@@ -228,9 +236,9 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/github.png)
 :::
 
-::: {.column width="70%"}
+::: {.column width="70%" .incremental}
 
-- Incluso para proyectos personales, es buena idea guardar tu trabajo en una ubicación remota para tener un respaldo
+- Incluso para proyectos personales, es buena idea guardar tu trabajo en una ubicación remota para tener un respaldo.
 
 - Si has subido tu trabajo a GitHub, es fácil obtener una copia nueva, corregir los cambios que solo existen localmente y seguir trabajando.
 
@@ -240,7 +248,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 ---
 
-#### Git/github
+#### GitHub
 
 :::: {style="font-size: 80%;"}
 
@@ -249,23 +257,23 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/github.png)
 :::
 
-::: {.column width="70%"}
--   actualmente, Git / Github posee más de 100 millones de repositorios
+::: {.column width="70%" .incremental}
+-   Actualmente, Git / Github posee más de 100 millones de repositorios.
 
--   mayor fuente de código en el mundo
+-   Mayor fuente de código en el mundo
 
--   ha transitado desde el mundo de desarrollo de software hacia distintos ámbitos de trabajo colaborativo y abierto
+-   Ha transitado desde el mundo de desarrollo de software hacia distintos ámbitos de trabajo colaborativo y abierto
 
--   entorno de trabajo que favorece la ciencia abierta
+-   Entorno de trabajo que favorece la ciencia abierta
 
 -   En 2018 Microsoft compró GitHub por la cantidad de 7500 millones de dólares. Al inicio, el cambio de propietario generó preocupaciones y la salida de algunos proyectos de este sitio; sin embargo, no fueron representativos.
 :::
 :::
 ::::
 
----
+# Funcionamiento  {data-background-color="#9B2626"}
 
-#### Git/github
+## Git/github
 
 :::: {style="font-size: 80%;"}
 
@@ -274,15 +282,15 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/github.png)
 :::
 
-::: {.column width="70%"}
+::: {.column width="70%" .incremental}
 
 - Debemos instalar Git y vincular Git con VSCode. Esto es un proceso que solo se realiza una vez o una vez por computador.
 
 - Un repositorio puede ser público o privado (todos los visibles son públicos y clonable)
 
-- cualquier repositorio remoto de Github que es clonado localmente quedará **vinculado al repositorio remoto** 
+- Cualquier repositorio remoto de Github que es clonado localmente quedará **vinculado al repositorio remoto** 
 
-- si se clona un repositorio **de otra cuenta** no se puede sincronizar luego con cambios locales (a menos que ese repositorio  lo incluya como colaborador)
+- Si se clona un repositorio **de otra cuenta** no se puede sincronizar luego con cambios locales (a menos que ese repositorio  lo incluya como colaborador)
 
 :::
 :::
@@ -302,11 +310,11 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 ![](img/03/gitflow.jpeg)
 
-
 ---
 
 ### Commits
 
+:::{.incremental}
 -   El commit es el procedimiento fundamental del control de versiones
 
 -   Git no registra cualquier cambio que se "guarda", sino los que se "comprometen" (*commit*).
@@ -315,14 +323,16 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
     -   se seleccionan los archivos cuyo cambio se desea registrar (*stage*)
     -   se registra lo que se está comprometiendo en el cambio (mensaje de commit)
+:::
 
 ---
 
 ### ¿Cuándo hacer un commit?
 
--   según conveniencia
+:::{.incremental}
+-   Según conveniencia
 
--   sugerencias:
+-   Sugerencias:
 
     -   que sea un momento que requiera registro (momento de foto)
 
@@ -331,6 +341,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
     -   no esperar muchos cambios distintos que puedan hacer perder el sentido del commit
 
     -  no esperar a tener todo el proyecto listo para hacer un commit
+:::
 
 ---
 
@@ -351,7 +362,28 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 ---
 
-### Branch
+# Trabajo colaborativo en GitHub {data-background-color="#9B2626"}
+
+*Git es un sistema de control de versiones*
+
+## Colaborando en Github
+
+:::{.incremental}
+
+- Github permite que varias personas trabajen en el mismo proyecto
+
+- Para ello, quien administra el repositorio puede agregar colaboradores (que tengan cuenta en Github), quienes pueden hacer cambios y sincronizarlos con el repositorio remoto
+
+- Para ello ir a Settings > Collaboratos and teams
+
+:::
+
+## Colaborando en Github
+
+- Cada colaborador debe clonar el repositorio remoto en su computador, lo que genera una copia local vinculada al repositorio remoto
+  - En VSC: Ctrl + Shift + P > Git: Clone > from Github, y buscar el reppo
+
+## Colaboración mediante branch
 
 -   Una **branch** es una versión paralela de los archivos contenidos en el repositorio, pero que no afecta a la rama principal.
 
@@ -410,6 +442,19 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ![](img/03/achievement.png)
 
 
+## [**Resumen**]{style="color: #dfc117;"} {data-background-color="#9B2626"}
+
+:::{.incremental}
+
+- Git: programa para controlar versiones localmente 
+- GitHub: plataforma para compartir proyectos basados en Git
+- Commit: procedimiento fundamental del control de versiones
+- Colaboración: mediante branches y pull request
+- Ventajas: visibilidad, colaboración, seguimiento
+
+:::
+
+
 # {.hide-logo data-background-color="#9B2626"}
 
 ::::: columns
@@ -428,12 +473,10 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 <br>
 
-### 
+
+###
 
 <span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
-
-----
-
 
 <br>
 

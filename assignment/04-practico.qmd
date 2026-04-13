@@ -9,17 +9,20 @@ website:
 number-sections: true
 ---
 
-### Prerequisitos
+### Prerequisitos {.unnumbered}
 
 - Tener Git instalado en el computador: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+- Extensiones necesarias en VSCode: Git History y GitHub Pull Requests
+
 - Crear cuenta en [www.github.com](www.github.com)
+
 
 # Github
 
 ## Descripción
 
-Github es una plataforma de desarrollo colaborativo que permite alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas (software). 
+Github es una **plataforma de desarrollo colaborativo** que permite alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas (software). 
 
 ::: callout-note
 
@@ -37,18 +40,20 @@ Los repositorios pueden contar con múltiples colaboradores y pueden ser públic
 
 | Término          | Definición                                                                                           |
 |---------------|------------------------------------------------------------------------------------------------------|
-| Branch        | 	Una versión paralela del código contenido en el repositorio, pero que no afecta a la rama principal.|
-| Clonar        |	Para descargar una copia completa de los datos de un repositorio de GitHub.com, incluidas todas las versiones de cada archivo y carpeta.                                                                                   |
-| Fork          | Un nuevo repositorio que comparte la configuración de visibilidad y código con el repositorio «ascendente» original.|
-| Merge         | Para aplicar los cambios de una rama y en otra.                                       |
-| Pull request  | Una solicitud para combinar los cambios de una branch en otra.                                             |
-| Remote        | Un repositorio almacenado en GitHub, no en el equipo.                                                 |
-| Upstream      | La branch de un repositorio original que se ha *forkeado* o clonado. La branch correspondiente de la branch clonada o *forkeada* se denomina «descendente».                                            |
+| *Commit*        | 	Acción de registro de los cambios aplicados en un repositorio.|
+| *Push*        | 	Acción de subir los cambios locales a un repositorio remoto.|
+| *Pull*        | 	Acción de descargar los cambios de un repositorio remoto al local.|
+| *Branch*        | 	Una versión paralela del código contenido en el repositorio, pero que no afecta a la rama principal.|
+| *Clonar*        |	Para descargar una copia completa de los datos de un repositorio de GitHub.com, incluidas todas las versiones de cada archivo y carpeta.                                                                                   |
+| *Fork*          | Un nuevo repositorio que comparte la configuración de visibilidad y código con el repositorio «ascendente» original.|
+| *Merge*         | Para aplicar los cambios de una rama y en otra.                                       |
+| *Pull request*  | Una solicitud para combinar los cambios de una branch en otra.                                             |
+| *Remote*        | Un repositorio almacenado en GitHub, no en el equipo.                                                 |
 
 
 ## Crear cuenta
 
-1. Acceder a la página de [github](https://github.com/)
+1. Acceder a la página de [GitHub](https://github.com/)
 
 Registrarse ingresando correo electrónico y siguiendo los pasos siguientes (crear contraseña y nombre de usuario)
 
@@ -92,9 +97,7 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 # Actividades prácticas
 
-## Crear repositorio
-
-1. En la página principal de [github](https://github.com/) hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios
+1. En la página principal de [GitHub](https://github.com/) hacer click en el ícono de usuario de la esquina superior derecha y luego ir a Tus repositorios
 
 ![](images/repos.png)
 
@@ -110,10 +113,10 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 5. Crear un nuevo archivo dentro del repositorio clonado, por ejemplo `tarea.qmd`, y escribir algo de texto dentro de este.
 
-6. Añadir como colaboradxr a un compañer- de curso. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.
+6. Invitar a colaborar a un- compañer- de curso a su repositorio. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.
 
-7. Que sus compañeres acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.
+7. Que sus compañer-s acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.
 
-8. Editar el documento `tarea.qmd` de sus compañer-s y agregar algo de texto. Luego, hacer commit y push de los cambios para que sus compañer-s puedan descargar los nuevos cambios realizados.
+8. Que la persona invitada a colaborar edite el documento `tarea.qmd` de sus compañer-s y agregue algo de texto. Después, hacer commit y push de los cambios para que que quien administra el repositorio pueda descargar (pull) los nuevos cambios realizados.
 
-9. Descargar los nuevos cambios en sus repositorios locales y verificar que el documento `tarea.qmd` se ha actualizado con los cambios realizados por sus compañer-s.
+9. Descargar los nuevos cambios en sus repositorios locales y verificar que el documento `tarea.qmd` se ha actualizado con los cambios realizados por l-s colaboradores.
