@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,15 +33,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../files/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5df54514c0e00397a20b0409eab6ab00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-e59ca94db0194c53297f6aeebccf0762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -58,7 +57,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No se han encontrado resultados",
+    "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -86,8 +85,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ciencia Social Abierta</span>
     </a>
@@ -151,10 +148,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
@@ -227,7 +220,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#principales-términos" id="toc-principales-términos" class="nav-link" data-scroll-target="#principales-términos"><span class="header-section-number">1.3</span> Principales términos</a></li>
   <li><a href="#crear-cuenta" id="toc-crear-cuenta" class="nav-link" data-scroll-target="#crear-cuenta"><span class="header-section-number">1.4</span> Crear cuenta</a></li>
   </ul></li>
-  <li><a href="#actividades-prácticas" id="toc-actividades-prácticas" class="nav-link" data-scroll-target="#actividades-prácticas"><span class="header-section-number">2</span> Actividades prácticas</a></li>
+  <li><a href="#actividades-prácticas" id="toc-actividades-prácticas" class="nav-link" data-scroll-target="#actividades-prácticas"><span class="header-section-number">2</span> Actividades prácticas</a>
+  <ul class="collapse">
+  <li><a href="#opcional" id="toc-opcional" class="nav-link" data-scroll-target="#opcional"><span class="header-section-number">2.0.1</span> Opcional</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -347,10 +343,6 @@ Nota
 <ol start="4" type="1">
 <li><p>Luego, se abrirá una ventana con los repositorios disponibles en nuestra cuenta de Github. Como no hemos creado ninguno aún, vamos a clonar uno existente. Escriben: kevin-carrasco/taller-github-csa y seleccionan el repositorio que aparece.</p></li>
 <li><p>Elegimos donde almacenar el repositorio en nuestro computador.</p></li>
-<li><p>Crear una nueva branch con sus nombres: abrir la barra de comandos (<code>Ctrl + Shift + P</code>) y escribir <code>Git: Create Branch</code> y seleccionar la opción que aparece. Luego, escribir el nombre de la branch (ej: kevin-carrasco) y presionar Enter.</p></li>
-</ol>
-<p><img src="images/github3.png" class="img-fluid"></p>
-<ol start="7" type="1">
 <li><p>Crear un nuevo archivo dentro del repositorio clonado, por ejemplo <code>nombre.r</code>, y escribir algo de texto dentro de este.</p></li>
 <li><p>Guardar el archivo (<code>Ctrl + S</code>).</p></li>
 <li><p>Ir a la sección de control de versiones en la barra lateral, donde aparecerá el nuevo archivo creado.</p></li>
@@ -358,11 +350,8 @@ Nota
 </ol>
 <p><img src="images/github4.png" class="img-fluid"></p>
 <ol start="11" type="1">
-<li>Sincronizar los cambios y luego hacer un pull-request.</li>
-</ol>
-<p><img src="images/github5.png" class="img-fluid"></p>
-<ol start="12" type="1">
-<li>Luego de que los pull-requests sean revisados y aceptados, el nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un “pull” de la rama principal.</li>
+<li><p>Sincronizar los cambios</p></li>
+<li><p>El nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un “pull” de la rama principal.</p></li>
 </ol>
 </section>
 </section>
@@ -385,11 +374,26 @@ Nota
 <li><p>Crear un nuevo archivo dentro del repositorio clonado, por ejemplo <code>tarea.qmd</code>, y escribir algo de texto dentro de este.</p></li>
 <li><p>Invitar a colaborar a un- compañer- de curso a su repositorio. Para esto, ir a la página del repositorio en Github, hacer click en Settings, luego en Manage access y finalmente en Invitar a colaborador. Escribir el nombre de usuario de Github de su compañer- y hacer click en Invitar.</p></li>
 <li><p>Que sus compañer-s acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.</p></li>
-<li><p>Que la persona invitada a colaborar edite el documento <code>tarea.qmd</code> de sus compañer-s y agregue algo de texto. Después, hacer commit y push de los cambios para que que quien administra el repositorio pueda descargar (pull) los nuevos cambios realizados.</p></li>
+<li><p>Que la persona invitada a colaborar edite el documento <code>tarea.qmd</code> de sus compañer-s y agregue algo de texto. Después, hacer commit y push de los cambios para que quien administra el repositorio pueda descargar (pull) los nuevos cambios realizados.</p></li>
 <li><p>Descargar los nuevos cambios en sus repositorios locales y verificar que el documento <code>tarea.qmd</code> se ha actualizado con los cambios realizados por l-s colaboradores.</p></li>
+</ol>
+<section id="opcional" class="level3" data-number="2.0.1">
+<h3 data-number="2.0.1" class="anchored" data-anchor-id="opcional"><span class="header-section-number">2.0.1</span> Opcional</h3>
+<ol type="1">
+<li>Crear una nueva branch con sus nombres dentro del repositorio clonado: abrir la barra de comandos (<code>Ctrl + Shift + P</code>) y escribir <code>Git: Create Branch</code> y seleccionar la opción que aparece. Luego, escribir el nombre de la branch (ej: kevin-carrasco) y presionar Enter.</li>
+</ol>
+<p><img src="images/github3.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li><p>Realizar cambios en el documento <code>tarea.qmd</code> dentro de esta nueva branch y hacer commit de los cambios.</p></li>
+<li><p>Sincronizar los cambios y luego hacer un pull-request.</p></li>
+</ol>
+<p><img src="images/github5.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li>Quien administra el repositorio puede revisar los cambios realizados en el pull-request y luego hacer merge de la branch creada a la rama principal.</li>
 </ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -444,14 +448,13 @@ Nota
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -362,7 +362,6 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 | *Remote*        | Un repositorio almacenado en GitHub, no en el equipo.                                                 |                                                                             |
 :::
 
----
 
 # Trabajo colaborativo en GitHub {data-background-color="#9B2626"}
 
