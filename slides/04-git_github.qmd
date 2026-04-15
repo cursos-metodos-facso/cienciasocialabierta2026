@@ -349,22 +349,24 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 
 ::: {style="font-size: 75%;"}
 
-| Término | Definición                                                                                                                                      |
-|----|---------------|
-| Remote  | Un repositorio almacenado en Github, no en el equipo                                                                                            |
-| Clonar       | Para descargar una copia completa de los datos de un repositorio de Github.com, incluidas todas las versiones de cada archivo y carpeta.        |
-| Branch       | Una versión paralela de los archivos contenidos en el repositorio, pero que no afecta a la rama principal.                                      |
-| Fork         | Un nuevo repositorio que comparte la configuración de visibilidad y código con el repositorio "ascendente" original.                            |
-| Upstream     | La branch de un repositorio original que se ha *forkeado* o clonado. La branch correspondiente de la branch clonada se denomina "descendiente". |
-| Merge        | Para aplicar los cambios de una branch en otra.                                                                                                 |
-| Pull request | Una solicitud para combinar los cambios de una branch en otra.                                                                                  |
+| Término          | Definición                                                                                           |
+|---------------|------------------------------------------------------------------------------------------------------|
+| *Commit*        | 	Acción de registro de los cambios aplicados en un repositorio.|
+| *Push*        | 	Acción de subir los cambios locales a un repositorio remoto.|
+| *Pull*        | 	Acción de descargar los cambios de un repositorio remoto al local.|
+| *Branch*        | 	Una versión paralela del código contenido en el repositorio, pero que no afecta a la rama principal.|
+| *Clonar*        |	Para descargar una copia completa de los datos de un repositorio de GitHub.com, incluidas todas las versiones de cada archivo y carpeta.                                                                                   |
+| *Fork*          | Un nuevo repositorio que comparte la configuración de visibilidad y código con el repositorio «ascendente» original.|
+| *Merge*         | Para aplicar los cambios de una rama y en otra.                                       |
+| *Pull request*  | Una solicitud para combinar los cambios de una branch en otra.                                             |
+| *Remote*        | Un repositorio almacenado en GitHub, no en el equipo.                                                 |                                                                             |
 :::
 
 ---
 
 # Trabajo colaborativo en GitHub {data-background-color="#9B2626"}
 
-*Git es un sistema de control de versiones*
+*GitHub es una plataforma de desarrollo de código orientada a la colaboración*
 
 ## Colaborando en Github
 
@@ -381,7 +383,7 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ## Colaborando en Github
 
 - Cada colaborador debe clonar el repositorio remoto en su computador, lo que genera una copia local vinculada al repositorio remoto
-  - En VSC: Ctrl + Shift + P > Git: Clone > from Github, y buscar el reppo
+  - En VSC: Ctrl + Shift + P > Git: Clone > from Github, y buscar el repo
 
 ## Colaboración mediante branch
 
@@ -429,15 +431,6 @@ La escritura en texto simple (como Markdown o Quarto) permite implementar un sis
 ### Anécdota
 
 [Ingeniero chileno aportó código a helicóptero en Marte y recibió una insignia](https://www.las3claves.com/innovacion/ingeniero-chileno-aporto-codigo-a-helicoptero-en-marte-y-recibio-una)
-
-```{=html}
-<iframe src="https://www.las3claves.com/innovacion/ingeniero-chileno-aporto-codigo-a-helicoptero-en-marte-y-recibio-una" width="1000" height="800"></iframe>
-
-```
-
----
-
-### Anécdota
 
 ![](img/03/achievement.png)
 

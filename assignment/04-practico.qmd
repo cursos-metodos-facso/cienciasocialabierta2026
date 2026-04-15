@@ -74,11 +74,7 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 5. Elegimos donde almacenar el repositorio en nuestro computador.
 
-6. Crear una nueva branch con sus nombres: abrir la barra de comandos (`Ctrl + Shift + P`) y escribir `Git: Create Branch` y seleccionar la opción que aparece. Luego, escribir el nombre de la branch (ej: kevin-carrasco) y presionar Enter.
-
-![](images/github3.png)
-
-7. Crear un nuevo archivo dentro del repositorio clonado, por ejemplo `nombre.r`, y escribir algo de texto dentro de este.
+6. Crear un nuevo archivo dentro del repositorio clonado, por ejemplo `nombre.r`, y escribir algo de texto dentro de este.
 
 8. Guardar el archivo (`Ctrl + S`).
 
@@ -88,11 +84,9 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 ![](images/github4.png)
 
-11. Sincronizar los cambios y luego hacer un pull-request.
+11. Sincronizar los cambios
 
-![](images/github5.png)
-
-12. Luego de que los pull-requests sean revisados y aceptados, el nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un "pull" de la rama principal.
+12. El nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un "pull" de la rama principal.
 
 
 # Actividades prácticas
@@ -117,6 +111,20 @@ La personalización de la cuenta se puede saltar haciendo click en **skip** abaj
 
 7. Que sus compañer-s acepten la invitación y luego clonen el repositorio para descargar los archivos realizados por ustedes.
 
-8. Que la persona invitada a colaborar edite el documento `tarea.qmd` de sus compañer-s y agregue algo de texto. Después, hacer commit y push de los cambios para que que quien administra el repositorio pueda descargar (pull) los nuevos cambios realizados.
+8. Que la persona invitada a colaborar edite el documento `tarea.qmd` de sus compañer-s y agregue algo de texto. Después, hacer commit y push de los cambios para que quien administra el repositorio pueda descargar (pull) los nuevos cambios realizados.
 
 9. Descargar los nuevos cambios en sus repositorios locales y verificar que el documento `tarea.qmd` se ha actualizado con los cambios realizados por l-s colaboradores.
+
+### Opcional
+
+1. Crear una nueva branch con sus nombres dentro del repositorio clonado: abrir la barra de comandos (`Ctrl + Shift + P`) y escribir `Git: Create Branch` y seleccionar la opción que aparece. Luego, escribir el nombre de la branch (ej: kevin-carrasco) y presionar Enter.
+
+![](images/github3.png)
+
+2. Realizar cambios en el documento `tarea.qmd` dentro de esta nueva branch y hacer commit de los cambios.
+
+3. Sincronizar los cambios y luego hacer un pull-request.
+
+![](images/github5.png)
+
+4. Quien administra el repositorio puede revisar los cambios realizados en el pull-request y luego hacer merge de la branch creada a la rama principal.
