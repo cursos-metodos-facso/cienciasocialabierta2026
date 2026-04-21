@@ -34,6 +34,17 @@ Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de r
 
 Link al reporte de avance: [https://forms.gle/YWcxt8wHekuXxgYu8](https://forms.gle/YWcxt8wHekuXxgYu8)
 
+
+::: {.callout-important}
+- Los grupos que exceden los 3 integrantes deberán reproducir al menos dos gráficos y/o tablas.
+- Atender a la disponibilidad de series acumulativas de encuestas: a veces las encuestas están disponibles por separado para cada año, pero juntarlas no es simple y puede llevar mucho tiempo.
+- En caso de disponer del código de análisis original, reportar la fuente (es decir, cómo se obtuvo/de quién) y adjuntar al trabajo.
+- Considerar alternativa B de datos en caso de que los de la primera opción no estén disponibles. Si no se logra obtener los de la primera opción, se recomienda pasar a opción B a más tardar el viernes 17.
+- Si tienen problemas para conseguir los datos, informar hasta el jueves las principales complicaciones y eventuales solicitudes de apoyo.
+- Recordar que lo que es necesario y escencial para realizar el ejercicio son los datos. Se les recomienda intentar conseguir el código de análisis, pero si este no está disponible, seguir con el ejercicio de reproducibilidad atendiendo a lo que se informa en la metodología del reporte.
+:::
+
+
 ## Revisión cruzada
 
 Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
