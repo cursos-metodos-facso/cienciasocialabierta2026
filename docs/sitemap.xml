@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos.html</loc>
-    <lastmod>2026-04-21T23:42:22.635Z</lastmod>
+    <lastmod>2026-04-22T03:44:09.913Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/schedule.html</loc>
@@ -279,5 +279,9 @@
   <url>
     <loc>https://multinivel-facso.netlify.app/syllabus.html</loc>
     <lastmod>2026-04-11T22:55:17.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/assignment/05-practico.html</loc>
+    <lastmod>2026-04-22T15:00:44.588Z</lastmod>
   </url>
 </urlset>

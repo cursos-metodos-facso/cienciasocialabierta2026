@@ -1228,5 +1228,40 @@
     "title": "Programa",
     "section": "Programación de sesiones",
     "text": "Programación de sesiones\nVisitar la página de Planificación."
+  },
+  {
+    "objectID": "assignment/05-practico.html",
+    "href": "assignment/05-practico.html",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 23 de abril de 2026"
+  },
+  {
+    "objectID": "assignment/05-practico.html#cómo-utilizar-el-template",
+    "href": "assignment/05-practico.html#cómo-utilizar-el-template",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "2.1 Cómo utilizar el template",
+    "text": "2.1 Cómo utilizar el template\n\n2.1.1 Metadatos\nEl template se encuentra en formato .qmd, una estructura de documento con la cual ya estamos familiarizados. En primer lugar, debemos modificar los metadatos del documento (YAML), como el título, fecha y autoría. Luego, podemos ir editando las demás secciones con el contenido correspondiente.\n\n\n\n2.1.2 Datos y código\nRecordemos que para incluir código y datos en nuestro documento, debemos utilizar los chunks de Quarto. Por ejemplo, queremos reproducir la siguiente figura:\n\nConsiderando esto, nuestro código debería verse algo así:\n#| label: fig-ejemplo\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| fig-cap-location: bottom\n#| echo: false\n#| warning: false\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \nY al renderizarlo, obtendremos la figura reproducida en nuestro documento:\n\n\n\n\n\n\n\n\nFigura 1: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nEste ejemplo cumple con el fin de ilustrar cómo incluir código y datos en nuestro documento a partir de datos generados en el mismo chunk. En el caso de sus trabajos, deberán cargar los datos desde la carpeta input, o bien, con la url que dirija a la base de datos, y luego reproducir la figura seleccionada utilizando el código proporcionado por los autores del artículo o reporte, en caso de que lo tengan a disposición.\n\n\n2.1.3 Referencias\n\n\n\n\n\n\nNota\n\n\n\nSi tienen dudas respecto a la escritura en texto plano, pueden revisitar el Práctico 03"
+  },
+  {
+    "objectID": "assignment/05-practico.html#metadatos",
+    "href": "assignment/05-practico.html#metadatos",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.1 Metadatos",
+    "text": "3.1 Metadatos\nEl template se encuentra en formato .qmd, una estructura de documento con la cual ya estamos familiarizados. En primer lugar, debemos modificar los metadatos del documento (YAML), como el título, fecha y autoría. Luego, podemos ir editando las demás secciones con el contenido correspondiente.\n\nAl renderizar el documento, esta es la información que cambiará:"
+  },
+  {
+    "objectID": "assignment/05-practico.html#referencias-en-la-escritura-del-reporte",
+    "href": "assignment/05-practico.html#referencias-en-la-escritura-del-reporte",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.2 Referencias en la escritura del reporte",
+    "text": "3.2 Referencias en la escritura del reporte\nPara integrar referencias en el documento, debemos considerar tres elementos fundamentales: el archivo de referencias (.bib), el estilo de citación (.csl) y la sintaxis para citar en el texto (citation keys).\nEjemplo: tenemos una carpeta en Zotero con nuestras referencias, la cual exportamos como cienciabierta.bib y la guardamos en la carpeta input de nuestro proyecto. Luego, para que Quarto pueda reconocer este archivo, debemos especificar su ubicación en el YAML del documento.\nEl template ya trae la opción de integrar bibliografía, pero está escrito como comentario. Solamente debemos eliminar el # al inicio de bibliography para que Quarto reconozca la opción, y luego escribimos el nombre del archivo, respetando su ubicación. Para el .csl debemos seguir el mismo procedimiento. Entonces, si nuestro archivo .csl se llama apa.csl, el YAML debería verse así:\n---\nbibliography: \"input/cienciabierta.bib\"\ncsl: \"input/apa.csl\"\n---\nUna vez que tenemos esto configurado, podemos citar en el texto utilizando las citation keys. Por ejemplo, si queremos citar un artículo cuya citation key es harvey_brief_2005, escribimos @harvey_brief_2005 en el texto, y al renderizar el documento, esta referencia se integrará automáticamente con el formato definido por el archivo .csl.\n\n\n\n\n\n\nNota\n\n\n\nSi tienen dudas respecto a referencias en texto plano, pueden revisitar el Práctico 02"
+  },
+  {
+    "objectID": "assignment/05-practico.html#datos-y-código",
+    "href": "assignment/05-practico.html#datos-y-código",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.3 Datos y código",
+    "text": "3.3 Datos y código\nTodo el análisis de código se realizará en el apartado de Análisis reproducible. Recordemos que para incluir datos y código en nuestro documento, debemos utilizar los chunks de Quarto. Por ejemplo, queremos reproducir la siguiente figura:\n\nConsiderando esto, nuestro código debería verse algo así:\n#| label: fig-ejemplo\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| fig-cap-location: bottom\n#| echo: false\n#| warning: false\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \nAl renderizarlo, obtendremos la figura reproducida en nuestro documento:\n\n\n\n\n\n\n\n\nFigura 1: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nEste ejemplo cumple con ilustrar cómo incluir código y datos en nuestro documento a partir de datos generados en el mismo chunk. En el caso de sus trabajos, deberán cargar los datos desde la carpeta input, o bien, con la url que dirija a la base de datos. Luego, reproducen la figura seleccionada utilizando el código proporcionado por los autores del artículo o reporte, en caso de que lo tengan a disposición.\n\n\n\n\n\n\nNota\n\n\n\nSi tienen dudas respecto a la escritura en texto plano, pueden revisitar el Práctico 03"
   }
 ]
