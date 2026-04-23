@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="05-IPO_files/libs/revealjs/dist/theme/quarto-3414b54e2ffa093eb9ccf452ba8d29c4.css">
+  <link rel="stylesheet" href="05-IPO_files/libs/revealjs/dist/theme/quarto-59e9558f5b602c975c9372295c0d8301.css">
   <link href="05-IPO_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="05-IPO_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="05-IPO_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -123,6 +123,23 @@
   </style>
   <script src="05-IPO_files/libs/kePrint-0.0.1/kePrint.js"></script>
   <link href="05-IPO_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    .reveal .slide-number {
+      font-size: 0.2em !important;
+    }
+
+    .reveal .footer,
+    .reveal .footer p,
+    .reveal .footer a,
+    .reveal .footer i,
+    .reveal .footer.has-dark-background,
+    .reveal .footer.has-dark-background a,
+    .reveal .footer.has-light-background,
+    .reveal .footer.has-light-background a {
+      color: orange !important;
+    }
+  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -158,10 +175,17 @@
 <p><a href="https://cienciasocialabierta.netlify.app/">cienciasocialabierta.netlify.app</a></p>
 </div>
 </div></section>
-<section>
 <section id="contenidos" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
+<p><br></p>
+<p><span style="color: #f8fafb;">1. Barreras a la reproducibilidad</span><br> <span style="color: #f9fafb;">2. Carpeta de proyecto - Protocolo IPO</span><br> <span style="color: #fafbfb;">3. Rutas relativas</span></p>
+</section>
 
+<section>
+<section id="contenidos-1" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
+<h1>Contenidos</h1>
+<p><br></p>
+<p><span style="color: #f8fafb;">1. Barreras a la reproducibilidad</span><br> <span style="color: #686868;">2. Carpeta de proyecto - Protocolo IPO</span><br> <span style="color: #686868;">3. Rutas relativas</span></p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
@@ -187,12 +211,6 @@
 <li class="fragment"><p>Control de versiones</p></li>
 </ul>
 </div>
-</section></section>
-<section>
-<section id="contenidos-1" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
-<h1>Contenidos</h1>
-<p><br></p>
-<p><span style="color: #797b7d;">1. Barreras a la reproducibilidad</span><br> <span style="color: #797b7d;">2. Carpeta de proyecto - Protocolo IPO</span><br> <span style="color: #797b7d;">3. Rutas relativas</span></p>
 </section>
 <section id="barreras-a-la-reproducibilidad" class="slide level2">
 <h2>Barreras a la reproducibilidad</h2>
@@ -226,6 +244,12 @@
 <li><p><strong>estructura</strong> de carpetas y archivos interconectados que refieren a reglas conocidas</p></li>
 <li><p><strong>autocontenido</strong>: toda la información necesaria para la reproducibilidad se encuentra en la carpeta raíz o directorio de trabajo.</p></li>
 </ul>
+</section></section>
+<section>
+<section id="contenidos-2" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
+<h1>Contenidos</h1>
+<p><br></p>
+<p><span style="color: #686868;">1. Barreras a la reproducibilidad</span><br> <span style="color: #ffffff;">2. Carpeta de proyecto - Protocolo IPO</span><br> <span style="color: #686868;">3. Rutas relativas</span></p>
 </section>
 <section id="protocolos-reproducibles" class="slide level2">
 <h2>Protocolos reproducibles</h2>
@@ -241,9 +265,14 @@
 <img data-src="img/tierfolders.png" class="r-stretch"></section>
 <section id="protocolo-ipo" class="slide level2">
 <h2>Protocolo IPO</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <h3 id="input">[I]nput</h3>
 <h3 id="procesamiento">[P]rocesamiento</h3>
 <h3 id="output">[O]utput</h3>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://lisacoes.com/protocolos/a-ipo-rep/ipo-hex.png"></p>
+</div></div>
 </section>
 <section id="protocolo-ipo-1" class="slide level2">
 <h2>Protocolo IPO</h2>
@@ -335,9 +364,10 @@
 </ul>
 </section></section>
 <section>
-<section id="contenidos-2" class="title-slide slide level1 center">
+<section id="contenidos-3" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
-
+<p><br></p>
+<p><span style="color: #686868;">1. Barreras a la reproducibilidad</span><br> <span style="color: #686868;">2. Carpeta de proyecto - Protocolo IPO</span><br> <span style="color: #ffffff;">3. Rutas relativas</span></p>
 </section>
 <section id="rutas-relativas" class="slide level2">
 <h2>Rutas relativas</h2>
@@ -374,13 +404,50 @@
 <li><p>combinación de las anteriores</p></li>
 <li><p>Ej: para abrir la base de datos original en la subcarpeta input/data desde el código de procesamiento en la subcarpeta proc, entonces: <code>../input/data/original.dat</code></p></li>
 </ul>
-
+</section>
+<section id="resumen" class="slide level2" data-background-color="#9B2626" style="text-align: right;">
+<h2>Resumen</h2>
+<p><br></p>
+<ul>
+<li>Barreras a la reproducibilidad</li>
+<li>Protocolos reproducibles: TIER, IPO</li>
+<li>Navegación con rutas relativas</li>
+</ul>
 </section></section>
+<section>
+<section id="section-4" class="title-slide slide level1 hide-logo center" data-background-color="#9B2626">
+<h1></h1>
+
+</section>
+<div class="columns">
+<div class="column" style="width:35%;">
+<p><br></p>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="img/logo-ciencia-abierta.png" class="quarto-figure quarto-figure-right" style="width:100.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="font-size: 25px; text-align: right; margin: 0 auto;">
+<p><br></p>
+<h3 id="section-5"></h3>
+<p><span style="font-size: 2em; color: white;">Ciencia Social Abierta</span></p>
+<hr>
+<p><br></p>
+<p><span style="font-size: 1em; color: white;">Juan Carlos Castillo &amp; Tomás Urzúa</span></p>
+<p><span style="font-size: 1em; color: white;">Sociología FACSO UChile</span></p>
+<p><br></p>
+<p><span style="font-size: 1em; color: white;">Primer Semestre 2026</span></p>
+<p><a href="https://cienciasocialabierta.netlify.app/">cienciasocialabierta.netlify.app</a></p>
+</div>
+</div>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/logo-ciencia-abierta.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p><span style="font-size: 0.5em; display: inline-block; width: 100%; box-sizing: border-box; padding-left: 54px; text-align: left;"><i class="fa-brands fa-github"></i> <a href="https://github.com/cursos-metodos-facso/cienciasocialabierta2026">Ciencia Social Abierta</a> | FACSO 2026 | © Hecho en <a href="https://quarto.org/">Quarto <i class="fa-solid fa-mug-hot"></i></a></span></p>
 </div>
 </div></div>
 
@@ -433,7 +500,7 @@
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -538,7 +605,7 @@
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'slow',

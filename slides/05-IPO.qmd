@@ -326,3 +326,53 @@ knitr::include_graphics("https://multivariada.netlify.app/images/produccion2.png
 
 - Ej: para abrir la base de datos original en la subcarpeta input/data desde el código de procesamiento en la subcarpeta proc, entonces: `../input/data/original.dat`
 
+
+
+## Resumen {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+- Barreras a la reproducibilidad
+- Protocolos reproducibles: TIER, IPO
+- Navegación con rutas relativas
+
+
+# {.hide-logo data-background-color="#9B2626"}
+
+::::: columns
+::: {.column width="35%"}
+
+<br>
+
+![](img/logo-ciencia-abierta.png){width="100%" fig-align="right"}
+:::
+
+:::{.column width="2%"}
+
+:::
+
+::: {.column width="55%" style="font-size: 25px; text-align: right; margin: 0 auto;"}
+
+<br>
+
+### 
+
+<span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
+
+----
+
+
+<br>
+
+<span style="font-size: 1em; color: white;">Juan Carlos Castillo & Tomás Urzúa</span>
+
+<span style="font-size: 1em; color: white;">Sociología FACSO UChile</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Primer Semestre 2026</span>
+
+[cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
+
+:::
+:::::
