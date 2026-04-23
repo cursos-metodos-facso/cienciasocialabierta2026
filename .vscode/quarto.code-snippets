@@ -1,0 +1,17 @@
+{
+  "Quarto two columns": {
+    "scope": "quarto,markdown,quarto-markdown,qmd",
+    "prefix": [":::: columns", "columns2", "qcol2"],
+    "body": [
+      ":::: columns",
+      "::: {.column width=\"50%\"}",
+      "${1}",
+      ":::",
+      "::: {.column width=\"50%\"}",
+      "${2}",
+      ":::",
+      "::::"
+    ],
+    "description": "Insert a two-column Quarto block"
+  }
+}

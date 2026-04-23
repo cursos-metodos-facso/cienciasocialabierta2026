@@ -30,7 +30,13 @@ $code-block-border-color: #93a1a1 !default;
 
 /*-- scss:rules --*/
 .reveal .footer {
- color: #1b241f !important;
+  color: orange !important;
+}
+
+.reveal .footer p,
+.reveal .footer a,
+.reveal .footer i {
+  color: orange !important;
 
 }
 

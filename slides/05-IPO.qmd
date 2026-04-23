@@ -2,17 +2,40 @@
 engine: knitr
 format:
   revealjs:
+    slide-number: true
+    slide-number-style: [bottom-right]  
     scrollable: true
     logo: img/logo-ciencia-abierta.png
     theme: [css/custom_2025.scss]
     title-slide-attributes:
       visibility: false
-    transition: none
+    transition: fade
     transition-speed: slow
 # data-background-image: images/cover.jpg
 # data-background-size: cover
     auto-play-media: true
     title-slide-logo: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <style>
+          .reveal .slide-number {
+            font-size: 0.2em !important;
+          }
+
+          .reveal .footer,
+          .reveal .footer p,
+          .reveal .footer a,
+          .reveal .footer i,
+          .reveal .footer.has-dark-background,
+          .reveal .footer.has-dark-background a,
+          .reveal .footer.has-light-background,
+          .reveal .footer.has-light-background a {
+            color: orange !important;
+          }
+        </style>
+    footer: '<span style="font-size: 0.5em; display: inline-block; width: 100%; box-sizing: border-box; padding-left: 54px; text-align: left;"><i class="fa-brands fa-github"></i> [Ciencia Social Abierta](https://github.com/cursos-metodos-facso/cienciasocialabierta2026) | FACSO 2026 | © Hecho en <a href="https://quarto.org/">Quarto <i class="fa-solid fa-mug-hot"></i></a></span>'
+
 editor: source
 ---
 
@@ -58,6 +81,22 @@ editor: source
 
 # Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
+<br>
+
+[1. Barreras a la reproducibilidad]{style="color: #f8fafb;"}<br>
+[2. Carpeta de proyecto -  Protocolo IPO]{style="color: #f9fafb;"}<br>
+[3. Rutas relativas]{style="color: #fafbfb;"}
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Barreras a la reproducibilidad]{style="color: #f8fafb;"}<br>
+[2. Carpeta de proyecto -  Protocolo IPO]{style="color: #686868;"}<br>
+[3. Rutas relativas]{style="color: #686868;"}
+
+
+
 
 ##
 
@@ -83,15 +122,6 @@ editor: source
 
 - Control de versiones
 :::
-
-# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
-
-<br>
-
-[1. Barreras a la reproducibilidad]{style="color: #797b7d;"}<br>
-[2. Carpeta de proyecto -  Protocolo IPO]{style="color: #797b7d;"}<br>
-[3. Rutas relativas]{style="color: #797b7d;"}
-
 
 ## Barreras a la reproducibilidad
 
@@ -136,6 +166,17 @@ _"Al principio Dios vio un Excel lleno de colores"_
   
   - **autocontenido**: toda la información necesaria para la reproducibilidad se encuentra en la carpeta raíz o directorio de trabajo.
 
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Barreras a la reproducibilidad]{style="color: #686868;"}<br>
+[2. Carpeta de proyecto -  Protocolo IPO]{style="color: #ffffff;"}<br>
+[3. Rutas relativas]{style="color: #686868;"}
+
+
+
 ## Protocolos reproducibles
 
 ![](https://jc-castillo.com/images/albums/gallery/standards.png)
@@ -153,9 +194,18 @@ _"Al principio Dios vio un Excel lleno de colores"_
 
 ## Protocolo IPO
 
+:::: columns
+::: {.column width="50%"}
 ### [I]nput
 ### [P]rocesamiento
 ### [O]utput
+:::
+::: {.column width="50%"}
+![](https://lisacoes.com/protocolos/a-ipo-rep/ipo-hex.png)
+
+:::
+::::
+
 
 ## Protocolo IPO 
 
@@ -235,9 +285,14 @@ knitr::include_graphics("https://multivariada.netlify.app/images/produccion2.png
 
 - Es solo una **propuesta**, el sentido último es la reproducibilidad más que el cumplimiento estricto
 
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
+<br>
 
-# Contenidos
+[1. Barreras a la reproducibilidad]{style="color: #686868;"}<br>
+[2. Carpeta de proyecto -  Protocolo IPO]{style="color: #686868;"}<br>
+[3. Rutas relativas]{style="color: #ffffff;"}
+
 
 ##  Rutas relativas
 
