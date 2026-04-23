@@ -95,7 +95,9 @@ website:
             - text: "Práctico 3"
               file: assignment/03-practico.qmd
             - text: "Práctico 4"
-              file: assignment/04-practico.qmd              
+              file: assignment/04-practico.qmd   
+            - text: "Práctico 5"
+              file: assignment/05-practico.qmd           
                        
   page-footer:
     left: |

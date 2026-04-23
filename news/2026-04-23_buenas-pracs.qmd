@@ -1,0 +1,22 @@
+---
+title: "Buenas prácticas para nombrar archivos"
+author: "Equipo docente"
+date: "2026-04-23"
+categories: [info]
+image: images/standards.png
+lang: es
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+Este post tiene el propósito de presentar algunas recomendaciones para nombrar archivos dentro de sus proyectos, con el fin de facilitar el acceso y la reproducibilidad de los mismos. Entonces, es importante tener en cuenta lo siguiente:
+
+- Que los nombres tanto de carpetas como de documentos sean breves 
+
+- Asegurarse que no contengan caracteres especiales, espacios o acentos
+
+- Escribir los nombres en minúsculas y utilizar guiones bajos (_) o guiones medios (-) para separar palabras
+
+Estas recomendaciones facilitan que, al momento de cargar sus archivos, no se presenten problemas de compatibilidad o errores inesperados.

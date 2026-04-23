@@ -7,6 +7,7 @@ website:
     giscus:
       repo: cursos-metodos-facso/cienciasocialabierta2026
 number-sections: true
+code-fold: show 
 ---
 
 # Objetivo de la sesión {.unnumbered}
@@ -60,6 +61,8 @@ Recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
 
 # Cómo utilizar el template
 
+Al abrir el archivo `index.qmd` lo primero que veremos será el YAML. En la opción **format** se despliegan dos salidas: html y pdf. Para que el renderizado a pdf funcione, debemos installar un paquete llamado tinytex. Copien y ejecuten este código en sus terminales de R antes de cualquier intento de renderizado: `install.packages("tinytex")`.
+
 ## Metadatos
 
 El template se encuentra en formato `.qmd`, una estructura de documento con la cual ya estamos familiarizados. En primer lugar, debemos modificar los metadatos del documento (YAML), como el título, fecha y autoría. Luego, podemos ir editando las demás secciones con el contenido correspondiente.
@@ -99,47 +102,10 @@ Todo el análisis de código se realizará en el apartado de Análisis reproduci
 
 Considerando esto, nuestro código debería verse algo así:
 
-```r
-#| label: fig-ejemplo
-#| fig-cap: "Gráfico de ejemplo con datos ficticios"
-#| fig-cap-location: bottom
-#| echo: false
-#| warning: false
-
-# Cargar librerías necesarias
-library(ggplot2)
-library(dplyr)
-
-# Crear datos ficticios
-set.seed(123)  # Para reproducibilidad
-datos_ejemplo <- data.frame(
-  categoria = rep(c("Grupo A", "Grupo B", "Grupo C", "Grupo D"), each = 50),
-  valor_x = rnorm(200, mean = 50, sd = 10),
-  valor_y = rnorm(200, mean = 30, sd = 8),
-  satisfaccion = sample(1:10, 200, replace = TRUE)
-)
-
-# Crear el gráfico
-ggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +
-  geom_point(aes(size = satisfaccion), alpha = 0.7) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "Variable X",
-    y = "Variable Y",
-    color = "Categoría",
-    size = "Satisfacción (1-10)"
-  ) +
-  theme_minimal() 
-```
-
-Al renderizarlo, obtendremos la figura reproducida en nuestro documento:
-
-
 ```{r}
 #| label: fig-ejemplo
 #| fig-cap: "Gráfico de ejemplo con datos ficticios"
 #| fig-cap-location: bottom
-#| echo: false
 #| warning: false
 
 # Cargar librerías necesarias
@@ -167,6 +133,9 @@ ggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +
   ) +
   theme_minimal() 
 ```
+
+Al renderizarlo, obtendremos la figura reproducida en nuestro documento
+
 
 Este ejemplo cumple con **ilustrar** cómo incluir código y datos en nuestro documento a partir de datos generados en el mismo chunk. En el caso de sus trabajos, deberán **cargar los datos desde la carpeta input**, o bien, con la url que dirija a la base de datos. Luego, reproducen la figura seleccionada utilizando el código proporcionado por los autores del artículo o reporte, en caso de que lo tengan a disposición. 
 

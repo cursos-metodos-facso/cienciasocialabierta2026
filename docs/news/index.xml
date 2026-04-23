@@ -9,8 +9,35 @@
 <link>https://multinivel-facso.netlify.app/news/</link>
 <atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.7.33</generator>
-<lastBuildDate>Wed, 18 Mar 2026 03:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Thu, 23 Apr 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Buenas prácticas para nombrar archivos</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-23_buenas-pracs.html</link>
+  <description><![CDATA[ 
+
+<div class="back-nav"><a href="../news/">← News</a></div>
+
+
+
+
+<p>Este post tiene el propósito de presentar algunas recomendaciones para nombrar archivos dentro de sus proyectos, con el fin de facilitar el acceso y la reproducibilidad de los mismos. Entonces, es importante tener en cuenta lo siguiente:</p>
+<ul>
+<li><p>Que los nombres tanto de carpetas como de documentos sean breves</p></li>
+<li><p>Asegurarse que no contengan caracteres especiales, espacios o acentos</p></li>
+<li><p>Escribir los nombres en minúsculas y utilizar guiones bajos (_) o guiones medios (-) para separar palabras</p></li>
+</ul>
+<p>Estas recomendaciones facilitan que, al momento de cargar sus archivos, no se presenten problemas de compatibilidad o errores inesperados.</p>
+
+
+
+ ]]></description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-23_buenas-pracs.html</guid>
+  <pubDate>Thu, 23 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/standards.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
 <item>
   <title>Reel sobre reproducibilidad en la investigación social</title>
   <dc:creator>Equipo docente</dc:creator>
