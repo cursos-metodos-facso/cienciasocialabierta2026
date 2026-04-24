@@ -15,7 +15,7 @@ website:
 
 En la [página de trabajos](/trabajos) hemos habilitado un foro de discusión para preguntas relacionadas con las distintas evaluaciones. El foro utiliza [Giscus](https://giscus.app/), una plataforma de comentarios que se integra con GitHub Discussions. Esto significa que las preguntas y respuestas se almacenan en un repositorio de GitHub, lo que facilita su gestión y seguimiento.
 
-Para participar en el [foro](/trabajos.qmd#foro), primero hay que iniciar sesión con una cuenta de GitHub (solo la primera vez que se ingresa). Luego, se pueden crear nuevos temas de discusión para cada pregunta o comentario relacionado con los trabajos. Otros estudiantes y el equipo docente podrán responder a estos temas, **creando un espacio de colaboración y apoyo mutuo**. Además, al estar integrado con GitHub, el foro permite una fácil moderación y organización de las discusiones, asegurando que las preguntas se mantengan relevantes y ordenadas. ¡
+Para participar en el [foro](/trabajos.qmd#foro), primero hay que iniciar sesión con una cuenta de GitHub (solo la primera vez que se ingresa). Luego, se pueden crear nuevos temas de discusión para cada pregunta o comentario relacionado con los trabajos. Otros estudiantes y el equipo docente podrán responder a estos temas, **creando un espacio de colaboración y apoyo mutuo**. Además, al estar integrado con GitHub, el foro permite una fácil moderación y organización de las discusiones, asegurando que las preguntas se mantengan relevantes y ordenadas.
 
 Esperamos que este foro sea un recurso útil para todos los estudiantes mientras trabajan en sus evaluaciones!
 
