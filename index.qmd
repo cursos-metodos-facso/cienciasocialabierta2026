@@ -63,7 +63,7 @@ listing:
 - {{< fa envelope >}} &nbsp; <a href="mailto:tomas.urzua@ug.uchile.cl ">tomas.urzua@ug.uchile.cl </a>
 - {{< fa brands github >}} &nbsp; <a href="https://github.com/tomasurzuam">tomasurzuam</a>
 - {{< fa house >}} &nbsp; <a href="https://www.linkedin.com/in/tom%C3%A1s-urz%C3%BAa-moreno-b65755375/">linkedin</a>
-- {{< fa calendar-check >}} &nbsp; Agendar reunión vía correo
+- {{< fa calendar-check >}} &nbsp; <a href="https://calendar.app.google/BoyLBTKhuGqiPiLK8">Agendar reunión</a>
 
 
 :::
