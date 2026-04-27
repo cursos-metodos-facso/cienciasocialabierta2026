@@ -256,7 +256,7 @@
     "href": "index.html#últimas-informaciones",
     "title": "\n            Ciencia Social Abierta\n        ",
     "section": "Últimas informaciones",
-    "text": "Últimas informaciones\n\n\n\n\n\n\n\n\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\n\n\n\n\nEquipo docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nForo Trabajos - &gt; Giscus\n\n\n\n\n\n\nEquipo docente\n\n\nApr 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuenas prácticas para nombrar archivos\n\n\n\n\n\n\nEquipo docente\n\n\nApr 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReel sobre reproducibilidad en la investigación social\n\n\n\n\n\n\nEquipo docente\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenid@s al curso!\n\n\n\n\n\n\nEquipo docente\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Últimas informaciones\n\n\n\n\n\n\n\n\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nForo Trabajos - &gt; Giscus\n\n\n\n\n\n\nEquipo docente\n\n\nApr 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuenas prácticas para nombrar archivos\n\n\n\n\n\n\nEquipo docente\n\n\nApr 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReel sobre reproducibilidad en la investigación social\n\n\n\n\n\n\nEquipo docente\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenid@s al curso!\n\n\n\n\n\n\nEquipo docente\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/10-content.html",
@@ -1315,6 +1315,55 @@
     "href": "news/2026-04-27_bib-zotero.html",
     "title": "Creación de bibliotecas colaborativas en Zotero",
     "section": "",
-    "text": "← News\n\n\n\n\nEste post tiene el objetivo de enseñar cómo crear bibliotecas compartidas en Zotero, las cuales están orientadas a organizar sus referencias de manera colaborativa sin la necesidad de estar enviando y reenviando bibliografía por correo u otros medios.\nPrimero, deben entrar a zotero.org e ingresar con su cuenta. Una vez dentro, deben ir a “Grupos” y clickear en “Crear un nuevo grupo”.\n\nLuego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Crear grupo”.\n\nYa han creado su biblioteca compartida en Zotero, ahora sólo falta invitar a las personas con quienes utilizarán este espacio. Dentro de la biblioteca ya creada, tienen que clickear “Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations” y escribir el email o el username de quienes quieran añadir.\n\nUna vez la persona acepte la invitación, aparecerá la biblioteca compartida en su Zotero local y podrán organizar sus referencias en conjunto."
+    "text": "← News\nSabemos que Zotero es un gestor de referencias bibliográficas con el cual podemos organizar nuestro material y exportarlo para trabajar en texto plano a partir de las citation keys.\nZotero también tiene la ventaja de que podemos trabajar colaborativamente. Para esto veremos cómo sincronizar nuestro Zotero de la nube y el local y luego cómo crear bibliotecas compartidas."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#web",
+    "href": "news/2026-04-27_bib-zotero.html#web",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Web",
+    "text": "Web\nPrimero, debemos entrar a zotero.org y clickear en “Log in” en la esquina superior derecha.\n\nSi ya tenemos una cuenta en Zotero, escribimos nuestros datos e ingresamos. Si no tenemos una cuenta, clickeamos en el apartado que señala el cuadro rojo en la imagen para crear una cuenta, y luego ingresamos."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#local",
+    "href": "news/2026-04-27_bib-zotero.html#local",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Local",
+    "text": "Local\nDentro de su aplicación Zotero de escritorio, en el menú superior deben ir a “Edit” -&gt; “Settings” -&gt; “Sync” y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas de la nube en su local. Si esto no ocurre, pueden forzar la sincronización apretando  en la esquina superior derecha de su aplicación."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#bibliotecas-grupales",
+    "href": "news/2026-04-27_bib-zotero.html#bibliotecas-grupales",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Bibliotecas grupales",
+    "text": "Bibliotecas grupales\nEn Zotero existen dos tipos de bibliotecas: las bibliotecas individuales (que hemos usado hasta ahora) y las bibliotecas grupales. Estas últimas nos permiten organizar las referencias de manera colaborativa sin la necesidad de estar enviando y reenviando bibliografía por correo u otros medios.\n¿Cómo crear bibliotecas grupales?\nUna vez con nuestra cuenta en la página, debemos ir a “Groups” y seleccionamos “Create a New Group”.\n\nLuego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Create Group”.\n\nYa han creado su biblioteca compartida en Zotero. Para que esta carpeta se visualice en su aplicación de escritorio, deben abrir la app e ingresar su cuenta.\nAhora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear “Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations” y escribir el email o el username de quienes quieran añadir.\n\nUna vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto.\n\n\n\n\n\n\nNota\n\n\n\nasegurarse de que todos tengan la misma citation key"
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#comprobar",
+    "href": "news/2026-04-27_bib-zotero.html#comprobar",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Comprobar",
+    "text": "Comprobar\nPara comprobar si la sincronización se realizó correctamente, pueden ir a su cuenta en la página web de Zotero e ingresar a la sección Web Library. Si tienen las mismas bibliotecas que en su aplicación de escritorio, significa que están sincronizadas."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#web-1",
+    "href": "news/2026-04-27_bib-zotero.html#web-1",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Web",
+    "text": "Web\n¿Cómo crear bibliotecas grupales?\nUna vez con nuestra cuenta en la página web, debemos ir a “Groups” y seleccionamos “Create a New Group”.\n\nLuego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Create Group”.\n\nYa han creado su biblioteca compartida en Zotero. Para que esta carpeta se visualice en su aplicación de escritorio, deben abrir la app e ingresar su cuenta.\nAhora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear “Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations” y escribir el email o el username de quienes quieran añadir.\n\nUna vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#local-1",
+    "href": "news/2026-04-27_bib-zotero.html#local-1",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Local",
+    "text": "Local\nZotero debería actualizarse automáticamente al haber añadido una biblioteca compartida. En caso que no se haya actualizado, pueden clickear  en la esquina superior derecha de su aplicación. En la biblioteca deberían encontrar todas las referencias que han añadido l_s integrantes de su grupo."
+  },
+  {
+    "objectID": "news/2026-04-27_bib-zotero.html#comprobar-1",
+    "href": "news/2026-04-27_bib-zotero.html#comprobar-1",
+    "title": "Creación de bibliotecas colaborativas en Zotero",
+    "section": "Comprobar",
+    "text": "Comprobar\nPueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.\n\n\n\n\n\n\nNota\n\n\n\nRecuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de citation key"
   }
 ]
