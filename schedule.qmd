@@ -34,7 +34,7 @@ Este curso se compone de tres actividades principales a la semana:
 | 9 | **5. Informe de avance** |  |  |
 | 16 | **6. Control de versiones: Git & Github** |  | [Git](https://git-scm.com/)<br><br>[Github](https://github.com/) |
 | 23 | **7. Flujo de trabajo reproducible / Protocolo IPO** | Plantilla IPO<br>Rutas relativas | [IPO](https://juancarloscastillo.github.io/ipo/)<br><br>[TIER](https://www.projecttier.org/) |
-| 30 | **8. Asesorías trabajos** | <font color="red">**Entrega informe 1**</font> |  |
+| 30 | **8. Asesorías trabajos** | <font color="red">**Entrega informe 1<br>(04 de mayo)**</font> |  |
 | <font color="orange">**MAYO**</font> |  |  |  |
 | 07 | **9. Github Pages** |  | [Github Pages](https://pages.github.com/) |
 | 14 | **10. Quarto Websites y Quarto Book** |  |  |
