@@ -9,7 +9,7 @@
 <meta name="author" content="Equipo Docente">
 <meta name="description" content="Ciencia Social Abierta">
 
-<title>Creación de bibliotecas colaborativas en Zotero – Ciencia Social Abierta</title>
+<title>Reproducibilidad en scripts de R con renv – Ciencia Social Abierta</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -73,13 +108,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Creación de bibliotecas colaborativas en Zotero – Ciencia Social Abierta">
+<meta property="og:title" content="Reproducibilidad en scripts de R con renv – Ciencia Social Abierta">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://multinivel-facso.netlify.app/news/images/zotero.png">
+<meta property="og:image" content="https://rstudio.github.io/renv/logo.svg">
 <meta property="og:site_name" content="Ciencia Social Abierta">
 <meta property="og:locale" content="es">
-<meta property="og:image:height" content="574">
-<meta property="og:image:width" content="1200">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -147,18 +180,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#sincronización" id="toc-sincronización" class="nav-link active" data-scroll-target="#sincronización">Sincronización</a>
+  <li><a href="#flujo-basico-con-renv" id="toc-flujo-basico-con-renv" class="nav-link active" data-scroll-target="#flujo-basico-con-renv">Flujo basico con renv</a>
   <ul class="collapse">
-  <li><a href="#web" id="toc-web" class="nav-link" data-scroll-target="#web">Web</a></li>
-  <li><a href="#local" id="toc-local" class="nav-link" data-scroll-target="#local">Local</a></li>
-  <li><a href="#comprobar" id="toc-comprobar" class="nav-link" data-scroll-target="#comprobar">Comprobar</a></li>
+  <li><a href="#inicializar-renv-en-el-proyecto" id="toc-inicializar-renv-en-el-proyecto" class="nav-link" data-scroll-target="#inicializar-renv-en-el-proyecto">1) Inicializar <code>renv</code> en el proyecto</a></li>
+  <li><a href="#instalar-y-usar-paquetes-normalmente" id="toc-instalar-y-usar-paquetes-normalmente" class="nav-link" data-scroll-target="#instalar-y-usar-paquetes-normalmente">2) Instalar y usar paquetes normalmente</a></li>
+  <li><a href="#compartir-el-proyecto" id="toc-compartir-el-proyecto" class="nav-link" data-scroll-target="#compartir-el-proyecto">3) Compartir el proyecto</a></li>
   </ul></li>
-  <li><a href="#bibliotecas-grupales" id="toc-bibliotecas-grupales" class="nav-link" data-scroll-target="#bibliotecas-grupales">Bibliotecas grupales</a>
-  <ul class="collapse">
-  <li><a href="#web-1" id="toc-web-1" class="nav-link" data-scroll-target="#web-1">Web</a></li>
-  <li><a href="#local-1" id="toc-local-1" class="nav-link" data-scroll-target="#local-1">Local</a></li>
-  <li><a href="#comprobar-1" id="toc-comprobar-1" class="nav-link" data-scroll-target="#comprobar-1">Comprobar</a></li>
-  </ul></li>
+  <li><a href="#recomendaciones-prácticas" id="toc-recomendaciones-prácticas" class="nav-link" data-scroll-target="#recomendaciones-prácticas">Recomendaciones prácticas</a></li>
   </ul>
 </nav>
     </div>
@@ -169,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="news quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Creación de bibliotecas colaborativas en Zotero</h1>
+<h1 class="title">Reproducibilidad en scripts de R con <code>renv</code></h1>
   <div class="quarto-categories">
     <div class="quarto-category">info</div>
   </div>
@@ -201,7 +229,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sabemos que Zotero es un gestor de referencias bibliográficas con el cual podemos organizar nuestro material y exportarlo para trabajar en texto plano a partir de las <strong>citation keys</strong>.</p>
+<p><img src="https://rstudio.github.io/renv/logo.svg" class="img-fluid"></p>
+<p>Cuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.</p>
+<p>Con <code>renv</code> podemos crear un entorno de proyecto aislado que guarda exactamente que paquetes usamos y en que version. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -212,67 +242,47 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Revisitar práctico de Zotero: <a href="https://cienciasocialabierta.netlify.app/assignment/02-practico">aquí</a></p>
+<p>Idea clave: reproducibilidad no es solo guardar el script, también es guardar el entorno donde ese script corre.</p>
 </div>
 </div>
-<p>Zotero también tiene la ventaja de que podemos <strong>trabajar colaborativamente</strong>. Para esto veremos cómo sincronizar nuestro Zotero de la nube y el local y luego cómo crear bibliotecas compartidas.</p>
-<section id="sincronización" class="level1">
-<h1>Sincronización</h1>
-<p>*Comprobar con web library</p>
-<section id="web" class="level2">
-<h2 class="anchored" data-anchor-id="web">Web</h2>
-<p>Primero, debemos entrar a <a href="https://www.zotero.org/">zotero.org</a> y clickear en “Log in” en la esquina superior derecha.</p>
-<p><img src="images/log-zotero.png" class="img-fluid"></p>
-<p>Si ya tenemos una cuenta en Zotero, escribimos nuestros datos e ingresamos. Si no tenemos una cuenta, clickeamos en el apartado que señala el cuadro rojo en la imagen para crear una cuenta, y luego ingresamos.</p>
-<p><img src="images/register.png" class="img-fluid"></p>
+<section id="flujo-basico-con-renv" class="level1">
+<h1>Flujo basico con renv</h1>
+<section id="inicializar-renv-en-el-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="inicializar-renv-en-el-proyecto">1) Inicializar <code>renv</code> en el proyecto</h2>
+<p>En la raiz del proyecto:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(<span class="st">"renv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">init</span>()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Esto crea una carpeta <code>renv/</code> y un archivo <code>renv.lock</code> con el estado del entorno.</p>
 </section>
-<section id="local" class="level2">
-<h2 class="anchored" data-anchor-id="local">Local</h2>
-<p>Dentro de su aplicación Zotero de escritorio, en el menú superior deben ir a <strong>“Edit” -&gt; “Settings” -&gt; “Sync”</strong> y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas de la nube en su local. Si esto no ocurre, pueden forzar la sincronización apretando <img src="images/sync.png" class="img-fluid"> en la esquina superior derecha de su aplicación.</p>
+<section id="instalar-y-usar-paquetes-normalmente" class="level2">
+<h2 class="anchored" data-anchor-id="instalar-y-usar-paquetes-normalmente">2) Instalar y usar paquetes normalmente</h2>
+<p>Sigue trabajando como siempre:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"dplyr"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Cada vez que agregues o actualices paquetes, registra los cambios con:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">snapshot</span>()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="comprobar" class="level2">
-<h2 class="anchored" data-anchor-id="comprobar">Comprobar</h2>
-<p>Para comprobar si la sincronización se realizó correctamente, pueden ir a su cuenta en la página web de Zotero e ingresar a la sección Web Library. Si tienen las mismas bibliotecas que en su aplicación de escritorio, significa que están sincronizadas.</p>
+<section id="compartir-el-proyecto" class="level2">
+<h2 class="anchored" data-anchor-id="compartir-el-proyecto">3) Compartir el proyecto</h2>
+<p>Al subir el repositorio, asegúrense de incluir al menos:</p>
+<ul>
+<li><code>renv.lock</code></li>
+<li><code>.Rprofile</code></li>
+<li>carpeta <code>renv/</code> (segun configuración del proyecto)</li>
+</ul>
+<p>Con eso, otra persona puede restaurar el entorno con:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">restore</span>()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="bibliotecas-grupales" class="level1">
-<h1>Bibliotecas grupales</h1>
-<p>En Zotero existen dos tipos de bibliotecas: <strong>las bibliotecas individuales</strong> (que hemos usado hasta ahora) y <strong>las bibliotecas grupales</strong>. Estas últimas nos permiten organizar las referencias de manera colaborativa sin la necesidad de estar enviando y reenviando bibliografía por correo u otros medios.</p>
-<section id="web-1" class="level2">
-<h2 class="anchored" data-anchor-id="web-1">Web</h2>
-<p><strong>¿Cómo crear bibliotecas grupales?</strong></p>
-<p>Una vez con nuestra cuenta en la página web, debemos ir a “Groups” y seleccionamos “Create a New Group”.</p>
-<p><img src="images/profile-zot.png" class="img-fluid"></p>
-<p>Luego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Create Group”.</p>
-<p><img src="images/biblio.png" class="img-fluid"></p>
-<p>Ya han creado su biblioteca compartida en Zotero. Para que esta carpeta se visualice en su aplicación de escritorio, deben abrir la app e ingresar su cuenta.</p>
-<p>Ahora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear <strong>“Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations”</strong> y escribir el email o el username de quienes quieran añadir.</p>
-<p><img src="images/invite-mem.png" class="img-fluid"></p>
-<p>Una vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto.</p>
-</section>
-<section id="local-1" class="level2">
-<h2 class="anchored" data-anchor-id="local-1">Local</h2>
-<p>Zotero debería actualizarse automáticamente al haber añadido una biblioteca compartida. En caso que no se haya actualizado, pueden clickear <img src="images/sync.png" class="img-fluid"> en la esquina superior derecha de su aplicación. En la biblioteca deberían encontrar todas las referencias que han añadido l_s integrantes de su grupo.</p>
-</section>
-<section id="comprobar-1" class="level2">
-<h2 class="anchored" data-anchor-id="comprobar-1">Comprobar</h2>
-<p>Pueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Recuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de citation key</p>
-</div>
-</div>
+<section id="recomendaciones-prácticas" class="level1">
+<h1>Recomendaciones prácticas</h1>
+<ol type="1">
+<li>Al principio del script, cargar <code>renv</code> para asegurar que se use el entorno correcto: <code>renv::restore()</code></li>
+<li>Cargar librerías despues de restaurar el entorno.</li>
+<li>Al final del script, opcionalmente guardar el entorno actualizado con <code>renv::snapshot()</code> si se hicieron cambios.</li>
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

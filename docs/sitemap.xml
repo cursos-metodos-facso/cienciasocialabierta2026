@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/schedule.html</loc>
-    <lastmod>2026-04-27T16:17:51.810Z</lastmod>
+    <lastmod>2026-04-27T22:28:02.672Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/resource/index.html</loc>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/index.html</loc>
-    <lastmod>2026-04-27T16:18:19.077Z</lastmod>
+    <lastmod>2026-04-27T22:45:46.340Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/content/10-content.html</loc>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/news/2026-04-24_giscus.html</loc>
-    <lastmod>2026-04-24T16:51:06.766Z</lastmod>
+    <lastmod>2026-04-27T22:28:02.661Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/news/bib-zotero.html</loc>
@@ -298,6 +298,10 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/news/2026-04-27_bib-zotero.html</loc>
-    <lastmod>2026-04-27T21:52:57.998Z</lastmod>
+    <lastmod>2026-04-27T22:28:02.661Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/news/2026-04-27_reproducibilidad-renv.html</loc>
+    <lastmod>2026-04-27T22:44:55.847Z</lastmod>
   </url>
 </urlset>

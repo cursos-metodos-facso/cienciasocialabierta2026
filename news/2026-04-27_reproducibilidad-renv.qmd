@@ -1,0 +1,71 @@
+---
+title: "Reproducibilidad en scripts de R con `renv`"
+author: "Equipo Docente"
+date: "2026-04-27"
+categories: [info]
+lang: es
+image: "https://rstudio.github.io/renv/logo.svg"
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+![](https://rstudio.github.io/renv/logo.svg)
+
+Cuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.
+
+Con `renv` podemos crear un entorno de proyecto aislado que guarda exactamente que paquetes usamos y en que version. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.
+
+:::{.callout-note}
+Idea clave: reproducibilidad no es solo guardar el script, también es guardar el entorno donde ese script corre.
+:::
+
+# Flujo basico con renv
+
+## 1) Inicializar `renv` en el proyecto
+
+En la raiz del proyecto:
+
+```r
+pacman::p_load("renv")
+renv::init()
+```
+
+Esto crea una carpeta `renv/` y un archivo `renv.lock` con el estado del entorno.
+
+## 2) Instalar y usar paquetes normalmente
+
+Sigue trabajando como siempre:
+
+```r
+install.packages("dplyr")
+library(dplyr)
+```
+
+Cada vez que agregues o actualices paquetes, registra los cambios con:
+
+```r
+renv::snapshot()
+```
+
+## 3) Compartir el proyecto
+
+Al subir el repositorio, asegúrense de incluir al menos:
+
+- `renv.lock`
+- `.Rprofile`
+- carpeta `renv/` (segun configuración del proyecto)
+
+Con eso, otra persona puede restaurar el entorno con:
+
+```r
+renv::restore()
+```
+
+# Recomendaciones prácticas
+
+1. Al principio del script, cargar `renv` para asegurar que se use el entorno correcto: `renv::restore()`
+2. Cargar librerías despues de restaurar el entorno.
+3. Al final del script, opcionalmente guardar el entorno actualizado con `renv::snapshot()` si se hicieron cambios. 
+
