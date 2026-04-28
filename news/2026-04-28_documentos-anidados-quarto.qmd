@@ -1,0 +1,218 @@
+---
+title: "Documentos anidados en Quarto"
+author: "Equipo Docente"
+date: "2026-04-28"
+categories: [info]
+image: images/nested.png
+lang: es
+number-sections: true
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+
+
+
+![](images/nested.png)
+
+En **Quarto** podemos construir un documento grande a partir de varios archivos más pequeños usando la sintaxis `{{</* include archivo.qmd */>}}`. Esto sirve para dividir una clase, una guía o un informe en partes manejables sin perder la salida final.
+
+La idea general es simple: hay un **documento madre** que incluye otros `.qmd`, y esos archivos anidados se insertan dentro del contenido al momento de renderizar.
+
+Este tipo de separación también es especialmente útil en **repositorios compartidos**. Si varias personas trabajan al mismo tiempo, repartir el contenido en distintos archivos reduce la probabilidad de que todo el equipo edite el mismo `.qmd` y aparezcan **merge conflicts** innecesarios.
+
+:::{.callout-note}
+Idea clave: si usan `include`, solo necesitan renderizar el documento madre. Quarto incorporará automáticamente todos los documentos anidados dentro de esa renderización.
+:::
+
+# Cómo funciona `include`
+
+Supongan que tienen este archivo principal:
+
+```markdown
+---
+title: "Mi documento"
+---
+
+# Inicio
+
+{{</* include 01-introduction.qmd */>}}
+
+{{</* include 02-metodos.qmd */>}}
+
+{{</* include 03-conclusion.qmd */>}}
+```
+
+En ese caso, Quarto toma el contenido de cada archivo incluido y lo inserta en el orden indicado. El resultado final se renderiza como una sola página.
+
+Esto es útil cuando quieren:
+
+- escribir por secciones sin tener un solo archivo demasiado largo;
+- reutilizar fragmentos de contenido;
+- repartir el trabajo entre varias personas en un mismo repositorio;
+- trabajar con una estructura más ordenada en clases, apuntes o informes extensos.
+
+# Ejemplo con archivos en la raíz
+
+Si el documento madre y los documentos anidados están todos en la raíz del proyecto, la sintaxis es directa.
+
+Estructura:
+
+```text
+proyecto/
+├── _quarto.yml
+├── index.qmd
+├── 01-introduction.qmd
+├── 02-metodos.qmd
+└── 03-conclusion.qmd
+```
+
+En `index.qmd`:
+
+```markdown
+---
+title: "Documento principal"
+---
+
+{{</* include 01-introduction.qmd */>}}
+
+{{</* include 02-metodos.qmd */>}}
+
+{{</* include 03-conclusion.qmd */>}}
+```
+
+Como todos los archivos están al mismo nivel, no hace falta indicar carpetas en la ruta.
+
+# Ejemplo con archivos en una subcarpeta
+
+Si los archivos anidados están dentro de una carpeta, entonces en `include` hay que indicar esa ruta relativa.
+
+Estructura:
+
+```text
+proyecto/
+├── _quarto.yml
+├── index.qmd
+└── capitulos/
+    ├── 01-introduction.qmd
+    ├── 02-metodos.qmd
+    └── 03-conclusion.qmd
+```
+
+En `index.qmd`:
+
+```markdown
+---
+title: "Documento principal"
+---
+
+{{</* include capitulos/01-introduction.qmd */>}}
+
+{{</* include capitulos/02-metodos.qmd */>}}
+
+{{</* include capitulos/03-conclusion.qmd */>}}
+```
+
+La regla es siempre la misma: la ruta se escribe en función de dónde está el documento madre.
+
+# Ejemplo cuando el documento madre está en una subcarpeta
+
+También puede pasar lo contrario: que el documento madre esté dentro de una carpeta y que los archivos anidados estén en esa misma carpeta o en otra.
+
+Por ejemplo:
+
+```text
+proyecto/
+├── _quarto.yml
+└── clases/
+    ├── clase-01.qmd
+    └── bloques/
+        ├── 01-introduction.qmd
+        └── 02-actividad.qmd
+```
+
+En `clases/clase-01.qmd`:
+
+```markdown
+---
+title: "Clase 1"
+---
+
+{{</* include bloques/01-introduction.qmd */>}}
+
+{{</* include bloques/02-actividad.qmd */>}}
+```
+
+Como `clase-01.qmd` está dentro de `clases/`, la carpeta `bloques/` se interpreta relativa a esa ubicación.
+
+# Solo se renderiza el documento madre
+
+Este es el punto más importante del flujo de trabajo.
+
+Si tienen un documento como `index.qmd` o `clase-01.qmd` que incluye otros archivos con `{{</* include ... */>}}`, entonces **solo necesitan renderizar ese documento principal**.
+
+Por ejemplo:
+
+```bash
+quarto render index.qmd
+```
+
+o bien:
+
+```bash
+quarto render clases/clase-01.qmd
+```
+
+No es necesario renderizar por separado `01-introduction.qmd`, `02-metodos.qmd` o cualquier otro archivo anidado. Al renderizar el documento madre, Quarto inserta todos esos contenidos automáticamente.
+
+:::{.callout-important}
+Los documentos incluidos funcionan como partes del documento principal. En la práctica, el archivo que se publica o exporta es el documento madre, no cada fragmento por separado.
+:::
+
+# Cuidado con las rutas
+
+El error más común al usar `include` es escribir mal la ruta del archivo.
+
+Por ejemplo:
+
+- si el documento madre está en la raíz y el archivo anidado también, basta con `{{</* include 01-introduction.qmd */>}}`;
+- si el archivo anidado está en una subcarpeta, hay que usar algo como `{{</* include capitulos/01-introduction.qmd */>}}`;
+- si el documento madre está en una subcarpeta, las rutas deben calcularse desde esa carpeta.
+
+Si Quarto no encuentra el archivo, el problema casi siempre está en la ruta relativa.
+
+# Recomendación práctica
+
+Una estructura útil para trabajar materiales largos puede ser esta:
+
+```text
+proyecto/
+├── _quarto.yml
+├── informe.qmd
+└── secciones/
+    ├── 01-introduction.qmd
+    ├── 02-datos.qmd
+    ├── 03-analisis.qmd
+    └── 04-conclusion.qmd
+```
+
+Y en `informe.qmd`:
+
+```markdown
+{{</* include secciones/01-introduction.qmd */>}}
+{{</* include secciones/02-datos.qmd */>}}
+{{</* include secciones/03-analisis.qmd */>}}
+{{</* include secciones/04-conclusion.qmd */>}}
+```
+
+Así pueden editar cada parte por separado, pero seguir produciendo una única salida final.
+
+En trabajo colaborativo, esta organización tiene una ventaja concreta: si cada integrante modifica una sección distinta, es mucho menos probable que Git detecte conflictos por ediciones simultáneas en el mismo archivo.
+
+# En resumen
+
+Los documentos anidados con `{{</* include ... */>}}` permiten dividir un archivo largo en partes más pequeñas y ordenadas. Pueden estar en la raíz o en subcarpetas, siempre que la ruta relativa esté bien escrita.
+
+Y la regla operativa es esta: **se renderiza solo el documento madre, y Quarto incorpora automáticamente todos los documentos anidados dentro de esa salida final**.
