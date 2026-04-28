@@ -70,6 +70,20 @@ Ahora sólo falta invitar a las personas con quienes utilizarán este espacio. E
 
 Una vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto.
 
+:::{.callout-important}
+Para que la biblioteca compartida funcione correctamente, se deben tomar tres precauciones: 
+
+1. Cada miembro del proyecto debe sincronizar la biblioteca grupal con el archivo .bib local (exportando con Betterbibtex como se explica en el [Práctico 2](https://cienciasocialabierta.netlify.app/assignment/02-practico).
+
+2. Mantener solo el .bib de la biblioteca grupal en el proyecto, para evitar confusiones con otros archivos .bib que puedan tener en sus bibliotecas individuales. 
+
+3. Cada miembro del proyecto debe asegurarse de tener la misma fórmula de **citation key** en Better BibTeX para evitar conflictos en la citación en texto plano. Para esto, deben ir a **"Edit" -> "Settings" -> "Export"** y elegir la misma fórmula de **citation key**, se recomienda la siguiente: 
+
+`auth.lower + "_" + title.select(1,1).lower + "_" + year`
+
+::: 
+
+
 ## Local 
 
 Zotero debería actualizarse automáticamente al haber añadido una biblioteca compartida. En caso que no se haya actualizado, pueden clickear ![](images/sync.png) en la esquina superior derecha de su aplicación. En la biblioteca deberían encontrar todas las referencias que han añadido l_s integrantes de su grupo.
@@ -78,16 +92,3 @@ Zotero debería actualizarse automáticamente al haber añadido una biblioteca c
 
 Pueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.
 
-
-:::{.callout-note}
-
-Recuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de **citation key** en Better BibTeX. Para esto, deben ir a **"Edit" -> "Settings" -> "Export"** y elegir la misma fórmula de **citation key**, se recomienda la siguiente:
-
-`auth.lower + "_" + title.select(1,1).lower + "_" + year
-
-En caso que no tengan la misma fórmula, pueden copiar y pegar la fórmula recomendada en el cuadro de texto y luego clickear "OK" para que se guarde.
-
-Si en alguna de las bibliotecas locales existe otra citation key, después de actualizarla en las opciones de Better BibTeX, deben ir a la biblioteca compartida, seleccionar todas las referencias (ctrl + A) y luego clickear "Better BibTeX" -> "Refresh BibTeX key" para que se actualicen las citation keys de todas las referencias.
-
-
-:::

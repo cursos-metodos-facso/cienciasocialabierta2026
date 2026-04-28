@@ -249,6 +249,25 @@ Nota
 <p>Ahora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear <strong>“Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations”</strong> y escribir el email o el username de quienes quieran añadir.</p>
 <p><img src="images/invite-mem.png" class="img-fluid"></p>
 <p>Una vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para que la biblioteca compartida funcione correctamente, se deben tomar tres precauciones:</p>
+<ol type="1">
+<li><p>Cada miembro del proyecto debe sincronizar la biblioteca grupal con el archivo .bib local (exportando con Betterbibtex como se explica en el <a href="https://cienciasocialabierta.netlify.app/assignment/02-practico">Práctico 2</a>.</p></li>
+<li><p>Mantener solo el .bib de la biblioteca grupal en el proyecto, para evitar confusiones con otros archivos .bib que puedan tener en sus bibliotecas individuales.</p></li>
+<li><p>Cada miembro del proyecto debe asegurarse de tener la misma fórmula de <strong>citation key</strong> en Better BibTeX para evitar conflictos en la citación en texto plano. Para esto, deben ir a <strong>“Edit” -&gt; “Settings” -&gt; “Export”</strong> y elegir la misma fórmula de <strong>citation key</strong>, se recomienda la siguiente:</p></li>
+</ol>
+<p><code>auth.lower + "_" + title.select(1,1).lower + "_" + year</code></p>
+</div>
+</div>
 </section>
 <section id="local-1" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="local-1"><span class="header-section-number">2.2</span> Local</h2>
@@ -257,22 +276,6 @@ Nota
 <section id="comprobar-1" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="comprobar-1"><span class="header-section-number">2.3</span> Comprobar</h2>
 <p>Pueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Recuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de <strong>citation key</strong> en Better BibTeX. Para esto, deben ir a <strong>“Edit” -&gt; “Settings” -&gt; “Export”</strong> y elegir la misma fórmula de <strong>citation key</strong>, se recomienda la siguiente:</p>
-<p>`auth.lower + “<em>” + title.select(1,1).lower + ”</em>” + year</p>
-<p>En caso que no tengan la misma fórmula, pueden copiar y pegar la fórmula recomendada en el cuadro de texto y luego clickear “OK” para que se guarde.</p>
-<p>Si en alguna de las bibliotecas locales existe otra citation key, después de actualizarla en las opciones de Better BibTeX, deben ir a la biblioteca compartida, seleccionar todas las referencias (ctrl + A) y luego clickear “Better BibTeX” -&gt; “Refresh BibTeX key” para que se actualicen las citation keys de todas las referencias.</p>
-</div>
-</div>
 
 
 </section>
