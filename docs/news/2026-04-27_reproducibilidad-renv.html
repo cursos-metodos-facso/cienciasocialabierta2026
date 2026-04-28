@@ -186,7 +186,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#instalar-y-usar-paquetes-normalmente" id="toc-instalar-y-usar-paquetes-normalmente" class="nav-link" data-scroll-target="#instalar-y-usar-paquetes-normalmente">2) Instalar y usar paquetes normalmente</a></li>
   <li><a href="#compartir-el-proyecto" id="toc-compartir-el-proyecto" class="nav-link" data-scroll-target="#compartir-el-proyecto">3) Compartir el proyecto</a></li>
   </ul></li>
-  <li><a href="#recomendaciones-prácticas" id="toc-recomendaciones-prácticas" class="nav-link" data-scroll-target="#recomendaciones-prácticas">Recomendaciones prácticas</a></li>
+  <li><a href="#resumen-del-flujo-recomendado-en-scripts" id="toc-resumen-del-flujo-recomendado-en-scripts" class="nav-link" data-scroll-target="#resumen-del-flujo-recomendado-en-scripts">Resumen del flujo recomendado en scripts</a></li>
   </ul>
 </nav>
     </div>
@@ -231,7 +231,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p><img src="https://rstudio.github.io/renv/logo.svg" class="img-fluid"></p>
 <p>Cuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.</p>
-<p>Con <code>renv</code> podemos crear un entorno de proyecto aislado que guarda exactamente que paquetes usamos y en que version. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.</p>
+<p>Con <code>renv</code> podemos crear un entorno de proyecto reproducible que guarda exactamente qué paquetes usamos y en que versión. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -274,13 +274,27 @@ Nota
 <div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>renv<span class="sc">::</span><span class="fu">restore</span>()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="recomendaciones-prácticas" class="level1">
-<h1>Recomendaciones prácticas</h1>
+<section id="resumen-del-flujo-recomendado-en-scripts" class="level1">
+<h1>Resumen del flujo recomendado en scripts</h1>
 <ol type="1">
-<li>Al principio del script, cargar <code>renv</code> para asegurar que se use el entorno correcto: <code>renv::restore()</code></li>
-<li>Cargar librerías despues de restaurar el entorno.</li>
-<li>Al final del script, opcionalmente guardar el entorno actualizado con <code>renv::snapshot()</code> si se hicieron cambios.</li>
+<li><p>Inicializar <code>renv</code> al crear el proyecto:</p>
+<pre><code> pacman::p_load("renv")
+ renv::init()</code></pre></li>
+<li><p>Instalar / cargar librerías normalmente:</p>
+<pre><code> pacman::p_load("dplyr", "ggplot2") # ejemplo</code></pre></li>
+<li><p>Al final del script, guardar el entorno actualizado con:</p>
+<pre><code> renv::snapshot()</code></pre></li>
+<li><p>Comentar las línea de código de inicialización del renv para evitar que se ejecute cada vez que se corra el script, y en su lugar, agregar un comentario indicando que se debe ejecutar <code>renv::restore()</code> la primera vez que se corra el script en una nueva sesión o computadora:</p></li>
 </ol>
+<pre><code>
+# renv::init() # Ejecutar solo la 
+            primera vez para inicializar el
+            entorno, luego dejar
+            comentado con #
+
+renv::restore() # Ejecutar en sesiones
+             siguientes para restaurar el entorno
+</code></pre>
 
 
 </section>

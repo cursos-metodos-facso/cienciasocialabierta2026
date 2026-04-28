@@ -1315,21 +1315,21 @@
     "href": "news/2026-04-27_bib-zotero.html",
     "title": "Creación de bibliotecas colaborativas en Zotero",
     "section": "",
-    "text": "← News\nSabemos que Zotero es un gestor de referencias bibliográficas con el cual podemos organizar nuestro material y exportarlo para trabajar en texto plano a partir de las citation keys.\nZotero también tiene la ventaja de que podemos trabajar colaborativamente. Para esto veremos cómo sincronizar nuestro Zotero de la nube y el local y luego cómo crear bibliotecas compartidas."
+    "text": "← News\nZotero es un gestor de referencias bibliográficas con el que podemos organizar nuestro material y además exportarlo para poder citar en texto plano a partir de las citation keys.\nAdemás de la organización de referencias y posibilidades de citación, Zotero también facilita el trabajar colaborativamente. Para esto veremos cómo sincronizar nuestro Zotero local con la nube y luego cómo crear bibliotecas compartidas."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#web",
     "href": "news/2026-04-27_bib-zotero.html#web",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Web",
-    "text": "Web\nPrimero, debemos entrar a zotero.org y clickear en “Log in” en la esquina superior derecha.\n\nSi ya tenemos una cuenta en Zotero, escribimos nuestros datos e ingresamos. Si no tenemos una cuenta, clickeamos en el apartado que señala el cuadro rojo en la imagen para crear una cuenta, y luego ingresamos."
+    "section": "1.1 Web",
+    "text": "1.1 Web\nPrimero, debemos entrar a zotero.org y clickear en “Log in” en la esquina superior derecha.\n\nSi ya tenemos una cuenta en Zotero, escribimos nuestros datos e ingresamos. Si no tenemos una cuenta, clickeamos en el apartado que señala el cuadro rojo en la imagen para crear una cuenta, y luego ingresamos."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#local",
     "href": "news/2026-04-27_bib-zotero.html#local",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Local",
-    "text": "Local\nDentro de su aplicación Zotero de escritorio, en el menú superior deben ir a “Edit” -&gt; “Settings” -&gt; “Sync” y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas de la nube en su local. Si esto no ocurre, pueden forzar la sincronización apretando  en la esquina superior derecha de su aplicación."
+    "section": "1.2 Local",
+    "text": "1.2 Local\nDentro de su aplicación Zotero de escritorio, en el menú superior deben ir a “Edit” -&gt; “Settings” -&gt; “Sync” y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas. Si esto no ocurre, pueden forzar la sincronización apretando  en la esquina superior derecha de su aplicación."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#bibliotecas-grupales",
@@ -1342,36 +1342,36 @@
     "objectID": "news/2026-04-27_bib-zotero.html#comprobar",
     "href": "news/2026-04-27_bib-zotero.html#comprobar",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Comprobar",
-    "text": "Comprobar\nPara comprobar si la sincronización se realizó correctamente, pueden ir a su cuenta en la página web de Zotero e ingresar a la sección Web Library. Si tienen las mismas bibliotecas que en su aplicación de escritorio, significa que están sincronizadas."
+    "section": "1.3 Comprobar",
+    "text": "1.3 Comprobar\nPara comprobar si la sincronización se realizó correctamente, pueden ir a su cuenta en la página web de Zotero e ingresar a la sección Web Library. Si tienen las mismas bibliotecas que en su aplicación de escritorio, significa que están sincronizadas."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#web-1",
     "href": "news/2026-04-27_bib-zotero.html#web-1",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Web",
-    "text": "Web\n¿Cómo crear bibliotecas grupales?\nUna vez con nuestra cuenta en la página web, debemos ir a “Groups” y seleccionamos “Create a New Group”.\n\nLuego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Create Group”.\n\nYa han creado su biblioteca compartida en Zotero. Para que esta carpeta se visualice en su aplicación de escritorio, deben abrir la app e ingresar su cuenta.\nAhora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear “Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations” y escribir el email o el username de quienes quieran añadir.\n\nUna vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto."
+    "section": "2.1 Web",
+    "text": "2.1 Web\n¿Cómo crear bibliotecas grupales?\nUna vez con nuestra cuenta en la página web, debemos ir a “Groups” y seleccionamos “Create a New Group”.\n\nLuego, eligen el nombre de su grupo y el tipo: este puede ser completamente público, público-cerrado o privado (recomendamos elegir la opción público-cerrado). Después de haberle dado un nombre y elegido el tipo de apertura, clickean en “Create Group”.\n\nYa han creado su biblioteca compartida en Zotero. Para que esta carpeta se visualice en su aplicación de escritorio, deben abrir la app e ingresar su cuenta.\nAhora sólo falta invitar a las personas con quienes utilizarán este espacio. En la página web de Zotero deben ingresar en la biblioteca ya creada, clickear “Group Settings” -&gt; “Members Settings” -&gt; “Send more invitations” y escribir el email o el username de quienes quieran añadir.\n\nUna vez la persona acepte la invitación, después de sincronizar su nube con la app de escritorio, aparecerá la biblioteca grupal en su Zotero local y podrán organizar sus referencias en conjunto."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#local-1",
     "href": "news/2026-04-27_bib-zotero.html#local-1",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Local",
-    "text": "Local\nZotero debería actualizarse automáticamente al haber añadido una biblioteca compartida. En caso que no se haya actualizado, pueden clickear  en la esquina superior derecha de su aplicación. En la biblioteca deberían encontrar todas las referencias que han añadido l_s integrantes de su grupo."
+    "section": "2.2 Local",
+    "text": "2.2 Local\nZotero debería actualizarse automáticamente al haber añadido una biblioteca compartida. En caso que no se haya actualizado, pueden clickear  en la esquina superior derecha de su aplicación. En la biblioteca deberían encontrar todas las referencias que han añadido l_s integrantes de su grupo."
   },
   {
     "objectID": "news/2026-04-27_bib-zotero.html#comprobar-1",
     "href": "news/2026-04-27_bib-zotero.html#comprobar-1",
     "title": "Creación de bibliotecas colaborativas en Zotero",
-    "section": "Comprobar",
-    "text": "Comprobar\nPueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.\n\n\n\n\n\n\nNota\n\n\n\nRecuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de citation key"
+    "section": "2.3 Comprobar",
+    "text": "2.3 Comprobar\nPueden comprobar que la biblioteca funciona correctamente si tienen las mismas referencias guardadas que l_s demás integrantes de su grupo.\n\n\n\n\n\n\nNota\n\n\n\nRecuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de citation key en Better BibTeX. Para esto, deben ir a “Edit” -&gt; “Settings” -&gt; “Export” y elegir la misma fórmula de citation key, se recomienda la siguiente:\n`auth.lower + “” + title.select(1,1).lower + ”” + year\nEn caso que no tengan la misma fórmula, pueden copiar y pegar la fórmula recomendada en el cuadro de texto y luego clickear “OK” para que se guarde.\nSi en alguna de las bibliotecas locales existe otra citation key, después de actualizarla en las opciones de Better BibTeX, deben ir a la biblioteca compartida, seleccionar todas las referencias (ctrl + A) y luego clickear “Better BibTeX” -&gt; “Refresh BibTeX key” para que se actualicen las citation keys de todas las referencias."
   },
   {
     "objectID": "news/2026-04-27_reproducibilidad-renv.html",
     "href": "news/2026-04-27_reproducibilidad-renv.html",
     "title": "Reproducibilidad en scripts de R con renv",
     "section": "",
-    "text": "← News\nCuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.\nCon renv podemos crear un entorno de proyecto aislado que guarda exactamente que paquetes usamos y en que version. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes."
+    "text": "← News\nCuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.\nCon renv podemos crear un entorno de proyecto reproducible que guarda exactamente qué paquetes usamos y en que versión. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes."
   },
   {
     "objectID": "news/2026-04-27_reproducibilidad-renv.html#inicializar-renv-en-el-proyecto",

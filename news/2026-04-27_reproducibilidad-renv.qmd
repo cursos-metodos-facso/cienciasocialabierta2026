@@ -15,7 +15,7 @@ website:
 
 Cuando trabajamos con R en equipo, uno de los problemas mas comunes es que un script funciona en un computador y falla en otro por diferencias en los paquetes y sus versiones.
 
-Con `renv` podemos crear un entorno de proyecto aislado que guarda exactamente que paquetes usamos y en que version. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.
+Con `renv` podemos crear un entorno de proyecto reproducible que guarda exactamente qué paquetes usamos y en que versión. Así, cualquier persona del equipo puede reconstruir el mismo entorno y ejecutar el análisis en condiciones equivalentes.
 
 :::{.callout-note}
 Idea clave: reproducibilidad no es solo guardar el script, también es guardar el entorno donde ese script corre.
@@ -63,9 +63,35 @@ Con eso, otra persona puede restaurar el entorno con:
 renv::restore()
 ```
 
-# Recomendaciones prácticas
+# Resumen del flujo recomendado en scripts
 
-1. Al principio del script, cargar `renv` para asegurar que se use el entorno correcto: `renv::restore()`
-2. Cargar librerías despues de restaurar el entorno.
-3. Al final del script, opcionalmente guardar el entorno actualizado con `renv::snapshot()` si se hicieron cambios. 
+
+
+1. Inicializar `renv` al crear el proyecto: 
+   
+        pacman::p_load("renv")
+        renv::init()
+
+2. Instalar / cargar librerías normalmente:
+
+        pacman::p_load("dplyr", "ggplot2") # ejemplo
+
+3. Al final del script, guardar el entorno actualizado con:
+
+        renv::snapshot()
+
+4. Comentar las línea de código de inicialización del renv para evitar que se ejecute cada vez que se corra el script, y en su lugar, agregar un comentario indicando que se debe ejecutar `renv::restore()` la primera vez que se corra el script en una nueva sesión o computadora:
+
+
+```{}
+
+# renv::init() # Ejecutar solo la 
+            primera vez para inicializar el
+            entorno, luego dejar
+            comentado con #
+
+renv::restore() # Ejecutar en sesiones
+             siguientes para restaurar el entorno
+
+```
 

@@ -5,6 +5,7 @@ date: "2026-04-27"
 categories: [info]
 image: images/zotero.png
 lang: es
+number-sections: true
 website:
   comments:
     giscus:
@@ -12,18 +13,19 @@ website:
 ---
 
 
-Sabemos que Zotero es un gestor de referencias bibliográficas con el cual podemos organizar nuestro material y exportarlo para trabajar en texto plano a partir de las **citation keys**.
+![](images/zotero.png)
+
+
+**Zotero** es un gestor de referencias bibliográficas con el que podemos organizar nuestro material y además  exportarlo para poder citar en texto plano a partir de las **citation keys**.
 
 :::{.callout-note}
 Revisitar práctico de Zotero: [aquí](https://cienciasocialabierta.netlify.app/assignment/02-practico)
 ::: 
 
-Zotero también tiene la ventaja de que podemos **trabajar colaborativamente**. Para esto veremos cómo sincronizar nuestro Zotero de la nube y el local y luego cómo crear bibliotecas compartidas.
+Además de la organización de referencias y posibilidades de citación, **Zotero** también facilita el **trabajar colaborativamente**. Para esto veremos cómo sincronizar nuestro Zotero local con la nube  y luego cómo crear bibliotecas compartidas.
 
 
 # Sincronización
-
-*Comprobar con web library
 
 ## Web
 
@@ -37,7 +39,7 @@ Si ya tenemos una cuenta en Zotero, escribimos nuestros datos e ingresamos. Si n
 
 ## Local
 
-Dentro de su aplicación Zotero de escritorio, en el menú superior deben ir a **"Edit" -> "Settings" -> "Sync"** y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas de la nube en su local. Si esto no ocurre, pueden forzar la sincronización apretando ![](images/sync.png) en la esquina superior derecha de su aplicación.
+Dentro de su aplicación Zotero de escritorio, en el menú superior deben ir a **"Edit" -> "Settings" -> "Sync"** y ahí ingresar su cuenta. Una vez hecho esto, la aplicación de escritorio sincronizará automáticamente sus bibliotecas. Si esto no ocurre, pueden forzar la sincronización apretando ![](images/sync.png) en la esquina superior derecha de su aplicación.
 
 ## Comprobar
 
@@ -79,6 +81,13 @@ Pueden comprobar que la biblioteca funciona correctamente si tienen las mismas r
 
 :::{.callout-note}
 
-Recuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de citation key
+Recuerden que para no generar conflictos en la citación en texto plano, deben asegurarse de que tod_s tengan la misma fórmula de **citation key** en Better BibTeX. Para esto, deben ir a **"Edit" -> "Settings" -> "Export"** y elegir la misma fórmula de **citation key**, se recomienda la siguiente:
+
+`auth.lower + "_" + title.select(1,1).lower + "_" + year
+
+En caso que no tengan la misma fórmula, pueden copiar y pegar la fórmula recomendada en el cuadro de texto y luego clickear "OK" para que se guarde.
+
+Si en alguna de las bibliotecas locales existe otra citation key, después de actualizarla en las opciones de Better BibTeX, deben ir a la biblioteca compartida, seleccionar todas las referencias (ctrl + A) y luego clickear "Better BibTeX" -> "Refresh BibTeX key" para que se actualicen las citation keys de todas las referencias.
+
 
 :::
