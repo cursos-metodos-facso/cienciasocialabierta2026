@@ -1,0 +1,61 @@
+---
+title: "Datos de más de 100MB: almacenar en Zenodo y llamar desde R"
+author: "Equipo Docente"
+date: "2026-04-28"
+categories: [info]
+image: images/zenodo.png
+lang: es
+number-sections: true
+website:
+  comments:
+    giscus:
+      repo: cursos-metodos-facso/cienciasocialabierta2026
+---
+
+![](images/zenodo.png){fig-align="center" width="80%"}
+
+Cuando un archivo de datos pesa más de 100MB, GitHub lo rechaza mediante un error al momento de subirlo (push). La solución es almacenarlo en una plataforma externa y descargarlo desde R al ejecutar el script.
+
+**Zenodo** es una plataforma académica gratuita del CERN que permite almacenar archivos sin límite de tamaño y acceder a ellos mediante una URL de descarga directa, sin bloqueos para scripts automatizados.
+
+# Subir el archivo a Zenodo
+
+1. Ingresen a [zenodo.org](https://zenodo.org) con su cuenta (o creen una, es gratuita).
+2. Clic en **"New upload"**.
+3. Suban el archivo de datos (por ejemplo `encuesta.RData`).
+4. Completen los metadatos mínimos: título, autores, tipo de recurso.
+5. Clic en **"Save"** para guardar como borrador, o **"Publish"** para publicar con DOI.
+
+
+# Obtener la URL de descarga directa
+
+Una vez subido el archivo, la URL de descarga directa tiene este formato:
+
+`https://zenodo.org/records/XXXXXXX/files/encuesta.RData`
+
+Donde `XXXXXXX` es el ID del depósito, visible en la barra de dirección al entrar al registro en Zenodo.
+
+Para obtener esta URL, pueden ir a la página del depósito en Zenodo, hacer clic derecho sobre el botón de descarga y seleccionar "Copiar dirección de enlace" o similar según su navegador. 
+
+Esta dirección va a terminar en algo como: `https://zenodo.org/records/1234567/files/encuesta.RData?download=1`. Para que funcione, deben eliminar el `?download=1` al final, quedando: `https://zenodo.org/records/1234567/files/encuesta.RData`.
+
+
+# Descargar y cargar desde R
+
+En el script del proyecto, descarguen el archivo si no existe localmente y luego cárguenlo con `load()`:
+
+```r
+load(url("https://zenodo.org/records/1234567/files/encuesta.RData"))
+```
+
+# En resumen
+
+El flujo completo es:
+
+1. Subir el archivo a Zenodo.
+2. Copiar la URL de descarga directa (Download -> botón derecho -> copy link address)
+3. Usar `load(url("URL_DE_DESCARGA"))` en el script para cargar el archivo directamente desde Zenodo, recordando borrar el `?download=1` al final.
+
+
+
+

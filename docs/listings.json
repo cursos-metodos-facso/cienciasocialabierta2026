@@ -46,6 +46,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2026-04-28_datos-grandes-figshare.html",
       "/news/2026-04-28_documentos-anidados-quarto.html",
       "/news/2026-04-27_bib-zotero.html",
       "/news/2026-04-27_reproducibilidad-renv.html",
@@ -58,6 +59,7 @@
   {
     "listing": "/news/index.html",
     "items": [
+      "/news/2026-04-28_datos-grandes-figshare.html",
       "/news/2026-04-28_documentos-anidados-quarto.html",
       "/news/2026-04-27_bib-zotero.html",
       "/news/2026-04-27_reproducibilidad-renv.html",
