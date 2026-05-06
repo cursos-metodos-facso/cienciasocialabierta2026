@@ -10,7 +10,57 @@
 <atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.7.33</generator>
-<lastBuildDate>Tue, 28 Apr 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 06 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Tres lecturas recomendadas sobre reproducibilidad</title>
+  <dc:creator>Juan C. Castillo</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-05-06_reproducibilidad-tres-articulos.html</link>
+  <description><![CDATA[ 
+
+<div class="back-nav"><a href="../news/">← News</a></div>
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://multinivel-facso.netlify.app/news/images/Research-on-research.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Este post reúne tres artículos sobre reproducibilidad, relacionados con las razones por las que distintos equipos de investigación pueden llegar a resultados diferentes aun trabajando sobre una misma pregunta. Es un tema clave porque afecta cómo interpretamos la evidencia, cuánta confianza depositamos en un hallazgo y cómo diseñamos investigaciones más transparentes que permitan un mejor avance del conocimiento.</p>
+<ol type="1">
+<li><strong>Breznau, N., et al.&nbsp;(2022). <em>Observing many researchers using the same data and hypothesis reveals a hidden universe of uncertainty</em>. <em>Proceedings of the National Academy of Sciences, 119</em>(44). <a href="https://doi.org/10.1073/pnas.2203150119">https://doi.org/10.1073/pnas.2203150119</a></strong>. La reproducibilidad no es un tema “técnico” aislado: cambia cómo interpretamos evidencia y cuánta confianza podemos tener en los resultados. En este primer artículo (en el que tuve la oportunidad de participar), 73 equipos analizaron exactamente la misma hipótesis con los mismos datos y aun así llegaron a estimaciones y conclusiones bastante distintas. El hallazgo central es que muchas diferencias vienen de decisiones analíticas razonables, no necesariamente de mala práctica, lo que obliga a reportar mejor la incertidumbre y a ser más humildes al comunicar resultados.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://multinivel-facso.netlify.app/news/images/repro-pnas-firstview.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li><strong>Aczel, B., et al.&nbsp;(2026). <em>Investigating the analytical robustness of the social and behavioural sciences</em>. <em>Nature, 652</em>(8108), 135-142. <a href="https://doi.org/10.1038/s41586-025-09844-9">https://doi.org/10.1038/s41586-025-09844-9</a></strong>: El segundo artículo amplifica la idea del artículo anterior en una mayor escala: toma 100 estudios de ciencias sociales y del comportamiento, y hace que varios equipos reanalicen cada caso para medir cuán “robustos” son los resultados originales frente a decisiones analíticas alternativas. El resumen es claro: en muchos casos se mantiene la conclusión general, pero los tamaños de efecto y la fuerza de la evidencia cambian más de lo que solemos asumir cuando vemos un solo análisis publicado.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://multinivel-facso.netlify.app/news/images/repro-nature-firstview.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><strong>Nature Communications. (2025). <em>Reproducibility and transparency: what’s going on and how can we help</em>. <em>Nature Communications, 16</em>, 1082. <a href="https://doi.org/10.1038/s41467-024-54614-2">https://doi.org/10.1038/s41467-024-54614-2</a></strong>: El tercer texto, en formato de perspectiva y entrevista a especialistas de distintas disciplinas, ayuda a aterrizar el debate: la crisis de reproducibilidad no se vive igual en todas las áreas, pero hay un consenso transversal en que la transparencia (datos, código, decisiones y reportes) mejora la calidad acumulativa de la ciencia. Es una lectura muy útil para entender no solo el diagnóstico del problema, sino también qué prácticas concretas pueden ayudarnos desde nuestros propios proyectos.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://multinivel-facso.netlify.app/news/images/repro-natcom-firstview.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-05-06_reproducibilidad-tres-articulos.html</guid>
+  <pubDate>Wed, 06 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/Research-on-research.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Datos de más de 100MB: almacenar en Zenodo y llamar desde R</title>
   <dc:creator>Equipo Docente</dc:creator>
@@ -50,13 +100,13 @@
 <section id="descargar-y-cargar-desde-r" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Descargar y cargar desde R</h1>
 <p>En el script del proyecto, descarguen el archivo si no existe localmente y luego cárguenlo con <code>load()</code>:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">load</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">url</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">"https://zenodo.org/records/1234567/files/encuesta.RData"</span>))</span></code></pre></div>
+font-style: inherit;">"https://zenodo.org/records/1234567/files/encuesta.RData"</span>))</span></code></pre></div></div>
 </section>
 <section id="en-resumen" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> En resumen</h1>
@@ -107,7 +157,7 @@ Nota
 <section id="cómo-funciona-include" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Cómo funciona <code>include</code></h1>
 <p>Supongan que tienen este archivo principal:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="cb1-2"><span class="an" style="color: #5E5E5E;
@@ -127,7 +177,7 @@ font-style: inherit;"># Inicio</span></span>
 <span id="cb1-8"></span>
 <span id="cb1-9">{{&lt; include 02-metodos.qmd &gt;}}</span>
 <span id="cb1-10"></span>
-<span id="cb1-11">{{&lt; include 03-conclusion.qmd &gt;}}</span></code></pre></div>
+<span id="cb1-11">{{&lt; include 03-conclusion.qmd &gt;}}</span></code></pre></div></div>
 <p>En ese caso, Quarto toma el contenido de cada archivo incluido y lo inserta en el orden indicado. El resultado final se renderiza como una sola página.</p>
 <p>Esto es útil cuando quieren:</p>
 <ul>
@@ -148,7 +198,7 @@ font-style: inherit;"># Inicio</span></span>
 ├── 02-metodos.qmd
 └── 03-conclusion.qmd</code></pre>
 <p>En <code>index.qmd</code>:</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="cb3-2"><span class="an" style="color: #5E5E5E;
@@ -164,7 +214,7 @@ font-style: inherit;">---</span></span>
 <span id="cb3-6"></span>
 <span id="cb3-7">{{&lt; include 02-metodos.qmd &gt;}}</span>
 <span id="cb3-8"></span>
-<span id="cb3-9">{{&lt; include 03-conclusion.qmd &gt;}}</span></code></pre></div>
+<span id="cb3-9">{{&lt; include 03-conclusion.qmd &gt;}}</span></code></pre></div></div>
 <p>Como todos los archivos están al mismo nivel, no hace falta indicar carpetas en la ruta.</p>
 </section>
 <section id="ejemplo-con-archivos-en-una-subcarpeta" class="level1" data-number="3">
@@ -179,7 +229,7 @@ font-style: inherit;">---</span></span>
     ├── 02-metodos.qmd
     └── 03-conclusion.qmd</code></pre>
 <p>En <code>index.qmd</code>:</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="cb5-2"><span class="an" style="color: #5E5E5E;
@@ -195,7 +245,7 @@ font-style: inherit;">---</span></span>
 <span id="cb5-6"></span>
 <span id="cb5-7">{{&lt; include capitulos/02-metodos.qmd &gt;}}</span>
 <span id="cb5-8"></span>
-<span id="cb5-9">{{&lt; include capitulos/03-conclusion.qmd &gt;}}</span></code></pre></div>
+<span id="cb5-9">{{&lt; include capitulos/03-conclusion.qmd &gt;}}</span></code></pre></div></div>
 <p>La regla es siempre la misma: la ruta se escribe en función de dónde está el documento madre.</p>
 </section>
 <section id="ejemplo-cuando-el-documento-madre-está-en-una-subcarpeta" class="level1" data-number="4">
@@ -210,7 +260,7 @@ font-style: inherit;">---</span></span>
         ├── 01-introduction.qmd
         └── 02-actividad.qmd</code></pre>
 <p>En <code>clases/clase-01.qmd</code>:</p>
-<div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---</span></span>
 <span id="cb7-2"><span class="an" style="color: #5E5E5E;
@@ -224,7 +274,7 @@ font-style: inherit;">---</span></span>
 <span id="cb7-4"></span>
 <span id="cb7-5">{{&lt; include bloques/01-introduction.qmd &gt;}}</span>
 <span id="cb7-6"></span>
-<span id="cb7-7">{{&lt; include bloques/02-actividad.qmd &gt;}}</span></code></pre></div>
+<span id="cb7-7">{{&lt; include bloques/02-actividad.qmd &gt;}}</span></code></pre></div></div>
 <p>Como <code>clase-01.qmd</code> está dentro de <code>clases/</code>, la carpeta <code>bloques/</code> se interpreta relativa a esa ubicación.</p>
 </section>
 <section id="solo-se-renderiza-el-documento-madre" class="level1" data-number="5">
@@ -232,13 +282,13 @@ font-style: inherit;">---</span></span>
 <p>Este es el punto más importante del flujo de trabajo.</p>
 <p>Si tienen un documento como <code>index.qmd</code> o <code>clase-01.qmd</code> que incluye otros archivos con <code>{{&lt; include ... &gt;}}</code>, entonces <strong>solo necesitan renderizar ese documento principal</strong>.</p>
 <p>Por ejemplo:</p>
-<div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;
 background-color: null;
-font-style: inherit;">quarto</span> render index.qmd</span></code></pre></div>
+font-style: inherit;">quarto</span> render index.qmd</span></code></pre></div></div>
 <p>o bien:</p>
-<div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><span class="ex" style="color: null;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><span class="ex" style="color: null;
 background-color: null;
-font-style: inherit;">quarto</span> render clases/clase-01.qmd</span></code></pre></div>
+font-style: inherit;">quarto</span> render clases/clase-01.qmd</span></code></pre></div></div>
 <p>No es necesario renderizar por separado <code>01-introduction.qmd</code>, <code>02-metodos.qmd</code> o cualquier otro archivo anidado. Al renderizar el documento madre, Quarto inserta todos esos contenidos automáticamente.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -277,10 +327,10 @@ Importante
     ├── 03-analisis.qmd
     └── 04-conclusion.qmd</code></pre>
 <p>Y en <code>informe.qmd</code>:</p>
-<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb11-1">{{&lt; include secciones/01-introduction.qmd &gt;}}</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb11-1">{{&lt; include secciones/01-introduction.qmd &gt;}}</span>
 <span id="cb11-2">{{&lt; include secciones/02-datos.qmd &gt;}}</span>
 <span id="cb11-3">{{&lt; include secciones/03-analisis.qmd &gt;}}</span>
-<span id="cb11-4">{{&lt; include secciones/04-conclusion.qmd &gt;}}</span></code></pre></div>
+<span id="cb11-4">{{&lt; include secciones/04-conclusion.qmd &gt;}}</span></code></pre></div></div>
 <p>Así pueden editar cada parte por separado, pero seguir produciendo una única salida final.</p>
 <p>En trabajo colaborativo, esta organización tiene una ventaja concreta: si cada integrante modifica una sección distinta, es mucho menos probable que Git detecte conflictos por ediciones simultáneas en el mismo archivo.</p>
 </section>
@@ -427,7 +477,7 @@ Nota
 <section id="inicializar-renv-en-el-proyecto" class="level2">
 <h2 class="anchored" data-anchor-id="inicializar-renv-en-el-proyecto">1) Inicializar <code>renv</code> en el proyecto</h2>
 <p>En la raiz del proyecto:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">pacman<span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">pacman<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -438,26 +488,26 @@ font-style: inherit;">"renv"</span>)</span>
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">init</span>()</span></code></pre></div>
+font-style: inherit;">init</span>()</span></code></pre></div></div>
 <p>Esto crea una carpeta <code>renv/</code> y un archivo <code>renv.lock</code> con el estado del entorno.</p>
 </section>
 <section id="instalar-y-usar-paquetes-normalmente" class="level2">
 <h2 class="anchored" data-anchor-id="instalar-y-usar-paquetes-normalmente">2) Instalar y usar paquetes normalmente</h2>
 <p>Sigue trabajando como siempre:</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"dplyr"</span>)</span>
 <span id="cb2-2"><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">library</span>(dplyr)</span></code></pre></div>
+font-style: inherit;">library</span>(dplyr)</span></code></pre></div></div>
 <p>Cada vez que agregues o actualices paquetes, registra los cambios con:</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">renv<span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">renv<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">snapshot</span>()</span></code></pre></div>
+font-style: inherit;">snapshot</span>()</span></code></pre></div></div>
 </section>
 <section id="compartir-el-proyecto" class="level2">
 <h2 class="anchored" data-anchor-id="compartir-el-proyecto">3) Compartir el proyecto</h2>
@@ -468,11 +518,11 @@ font-style: inherit;">snapshot</span>()</span></code></pre></div>
 <li>carpeta <code>renv/</code> (segun configuración del proyecto)</li>
 </ul>
 <p>Con eso, otra persona puede restaurar el entorno con:</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">renv<span class="sc" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">renv<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
 background-color: null;
-font-style: inherit;">restore</span>()</span></code></pre></div>
+font-style: inherit;">restore</span>()</span></code></pre></div></div>
 </section>
 </section>
 <section id="resumen-del-flujo-recomendado-en-scripts" class="level1">
