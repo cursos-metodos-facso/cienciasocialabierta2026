@@ -1498,5 +1498,135 @@
     "title": "Datos de más de 100MB: almacenar en Zenodo y llamar desde R",
     "section": "3.2 Descargar y cargar desde R",
     "text": "3.2 Descargar y cargar desde R\nlibrary(piggyback)\n\nif (!file.exists(\"input/data/encuesta.RData\")) {\n  dir.create(\"input/data\", recursive = TRUE, showWarnings = FALSE)\n  pb_download(\"encuesta.RData\",\n              repo = \"usuario/repositorio\",\n              tag  = \"datos-v1\",\n              dest = \"input/data/\")\n}\n\nload(\"input/data/encuesta.RData\")\nEsta opción tiene la ventaja de mantener todo dentro del ecosistema GitHub."
+  },
+  {
+    "objectID": "assignment/06-practico.html",
+    "href": "assignment/06-practico.html",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 7 de mayo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 6"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#crear-cuenta-en-hypothes.is",
+    "href": "assignment/06-practico.html#crear-cuenta-en-hypothes.is",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.1 Crear cuenta en Hypothes.is",
+    "text": "5.1 Crear cuenta en Hypothes.is\n\nIr a https://web.hypothes.is/ y hacer clic en Get Started.\nCompletar correo electrónico, nombre de usuario y contraseña.\nConfirmar la cuenta desde el correo.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 6"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#instalar-la-extensión",
+    "href": "assignment/06-practico.html#instalar-la-extensión",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.2 Instalar la extensión",
+    "text": "5.2 Instalar la extensión\n\nChrome / Brave: instalar desde la Chrome Web Store.\nFirefox: usar el bookmarklet disponible en la página de inicio.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 6"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#anotar-el-sitio-del-grupo",
+    "href": "assignment/06-practico.html#anotar-el-sitio-del-grupo",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.3 Anotar el sitio del grupo",
+    "text": "5.3 Anotar el sitio del grupo\n\nAbrir la URL del sitio GitHub Pages del grupo.\nActivar la extensión (ícono en la barra del navegador).\nSeleccionar un fragmento de texto y escribir un comentario.\nElegir visibilidad:\n\nPublic: visible para todos.\nOnly me: anotación privada.\nGrupo del curso: crear un grupo en Hypothes.is e invitar a los compañeros.\n\n\n\n\n\n\n\n\nNota\n\n\n\nPara crear un grupo en Hypothes.is: ir a https://hypothes.is/groups/new, crear el grupo y compartir el enlace de invitación.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 6"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#alternativa-publicar-desde-la-raíz",
+    "href": "assignment/06-practico.html#alternativa-publicar-desde-la-raíz",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "4.1 (Alternativa) Publicar desde la raíz",
+    "text": "4.1 (Alternativa) Publicar desde la raíz\nSi el repositorio es muy simple y el index.html está directamente en la raíz (sin carpeta docs/), se puede usar la misma configuración pero con Folder: /. No se recomienda para proyectos Quarto porque mezcla archivos fuente y archivos generados en el mismo directorio."
+  },
+  {
+    "objectID": "assignment/06-practico.html#alternativa-publicar-con-github-actions-propio",
+    "href": "assignment/06-practico.html#alternativa-publicar-con-github-actions-propio",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "4.2 (Alternativa) Publicar con GitHub Actions propio",
+    "text": "4.2 (Alternativa) Publicar con GitHub Actions propio\nSi se quiere que el servidor de GitHub construya el sitio (por ejemplo, ejecutar quarto render en la nube sin necesidad de subir docs/), se puede usar la modalidad GitHub Actions. Esto requiere crear un archivo .github/workflows/publish.yml con el workflow de construcción y despliegue. Es la opción más poderosa pero también la más compleja; se puede explorar en sesiones posteriores."
+  },
+  {
+    "objectID": "assignment/06-practico.html#errores-frecuentes-y-cómo-resolverlos",
+    "href": "assignment/06-practico.html#errores-frecuentes-y-cómo-resolverlos",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.2 Errores frecuentes y cómo resolverlos",
+    "text": "2.2 Errores frecuentes y cómo resolverlos\n\n\n\n\n\n\n\n\nSíntoma\nCausa probable\nSolución\n\n\n\n\nEl sitio no aparece\nPages aún no activado o sin primer commit en docs/\nVerificar configuración y volver a hacer push\n\n\nPágina en blanco\nindex.html no existe en docs/\nRenderizar con quarto render y volver a subir docs/\n\n\nRutas rotas (imágenes o links)\nRutas absolutas en el código\nUsar rutas relativas en los archivos .qmd\n\n\nEl sitio no se actualiza\nCaché del navegador\nAbrir en modo incógnito o forzar recarga con Ctrl+Shift+R\n\n\nError 404 en Actions\nPermisos insuficientes del workflow\nIr a Settings → Actions → General → activar Read and write permissions"
+  },
+  {
+    "objectID": "assignment/06-practico.html#modalidad-recomendada-según-el-tipo-de-sitio",
+    "href": "assignment/06-practico.html#modalidad-recomendada-según-el-tipo-de-sitio",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "4.1 2.1 Modalidad recomendada según el tipo de sitio",
+    "text": "4.1 2.1 Modalidad recomendada según el tipo de sitio\n\nSi el sitio es solo index.html (estructura simple): publicar desde la raíz (/).\nSi el sitio tiene más archivos o estructura anidada: publicar desde docs/.\n\nLa segunda opción mantiene el repositorio más limpio: en la raíz quedan los archivos fuente y en docs/ queda solo la salida HTML."
+  },
+  {
+    "objectID": "assignment/06-practico.html#configurar-_quarto.yml-para-generar-docs",
+    "href": "assignment/06-practico.html#configurar-_quarto.yml-para-generar-docs",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.1 Configurar _quarto.yml para generar docs/",
+    "text": "2.1 Configurar _quarto.yml para generar docs/\nPara que Quarto genere la salida en docs/, generar un archivo nuevo en la raíz con el título _quarto.yml con el siguiente contenido:\n---\nproject:\n  type: website\n  output-dir: docs\n---\nLuego:\n\nRenderizar desde VS Code con Render (▶) en index.qmd.\nRevisar localmente con Quarto Preview.\nCommit + push.\n\nEsto hace que el archivo index.html y los recursos asociados se generen dentro de docs/, manteniendo la raíz del repositorio limpia.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 6"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#activar-github-pages-desde-docs",
+    "href": "assignment/06-practico.html#activar-github-pages-desde-docs",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.2 Activar GitHub Pages desde /docs",
+    "text": "2.2 Activar GitHub Pages desde /docs\n\nEn GitHub, ir a Settings → Pages.\n\n\n\n\nDeploy desde docs\n\n\n\n\n\nConfiguración de GitHub Pages en Settings\n\n\n\nEn Build and deployment, configurar:\n\n\nSource: Deploy from a branch\nBranch: main\nFolder: /docs\n\n\nHacer clic en Save.\nEsperar 1–2 minutos y recargar la página para ver la URL del sitio."
+  },
+  {
+    "objectID": "assignment/06-practico.html#qué-es-un-github-action-y-dónde-verlo",
+    "href": "assignment/06-practico.html#qué-es-un-github-action-y-dónde-verlo",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.3 2.4 Qué es un GitHub Action y dónde verlo",
+    "text": "2.3 2.4 Qué es un GitHub Action y dónde verlo\nUn GitHub Action es una automatización que ejecuta tareas en el repositorio (por ejemplo, compilar, testear o desplegar).\nDónde se ve:\n\nEn la pestaña Actions del repositorio (historial de ejecuciones).\nEn la carpeta .github/workflows/ (si el proyecto define workflows propios).\n\nIncluso cuando usas “Deploy from a branch”, verás ejecuciones de pages build and deployment en la pestaña Actions."
+  },
+  {
+    "objectID": "assignment/06-practico.html#qué-significa-cicd-en-este-contexto",
+    "href": "assignment/06-practico.html#qué-significa-cicd-en-este-contexto",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.4 2.5 Qué significa CI/CD en este contexto",
+    "text": "2.4 2.5 Qué significa CI/CD en este contexto\n\nCI (Continuous Integration): integrar cambios frecuentes y ejecutar validaciones automáticas.\nCD (Continuous Delivery/Deployment): publicar automáticamente esos cambios en un entorno (en este caso, GitHub Pages).\n\nEn este práctico, el despliegue del sitio después de un push es una forma de CD."
+  },
+  {
+    "objectID": "assignment/06-practico.html#verificar-el-despliegue",
+    "href": "assignment/06-practico.html#verificar-el-despliegue",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.5 2.6 Verificar el despliegue",
+    "text": "2.5 2.6 Verificar el despliegue\nPara verificar el estado:\n\nIr a Actions.\nBuscar pages build and deployment.\nÍcono verde (✓): despliegue exitoso.\nÍcono rojo (✗): abrir el log y revisar el error."
+  },
+  {
+    "objectID": "assignment/06-practico.html#personalizar-la-página-principal",
+    "href": "assignment/06-practico.html#personalizar-la-página-principal",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.7 2.8 Personalizar la página principal",
+    "text": "2.7 2.8 Personalizar la página principal\nLa página principal del sitio corresponde al archivo index.qmd en la raíz del repositorio. Se recomienda que incluya:\n\nTítulo del proyecto y semestre.\nIntegrantes del grupo.\nResumen del objetivo del trabajo (2–3 líneas).\nEnlace al informe completo o a las secciones de resultados.\n\nEjemplo de encabezado YAML para index.qmd:\n---\ntitle: \"Reproducibilidad en ciencias sociales: análisis de un artículo\"\nsubtitle: \"Grupo 3 — Ciencia Social Abierta 2026\"\nauthor:\n  - Nombre Apellido\n  - Nombre Apellido\ndate: today\nlang: es\n---"
+  },
+  {
+    "objectID": "assignment/06-practico.html#usar-hypothes.is-para-anotar-el-sitio-publicado",
+    "href": "assignment/06-practico.html#usar-hypothes.is-para-anotar-el-sitio-publicado",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.8 2.9 Usar Hypothes.is para anotar el sitio publicado",
+    "text": "2.8 2.9 Usar Hypothes.is para anotar el sitio publicado\nUna vez que el sitio del grupo está publicado, pueden usar Hypothes.is para comentar y anotar directamente sobre él."
   }
 ]

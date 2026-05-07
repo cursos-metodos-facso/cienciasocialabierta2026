@@ -1,0 +1,419 @@
+---
+engine: knitr
+format:
+  revealjs:
+    slide-number: true
+    slide-number-style: [bottom-right]
+    scrollable: true
+    logo: img/logo-ciencia-abierta.png
+    theme: [css/custom_2025.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: fade
+    transition-speed: slow
+    auto-play-media: true
+    title-slide-logo: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <style>
+          .reveal .slide-number {
+            font-size: 0.2em !important;
+          }
+
+          /* Local typography tuning for this deck to avoid vertical overflow. */
+          .reveal .slides section {
+            font-size: 0.90em;
+            padding-bottom: 1.8em;
+          }
+
+          .reveal .slides section h1,
+          .reveal h1 {
+            font-size: 1.5em !important;
+            line-height: 1.1;
+          }
+
+          .reveal h2 {
+            font-size: 1.3em;
+            line-height: 1.15;
+          }
+
+          .reveal p,
+          .reveal li {
+            line-height: 1.2;
+          }
+
+          .reveal .footer,
+          .reveal .footer p,
+          .reveal .footer a,
+          .reveal .footer i,
+          .reveal .footer.has-dark-background,
+          .reveal .footer.has-dark-background a,
+          .reveal .footer.has-light-background,
+          .reveal .footer.has-light-background a {
+            color: orange !important;
+          }
+        </style>
+    footer: '<span style="font-size: 0.5em; display: inline-block; width: 100%; box-sizing: border-box; padding-left: 54px; text-align: left;"><i class="fa-brands fa-github"></i> [Ciencia Social Abierta](https://github.com/cursos-metodos-facso/cienciasocialabierta2026) | FACSO 2026 | © Hecho en <a href="https://quarto.org/">Quarto <i class="fa-solid fa-mug-hot"></i></a></span>'
+
+editor: source
+---
+
+# {.hide-logo data-background-color="#9B2626"}
+
+::::: columns
+::: {.column width="33%"}
+
+![](img/logo-ciencia-abierta.png){width="100%" fig-align="right"}
+:::
+
+:::{.column width="2%"}
+
+:::
+
+::: {.column style="width: 65%; font-size: 22px; text-align: right; margin: 0 auto;"}
+
+###
+
+<span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
+
+----
+<span style="font-size: 1.5em; color: #dfc117;">Sesión 6: Publicación de resultados con GitHub Pages</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Juan Carlos Castillo & Tomás Urzúa</span>
+
+<span style="font-size: 1em; color: white;">Sociología FACSO UChile</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Primer Semestre 2026</span>
+
+[cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
+
+:::
+:::::
+
+# Objetivos de aprendizaje
+
+Al final de esta clase podrán:
+
+:::{.incremental .highlight-last}
+- Entender qué es GitHub Pages y para qué sirve en investigación y docencia.
+- Publicar un sitio estático desde un repositorio.
+- Diferenciar un flujo manual y uno automatizado con GitHub Actions.
+- Aplicar una lista mínima de control de calidad antes de publicar.
+:::
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #f8fafb;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #f8fafb;"}<br>
+[3. Flujos de publicación]{style="color: #f8fafb;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #f8fafb;"}<br>
+[5. Actividad aplicada]{style="color: #f8fafb;"}
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #f8fafb;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
+[3. Flujos de publicación]{style="color: #686868;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
+[5. Actividad aplicada]{style="color: #686868;"}
+
+# 1) Por qué publicar resultados en la web
+
+:::{.incremental .highlight-last}
+- Transparencia: mostrar resultados, decisiones y actualizaciones.
+- Reproducibilidad: vincular código, datos y documentos.
+- Comunicación pública: acceso sencillo para estudiantes y colegas.
+- Trazabilidad: cada cambio queda registrado en el historial.
+- Revisión: facilita la revisión eficiente por pares en diferentes dispositivos
+:::
+
+## Casos de uso en ciencias sociales
+
+:::{.incremental .highlight-last}
+- Sitio del curso con programa, clases y recursos.
+- Sitio de proyecto con reportes, tablas y visualizaciones.
+- Documentación metodológica para equipos de investigación.
+- Repositorio de resultados intermedios y versiones finales.
+:::
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #ffffff;"}<br>
+[3. Flujos de publicación]{style="color: #686868;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
+[5. Actividad aplicada]{style="color: #686868;"}
+
+## Qué es GitHub Pages
+
+- Servicio de hosting para sitios estáticos.
+- Publica HTML, CSS, JS e imágenes directamente desde GitHub.
+- No ejecuta backend (sin base de datos o API del lado servidor).
+
+## Arquitectura mínima
+
+```text
+contenido fuente (.qmd/.md/.html)
+        ->
+proceso de construcción (quarto render)
+        ->
+salida estática (docs/ o rama gh-pages)
+        ->
+publicación web (GitHub Pages)
+```
+
+## Estructura sugerida del repositorio
+
+```text
+raiz/
+  _quarto.yml
+  index.qmd
+  syllabus.qmd
+  schedule.qmd
+  docs/              # salida publicada
+  slides/
+  assignment/
+  content/
+  files/
+```
+
+## Dos estrategias de despliegue
+
+:::{.incremental .highlight-last}
+- Estrategia A: publicar carpeta docs desde main.
+- Estrategia B: publicar rama gh-pages generada automáticamente.
+:::
+
+::: {.fragment}
+Regla práctica: usar docs es simple para cursos, gh-pages es cómoda cuando hay CI más avanzado.
+:::
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
+[3. Flujos de publicación]{style="color: #ffffff;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
+[5. Actividad aplicada]{style="color: #686868;"}
+
+## Flujo manual (primer acercamiento)
+
+1. Editar contenido.
+2. Renderizar sitio localmente.
+3. Confirmar que docs quedó actualizado.
+4. Commit + push.
+5. Verificar página publicada.
+
+## Flujo automatizado (recomendado)
+
+1. Editar contenido.
+2. Commit + push.
+3. GitHub Actions ejecuta render.
+4. Action publica automáticamente.
+5. Revisar logs y sitio final.
+
+## Ejemplo de workflow de GitHub Actions
+
+```yaml
+name: Publish Quarto site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Deploy to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+```
+
+## Ventajas del flujo automatizado
+
+:::{.incremental .highlight-last}
+- Menos errores manuales al publicar.
+- Historial claro de builds y despliegues.
+- Fácil de escalar a trabajo colaborativo.
+- Base para pruebas y checks adicionales.
+:::
+
+## Configuración visual en GitHub (paso a paso)
+
+1. Ir a Settings -> Pages del repositorio.
+2. Definir fuente de publicación (branch/carpeta o workflow).
+3. Confirmar URL publicada y estado del deploy.
+
+## Paso 1: Settings -> Pages
+
+![](img/github-pages/01-pages-settings-full.png){fig-alt="Configuración de GitHub Pages en Settings" width="100%"}
+
+## Paso 2: Build and deployment
+
+![](img/github-pages/02-build-and-deployment.png){fig-alt="Sección Build and deployment de GitHub Pages" width="100%"}
+
+## Paso 3: Verificación en Actions
+
+![](img/github-pages/03-actions-overview.png){fig-alt="Panel de GitHub Actions para revisar despliegue" width="100%"}
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
+[3. Flujos de publicación]{style="color: #686868;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #ffffff;"}<br>
+[5. Actividad aplicada]{style="color: #686868;"}
+
+## Checklist antes de publicar
+
+:::{.incremental .highlight-last}
+- Título, menú y navegación correctos.
+- Enlaces internos y externos funcionando.
+- Gráficos/tablas visibles en móvil y escritorio.
+- Metadatos básicos presentes (título, descripción, autor).
+- Página principal actualizada y consistente con contenidos nuevos.
+:::
+
+## Errores frecuentes
+
+:::{.incremental .highlight-last}
+- El sitio no se actualiza: se editó fuente pero no se regeneró salida.
+- Rutas rotas: se movieron archivos sin ajustar links.
+- Fallo de permisos: workflow sin permisos para publicar.
+- Caché del navegador: aparenta no actualizar, pero el deploy sí ocurrió.
+:::
+
+## Diagnóstico rápido
+
+1. Revisar último commit en GitHub.
+2. Revisar estado del workflow en Actions.
+3. Abrir logs del paso que falla.
+4. Confirmar carpeta de salida y rutas relativas.
+5. Probar en modo incógnito para descartar caché.
+
+## Contenidos adicionales para fortalecer el curso
+
+:::{.incremental .highlight-last}
+- Reproducibilidad de entornos (versiones y dependencias).
+- Accesibilidad web básica (contraste, texto alternativo, jerarquía).
+- SEO académico mínimo (metadatos, sitemap, Open Graph).
+- Analítica ética y mínima para monitorear uso del sitio.
+- Gobernanza: ramas protegidas, revisiones y permisos del equipo.
+:::
+
+## Comentar sitios web con Hypothes.is
+
+Hypothes.is permite anotar y discutir textos directamente sobre páginas web y PDFs.
+
+:::{.incremental .highlight-last}
+- Útil para lectura guiada en clase.
+- Permite comentarios individuales o por grupos.
+- Deja evidencia del proceso de lectura y argumentación.
+:::
+
+## Paso 1: Crear cuenta
+
+1. Ir a [web.hypothes.is](https://web.hypothes.is/) y seleccionar la opción de registro.
+2. Completar correo, usuario y contraseña.
+3. Confirmar el correo para activar la cuenta.
+
+![](img/hypothesis/01-home-web-hypothesis.png){fig-alt="Portada de Hypothes.is" width="100%"}
+
+## Paso 2: Registro en hypothes.is
+
+![](img/hypothesis/02-signup-hypothesis.png){fig-alt="Pantalla de creación de cuenta en hypothes.is" width="100%"}
+
+## Paso 3: Comentar una web
+
+1. Instalar la extensión de navegador de Hypothes.is.
+2. Abrir una página web y activar el panel de anotaciones.
+3. Seleccionar texto, escribir comentario y etiquetar.
+4. Elegir visibilidad: público o grupo privado del curso.
+
+## Usos recomendados en docencia
+
+:::{.incremental .highlight-last}
+- Preguntas de lectura obligatoria sobre papers o noticias.
+- Comentarios entre pares para discusión previa a clase.
+- Marcado de conceptos clave, métodos y evidencia empírica.
+- Revisión crítica de fuentes y trazabilidad de argumentos.
+:::
+
+## Recursos y ejemplos de uso
+
+![](img/hypothesis/03-blog-web-hypothesis.png){fig-alt="Blog de Hypothes.is con casos y recursos" width="100%"}
+
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
+
+<br>
+
+[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
+[3. Flujos de publicación]{style="color: #686868;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
+[5. Actividad aplicada]{style="color: #ffffff;"}
+
+## Actividad en grupos (20 minutos)
+
+Objetivo: implementar GitHub Pages en el repositorio grupal del trabajo de reproducibilidad.
+
+Referencia de estructura base (protocolo IPO):
+[https://github.com/data-soc/template-repro](https://github.com/data-soc/template-repro)
+
+1. Abrir el repositorio grupal y verificar estructura IPO (input/procesamiento/output).
+2. Definir una página principal del proyecto (index) con: objetivo del trabajo, equipo y estado de avance.
+3. Activar GitHub Pages (desde `docs/` o flujo con Actions, según su repo).
+4. Publicar al menos una sección de resultados o avances (tabla, figura o resumen analítico).
+5. Compartir la URL publicada y registrar un problema técnico + cómo lo resolvieron.
+
+## Rúbrica breve
+
+- GitHub Pages implementado y funcionando (40%).
+- Coherencia con estructura IPO del repositorio (25%).
+- Claridad de la página principal del proyecto (20%).
+- Reporte del problema técnico y solución documentada (15%).
+
+## Cierre
+
+:::{.incremental .highlight-last}
+- GitHub Pages permite publicar rápido y con trazabilidad.
+- La calidad final depende del flujo, no solo de la herramienta.
+- Publicar bien es parte del método de investigación abierta.
+:::
+
+## Próximos pasos
+
+1. Dejar configurado un workflow de publicación automática.
+2. Estandarizar checklist para todo material del curso.
+3. Definir calendario de actualización y responsables por sección.

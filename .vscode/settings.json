@@ -12,5 +12,8 @@
     "**/slides/*_files/**": true,
     "**/site_libs/**": true,
     "**/.quarto/**": true
+  },
+  "chat.tools.terminal.autoApprove": {
+    "quarto": true
   }
 }
