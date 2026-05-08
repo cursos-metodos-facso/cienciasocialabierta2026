@@ -6,11 +6,11 @@ number-sections: true
 
 Esta pauta está pensada para realizar la **revisión cruzada** de los reportes del **Trabajo 1: Reporte de reproducibilidad**. En esta página aparecen las instrucciones generales para realizar la revisión, la rúbrica de evaluación y una tabla para registrar los puntajes asignados en cada sección del reporte revisado.
 
-Para completar la revisión, bajen [este mismo archivo en formato qmd](/files/templates/template-revision-cruzada-trabajo1.qmd) y luego enviarlo con el nombre "revisión-cruzada-trabajo1-GrupoX.qmd" (donde "GrupoX" es el número del grupo que revisaron) a través del formulario de entrega de la revisión cruzada, que se habilitará una vez entregados los reportes finales.
+Para completar la revisión, bajen <a href="/files/templates/template-revision-cruzada-trabajo1.qmd" download="template-revision-cruzada-trabajo1.qmd">este mismo archivo en formato qmd</a> y luego enviarlo con el nombre "revisión-cruzada-trabajo1-GrupoX.qmd" (donde "GrupoX" es el número del grupo que revisaron) a través del formulario de entrega de la revisión cruzada, que se habilitará una vez entregados los reportes finales.
 
 La revisión debe realizarse de forma **anónima**.
 
-Los repositorios para revisar se encuentran disponibles en la sección de [Grupos y repositorios de entrega](/trabajos/trabajos.qmd#grupos-y-repositorios-de-entrega) de la página de trabajos. 
+Los repositorios para revisar se encuentran disponibles en la sección de [Grupos y repositorios de entrega](/trabajos/trabajos.html#grupos-y-repositorios-de-entrega) de la página de trabajos. 
 
 
 # Instrucciones generales para la revisión
