@@ -53,6 +53,8 @@ Link al reporte de avance: <https://forms.gle/YWcxt8wHekuXxgYu8>
 
 Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
 
+A cada grupo se le asignará otro grupo para revisar, y deberán evaluar el reporte utilizando la rúbrica de evaluación que se les proporcionará. Este reporte equivale al 10% de la nota final del curso, y se evaluará en base a la calidad de la retroalimentación entregada, la justificación de los puntajes asignados, y la capacidad de identificar fortalezas y áreas de mejora en el reporte revisado.
+
 La pauta para realizar esta revisión está disponible en:
 
 -   [Revisión cruzada - Trabajo 1](template-revision-cruzada-trabajo1.qmd)

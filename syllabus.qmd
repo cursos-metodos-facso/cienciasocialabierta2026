@@ -118,7 +118,7 @@ El reporte debe incluir:
 
 Los estudiantes evaluarán de manera cruzada los reportes de reproducibilidad de sus compañeros, utilizando una rúbrica que se les proporcionará. Esta evaluación cruzada permitirá a los estudiantes reflexionar sobre los aspectos clave de la reproducibilidad y la comunicación efectiva en la investigación social, y les brindará la oportunidad de aprender de los enfoques y metodologías utilizados por sus compañeros.
 
-### Entrega 3 (40%): Proyecto Abierto
+### Entrega 3 (50%): Proyecto Abierto
 
 Los lineamientos de la entrega estarán disponibles próximamente. 
 
