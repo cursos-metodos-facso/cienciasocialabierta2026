@@ -24,6 +24,12 @@ Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de r
 5.  **Recomendaciones**: Proporcionen recomendaciones para mejorar la reproducibilidad del artículo, si es necesario.
 6.  **Formato del reporte**: El reporte debe tener una extensión de no más de 2500 palabras, estar escrito en un lenguaje claro y conciso, y seguir las normas de citación académica. El reporte debe estar disponible en Github, seguir la estructura IPO, y ser presentado en formato Quarto
 
+## Pauta de corrección (Trabajo 1)
+
+La pauta de corrección y rúbrica de puntajes para el Trabajo 1 está disponible en:
+
+-   [Pauta de corrección - Trabajo 1](template-revision-cruzada-trabajo1.qmd)
+
 ## Plantilla y avance
 
 -   se pondrá a disposición una plantilla (template) para el reporte, que se podrá clonar y modificar para cada estudiante.
@@ -32,29 +38,48 @@ Este trabajo tiene como objetivo que los estudiantes apliquen los conceptos de r
 -   disponibilidad de datos y código
 -   tabla o figura seleccionada para reproducir
 
-Link al reporte de avance: [https://forms.gle/YWcxt8wHekuXxgYu8](https://forms.gle/YWcxt8wHekuXxgYu8)
+Link al reporte de avance: <https://forms.gle/YWcxt8wHekuXxgYu8>
 
-
-::: {.callout-important}
-- Los grupos que exceden los 3 integrantes deberán reproducir al menos dos gráficos y/o tablas.
-- Atender a la disponibilidad de series acumulativas de encuestas: a veces las encuestas están disponibles por separado para cada año, pero juntarlas no es simple y puede llevar mucho tiempo.
-- En caso de disponer del código de análisis original, reportar la fuente (es decir, cómo se obtuvo/de quién) y adjuntar al trabajo.
-- Considerar alternativa B de datos en caso de que los de la primera opción no estén disponibles. Si no se logra obtener los de la primera opción, se recomienda pasar a opción B a más tardar el viernes 17.
-- Si tienen problemas para conseguir los datos, informar hasta el jueves las principales complicaciones y eventuales solicitudes de apoyo.
-- Recordar que lo que es necesario y escencial para realizar el ejercicio son los datos. Se les recomienda intentar conseguir el código de análisis, pero si este no está disponible, seguir con el ejercicio de reproducibilidad atendiendo a lo que se informa en la metodología del reporte.
+::: callout-important
+-   Los grupos que exceden los 3 integrantes deberán reproducir al menos dos gráficos y/o tablas.
+-   Atender a la disponibilidad de series acumulativas de encuestas: a veces las encuestas están disponibles por separado para cada año, pero juntarlas no es simple y puede llevar mucho tiempo.
+-   En caso de disponer del código de análisis original, reportar la fuente (es decir, cómo se obtuvo/de quién) y adjuntar al trabajo.
+-   Considerar alternativa B de datos en caso de que los de la primera opción no estén disponibles. Si no se logra obtener los de la primera opción, se recomienda pasar a opción B a más tardar el viernes 17.
+-   Si tienen problemas para conseguir los datos, informar hasta el jueves las principales complicaciones y eventuales solicitudes de apoyo.
+-   Recordar que lo que es necesario y escencial para realizar el ejercicio son los datos. Se les recomienda intentar conseguir el código de análisis, pero si este no está disponible, seguir con el ejercicio de reproducibilidad atendiendo a lo que se informa en la metodología del reporte.
 :::
-
 
 ## Revisión cruzada
 
 Una vez entregados los reportes finales, se realizará una revisión cruzada entre los estudiantes, donde cada uno revisará el reporte de otro compañero y proporcionará retroalimentación constructiva sobre el análisis de reproducibilidad realizado.
+
+La pauta para realizar esta revisión está disponible en:
+
+-   [Revisión cruzada - Trabajo 1](template-revision-cruzada-trabajo1.qmd)
+
+## Grupos y repositorios de entrega
+
+En la siguiente tabla se indican los grupos asignados para el Trabajo 1 y sus respectivos repositorios de entrega en GitHub.
+
+| Grupo | Repositorio de entrega | Integrantes |
+|------------------------|------------------------|------------------------|
+| Grupo 1 | [Repositorio Grupo 1](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) | \- Bianca Balmaceda<br>- Joaquín Núñez<br>- Amalia Santa |
+| Grupo 2 | [Repositorio Grupo 2](https://github.com/x0czz/Murua_Outerbridge) | \- Nicolás Outerbridge<br>- Vicente Rojas |
+| Grupo 3 | [Repositorio Grupo 3](https://github.com/josefinabd/ej-repro-grupo3) | \- Josefina Bustos<br>- Benjamín Casacuberta |
+| Grupo 4 | [Repositorio Grupo 4](https://github.com/pipoowo/CSA-Trabajo1) | \- Elisa Calderón<br>- Valentina Montecinos<br>- Amalia Tsukame<br>- Felipe Vega |
+| Grupo 5 | [Repositorio Grupo 5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) | \- Amaranta González<br>- Amanda Rojo<br>- Elena Yáñez |
+| Grupo 6 | [Repositorio Grupo 6](https://github.com/renatodeluca/ej-repro-grupo-6) | \- Benjamín Belmar<br>- Renato De Luca<br>- Maite Julian<br>- Bastián Martín |
+| Grupo 7 | [Repositorio Grupo 7](https://github.com/Sebagarz/proyecto-casen-grupo7) | \- Juan Gutiérrez<br>- Eduardo Ortiz<br>- Catalina Parra |
+| Grupo 8 | [Repositorio Grupo 8](https://github.com/ElSenorDeLasMoscas/ciencia-abierta) | \- Cristóbal Merchan |
+| Grupo 9 | [Repositorio Grupo 9](https://github.com/Fran1129/Trabajo-1) | \- Violeta Mansilla<br>- Francisca Osorio<br>- Martina Soto |
+| Grupo 10 | [Repositorio Grupo 10](https://github.com/dariobriceno-uch/Reporte1_cienciasocialabierta) | \- Darío Briceño |
 
 ## Artículos / reportes sugeridos
 
 La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir como punto de partida para el Trabajo 1. La idea no es que funcionen como una lista cerrada, sino como referencias útiles para identificar trabajos con datos accesibles, análisis empíricos relativamente simples y una posibilidad razonable de evaluar su reproducibilidad.
 
 | Fuente | Ejemplo | Tipo de análisis | Datos | Por qué puede servir |
-|------------|---------------------------|------------|------------|------------|
+|---------------|---------------|---------------|---------------|---------------|
 | CEP | [Encuesta CEP n°95, octubre 2025](https://www.cepchile.cl/encuesta/encuesta-cep-n-95-septiembre-octubre-2025/) | Descriptivos, cruces, comparaciones de grupos | Acceso abierto | Buen ejemplo de reporte de opinión pública con tablas claras y variables políticamente sustantivas. |
 | CEP | [Mejor, igual o peor: ¿Cómo cambiaron las percepciones de desigualdad con el estallido social?](https://static.cepchile.cl/uploads/cepchile/2022/09/pder621_mjabud_aescobar_clefoulon_vsalvatierra.pdf) | Descriptivos y comparación entre grupos | Acceso abierto | Útil para analizar transparencia, documentación y disponibilidad de insumos en un estudio temático. |
 | ISSP | [The Perception of Social Inequality Around the Globe](https://doi.org/10.1080/00207659.2023.2251788) | Comparación internacional, asociaciones y modelos simples | Datos ISSP disponibles públicamente | Buen punto de entrada para trabajos sobre desigualdad, actitudes y comparaciones entre países. |
@@ -65,7 +90,6 @@ La siguiente tabla reúne ejemplos de artículos y reportes que pueden servir co
 | ISSP | [Work Orientations and Perceived Working Conditions across Countries: Results from the 2015 ISSP Survey](https://doi.org/10.1080/00207659.2018.1446116) | Tablas descriptivas | Información pública del estudio | Recomendable para temáticas relacionadas a actitudes hacia el trabajo. |
 | ISSP | [Todos Somos de Clase Media: Sobre el estatus social subjetivo en Chile](https://doi.org/10.1353/lar.2013.0006) | Tablas descriptivas y asociaciones simples | Información pública del estudio | Buen ejemplo para temas actitudinales de clase. |
 
-
 En general, para este trabajo conviene privilegiar artículos o reportes que cumplan al menos dos de estas tres condiciones: datos accesibles, documentación suficiente del procedimiento analítico, y una tabla o figura que pueda intentarse reproducir con un esfuerzo razonable.
 
 # Trabajo 2: Reporte abierto
@@ -74,9 +98,9 @@ El objetivo de este trabajo es que los estudiantes apliquen los conceptos de cie
 
 ## Pauta para el reporte (por definir)
 
-
 # Foro
 
+```{=html}
 <script src="https://giscus.app/client.js"
         data-repo="cursos-metodos-facso/cienciasocialabierta2026"
         data-repo-id="R_kgDORdcMSA"
@@ -92,3 +116,4 @@ El objetivo de este trabajo es que los estudiantes apliquen los conceptos de cie
         crossorigin="anonymous"
         async>
 </script>
+```

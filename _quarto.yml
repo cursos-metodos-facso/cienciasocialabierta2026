@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "trabajos/*.qmd"
     - "!slides/"
   resources:
     - "files/"
@@ -53,7 +54,7 @@ website:
       - text: "Prácticos"
         file: assignment/index.qmd
       - text: "Trabajos"
-        file: trabajos.qmd
+        file: trabajos/trabajos.qmd
       - text: "Recursos"
         file: resource/index.qmd
       - text: "Referencias"
