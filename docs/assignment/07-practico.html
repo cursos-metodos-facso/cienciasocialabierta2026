@@ -232,7 +232,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="quarto-websites" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Quarto Websites</h1>
 <p>Quarto ofrece la posibilidad de construir páginas web de manera gratuita y abierta. En la página oficial se pueden encontrar <a href="https://quarto.org/docs/websites/">algunas orientaciones</a> sobre cómo empezar y <a href="https://quarto.org/docs/gallery/#websites">ejemplos de páginas hechas con Quarto</a>.</p>
-<p>Para crear un página en Quarto, debemos estar dentro de un repositorio ya creado y abrir la barra de comandos (<code>Ctrl</code> + <code>Shift</code> + <code>P</code>) para escribir: Create New Project &gt; Website Project. Elegimos el nombre y su ubicación de almacenamiento. Con esto, se generará nuestro proyecto que contendrá tres archivos: <code>_quarto.yml</code>; <code>index.qmd</code> y <code>about.qmd</code>.</p>
+<p>Para crear un página en Quarto debemos estar dentro de un repositorio ya creado, abrir la barra de comandos (<code>Ctrl</code> + <code>Shift</code> + <code>P</code>) y escribir: <strong>Quarto: Create Project</strong> &gt; <strong>Website Project</strong>. Elegimos el nombre y su ubicación de almacenamiento. Con esto, se generará nuestro proyecto que contendrá tres archivos: <code>_quarto.yml</code>; <code>index.qmd</code> y <code>about.qmd</code>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Generalmente, al crear un proyecto se abre la carpeta y se cambia el directorio de trabajo. Asegúrense que su directorio de trabajo es el repositorio y no la carpeta de la página web. Esto lo verifican al ver el nombre en la barra de comandos.</p>
+</div>
+</div>
 <section id="documentos-fundamentales" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="documentos-fundamentales"><span class="header-section-number">1.1</span> Documentos fundamentales</h2>
 <section id="quarto.yml" class="level3" data-number="1.1.1">
@@ -259,6 +272,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <p><code>project</code>: se especifica el tipo de proyecto. En este caso, website <code>website</code>: se incluyen las opciones que mostrará la página web <code>navbar</code>: es la barra de navegación superior de la página <code>format</code>: contiene el estilo de presentación de la página <code>toc</code>: es la tabla de contenidos</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Al renderizar, por defecto se genera una carpeta llamada _site que almacena todos los documentos .html. Para publicación esto a veces genera problemas, por lo que debemos añadir la opción <code>output-dir: docs</code> indentada en <code>project</code>. Ahora la carpeta que almacena los archivos renderizados se llama docs.</p>
+</div>
+</div>
 </section>
 <section id="index.qmd" class="level3" data-number="1.1.2">
 <h3 data-number="1.1.2" class="anchored" data-anchor-id="index.qmd"><span class="header-section-number">1.1.2</span> index.qmd</h3>
@@ -342,7 +368,7 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Práctico de publicación con GitHub Pages: <a href="https://cienciasocialabierta.netlify.app/assignment/06-practico">aquí</a></p>
+<p>Revisar práctico de publicación con GitHub Pages: <a href="https://cienciasocialabierta.netlify.app/assignment/06-practico">aquí</a></p>
 </div>
 </div>
 </section>
@@ -359,7 +385,20 @@ Tip
 <p>Eligen el repositorio en donde tienen alojada su página web y, al entrar a la pestaña que se ve a continuación, deben elegir el nombre de su proyecto. Este nombre será el que aparecerá en la URL, es decir, el link.</p>
 <p><img src="images/netlify-4.png" class="img-fluid"></p>
 <p>Al igual que con el deployment en GitHub Pages, deben elegir la misma branch y ubicación del archivo que lleve a la página web para que el deploy se logre sin problemas.</p>
-<p>Una vez que estén segur_s con la ubicación del archivo a renderizar, clickean en el botón del final <code>Deploy 'nombre del repositorio'</code> y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Netlify necesita la ubicación de su archivo <code>index.html</code>. En el caso que esté en el directorio raíz no deben ajustar opciones adicionales. En cambio, si su archivo <code>index.html</code> se encuentra en una subcarpeta, deben especificarlo en los Build Settings. Base Directory establece la ruta de la carpeta que contiene el <code>index.html</code>, mientras que Publish Directory debe llevar el nombre de la carpeta donde se encuentra el archivo <code>index.html</code>, que en nuestro caso es docs</p>
+</div>
+</div>
+<p>Una vez que estén segur_s de la ubicación del archivo a renderizar, clickean en el botón del final <code>Deploy 'nombre del repositorio'</code> y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web.</p>
 </section>
 </section>
 </section>

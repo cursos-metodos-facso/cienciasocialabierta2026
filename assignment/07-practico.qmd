@@ -19,7 +19,12 @@ El objetivo de esta sesión es aprender cómo se construyen y funcionan dos form
 
 Quarto ofrece la posibilidad de construir páginas web de manera gratuita y abierta. En la página oficial se pueden encontrar [algunas orientaciones](https://quarto.org/docs/websites/) sobre cómo empezar y [ejemplos de páginas hechas con Quarto](https://quarto.org/docs/gallery/#websites). 
 
-Para crear un página en Quarto, debemos estar dentro de un repositorio ya creado y abrir la barra de comandos (`Ctrl` + `Shift` + `P`) para escribir: Create New Project > Website Project. Elegimos el nombre y su ubicación de almacenamiento. Con esto, se generará nuestro proyecto que contendrá tres archivos: `_quarto.yml`; `index.qmd` y `about.qmd`.
+Para crear un página en Quarto debemos estar dentro de un repositorio ya creado, abrir la barra de comandos (`Ctrl` + `Shift` + `P`) y escribir: **Quarto: Create Project** > **Website Project**. Elegimos el nombre y su ubicación de almacenamiento. Con esto, se generará nuestro proyecto que contendrá tres archivos: `_quarto.yml`; `index.qmd` y `about.qmd`.
+
+::: {.callout-important}
+Generalmente, al crear un proyecto se abre la carpeta y se cambia el directorio de trabajo. Asegúrense que su directorio de trabajo es el repositorio y no la carpeta de la página web. Esto lo verifican al ver el nombre en la barra de comandos.
+:::
+
 
 ## Documentos fundamentales
 
@@ -55,6 +60,12 @@ format:
 `navbar`: es la barra de navegación superior de la página
 `format`: contiene el estilo de presentación de la página
 `toc`: es la tabla de contenidos 
+
+::: {.callout-important}
+
+Al renderizar, por defecto se genera una carpeta llamada _site que almacena todos los documentos .html. Para publicación esto a veces genera problemas, por lo que debemos añadir la opción `output-dir: docs` indentada en `project`. Ahora la carpeta que almacena los archivos renderizados se llama docs.
+
+:::
 
 ### index.qmd
 
@@ -134,7 +145,7 @@ Para ello, primero debemos habilitar GitHub Pages en nuestro repositorio y selec
 Una vez esté configurado GitHub Pages en el repositorio de aloja nuestra página, solamente debemos escribir su link a partir del **enlace que genera nuestro repositorio** + **la ubicación del archivo index.html**. 
 
 ::: callout-tip
-Práctico de publicación con GitHub Pages: [aquí](https://cienciasocialabierta.netlify.app/assignment/06-practico)
+Revisar práctico de publicación con GitHub Pages: [aquí](https://cienciasocialabierta.netlify.app/assignment/06-practico)
 :::
 
 ### Netlify
@@ -161,7 +172,14 @@ Eligen el repositorio en donde tienen alojada su página web y, al entrar a la p
 
 Al igual que con el deployment en GitHub Pages, deben elegir la misma branch y ubicación del archivo que lleve a la página web para que el deploy se logre sin problemas.
 
-Una vez que estén segur_s con la ubicación del archivo a renderizar, clickean en el botón del final `Deploy 'nombre del repositorio'` y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web.
+::: {.callout-important}
+
+Netlify necesita la ubicación de su archivo `index.html`. En el caso que esté en el directorio raíz no deben ajustar opciones adicionales. En cambio, si su archivo `index.html` se encuentra en una subcarpeta, deben especificarlo en los Build Settings. Base Directory establece la ruta de la carpeta que contiene el `index.html`, mientras que Publish Directory debe llevar el nombre de la carpeta donde se encuentra el archivo `index.html`, que en nuestro caso es docs
+
+:::
+
+
+Una vez que estén segur_s de la ubicación del archivo a renderizar, clickean en el botón del final `Deploy 'nombre del repositorio'` y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web.
 
 
 
