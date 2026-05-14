@@ -1620,7 +1620,12 @@
     "href": "assignment/07-practico.html",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "",
-    "text": "Correspondiente a la sesión del jueves, 14 de mayo de 2026"
+    "text": "Correspondiente a la sesión del jueves, 14 de mayo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#elementos-clave",
@@ -1648,41 +1653,71 @@
     "href": "assignment/07-practico.html#personalización",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "1.2 Personalización",
-    "text": "1.2 Personalización\nComo las páginas web funcionan con salida HTML, podemos utilizar los temas predeterminados que ofrece Quarto para estilizar nuestro sitio, y además incluir opciones adicionales a nuestro YAML.\nProbemos aplicando 2 modificaciones: (1) cambiemos la opción theme en nuestro _quarto.yml a darkly y (2) añadamos la opción background dentro de navbar:\n---\nproject:\n  type: website\n\nwebsite:\n  title: \"pag-ejemplo\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n    background: \"#9b2626\"\n\nformat:\n  html:\n    theme:\n      - darkly\n    css: styles.css\n    toc: true\n---\nSi guardamos estos cambios en nuestro _quarto.yml y volvemos a renderizar index.qmd, se vería algo así:\n\n\n\n\n\n\n\nNota\n\n\n\nPara conocer más opciones de estilización y presentación de contenido: revisar este link"
+    "text": "1.2 Personalización\nComo las páginas web funcionan con salida HTML, podemos utilizar los temas predeterminados que ofrece Quarto para estilizar nuestro sitio, y además incluir opciones adicionales a nuestro YAML.\nProbemos aplicando 2 modificaciones: (1) cambiemos la opción theme en nuestro _quarto.yml a darkly y (2) añadamos la opción background dentro de navbar:\n---\nproject:\n  type: website\n\nwebsite:\n  title: \"pag-ejemplo\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n    background: \"#9b2626\"\n\nformat:\n  html:\n    theme:\n      - darkly\n    css: styles.css\n    toc: true\n---\nSi guardamos estos cambios en nuestro _quarto.yml y volvemos a renderizar index.qmd, se vería algo así:\n\n\n\n\n\n\n\nNota\n\n\n\nPara conocer más opciones de estilización y presentación de contenido: revisar este link",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#documentos-fundamentales",
     "href": "assignment/07-practico.html#documentos-fundamentales",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "1.1 Documentos fundamentales",
-    "text": "1.1 Documentos fundamentales\n\n1.1.1 _quarto.yml\nEs un archivo en formato YAML que opera separado del documento .qmd para asignar todas las opciones generales que queremos que tenga nuestra página. El YAML que viene por defecto se ve así:\n---\nproject:\n  type: website\n\nwebsite:\n  title: \"pag-ejemplo\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n    css: styles.css\n    toc: true\n---\nproject: se especifica el tipo de proyecto. En este caso, website website: se incluyen las opciones que mostrará la página web navbar: es la barra de navegación superior de la página format: contiene el estilo de presentación de la página toc: es la tabla de contenidos\n\n\n\n\n\n\nImportante\n\n\n\nAl renderizar, por defecto se genera una carpeta llamada _site que almacena todos los documentos .html. Para publicación esto a veces genera problemas, por lo que debemos añadir la opción output-dir: docs indentada en project. Ahora la carpeta que almacena los archivos renderizados se llama docs.\n\n\n\n\n1.1.2 index.qmd\nEl archivo index.qmd es una suerte de documento madre de la página, ya que cada vez que rendericemos este .qmd, se renderizarán todos los archivos de la página. Todo lo que esté escrito en él será contenido que se mostrará en el website. Utilicemos este contenido de ejemplo:\n\n---\ntitle: \"Inicio\"\n---\n\n## Sección uno\n\nPárrafo de ejemplo para ver el tema y la tipografía aplicados.\n\n## Sección dos\n\nOtro bloque para verificar que el TOC lateral aparece correctamente.\n\n### Subsección\n\nContenido anidado para probar `toc-depth: 3`.\n\nAl renderizarlo, se debería ver algo así:\n\nComo se ve en la imagen, about.qmd es una subsección dentro de index.qmd. Tal como la ya existente, se pueden generar infinidad de subsecciones dentro de un sitio web con el objetivo de organizar de mejor manera el contenido."
+    "text": "1.1 Documentos fundamentales\n\n1.1.1 _quarto.yml\nEs un archivo en formato YAML que opera separado del documento .qmd para asignar todas las opciones generales que queremos que tenga nuestra página. El YAML que viene por defecto se ve así:\n---\nproject:\n  type: website\n\nwebsite:\n  title: \"pag-ejemplo\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n    css: styles.css\n    toc: true\n---\nproject: se especifica el tipo de proyecto. En este caso, website website: se incluyen las opciones que mostrará la página web navbar: es la barra de navegación superior de la página format: contiene el estilo de presentación de la página toc: es la tabla de contenidos\n\n\n\n\n\n\nImportante\n\n\n\nAl renderizar, por defecto se genera una carpeta llamada _site que almacena todos los documentos .html. Para publicación esto a veces genera problemas, por lo que debemos añadir la opción output-dir: docs indentada en project. Ahora la carpeta que almacena los archivos renderizados se llama docs.\n\n\n\n\n1.1.2 index.qmd\nEl archivo index.qmd es una suerte de documento madre de la página, ya que cada vez que rendericemos este .qmd, se renderizarán todos los archivos de la página. Todo lo que esté escrito en él será contenido que se mostrará en el website. Utilicemos este contenido de ejemplo:\n\n---\ntitle: \"Inicio\"\n---\n\n## Sección uno\n\nPárrafo de ejemplo para ver el tema y la tipografía aplicados.\n\n## Sección dos\n\nOtro bloque para verificar que el TOC lateral aparece correctamente.\n\n### Subsección\n\nContenido anidado para probar `toc-depth: 3`.\n\nAl renderizarlo, se debería ver algo así:\n\nComo se ve en la imagen, about.qmd es una subsección dentro de index.qmd. Tal como la ya existente, se pueden generar infinidad de subsecciones dentro de un sitio web con el objetivo de organizar de mejor manera el contenido.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#deployment-del-sitio-web",
     "href": "assignment/07-practico.html#deployment-del-sitio-web",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "1.3 Deployment del sitio web",
-    "text": "1.3 Deployment del sitio web\n\n1.3.1 GitHub Pages\nPara que nuestro sitio web pueda ser visible en la web podemos utilizar las funcionalidades que nos ofrece GitHub Pages.\nPara ello, primero debemos habilitar GitHub Pages en nuestro repositorio y seleccionar desde dónde queremos publicar nuestra página.\nUna vez esté configurado GitHub Pages en el repositorio de aloja nuestra página, solamente debemos escribir su link a partir del enlace que genera nuestro repositorio + la ubicación del archivo index.html.\n\n\n\n\n\n\nTip\n\n\n\nRevisar práctico de publicación con GitHub Pages: aquí\n\n\n\n\n1.3.2 Netlify\nNetlify es una plataforma profesional de publicación web que admite numerosas funciones avanzadas, como dominios personalizados, autenticación, vistas previas de ramas y reversiones instantáneas que funciona de manera tanto gratuita como pagada.\nEn esta plataforma podemos hacer el deployment de nuestra página web de manera sencilla, volviéndola un poco más accesible en comparación a GitHub Pages debido a los ajustes que permite realizar.\nPrimero debemos entrar a Netlify e ingresar con nuestra cuenta; en caso que no tengan una, tienen que crearla (se puede vincular la cuenta GitHub).\n\nUna vez dentro, tenemos que ir a la sección Projects y clickear en New Project.\n\nAhora seleccionamos Import a Git repository\n\nEligen el repositorio en donde tienen alojada su página web y, al entrar a la pestaña que se ve a continuación, deben elegir el nombre de su proyecto. Este nombre será el que aparecerá en la URL, es decir, el link.\n\nAl igual que con el deployment en GitHub Pages, deben elegir la misma branch y ubicación del archivo que lleve a la página web para que el deploy se logre sin problemas.\n\n\n\n\n\n\nImportante\n\n\n\nNetlify necesita la ubicación de su archivo index.html. En el caso que esté en el directorio raíz no deben ajustar opciones adicionales. En cambio, si su archivo index.html se encuentra en una subcarpeta, deben especificarlo en los Build Settings. Base Directory establece la ruta de la carpeta que contiene el index.html, mientras que Publish Directory debe llevar el nombre de la carpeta donde se encuentra el archivo index.html, que en nuestro caso es docs\n\n\nUna vez que estén segur_s de la ubicación del archivo a renderizar, clickean en el botón del final Deploy 'nombre del repositorio' y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web."
+    "text": "1.3 Deployment del sitio web\n\n1.3.1 GitHub Pages\nPara que nuestro sitio web pueda ser visible en la web podemos utilizar las funcionalidades que nos ofrece GitHub Pages.\nPara ello, primero debemos habilitar GitHub Pages en nuestro repositorio y seleccionar desde dónde queremos publicar nuestra página.\nUna vez esté configurado GitHub Pages en el repositorio de aloja nuestra página, solamente debemos escribir su link a partir del enlace que genera nuestro repositorio + la ubicación del archivo index.html.\n\n\n\n\n\n\nTip\n\n\n\nRevisar práctico de publicación con GitHub Pages: aquí\n\n\n\n\n1.3.2 Netlify\nNetlify es una plataforma profesional de publicación web que admite numerosas funciones avanzadas, como dominios personalizados, autenticación, vistas previas de ramas y reversiones instantáneas que funciona de manera tanto gratuita como pagada.\nEn esta plataforma podemos hacer el deployment de nuestra página web de manera sencilla, volviéndola un poco más accesible en comparación a GitHub Pages debido a los ajustes que permite realizar.\nPrimero debemos entrar a Netlify e ingresar con nuestra cuenta; en caso que no tengan una, tienen que crearla (se puede vincular la cuenta GitHub).\n\nUna vez dentro, tenemos que ir a la sección Projects y clickear en New Project.\n\nAhora seleccionamos Import a Git repository\n\nEligen el repositorio en donde tienen alojada su página web y, al entrar a la pestaña que se ve a continuación, deben elegir el nombre de su proyecto. Este nombre será el que aparecerá en la URL, es decir, el link.\n\nAl igual que con el deployment en GitHub Pages, deben elegir la misma branch y ubicación del archivo que lleve a la página web para que el deploy se logre sin problemas.\n\n\n\n\n\n\nImportante\n\n\n\nNetlify necesita la ubicación de su archivo index.html. En el caso que esté en el directorio raíz no deben ajustar opciones adicionales. En cambio, si su archivo index.html se encuentra en una subcarpeta, deben especificarlo en los Build Settings. Base Directory establece la ruta de la carpeta que contiene el index.html, mientras que Publish Directory debe llevar el nombre de la carpeta donde se encuentra el archivo index.html, que en nuestro caso es docs\n\n\nUna vez que estén segur_s de la ubicación del archivo a renderizar, clickean en el botón del final Deploy 'nombre del repositorio' y se comenzará a ejecutar su lanzamiento a la web. Al finalizar, la página debería entregarles la URL correspondiente de su nuevo sito web.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#documentos-fundamentales-1",
     "href": "assignment/07-practico.html#documentos-fundamentales-1",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "3.1 Documentos fundamentales",
-    "text": "3.1 Documentos fundamentales\nAl igual que en el proyecto del sitio web, Quarto nos entrega por defecto un _quarto.yml y un index.qmd. Sin embargo, existen dos diferencias importantes: La primera es el formato del YAML en un Book Project.\n\nproject:\n  type: book\n\nbook:\n  title: \"book-ejemplo\"\n  author: \"Curso Ciencia Abierta\"\n  date: today\n  chapters:\n    - index.qmd\n    - intro.qmd\n    - summary.qmd\n    - references.qmd\n\nbibliography: references.bib\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n  pdf:\n    documentclass: scrreprt\n\nAl observar el formato llegamos a la segunda diferencia. Un projecto Quarto Book contiene .qmd adicionales, los cuales se agrupan en la opción chapter del YAML. En este marco, index.qmd sigue siendo el documento madre, el cual renderizará todo el book, mientras que los otros archivos.qmd son los capítulos que contendrá el libro.\nSi renderizamos index.qmd se vería algo así:"
+    "text": "3.1 Documentos fundamentales\nAl igual que en el proyecto del sitio web, Quarto nos entrega por defecto un _quarto.yml y un index.qmd. Sin embargo, existen dos diferencias importantes: La primera es el formato del YAML en un Book Project.\n\nproject:\n  type: book\n\nbook:\n  title: \"book-ejemplo\"\n  author: \"Curso Ciencia Abierta\"\n  date: today\n  chapters:\n    - index.qmd\n    - intro.qmd\n    - summary.qmd\n    - references.qmd\n\nbibliography: references.bib\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n  pdf:\n    documentclass: scrreprt\n\nAl observar el formato llegamos a la segunda diferencia. Un projecto Quarto Book contiene .qmd adicionales, los cuales se agrupan en la opción chapter del YAML. En este marco, index.qmd sigue siendo el documento madre, el cual renderizará todo el book, mientras que los otros archivos.qmd son los capítulos que contendrá el libro.\nSi renderizamos index.qmd se vería algo así:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#personalización-1",
     "href": "assignment/07-practico.html#personalización-1",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "3.2 Personalización",
-    "text": "3.2 Personalización\nEn Quarto Book también tenemos la opción de modificar el estilo del documento, pero más allá de los detalles estéticos, su mayor potencial es el alto nivel de organización que nos permite alcanzar mediante la lógica de anidado.\nPodemos crear cuantos archivos .qmd queramos, pero solamente se visualizarán en el Book aquellos que estén especificados dentro del YAML. Por ejemplo, creamos background.qmd, results.qmd y le cambiamos el nombre a summary.qmd por conclusions.qmd. Posterior a esto, reescribimos nuestos capítulos dentro del YAML del Book:\n\nproject:\n  type: book\n\nbook:\n  title: \"book-ejemplo\"\n  author: \"Curso Ciencia Abierta\"\n  date: today\n  chapters:\n    - index.qmd\n    - intro.qmd\n    - background.qmd\n    - results.qmd\n    - conclusions.qmd\n    - references.qmd\n\nbibliography: references.bib\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n  pdf:\n    documentclass: scrreprt\n\nAl renderizarse esto se ve así:\n\nSi bien se integraron todos los capítulos que creamos y/o editamos, sigue apareciendo uno llamado Summary. Esto ocurre porque solamente le cambiamos el nombre al archivo .qmd pero no al título dentro de él. Para que los cambios de los archivos se vean en la salida HTML, en algunas ocasiones también debemos editar el documento .qmd desde dentro."
+    "text": "3.2 Personalización\nEn Quarto Book también tenemos la opción de modificar el estilo del documento, pero más allá de los detalles estéticos, su mayor potencial es el alto nivel de organización que nos permite alcanzar mediante la lógica de anidado.\nPodemos crear cuantos archivos .qmd queramos, pero solamente se visualizarán en el Book aquellos que estén especificados dentro del YAML. Por ejemplo, creamos background.qmd, results.qmd y le cambiamos el nombre a summary.qmd por conclusions.qmd. Posterior a esto, reescribimos nuestos capítulos dentro del YAML del Book:\n\nproject:\n  type: book\n\nbook:\n  title: \"book-ejemplo\"\n  author: \"Curso Ciencia Abierta\"\n  date: today\n  chapters:\n    - index.qmd\n    - intro.qmd\n    - background.qmd\n    - results.qmd\n    - conclusions.qmd\n    - references.qmd\n\nbibliography: references.bib\n\nformat:\n  html:\n    theme:\n      - cosmo\n      - brand\n  pdf:\n    documentclass: scrreprt\n\nAl renderizarse esto se ve así:\n\nSi bien se integraron todos los capítulos que creamos y/o editamos, sigue apareciendo uno llamado Summary. Esto ocurre porque solamente le cambiamos el nombre al archivo .qmd pero no al título dentro de él. Para que los cambios de los archivos se vean en la salida HTML, en algunas ocasiones también debemos editar el documento .qmd desde dentro.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   },
   {
     "objectID": "assignment/07-practico.html#deployment",
     "href": "assignment/07-practico.html#deployment",
     "title": "Práctico 7: Quarto Websites y Quarto Book",
     "section": "3.3 Deployment",
-    "text": "3.3 Deployment\nAl utilizar la salida HTML, un Quarto Book puede ser publicado mediante GitHub Pages así como mediante Netlify. Se deben seguir los mismos pasos que en la sección de deployment anterior."
+    "text": "3.3 Deployment\nAl utilizar la salida HTML, un Quarto Book puede ser publicado mediante GitHub Pages así como mediante Netlify. Se deben seguir los mismos pasos que en la sección de deployment anterior.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "Práctico 7"
+    ]
   }
 ]

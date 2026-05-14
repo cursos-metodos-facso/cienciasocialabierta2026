@@ -100,7 +100,9 @@ website:
             - text: "Práctico 5"
               file: assignment/05-practico.qmd
             - text: "Práctico 6"
-              file: assignment/06-practico.qmd           
+              file: assignment/06-practico.qmd
+            - text: "Práctico 7"
+              file: assignment/07-practico.qmd             
                        
   page-footer:
     left: |
