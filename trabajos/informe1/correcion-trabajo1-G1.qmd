@@ -1,0 +1,336 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 1 |
+| **Integrantes** | Bianca Balmaceda, Joaquín Núñez, Amalia Santa Cruz |
+| **Repositorio** | [Trabajo-1.-Cs.-Social-Abierta](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) |
+| **Artículo seleccionado** | Encuesta CEP N° 95, Septiembre-Octubre 2025 (27 octubre 2025) |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Encuesta de opinión pública sobre preferencias electorales es muy pertinente |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Datos de acceso público en sitio web del CEP |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Excelente selección |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | ✓ Completo | Datos CEP95 disponibles públicamente; grupo confirma acceso |
+| Documentación de fuentes | ✓ Clara | Enlace directo al sitio web oficial del CEP |
+| Facilidad para obtener datos | ✓ Fácil | Descarga directa desde página web oficial |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** El grupo accede correctamente a los datos y los incluye en su carpeta `/Entrada/cep95.rds`. Muy bien identificada la fuente primaria.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | ✗ No disponible | El reporte CEP no proporciona código del análisis |
+| Forma de documentar | ✓ Citan claramente | Mencionan explícitamente "El reporte no proporciona acceso al código utilizado" |
+| Impacto en reproducibilidad | ✓ Identificado | Grupo lo menciona como limitación principal en conclusiones |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** Aunque el reporte original no libera el código, el grupo comenta este punto de forma explícita, clara y crítica, y además explica su efecto sobre la reproducibilidad. Bajo el criterio de corrección centrado en la discusión del aspecto evaluado, corresponde puntaje completo.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | Adecuada | Información sobre población, diseño muestral, tasa de respuesta |
+| Detalle suficiente para replicar | ✓ Parcial | Hay suficiente para aproximación, pero no para exactitud |
+| Especificidad de procedimientos | Moderada | Disponible cuestionario, diccionario, manual, pero falta detalle en procesamiento |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** El grupo comenta de manera fundada la calidad de la documentación metodológica, distinguiendo entre información general disponible y faltas de detalle para replicación exacta. La reflexión está presente y bien argumentada.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | ✗ No mencionado | CEP no declara en el reporte |
+| Financiamiento | ✓ Parcial | CEP tiene información en su sitio web (que el grupo investigó) |
+| Otros aspectos de transparencia | ✓ Parcial | Rastreable pero no en el reporte principal |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** El grupo aborda explícitamente transparencia, conflictos de interés y financiamiento, y complementa con búsqueda en fuentes institucionales. Dado que el criterio prioriza comentar críticamente el aspecto, corresponde puntaje completo.
+
+---
+
+**Subtotal sección 2:** 0.50 + 0.50 + 0.50 + 0.50 = **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | Pregunta exacta y variable identificada: "elec_pres_urna_30" |
+| Justificación de selección | ✓ Clara | Incluyen imagen del resultado original |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** Excelente identificación. El grupo cita literalmente la pregunta, muestra la figura original, y especifica la variable exacta. No hay ambigüedad.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | ✓ Muy clara | Proceso en 3 etapas bien explicadas |
+| Registro de decisiones tomadas | ✓ Completo | Decisiones de recodificación justificadas (ej: agrupar Nulo+Blanco) |
+| Documentación de dificultades | ✓ Exhaustiva | Explican cómo identificaron el ponderador "pond" |
+| Cómo se resolvieron problemas | ✓ Bien explicado | "se inició con una revisión del diccionario de variables" |
+
+**Puntaje 3.2:** 1.00 / 1.00
+
+**Comentarios:** Documentación excepcional del proceso de reproducción. El grupo explica:
+- Revisión del diccionario de variables
+- Búsqueda e identificación del factor de expansión
+- Decisión de diseño de encuesta mediante librería `srvyr`
+- Recodificación con justificación explícita
+
+Todo queda transparente y reproducible. Este es un ejemplo muy bueno de documentación de pasos.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | Gráfico de barras claro con porcentajes etiquetados |
+| Comparación con original | ✓ Completa | Reportan discrepancia en "No vota": 8% vs 9% |
+| Verificabilidad de conclusiones | ✓ Alta | Se puede revisar el código y ver exactamente qué hicieron |
+| Uso de figuras/tablas | ✓ Efectivo | Gráfico bien diseñado con título y fuente clara |
+| Reproducibilidad del código | ✓ Sí | El código del informe fue ejecutado y completó sin errores |
+| Render correcto del `.qmd` | ✓ Sí | `Trabajo-1.qmd` renderizó correctamente a HTML |
+
+**Puntaje 3.3:** 1.00 / 1.00
+
+**Comentarios:** Excelente presentación de resultados. El gráfico es profesional, los porcentajes están etiquetados, hay comparación explícita con el original, y el código R es completamente verificable. Además, el archivo `Trabajo-1.qmd` fue ejecutado y renderizado correctamente en el entorno de revisión, lo que refuerza que el análisis es efectivamente reproducible. La discrepancia se reporta honestamente sin minimizarla.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | "la falta de documentación detallada y el código impide la reproducción exacta" |
+| Explicación de causas | ✓ Completa | Identifica causa: esquema de ponderación no documentado |
+| Propuestas de solución | ✓ Sí | Recomendación de liberar código y detallar ponderadores |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Excelente análisis de limites. El grupo reconoce que no logró reproducción exacta (8% vs 9% en "No vota") y explica correctamente las causas: ausencia de pesos exactos y código. Esta honestidad es una fortaleza importante del trabajo.
+
+---
+
+**Subtotal sección 3:** 0.50 + 1.00 + 1.00 + 0.50 = **3.00 / 3.00**  
+**Reproducibilidad lograda:** Parcial (muy aproximada, pero no exacta en todos los puntos)
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | Conclusión respaldada por análisis de discrepancia |
+| Distinción fortalezas/debilidades | ✓ Clara | Abren bien: "nivel de reproducibilidad... es alto, aunque con ciertas limitaciones" |
+| Evita afirmaciones no respaldadas | ✓ Sí | Todo está basado en el trabajo realizado |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Conclusión equilibrada y bien argumentada. El grupo sintetiza adecuadamente los hallazgos principales: datos accesibles, pero falta de código = reproducción es posible pero no exacta.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | 4 recomendaciones específicas |
+| Vinculación a problemas detectados | ✓ Clara | Cada una responde a limitaciones identificadas |
+| Priorización adecuada | ✓ Sí | Ponen publicación de código en primer lugar |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Muy buenas tres las recomendaciones principales:
+1. Publicar código en repositorio (GitHub)
+2. Documentar decisiones metodológicas claramente
+3. Incluir archivo de sintaxis como ejemplo
+4. Mayor transparencia sobre conflictos de interés
+
+Todas son propuestas concretas, factibles e impactantes para mejorar la reproducibilidad.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Adecuada con errores puntuales | Repetición de "resultado": "El resultado específico... es el resultado..." |
+| Organización IPO | ✓ Completa | Entrada: `cep95.rds` / Proceso: `Trabajo-1.qmd` / Salida: gráfico |
+| HTML original incluido en el repo | ✓ Sí | El repositorio incluye `Proceso/Trabajo-1.html` como salida original |
+| Uso de plantilla sugerida | ✗ No | No se utilizó la plantilla entregada como base |
+| `index.qmd` en raíz del repositorio | ✗ No | Ausencia de `index.qmd` impide generar GitHub Pages correctamente |
+| Bibliografía con archivo `.bib` | ✗ No | Referencias escritas manualmente en texto plano, sin archivo `.bib` |
+| Citas en texto con clave Bibtex | ✗ No | No se usan citas en texto tipo `@cep2025`; referencias solo al final |
+| Renderizado HTML sin errores | ✓ Correcto | HTML genera sin problemas, figuras y código se visualizan bien |
+
+**Puntaje 6:** 0.25 / 0.50
+
+**Comentarios:** La redacción es en general clara, pero presenta errores puntuales: por ejemplo, "El resultado específico del reporte que se reproducirá es el resultado..." repite la palabra "resultado" innecesariamente. El repositorio sí incluye un HTML original (`Proceso/Trabajo-1.html`), lo que es positivo como evidencia de salida entregada. Sin embargo, el grupo no utilizó la plantilla sugerida ni incluye `index.qmd` en la raíz, lo que dificulta la publicación correcta mediante GitHub Pages. La bibliografía está escrita en texto plano al final del documento, sin archivo `.bib` ni citas en texto con clave BibTeX, práctica trabajada en clases y útil para una gestión reproducible de referencias.
+
+---
+
+## Resumen de Evaluación
+
+### Puntajes por Sección
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 3.00 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.25 | 0.50 |
+| **TOTAL** | **6.75** | **7.00** |
+
+**Nota:** En esta corrección, la sección 2 se evalúa por la calidad del comentario crítico sobre cada criterio (datos, código, documentación y transparencia), incluso cuando el insumo original no cumple plenamente en disponibilidad.
+
+---
+
+## Fortalezas principales
+
+1. **Documentación exhaustiva del proceso de reproducción:** El grupo explica cada paso de manera clara, desde la identificación de variables hasta la ponderación. Esto es ejemplar.
+
+2. **Análisis reproducible de calidad excepcional:** El código está limpio, bien comentado y completamente verificable. El gráfico es profesional.
+
+3. **Honestidad analítica:** El grupo reporta honestamente la discrepancia (8% vs 9% en "No vota") y explica correctamente por qué ocurre, en lugar de ocultar o minimizar la diferencia.
+
+4. **Estructura IPO bien implementada:** El repositorio tiene organización clara con carpetas de Entrada, Proceso y Salida.
+
+5. **Conclusiones y recomendaciones bien fundamentadas:** Cada recomendación responde directamente a limitaciones identificadas.
+
+---
+
+## Áreas de mejora
+
+1. **Profundizar evidencia comparativa en la sección 2:** El grupo comenta muy bien cada criterio, pero podría reforzar aún más la evaluación incorporando citas textuales o capturas puntuales del reporte original para sostener cada observación.
+
+2. **Extensión:** El trabajo es relativamente breve (~3 páginas sin código). Aunque está bien escrito, podría beneficiarse de:
+   - Más detalles sobre alternativas que probaron
+   - Discusión más profunda sobre diseño de encuestas complejas
+   - Análisis más extenso de por qué ocurre la discrepancia
+
+3. **Información de reproducibilidad para el lector:** Aunque el código está disponible, el grupo podría haber incluido:
+   - Instrucciones claras para ejecutar el análisis
+   - Versiones de paquetes utilizados
+   - Sistemas operativos probados
+
+---
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Este es un trabajo de muy buena calidad. El grupo demuestra comprensión clara de los conceptos de reproducibilidad, implementa correctamente el análisis de datos con R, y documenta el proceso de manera ejemplar. La sección de análisis reproducible merece especial reconocimiento por su claridad y verificabilidad.
+
+La evaluación del reporte CEP original fue honesta y rigurosa. Aunque el reporte tiene limitaciones (código no disponible, documentación metodológica incompleta), el grupo identificó correctamente estas limitaciones y fue capaz de reproducir el resultado de manera aproximada.
+
+### Retroalimentación por Sección
+
+**Sección 1 - Selección del artículo (0.50/0.50):** ✓ Excelente
+- La encuesta CEP es una excelente selección: pertinente para ciencias sociales, datos públicos, análisis relativamente accesible pero con suficiente complejidad (diseño muestral, ponderación).
+
+**Sección 2 - Evaluación de reproducibilidad (0.50/2.00):** Básico
+- Hicieron un buen trabajo evaluando el reporte, pero el reporte mismo tiene limitaciones:
+  - **Lo que estuvo bien:** Identificaron correctamente qué está disponible (datos, cuestionario, diccionario)
+  - **Limitaciones del reporte:** Falta código y documentación detallada del procesamiento
+  - El grupo fue honesto al reportar esto
+- *Sugerencia:* En futuras evaluaciones, podrían investigar si los autores originales tienen código no publicado y contactarlos
+
+**Sección 3 - Análisis reproducible (3.00/3.00):** ✓ Excelente
+- Este es el punto fuerte del trabajo
+- La documentación de pasos es clear y verificable
+- La identificación del ponderador "pond" muestra pensamiento analítico
+- La decisión de recodificar Nulo+Blanco está bien justificada
+- Reportan honestamente la discrepancia sin minimizarla
+- El código se pudo ejecutar y el `.qmd` renderizó correctamente
+
+**Sección 4 - Conclusiones (0.50/0.50):** ✓ Excelente
+- Conclusión equilibrada que sintetiza bien los hallazgos
+- Distinguen claramente entre fortalezas (datos accesibles) y debilidades (código no disponible)
+
+**Sección 5 - Recomendaciones (0.50/0.50):** ✓ Excelente
+- Las 4 recomendaciones son concretas y factibles
+- Están bien priorizadas: código primero, documentación segundo
+- Cada una responde directamente a un problema identificado
+
+**Sección 6 - Formato (0.25/0.50):** Básico
+- Repositorio bien organizado con estructura IPO clara
+- Código limpio y comentado
+- Redacción clara
+- El repositorio sí incluye HTML original del informe
+- HTML renderiza sin problemas
+- **Pendiente:** No se utilizó la plantilla sugerida como base del reporte
+- **Pendiente:** Ausencia de `index.qmd` en la raíz del repositorio impide publicar correctamente en GitHub Pages
+
+### Recomendaciones de Mejora (Opcionales, para futuros trabajos)
+
+1. **Ampliar investigación de dificultades:** Ustedes identificaron que el ponderador no estaba documentado. ¿Podrían haber contactado al CEP directamente? En algunos casos, los investigadores están dispuestos a compartir detalles si se les pregunta.
+
+2. **Análisis más profundo de la discrepancia:** La diferencia de 1 punto porcentual en "No vota" (8% vs 9%) es pequeña pero interesante. ¿Qué pasaría si probaran diferentes esquemas de ponderación? ¿Podrían acercarse más al 9%?
+
+3. **Documentación para reproducibilidad:** Para que otros pudieran ejecutar su análisis:
+   - Versiones específicas de paquetes (ej: `srvyr >= 1.0`)
+   - Sistema operativo donde lo probaron
+   - Versión de R utilizada
+
+4. **Visualización de datos adicionales:** Un gráfico de comparación lado a lado (original vs reproducido) sería útil para visualizar la similitud.
+
+---
+
+## Evaluación Final
+
+**Puntaje Total: 6.75 / 7.00**
+
+**Recomendación:** MUY BUENO. Este es un trabajo sólido que demuestra comprensión clara de reproducibilidad. Las limitaciones reflejan restricciones del reporte original, no deficiencias del grupo. El análisis reproducible es de calidad excepcional.

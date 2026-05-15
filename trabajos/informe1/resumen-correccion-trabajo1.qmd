@@ -1,0 +1,24 @@
+---
+title: "Resumen Maestro de Correcciones"
+subtitle: "Trabajo 1 - Reporte de Reproducibilidad"
+lang: es
+format:
+  html:
+    toc: false
+    embed-resources: true
+---
+
+## Tabla Resumen
+
+| Grupo | Repositorio | GitHub Page | Corrección renderizada | Nota |
+|---|---|---|---|---:|
+| Grupo 1 | [Trabajo-1.-Cs.-Social-Abierta](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) | No disponible (404) | [Corrección G1](../../docs/trabajos/informe1/correcion-trabajo1-G1.html) | 6.75 |
+| Grupo 2 | [Murua_Outerbridge](https://github.com/x0czz/Murua_Outerbridge) | [GitHub Page G2](https://x0czz.github.io/Murua_Outerbridge/) | [Corrección G2](../../docs/trabajos/informe1/correcion-trabajo1-G2.html) | 6.75 |
+| Grupo 3 | [ej-repro-grupo3](https://github.com/josefinabd/ej-repro-grupo3) | No disponible (404) | [Corrección G3](../../docs/trabajos/informe1/correcion-trabajo1-G3.html) | 7.00 |
+| Grupo 4 | [CSA-Trabajo1](https://github.com/pipoowo/CSA-Trabajo1) | [GitHub Page G4](https://pipoowo.github.io/CSA-Trabajo1/) | [Corrección G4](../../docs/trabajos/informe1/correcion-trabajo1-G4.html) | 7.00 |
+| Grupo 5 | [cienciasocialabierta-repro-grupo5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) | [GitHub Page G5](https://sheymn.github.io/cienciasocialabierta-repro-grupo5/) | [Corrección G5](../../docs/trabajos/informe1/correcion-trabajo1-G5.html) | 6.25 |
+
+## Notas
+
+- Las notas corresponden a la suma directa sobre 7.00 puntos.
+- En GitHub Page se consigna No disponible cuando la URL esperada devolvió 404 al momento de la verificación.

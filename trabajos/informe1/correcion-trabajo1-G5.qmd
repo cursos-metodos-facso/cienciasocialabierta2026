@@ -1,0 +1,253 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 5 |
+| **Integrantes** | Amaranta González, Amanda Rojo, Elena Yáñez |
+| **Repositorio** | [cienciasocialabierta-repro-grupo5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) |
+| **GitHub Pages** | [sheymn.github.io/cienciasocialabierta-repro-grupo5](https://sheymn.github.io/cienciasocialabierta-repro-grupo5/) |
+| **Artículo seleccionado** | Melli y Azzollini (2025), percepciones de desigualdad social |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema sociológico relevante sobre desigualdad y estratificación |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Datos ISSP y artículo accesibles |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Selección pertinente |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | ✓ Completo | Identifican correctamente acceso vía GESIS |
+| Documentación de fuentes | ✓ Clara | Describen fuente y años utilizados |
+| Facilidad para obtener datos | ✓ Fácil | Señalan que el acceso fue sin mayores dificultades |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** La evaluación de disponibilidad de datos es clara y suficiente.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | No disponible | El artículo no entrega código |
+| Forma de acceso | Contacto | Señalan que contactaron a autores sin respuesta |
+| Utilidad del código | No disponible | Debieron trabajar sin scripts originales |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** El grupo comenta bien la ausencia del código y además muestra una acción pertinente: intentar contacto con autores. Eso fortalece la evaluación crítica.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | Parcial | El artículo describe modelos, pero no operacionalización suficiente |
+| Detalle suficiente para replicar | No | Faltan variables exactas, recodificaciones y criterios de exclusión |
+| Especificidad de procedimientos | Baja | El grupo identifica estas brechas de forma explícita |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** Buen juicio metodológico. El grupo detecta con claridad que el problema central no es el acceso a datos, sino la falta de detalle sobre variables y recodificaciones.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | ✓ Declarado | El artículo señala no tener conflictos |
+| Financiamiento | ✓ Claro | Se consigna financiamiento institucional |
+| Otros aspectos de transparencia | ✓ Completos | Comentan estándares editoriales de la revista |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** Sección bien resuelta y suficientemente comentada.
+
+---
+
+**Subtotal sección 2:** **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | La figura a reproducir está bien delimitada |
+| Justificación de selección | ✓ Clara | Explican el contenido de los dos paneles |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** El resultado a reproducir queda claramente definido.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | Adecuada | Hay explicación general, pero relativamente breve |
+| Registro de decisiones tomadas | Parcial | Se describen algunas recodificaciones, pero faltan más justificaciones |
+| Documentación de dificultades | Parcial | Las limitaciones aparecen, aunque no siempre se desarrollan en detalle |
+| Cómo se resolvieron problemas | Parcial | Parte del proceso se delega a archivos auxiliares sin integrarlo del todo al informe |
+
+**Puntaje 3.2:** 0.50 / 1.00
+
+**Comentarios:** El grupo sí presenta el proceso, pero esta sección queda más débil que en otros trabajos porque buena parte de la lógica analítica no se explica con suficiente detalle dentro del informe principal.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | El gráfico reproducido queda incorporado en el informe |
+| Comparación con original | ✓ Completa | En conclusiones discuten que la figura no coincide exactamente |
+| Verificabilidad de conclusiones | ✓ Alta | El código puede ejecutarse y contrastarse con la imagen original |
+| Uso de figuras/tablas | ✓ Efectivo | La reproducción se visualiza correctamente |
+| Reproducibilidad del código | ✓ Sí | El informe ejecutó correctamente |
+| Render correcto del `.qmd` | ✓ Sí | `index.qmd` renderizó correctamente |
+
+**Puntaje 3.3:** 1.00 / 1.00
+
+**Comentarios:** Aunque la reproducción no coincide exactamente con el original, el grupo sí entrega una salida verificable y técnicamente ejecutable.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | Identifican ausencia de código y especificación de variables |
+| Explicación de causas | ✓ Completa | Relacionan diferencias con categorización y tratamiento analítico |
+| Propuestas de solución | ✓ Sí | Las recomendaciones responden a estas limitaciones |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Esta parte está bien lograda y permite entender por qué la reproducción solo fue parcial.
+
+---
+
+**Subtotal sección 3:** **2.50 / 3.00**
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | Las conclusiones son consistentes con la reproducción parcial |
+| Distinción fortalezas/debilidades | ✓ Clara | Distinguen datos accesibles vs falta de detalle analítico |
+| Evita afirmaciones no respaldadas | ✓ Sí | El cierre es razonable y prudente |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Buen cierre, consistente con el desarrollo del informe.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | Publicar código y documentar variables |
+| Vinculación a problemas detectados | ✓ Clara | Responden directamente a las brechas observadas |
+| Priorización adecuada | ✓ Sí | Recomendaciones simples y pertinentes |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Recomendaciones adecuadas y bien enfocadas.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Errores menores a importantes | Hay varios problemas visibles: `E la rtículo`, `El cuál`, `sociologos`, entre otros |
+| Organización IPO | ✓ Completa | La estructura general del repositorio está bien organizada |
+| HTML original incluido en el repo | ✓ Sí | Incluye `index.html` |
+| Uso de plantilla sugerida | ✓ Sí | Sigue la estructura base del curso |
+| `index.qmd` en raíz del repositorio | ✓ Sí | Presente |
+| Bibliografía con archivo `.bib` | ✓ Sí | Usa `input/bib/cienciasocialabierta-repro-grupo5.bib` |
+| Citas en texto con clave BibTeX | ✓ Sí | Hay citas en texto con claves bibliográficas |
+| Renderizado HTML sin errores | ✓ Correcto | Renderizó correctamente en revisión |
+
+**Puntaje 6:** 0.25 / 0.50
+
+**Comentarios:** El trabajo cumple bien en estructura técnica y bibliografía reproducible, pero la redacción necesita una revisión más cuidadosa. También aparece un carácter sobrante (`}x`) en el bloque CSS del encabezado.
+
+---
+
+## Resumen de Evaluación
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 2.50 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.25 | 0.50 |
+| **TOTAL** | **6.25** | **7.00** |
+
+## Fortalezas principales
+
+1. Buena identificación de las limitaciones metodológicas del artículo original.
+2. El informe renderiza y entrega una reproducción técnicamente verificable.
+3. Buena estructura del repositorio y uso correcto de `.bib` y citas.
+
+## Áreas de mejora
+
+1. Desarrollar más la explicación del proceso de reproducción dentro del informe principal.
+2. Mejorar redacción, ortografía y revisión final del texto.
+3. Explicar con mayor detalle por qué se eligieron determinadas recodificaciones en el gráfico reproducido.
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Es un trabajo correcto y bien encaminado, especialmente en la identificación de los límites de reproducibilidad del artículo original. La principal debilidad no está en la estructura técnica del repositorio, sino en la brevedad con que se documenta el proceso y en varios problemas de redacción del texto final.
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:** bien comentada. El grupo identifica con claridad las brechas documentales del artículo.
+
+**Sección de Análisis Reproducible:** cumple, pero podría estar mejor explicada dentro del informe mismo. Parte importante del trabajo queda remitida a archivos auxiliares.
+
+**Recomendaciones de Mejora:** revisar con más cuidado la escritura final y ampliar la explicación metodológica del proceso de reproducción.
+
+## Evaluación Final
+
+**Puntaje Total: 6.25 / 7.00**
+
+**Recomendación:** Buen trabajo, con diagnóstico correcto de los problemas de reproducibilidad del artículo. La mejora más clara está en fortalecer la documentación del proceso y la revisión formal del texto.

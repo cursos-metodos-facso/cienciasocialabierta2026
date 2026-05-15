@@ -61,20 +61,20 @@ La pauta para realizar esta revisión está disponible en:
 
 ## Grupos y repositorios de entrega
 
-En la siguiente tabla se indican los grupos asignados para el Trabajo 1 y sus respectivos repositorios de entrega en GitHub.
+En la siguiente tabla se indican los grupos asignados para el Trabajo 1, sus respectivos repositorios de entrega en GitHub y, cuando corresponde, el enlace a GitHub Pages.
 
-| Grupo | Repositorio de entrega | Integrantes |
-|------------------------|------------------------|------------------------|
-| Grupo 1 | [Repositorio Grupo 1](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) | \- Bianca Balmaceda<br>- Joaquín Núñez<br>- Amalia Santa |
-| Grupo 2 | [Repositorio Grupo 2](https://github.com/x0czz/Murua_Outerbridge) | \- Nicolás Outerbridge<br>- Vicente Rojas |
-| Grupo 3 | [Repositorio Grupo 3](https://github.com/josefinabd/ej-repro-grupo3) | \- Josefina Bustos<br>- Benjamín Casacuberta |
-| Grupo 4 | [Repositorio Grupo 4](https://github.com/pipoowo/CSA-Trabajo1) | \- Elisa Calderón<br>- Valentina Montecinos<br>- Amalia Tsukame<br>- Felipe Vega |
-| Grupo 5 | [Repositorio Grupo 5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) | \- Amaranta González<br>- Amanda Rojo<br>- Elena Yáñez |
-| Grupo 6 | [Repositorio Grupo 6](https://github.com/renatodeluca/ej-repro-grupo-6) | \- Benjamín Belmar<br>- Renato De Luca<br>- Maite Julian<br>- Bastián Martín |
-| Grupo 7 | [Repositorio Grupo 7](https://github.com/Sebagarz/proyecto-casen-grupo7) | \- Juan Gutiérrez<br>- Eduardo Ortiz<br>- Catalina Parra |
-| Grupo 8 | [Repositorio Grupo 8](https://github.com/ElSenorDeLasMoscas/ciencia-abierta) | \- Cristóbal Merchan |
-| Grupo 9 | [Repositorio Grupo 9](https://github.com/Fran1129/Trabajo-1) | \- Violeta Mansilla<br>- Francisca Osorio<br>- Martina Soto |
-| Grupo 10 | [Repositorio Grupo 10](https://github.com/dariobriceno-uch/Reporte1_cienciasocialabierta) | \- Darío Briceño |
+| Grupo | Repositorio de entrega | GitHub Pages | Integrantes |
+|------------------------|------------------------|------------------------|------------------------|
+| Grupo 1 | [Repositorio Grupo 1](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) | - | \- Bianca Balmaceda<br>- Joaquín Núñez<br>- Amalia Santa |
+| Grupo 2 | [Repositorio Grupo 2](https://github.com/x0czz/Murua_Outerbridge) | [GitHub Pages Grupo 2](https://x0czz.github.io/Murua_Outerbridge/) | \- Nicolás Outerbridge<br>- Vicente Rojas |
+| Grupo 3 | [Repositorio Grupo 3](https://github.com/josefinabd/ej-repro-grupo3) | - | \- Josefina Bustos<br>- Benjamín Casacuberta |
+| Grupo 4 | [Repositorio Grupo 4](https://github.com/pipoowo/CSA-Trabajo1) | [GitHub Pages Grupo 4](https://pipoowo.github.io/CSA-Trabajo1/) | \- Elisa Calderón<br>- Valentina Montecinos<br>- Amalia Tsukame<br>- Felipe Vega |
+| Grupo 5 | [Repositorio Grupo 5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) | [GitHub Pages Grupo 5](https://sheymn.github.io/cienciasocialabierta-repro-grupo5/) | \- Amaranta González<br>- Amanda Rojo<br>- Elena Yáñez |
+| Grupo 6 | [Repositorio Grupo 6](https://github.com/renatodeluca/ej-repro-grupo-6) | [GitHub Pages Grupo 6](https://renatodeluca.github.io/ej-repro-grupo-6/) | \- Benjamín Belmar<br>- Renato De Luca<br>- Maite Julian<br>- Bastián Martín |
+| Grupo 7 | [Repositorio Grupo 7](https://github.com/Sebagarz/proyecto-casen-grupo7) | - | \- Juan Gutiérrez<br>- Eduardo Ortiz<br>- Catalina Parra |
+| Grupo 8 | [Repositorio Grupo 8](https://github.com/ElSenorDeLasMoscas/ciencia-abierta) | - | \- Cristóbal Merchan |
+| Grupo 9 | [Repositorio Grupo 9](https://github.com/Fran1129/Trabajo-1) | [GitHub Pages Grupo 9](https://fran1129.github.io/Trabajo-1/) | \- Violeta Mansilla<br>- Francisca Osorio<br>- Martina Soto |
+| Grupo 10 | [Repositorio Grupo 10](https://github.com/dariobriceno-uch/Reporte1_cienciasocialabierta) | - | \- Darío Briceño |
 
 ## Artículos / reportes sugeridos
 
@@ -98,7 +98,30 @@ En general, para este trabajo conviene privilegiar artículos o reportes que cum
 
 El objetivo de este trabajo es que los estudiantes apliquen los conceptos de ciencia abierta a un tema de su interés dentro del ámbito de las ciencias sociales. Para esto, deberán seleccionar un tema específico y desarrollar un reporte abierto siguiendo las pautas que se detallan a continuación. También pueden tomar algún trabajo realizado en el marco de alguna otra asignatura, siempre que se adapte a las pautas de este trabajo.
 
-## Pauta para el reporte (por definir)
+
+## Pauta para el reporte
+
+1. Introducción: Resumir el problema de investigación, el contexto teórico mínimo, la estrategia empírica, los resultados y una breve discusión sobre los alcances y límites del proyecto abierto.
+
+2.  Tema y motivación: Elegir un tema de interés del grupo dentro de las ciencias sociales. Puede ser un proyecto nuevo o una continuación/adaptación de un trabajo realizado o avanzado en otra asignatura, siempre que se reformule como un proyecto de investigación abierto.
+   
+3.  Preguntas e hipótesis: Definir al menos dos hipótesis de investigación claramente formuladas. Estas hipótesis deben ser pre-registradas antes de realizar el análisis principal.
+
+4.  Datos abiertos: Utilizar datos abiertos o públicamente accesibles. Si los datos provienen de una fuente secundaria, explicar con precisión el origen, la licencia o condiciones de acceso, y el procedimiento para obtenerlos.
+
+5.  Protocolo de investigación: Describir el diseño del estudio, las variables, los criterios de selección/filtrado, y el flujo completo de análisis en un protocolo reproducible siguiendo la estructura IPO (entrada, proceso y salida), o un esquema equivalente que permita reconstruir el trabajo.
+
+6.  Prácticas de ciencia abierta: Registrar el proyecto en OSF y documentar allí, al menos, el protocolo, las hipótesis pre-registradas y los materiales relevantes del proyecto.
+
+7.  Preprint: Elaborar un preprint del trabajo final y dejar disponible una versión pública del manuscrito antes o al momento de la entrega.
+
+8.  Implementación reproducible: Desarrollar el reporte final como un Quarto Book desplegado en un repositorio público, con instrucciones claras para reproducir el análisis y regenerar los resultados.
+
+
+
+
+
+
 
 # Foro
 

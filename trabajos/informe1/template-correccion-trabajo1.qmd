@@ -1,0 +1,239 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | [Completar: número del grupo] |
+| **Integrantes** | [Completar: nombres de integrantes] |
+| **Repositorio** | [Completar: URL del repositorio] |
+| **Artículo seleccionado** | [Completar: referencia del artículo] |
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | [ ] Sí [ ] No [ ] Parcial | __ / 0.25 | |
+| Accesibilidad (abierto o disponible) | [ ] Sí [ ] No [ ] Parcial | __ / 0.25 | |
+| **Subtotal sección 1** | | **__ / 0.50** | |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+En esta sección, el puntaje se asigna por la calidad del comentario crítico del grupo sobre cada criterio, aunque el artículo/reporte original no cumpla plenamente en disponibilidad.
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | [ ] Completo [ ] Parcial [ ] No disponible | |
+| Documentación de fuentes | [ ] Clara [ ] Confusa [ ] Ausente | |
+| Facilidad para obtener datos | [ ] Fácil [ ] Complicado [ ] Imposible | |
+
+**Puntaje 2.1:** __ / 0.50
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | [ ] Compartido [ ] Parcial [ ] No disponible | |
+| Forma de acceso | [ ] Repositorio [ ] Suplementario [ ] Contacto | |
+| Utilidad del código | [ ] Funcional [ ] Parcial [ ] Incompleto | |
+
+**Puntaje 2.2:** __ / 0.50
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | [ ] Muy clara [ ] Adecuada [ ] Confusa | |
+| Detalle suficiente para replicar | [ ] Sí [ ] Parcial [ ] No | |
+| Especificidad de procedimientos | [ ] Alta [ ] Moderada [ ] Baja | |
+
+**Puntaje 2.3:** __ / 0.50
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | [ ] Declarado [ ] No mencionado | |
+| Financiamiento | [ ] Claro [ ] Confuso [ ] Ausente | |
+| Otros aspectos de transparencia | [ ] Completos [ ] Parciales [ ] Faltantes | |
+
+**Puntaje 2.4:** __ / 0.50
+
+---
+
+**Subtotal sección 2:** __ / 2.00
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+Si el archivo original no renderiza correctamente, se debe:
+
+1. Registrar el error o mensaje de renderizado en la corrección.
+2. Evaluar el impacto de ese error sobre la reproducibilidad del análisis.
+3. Crear un archivo corregido separado, por ejemplo `trabajo1-corregido.qmd`.
+4. Dejar claramente destacadas en ese archivo las correcciones realizadas.
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | [ ] Muy precisa [ ] Adecuada [ ] Vaga | |
+| Justificación de selección | [ ] Clara [ ] Implícita [ ] Ausente | |
+
+**Puntaje 3.1:** __ / 0.50
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | [ ] Muy clara [ ] Adecuada [ ] Confusa | |
+| Registro de decisiones tomadas | [ ] Completo [ ] Parcial [ ] Ausente | |
+| Documentación de dificultades | [ ] Exhaustiva [ ] Parcial [ ] Mínima | |
+| Cómo se resolvieron problemas | [ ] Bien explicado [ ] Parcial [ ] No mencionado | |
+
+**Puntaje 3.2:** __ / 1.00
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | [ ] Sí [ ] Parcial [ ] No | |
+| Comparación con orignal | [ ] Completa [ ] Parcial [ ] Ausente | |
+| Verificabilidad de conclusiones | [ ] Alta [ ] Moderada [ ] Baja | |
+| Uso de figuras/tablas | [ ] Efectivo [ ] Adecuado [ ] Confuso | |
+| Reproducibilidad del código | [ ] Sí [ ] Parcial [ ] No | |
+| Render correcto del `.qmd` | [ ] Sí [ ] Parcial [ ] No | |
+
+**Puntaje 3.3:** __ / 1.00
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | [ ] Clara [ ] Parcial [ ] Ausente | |
+| Explicación de causas | [ ] Completa [ ] Parcial [ ] Ausente | |
+| Propuestas de solución | [ ] Sí [ ] Parcial [ ] No | |
+
+**Puntaje 3.4:** __ / 0.50
+
+---
+
+**Subtotal sección 3:** __ / 3.00  
+**Reproducibilidad lograda:** [ ] Completa [ ] Parcial [ ] Incompleta
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | [ ] Alta [ ] Moderada [ ] Baja | |
+| Distinción fortalezas/debilidades | [ ] Clara [ ] Parcial [ ] Ausente | |
+| Evita afirmaciones no respaldadas | [ ] Sí [ ] Parcial [ ] No | |
+
+**Puntaje 4:** __ / 0.50
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | [ ] Sí [ ] Parcial [ ] No | |
+| Vinculación a problemas detectados | [ ] Clara [ ] Parcial [ ] Débil | |
+| Priorización adecuada | [ ] Sí [ ] Parcial [ ] No | |
+
+**Puntaje 5:** __ / 0.50
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | [ ] Sin errores [ ] Errores menores [ ] Errores importantes | |
+| Organización IPO | [ ] Completa [ ] Parcial [ ] Ausente | |
+| HTML original incluido en el repo | [ ] Sí [ ] No | |
+| Uso de plantilla sugerida | [ ] Sí [ ] No | |
+| `index.qmd` en raíz del repositorio | [ ] Sí [ ] No | |
+| Bibliografía con archivo `.bib` | [ ] Sí [ ] No | |
+| Citas en texto con clave BibTeX | [ ] Sí [ ] No [ ] Parcial | |
+| Renderizado HTML sin errores | [ ] Correcto [ ] Menor problema [ ] Errores | |
+
+**Puntaje 6:** __ / 0.50
+
+---
+
+## Resumen de Evaluación
+
+### Puntajes por Sección
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | __ | 0.50 |
+| 2. Evaluación de reproducibilidad | __ | 2.00 |
+| 3. Análisis reproducible | __ | 3.00 |
+| 4. Conclusiones | __ | 0.50 |
+| 5. Recomendaciones | __ | 0.50 |
+| 6. Formato del reporte | __ | 0.50 |
+| **TOTAL** | **__** | **7.00** |
+
+### Evaluación General
+
+**Fortalezas principales:**
+- [Completar]
+- [Completar]
+- [Completar]
+
+**Áreas de mejora:**
+- [Completar]
+- [Completar]
+- [Completar]
+
+---
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+[Espacio para comentarios generales sobre el trabajo]
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:**
+[Comentarios específicos]
+
+**Sección de Análisis Reproducible:**
+[Comentarios específicos]
+
+**Recomendaciones de Mejora:**
+[Detalles de acciones sugeridas]
