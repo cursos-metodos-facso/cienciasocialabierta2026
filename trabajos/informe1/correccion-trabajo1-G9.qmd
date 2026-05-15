@@ -1,0 +1,255 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 9 |
+| **Integrantes** | Violeta Mansilla, Francisca Osorio, Martina Soto |
+| **Repositorio** | [Trabajo-1](https://github.com/Fran1129/Trabajo-1) |
+| **GitHub Pages** | [Fran1129.github.io/Trabajo-1](https://Fran1129.github.io/Trabajo-1/) |
+| **Artículo seleccionado** | González-Bustamante y Olivares (2016), supervivencia ministerial en Chile |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema plenamente pertinente para sociología política e instituciones |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El artículo y el repositorio complementario son accesibles |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Buena selección |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | ✓ Completo | El grupo identifica datos y repositorio vinculados al artículo |
+| Documentación de fuentes | ✓ Clara | Explican origen de datos y búsqueda de versiones en Zenodo |
+| Facilidad para obtener datos | ✓ Fácil | El acceso fue posible, aunque la trazabilidad original presentó problemas |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** Muy buena evaluación. El grupo no se limita a identificar el repositorio, sino que además investiga versiones previas del dataset.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | ✓ Compartido | Hay código del autor en GitHub |
+| Forma de acceso | ✓ Repositorio | Se accede por un repositorio abierto |
+| Utilidad del código | Parcial | El script disponible no reproduce la tabla final del artículo |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** El grupo evalúa bien que no basta con que haya código disponible: también importa que el código realmente reproduzca el resultado publicado.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | ✓ Adecuada | El artículo describe enfoque y variables principales |
+| Detalle suficiente para replicar | Parcial | La reconstrucción de la tabla original no es directa |
+| Especificidad de procedimientos | Moderada | El grupo identifica correctamente las brechas del material original |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** Sección sólida y bien argumentada.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | ✓ Parcial | El grupo comenta filiaciones y posibles sesgos |
+| Financiamiento | ✓ Claro | Identifica proyecto Fondecyt y contexto del trabajo |
+| Otros aspectos de transparencia | ✓ Completos | Analiza el valor, pero también los límites, del repositorio abierto |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** La transparencia está bien discutida y no se confunde con reproducibilidad automática.
+
+---
+
+**Subtotal sección 2:** **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | La Tabla 3 está claramente definida |
+| Justificación de selección | ✓ Clara | La tabla permite evaluar directamente consistencia del repositorio y del artículo |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** La selección del resultado está bien planteada.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | ✓ Muy clara | El informe explica carga, limpieza, filtrado y producción de la tabla |
+| Registro de decisiones tomadas | ✓ Completo | Justifica el uso de la versión `v1` y varias decisiones sobre fechas y tiempos |
+| Documentación de dificultades | ✓ Exhaustiva | El grupo muestra bien la discordancia entre código, base y tabla original |
+| Cómo se resolvieron problemas | ✓ Bien explicado | Se opta por construir un script nuevo y se explica por qué |
+
+**Puntaje 3.2:** 1.00 / 1.00
+
+**Comentarios:** Muy buena documentación del proceso. El trabajo es claro en distinguir entre el material original y la reconstrucción realizada por el grupo.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | La tabla reproducida y la comparación con la original quedan claras |
+| Comparación con original | ✓ Completa | El informe enfatiza explícitamente las discrepancias encontradas |
+| Verificabilidad de conclusiones | ✓ Alta | La argumentación está respaldada por el contraste entre ambas tablas |
+| Uso de figuras/tablas | ✓ Efectivo | La visualización de la tabla facilita la comparación |
+| Reproducibilidad del código | Parcial | La parte construida por el grupo es clara, pero el render completo falla por una dependencia del chunk de código original |
+| Render correcto del `.qmd` | No | En la revisión local el render se detuvo por falta del paquete `DataExplorer` en el chunk `Codigo-original` |
+
+**Puntaje 3.3:** 0.75 / 1.00
+
+**Comentarios:** El resultado es verificable y bien argumentado, pero el documento no quedó completamente portable para renderizar de principio a fin en el entorno revisado.
+
+**Registro técnico de revisión:** al ejecutar `quarto render index.qmd --to html`, el proceso falló en el chunk `Codigo-original` porque faltaba el paquete `DataExplorer`.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | El grupo identifica con mucha claridad la discordancia entre materiales abiertos y resultado publicado |
+| Explicación de causas | ✓ Completa | Explican actualización posterior del repositorio y ausencia de base original del artículo |
+| Propuestas de solución | ✓ Sí | Piden acceso a base y scripts realmente usados en 2016 |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Muy buena explicación de por qué la reproducibilidad queda comprometida pese a la existencia de un repositorio abierto.
+
+---
+
+**Subtotal sección 3:** **2.75 / 3.00**
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | El cierre responde a lo observado en la revisión y la tabla reproducida |
+| Distinción fortalezas/debilidades | ✓ Clara | Diferencia apertura formal de reproducibilidad efectiva |
+| Evita afirmaciones no respaldadas | ✓ Sí | La conclusión es consistente y sobria |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Buen cierre general.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | Las recomendaciones apuntan a datos y scripts realmente utilizados |
+| Vinculación a problemas detectados | ✓ Clara | Responden a las brechas detectadas en el repositorio del autor |
+| Priorización adecuada | ✓ Sí | Son recomendaciones precisas |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Muy buenas recomendaciones y bien enfocadas.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Errores menores | El texto se entiende bien, aunque hay algunos detalles de redacción y repetición |
+| Organización IPO | ✓ Completa | El repositorio sigue una estructura clara |
+| HTML original incluido en el repo | ✓ Sí | Incluye `index.html` |
+| Uso de plantilla sugerida | ✓ Sí | Sigue la estructura base del curso |
+| `index.qmd` en raíz del repositorio | ✓ Sí | Presente |
+| Bibliografía con archivo `.bib` | ✓ Sí | Usa `input/bib/cita.bib` |
+| Citas en texto con clave BibTeX | ✓ Sí | Integra referencias con clave BibTeX |
+| Renderizado HTML sin errores | Errores | El render local falló por dependencia faltante en el chunk de código original |
+
+**Puntaje 6:** 0.25 / 0.50
+
+**Comentarios:** El formato general es bueno, pero la ejecución completa del documento necesita quedar resuelta para un entorno más portable.
+
+---
+
+## Resumen de Evaluación
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 2.75 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.25 | 0.50 |
+| **TOTAL** | **6.50** | **7.00** |
+
+## Fortalezas principales
+
+1. Muy buena documentación del problema de reproducibilidad del artículo original.
+2. El grupo construye un contraste claro entre tabla original y tabla reproducida.
+3. Buen uso de estructura, bibliografía y repositorio ordenado.
+
+## Áreas de mejora
+
+1. Dejar el documento completamente renderizable sin depender de paquetes faltantes en chunks accesorios.
+2. Pulir algunos detalles de redacción y edición final.
+3. Separar con más claridad el código auxiliar del código que efectivamente debe ejecutarse en el informe.
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Es un trabajo sólido, especialmente en el diagnóstico del problema de reproducibilidad. La principal debilidad no está en el análisis sustantivo, sino en la portabilidad técnica completa del documento.
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:** muy bien lograda. El grupo muestra criterio al evaluar críticamente la relación entre artículo, repositorio y versiones de los datos.
+
+**Sección de Análisis Reproducible:** es una sección fuerte y bien argumentada. La reconstrucción propia está mejor explicada que el material original del artículo.
+
+**Recomendaciones de Mejora:** conviene asegurar que el documento renderice completo sin depender de paquetes accesorios o chunks heredados que no aportan al resultado principal.
+
+## Evaluación Final
+
+**Puntaje Total: 6.50 / 7.00**
+
+**Recomendación:** Muy buen trabajo. La mejora principal está en cerrar la reproducibilidad técnica completa del documento y pulir algunos detalles formales.

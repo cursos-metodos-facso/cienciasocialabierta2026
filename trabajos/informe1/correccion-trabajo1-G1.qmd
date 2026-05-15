@@ -1,5 +1,5 @@
 ---
-title: "Corrección Trabajo 1"
+title: "Corrección Trabajo 1 - Grupo 1"
 subtitle: "Reporte de Reproducibilidad"
 lang: es
 number-sections: true

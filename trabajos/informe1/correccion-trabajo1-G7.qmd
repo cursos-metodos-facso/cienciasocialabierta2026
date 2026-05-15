@@ -1,0 +1,253 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 7 |
+| **Integrantes** | Catalina Parra A., Juan Gutiérrez G., Eduardo Ortiz A. |
+| **Repositorio** | [proyecto-casen-grupo7](https://github.com/Sebagarz/proyecto-casen-grupo7) |
+| **GitHub Pages** | No disponible (404) |
+| **Artículo seleccionado** | Encuesta CASEN 2022, evolución de la pobreza por ingresos |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | El tema es sustantivamente pertinente para desigualdad y pobreza |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El informe y las bases CASEN son accesibles |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Selección pertinente |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | ✓ Completo | El grupo identifica las bases CASEN y sus limitaciones por año |
+| Documentación de fuentes | ✓ Clara | Explican qué años están armonizados y cuáles generan dificultades |
+| Facilidad para obtener datos | Parcial | El acceso existe, pero requiere apoyo documental complementario |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** Buena evaluación crítica de la disponibilidad de datos, especialmente al notar el problema de comparabilidad entre años.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | No disponible | El artículo elegido no entrega scripts originales |
+| Forma de acceso | Contacto | El grupo comenta gestión de contacto y apoyo externo |
+| Utilidad del código | No disponible | La reproducción se basa en código propio |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** El grupo comenta bien la ausencia de código y explica cómo resolvió ese vacío.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | ✓ Adecuada | El diagnóstico reconoce que el documento de resultados no basta por sí solo |
+| Detalle suficiente para replicar | Parcial | Se necesitan notas técnicas y libros de códigos complementarios |
+| Especificidad de procedimientos | Moderada | La crítica metodológica es pertinente |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** Buena lectura del problema metodológico: el informe comunica resultados, pero no reemplaza la documentación técnica requerida para una réplica independiente.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | No mencionado | El grupo lo detecta correctamente |
+| Financiamiento | Ausente | Señalan que no aparece explicitado |
+| Otros aspectos de transparencia | ✓ Parciales | Rescatan instituciones y proceso de producción del informe |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** La sección está bien resuelta y muestra criterio crítico suficiente.
+
+---
+
+**Subtotal sección 2:** **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | El gráfico a reproducir queda claramente delimitado |
+| Justificación de selección | ✓ Clara | La elección permite una comparación longitudinal concreta |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** La selección del resultado es pertinente y está bien explicada.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | Adecuada | El informe explica el flujo general y parte del código |
+| Registro de decisiones tomadas | Parcial | Algunas decisiones quedan expuestas, pero otras descansan en scripts auxiliares y RDS ya procesados |
+| Documentación de dificultades | ✓ Exhaustiva | El grupo explica con claridad las trabas de datos armonizados y acceso a series comparables |
+| Cómo se resolvieron problemas | Parcial | La solución se entiende, pero el proceso completo no queda del todo integrado en el informe principal |
+
+**Puntaje 3.2:** 0.50 / 1.00
+
+**Comentarios:** Hay buen trabajo detrás, pero el informe principal podría documentar mejor la cadena completa desde las bases originales hasta el gráfico final.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | El gráfico reproducido queda presentado con claridad |
+| Comparación con original | ✓ Parcial | Se discuten coincidencias y exclusiones de años, aunque la comparación podría ser más sistemática |
+| Verificabilidad de conclusiones | Moderada | El resultado final es visible y el informe renderiza correctamente |
+| Uso de figuras/tablas | ✓ Adecuado | La salida final se entiende bien |
+| Reproducibilidad del código | Parcial | El render funciona, pero buena parte del procesamiento está desactivado y depende de archivos intermedios |
+| Render correcto del `.qmd` | ✓ Sí | `index.qmd` renderizó correctamente en revisión |
+
+**Puntaje 3.3:** 0.75 / 1.00
+
+**Comentarios:** El informe entrega un resultado verificable, pero la reproducibilidad completa del flujo desde datos brutos hasta salida final podría estar mejor integrada.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | Se explican bien los problemas con 2006 y 2020 |
+| Explicación de causas | ✓ Completa | Vinculan las diferencias a falta de bases armonizadas y documentación técnica |
+| Propuestas de solución | ✓ Sí | Las recomendaciones responden a estos límites |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Buena explicación de por qué la réplica no es completamente equivalente a la serie original.
+
+---
+
+**Subtotal sección 3:** **2.25 / 3.00**
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | Las conclusiones son consistentes con el trabajo realizado |
+| Distinción fortalezas/debilidades | ✓ Clara | Distinguen datos públicos de ausencia de scripts oficiales |
+| Evita afirmaciones no respaldadas | ✓ Sí | El cierre es razonable |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Cierre coherente con la evidencia del informe.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | Recomiendan más transparencia sobre financiamiento, conflictos y datos armonizados |
+| Vinculación a problemas detectados | ✓ Clara | Las recomendaciones se conectan con las brechas discutidas |
+| Priorización adecuada | ✓ Sí | Son sugerencias pertinentes |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Buen conjunto de recomendaciones, aunque sería mejor ordenarlas con un poco más de jerarquía.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Errores menores a importantes | Hay varios detalles de escritura, tildes y formulación en el texto |
+| Organización IPO | ✓ Completa | El repositorio está ordenado por carpetas |
+| HTML original incluido en el repo | ✓ Sí | Incluye `index.html` |
+| Uso de plantilla sugerida | ✓ Sí | Sigue la estructura general esperada |
+| `index.qmd` en raíz del repositorio | ✓ Sí | Presente |
+| Bibliografía con archivo `.bib` | No | La línea de bibliografía está comentada y el informe no la usa efectivamente |
+| Citas en texto con clave BibTeX | No | No hay citas BibTeX en el texto principal |
+| Renderizado HTML sin errores | ✓ Correcto | El archivo renderizó correctamente |
+
+**Puntaje 6:** 0.25 / 0.50
+
+**Comentarios:** El trabajo cumple estructuralmente, pero la integración bibliográfica y la revisión formal del texto quedaron por debajo de lo esperado.
+
+---
+
+## Resumen de Evaluación
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 2.25 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.25 | 0.50 |
+| **TOTAL** | **6.00** | **7.00** |
+
+## Fortalezas principales
+
+1. Buen juicio crítico sobre la disponibilidad real de datos y documentación técnica.
+2. El informe renderiza y presenta claramente el resultado reproducido.
+3. El repositorio mantiene una estructura ordenada de trabajo.
+
+## Áreas de mejora
+
+1. Integrar mejor en el informe principal el flujo completo desde datos brutos a resultado final.
+2. Usar efectivamente archivo `.bib` y citas bibliográficas en el texto.
+3. Revisar redacción, puntuación y precisión formal antes de la entrega.
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Es un trabajo correcto y bien orientado. La principal debilidad no es conceptual, sino de documentación del flujo técnico completo y de terminación formal del informe.
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:** bien desarrollada. El grupo entiende correctamente dónde están los principales obstáculos de reproducibilidad del informe CASEN.
+
+**Sección de Análisis Reproducible:** cumple, pero sería mejor que el documento principal mostrara con mayor claridad el proceso completo y no descansara tanto en objetos ya procesados.
+
+**Recomendaciones de Mejora:** reforzar bibliografía reproducible, limpiar redacción y hacer más transparente la cadena de procesamiento.
+
+## Evaluación Final
+
+**Puntaje Total: 6.00 / 7.00**
+
+**Recomendación:** Buen trabajo en diagnóstico y resultado final. La mejora más clara está en documentar mejor el flujo reproducible y cerrar el formato académico del informe.

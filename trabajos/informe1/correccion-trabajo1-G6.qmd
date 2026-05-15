@@ -1,0 +1,255 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 6 |
+| **Integrantes** | Renato De Luca Escobar, Benjamín Belmar Álvarez, Bastián Martin Gerdes, Maite Jullian Corral |
+| **Repositorio** | [ej-repro-grupo-6](https://github.com/renatodeluca/ej-repro-grupo-6) |
+| **GitHub Pages** | [renatodeluca.github.io/ej-repro-grupo-6](https://renatodeluca.github.io/ej-repro-grupo-6/) |
+| **Artículo seleccionado** | Palma et al. (2025), segregación de género en el mercado laboral en Chile |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema muy pertinente para sociología del trabajo y desigualdad de género |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El artículo y la fuente de datos son accesibles |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Selección adecuada |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | ✓ Completo | El grupo identifica correctamente que la CASEN 2022 es pública |
+| Documentación de fuentes | ✓ Clara | Explican fuente y dificultad práctica por tamaño del archivo |
+| Facilidad para obtener datos | Parcial | El acceso existe, pero el procesamiento exige manejar un archivo pesado |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** Buena evaluación de disponibilidad de datos. El grupo no solo indica acceso, sino que comenta una dificultad concreta del ejercicio.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | No disponible | El artículo no libera scripts |
+| Forma de acceso | Contacto | El grupo incluso contactó a una autora para orientar la réplica |
+| Utilidad del código | No disponible | La reproducción se hizo con código propio |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** Muy buen comentario crítico. La gestión de contactar a las autoras fortalece la evaluación y muestra iniciativa metodológica.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | ✓ Adecuada | El grupo explica que la metodología es comprensible, pero no suficiente para una réplica exacta |
+| Detalle suficiente para replicar | Parcial | Faltan detalles específicos de construcción de figuras |
+| Especificidad de procedimientos | Moderada | El diagnóstico metodológico es razonable |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** La evaluación distingue bien entre una metodología legible y una metodología plenamente reproducible.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | No mencionado | El grupo detecta esa omisión |
+| Financiamiento | ✓ Claro | Identifican financiamiento ANID |
+| Otros aspectos de transparencia | ✓ Parciales | Reconocen información relevante, aunque incompleta |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** Sección bien comentada y consistente con la evidencia presentada.
+
+---
+
+**Subtotal sección 2:** **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | Delimitan claramente las figuras 2 y 5 |
+| Justificación de selección | ✓ Clara | Explican la relevancia sustantiva de ambas figuras |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** La selección del resultado a reproducir está bien especificada y es adecuada para evaluar coincidencias y diferencias.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | ✓ Muy clara | El informe documenta selección de variables, recodificaciones y construcción de figuras |
+| Registro de decisiones tomadas | ✓ Completo | Se explican varias decisiones analíticas relevantes |
+| Documentación de dificultades | ✓ Exhaustiva | Se reportan problemas de acceso al código y diferencias con el original |
+| Cómo se resolvieron problemas | ✓ Bien explicado | Se transparenta que el grupo debió reconstruir el proceso con apoyo metodológico y código propio |
+
+**Puntaje 3.2:** 1.00 / 1.00
+
+**Comentarios:** Es una de las fortalezas del trabajo. El detalle del proceso permite seguir razonablemente la reproducción.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | El grupo incluye ambas figuras reproducidas y discute diferencias |
+| Comparación con original | ✓ Completa | La comparación es explícita en el texto final |
+| Verificabilidad de conclusiones | ✓ Alta | Las conclusiones se apoyan en resultados visibles y discutidos |
+| Uso de figuras/tablas | ✓ Efectivo | Las figuras reproducidas están integradas de forma clara |
+| Reproducibilidad del código | Parcial | El repositorio incluye `renv`, pero al renderizar localmente faltan `knitr` y `rmarkdown` en el entorno restaurado |
+| Render correcto del `.qmd` | No | En la revisión local el render se detuvo por dependencias faltantes del entorno `renv` |
+
+**Puntaje 3.3:** 0.75 / 1.00
+
+**Comentarios:** El análisis es verificable a nivel sustantivo, pero la portabilidad técnica del render no quedó completamente resuelta en el entorno revisado.
+
+**Registro técnico de revisión:** al ejecutar `quarto render index.qmd --to html`, el proceso falló porque en el entorno `renv` no estaban disponibles `knitr` y `rmarkdown`.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | El grupo explica que las figuras no coinciden exactamente |
+| Explicación de causas | ✓ Completa | Atribuyen diferencias a procedimientos no explicitados en el artículo original |
+| Propuestas de solución | ✓ Sí | Recomiendan liberar código y detallar mejor el flujo analítico |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Los límites están bien explicitados y no se presentan como fallas del grupo, sino como consecuencia de la documentación disponible.
+
+---
+
+**Subtotal sección 3:** **2.75 / 3.00**
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | El cierre es consistente con las diferencias observadas en las figuras |
+| Distinción fortalezas/debilidades | ✓ Clara | Separan acceso a datos de ausencia de código |
+| Evita afirmaciones no respaldadas | ✓ Sí | La conclusión es prudente |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Buen cierre analítico y bien conectado con la evidencia mostrada.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | Recomiendan abrir código y documentar mejor el proceso |
+| Vinculación a problemas detectados | ✓ Clara | Las recomendaciones responden a las limitaciones observadas |
+| Priorización adecuada | ✓ Sí | Son recomendaciones pertinentes |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Recomendaciones razonables y bien justificadas.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Errores menores a importantes | Hay varios detalles de redacción y concordancia, además de un `}x` sobrante en el CSS |
+| Organización IPO | ✓ Completa | El repositorio está bien organizado |
+| HTML original incluido en el repo | ✓ Sí | Incluye `index.html` |
+| Uso de plantilla sugerida | ✓ Sí | Sigue la plantilla base del curso |
+| `index.qmd` en raíz del repositorio | ✓ Sí | Presente |
+| Bibliografía con archivo `.bib` | ✓ Sí | Usa `input/bib/biblio.bib` |
+| Citas en texto con clave BibTeX | ✓ Sí | Integra referencias con claves BibTeX |
+| Renderizado HTML sin errores | Errores | En la revisión local no renderizó por dependencias faltantes |
+
+**Puntaje 6:** 0.25 / 0.50
+
+**Comentarios:** La estructura técnica es buena, pero el informe necesita una revisión formal más cuidada y un cierre más sólido del entorno reproducible.
+
+---
+
+## Resumen de Evaluación
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 2.75 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.25 | 0.50 |
+| **TOTAL** | **6.50** | **7.00** |
+
+## Fortalezas principales
+
+1. Muy buena documentación del proceso de reproducción.
+2. Comentario crítico sólido sobre la ausencia de código original.
+3. Repositorio ordenado y con buena estructura general.
+
+## Áreas de mejora
+
+1. Resolver completamente la portabilidad del entorno `renv`.
+2. Revisar redacción, concordancia y detalles formales del texto.
+3. Evitar incluir instrucciones de inicialización (`renv::init()`) dentro del flujo normal del informe final.
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Es un trabajo fuerte en términos de comprensión metodológica y documentación del proceso. La principal debilidad no está en el análisis sustantivo, sino en la reproducibilidad técnica completa del entorno y en varios detalles de edición del informe.
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:** muy bien comentada. El grupo distingue correctamente entre disponibilidad de datos, disponibilidad de código y límites de transparencia.
+
+**Sección de Análisis Reproducible:** es una de las mejores partes del informe. El proceso está explicado con suficiente detalle como para seguir las principales decisiones analíticas.
+
+**Recomendaciones de Mejora:** conviene dejar el entorno más portable y revisar el texto final con mayor cuidado antes de la entrega.
+
+## Evaluación Final
+
+**Puntaje Total: 6.50 / 7.00**
+
+**Recomendación:** Muy buen trabajo. La mejora principal está en cerrar bien la reproducibilidad técnica del entorno y pulir la redacción final.

@@ -1,0 +1,255 @@
+---
+title: "Corrección Trabajo 1"
+subtitle: "Reporte de Reproducibilidad"
+lang: es
+number-sections: true
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 3
+---
+
+## Información del Grupo
+
+| Aspecto | Dato |
+|---------|------|
+| **Grupo** | Grupo 8 |
+| **Integrantes** | Cristóbal Merchan Farfán |
+| **Repositorio** | [ciencia-abierta](https://github.com/ElSenorDeLasMoscas/ciencia-abierta) |
+| **GitHub Pages** | No disponible (404) |
+| **Artículo seleccionado** | Missau (2024), bibliometría sobre desinformación en ciencias sociales |
+
+---
+
+## Matriz de Evaluación
+
+### 1. Selección del artículo (0.5 puntos máximo)
+
+| Criterio | Evaluación | Puntaje | Comentarios |
+|----------|-----------|---------|------------|
+| Pertinencia para ciencias sociales | ✓ Sí | 0.25 | El tema es pertinente y dialoga con ciencia abierta y circulación de conocimiento |
+| Accesibilidad (abierto o disponible) | ✓ Parcial | El artículo es accesible, pero las bases subyacentes dependen de plataformas de suscripción |
+| **Subtotal sección 1** | | **0.50 / 0.50** | Buena selección para discutir apertura y límites de acceso |
+
+---
+
+### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+
+#### 2.1 Disponibilidad de datos (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a datos | Parcial | El artículo explicita búsquedas, pero no deposita metadatos exportados |
+| Documentación de fuentes | ✓ Clara | El informe analiza con precisión el problema de WOS y Scopus |
+| Facilidad para obtener datos | Complicado | El acceso depende de plataformas cerradas y resultados cambiantes |
+
+**Puntaje 2.1:** 0.50 / 0.50
+
+**Comentarios:** Muy buena lectura crítica de los límites de acceso a datos. El informe no se queda en si hay fuente, sino que discute también la imposibilidad de verificar exactamente los registros usados.
+
+---
+
+#### 2.2 Disponibilidad de código (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Acceso a código | No disponible | El artículo no publica scripts |
+| Forma de acceso | No disponible | No se enlaza repositorio ni material suplementario de código |
+| Utilidad del código | No disponible | La reproducción se hace con un script propio |
+
+**Puntaje 2.2:** 0.50 / 0.50
+
+**Comentarios:** El comentario sobre la "caja negra" metodológica está bien logrado y es uno de los puntos fuertes del informe.
+
+---
+
+#### 2.3 Documentación Metodológica (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad de métodos descritos | ✓ Adecuada | El grupo muestra que el artículo comunica parte del proceso, pero deja pasos decisivos sin documentar |
+| Detalle suficiente para replicar | No | Faltan criterios de exclusión y transformaciones concretas |
+| Especificidad de procedimientos | Baja | El informe detecta con claridad estas brechas |
+
+**Puntaje 2.3:** 0.50 / 0.50
+
+**Comentarios:** Muy buen juicio metodológico, especialmente al subrayar la depuración manual no explicitada.
+
+---
+
+#### 2.4 Transparencia (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Conflictos de interés | No mencionado | El informe detecta el vacío |
+| Financiamiento | Ausente | No se reporta con claridad |
+| Otros aspectos de transparencia | ✓ Parciales | El grupo conecta el análisis con estándares TOP, FAIR y políticas editoriales |
+
+**Puntaje 2.4:** 0.50 / 0.50
+
+**Comentarios:** Sección fuerte y bien argumentada. La crítica a la adhesión formal al acceso abierto está bien planteada.
+
+---
+
+**Subtotal sección 2:** **2.00 / 2.00**
+
+---
+
+### 3. Análisis Reproducible (3.0 puntos máximo)
+
+#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Precisión en identificar resultado | ✓ Muy precisa | Delimita con claridad la Tabla 2 y las Figuras 5 y 6 |
+| Justificación de selección | ✓ Clara | La elección está bien conectada con lo que el artículo reporta |
+
+**Puntaje 3.1:** 0.50 / 0.50
+
+**Comentarios:** La selección es clara y bien justificada.
+
+---
+
+#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Claridad del proceso | Adecuada | Se documentan las búsquedas y el uso de `bibliometrix` |
+| Registro de decisiones tomadas | Parcial | Hay explicaciones, aunque algunas decisiones quedan todavía generales |
+| Documentación de dificultades | ✓ Exhaustiva | El informe deja muy claras las diferencias entre los resultados propios y los reportados |
+| Cómo se resolvieron problemas | Parcial | La resolución se describe, pero no siempre con la misma precisión técnica |
+
+**Puntaje 3.2:** 0.75 / 1.00
+
+**Comentarios:** El proceso está razonablemente explicado y, sobre todo, el trabajo destaca por una discusión honesta de las dificultades encontradas.
+
+---
+
+#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Resultados claramente presentados | ✓ Sí | Se presentan tabla y figuras reproducidas |
+| Comparación con original | ✓ Completa | El informe contrasta explícitamente sus cifras con las del artículo |
+| Verificabilidad de conclusiones | Moderada | La lógica del resultado se entiende, pero el archivo no pudo renderizarse localmente |
+| Uso de figuras/tablas | ✓ Efectivo | Las imágenes reproducidas quedan claras en el reporte |
+| Reproducibilidad del código | Parcial | El repositorio incluye script y datos exportados, pero depende de `bibliometrix` sin resolver el entorno |
+| Render correcto del `.qmd` | No | En la revisión local el render falló porque faltaba el paquete `bibliometrix` |
+
+**Puntaje 3.3:** 0.50 / 1.00
+
+**Comentarios:** El trabajo sí entrega una reproducción visible y discutida, pero la ejecución completa del documento no quedó portable en el entorno revisado.
+
+**Registro técnico de revisión:** al ejecutar `quarto render reporte_reproducibilidad.qmd --to html`, el proceso falló con el error `there is no package called 'bibliometrix'`.
+
+---
+
+#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Identificación de limitaciones | ✓ Clara | Se explica bien la diferencia entre búsquedas actuales y muestra original |
+| Explicación de causas | ✓ Completa | El informe conecta estas diferencias con ausencia de datos y scripts originales |
+| Propuestas de solución | ✓ Sí | Recomienda publicar metadatos y código |
+
+**Puntaje 3.4:** 0.50 / 0.50
+
+**Comentarios:** Muy buena sección de límites. El grupo entiende bien dónde fracasa la reproducibilidad estricta del artículo.
+
+---
+
+**Subtotal sección 3:** **2.25 / 3.00**
+
+---
+
+### 4. Conclusiones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Coherencia con evidencia | ✓ Alta | La conclusión está alineada con la discusión previa |
+| Distinción fortalezas/debilidades | ✓ Clara | Diferencia bien software abierto de datos y código cerrados |
+| Evita afirmaciones no respaldadas | ✓ Sí | El cierre es argumentado y prudente |
+
+**Puntaje 4:** 0.50 / 0.50
+
+**Comentarios:** Buen cierre, especialmente por la conexión entre acceso abierto editorial y reproducibilidad real.
+
+---
+
+### 5. Recomendaciones (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Propuestas concretas y factibles | ✓ Sí | Las recomendaciones son pertinentes y directamente aplicables |
+| Vinculación a problemas detectados | ✓ Clara | Se conectan con metadatos, scripts y documentación |
+| Priorización adecuada | ✓ Sí | El foco está puesto donde realmente falló la reproducibilidad |
+
+**Puntaje 5:** 0.50 / 0.50
+
+**Comentarios:** Recomendaciones bien orientadas y consistentes con el diagnóstico.
+
+---
+
+### 6. Formato del Reporte (0.5 puntos máximo)
+
+| Criterio | Evaluación | Observaciones |
+|----------|-----------|---------------|
+| Redacción y ortografía | Errores menores a importantes | Hay varias erratas, problemas de puntuación y formulaciones poco pulidas |
+| Organización IPO | Parcial | El repositorio es bastante simple y no sigue la estructura estándar del curso |
+| HTML original incluido en el repo | No | No incluye HTML renderizado del informe |
+| Uso de plantilla sugerida | No | No sigue la plantilla sugerida del curso |
+| `index.qmd` en raíz del repositorio | No | El informe principal es `reporte_reproducibilidad.qmd` |
+| Bibliografía con archivo `.bib` | No | `scopus.bib` se usa como fuente de datos, no como bibliografía del informe |
+| Citas en texto con clave BibTeX | No | Las referencias están escritas manualmente |
+| Renderizado HTML sin errores | Errores | El archivo no renderizó localmente por dependencia faltante |
+
+**Puntaje 6:** 0.00 / 0.50
+
+**Comentarios:** El problema principal aquí es de formato académico y técnico del entregable, no del interés intelectual del trabajo. El informe necesita ajustarse mucho más a la estructura esperada del curso.
+
+---
+
+## Resumen de Evaluación
+
+| Sección | Puntaje | Máximo |
+|---------|---------|--------|
+| 1. Selección del artículo | 0.50 | 0.50 |
+| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 3. Análisis reproducible | 2.25 | 3.00 |
+| 4. Conclusiones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.50 | 0.50 |
+| 6. Formato del reporte | 0.00 | 0.50 |
+| **TOTAL** | **5.75** | **7.00** |
+
+## Fortalezas principales
+
+1. Excelente comentario crítico sobre límites reales de apertura de WOS y Scopus.
+2. Buena discusión sobre por qué la falta de datos y scripts vuelve opaco el proceso.
+3. Comparación clara entre resultados propios y resultados del artículo.
+
+## Áreas de mejora
+
+1. Ajustar el entregable a la plantilla y estructura formal esperada por el curso.
+2. Dejar el entorno técnico completamente reproducible para renderizar el informe.
+3. Mejorar redacción, puntuación y pulido final del documento.
+
+## Feedback Detallado al Grupo
+
+### Comentarios Generales
+
+Es un trabajo intelectualmente interesante y con una mirada crítica sólida sobre ciencia abierta. La principal debilidad está en el formato de entrega y en la portabilidad técnica del informe, más que en la calidad del diagnóstico sustantivo.
+
+### Retroalimentación por Sección
+
+**Sección de Reproducibilidad:** destaca positivamente. El grupo entiende muy bien que la reproducibilidad no depende solo de que el paper sea de acceso abierto.
+
+**Sección de Análisis Reproducible:** cumple y discute bien las diferencias, pero requiere un cierre técnico mejor para poder ejecutar el documento sin fricciones.
+
+**Recomendaciones de Mejora:** adaptar el trabajo a la estructura del curso y dejar resuelto el entorno de ejecución sería la mejora prioritaria.
+
+## Evaluación Final
+
+**Puntaje Total: 5.75 / 7.00**
+
+**Recomendación:** Buen trabajo crítico y bien enfocado en el fondo. La mejora principal está en el formato de entrega y en asegurar la reproducibilidad técnica completa del documento.
