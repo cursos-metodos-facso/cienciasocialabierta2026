@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Noticias y mensajes importantes Modelos Multinivel</title>
+<link>https://multinivel-facso.netlify.app/news/</link>
+<atom:link href="https://multinivel-facso.netlify.app/news/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Wed, 06 May 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/news/2026-05-06_reproducibilidad-tres-articulos.html}</title>
+  <dc:creator>Juan C. Castillo</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-05-06_reproducibilidad-tres-articulos.html</link>
+  <description>{B4F502887207:/news/2026-05-06_reproducibilidad-tres-articulos.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-05-06_reproducibilidad-tres-articulos.html</guid>
+  <pubDate>Wed, 06 May 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/Research-on-research.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-28_datos-grandes-figshare.html}</title>
+  <dc:creator>Equipo Docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-28_datos-grandes-figshare.html</link>
+  <description>{B4F502887207:/news/2026-04-28_datos-grandes-figshare.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-28_datos-grandes-figshare.html</guid>
+  <pubDate>Tue, 28 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/zenodo.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-28_documentos-anidados-quarto.html}</title>
+  <dc:creator>Equipo Docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-28_documentos-anidados-quarto.html</link>
+  <description>{B4F502887207:/news/2026-04-28_documentos-anidados-quarto.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-28_documentos-anidados-quarto.html</guid>
+  <pubDate>Tue, 28 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/nested.png" medium="image" type="image/png" height="99" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-27_bib-zotero.html}</title>
+  <dc:creator>Equipo Docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-27_bib-zotero.html</link>
+  <description>{B4F502887207:/news/2026-04-27_bib-zotero.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-27_bib-zotero.html</guid>
+  <pubDate>Mon, 27 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/zotero.png" medium="image" type="image/png" height="69" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-27_reproducibilidad-renv.html}</title>
+  <dc:creator>Equipo Docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-27_reproducibilidad-renv.html</link>
+  <description>{B4F502887207:/news/2026-04-27_reproducibilidad-renv.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-27_reproducibilidad-renv.html</guid>
+  <pubDate>Mon, 27 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://rstudio.github.io/renv/logo.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-24_giscus.html}</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-24_giscus.html</link>
+  <description>{B4F502887207:/news/2026-04-24_giscus.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-24_giscus.html</guid>
+  <pubDate>Fri, 24 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/giscus-diamond.png" medium="image" type="image/png" height="82" width="82"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-04-23_buenas-pracs.html}</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-04-23_buenas-pracs.html</link>
+  <description>{B4F502887207:/news/2026-04-23_buenas-pracs.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-04-23_buenas-pracs.html</guid>
+  <pubDate>Thu, 23 Apr 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/standards.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-03-18_reel-research.html}</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</link>
+  <description>{B4F502887207:/news/2026-03-18_reel-research.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-03-18_reel-research.html</guid>
+  <pubDate>Wed, 18 Mar 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/paper-nate.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/news/2026-03-12_bienvenida.html}</title>
+  <dc:creator>Equipo docente</dc:creator>
+  <link>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</link>
+  <description>{B4F502887207:/news/2026-03-12_bienvenida.html}</description>
+  <category>info</category>
+  <guid>https://multinivel-facso.netlify.app/news/2026-03-12_bienvenida.html</guid>
+  <pubDate>Thu, 12 Mar 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://multinivel-facso.netlify.app/news/images/bienvenida.png" medium="image" type="image/png" height="148" width="144"/>
+</item>
+</channel>
+</rss>

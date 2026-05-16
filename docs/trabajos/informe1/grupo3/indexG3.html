@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Josefina Bustos">
+<meta name="author" content="Benjamin Casacuberta">
+<meta name="description" content="Ciencia Social Abierta">
+<title>Reporte de Reproducibilidad – Ciencia Social Abierta</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../files/logo.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a041ce5a50ad126f989c5fa9aabfc010.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script><style>
+  h1.title {
+    color: #ffffff !important;
+  }
+  .subtitle {
+    color: #ffffff !important;
+  }
+</style>
+<meta property="og:title" content="Reporte de Reproducibilidad – Ciencia Social Abierta">
+<meta property="og:description" content="Artículo: II Encuesta Nacional sobre Uso del Tiempo (ENUT 2023) ">
+<meta property="og:image" content="https://multinivel-facso.netlify.app/trabajos/informe1/grupo3/files/logo.png">
+<meta property="og:site_name" content="Ciencia Social Abierta">
+<meta property="og:locale" content="es">
+</head>
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Ciencia Social Abierta</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../../news/index.html"> 
+<span class="menu-text">Informaciones</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../syllabus.html"> 
+<span class="menu-text">Programa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../schedule.html"> 
+<span class="menu-text">Planificación</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../content/index.html"> 
+<span class="menu-text">Clases</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../assignment/index.html"> 
+<span class="menu-text">Prácticos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../trabajos/trabajos.html"> 
+<span class="menu-text">Trabajos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../resource/index.html"> 
+<span class="menu-text">Recursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../references/publications/index.html"> 
+<span class="menu-text">Referencias</span></a>
+  </li>  
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Reporte de Reproducibilidad</h1>
+            <p class="subtitle lead">Artículo: II Encuesta Nacional sobre Uso del Tiempo (ENUT 2023) <br><a href="https://github.com/josefinabd/ej-repro-grupo3" target="_blank"><i class="bi bi-github"></i></a></p>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Autores/as</div>
+    <div class="quarto-title-meta-heading">Afiliación</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Josefina Bustos <a href="mailto:josefina.bustos.d@ug.uchile.cl" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Departamento de Sociología, Universidad de Chile
+            </p>
+        </div>
+      <div class="quarto-title-meta-contents">
+      <p class="author">Benjamin Casacuberta <a href="mailto:b.casacuberta@ug.uchile.cl" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Departamento de Sociología, Universidad de Chile
+            </p>
+        </div>
+    </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">4 de mayo de 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2"><h2 id="toc-title">Contenidos</h2>
+   
+  <ul class="collapse">
+<li><a href="#selecci%C3%B3n-de-art%C3%ADculo" id="toc-selección-de-artículo" class="nav-link active" data-scroll-target="#selecci%C3%B3n-de-art%C3%ADculo"><span class="header-section-number">1</span> Selección de artículo</a></li>
+  <li><a href="#evaluaci%C3%B3n-de-reproducibilidad" id="toc-evaluación-de-reproducibilidad" class="nav-link" data-scroll-target="#evaluaci%C3%B3n-de-reproducibilidad"><span class="header-section-number">2</span> Evaluación de reproducibilidad</a></li>
+  <li>
+<a href="#an%C3%A1lisis-reproducible" id="toc-análisis-reproducible" class="nav-link" data-scroll-target="#an%C3%A1lisis-reproducible"><span class="header-section-number">3</span> Análisis reproducible</a>
+  <ul class="collapse">
+<li><a href="#resultado-a-reproducir" id="toc-resultado-a-reproducir" class="nav-link" data-scroll-target="#resultado-a-reproducir"><span class="header-section-number">3.1</span> Resultado a reproducir</a></li>
+  <li><a href="#proceso-de-reproducci%C3%B3n" id="toc-proceso-de-reproducción" class="nav-link" data-scroll-target="#proceso-de-reproducci%C3%B3n"><span class="header-section-number">3.2</span> Proceso de reproducción</a></li>
+  </ul>
+</li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones"><span class="header-section-number">4</span> Conclusiones</a></li>
+  <li><a href="#recomendaciones" id="toc-recomendaciones" class="nav-link" data-scroll-target="#recomendaciones"><span class="header-section-number">5</span> Recomendaciones</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="header-section-number">6</span> Referencias</a></li>
+  <li>
+<a href="#ap%C3%A9ndice" id="toc-apéndice" class="nav-link" data-scroll-target="#ap%C3%A9ndice"><span class="header-section-number">7</span> Apéndice</a>
+  <ul class="collapse">
+<li><a href="#c%C3%B3digo" id="toc-código" class="nav-link" data-scroll-target="#c%C3%B3digo"><span class="header-section-number">7.1</span> Código</a></li>
+  </ul>
+</li>
+  </ul><div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="indexG3.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content"><section id="selección-de-artículo" class="level1" data-number="1"><h1 data-number="1">
+<span class="header-section-number">1</span> Selección de artículo</h1>
+<p>El artículo seleccionado para el análisis de reproducibilidad es la segunda Encuesta Nacional sobre Uso de Tiempo (ENUT), publicada por el Instituto Nacional de Estadística en Chile. Esta encuesta permite conocer cómo las personas distribuyen su tiempo entre diferentes actividades, como trabajo, estudio, ocio, entre otras.</p>
+<p>El objetivo general de la encuesta es “obtener información de cómo las personas de 12 años o más utilizan su tiempo, principalmente en torno al trabajo no remunerado, trabajo en la ocupación y actividades personales; además de proveer información relacionada a su calidad de vida y bienestar respecto a su uso de tiempo en las principales zonas urbanas del país” <span class="citation" data-cites="ineficha2025">(<a href="#ref-ineficha2025" role="doc-biblioref">Instituto Nacional de Estadísticas, 2025a</a>)</span>.</p>
+<p>Entre los objetivos específicos se encuentra: identificar brechas de género, medición de carga laboral a través del tiempo dedicado a la ocupación y trabajo no remunerado, medir uso de tiempo y satisfacción de la población, y por último, identificar acceso y necesidad de servicios e instituciones de cuidado para la población dependiente.</p>
+<p>Para el reporte de reproducibilidad, se escoge este artículo con el propósito de tener una base de datos amplia y detallada sobre el uso del tiempo en la población chilena, lo que nos permitirá realizar un análisis reproducible significativo y relevante. Además, la encuesta proporciona una gran cantidad de variables y resultados que pueden ser utilizados para explorar diferentes aspectos del uso del tiempo (como los presentados en los objetivos de la encuesta) lo que nos permitirá profundizar en el análisis y obtener insights valiosos sobre las actividades diarias de las personas.</p>
+<p>En ese sentido, desde el informe de principales resultados de la encuesta, hemos escogido la tabla 16 que muestra la participación y tiempo destinado al trabajo no remunerado según sexo y nacionalidad.</p>
+</section><section id="evaluación-de-reproducibilidad" class="level1" data-number="2"><h1 data-number="2">
+<span class="header-section-number">2</span> Evaluación de reproducibilidad</h1>
+<ul>
+<li>
+<strong>Disponibilidad de datos</strong>: El artículo sí proporciona acceso a los datos utilizados en el estudio. Los datos están disponibles a través del sitio web del <a href="https://www.ine.gob.cl/enut">Instituto Nacional de Estadística de Chile</a>, donde se pueden descargar en variados formatos. No hubo dificultades para obtener los datos, ya que el acceso es público y se encuentra claramente indicado en la página web. Además, el artículo incluye un enlace directo a la sección de descarga de datos.<br>
+</li>
+<li>
+<strong>Disponibilidad de código</strong>: No obstante, el artículo no proporciona acceso al código para el análisis. Sin embargo, en el <a href="#ref-inemanual2025">Manual de Uso de base de datos</a> se describen las variables y se entrega de manera robusta el flujo de trabajo que se llevó a cabo para procesar correctamente los microdatos de la encuesta, lo que puede ser de gran ayuda para la replicabilidad. En ese sentido, se especifica la organización de la estructura de la base de datos; librerías necesarias para el procesamiento y la limpieza; metodología para la construcción de indicadores complejos a partir de las preguntas base del cuestionario y, por último, el diseño muestral complejo para asegurar resultados representativos. A pesar de esto, la falta de acceso al código específico utilizado en el estudio dificulta la replicación exacta del análisis realizado, por lo que se utilizarán códigos propios para el proceso de reproducción.<br>
+</li>
+<li>
+<strong>Documentación</strong>: Existe una descripción clara de los métodos y procedimientos utilizados en el estudio, especialmente en el <em>Documento Metodológico</em>. En el <em>Capítulo 5</em>, el <span class="citation" data-cites="inedocumento2025">Instituto Nacional de Estadísticas (<a href="#ref-inedocumento2025" role="doc-biblioref">2025d</a>)</span> detalla el diseño estadístico, brindando todas las informaciones necesarias tales como el marco y diseño muestral, la estrategias de muestreo aplicada, factores de expansión, y más. Asimismo, el <em>Capítulo 6</em> nos entrega la metodología de recolección de datos y el <em>Capítulo 7</em>, la metodología de procesamiento de datos. En conjunto, estos capítulos y el documento como tal, además del <span class="citation" data-cites="ineinforme2026">Instituto Nacional de Estadísticas (<a href="#ref-ineinforme2026" role="doc-biblioref">2026</a>)</span> en el cual se transparentan los errores no muestrales y las tasas de respuesta por región. Con todo esto, se puede afirmar que la documentación es suficiente para que otro investigador pueda replicar el estudio, aunque la falta de acceso al código específico utilizado en el análisis puede presentar un desafío adicional para la replicación exacta.</li>
+<li>
+<strong>Transparencia</strong>: En torno a la transparencia de la investigación, el Instituto Nacional de Estadística de Chile <span class="citation" data-cites="ineinforme2025">(<a href="#ref-ineinforme2025" role="doc-biblioref">2025b</a>)</span> identifica en sus primeras páginas todos los nombres y cargos de los responsables del proyecto. Asimismo, proporciona información sobre el financiamiento del estudio, indicando que fue financiado por el Instituto Nacional de Estadística de Chile. Por otra parte, la sección <em>2.1. Instrumentos de medición</em>, señala que se utiliza la plataforma <em>Survey Solutions</em> del Banco Central lo cual podría reforzar la transparencia en el manejo de los datos y de su recolección. Sin embargo, no se menciona explícitamente si existen o podrían existir conflictos de interés relacionados con el estudio. De todas formas, la primera versión de esta encuesta “permitió la implementación y mejora de políticas públicas en el país relativas principalmente a la promoción de la autonomía económica de las mujeres en el país” <span class="citation" data-cites="ineinforme2025">(<a href="#ref-ineinforme2025" role="doc-biblioref">Instituto Nacional de Estadísticas, 2025b</a>)</span>, con lo que se puede interpretar que esta segunda versión también contribuirá a esos fines, lo que podría ser un indicio de que no existen conflictos de interés o la intención de beneficiar a ciertos grupos específicos, sino brindar datos para la búsqueda de una sociedad con igualdad de género.</li>
+</ul></section><section id="análisis-reproducible" class="level1" data-number="3"><h1 data-number="3">
+<span class="header-section-number">3</span> Análisis reproducible</h1>
+<section id="resultado-a-reproducir" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="resultado-a-reproducir">
+<span class="header-section-number">3.1</span> Resultado a reproducir</h2>
+<p>Para el análisis reproducible se seleccionó la Tabla 16 del <a href="#ref-ineinforme2025">Informe de Principales Resultados</a> de la ENUT, que muestra la participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad en día tipo. <img src="input/images/Tabla16.png" class="img-fluid" alt="Tabla 16: Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad en día tipo"></p>
+</section><section id="proceso-de-reproducción" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="proceso-de-reproducción">
+<span class="header-section-number">3.2</span> Proceso de reproducción</h2>
+<p>Para el procesamiento, limpieza y cálculos de variables, se utilizó el <em>Manual de uso de base de datos</em>, que proporciona una descripción detallada de la estructura de la base de datos y las variables disponibles. En ese sentido, se identificaron las líneas de código necesarias que, a continuación, se presentan para el proceso de reproducción.</p>
+<section id="procesamiento" class="level3" data-number="3.2.1"><h3 data-number="3.2.1" class="anchored" data-anchor-id="procesamiento">
+<span class="header-section-number">3.2.1</span> Procesamiento</h3>
+<p>En primer lugar, se cargan las librerías necesarias para el procesamiento de los datos y se descarga la bases de datos (que se encuentra en input, data, original), para luego hacer la identificación de las variables de interés, que en este caso son las variables de participación y tiempo destinado al trabajo no remunerado, tanto para día tipo como para fin de semana.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Cargar librerías necesarias</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://haven.tidyverse.org">haven</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://r-survey.r-forge.r-project.org/survey/">survey</a></span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com">gt</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Cargar datos originales</span></span>
+<span><span class="va">ENUT_DATA</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/readRDS.html">readRDS</a></span><span class="op">(</span><span class="st">"input/data/original/250403-ii-enut-bdd-r-v2.RDS"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Selección de variables </span></span>
+<span><span class="co">## Variables de participación </span></span>
+<span></span>
+<span><span class="va">ds_vars_part</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_p_ds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_p_ds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_p_ds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">fds_vars_part</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_p_fds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_p_fds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_p_fds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ds_vars_tiempo</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_t(_n[1-4])?_ds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_t_ds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_t_ds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">fds_vars_tiempo</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_t(_n[1-4])?_fds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_t_fds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_t_fds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Se crea una base auxiliar que contiene únicamente la identificación de la persona, en base a si contestó o no el cuestionario, pero sin alterar la base original.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span> <span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="va">tiempo</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_tiempo</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Posteriormente, se procede a derivar las variables de participación y tiempo. Por un lado, en participación, el código pretende escanear todas las actividades de trabajo no remunerado de cada persona, con el tratamiento de casos perdidos correspondiente en caso de no responder la pregunta, si el dato no existe o no aplica. Finalmente, se crea la participación de día tipo en base a si la persona participa en al menos una de las actividades de cuidado, domésticas, voluntarias o no. Por otro lado, en la variable de tiempo, se crean columnas temporales para que los datos perdidos no afecten las sumas de tiempo. Luego, se calcula el tiempo total destinado al trabajo no remunerado, ponderando el tiempo de día tipo por 5/7 y el tiempo de fin de semana por 2/7, para obtener una medida más representativa del tiempo semanal destinado a estas actividades.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Derivación de participación </span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    p_tnr_ds <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
+<span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="fl">96</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">1</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">0</span>,</span>
+<span>        <span class="cn">TRUE</span> <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span>,</span>
+<span>    </span>
+<span>    p_tnr_fds <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
+<span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="fl">96</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">1</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">0</span>,</span>
+<span>        <span class="cn">TRUE</span> <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span>,</span>
+<span>    </span>
+<span>    p_tnr_dt <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="va">p_tnr_ds</span> <span class="op">==</span> <span class="fl">1</span> <span class="op">|</span> <span class="va">p_tnr_fds</span> <span class="op">==</span> <span class="fl">1</span> <span class="op">~</span> <span class="fl">1</span>,</span>
+<span>        <span class="va">p_tnr_ds</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">|</span> <span class="va">p_tnr_fds</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">~</span> <span class="fl">96</span>,</span>
+<span>        <span class="va">p_tnr_ds</span> <span class="op">==</span> <span class="fl">0</span> <span class="op">&amp;</span> <span class="va">p_tnr_fds</span> <span class="op">==</span> <span class="fl">0</span> <span class="op">~</span> <span class="fl">0</span></span>
+<span>      <span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">ds_vars_part</span>, <span class="va">fds_vars_part</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Derivación de tiempo</span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>      <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span><span class="op">)</span>,</span>
+<span>      <span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/base/replace.html">replace</a></span><span class="op">(</span><span class="va">.</span>, <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">|</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA</span><span class="op">)</span>,</span>
+<span>      .names <span class="op">=</span> <span class="st">"temp_ds_{col}"</span><span class="op">)</span>,</span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>      <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_tiempo</span><span class="op">)</span>,</span>
+<span>      <span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/base/replace.html">replace</a></span><span class="op">(</span><span class="va">.</span>, <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">|</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA</span><span class="op">)</span>,</span>
+<span>      .names <span class="op">=</span> <span class="st">"temp_fds_{col}"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
+<span>    t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_ds</span><span class="op">)</span>,</span>
+<span>    t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
+<span>    t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_fds</span><span class="op">)</span>,</span>
+<span>    t_tnr_dt <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_ds</span><span class="op">)</span> <span class="op">&amp;</span> <span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_fds</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">*</span> <span class="fl">5</span><span class="op">/</span><span class="fl">7</span><span class="op">)</span> <span class="op">+</span> <span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">*</span> <span class="fl">2</span><span class="op">/</span><span class="fl">7</span><span class="op">)</span>,</span>
+<span>        <span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_ds</span><span class="op">)</span> <span class="op">&amp;</span> <span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_fds</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="va">t_tnr_ds</span> <span class="op">*</span> <span class="fl">5</span><span class="op">/</span><span class="fl">7</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_ds</span><span class="op">)</span> <span class="op">&amp;</span> <span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_fds</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="va">t_tnr_fds</span> <span class="op">*</span> <span class="fl">2</span><span class="op">/</span><span class="fl">7</span>,</span>
+<span>        <span class="cn">TRUE</span> <span class="op">~</span> <span class="cn">NA_real_</span></span>
+<span>      <span class="op">)</span></span>
+<span>  <span class="op">)</span></span>
+<span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span>, <span class="va">fds_vars_tiempo</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Se unen las variables participación/tiempo a la base general y se eliminan columnas para evitar duplicados.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^[pt]_tnr_(ds|fds|dt)$"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">enut_tnr</span>, y <span class="op">=</span> <span class="va">enut_auxiliar</span>,</span>
+<span>                      by <span class="op">=</span> <span class="st">"id_persona"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">enut_auxiliar</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">ENUT_DATA</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"tnr_(ds|fds|dt)"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">ENUT_DATA</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span><span class="va">enut_tnr</span>, by <span class="op">=</span> <span class="st">"id_persona"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">enut_tnr</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>El siguiente paso, es el diseño muestral complejo, para asegurar que los resultados sean representativos de la población. Para esto, se utiliza la función <code>svydesign</code> del paquete <code>survey</code>, especificando las variables de identificación de conglomerados, estratos y pesos muestrales correspondientes a la encuesta.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut1</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">fe_cut</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">disenio</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svydesign.html">svydesign</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">enut1</span>, strata <span class="op">=</span> <span class="op">~</span><span class="va">varstrat</span>,</span>
+<span>                             ids <span class="op">=</span> <span class="op">~</span><span class="va">varunit</span>, weights <span class="op">=</span> <span class="op">~</span><span class="va">fe_cut</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Se hizo una estimación poblacional de trabajo no remunerado, donde se calcula la participación y tiempo totales; participación y tiempo por sexo y, participación y tiempo por sexo y nacionalidad.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Participación y tiempo totales </span></span>
+<span></span>
+<span><span class="va">part_tnr_pdn</span>  <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
+<span>                               by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                               FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>,</span>
+<span>                               na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span>, <span class="st">"cv"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">tiemp_tnr_pdn</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>,</span>
+<span>                               by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                               FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>,</span>
+<span>                               na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span>, <span class="st">"cv"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">n_part</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="fu"><a href="https://rdrr.io/r/base/AsIs.html">I</a></span><span class="op">(</span><span class="va">p_tnr_dt</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                        by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                        FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svytotal</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">part_total</span>  <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
+<span>                             by <span class="op">=</span> <span class="op">~</span><span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                             FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">tiemp_total</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>,</span>
+<span>                             by <span class="op">=</span> <span class="op">~</span><span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                             FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">n_nac</span>       <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="fu"><a href="https://rdrr.io/r/base/AsIs.html">I</a></span><span class="op">(</span><span class="va">p_tnr_dt</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                             by <span class="op">=</span> <span class="op">~</span><span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                             FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svytotal</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">part_sexo</span>  <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
+<span>                            by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                            FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">tiemp_sexo</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>,</span>
+<span>                            by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                            FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">part_gral</span>  <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span><span class="op">(</span><span class="op">~</span><span class="va">p_tnr_dt</span>, design <span class="op">=</span> <span class="va">disenio</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">tiemp_gral</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span><span class="op">(</span><span class="op">~</span><span class="va">t_tnr_dt</span>, design <span class="op">=</span> <span class="va">disenio</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="va">n_gral_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/coef.html">coef</a></span><span class="op">(</span><span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svytotal</a></span><span class="op">(</span><span class="op">~</span><span class="fu"><a href="https://rdrr.io/r/base/AsIs.html">I</a></span><span class="op">(</span><span class="va">p_tnr_dt</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>                                    design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                                    na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span><span class="op">[</span><span class="st">"I(p_tnr_dt == 1)TRUE"</span><span class="op">]</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Los códigos utilizados anteriormente son los códigos modificados para el análisis reproducible, pero basados en los códigos originales que se encuentran en el <em>Manual de uso de la base de datos</em>, por lo que se han adaptado para el proceso de reproducción pero sin alterar su esencia. Para ello, se han utilizado como asistentes los lenguajes de IA Claude opus 4.6 de Anthropic y Gemini pro, que han permitido adaptar el código original a un formato más legible y organizado, sin modificar la lógica ni los pasos del proceso de análisis. Asimismo, pudiendo desarrollar el código específico para la reproducción de la tabla 16 del <em>Informe de Principales Resultados</em> de la ENUT, que no se encuentra en el <em>Manual de uso de la base de datos</em>, pero que se deriva a partir de los códigos originales.</p>
+<p>En ese sentido, los cambios realizados en el código original para el proceso de reproducción fueron necesarios, dado que, si bien el <em>Manual de uso de la base de datos</em> funciona como diccionario y base metodológica para el procesamiento de los datos, la dificultad principal es que plantea el qué hacer con los datos, pero no especifica el cómo ni los códigos exactos necesarios.</p>
+<p>Dentro de las dificultades, los códigos del <em>Manual de uso de base de datos</em> entregan una estructura determinada para el procesamiento, más no el código específico para tratar algunas variables. A su vez, el manual no provee una sola línea de código legible para el procesamiento de la base de datos, sino bloques pequeños que retratan acciones específicas para casos particulares. En otras palabras, la línea completa del código original es el resultado de la unión de varios bloques que se encuentran por separado, por tanto, la búsqueda y tratamiento de las variables de interés se torna compleja. En este caso, dado el tamaño y complejidad de la base de datos, se hizo difícil la selección de variables y su inclusión, por ejemplo, para la identificación de la variable tiempo, en el manual estaba incompleto, por tanto se hizo una búsqueda del nombre de la variable para tratarse como tal y se consultó a la IA, para desarrollar el código necesario para el tratamiento de esta variable en la respectiva reproducibilidad. A su vez, para la derivación de participación, el código no incluía la participación en días de semana completa, constituyéndose como variable central de toda la tabla, por tanto, se hizo necesario desarrollar el código mediante la IA, dado que sin ella (variable), ninguna estimación posterior podría haberse ejecutado. Otra dificulad encontrada es que no existe código que retrate la unión de las variables de interés a la base principal, sin este paso, el diseño muestral complejo no hubiese tenido acceso a las variables derivadas, el manual sólo hace la unión en bases temporales o paralelas. En último lugar, para reproducir la tabla específicamente, en las estimaciones poblacionales, sólo se tuvo que reemplazar “región” que es la variable original que el manual utiliza para la estimación por región, por “pdn” que es la variable de nacionalidad, para hacer las estimaciones de participación chilena versus extranjera.</p>
+</section><section id="reproducción" class="level3" data-number="3.2.2"><h3 data-number="3.2.2" class="anchored" data-anchor-id="reproducción">
+<span class="header-section-number">3.2.2</span> Reproducción</h3>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Construcción de la tabla </span></span>
+<span><span class="va">fmt_hm</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">h</span><span class="op">)</span> <span class="op">{</span></span>
+<span>  <span class="va">hh</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op">(</span><span class="va">h</span><span class="op">)</span></span>
+<span>  <span class="va">mm</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="op">(</span><span class="va">h</span> <span class="op">-</span> <span class="va">hh</span><span class="op">)</span> <span class="op">*</span> <span class="fl">60</span><span class="op">)</span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/sprintf.html">sprintf</a></span><span class="op">(</span><span class="st">"%02d:%02d"</span>, <span class="va">hh</span>, <span class="va">mm</span><span class="op">)</span></span>
+<span><span class="op">}</span></span>
+<span></span>
+<span><span class="va">np</span>     <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">row</span><span class="op">)</span> <span class="va">n_part</span><span class="op">[</span><span class="va">row</span>, <span class="st">"I(p_tnr_dt == 1)TRUE"</span><span class="op">]</span></span>
+<span><span class="va">np_nac</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">row</span><span class="op">)</span> <span class="va">n_nac</span><span class="op">[</span><span class="va">row</span>,  <span class="st">"I(p_tnr_dt == 1)TRUE"</span><span class="op">]</span></span>
+<span></span>
+<span><span class="va">tabla16</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span></span>
+<span>  Nacionalidad <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"Chile"</span>, <span class="st">"Extranjero"</span>, <span class="st">"Total"</span><span class="op">)</span>,</span>
+<span>  N_Hombre <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu">np</span><span class="op">(</span><span class="st">"1.1"</span><span class="op">)</span>, <span class="fu">np</span><span class="op">(</span><span class="st">"1.2"</span><span class="op">)</span>,</span>
+<span>                            <span class="fu">np</span><span class="op">(</span><span class="st">"1.1"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">np</span><span class="op">(</span><span class="st">"1.2"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                    big.mark <span class="op">=</span> <span class="st">"."</span><span class="op">)</span>,</span>
+<span>  N_Mujer  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu">np</span><span class="op">(</span><span class="st">"2.1"</span><span class="op">)</span>, <span class="fu">np</span><span class="op">(</span><span class="st">"2.2"</span><span class="op">)</span>,</span>
+<span>                            <span class="fu">np</span><span class="op">(</span><span class="st">"2.1"</span><span class="op">)</span> <span class="op">+</span> <span class="fu">np</span><span class="op">(</span><span class="st">"2.2"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                    big.mark <span class="op">=</span> <span class="st">"."</span><span class="op">)</span>,</span>
+<span>  N_Total  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/format.html">format</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu">np_nac</span><span class="op">(</span><span class="st">"1"</span><span class="op">)</span>, <span class="fu">np_nac</span><span class="op">(</span><span class="st">"2"</span><span class="op">)</span>, <span class="va">n_gral_val</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                    big.mark <span class="op">=</span> <span class="st">"."</span><span class="op">)</span>,</span>
+<span>  Part_Hombre <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"1.1"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"1.2"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="va">part_sexo</span><span class="op">[</span><span class="st">"1"</span>,  <span class="st">"p_tnr_dt"</span><span class="op">]</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">1</span><span class="op">)</span>,</span>
+<span>  Part_Mujer  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"2.1"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"2.2"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="va">part_sexo</span><span class="op">[</span><span class="st">"2"</span>,  <span class="st">"p_tnr_dt"</span><span class="op">]</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">1</span><span class="op">)</span>,</span>
+<span>  Part_Total  <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">part_total</span><span class="op">[</span><span class="fl">1</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="va">part_total</span><span class="op">[</span><span class="fl">2</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                        <span class="fu"><a href="https://rdrr.io/r/stats/coef.html">coef</a></span><span class="op">(</span><span class="va">part_gral</span><span class="op">)</span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">1</span><span class="op">)</span>,</span>
+<span>  Tiemp_Hombre <span class="op">=</span> <span class="fu">fmt_hm</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"1.1"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"1.2"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="va">tiemp_sexo</span><span class="op">[</span><span class="st">"1"</span>,  <span class="st">"t_tnr_dt"</span><span class="op">]</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>  Tiemp_Mujer  <span class="op">=</span> <span class="fu">fmt_hm</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"2.1"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"2.2"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="va">tiemp_sexo</span><span class="op">[</span><span class="st">"2"</span>,  <span class="st">"t_tnr_dt"</span><span class="op">]</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>  Tiemp_Total  <span class="op">=</span> <span class="fu">fmt_hm</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">tiemp_total</span><span class="op">[</span><span class="fl">1</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="va">tiemp_total</span><span class="op">[</span><span class="fl">2</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>                          <span class="fu"><a href="https://rdrr.io/r/stats/coef.html">coef</a></span><span class="op">(</span><span class="va">tiemp_gral</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">tabla16</span><span class="op">$</span><span class="va">Brecha_Part</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"2.1"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span> <span class="op">-</span> <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"1.1"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>  <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"2.2"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span> <span class="op">-</span> <span class="va">part_tnr_pdn</span><span class="op">[</span><span class="st">"1.2"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>,</span>
+<span>  <span class="va">part_sexo</span><span class="op">[</span><span class="st">"2"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span>      <span class="op">-</span> <span class="va">part_sexo</span><span class="op">[</span><span class="st">"1"</span>, <span class="st">"p_tnr_dt"</span><span class="op">]</span></span>
+<span><span class="op">)</span> <span class="op">*</span> <span class="fl">100</span>, <span class="fl">1</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">tabla16</span><span class="op">$</span><span class="va">Brecha_Tiemp</span> <span class="op">&lt;-</span> <span class="fu">fmt_hm</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"2.1"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span> <span class="op">-</span> <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"1.1"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>  <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"2.2"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span> <span class="op">-</span> <span class="va">tiemp_tnr_pdn</span><span class="op">[</span><span class="st">"1.2"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>,</span>
+<span>  <span class="va">tiemp_sexo</span><span class="op">[</span><span class="st">"2"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span>      <span class="op">-</span> <span class="va">tiemp_sexo</span><span class="op">[</span><span class="st">"1"</span>, <span class="st">"t_tnr_dt"</span><span class="op">]</span></span>
+<span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Visualización de la tabla</span></span>
+<span></span>
+<span><span class="va">tabla16</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/gt.html">gt</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/cols_label.html">cols_label</a></span><span class="op">(</span></span>
+<span>    Nacionalidad <span class="op">=</span> <span class="st">"Nacionalidad"</span>,</span>
+<span>    N_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, N_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, N_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
+<span>    Part_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, Part_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, Part_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
+<span>    Tiemp_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, Tiemp_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, Tiemp_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
+<span>    Brecha_Part <span class="op">=</span> <span class="st">"Part."</span>, Brecha_Tiemp <span class="op">=</span> <span class="st">"Tiempo"</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Número de personas que participan (a)"</span>,</span>
+<span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">N_Hombre</span>, <span class="va">N_Mujer</span>, <span class="va">N_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Participación Día Tipo"</span>,</span>
+<span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Part_Hombre</span>, <span class="va">Part_Mujer</span>, <span class="va">Part_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Tiempo promedio Día Tipo"</span>,</span>
+<span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Tiemp_Hombre</span>, <span class="va">Tiemp_Mujer</span>, <span class="va">Tiemp_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Brechas (b)"</span>,</span>
+<span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Brecha_Part</span>, <span class="va">Brecha_Tiemp</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_header.html">tab_header</a></span><span class="op">(</span></span>
+<span>    title <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/md.html">md</a></span><span class="op">(</span><span class="st">"**Tabla 16**"</span><span class="op">)</span>,</span>
+<span>    subtitle <span class="op">=</span> <span class="st">"Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad, en día tipo"</span></span>
+<span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_style.html">tab_style</a></span><span class="op">(</span></span>
+<span>    style <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/cell_text.html">cell_text</a></span><span class="op">(</span>weight <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
+<span>    locations <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/cells_body.html">cells_body</a></span><span class="op">(</span>rows <span class="op">=</span> <span class="va">Nacionalidad</span> <span class="op">==</span> <span class="st">"Total"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details><div class="cell-output-display">
+<div id="ctiupdicoz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ctiupdicoz table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ctiupdicoz thead, #ctiupdicoz tbody, #ctiupdicoz tfoot, #ctiupdicoz tr, #ctiupdicoz td, #ctiupdicoz th {
+  border-style: none;
+}
+
+#ctiupdicoz p {
+  margin: 0;
+  padding: 0;
+}
+
+#ctiupdicoz .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ctiupdicoz .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ctiupdicoz .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ctiupdicoz .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ctiupdicoz .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ctiupdicoz .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ctiupdicoz .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ctiupdicoz .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ctiupdicoz .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ctiupdicoz .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ctiupdicoz .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ctiupdicoz .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ctiupdicoz .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ctiupdicoz .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ctiupdicoz .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctiupdicoz .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ctiupdicoz .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ctiupdicoz .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ctiupdicoz .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctiupdicoz .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ctiupdicoz .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctiupdicoz .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ctiupdicoz .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctiupdicoz .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ctiupdicoz .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ctiupdicoz .gt_left {
+  text-align: left;
+}
+
+#ctiupdicoz .gt_center {
+  text-align: center;
+}
+
+#ctiupdicoz .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ctiupdicoz .gt_font_normal {
+  font-weight: normal;
+}
+
+#ctiupdicoz .gt_font_bold {
+  font-weight: bold;
+}
+
+#ctiupdicoz .gt_font_italic {
+  font-style: italic;
+}
+
+#ctiupdicoz .gt_super {
+  font-size: 65%;
+}
+
+#ctiupdicoz .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ctiupdicoz .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ctiupdicoz .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ctiupdicoz .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ctiupdicoz .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ctiupdicoz .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ctiupdicoz .gt_indent_5 {
+  text-indent: 25px;
+}
+
+#ctiupdicoz .katex-display {
+  display: inline-flex !important;
+  margin-bottom: 0.75em !important;
+}
+
+#ctiupdicoz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+  height: 0px !important;
+}
+</style>
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 8%">
+</colgroup>
+<thead>
+<tr class="gt_heading header">
+<th colspan="12" class="gt_heading gt_title gt_font_normal"><strong>Tabla 16</strong></th>
+</tr>
+<tr class="gt_heading even">
+<th colspan="12" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad, en día tipo</th>
+</tr>
+<tr class="gt_col_headings gt_spanner_row header">
+<th rowspan="2" id="Nacionalidad" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Nacionalidad</th>
+<th colspan="3" id="Número de personas que participan (a)" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><div class="gt_column_spanner">
+Número de personas que participan (a)
+</div></th>
+<th colspan="3" id="Participación Día Tipo" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><div class="gt_column_spanner">
+Participación Día Tipo
+</div></th>
+<th colspan="3" id="Tiempo promedio Día Tipo" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><div class="gt_column_spanner">
+Tiempo promedio Día Tipo
+</div></th>
+<th colspan="2" id="Brechas (b)" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><div class="gt_column_spanner">
+Brechas (b)
+</div></th>
+</tr>
+<tr class="gt_col_headings even">
+<th id="N_Hombre" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Hombre</th>
+<th id="N_Mujer" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Mujer</th>
+<th id="N_Total" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Total</th>
+<th id="Part_Hombre" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Hombre</th>
+<th id="Part_Mujer" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Mujer</th>
+<th id="Part_Total" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Total</th>
+<th id="Tiemp_Hombre" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Hombre</th>
+<th id="Tiemp_Mujer" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Mujer</th>
+<th id="Tiemp_Total" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Total</th>
+<th id="Brecha_Part" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Part.</th>
+<th id="Brecha_Tiemp" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Tiempo</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Nacionalidad">Chile</td>
+<td class="gt_row gt_right" headers="N_Hombre">6.359.131</td>
+<td class="gt_row gt_right" headers="N_Mujer">6.959.025</td>
+<td class="gt_row gt_right" headers="N_Total">13.318.156</td>
+<td class="gt_row gt_right" headers="Part_Hombre">95.8</td>
+<td class="gt_row gt_right" headers="Part_Mujer">98.3</td>
+<td class="gt_row gt_right" headers="Part_Total">97.1</td>
+<td class="gt_row gt_right" headers="Tiemp_Hombre">02:53</td>
+<td class="gt_row gt_right" headers="Tiemp_Mujer">04:59</td>
+<td class="gt_row gt_right" headers="Tiemp_Total">03:59</td>
+<td class="gt_row gt_right" headers="Brecha_Part">2.6</td>
+<td class="gt_row gt_right" headers="Brecha_Tiemp">02:06</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Nacionalidad">Extranjero</td>
+<td class="gt_row gt_right" headers="N_Hombre">596.388</td>
+<td class="gt_row gt_right" headers="N_Mujer">611.876</td>
+<td class="gt_row gt_right" headers="N_Total">1.208.264</td>
+<td class="gt_row gt_right" headers="Part_Hombre">95.8</td>
+<td class="gt_row gt_right" headers="Part_Mujer">99.3</td>
+<td class="gt_row gt_right" headers="Part_Total">97.5</td>
+<td class="gt_row gt_right" headers="Tiemp_Hombre">02:37</td>
+<td class="gt_row gt_right" headers="Tiemp_Mujer">04:42</td>
+<td class="gt_row gt_right" headers="Tiemp_Total">03:40</td>
+<td class="gt_row gt_right" headers="Brecha_Part">3.5</td>
+<td class="gt_row gt_right" headers="Brecha_Tiemp">02:06</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Nacionalidad" style="font-weight: bold">Total</td>
+<td class="gt_row gt_right" headers="N_Hombre" style="font-weight: bold">6.955.519</td>
+<td class="gt_row gt_right" headers="N_Mujer" style="font-weight: bold">7.570.901</td>
+<td class="gt_row gt_right" headers="N_Total" style="font-weight: bold">14.691.062</td>
+<td class="gt_row gt_right" headers="Part_Hombre" style="font-weight: bold">95.8</td>
+<td class="gt_row gt_right" headers="Part_Mujer" style="font-weight: bold">98.4</td>
+<td class="gt_row gt_right" headers="Part_Total" style="font-weight: bold">97.1</td>
+<td class="gt_row gt_right" headers="Tiemp_Hombre" style="font-weight: bold">02:52</td>
+<td class="gt_row gt_right" headers="Tiemp_Mujer" style="font-weight: bold">04:57</td>
+<td class="gt_row gt_right" headers="Tiemp_Total" style="font-weight: bold">03:57</td>
+<td class="gt_row gt_right" headers="Brecha_Part" style="font-weight: bold">2.6</td>
+<td class="gt_row gt_right" headers="Brecha_Tiemp" style="font-weight: bold">02:05</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Se observa una reproducibilidad exitosa de la Tabla 16, faltando tan solo incluir el color morado que utiliza la tabla original. Así pues, con la adaptación de los códigos originales brindados por el INE y el desarrollo de códigos específicos para la reproducción de la tabla, se logró obtener una tabla con la misma estructura. No obstante, al observar detenidamente los resultados de ambas tablas, se identifican pequeñas variaciones en algunos valores. Más específicamente, en el total de n° de personas que participan (14.526.420 en la tabla original y 14.691.062 en la replicada); en el tiempo promedio día tipo para la mujer chilena (05:00 en original, 04:59 en la replicada), en el total de mujeres de la muestra (04:58 vs 04:57) y también en el total para chilenos (04:00 vs 03:59) y para la muestra en su totalidad (03:58 vs 03:57); finalmente, esas variaciones de un minuto, modifican también los valores de las brechas de tiempo, dado que se calculan a partir de los valores de tiempo promedio. La brecha de tiempo entre chilenos y extranjeros se diferenciaba en dos minutos en la tabla original (02:07 para chilenos y 02:05 para extranjeros), mientras que en la tabla replicada, la brecha se mantiene igual (02:06), dando un total de 02:05 (un minuto menos que en la original). Si bien son variaciones pequeñas, resulta pertinente reportarlo ya que justamente se está evaluando la replicabilidad del estudio. Así también, sería importante identificar el origen de estas variaciones, que podrían deberse a diferencias en el manejo de los datos o a la forma en que se han tratado los casos perdidos, lo cual es de esperar que ocurra frente a la falta de acceso al código original en su totalidad.</p>
+</section></section></section><section id="conclusiones" class="level1" data-number="4"><h1 data-number="4">
+<span class="header-section-number">4</span> Conclusiones</h1>
+<p>A partir del ejercicio realizado, se determina un nivel medio/alto de reproducibilidad, dado que se logró reproducir la Tabla 16 del <em>Informe de Principales Resultados</em> de la ENUT, con una estructura idéntica a la original, aunque con pequeñas variaciones en algunos valores. Respecto a la evaluación realizada antes del análisis reproducible, se concluye que el artículo cumple con los criterios de disponibilidad de datos, documentación y transparencia, pero no cumple con el criterio de disponibilidad de código, lo que dificulta la replicación exacta del análisis realizado. Si bien el <em>Manual de uso de base de datos</em> es muy detallado e incluso en un inicio está equipado de explicaciones para usuarios que desconocen el lenguaje y utilización de softwares de programación, no hay acceso al código específico, lo que hace que sea necesario desarrollar códigos propios con ayuda de Inteligencia Artificial. Es por ello que, si bien cumple con un estándar alto en torno a la transparencia y reproducibilidad, aquello no habría sido logrado sin la utilización de IA ya que no solo existe ausencia de acceso al código original, sino que la base de datos de ENUT es muy compleja de tratar, y, a nuestro criterio, su completa comprensión requiere de una mayor formación profesional en manejo de datos y metodologías cuantitativas en relación al tratamiento de las variables. Asimismo, la necesidad de recurrir a la IA surge justamente del desconocimiento para tratar correctamente los datos y llegar así a replicar exactamente el estudio, lo que se traduce en una dificultad adicional para la reproducibilidad. Por lo tanto, si bien se logró una reproducción exitosa de la tabla, el proceso no fue directo en cuanto a la revisión de los documentos disponibles, lo que evidencia la importancia de contar con acceso al código original para facilitar la replicación exacta del estudio y aumentar la transparencia y reproducibilidad de la investigación.</p>
+</section><section id="recomendaciones" class="level1" data-number="5"><h1 data-number="5">
+<span class="header-section-number">5</span> Recomendaciones</h1>
+<p>Recomendamos como grupo que el Instituto Nacional de Estadística de Chile, en futuras publicaciones, entregue acceso al código utilizado para el análisis, lo que facilitaría la replicación exacta del estudio y aumentaría la transparencia y reproducibilidad de la investigación. Además, sugerimos que se incluya una sección específica en el artículo donde se detalle el proceso de análisis y se proporcionen los códigos utilizados, o bien, que se publique un repositorio con toda esta información. Esto no solo beneficiaría a otros investigadores interesados en replicar el estudio, sino que también contribuiría a fortalecer la confianza en los resultados presentados y a fomentar una cultura de apertura y colaboración en la investigación científica.</p>
+</section><section id="referencias" class="level1" data-number="6"><h1 data-number="6">
+<span class="header-section-number">6</span> Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-ineficha2025" class="csl-entry" role="listitem">
+Instituto Nacional de Estadísticas. (2025a). <em><span>Ficha metodológica: II Encuesta sobre Uso del Tiempo 2023</span></em>. Institución Nacional de Estadísticas - Chile. Subdepartamento de Estadísticas Estructurales del Trabajo.
+</div>
+<div id="ref-ineinforme2025" class="csl-entry" role="listitem">
+Instituto Nacional de Estadísticas. (2025b). <em><span>Informe de principales resultados: II Encuesta Nacional sobre Uso del Tiempo (II ENUT)</span></em>. Institución Nacional de Estadísticas - Chile. Subdepartamento de Estadísticas Estructurales del Trabajo.
+</div>
+<div id="ref-inemanual2025" class="csl-entry" role="listitem">
+Instituto Nacional de Estadísticas. (2025c). <em><span>Manual de uso de la base de datos II ENUT: II Encuesta Nacional sobre Uso del Tiempo</span></em>. Institución Nacional de Estadísticas - Chile. Subdepartamento de Estadísticas Estructurales del Trabajo.
+</div>
+<div id="ref-inedocumento2025" class="csl-entry" role="listitem">
+Instituto Nacional de Estadísticas. (2025d). <em><span>Documento metodológico II ENUT: II Encuesta sobre Uso del Tiempo</span></em>.
+</div>
+<div id="ref-ineinforme2026" class="csl-entry" role="listitem">
+Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENUT: II Encuesta sobre Uso del Tiempo</span></em>. Instituto Nacional de Estadísticas - Chile. Subdepartamento de Estadísticas Estructurales del Trabajo.
+</div>
+</div>
+</section><section id="apéndice" class="level1" data-number="7"><h1 data-number="7">
+<span class="header-section-number">7</span> Apéndice</h1>
+<section id="código" class="level2" data-number="7.1"><h2 data-number="7.1" class="anchored" data-anchor-id="código">
+<span class="header-section-number">7.1</span> Código</h2>
+<p>A continuación, el código original que se encuentra en el Manual de Uso de Base de Datos. Como se menciona en el análisis, no es un código legible ni completo para el proceso de reproducción, dado que la línea completa es el resultado de la unión de varios bloques separados, por lo que se hizo necesario adaptarlo y desarrollarlo. Por tanto, correrlo no tendrá efectos en la base de datos ni la reproducibilidad de la tabla.</p>
+<div class="cell">
+<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># PASO 2: Identificación de variables participación y tiempo ---- </span></span>
+<span><span class="co">## Variables de participación </span></span>
+<span><span class="va">ds_vars_part</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_p_ds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_p_ds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_p_ds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span> </span>
+<span><span class="va">fds_vars_part</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_p_fds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_p_fds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_p_fds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">## Variables de tiempo </span></span>
+<span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_t(_n[1-4])?_ds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_t_ds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_t_ds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span>  <span class="va">fds_vars_tiempo</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_t(_n[1-4])?_fds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_t_fds$"</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_t_fds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># PASO 3: CREACIÓN DE BASE AUXILIAR ---- </span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="va">tiempo</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span>match <span class="op">=</span> <span class="va">ds_vars_part</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span>match <span class="op">=</span> <span class="va">fds_vars_part</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co"># PASO 4: DERIVAR VARIABLE DE PARTICIPACIÓN  ---- </span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span></span>
+<span>  <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    p_tnr_ds <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="co"># Cuando no hay CUT, asigna NA</span></span>
+<span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
+<span>        <span class="co"># Si todos los valores son 96, asigna 96</span></span>
+<span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>,</span>
+<span>          <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="fl">96</span>,</span>
+<span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
+<span>        <span class="co"># ...el resultado es mayor a 0, asigna 1</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">1</span>,</span>
+<span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
+<span>        <span class="co"># ...el resultado es igual a 0, asigna 0</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">0</span>,</span>
+<span>        <span class="co"># En cualquier otro escenario, asigna NA</span></span>
+<span>        <span class="cn">TRUE</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span></span>
+<span>  <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    p_tnr_fds <span class="op">=</span></span>
+<span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
+<span>        <span class="co"># Cuando no hay CUT, asigna NA</span></span>
+<span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
+<span>        <span class="co"># Si todos los valores son 96, asigna 96</span></span>
+<span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>,</span>
+<span>          <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
+<span>        <span class="op">~</span> <span class="fl">96</span>,</span>
+<span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
+<span>        <span class="co"># ...el resultado es mayor a 0, asigna 1</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">1</span>,</span>
+<span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
+<span>        <span class="co"># ...el resultado es igual a 0, asigna 0</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
+<span>        <span class="op">~</span> <span class="fl">0</span>,</span>
+<span>        <span class="co"># En cualquier otro escenario, asigna NA</span></span>
+<span>        <span class="cn">TRUE</span></span>
+<span>        <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># PASO 5: DERIVACIÓN DE VARIABLE TIEMPO ----</span></span>
+<span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span></span>
+<span>  <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>,</span>
+<span>         <span class="va">tiempo</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span>match<span class="op">=</span><span class="va">ds_vars_tiempo</span><span class="op">)</span>,</span>
+<span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span>match<span class="op">=</span><span class="va">fds_vars_tiempo</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span></span>
+<span>  <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>      <span class="co"># En todas las variables de ds_vars_tiempo...</span></span>
+<span>      <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span><span class="op">)</span>,</span>
+<span>      <span class="co"># ... si la variable toma el valor 96 o 0, asigna NA</span></span>
+<span>      <span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/base/replace.html">replace</a></span><span class="op">(</span><span class="va">.</span>, <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">|</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA</span><span class="op">)</span>,</span>
+<span>      <span class="co"># Guarda esto en una columna con el mismo nombre...</span></span>
+<span>      <span class="co"># ...pero agrega el prefijo "temp_ds"</span></span>
+<span>      .names <span class="op">=</span> <span class="st">"temp_ds_{col}"</span><span class="op">)</span>,</span>
+<span>    <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
+<span>      <span class="co"># En todas las variables de fds_vars_tiempo...</span></span>
+<span>      <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_tiempo</span><span class="op">)</span>,</span>
+<span>      <span class="co"># ...si la variable toma el valor 96 o 0, asigna NA</span></span>
+<span>      <span class="op">~</span> <span class="fu"><a href="https://rdrr.io/r/base/replace.html">replace</a></span><span class="op">(</span><span class="va">.</span>, <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span> <span class="op">|</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA</span><span class="op">)</span>,</span>
+<span>      <span class="co"># Guarda esto en una columna con el mismo nombre...</span></span>
+<span>      <span class="co"># ...pero agrega el prefijo "temp_fds"</span></span>
+<span>      .names <span class="op">=</span> <span class="st">"temp_fds_{col}"</span><span class="op">)</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">## CÁLCULO DE TIEMPO </span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                            na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>, t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">==</span></span>
+<span>                                                                <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_ds</span><span class="op">)</span>, t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                                                                                                            na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>, t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">==</span></span>
+<span>                                                                                                                                                 <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_fds</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>t_tnr_dt <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_ds</span><span class="op">)</span> <span class="op">&amp;</span> <span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">t_tnr_fds</span><span class="op">)</span>,</span>
+<span>                            <span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">*</span> <span class="fl">5</span><span class="op">/</span><span class="fl">7</span><span class="op">)</span> <span class="op">+</span> <span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">*</span> <span class="fl">2</span><span class="op">/</span><span class="fl">7</span><span class="op">)</span>, <span class="fu"><a href="https://dplyr.tidyverse.org/reference/coalesce.html">coalesce</a></span><span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">*</span></span>
+<span>                                                                             <span class="fl">5</span><span class="op">/</span><span class="fl">7</span>, <span class="va">t_tnr_fds</span> <span class="op">*</span> <span class="fl">2</span><span class="op">/</span><span class="fl">7</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span>, <span class="va">fds_vars_tiempo</span><span class="op">)</span> <span class="co"># Limpiar ambiente global</span></span>
+<span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span>match <span class="op">=</span> <span class="st">"^t\\_tnr\\_(ds|fds|dt)$"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">enut_tnr</span>, y <span class="op">=</span> <span class="va">enut_auxiliar</span>,</span>
+<span>                      by <span class="op">=</span> <span class="st">"id_persona"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">enut_auxiliar</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co"># Paso 7: Diseño muestral complejo ---- </span></span>
+<span></span>
+<span><span class="va">enut1</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">tiempo</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">disenio</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svydesign.html">svydesign</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">enut1</span>, strata <span class="op">=</span> <span class="op">~</span><span class="va">varstrat</span>,</span>
+<span>                             ids <span class="op">=</span> <span class="op">~</span><span class="va">varunit</span>, weights <span class="op">=</span> <span class="op">~</span><span class="va">fe_cut</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co"># PASO 8: ESTIMACIONES POBLACIONALES  ---- </span></span>
+<span></span>
+<span><span class="co">## Participación y tiempo totales </span></span>
+<span></span>
+<span><span class="va">part_tnr</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyciprop.html">svyciprop</a></span><span class="op">(</span><span class="op">~</span><span class="va">p_tnr_dt</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                              na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">part_tnr</span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">tiemp_tnr</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span><span class="op">(</span><span class="op">~</span><span class="va">t_tnr_dt</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
+<span>                             na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">tiemp_tnr</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co">## Participación y tiempo totales por sexo </span></span>
+<span></span>
+<span><span class="va">part_tnr_sexo</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
+<span>                               by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span>, design <span class="op">=</span> <span class="va">disenio</span>, FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/svyciprop.html">svyciprop</a></span>,</span>
+<span>                               na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span>, <span class="st">"cv"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">tiemp_tnr_sexo</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>, by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span>,</span>
+<span>                        design <span class="op">=</span> <span class="va">disenio</span>, FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span>,</span>
+<span>                        vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span>, <span class="st">"cv"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">tiemp_tnr_sexo</span><span class="op">)</span></span>
+<span></span>
+<span></span>
+<span><span class="co">## Participación por sexo y nacionalidad </span></span>
+<span></span>
+<span><span class="va">part_tnr_sexo_reg</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
+<span>                                   by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">region_ord</span>, design <span class="op">=</span> <span class="va">disenio</span>, FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/svyciprop.html">svyciprop</a></span>,</span>
+<span>                                   na.rm <span class="op">=</span> <span class="cn">TRUE</span>, vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">part_tnr_sexo_reg</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co">## se reemplaza región por nacionalidad </span></span>
+<span><span class="va">tiemp_tnr_sexo_reg</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>,</span>
+<span>                                    by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">region_ord</span>, design <span class="op">=</span> <span class="va">disenio</span>, FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>,</span>
+<span>                                    vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">tiemp_tnr_sexo_reg</span><span class="op">)</span> </span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+
+
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/multinivel-facso\.netlify\.app");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://www.jc-castillo.com">Juan Castillo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br><a href="https://github.com/cursos-metodos-facso/cienciasocialabierta2026">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+</body></html>

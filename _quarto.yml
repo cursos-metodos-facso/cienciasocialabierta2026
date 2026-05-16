@@ -4,7 +4,14 @@ project:
   render:
     - "*.qmd"
     - "trabajos/*.qmd"
-    - "!trabajos/informe1/**"
+    - "trabajos/informe1/**/*.qmd"
+    - "!trabajos/informe1/grupo2/**"
+    - "!trabajos/informe1/grupo4/**"
+    - "!trabajos/informe1/grupo5/**"
+    - "!trabajos/informe1/grupo6/**"
+    - "!trabajos/informe1/grupo8/**"
+    - "!trabajos/informe1/grupo9/**"
+    - "!trabajos/informe1/template-correccion-trabajo1.qmd"
     - "!slides/"
   resources:
     - "files/"
