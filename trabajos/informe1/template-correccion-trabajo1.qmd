@@ -21,7 +21,7 @@ format:
 
 ## Matriz de Evaluación
 
-### 1. Selección del artículo (0.5 puntos máximo)
+### Selección del artículo (0.5 puntos máximo)
 
 | Criterio | Evaluación | Puntaje | Comentarios |
 |----------|-----------|---------|------------|
@@ -29,13 +29,19 @@ format:
 | Accesibilidad (abierto o disponible) | [ ] Sí [ ] No [ ] Parcial | __ / 0.25 | |
 | **Subtotal sección 1** | | **__ / 0.50** | |
 
+**Comentario final sección 1 (breve):**
+Fortalezas: selección pertinente y accesible del insumo.
+Áreas de mejora: reforzar justificación del caso y su alcance analítico.
+Feedback detallado (si corresponde): explicitar en 2-3 líneas por qué esta elección aporta al objetivo de reproducibilidad.
+
+
 ---
 
-### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+### Evaluación de Reproducibilidad (2.0 puntos máximo)
 
 En esta sección, el puntaje se asigna por la calidad del comentario crítico del grupo sobre cada criterio, aunque el artículo/reporte original no cumpla plenamente en disponibilidad.
 
-#### 2.1 Disponibilidad de datos (0.5 puntos)
+#### Disponibilidad de datos (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -47,7 +53,7 @@ En esta sección, el puntaje se asigna por la calidad del comentario crítico de
 
 ---
 
-#### 2.2 Disponibilidad de código (0.5 puntos)
+#### Disponibilidad de código (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -59,7 +65,7 @@ En esta sección, el puntaje se asigna por la calidad del comentario crítico de
 
 ---
 
-#### 2.3 Documentación Metodológica (0.5 puntos)
+#### Documentación Metodológica (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -71,7 +77,7 @@ En esta sección, el puntaje se asigna por la calidad del comentario crítico de
 
 ---
 
-#### 2.4 Transparencia (0.5 puntos)
+#### Transparencia (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -85,9 +91,15 @@ En esta sección, el puntaje se asigna por la calidad del comentario crítico de
 
 **Subtotal sección 2:** __ / 2.00
 
+**Comentario final sección 2 (breve):**
+Fortalezas: evaluación crítica de datos, código, documentación y transparencia.
+Áreas de mejora: añadir evidencia puntual para sustentar observaciones clave.
+Feedback detallado (si corresponde): priorizar hallazgos con mayor impacto sobre la reproducibilidad y su verificación.
+
+
 ---
 
-### 3. Análisis Reproducible (3.0 puntos máximo)
+### Análisis Reproducible (3.0 puntos máximo)
 
 Si el archivo original no renderiza correctamente, se debe:
 
@@ -96,7 +108,7 @@ Si el archivo original no renderiza correctamente, se debe:
 3. Crear un archivo corregido separado, por ejemplo `trabajo1-corregido.qmd`.
 4. Dejar claramente destacadas en ese archivo las correcciones realizadas.
 
-#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+#### Definición de tabla o figura a reproducir (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -107,7 +119,7 @@ Si el archivo original no renderiza correctamente, se debe:
 
 ---
 
-#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+#### Documentación de pasos, decisiones y dificultades (1.0 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -120,7 +132,7 @@ Si el archivo original no renderiza correctamente, se debe:
 
 ---
 
-#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+#### Reporte verificable de resultados de reproducción (1.0 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -135,7 +147,7 @@ Si el archivo original no renderiza correctamente, se debe:
 
 ---
 
-#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+#### Explicación de límites si no hay reproducción completa (0.5 puntos)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -150,9 +162,15 @@ Si el archivo original no renderiza correctamente, se debe:
 **Subtotal sección 3:** __ / 3.00  
 **Reproducibilidad lograda:** [ ] Completa [ ] Parcial [ ] Incompleta
 
+**Comentario final sección 3 (breve):**
+Fortalezas: trazabilidad del proceso y presentación verificable de resultados.
+Áreas de mejora: documentar mejor supuestos, alternativas probadas y límites técnicos.
+Feedback detallado (si corresponde): dejar pasos mínimos de ejecución para replicar resultados en otro entorno.
+
+
 ---
 
-### 4. Conclusiones (0.5 puntos máximo)
+### Conclusiones (0.5 puntos máximo)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -162,9 +180,15 @@ Si el archivo original no renderiza correctamente, se debe:
 
 **Puntaje 4:** __ / 0.50
 
+**Comentario final sección 4 (breve):**
+Fortalezas: conclusiones alineadas con la evidencia presentada.
+Áreas de mejora: acotar afirmaciones generales y enfatizar hallazgos centrales.
+Feedback detallado (si corresponde): separar con claridad resultados, interpretación y alcance de inferencia.
+
+
 ---
 
-### 5. Recomendaciones (0.5 puntos máximo)
+### Recomendaciones (0.5 puntos máximo)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -174,9 +198,15 @@ Si el archivo original no renderiza correctamente, se debe:
 
 **Puntaje 5:** __ / 0.50
 
+**Comentario final sección 5 (breve):**
+Fortalezas: recomendaciones orientadas a mejorar la reproducibilidad.
+Áreas de mejora: priorizar acciones por factibilidad e impacto.
+Feedback detallado (si corresponde): convertir recomendaciones en pasos accionables de corto plazo.
+
+
 ---
 
-### 6. Formato del Reporte (0.5 puntos máximo)
+### Formato del Reporte (0.5 puntos máximo)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -190,6 +220,12 @@ Si el archivo original no renderiza correctamente, se debe:
 | Renderizado HTML sin errores | [ ] Correcto [ ] Menor problema [ ] Errores | |
 
 **Puntaje 6:** __ / 0.50
+
+**Comentario final sección 6 (breve):**
+Fortalezas: estructura del reporte legible y con componentes principales.
+Áreas de mejora: estandarizar formato, referencias y convenciones de citación.
+Feedback detallado (si corresponde): verificar consistencia IPO, bibliografía y render limpio antes de entregar.
+
 
 ---
 
@@ -207,33 +243,3 @@ Si el archivo original no renderiza correctamente, se debe:
 | 6. Formato del reporte | __ | 0.50 |
 | **TOTAL** | **__** | **7.00** |
 
-### Evaluación General
-
-**Fortalezas principales:**
-- [Completar]
-- [Completar]
-- [Completar]
-
-**Áreas de mejora:**
-- [Completar]
-- [Completar]
-- [Completar]
-
----
-
-## Feedback Detallado al Grupo
-
-### Comentarios Generales
-
-[Espacio para comentarios generales sobre el trabajo]
-
-### Retroalimentación por Sección
-
-**Sección de Reproducibilidad:**
-[Comentarios específicos]
-
-**Sección de Análisis Reproducible:**
-[Comentarios específicos]
-
-**Recomendaciones de Mejora:**
-[Detalles de acciones sugeridas]

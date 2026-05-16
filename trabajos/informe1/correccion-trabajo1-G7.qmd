@@ -12,8 +12,8 @@ format:
 
 ## Información del Grupo
 
-| Aspecto | Dato |
-|---------|------|
+|  |  |
+|---|---|
 | **Grupo** | Grupo 7 |
 | **Integrantes** | Catalina Parra A., Juan Gutiérrez G., Eduardo Ortiz A. |
 | **Repositorio** | [proyecto-casen-grupo7](https://github.com/Sebagarz/proyecto-casen-grupo7) |
@@ -24,7 +24,7 @@ format:
 
 ## Matriz de Evaluación
 
-### 1. Selección del artículo (0.5 puntos máximo)
+### Selección del artículo (0.5)
 
 | Criterio | Evaluación | Puntaje | Comentarios |
 |----------|-----------|---------|------------|
@@ -32,11 +32,14 @@ format:
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El informe y las bases CASEN son accesibles |
 | **Subtotal sección 1** | | **0.50 / 0.50** | Selección pertinente |
 
+**Comentarios:**
+La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
+
 ---
 
-### 2. Evaluación de Reproducibilidad (2.0 puntos máximo)
+### Evaluación de Reproducibilidad (2.0)
 
-#### 2.1 Disponibilidad de datos (0.5 puntos)
+#### Disponibilidad de datos (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -46,11 +49,12 @@ format:
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:** Buena evaluación crítica de la disponibilidad de datos, especialmente al notar el problema de comparabilidad entre años.
+**Comentarios:**
+El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
 
 ---
 
-#### 2.2 Disponibilidad de código (0.5 puntos)
+#### Disponibilidad de código (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -60,11 +64,12 @@ format:
 
 **Puntaje 2.2:** 0.50 / 0.50
 
-**Comentarios:** El grupo comenta bien la ausencia de código y explica cómo resolvió ese vacío.
+**Comentarios:**
+La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
 
 ---
 
-#### 2.3 Documentación Metodológica (0.5 puntos)
+#### Documentación Metodológica (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -74,11 +79,12 @@ format:
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:** Buena lectura del problema metodológico: el informe comunica resultados, pero no reemplaza la documentación técnica requerida para una réplica independiente.
+**Comentarios:**
+La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
 
 ---
 
-#### 2.4 Transparencia (0.5 puntos)
+#### Transparencia (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -88,7 +94,8 @@ format:
 
 **Puntaje 2.4:** 0.50 / 0.50
 
-**Comentarios:** La sección está bien resuelta y muestra criterio crítico suficiente.
+**Comentarios:**
+El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
 
 ---
 
@@ -96,9 +103,9 @@ format:
 
 ---
 
-### 3. Análisis Reproducible (3.0 puntos máximo)
+### Análisis Reproducible (3.0)
 
-#### 3.1 Definición de tabla o figura a reproducir (0.5 puntos)
+#### Definición de tabla o figura a reproducir (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -107,11 +114,12 @@ format:
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:** La selección del resultado es pertinente y está bien explicada.
+**Comentarios:**
+La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
 
 ---
 
-#### 3.2 Documentación de pasos, decisiones y dificultades (1.0 puntos)
+#### Documentación de pasos, decisiones y dificultades (1.0)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -122,11 +130,12 @@ format:
 
 **Puntaje 3.2:** 0.50 / 1.00
 
-**Comentarios:** Hay buen trabajo detrás, pero el informe principal podría documentar mejor la cadena completa desde las bases originales hasta el gráfico final.
+**Comentarios:**
+La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
 
 ---
 
-#### 3.3 Reporte verificable de resultados de reproducción (1.0 puntos)
+#### Reporte verificable de resultados de reproducción (1.0)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -139,11 +148,12 @@ format:
 
 **Puntaje 3.3:** 0.75 / 1.00
 
-**Comentarios:** El informe entrega un resultado verificable, pero la reproducibilidad completa del flujo desde datos brutos hasta salida final podría estar mejor integrada.
+**Comentarios:**
+La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
 
 ---
 
-#### 3.4 Explicación de límites si no hay reproducción completa (0.5 puntos)
+#### Explicación de límites si no hay reproducción completa (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -153,7 +163,8 @@ format:
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:** Buena explicación de por qué la réplica no es completamente equivalente a la serie original.
+**Comentarios:**
+La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
 
 ---
 
@@ -161,7 +172,7 @@ format:
 
 ---
 
-### 4. Conclusiones (0.5 puntos máximo)
+### Conclusiones (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -171,11 +182,12 @@ format:
 
 **Puntaje 4:** 0.50 / 0.50
 
-**Comentarios:** Cierre coherente con la evidencia del informe.
+**Comentarios:**
+Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
 
 ---
 
-### 5. Recomendaciones (0.5 puntos máximo)
+### Recomendaciones (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -185,11 +197,12 @@ format:
 
 **Puntaje 5:** 0.50 / 0.50
 
-**Comentarios:** Buen conjunto de recomendaciones, aunque sería mejor ordenarlas con un poco más de jerarquía.
+**Comentarios:**
+Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
 
 ---
 
-### 6. Formato del Reporte (0.5 puntos máximo)
+### Formato del Reporte (0.5)
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
@@ -204,11 +217,18 @@ format:
 
 **Puntaje 6:** 0.25 / 0.50
 
-**Comentarios:** El trabajo cumple estructuralmente, pero la integración bibliográfica y la revisión formal del texto quedaron por debajo de lo esperado.
+**Comentarios:**
+El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
 
 ---
 
 ## Resumen de Evaluación
+
+### Comentario general del trabajo
+
+El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+
+### Puntajes por Sección
 
 | Sección | Puntaje | Máximo |
 |---------|---------|--------|
@@ -220,34 +240,3 @@ format:
 | 6. Formato del reporte | 0.25 | 0.50 |
 | **TOTAL** | **6.00** | **7.00** |
 
-## Fortalezas principales
-
-1. Buen juicio crítico sobre la disponibilidad real de datos y documentación técnica.
-2. El informe renderiza y presenta claramente el resultado reproducido.
-3. El repositorio mantiene una estructura ordenada de trabajo.
-
-## Áreas de mejora
-
-1. Integrar mejor en el informe principal el flujo completo desde datos brutos a resultado final.
-2. Usar efectivamente archivo `.bib` y citas bibliográficas en el texto.
-3. Revisar redacción, puntuación y precisión formal antes de la entrega.
-
-## Feedback Detallado al Grupo
-
-### Comentarios Generales
-
-Es un trabajo correcto y bien orientado. La principal debilidad no es conceptual, sino de documentación del flujo técnico completo y de terminación formal del informe.
-
-### Retroalimentación por Sección
-
-**Sección de Reproducibilidad:** bien desarrollada. El grupo entiende correctamente dónde están los principales obstáculos de reproducibilidad del informe CASEN.
-
-**Sección de Análisis Reproducible:** cumple, pero sería mejor que el documento principal mostrara con mayor claridad el proceso completo y no descansara tanto en objetos ya procesados.
-
-**Recomendaciones de Mejora:** reforzar bibliografía reproducible, limpiar redacción y hacer más transparente la cadena de procesamiento.
-
-## Evaluación Final
-
-**Puntaje Total: 6.00 / 7.00**
-
-**Recomendación:** Buen trabajo en diagnóstico y resultado final. La mejora más clara está en documentar mejor el flujo reproducible y cerrar el formato académico del informe.
