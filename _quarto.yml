@@ -13,6 +13,7 @@ project:
     - "!trabajos/informe1/grupo9/**"
     - "!trabajos/informe1/template-correccion-trabajo1.qmd"
     - "!slides/"
+    - "!files/templates/*.qmd"
   resources:
     - "files/"
     - "projects/"

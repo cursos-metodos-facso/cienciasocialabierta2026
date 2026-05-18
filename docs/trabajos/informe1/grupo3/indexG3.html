@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Josefina Bustos">
 <meta name="author" content="Benjamin Casacuberta">
@@ -86,14 +86,15 @@ div.csl-indent {
 <link href="../../../files/logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-a041ce5a50ad126f989c5fa9aabfc010.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-83b5f98645410e4775db3e3aed075220.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -109,7 +110,7 @@ div.csl-indent {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -140,6 +141,8 @@ div.csl-indent {
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ciencia Social Abierta</span>
     </a>
@@ -290,7 +293,7 @@ div.csl-indent {
 <span class="header-section-number">3.2.1</span> Procesamiento</h3>
 <p>En primer lugar, se cargan las librerías necesarias para el procesamiento de los datos y se descarga la bases de datos (que se encuentra en input, data, original), para luego hacer la identificación de las variables de interés, que en este caso son las variables de participación y tiempo destinado al trabajo no remunerado, tanto para día tipo como para fin de semana.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Cargar librerías necesarias</span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Cargar librerías necesarias</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://haven.tidyverse.org">haven</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://r-survey.r-forge.r-project.org/survey/">survey</a></span><span class="op">)</span></span>
@@ -322,22 +325,22 @@ div.csl-indent {
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_t(_n[1-4])?_fds$"</span><span class="op">)</span>,</span>
 <span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_t_fds$"</span><span class="op">)</span>,</span>
 <span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tv\\d*_t_fds$"</span><span class="op">)</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html">names</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Se crea una base auxiliar que contiene únicamente la identificación de la persona, en base a si contestó o no el cuestionario, pero sin alterar la base original.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span> <span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span> <span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="va">tiempo</span>,</span>
 <span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>,</span>
 <span>         <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_tiempo</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
-<span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span><span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Posteriormente, se procede a derivar las variables de participación y tiempo. Por un lado, en participación, el código pretende escanear todas las actividades de trabajo no remunerado de cada persona, con el tratamiento de casos perdidos correspondiente en caso de no responder la pregunta, si el dato no existe o no aplica. Finalmente, se crea la participación de día tipo en base a si la persona participa en al menos una de las actividades de cuidado, domésticas, voluntarias o no. Por otro lado, en la variable de tiempo, se crean columnas temporales para que los datos perdidos no afecten las sumas de tiempo. Luego, se calcula el tiempo total destinado al trabajo no remunerado, ponderando el tiempo de día tipo por 5/7 y el tiempo de fin de semana por 2/7, para obtener una medida más representativa del tiempo semanal destinado a estas actividades.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Derivación de participación </span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Derivación de participación </span></span>
 <span></span>
 <span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
@@ -346,12 +349,12 @@ div.csl-indent {
 <span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
 <span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
 <span>        <span class="op">~</span> <span class="fl">96</span>,</span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">1</span>,</span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">0</span>,</span>
 <span>        <span class="cn">TRUE</span> <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span>,</span>
@@ -361,12 +364,12 @@ div.csl-indent {
 <span>        <span class="va">tiempo</span> <span class="op">==</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="cn">NA_real_</span>,</span>
 <span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
 <span>        <span class="op">~</span> <span class="fl">96</span>,</span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">1</span>,</span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">0</span>,</span>
 <span>        <span class="cn">TRUE</span> <span class="op">~</span> <span class="cn">NA_real_</span><span class="op">)</span>,</span>
@@ -396,9 +399,9 @@ div.csl-indent {
 <span></span>
 <span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
-<span>    t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
+<span>    t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
 <span>    t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_ds</span><span class="op">)</span>,</span>
-<span>    t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
+<span>    t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>,</span>
 <span>    t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">==</span> <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_fds</span><span class="op">)</span>,</span>
 <span>    t_tnr_dt <span class="op">=</span></span>
 <span>      <span class="fu"><a href="https://dplyr.tidyverse.org/reference/case_when.html">case_when</a></span><span class="op">(</span></span>
@@ -412,12 +415,12 @@ div.csl-indent {
 <span>      <span class="op">)</span></span>
 <span>  <span class="op">)</span></span>
 <span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span>, <span class="va">fds_vars_tiempo</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">ds_vars_tiempo</span>, <span class="va">fds_vars_tiempo</span><span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Se unen las variables participación/tiempo a la base general y se eliminan columnas para evitar duplicados.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">id_persona</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^[pt]_tnr_(ds|fds|dt)$"</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">enut_tnr</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">enut_tnr</span>, y <span class="op">=</span> <span class="va">enut_auxiliar</span>,</span>
@@ -426,21 +429,21 @@ div.csl-indent {
 <span></span>
 <span><span class="va">ENUT_DATA</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"tnr_(ds|fds|dt)"</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">ENUT_DATA</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate-joins.html">left_join</a></span><span class="op">(</span><span class="va">enut_tnr</span>, by <span class="op">=</span> <span class="st">"id_persona"</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">enut_tnr</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span><span class="va">enut_tnr</span><span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>El siguiente paso, es el diseño muestral complejo, para asegurar que los resultados sean representativos de la población. Para esto, se utiliza la función <code>svydesign</code> del paquete <code>survey</code>, especificando las variables de identificación de conglomerados, estratos y pesos muestrales correspondientes a la encuesta.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut1</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">enut1</span> <span class="op">&lt;-</span> <span class="va">ENUT_DATA</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">fe_cut</span><span class="op">)</span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">disenio</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svydesign.html">svydesign</a></span><span class="op">(</span>data <span class="op">=</span> <span class="va">enut1</span>, strata <span class="op">=</span> <span class="op">~</span><span class="va">varstrat</span>,</span>
-<span>                             ids <span class="op">=</span> <span class="op">~</span><span class="va">varunit</span>, weights <span class="op">=</span> <span class="op">~</span><span class="va">fe_cut</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>                             ids <span class="op">=</span> <span class="op">~</span><span class="va">varunit</span>, weights <span class="op">=</span> <span class="op">~</span><span class="va">fe_cut</span><span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Se hizo una estimación poblacional de trabajo no remunerado, donde se calcula la participación y tiempo totales; participación y tiempo por sexo y, participación y tiempo por sexo y nacionalidad.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Participación y tiempo totales </span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Participación y tiempo totales </span></span>
 <span></span>
 <span><span class="va">part_tnr_pdn</span>  <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">p_tnr_dt</span>,</span>
 <span>                               by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">pdn</span>, design <span class="op">=</span> <span class="va">disenio</span>,</span>
@@ -477,7 +480,7 @@ div.csl-indent {
 <span><span class="va">tiemp_gral</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span><span class="op">(</span><span class="op">~</span><span class="va">t_tnr_dt</span>, design <span class="op">=</span> <span class="va">disenio</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="va">n_gral_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/stats/coef.html">coef</a></span><span class="op">(</span><span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svytotal</a></span><span class="op">(</span><span class="op">~</span><span class="fu"><a href="https://rdrr.io/r/base/AsIs.html">I</a></span><span class="op">(</span><span class="va">p_tnr_dt</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>                                    design <span class="op">=</span> <span class="va">disenio</span>,</span>
-<span>                                    na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span><span class="op">[</span><span class="st">"I(p_tnr_dt == 1)TRUE"</span><span class="op">]</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>                                    na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span><span class="op">)</span><span class="op">[</span><span class="st">"I(p_tnr_dt == 1)TRUE"</span><span class="op">]</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Los códigos utilizados anteriormente son los códigos modificados para el análisis reproducible, pero basados en los códigos originales que se encuentran en el <em>Manual de uso de la base de datos</em>, por lo que se han adaptado para el proceso de reproducción pero sin alterar su esencia. Para ello, se han utilizado como asistentes los lenguajes de IA Claude opus 4.6 de Anthropic y Gemini pro, que han permitido adaptar el código original a un formato más legible y organizado, sin modificar la lógica ni los pasos del proceso de análisis. Asimismo, pudiendo desarrollar el código específico para la reproducción de la tabla 16 del <em>Informe de Principales Resultados</em> de la ENUT, que no se encuentra en el <em>Manual de uso de la base de datos</em>, pero que se deriva a partir de los códigos originales.</p>
@@ -486,7 +489,7 @@ div.csl-indent {
 </section><section id="reproducción" class="level3" data-number="3.2.2"><h3 data-number="3.2.2" class="anchored" data-anchor-id="reproducción">
 <span class="header-section-number">3.2.2</span> Reproducción</h3>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Construcción de la tabla </span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Construcción de la tabla </span></span>
 <span><span class="va">fmt_hm</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">h</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="va">hh</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op">(</span><span class="va">h</span><span class="op">)</span></span>
 <span>  <span class="va">mm</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">round</a></span><span class="op">(</span><span class="op">(</span><span class="va">h</span> <span class="op">-</span> <span class="va">hh</span><span class="op">)</span> <span class="op">*</span> <span class="fl">60</span><span class="op">)</span></span>
@@ -541,30 +544,30 @@ div.csl-indent {
 <span><span class="co"># Visualización de la tabla</span></span>
 <span></span>
 <span><span class="va">tabla16</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/gt.html">gt</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/cols_label.html">cols_label</a></span><span class="op">(</span></span>
+<span>  <span class="fu">gt</span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu">cols_label</span><span class="op">(</span></span>
 <span>    Nacionalidad <span class="op">=</span> <span class="st">"Nacionalidad"</span>,</span>
 <span>    N_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, N_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, N_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
 <span>    Part_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, Part_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, Part_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
 <span>    Tiemp_Hombre <span class="op">=</span> <span class="st">"Hombre"</span>, Tiemp_Mujer <span class="op">=</span> <span class="st">"Mujer"</span>, Tiemp_Total <span class="op">=</span> <span class="st">"Total"</span>,</span>
 <span>    Brecha_Part <span class="op">=</span> <span class="st">"Part."</span>, Brecha_Tiemp <span class="op">=</span> <span class="st">"Tiempo"</span></span>
 <span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Número de personas que participan (a)"</span>,</span>
+<span>  <span class="fu">tab_spanner</span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Número de personas que participan (a)"</span>,</span>
 <span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">N_Hombre</span>, <span class="va">N_Mujer</span>, <span class="va">N_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Participación Día Tipo"</span>,</span>
+<span>  <span class="fu">tab_spanner</span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Participación Día Tipo"</span>,</span>
 <span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Part_Hombre</span>, <span class="va">Part_Mujer</span>, <span class="va">Part_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Tiempo promedio Día Tipo"</span>,</span>
+<span>  <span class="fu">tab_spanner</span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Tiempo promedio Día Tipo"</span>,</span>
 <span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Tiemp_Hombre</span>, <span class="va">Tiemp_Mujer</span>, <span class="va">Tiemp_Total</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_spanner.html">tab_spanner</a></span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Brechas (b)"</span>,</span>
+<span>  <span class="fu">tab_spanner</span><span class="op">(</span>label <span class="op">=</span> <span class="st">"Brechas (b)"</span>,</span>
 <span>              columns <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">Brecha_Part</span>, <span class="va">Brecha_Tiemp</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_header.html">tab_header</a></span><span class="op">(</span></span>
-<span>    title <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/md.html">md</a></span><span class="op">(</span><span class="st">"**Tabla 16**"</span><span class="op">)</span>,</span>
+<span>  <span class="fu">tab_header</span><span class="op">(</span></span>
+<span>    title <span class="op">=</span> <span class="fu">md</span><span class="op">(</span><span class="st">"**Tabla 16**"</span><span class="op">)</span>,</span>
 <span>    subtitle <span class="op">=</span> <span class="st">"Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad, en día tipo"</span></span>
 <span>  <span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://gt.rstudio.com/reference/tab_style.html">tab_style</a></span><span class="op">(</span></span>
-<span>    style <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/cell_text.html">cell_text</a></span><span class="op">(</span>weight <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
-<span>    locations <span class="op">=</span> <span class="fu"><a href="https://gt.rstudio.com/reference/cells_body.html">cells_body</a></span><span class="op">(</span>rows <span class="op">=</span> <span class="va">Nacionalidad</span> <span class="op">==</span> <span class="st">"Total"</span><span class="op">)</span></span>
-<span>  <span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="fu">tab_style</span><span class="op">(</span></span>
+<span>    style <span class="op">=</span> <span class="fu">cell_text</span><span class="op">(</span>weight <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
+<span>    locations <span class="op">=</span> <span class="fu">cells_body</span><span class="op">(</span>rows <span class="op">=</span> <span class="va">Nacionalidad</span> <span class="op">==</span> <span class="st">"Total"</span><span class="op">)</span></span>
+<span>  <span class="op">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details><div class="cell-output-display">
 <div id="ctiupdicoz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>#ctiupdicoz table {
@@ -1015,7 +1018,7 @@ div.csl-indent {
   height: 0px !important;
 }
 </style>
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-bootstrap="false">
 <colgroup>
 <col style="width: 8%">
 <col style="width: 8%">
@@ -1032,10 +1035,10 @@ div.csl-indent {
 </colgroup>
 <thead>
 <tr class="gt_heading header">
-<th colspan="12" class="gt_heading gt_title gt_font_normal"><strong>Tabla 16</strong></th>
+<td colspan="12" class="gt_heading gt_title gt_font_normal"><strong>Tabla 16</strong></td>
 </tr>
 <tr class="gt_heading even">
-<th colspan="12" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad, en día tipo</th>
+<td colspan="12" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border">Participación y tiempo destinado al trabajo no remunerado, según sexo y nacionalidad, en día tipo</td>
 </tr>
 <tr class="gt_col_headings gt_spanner_row header">
 <th rowspan="2" id="Nacionalidad" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Nacionalidad</th>
@@ -1146,7 +1149,7 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
 <span class="header-section-number">7.1</span> Código</h2>
 <p>A continuación, el código original que se encuentra en el Manual de Uso de Base de Datos. Como se menciona en el análisis, no es un código legible ni completo para el proceso de reproducción, dado que la línea completa es el resultado de la unión de varios bloques separados, por lo que se hizo necesario adaptarlo y desarrollarlo. Por tanto, correrlo no tendrá efectos en la base de datos ni la reproducibilidad de la tabla.</p>
 <div class="cell">
-<details class="code-fold"><summary>Show the code</summary><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># PASO 2: Identificación de variables participación y tiempo ---- </span></span>
+<details class="code-fold"><summary>Show the code</summary><div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># PASO 2: Identificación de variables participación y tiempo ---- </span></span>
 <span><span class="co">## Variables de participación </span></span>
 <span><span class="va">ds_vars_part</span> <span class="op">&lt;-</span> <span class="va">enut</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^tc\\d*_p_ds$"</span><span class="op">)</span>, <span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">matches</a></span><span class="op">(</span><span class="st">"^td\\d*_p_ds$"</span><span class="op">)</span>,</span>
@@ -1190,18 +1193,18 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
 <span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>,</span>
 <span>          <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span></span>
 <span>        <span class="op">~</span> <span class="fl">96</span>,</span>
 <span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
 <span>        <span class="co"># ...el resultado es mayor a 0, asigna 1</span></span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">1</span>,</span>
 <span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
 <span>        <span class="co"># ...el resultado es igual a 0, asigna 0</span></span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">ds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
@@ -1222,18 +1225,18 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
 <span>        <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>,</span>
 <span>          <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">96</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
+<span>          <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span>na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span></span>
 <span>        <span class="op">~</span> <span class="fl">96</span>,</span>
 <span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
 <span>        <span class="co"># ...el resultado es mayor a 0, asigna 1</span></span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">0</span></span>
 <span>        <span class="op">~</span> <span class="fl">1</span>,</span>
 <span>        <span class="co"># Si al filtrar todos los valores 1 y sumarlos...</span></span>
 <span>        <span class="co"># ...el resultado es igual a 0, asigna 0</span></span>
-<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span></span>
+<span>        <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span></span>
 <span>          <span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span></span>
 <span>            <span class="fu"><a href="https://tidyselect.r-lib.org/reference/all_of.html">all_of</a></span><span class="op">(</span><span class="va">fds_vars_part</span><span class="op">)</span>, <span class="op">~</span> <span class="va">.</span> <span class="op">==</span> <span class="fl">1</span><span class="op">)</span>,</span>
 <span>          na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">==</span> <span class="fl">0</span></span>
@@ -1272,9 +1275,9 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
 <span></span>
 <span><span class="co">## CÁLCULO DE TIEMPO </span></span>
 <span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_ds_"</span><span class="op">)</span><span class="op">)</span>,</span>
 <span>                            na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>, t_tnr_ds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_ds</span> <span class="op">==</span></span>
-<span>                                                                <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_ds</span><span class="op">)</span>, t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums-methods.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>                                                                <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_ds</span><span class="op">)</span>, t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/Matrix/man/colSums.html">rowSums</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/across.html">across</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/starts_with.html">starts_with</a></span><span class="op">(</span><span class="st">"temp_fds_"</span><span class="op">)</span><span class="op">)</span>,</span>
 <span>                                                                                                            na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span>, t_tnr_fds <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">t_tnr_fds</span> <span class="op">==</span></span>
 <span>                                                                                                                                                 <span class="fl">0</span>, <span class="cn">NA_real_</span>, <span class="va">t_tnr_fds</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">enut_auxiliar</span> <span class="op">&lt;-</span> <span class="va">enut_auxiliar</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
@@ -1333,7 +1336,7 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
 <span><span class="va">tiemp_tnr_sexo_reg</span> <span class="op">&lt;-</span> <span class="fu">survey</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/survey/man/svyby.html">svyby</a></span><span class="op">(</span>formula <span class="op">=</span> <span class="op">~</span><span class="va">t_tnr_dt</span>,</span>
 <span>                                    by <span class="op">=</span> <span class="op">~</span><span class="va">sexo</span> <span class="op">+</span> <span class="va">region_ord</span>, design <span class="op">=</span> <span class="va">disenio</span>, FUN <span class="op">=</span> <span class="fu">survey</span><span class="fu">::</span><span class="va"><a href="https://rdrr.io/pkg/survey/man/surveysummary.html">svymean</a></span>,</span>
 <span>                                    vartype <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"se"</span><span class="op">)</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">tiemp_tnr_sexo_reg</span><span class="op">)</span> </span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">tiemp_tnr_sexo_reg</span><span class="op">)</span> </span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 
@@ -1389,13 +1392,14 @@ Instituto Nacional de Estadísticas. (2026). <em><span>Informe de Calidad II ENU
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
