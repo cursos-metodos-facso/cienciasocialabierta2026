@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://multinivel-facso.netlify.app/index.html</loc>
-    <lastmod>2026-05-18T20:42:51.149Z</lastmod>
+    <lastmod>2026-05-19T16:33:22.759Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/grupo7/index.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/resumen-correccion-trabajo1.html</loc>
-    <lastmod>2026-05-18T20:00:19.371Z</lastmod>
+    <lastmod>2026-05-19T16:19:43.753Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/template-revision-cruzada-trabajo1.html</loc>
@@ -38,23 +38,23 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G10.html</loc>
-    <lastmod>2026-05-18T20:00:19.340Z</lastmod>
+    <lastmod>2026-05-19T16:33:15.247Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G2.html</loc>
-    <lastmod>2026-05-18T20:00:19.340Z</lastmod>
+    <lastmod>2026-05-19T15:56:53.105Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G1.html</loc>
-    <lastmod>2026-05-18T20:00:19.339Z</lastmod>
+    <lastmod>2026-05-19T15:56:53.105Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G3.html</loc>
-    <lastmod>2026-05-18T20:00:19.340Z</lastmod>
+    <lastmod>2026-05-19T15:56:53.105Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G4.html</loc>
-    <lastmod>2026-05-18T20:00:19.340Z</lastmod>
+    <lastmod>2026-05-19T15:56:53.106Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G5.html</loc>
@@ -74,10 +74,22 @@
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G9.html</loc>
-    <lastmod>2026-05-18T20:00:19.341Z</lastmod>
+    <lastmod>2026-05-19T16:20:10.339Z</lastmod>
   </url>
   <url>
     <loc>https://multinivel-facso.netlify.app/files/templates/template-revision-cruzada-trabajo1.html</loc>
     <lastmod>2026-05-18T20:25:15.059Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G3-jc.html</loc>
+    <lastmod>2026-05-19T14:08:54.670Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G2-jc.html</loc>
+    <lastmod>2026-05-19T13:58:09.906Z</lastmod>
+  </url>
+  <url>
+    <loc>https://multinivel-facso.netlify.app/trabajos/informe1/correccion-trabajo1-G1-jc.html</loc>
+    <lastmod>2026-05-19T13:01:46.809Z</lastmod>
   </url>
 </urlset>

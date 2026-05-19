@@ -29,11 +29,9 @@ format:
 | Criterio | Evaluación | Puntaje | Comentarios |
 |----------|-----------|---------|------------|
 | Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema plenamente pertinente para sociología política e instituciones |
-| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El artículo y el repositorio complementario son accesibles |
+| Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El artículo y el repositorio complementario son accesibles. Falta realizar referenciar utilizando citas en texto plano como se señaló en clases |
 | **Subtotal sección 1** | | **0.50 / 0.50** | Buena selección |
 
-**Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
 
 ---
 
@@ -43,14 +41,12 @@ La selección del insumo es pertinente y accesible para el objetivo del trabajo.
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
-| Acceso a datos | ✓ Completo | El grupo identifica datos y repositorio vinculados al artículo |
+| Acceso a datos | ✓ Completo | El grupo identifica datos y repositorio vinculados al artículo, pero no está la referencia / link al repositorio. |
 | Documentación de fuentes | ✓ Clara | Explican origen de datos y búsqueda de versiones en Zenodo |
 | Facilidad para obtener datos | ✓ Fácil | El acceso fue posible, aunque la trazabilidad original presentó problemas |
 
-**Puntaje 2.1:** 0.50 / 0.50
+**Puntaje 2.1:** 0.40 / 0.50
 
-**Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
 
 ---
 
@@ -65,7 +61,7 @@ El acceso a los datos está bien documentado y la fuente principal se identifica
 **Puntaje 2.2:** 0.50 / 0.50
 
 **Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
+La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción.
 
 ---
 
@@ -79,9 +75,6 @@ La discusión sobre disponibilidad de código es clara y permite entender su imp
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
-
 ---
 
 #### Transparencia (0.5)
@@ -94,12 +87,9 @@ La evaluación de la documentación metodológica está bien enfocada y reconoce
 
 **Puntaje 2.4:** 0.50 / 0.50
 
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
-
 ---
 
-**Subtotal sección 2:** **2.00 / 2.00**
+**Subtotal sección 2:** **1.90 / 2.00**
 
 ---
 
@@ -139,17 +129,13 @@ La documentación de pasos, decisiones y dificultades permite seguir el proceso 
 
 | Criterio | Evaluación | Observaciones |
 |----------|-----------|---------------|
-| Resultados claramente presentados | ✓ Sí | La tabla reproducida y la comparación con la original quedan claras |
+| Resultados claramente presentados | ✓ No | No se presenta la tabla reproducida |
 | Comparación con original | ✓ Completa | El informe enfatiza explícitamente las discrepancias encontradas |
-| Verificabilidad de conclusiones | ✓ Alta | La argumentación está respaldada por el contraste entre ambas tablas |
-| Uso de figuras/tablas | ✓ Efectivo | La visualización de la tabla facilita la comparación |
+| Verificabilidad de conclusiones | ✓ Alta | La argumentación está respaldada por el contraste entre ambas tablas, pero es difícil de verificar completamente ya que no se presenta la tabla reproducida |
 | Reproducibilidad del código | Parcial | La parte construida por el grupo es clara, pero el render completo falla por una dependencia del chunk de código original |
 | Render correcto del `.qmd` | No | En la revisión local el render se detuvo por falta del paquete `DataExplorer` en el chunk `Codigo-original` |
 
-**Puntaje 3.3:** 0.75 / 1.00
-
-**Comentarios:**
-La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
+**Puntaje 3.3:** 0.50 / 1.00
 
 ---
 
@@ -163,8 +149,6 @@ La presentación de resultados es verificable y se vincula adecuadamente con la 
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
 
 ---
 
@@ -226,17 +210,17 @@ El formato del reporte es legible y conserva los componentes básicos requeridos
 
 ### Comentario general del trabajo
 
-El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Sin embargo, la falta de presentación de la tabla reproducida dificulta la verificación completa del proceso. Además, el render del `.qmd` falla por una dependencia faltante, lo que afecta la evaluación del formato.
 
 ### Puntajes por Sección
 
 | Sección | Puntaje | Máximo |
 |---------|---------|--------|
 | 1. Selección del artículo | 0.50 | 0.50 |
-| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 2. Evaluación de reproducibilidad | 1.90 | 2.00 |
 | 3. Análisis reproducible | 2.75 | 3.00 |
 | 4. Conclusiones | 0.50 | 0.50 |
 | 5. Recomendaciones | 0.50 | 0.50 |
 | 6. Formato del reporte | 0.25 | 0.50 |
-| **TOTAL** | **6.50** | **7.00** |
+| **TOTAL** | **6.40** | **7.00** |
 

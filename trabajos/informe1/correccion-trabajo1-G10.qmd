@@ -30,10 +30,7 @@ format:
 |----------|-----------|---------|------------|
 | Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema pertinente para sociología de la educación y análisis de redes |
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Artículo y datos están disponibles públicamente |
-| **Subtotal sección 1** | | **0.50 / 0.50** | Muy buena selección |
-
-**Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
+| **Subtotal sección 1** | | **0.50 / 0.50** | Muy buena selección, y muy bien justificada |
 
 ---
 
@@ -49,9 +46,6 @@ La selección del insumo es pertinente y accesible para el objetivo del trabajo.
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
-
 ---
 
 #### Disponibilidad de código (0.5)
@@ -64,9 +58,6 @@ El acceso a los datos está bien documentado y la fuente principal se identifica
 
 **Puntaje 2.2:** 0.50 / 0.50
 
-**Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
-
 ---
 
 #### Documentación Metodológica (0.5)
@@ -75,12 +66,10 @@ La discusión sobre disponibilidad de código es clara y permite entender su imp
 |----------|-----------|---------------|
 | Claridad de métodos descritos | ✓ Muy clara | El informe resume bien la metodología y detecta sus límites |
 | Detalle suficiente para replicar | Parcial | La documentación basta para resultados descriptivos, no para replicar plenamente los DyNAM |
-| Especificidad de procedimientos | Alta | El grupo identifica con precisión qué decisiones faltan |
+| Especificidad de procedimientos | Alta | Se identifica con precisión qué decisiones faltan |
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
 
 ---
 
@@ -93,9 +82,6 @@ La evaluación de la documentación metodológica está bien enfocada y reconoce
 | Otros aspectos de transparencia | ✓ Completos | Discute licencia, contribuciones, ética y acceso abierto |
 
 **Puntaje 2.4:** 0.50 / 0.50
-
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
 
 ---
 
@@ -115,7 +101,6 @@ El análisis de transparencia aborda de forma pertinente conflictos de interés,
 **Puntaje 3.1:** 0.50 / 0.50
 
 **Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
 
 ---
 
@@ -126,12 +111,9 @@ La definición del resultado a reproducir es clara y facilita la comparación co
 | Claridad del proceso | ✓ Muy clara | El proceso se presenta por etapas y con código legible |
 | Registro de decisiones tomadas | ✓ Completo | Explica conteo de eventos, reciprocidad y suavizado gaussiano |
 | Documentación de dificultades | ✓ Exhaustiva | El informe discute bien los límites de implementación sin código original |
-| Cómo se resolvieron problemas | ✓ Bien explicado | El grupo documenta con precisión su estrategia de reproducción |
+| Cómo se resolvieron problemas | ✓ Bien explicado | Se documenta con precisión su estrategia de reproducción |
 
 **Puntaje 3.2:** 1.00 / 1.00
-
-**Comentarios:**
-La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
 
 ---
 
@@ -149,7 +131,7 @@ La documentación de pasos, decisiones y dificultades permite seguir el proceso 
 **Puntaje 3.3:** 1.00 / 1.00
 
 **Comentarios:**
-La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
+La presentación de resultados es verificable y se vincula adecuadamente con la referencia original, muy bien documentado.
 
 ---
 
@@ -163,8 +145,6 @@ La presentación de resultados es verificable y se vincula adecuadamente con la 
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
 
 ---
 
@@ -178,12 +158,9 @@ La explicación de límites está bien fundamentada y aporta transparencia al an
 |----------|-----------|---------------|
 | Coherencia con evidencia | ✓ Alta | El cierre es plenamente consistente con la evidencia reproducida |
 | Distinción fortalezas/debilidades | ✓ Clara | Separa bien apertura de datos y ausencia de código |
-| Evita afirmaciones no respaldadas | ✓ Sí | La conclusión es sobria y bien fundamentada |
+| Evita afirmaciones no respaldadas | ✓ Sí | La conclusión es apropiada y bien fundamentada |
 
 **Puntaje 4:** 0.50 / 0.50
-
-**Comentarios:**
-Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
 
 ---
 
@@ -196,9 +173,6 @@ Las conclusiones son coherentes con la evidencia levantada y mantienen consisten
 | Priorización adecuada | ✓ Sí | Están bien ordenadas |
 
 **Puntaje 5:** 0.50 / 0.50
-
-**Comentarios:**
-Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
 
 ---
 
@@ -217,16 +191,14 @@ Las recomendaciones están alineadas con los problemas detectados y orientadas a
 
 **Puntaje 6:** 0.50 / 0.50
 
-**Comentarios:**
-El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
-
 ---
 
 ## Resumen de Evaluación
 
 ### Comentario general del trabajo
 
-El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes, la coherencia entre análisis y conclusiones, y la buena documentación de la toma de decisiones. Muy bien logrado considerando la ausencia de código original. 
+
 
 ### Puntajes por Sección
 
