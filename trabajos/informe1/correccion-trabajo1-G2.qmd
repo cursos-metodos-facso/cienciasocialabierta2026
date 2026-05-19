@@ -214,7 +214,7 @@ format:
 
 ### Comentario general del trabajo
 
-El trabajo cumple satisfactoriamente con los objetivos de la evaluación. Presenta una estructura bien definida y explicaciones claras del paso a paso en el desarrollo del ejercicio. Las limitaciones y recomendaciones resultan pertinentes. El único problema son las faltas de ortografía que se presentan en distintas secciones del informe. Buen trabajo.
+El trabajo cumple satisfactoriamente con los objetivos de la evaluación. Presenta una estructura bien definida y explicaciones claras del paso a paso en el desarrollo del ejercicio. Las limitaciones y recomendaciones resultan pertinentes. No obstante, se presentan faltas de ortografía en distintas secciones del informe. Como observación, utilizan *replicabilidad* y *reproducibilidad* como sinónimos, pero cada concepto refiere a cosas distintas. Buen trabajo.
 
 ### Puntajes por Sección
 

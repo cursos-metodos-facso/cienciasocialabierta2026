@@ -213,7 +213,7 @@ format:
 
 ### Comentario general del trabajo
 
-En términos generales, el trabajo cumple satisfactoriamente con los objetivos del ejercicio de reproducibilidad. Queda claro el procedimiento, las limitaciones y las soluciones para sobrellevar el análisis. Como observaciones, para próximas entregas sugerimos dividir más la información, ya que algunos párrafos eran tan extensos que dificultaban seguir la idea inicial. Además, a lo largo del informe se utilizan *replicabilidad* y *reproducibilidad* como sinónimos, pero cada uno refiere a cosas distintas. Buen trabajo.
+En términos generales, el trabajo cumple satisfactoriamente con los objetivos del ejercicio de reproducibilidad. Queda claro el procedimiento, las limitaciones y las soluciones para sobrellevar el análisis. Como observaciones, para próximas entregas sugerimos ordenar y dividir más la información, ya que algunos párrafos eran tan extensos que dificultaban seguir la idea inicial. Además, a lo largo del informe se utilizan *replicabilidad* y *reproducibilidad* como sinónimos, pero cada uno refiere a cosas distintas. Buen trabajo.
 
 ### Puntajes por Sección
 

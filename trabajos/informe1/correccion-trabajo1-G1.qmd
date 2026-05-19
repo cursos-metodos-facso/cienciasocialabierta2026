@@ -93,7 +93,7 @@ format:
 
 ------------------------------------------------------------------------
 
-**Subtotal sección 2:** 0.50 + 0.25 + 0.25 + 0.50 = **1.50 / 2.00**
+**Subtotal sección 2:** 0.25 + 0.25 + 0.40 + 0.50 = **1.40 / 2.00**
 
 ------------------------------------------------------------------------
 
@@ -154,7 +154,7 @@ format:
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:** Los límites están identificados con honestidad y bien fundamentados, lo que fortalece la credibilidad del análisis.
+**Comentarios:** Los límites están identificados y bien fundamentados, lo que fortalece la credibilidad del análisis.
 
 ------------------------------------------------------------------------
 
@@ -214,18 +214,18 @@ format:
 
 ### Comentario general del trabajo
 
-El trabajo cumple con los objetivos esperados a un nivel general. Sin embargo, hay secciones que tienen un nivel de detalle superficial, lo que deja algunos vacíos para comprender el desarrollo del ejercicio en su totalidad. Asimismo, no se utilizan todas las herramientas impartidas en el curso (referencias bibliográficas/GitHub Pages). Por lo demás, las limitaciones y recomendaciones se asocian directamente al procesamiento de reproducción, lo que fortalece el hilo vertebral del trabajo.
+El trabajo cumple con los objetivos esperados a un nivel general. Las limitaciones y recomendaciones se asocian directamente al proceso de reproducción, lo que fortalece el hilo vertebral del trabajo. Sin embargo, hay secciones que tienen un nivel de detalle superficial, lo que deja algunos vacíos para comprender el desarrollo del ejercicio en su totalidad. Asimismo, no se utilizan todas las herramientas exigidas en la evaluación (referencias bibliográficas/GitHub Pages).
 
 ### Puntajes por Sección
 
 | Sección                            | Puntaje  | Máximo   |
 |------------------------------------|----------|----------|
 | 1\. Selección del artículo         | 0.50     | 0.50     |
-| 2\. Evaluación de reproducibilidad | 1.50     | 2.00     |
+| 2\. Evaluación de reproducibilidad | 1.40     | 2.00     |
 | 3\. Análisis reproducible          | 3.00     | 3.00     |
 | 4\. Conclusiones                   | 0.50     | 0.50     |
 | 5\. Recomendaciones                | 0.50     | 0.50     |
 | 6\. Formato del reporte            | 0.25     | 0.50     |
-| **TOTAL**                          | **6.25** | **7.00** |
+| **TOTAL**                          | **6.15** | **7.00** |
 
 ------------------------------------------------------------------------
