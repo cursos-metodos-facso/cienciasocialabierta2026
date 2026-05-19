@@ -32,8 +32,6 @@ format:
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Artículo, repositorio y materiales suplementarios accesibles |
 | **Subtotal sección 1** |  | **0.50 / 0.50** | Buena selección |
 
-**Comentarios:** La selección del insumo es pertinente y accesible para el objetivo del trabajo. 
-
 ------------------------------------------------------------------------
 
 ### Evaluación de Reproducibilidad (2.0)
@@ -48,8 +46,6 @@ format:
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:** El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. 
-
 ------------------------------------------------------------------------
 
 #### Disponibilidad de código (0.5)
@@ -61,8 +57,6 @@ format:
 | Utilidad del código | Parcial | No cubre toda la limpieza desde datos brutos |
 
 **Puntaje 2.2:** 0.50 / 0.50
-
-**Comentarios:** La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. 
 
 ------------------------------------------------------------------------
 
@@ -76,8 +70,6 @@ format:
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:** La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. 
-
 ------------------------------------------------------------------------
 
 #### Transparencia (0.5)
@@ -89,8 +81,6 @@ format:
 | Otros aspectos de transparencia | ✓ Completos | Discuten licencia abierta y filiación institucional |
 
 **Puntaje 2.4:** 0.50 / 0.50
-
-**Comentarios:** El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. 
 
 ------------------------------------------------------------------------
 
@@ -109,8 +99,6 @@ format:
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:** La definición del resultado a reproducir es clara y facilita la comparación con el original. 
-
 ------------------------------------------------------------------------
 
 #### Documentación de pasos, decisiones y dificultades (1.0)
@@ -123,8 +111,6 @@ format:
 | Cómo se resolvieron problemas | ✓ Bien explicado | Se muestra adaptación del script original a la base reproducida |
 
 **Puntaje 3.2:** 1.00 / 1.00
-
-**Comentarios:** La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. 
 
 ------------------------------------------------------------------------
 
@@ -141,8 +127,6 @@ format:
 
 **Puntaje 3.3:** 1.00 / 1.00
 
-**Comentarios:** La presentación de resultados es verificable y se vincula adecuadamente con la referencia original.
-
 ------------------------------------------------------------------------
 
 #### Explicación de límites si no hay reproducción completa (0.5)
@@ -154,8 +138,6 @@ format:
 | Propuestas de solución | ✓ Sí | Las recomendaciones responden directamente a estos problemas |
 
 **Puntaje 3.4:** 0.50 / 0.50
-
-**Comentarios:** La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible.
 
 ------------------------------------------------------------------------
 
@@ -173,8 +155,6 @@ format:
 
 **Puntaje 4:** 0.50 / 0.50
 
-**Comentarios:** Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa.
-
 ------------------------------------------------------------------------
 
 ### Recomendaciones (0.5)
@@ -186,8 +166,6 @@ format:
 | Priorización adecuada | ✓ Sí | Las recomendaciones son pertinentes y útiles |
 
 **Puntaje 5:** 0.50 / 0.50
-
-**Comentarios:** Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. 
 
 ------------------------------------------------------------------------
 
@@ -206,15 +184,13 @@ format:
 
 **Puntaje 6:** 0.50 / 0.50
 
-**Comentarios:** El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega.
-
 ------------------------------------------------------------------------
 
 ## Resumen de Evaluación
 
 ### Comentario general del trabajo
 
-El trabajo se caracteriza por una explicación sólida y exhaustiva del procedimiento de reproducibilidad, detallando con precisión cada una de las decisiones tomadas para cumplir con los objetivos de la evaluación, lo que permite leer el informe con gran facilidad. Además, las críticas de reproducibilidad a la investigación utilizada son pertinentes. Por último, la construcción de figuras comparativas utilizando la base procesada por el grupo y por los investigadores le entrega un valor adicional al reporte. No hay mayores observaciones de corrección. Muy buen trabajo, felicitaciones.
+El trabajo se caracteriza por una explicación sólida y exhaustiva del procedimiento de reproducibilidad, detallando con precisión cada una de las decisiones tomadas para cumplir con los objetivos de la evaluación, lo cual permite leer el informe con gran facilidad. Además, las críticas de reproducibilidad a la investigación utilizada son pertinentes. Por último, la construcción de figuras comparativas utilizando la base procesada por el grupo y por los investigadores le entrega un valor adicional al reporte. No hay mayores observaciones de corrección. Muy buen trabajo, felicitaciones.
 
 ### Puntajes por Sección
 

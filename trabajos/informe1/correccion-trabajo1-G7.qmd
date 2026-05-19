@@ -32,9 +32,6 @@ format:
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | El informe y las bases CASEN son accesibles |
 | **Subtotal sección 1** | | **0.50 / 0.50** | Selección pertinente |
 
-**Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
-
 ---
 
 ### Evaluación de Reproducibilidad (2.0)
@@ -49,9 +46,6 @@ La selección del insumo es pertinente y accesible para el objetivo del trabajo.
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. 
-
 ---
 
 #### Disponibilidad de código (0.5)
@@ -63,9 +57,6 @@ El acceso a los datos está bien documentado y la fuente principal se identifica
 | Utilidad del código | No disponible | La reproducción se basa en código propio |
 
 **Puntaje 2.2:** 0.50 / 0.50
-
-**Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. 
 
 ---
 
@@ -79,9 +70,6 @@ La discusión sobre disponibilidad de código es clara y permite entender su imp
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes, aunque sería útil enumerar brevemente los elementos metodológicos no documentados.
-
 ---
 
 #### Transparencia (0.5)
@@ -93,9 +81,6 @@ La evaluación de la documentación metodológica está bien enfocada y reconoce
 | Otros aspectos de transparencia | ✓ Parciales | Rescatan instituciones y proceso de producción del informe |
 
 **Puntaje 2.4:** 0.50 / 0.50
-
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. 
 
 ---
 
@@ -114,9 +99,6 @@ El análisis de transparencia aborda de forma pertinente conflictos de interés,
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. 
-
 ---
 
 #### Documentación de pasos, decisiones y dificultades (1.0)
@@ -132,7 +114,7 @@ La definición del resultado a reproducir es clara y facilita la comparación co
 
 **Comentarios:**
 
-La documentación de pasos permite entender el proceso de reproducción de manera consistente, pero hay vacíos importantes para comprender a cabalidad el proceso de reproducción. Por ejemplo, en ningún lugar del informe se menciona la ausencia de las bases de datos originales en el repositorio, o cómo abordaron la ausencia de datos para los años 2006 y 2020.
+La documentación de pasos permite entender el proceso de reproducción de manera consistente, pero hay vacíos importantes para comprender a cabalidad el proceso de reproducción. Por ejemplo, en ningún lugar del informe se menciona la ausencia de las bases de datos originales en el repositorio, o qué soluciones propusieron para abordar la ausencia de datos para los años 2006 y 2020.
 
 ---
 
@@ -165,8 +147,6 @@ Si bien la figura final cumple con los estándares de reproducibilidad declarado
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
 
 ---
 
@@ -183,9 +163,6 @@ La explicación de límites está bien fundamentada y aporta transparencia al an
 | Evita afirmaciones no respaldadas | ✓ Sí | El cierre es razonable |
 
 **Puntaje 4:** 0.50 / 0.50
-
-**Comentarios:**
-Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
 
 ---
 
@@ -240,6 +217,6 @@ El trabajo presenta falencias importantes en cuanto a la claridad del proceso de
 | 3. Análisis reproducible | 1.50 | 3.00 |
 | 4. Conclusiones | 0.50 | 0.50 |
 | 5. Recomendaciones | 0.40 | 0.50 |
-| 6. Formato del reporte | 0.4 | 0.50 |
+| 6. Formato del reporte | 0.40 | 0.50 |
 | **TOTAL** | **5.3** | **7.00** |
 

@@ -30,10 +30,10 @@ format:
 |----------|-----------|---------|------------|
 | Pertinencia para ciencias sociales | ✓ Sí | 0.25 | El tema es pertinente y dialoga con ciencia abierta y circulación de conocimiento |
 | Accesibilidad (abierto o disponible) | ✓ Parcial | El artículo es accesible, pero las bases subyacentes dependen de plataformas de suscripción |
-| **Subtotal sección 1** | | **0.50 / 0.50** | Buena selección para discutir apertura y límites de acceso |
+| **Subtotal sección 1** | | **0.40 / 0.50** | Buena selección para discutir apertura y límites de acceso |
 
 **Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Además, se presenta una buena justificación del caso y su alcance analítico en el marco de la reproducibilidad.
+La selección del insumo es pertinente y accesible para el objetivo del trabajo. Además, se presenta una buena justificación del caso y su alcance analítico en el marco de la reproducibilidad. Sin embargo, presenta faltas de ortografía.
 
 ---
 
@@ -47,10 +47,10 @@ La selección del insumo es pertinente y accesible para el objetivo del trabajo.
 | Documentación de fuentes | ✓ Clara | El informe analiza con precisión el problema de WOS y Scopus |
 | Facilidad para obtener datos | Complicado | El acceso depende de plataformas cerradas y resultados cambiantes |
 
-**Puntaje 2.1:** 0.50 / 0.50
+**Puntaje 2.1:** 0.40 / 0.50
 
 **Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. 
+El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. No obstante, las faltas de ortografía persisten.
 
 ---
 
@@ -64,8 +64,7 @@ El acceso a los datos está bien documentado y la fuente principal se identifica
 
 **Puntaje 2.2:** 0.50 / 0.50
 
-**Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. 
+
 
 ---
 
@@ -79,9 +78,6 @@ La discusión sobre disponibilidad de código es clara y permite entender su imp
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. 
-
 ---
 
 #### Transparencia (0.5)
@@ -94,12 +90,9 @@ La evaluación de la documentación metodológica está bien enfocada y reconoce
 
 **Puntaje 2.4:** 0.50 / 0.50
 
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés y apertura del proceso.
-
 ---
 
-**Subtotal sección 2:** **2.00 / 2.00**
+**Subtotal sección 2:** **1.90 / 2.00**
 
 ---
 
@@ -114,8 +107,6 @@ El análisis de transparencia aborda de forma pertinente conflictos de interés 
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:**
-La definición del resultado a reproducir es clara 
 
 ---
 
@@ -163,8 +154,6 @@ La presentación de resultados se vincula adecuadamente con la referencia origin
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible.
 
 ---
 
@@ -182,8 +171,6 @@ La explicación de límites está bien fundamentada y aporta transparencia al an
 
 **Puntaje 4:** 0.50 / 0.50
 
-**Comentarios:**
-Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. 
 
 ---
 
@@ -196,9 +183,6 @@ Las conclusiones son coherentes con la evidencia levantada y mantienen consisten
 | Priorización adecuada | ✓ Sí | El foco está puesto donde realmente falló la reproducibilidad |
 
 **Puntaje 5:** 0.50 / 0.50
-
-**Comentarios:**
-Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere esclarecer el problema detectado del cual nace la recomendación propuesta para robustecer el argumento.
 
 ---
 
@@ -233,11 +217,11 @@ El trabajo cumple con el objetivo central en cuanto a la reproducción de figura
 
 | Sección | Puntaje | Máximo |
 |---------|---------|--------|
-| 1. Selección del artículo | 0.50 | 0.50 |
-| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
+| 1. Selección del artículo | 0.40 | 0.50 |
+| 2. Evaluación de reproducibilidad | 1.90 | 2.00 |
 | 3. Análisis reproducible | 2.65 | 3.00 |
 | 4. Conclusiones | 0.50 | 0.50 |
-| 5. Recomendaciones | 0.50 | 0.50 |
+| 5. Recomendaciones | 0.40 | 0.50 |
 | 6. Formato del reporte | 0.00 | 0.50 |
-| **TOTAL** | **6.15** | **7.00** |
+| **TOTAL** | **5.85** | **7.00** |
 
