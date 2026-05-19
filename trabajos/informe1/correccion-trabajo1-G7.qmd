@@ -50,7 +50,7 @@ La selección del insumo es pertinente y accesible para el objetivo del trabajo.
 **Puntaje 2.1:** 0.50 / 0.50
 
 **Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
+El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. 
 
 ---
 
@@ -65,7 +65,7 @@ El acceso a los datos está bien documentado y la fuente principal se identifica
 **Puntaje 2.2:** 0.50 / 0.50
 
 **Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
+La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. 
 
 ---
 
@@ -80,7 +80,7 @@ La discusión sobre disponibilidad de código es clara y permite entender su imp
 **Puntaje 2.3:** 0.50 / 0.50
 
 **Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
+La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes, aunque sería útil enumerar brevemente los elementos metodológicos no documentados.
 
 ---
 
@@ -95,7 +95,7 @@ La evaluación de la documentación metodológica está bien enfocada y reconoce
 **Puntaje 2.4:** 0.50 / 0.50
 
 **Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
+El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. 
 
 ---
 
@@ -115,7 +115,7 @@ El análisis de transparencia aborda de forma pertinente conflictos de interés,
 **Puntaje 3.1:** 0.50 / 0.50
 
 **Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
+La definición del resultado a reproducir es clara y facilita la comparación con el original. 
 
 ---
 
@@ -131,7 +131,8 @@ La definición del resultado a reproducir es clara y facilita la comparación co
 **Puntaje 3.2:** 0.50 / 1.00
 
 **Comentarios:**
-La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
+
+La documentación de pasos permite entender el proceso de reproducción de manera consistente, pero hay vacíos importantes para comprender a cabalidad el proceso de reproducción. Por ejemplo, en ningún lugar del informe se menciona la ausencia de las bases de datos originales en el repositorio, o cómo abordaron la ausencia de datos para los años 2006 y 2020.
 
 ---
 
@@ -146,10 +147,11 @@ La documentación de pasos, decisiones y dificultades permite seguir el proceso 
 | Reproducibilidad del código | Parcial | El render funciona, pero buena parte del procesamiento está desactivado y depende de archivos intermedios |
 | Render correcto del `.qmd` | ✓ Sí | `index.qmd` renderizó correctamente en revisión |
 
-**Puntaje 3.3:** 0.75 / 1.00
+**Puntaje 3.3:** 0 / 1.00
 
 **Comentarios:**
-La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
+
+Si bien la figura final cumple con los estándares de reproducibilidad declarados por el grupo, el código de reproducción presenta fallas graves en su construcción que no permiten reproducir el resultado al que llegaron, lo que en última instancia no cumple con el objetivo del ejercicio.
 
 ---
 
@@ -168,7 +170,7 @@ La explicación de límites está bien fundamentada y aporta transparencia al an
 
 ---
 
-**Subtotal sección 3:** **2.25 / 3.00**
+**Subtotal sección 3:** **1.50 / 3.00**
 
 ---
 
@@ -195,10 +197,11 @@ Las conclusiones son coherentes con la evidencia levantada y mantienen consisten
 | Vinculación a problemas detectados | ✓ Clara | Las recomendaciones se conectan con las brechas discutidas |
 | Priorización adecuada | ✓ Sí | Son sugerencias pertinentes |
 
-**Puntaje 5:** 0.50 / 0.50
+**Puntaje 5:** 0.40 / 0.50
 
 **Comentarios:**
-Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
+
+Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Sin embargo, no están en formato párrafo, lo cual afecta negativamente la estructura de informe. Además, se podría haber articulado qué problema aborda cada recomendación propuesta.
 
 ---
 
@@ -215,10 +218,10 @@ Las recomendaciones están alineadas con los problemas detectados y orientadas a
 | Citas en texto con clave BibTeX | No | No hay citas BibTeX en el texto principal |
 | Renderizado HTML sin errores | ✓ Correcto | El archivo renderizó correctamente |
 
-**Puntaje 6:** 0.25 / 0.50
+**Puntaje 6:** 0.4 / 0.50
 
 **Comentarios:**
-El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
+El formato del reporte es legible y el repositorio tiene una estructura clara y definida, pero falta el uso de herramientas impartidas en el curso tal como las referencias bibliográficas con BetterBibTex.
 
 ---
 
@@ -226,7 +229,7 @@ El formato del reporte es legible y conserva los componentes básicos requeridos
 
 ### Comentario general del trabajo
 
-El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+El trabajo presenta falencias importantes en cuanto a la claridad del proceso de reproducción de la figura, así como en la construcción del código de análisis. La conjunción de estos elementos no permiten verificar cómo se llegó al resultado presentado por el grupo, más allá de que sea similar al de la figura seleccionada. En general, el informe tiene un alcance limitado en cuanto al objetivo de reproducibilidad propuesto.
 
 ### Puntajes por Sección
 
@@ -234,9 +237,9 @@ El trabajo presenta una estructura clara y una evaluación consistente de reprod
 |---------|---------|--------|
 | 1. Selección del artículo | 0.50 | 0.50 |
 | 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
-| 3. Análisis reproducible | 2.25 | 3.00 |
+| 3. Análisis reproducible | 1.50 | 3.00 |
 | 4. Conclusiones | 0.50 | 0.50 |
-| 5. Recomendaciones | 0.50 | 0.50 |
-| 6. Formato del reporte | 0.25 | 0.50 |
-| **TOTAL** | **6.00** | **7.00** |
+| 5. Recomendaciones | 0.40 | 0.50 |
+| 6. Formato del reporte | 0.4 | 0.50 |
+| **TOTAL** | **5.3** | **7.00** |
 
