@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "trabajos/*.qmd"
+    - "trabajos/informe1/*.qmd"
     - "trabajos/informe1/**/*.qmd"
     - "!trabajos/informe1/grupo2/**"
     - "!trabajos/informe1/grupo4/**"
