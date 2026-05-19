@@ -13,115 +13,109 @@ format:
 ## Información del Grupo
 
 |  |  |
-|---|---|
+|------------------------------------|------------------------------------|
 | **Grupo** | Grupo 3 |
 | **Integrantes** | Josefina Bustos, Benjamín Casacuberta |
 | **Repositorio** | [ej-repro-grupo3](https://github.com/josefinabd/ej-repro-grupo3) |
 | **Artículo seleccionado** | II Encuesta Nacional sobre Uso del Tiempo (ENUT 2023), Tabla 16 |
 
----
+------------------------------------------------------------------------
 
 ## Matriz de Evaluación
 
 ### Selección del artículo (0.5)
 
 | Criterio | Evaluación | Puntaje | Comentarios |
-|----------|-----------|---------|------------|
+|-----------------|------------------|-----------------|--------------------|
 | Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Tema muy pertinente para trabajo, cuidados y desigualdad de género |
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Datos y documentación del INE disponibles públicamente |
-| **Subtotal sección 1** | | **0.50 / 0.50** | Buena selección |
+| **Subtotal sección 1** |  | **0.50 / 0.50** | Buena selección |
 
-**Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
+**Comentarios:** La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere explicitar brevemente por qué esta elección aporta a la reproducibilidad.
 
----
+------------------------------------------------------------------------
 
 ### Evaluación de Reproducibilidad (2.0)
 
 #### Disponibilidad de datos (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Acceso a datos | ✓ Completo | Datos ENUT accesibles públicamente |
 | Documentación de fuentes | ✓ Clara | Identifican bien sitio, informe y manual |
 | Facilidad para obtener datos | ✓ Fácil | Señalan que el acceso es directo |
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
+**Comentarios:** El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. 
 
----
+------------------------------------------------------------------------
 
 #### Disponibilidad de código (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Acceso a código | No disponible | No hay código original completo del análisis |
 | Forma de acceso | Parcial | Existe manual, pero no script original íntegro |
 | Utilidad del código | Parcial | Debieron desarrollar/adaptar código propio |
 
 **Puntaje 2.2:** 0.50 / 0.50
 
-**Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
+**Comentarios:** La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la reproducción realizada.
 
----
+------------------------------------------------------------------------
 
 #### Documentación Metodológica (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Claridad de métodos descritos | ✓ Muy clara | Se apoyan en manual metodológico y documento técnico |
 | Detalle suficiente para replicar | ✓ Sí | La documentación permitió una reproducción muy cercana |
 | Especificidad de procedimientos | ✓ Alta | Se detallan diseño muestral, factores de expansión y procesamiento |
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
+**Comentarios:** La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una reproducibilidad exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
 
----
+------------------------------------------------------------------------
 
 #### Transparencia (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Conflictos de interés | Parcial | No hay declaración explícita, pero el grupo lo comenta |
 | Financiamiento | ✓ Claro | Identifican al INE como institución responsable |
 | Otros aspectos de transparencia | ✓ Completos | Discuten instrumentos y finalidad pública del estudio |
 
 **Puntaje 2.4:** 0.50 / 0.50
 
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
+**Comentarios:** El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. 
 
----
+------------------------------------------------------------------------
 
 **Subtotal sección 2:** **2.00 / 2.00**
 
----
+------------------------------------------------------------------------
 
 ### Análisis Reproducible (3.0)
 
 #### Definición de tabla o figura a reproducir (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Precisión en identificar resultado | ✓ Muy precisa | Definen claramente la Tabla 16 |
 | Justificación de selección | ✓ Clara | La tabla elegida es sustantiva y medible |
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
+**Comentarios:** La definición del resultado a reproducir es clara y facilita la comparación con el original.
 
----
+------------------------------------------------------------------------
 
 #### Documentación de pasos, decisiones y dificultades (1.0)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Claridad del proceso | ✓ Muy clara | Explican procesamiento, diseño muestral y derivación de variables |
 | Registro de decisiones tomadas | ✓ Completo | Justifican construcción de participación y tiempo |
 | Documentación de dificultades | ✓ Exhaustiva | Señalan necesidad de adaptar código y diferencias con tabla original |
@@ -129,15 +123,14 @@ La definición del resultado a reproducir es clara y facilita la comparación co
 
 **Puntaje 3.2:** 1.00 / 1.00
 
-**Comentarios:**
-La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
+**Comentarios:** La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
 
----
+------------------------------------------------------------------------
 
 #### Reporte verificable de resultados de reproducción (1.0)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Resultados claramente presentados | ✓ Sí | Presentan la tabla replicada y discuten diferencias puntuales |
 | Comparación con original | ✓ Completa | Identifican variaciones de conteos y minutos |
 | Verificabilidad de conclusiones | ✓ Alta | El análisis y la salida son comprobables |
@@ -147,64 +140,60 @@ La documentación de pasos, decisiones y dificultades permite seguir el proceso 
 
 **Puntaje 3.3:** 1.00 / 1.00
 
-**Comentarios:**
-La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
+**Comentarios:** La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
 
----
+------------------------------------------------------------------------
 
 #### Explicación de límites si no hay reproducción completa (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Identificación de limitaciones | ✓ Clara | Reconocen pequeñas discrepancias y el rol de la ausencia de código completo |
 | Explicación de causas | ✓ Completa | Relacionan diferencias con tratamiento de datos y código no disponible |
 | Propuestas de solución | ✓ Sí | Derivan recomendaciones claras |
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
+**Comentarios:** La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. 
 
----
+------------------------------------------------------------------------
 
 **Subtotal sección 3:** **3.00 / 3.00**
 
----
+------------------------------------------------------------------------
 
 ### Conclusiones (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Coherencia con evidencia | ✓ Alta | El cierre refleja fielmente el proceso realizado |
 | Distinción fortalezas/debilidades | ✓ Clara | Diferencian apertura de datos vs falta de código original |
 | Evita afirmaciones no respaldadas | ✓ Sí | Las conclusiones son prudentes |
 
 **Puntaje 4:** 0.50 / 0.50
 
-**Comentarios:**
-Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
+**Comentarios:** Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
 
----
+------------------------------------------------------------------------
 
 ### Recomendaciones (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Propuestas concretas y factibles | ✓ Sí | Proponen acceso al código y mejor documentación del análisis |
 | Vinculación a problemas detectados | ✓ Clara | Responden directamente a la limitación central |
 | Priorización adecuada | ✓ Sí | Las sugerencias son pertinentes |
 
 **Puntaje 5:** 0.50 / 0.50
 
-**Comentarios:**
-Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
+**Comentarios:** Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado.
 
----
+------------------------------------------------------------------------
 
 ### Formato del Reporte (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Redacción y ortografía | Sin errores relevantes | Escritura clara, con buena legibilidad general |
 | Organización IPO | ✓ Completa | Estructura ordenada y consistente |
 | HTML original incluido en el repo | ✓ Sí | Incluye `index.html` |
@@ -216,26 +205,24 @@ Las recomendaciones están alineadas con los problemas detectados y orientadas a
 
 **Puntaje 6:** 0.50 / 0.50
 
-**Comentarios:**
-El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
+**Comentarios:** El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. 
 
----
+------------------------------------------------------------------------
 
 ## Resumen de Evaluación
 
 ### Comentario general del trabajo
 
-El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+En términos generales, el trabajo cumple satisfactoriamente con los objetivos del ejercicio de reproducibilidad. Queda claro el procedimiento, las limitaciones y las soluciones para sobrellevar el análisis. Como observaciones, para próximas entregas sugerimos dividir más la información, ya que algunos párrafos eran tan extensos que dificultaban seguir la idea inicial. Además, a lo largo del informe se utilizan *replicabilidad* y *reproducibilidad* como sinónimos, pero cada uno refiere a cosas distintas. Buen trabajo.
 
 ### Puntajes por Sección
 
-| Sección | Puntaje | Máximo |
-|---------|---------|--------|
-| 1. Selección del artículo | 0.50 | 0.50 |
-| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
-| 3. Análisis reproducible | 3.00 | 3.00 |
-| 4. Conclusiones | 0.50 | 0.50 |
-| 5. Recomendaciones | 0.50 | 0.50 |
-| 6. Formato del reporte | 0.50 | 0.50 |
-| **TOTAL** | **7.00** | **7.00** |
-
+| Sección                            | Puntaje  | Máximo   |
+|------------------------------------|----------|----------|
+| 1\. Selección del artículo         | 0.50     | 0.50     |
+| 2\. Evaluación de reproducibilidad | 2.00     | 2.00     |
+| 3\. Análisis reproducible          | 3.00     | 3.00     |
+| 4\. Conclusiones                   | 0.50     | 0.50     |
+| 5\. Recomendaciones                | 0.50     | 0.50     |
+| 6\. Formato del reporte            | 0.50     | 0.50     |
+| **TOTAL**                          | **7.00** | **7.00** |

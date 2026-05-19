@@ -13,116 +13,110 @@ format:
 ## Información del Grupo
 
 |  |  |
-|---|---|
+|------------------------------------|------------------------------------|
 | **Grupo** | Grupo 2 |
 | **Integrantes** | Nicolás Outerbridge, Vicente Rojas |
 | **Repositorio** | [Murua_Outerbridge](https://github.com/x0czz/Murua_Outerbridge) |
 | **GitHub Pages** | [x0czz.github.io/Murua_Outerbridge](https://x0czz.github.io/Murua_Outerbridge/) |
 | **Artículo seleccionado** | Radiografía de la Cohesión Social en Chile 2016-2023 |
 
----
+------------------------------------------------------------------------
 
 ## Matriz de Evaluación
 
 ### Selección del artículo (0.5)
 
 | Criterio | Evaluación | Puntaje | Comentarios |
-|----------|-----------|---------|------------|
+|-----------------|------------------|-----------------|--------------------|
 | Pertinencia para ciencias sociales | ✓ Sí | 0.25 | Trabajo muy pertinente para sociología y cohesión social |
 | Accesibilidad (abierto o disponible) | ✓ Sí | 0.25 | Datos y documentos de ELSOC/COES accesibles |
-| **Subtotal sección 1** | | **0.50 / 0.50** | Selección adecuada y relevante |
+| **Subtotal sección 1** |  | **0.50 / 0.50** | Selección adecuada y relevante |
 
-**Comentarios:**
-La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
+**Comentarios:** La selección del insumo es pertinente y accesible para el objetivo del trabajo. Se sugiere reforzar la justificación del caso y su alcance analítico. También conviene explicitar brevemente por qué esta elección aporta a la reproducibilidad.
 
----
+------------------------------------------------------------------------
 
 ### Evaluación de Reproducibilidad (2.0)
 
 #### Disponibilidad de datos (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Acceso a datos | ✓ Completo | Datos ELSOC identificados y accesibles |
 | Documentación de fuentes | ✓ Clara | Se indica repositorio y fuente institucional |
 | Facilidad para obtener datos | ✓ Fácil | Explican que el acceso fue directo |
 
 **Puntaje 2.1:** 0.50 / 0.50
 
-**Comentarios:**
-El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
+**Comentarios:** El acceso a los datos está bien documentado y la fuente principal se identifica con claridad. Se podría mejorar la trazabilidad incorporando evidencia puntual del proceso de obtención. También sería útil indicar fecha de acceso y ruta exacta de los insumos utilizados.
 
----
+------------------------------------------------------------------------
 
 #### Disponibilidad de código (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Acceso a código | Parcial | No estaba abierto, pero fue obtenido vía contacto directo |
 | Forma de acceso | Contacto | Lo explican explícitamente |
 | Utilidad del código | ✓ Funcional | El acceso al código permitió reproducir los hallazgos |
 
 **Puntaje 2.2:** 0.50 / 0.50
 
-**Comentarios:**
-La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
+**Comentarios:** La discusión sobre disponibilidad de código es clara y permite entender su impacto en la reproducción. Se sugiere distinguir con mayor precisión entre disponibilidad del código original y calidad de la réplica realizada. Además, conviene explicitar cómo esta limitación afecta cada resultado reportado.
 
----
+------------------------------------------------------------------------
 
 #### Documentación Metodológica (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Claridad de métodos descritos | Adecuada | Reconocen fortalezas y omisiones del informe |
 | Detalle suficiente para replicar | Parcial | El filtro y los ponderadores no estaban completamente explicitados |
 | Especificidad de procedimientos | Moderada | Detectan bien las brechas documentales |
 
 **Puntaje 2.3:** 0.50 / 0.50
 
-**Comentarios:**
-La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
+**Comentarios:** La evaluación de la documentación metodológica está bien enfocada y reconoce fortalezas y vacíos relevantes. Se podría mejorar la precisión sobre qué componentes faltan para una replicación exacta. También sería útil enumerar brevemente los elementos metodológicos no documentados.
 
----
+------------------------------------------------------------------------
 
 #### Transparencia (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Conflictos de interés | Parcial | Señalan la falta de explicitación suficiente |
 | Financiamiento | ✓ Claro | Identifican financiamiento y respaldo institucional |
 | Otros aspectos de transparencia | ✓ Completos | Comentan acceso al código y barreras prácticas |
 
 **Puntaje 2.4:** 0.50 / 0.50
 
-**Comentarios:**
-El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
+**Comentarios:** El análisis de transparencia aborda de forma pertinente conflictos de interés, financiamiento y apertura del proceso. Se sugiere separar con mayor nitidez la evidencia que proviene del reporte y la que se obtiene de fuentes externas. Además, conviene señalar qué hallazgos son verificables directamente en el documento principal.
 
----
+------------------------------------------------------------------------
 
 **Subtotal sección 2:** **2.00 / 2.00**
 
----
+------------------------------------------------------------------------
 
 ### Análisis Reproducible (3.0)
 
 #### Definición de tabla o figura a reproducir (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Precisión en identificar resultado | ✓ Muy precisa | Delimitan el bloque de confianza institucional y los 8 gráficos asociados |
 | Justificación de selección | ✓ Clara | Explican por qué ese bloque es relevante |
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
+**Comentarios:** La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
 
----
+------------------------------------------------------------------------
 
 #### Documentación de pasos, decisiones y dificultades (1.0)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Claridad del proceso | ✓ Muy clara | Detallan filtro, atrición, ponderadores y diseño muestral |
 | Registro de decisiones tomadas | ✓ Completo | Explican decisiones de filtrado y validación por varios métodos |
 | Documentación de dificultades | ✓ Exhaustiva | Reportan inconsistencia muestral y acceso tardío al código |
@@ -130,15 +124,14 @@ La definición del resultado a reproducir es clara y facilita la comparación co
 
 **Puntaje 3.2:** 1.00 / 1.00
 
-**Comentarios:**
-La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
+**Comentarios:** La documentación de pasos, decisiones y dificultades permite seguir el proceso de reproducción de manera consistente. Se sugiere sintetizar decisiones clave para una lectura más ágil. Además, conviene separar explícitamente decisiones analíticas de decisiones técnicas.
 
----
+------------------------------------------------------------------------
 
 #### Reporte verificable de resultados de reproducción (1.0)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Resultados claramente presentados | ✓ Sí | Informan y reproducen los gráficos de manera verificable |
 | Comparación con original | ✓ Completa | Contrastan resultados y diferencias del tamaño muestral |
 | Verificabilidad de conclusiones | ✓ Alta | Código, datos y resultados pueden seguirse |
@@ -148,64 +141,60 @@ La documentación de pasos, decisiones y dificultades permite seguir el proceso 
 
 **Puntaje 3.3:** 1.00 / 1.00
 
-**Comentarios:**
-La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación. También sería útil incorporar una comprobación adicional para robustecer la validación final.
+**Comentarios:** La presentación de resultados es verificable y se vincula adecuadamente con la referencia original. Se podría mejorar la contextualización de discrepancias observadas para facilitar su interpretación.
 
----
+------------------------------------------------------------------------
 
 #### Explicación de límites si no hay reproducción completa (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Identificación de limitaciones | ✓ Clara | Explican la discrepancia de `n` y la ausencia de detalles clave |
 | Explicación de causas | ✓ Completa | Relacionan el problema con ponderadores y documentación insuficiente |
 | Propuestas de solución | ✓ Sí | Las recomendaciones derivan directamente de estas limitaciones |
 
 **Puntaje 3.4:** 0.50 / 0.50
 
-**Comentarios:**
-La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible. Se sugiere priorizar las causas según su efecto en la diferencia observada. Además, conviene proponer una acción concreta de corto plazo para mejorar la reproducción.
+**Comentarios:** La explicación de límites está bien fundamentada y aporta transparencia al análisis reproducible.
 
----
+------------------------------------------------------------------------
 
 **Subtotal sección 3:** **3.00 / 3.00**
 
----
+------------------------------------------------------------------------
 
 ### Conclusiones (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Coherencia con evidencia | ✓ Alta | La conclusión se apoya en los problemas detectados |
 | Distinción fortalezas/debilidades | ✓ Clara | Contraponen apertura de datos con brechas de reproducibilidad técnica |
 | Evita afirmaciones no respaldadas | ✓ Sí | El cierre está bien fundado |
 
 **Puntaje 4:** 0.50 / 0.50
 
-**Comentarios:**
-Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
+**Comentarios:** Las conclusiones son coherentes con la evidencia levantada y mantienen consistencia argumentativa. Se podría mejorar el cierre acotando afirmaciones generales y enfatizando hallazgos centrales. También sería útil separar con mayor claridad resultados, interpretación y alcance de inferencia.
 
----
+------------------------------------------------------------------------
 
 ### Recomendaciones (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Propuestas concretas y factibles | ✓ Sí | Repositorios públicos, documentación técnica y README |
 | Vinculación a problemas detectados | ✓ Clara | Responden directamente a las barreras observadas |
 | Priorización adecuada | ✓ Sí | Las sugerencias son pertinentes y aplicables |
 
 **Puntaje 5:** 0.50 / 0.50
 
-**Comentarios:**
-Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
+**Comentarios:** Las recomendaciones están alineadas con los problemas detectados y orientadas a mejorar la reproducibilidad. Se sugiere priorizar las acciones por factibilidad e impacto esperado. Además, conviene convertirlas en pasos accionables de corto plazo.
 
----
+------------------------------------------------------------------------
 
 ### Formato del Reporte (0.5)
 
 | Criterio | Evaluación | Observaciones |
-|----------|-----------|---------------|
+|--------------------|----------------------|------------------------------|
 | Redacción y ortografía | Errores menores | Hay faltas de acentuación y redacción, por ejemplo `practicas`, `Ademas`, `recomendariamos` |
 | Organización IPO | ✓ Completa | Buena estructura de carpetas y separación de insumos/procesos/salidas |
 | HTML original incluido en el repo | ✓ Sí | El repositorio incluye `index.html` |
@@ -215,28 +204,26 @@ Las recomendaciones están alineadas con los problemas detectados y orientadas a
 | Citas en texto con clave BibTeX | ✓ Sí | Citas integradas en el texto |
 | Renderizado HTML sin errores | ✓ Correcto | Renderizó correctamente en revisión |
 
-**Puntaje 6:** 0.25 / 0.50
+**Puntaje 6:** 0.40 / 0.50
 
-**Comentarios:**
-El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
+**Comentarios:** El formato del reporte es legible y conserva los componentes básicos requeridos para la entrega. Se podría mejorar la estandarización de estilo, referencias y convenciones de citación. También sería útil verificar de forma sistemática la consistencia IPO, bibliografía y render final.
 
----
+------------------------------------------------------------------------
 
 ## Resumen de Evaluación
 
 ### Comentario general del trabajo
 
-El trabajo presenta una estructura clara y una evaluación consistente de reproducibilidad. Destaca la identificación de hallazgos relevantes y la coherencia entre análisis y conclusiones. Se sugiere fortalecer la estandarización formal del reporte y la trazabilidad de decisiones para facilitar una verificación externa más directa.
+El trabajo cumple satisfactoriamente con los objetivos de la evaluación. Presenta una estructura bien definida y explicaciones claras del paso a paso en el desarrollo del ejercicio. Las limitaciones y recomendaciones resultan pertinentes. El único problema son las faltas de ortografía que se presentan en distintas secciones del informe. Buen trabajo.
 
 ### Puntajes por Sección
 
-| Sección | Puntaje | Máximo |
-|---------|---------|--------|
-| 1. Selección del artículo | 0.50 | 0.50 |
-| 2. Evaluación de reproducibilidad | 2.00 | 2.00 |
-| 3. Análisis reproducible | 3.00 | 3.00 |
-| 4. Conclusiones | 0.50 | 0.50 |
-| 5. Recomendaciones | 0.50 | 0.50 |
-| 6. Formato del reporte | 0.25 | 0.50 |
-| **TOTAL** | **6.75** | **7.00** |
-
+| Sección                            | Puntaje | Máximo   |
+|------------------------------------|---------|----------|
+| 1\. Selección del artículo         | 0.50    | 0.50     |
+| 2\. Evaluación de reproducibilidad | 2.00    | 2.00     |
+| 3\. Análisis reproducible          | 3.00    | 3.00     |
+| 4\. Conclusiones                   | 0.50    | 0.50     |
+| 5\. Recomendaciones                | 0.50    | 0.50     |
+| 6\. Formato del reporte            | 0.40    | 0.50     |
+| **TOTAL**                          | **6.9** | **7.00** |
