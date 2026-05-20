@@ -67,7 +67,7 @@ En la siguiente tabla se indican los grupos asignados para el Trabajo 1, sus res
 |------------------------|------------------------|------------------------|------------------------|
 | Grupo 1 | [Repositorio Grupo 1](https://github.com/santacruzamalia/Trabajo-1.-Cs.-Social-Abierta) | - | \- Bianca Balmaceda<br>- Joaquín Núñez<br>- Amalia Santa |
 | Grupo 2 | [Repositorio Grupo 2](https://github.com/x0czz/Murua_Outerbridge) | [GitHub Pages Grupo 2](https://x0czz.github.io/Murua_Outerbridge/) | \- Nicolás Outerbridge<br>- Vicente Rojas |
-| Grupo 3 | [Repositorio Grupo 3](https://github.com/josefinabd/ej-repro-grupo3) | - | \- Josefina Bustos<br>- Benjamín Casacuberta |
+| Grupo 3 | [Repositorio Grupo 3](https://github.com/josefinabd/ej-repro-grupo3) | [GitHub Pages Grupo 3](https://josefinabd.github.io/ej-repro-grupo3/) | \- Josefina Bustos<br>- Benjamín Casacuberta |
 | Grupo 4 | [Repositorio Grupo 4](https://github.com/pipoowo/CSA-Trabajo1) | [GitHub Pages Grupo 4](https://pipoowo.github.io/CSA-Trabajo1/) | \- Elisa Calderón<br>- Valentina Montecinos<br>- Amalia Tsukame<br>- Felipe Vega |
 | Grupo 5 | [Repositorio Grupo 5](https://github.com/sheymn/cienciasocialabierta-repro-grupo5) | [GitHub Pages Grupo 5](https://sheymn.github.io/cienciasocialabierta-repro-grupo5/) | \- Amaranta González<br>- Amanda Rojo<br>- Elena Yáñez |
 | Grupo 6 | [Repositorio Grupo 6](https://github.com/renatodeluca/ej-repro-grupo-6) | [GitHub Pages Grupo 6](https://renatodeluca.github.io/ej-repro-grupo-6/) | \- Benjamín Belmar<br>- Renato De Luca<br>- Maite Julian<br>- Bastián Martín |
