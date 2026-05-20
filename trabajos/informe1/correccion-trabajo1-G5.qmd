@@ -99,9 +99,6 @@ format:
 
 **Puntaje 3.1:** 0.50 / 0.50
 
-**Comentarios:**
-La definición del resultado a reproducir es clara y facilita la comparación con el original. Se podría mejorar la justificación de su relevancia dentro del argumento general del informe. También sería útil explicitar un criterio breve de comparabilidad para la validación.
-
 ---
 
 #### Documentación de pasos, decisiones y dificultades (1.0)
