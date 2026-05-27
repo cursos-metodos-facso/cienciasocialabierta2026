@@ -104,6 +104,7 @@ Al final de esta clase podrán:
 - Publicar un sitio estático desde un repositorio.
 - Diferenciar un flujo manual y uno automatizado con GitHub Actions.
 - Aplicar una lista mínima de control de calidad antes de publicar.
+- Anotar sitios web con hypothes.is
 :::
 
 # Contenidos {data-background-color="#9B2626" style="text-align: right;"}
@@ -114,7 +115,7 @@ Al final de esta clase podrán:
 [2. Fundamentos de GitHub Pages]{style="color: #f8fafb;"}<br>
 [3. Flujos de publicación]{style="color: #f8fafb;"}<br>
 [4. Buenas prácticas y errores frecuentes]{style="color: #f8fafb;"}<br>
-[5. Actividad aplicada]{style="color: #f8fafb;"}
+[5. Anotación web con hypothes.is]{style="color: #f8fafb;"}
 
 # Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
@@ -124,7 +125,7 @@ Al final de esta clase podrán:
 [2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
 [3. Flujos de publicación]{style="color: #686868;"}<br>
 [4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
-[5. Actividad aplicada]{style="color: #686868;"}
+[5. Anotación web con hypothes.is]{style="color: #686868;"}
 
 # 1) Por qué publicar resultados en la web
 
@@ -153,51 +154,16 @@ Al final de esta clase podrán:
 [2. Fundamentos de GitHub Pages]{style="color: #ffffff;"}<br>
 [3. Flujos de publicación]{style="color: #686868;"}<br>
 [4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
-[5. Actividad aplicada]{style="color: #686868;"}
+[5. Anotación web con hypothes.is]{style="color: #686868;"}
 
 ## Qué es GitHub Pages
 
 - Servicio de hosting para sitios estáticos.
 - Publica HTML, CSS, JS e imágenes directamente desde GitHub.
-- No ejecuta backend (sin base de datos o API del lado servidor).
+- La lógica es que se genera una acción automática (github action) cada vez que se actualiza el repositorio. 
 
-## Arquitectura mínima
+-> Es decir, cada vez que se hace un commit/push, se ejecuta un proceso de construcción que genera la página web y la publica automáticamente.
 
-```text
-contenido fuente (.qmd/.md/.html)
-        ->
-proceso de construcción (quarto render)
-        ->
-salida estática (docs/ o rama gh-pages)
-        ->
-publicación web (GitHub Pages)
-```
-
-## Estructura sugerida del repositorio
-
-```text
-raiz/
-  _quarto.yml
-  index.qmd
-  syllabus.qmd
-  schedule.qmd
-  docs/              # salida publicada
-  slides/
-  assignment/
-  content/
-  files/
-```
-
-## Dos estrategias de despliegue
-
-:::{.incremental .highlight-last}
-- Estrategia A: publicar carpeta docs desde main.
-- Estrategia B: publicar rama gh-pages generada automáticamente.
-:::
-
-::: {.fragment}
-Regla práctica: usar docs es simple para cursos, gh-pages es cómoda cuando hay CI más avanzado.
-:::
 
 # Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
@@ -207,65 +173,15 @@ Regla práctica: usar docs es simple para cursos, gh-pages es cómoda cuando hay
 [2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
 [3. Flujos de publicación]{style="color: #ffffff;"}<br>
 [4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
-[5. Actividad aplicada]{style="color: #686868;"}
+[5. Anotación web con hypothes.is]{style="color: #686868;"}
 
-## Flujo manual (primer acercamiento)
+## Flujo
 
 1. Editar contenido.
 2. Renderizar sitio localmente.
-3. Confirmar que docs quedó actualizado.
+3. Confirmar que carpeta docs se está actualizando correctamente.
 4. Commit + push.
 5. Verificar página publicada.
-
-## Flujo automatizado (recomendado)
-
-1. Editar contenido.
-2. Commit + push.
-3. GitHub Actions ejecuta render.
-4. Action publica automáticamente.
-5. Revisar logs y sitio final.
-
-## Ejemplo de workflow de GitHub Actions
-
-```yaml
-name: Publish Quarto site
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render site
-        uses: quarto-dev/quarto-actions/render@v2
-
-      - name: Deploy to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-```
-
-## Ventajas del flujo automatizado
-
-:::{.incremental .highlight-last}
-- Menos errores manuales al publicar.
-- Historial claro de builds y despliegues.
-- Fácil de escalar a trabajo colaborativo.
-- Base para pruebas y checks adicionales.
-:::
 
 ## Configuración visual en GitHub (paso a paso)
 
@@ -293,7 +209,7 @@ jobs:
 [2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
 [3. Flujos de publicación]{style="color: #686868;"}<br>
 [4. Buenas prácticas y errores frecuentes]{style="color: #ffffff;"}<br>
-[5. Actividad aplicada]{style="color: #686868;"}
+[5. Anotación web con hypothes.is]{style="color: #686868;"}
 
 ## Checklist antes de publicar
 
@@ -322,24 +238,25 @@ jobs:
 4. Confirmar carpeta de salida y rutas relativas.
 5. Probar en modo incógnito para descartar caché.
 
-## Contenidos adicionales para fortalecer el curso
+# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
 
-:::{.incremental .highlight-last}
-- Reproducibilidad de entornos (versiones y dependencias).
-- Accesibilidad web básica (contraste, texto alternativo, jerarquía).
-- SEO académico mínimo (metadatos, sitemap, Open Graph).
-- Analítica ética y mínima para monitorear uso del sitio.
-- Gobernanza: ramas protegidas, revisiones y permisos del equipo.
-:::
+<br>
 
-## Comentar sitios web con Hypothes.is
+[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
+[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
+[3. Flujos de publicación]{style="color: #686868;"}<br>
+[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
+[5. Anotación web con hypothes.is]{style="color: #ffffff;"}
+
+# Comentar sitios web con Hypothes.is
 
 Hypothes.is permite anotar y discutir textos directamente sobre páginas web y PDFs.
 
 :::{.incremental .highlight-last}
-- Útil para lectura guiada en clase.
 - Permite comentarios individuales o por grupos.
+- Se puede hacer réplica a los comentarios
 - Deja evidencia del proceso de lectura y argumentación.
+- Gratuito y funciona desde el navegador sin necesidad de instalar software adicional.
 :::
 
 ## Paso 1: Crear cuenta
@@ -359,61 +276,19 @@ Hypothes.is permite anotar y discutir textos directamente sobre páginas web y P
 1. Instalar la extensión de navegador de Hypothes.is.
 2. Abrir una página web y activar el panel de anotaciones.
 3. Seleccionar texto, escribir comentario y etiquetar.
-4. Elegir visibilidad: público o grupo privado del curso.
+4. Elegir visibilidad: público o grupo privado
 
-## Usos recomendados en docencia
-
-:::{.incremental .highlight-last}
-- Preguntas de lectura obligatoria sobre papers o noticias.
-- Comentarios entre pares para discusión previa a clase.
-- Marcado de conceptos clave, métodos y evidencia empírica.
-- Revisión crítica de fuentes y trazabilidad de argumentos.
 :::
 
-## Recursos y ejemplos de uso
 
-![](img/hypothesis/03-blog-web-hypothesis.png){fig-alt="Blog de Hypothes.is con casos y recursos" width="100%"}
 
-# Contenidos {data-background-color="#9B2626" style="text-align: right;"}
-
-<br>
-
-[1. Por qué publicar resultados en la web]{style="color: #686868;"}<br>
-[2. Fundamentos de GitHub Pages]{style="color: #686868;"}<br>
-[3. Flujos de publicación]{style="color: #686868;"}<br>
-[4. Buenas prácticas y errores frecuentes]{style="color: #686868;"}<br>
-[5. Actividad aplicada]{style="color: #ffffff;"}
-
-## Actividad en grupos (20 minutos)
-
-Objetivo: implementar GitHub Pages en el repositorio grupal del trabajo de reproducibilidad.
-
-Referencia de estructura base (protocolo IPO):
-[https://github.com/data-soc/template-repro](https://github.com/data-soc/template-repro)
-
-1. Abrir el repositorio grupal y verificar estructura IPO (input/procesamiento/output).
-2. Definir una página principal del proyecto (index) con: objetivo del trabajo, equipo y estado de avance.
-3. Activar GitHub Pages (desde `docs/` o flujo con Actions, según su repo).
-4. Publicar al menos una sección de resultados o avances (tabla, figura o resumen analítico).
-5. Compartir la URL publicada y registrar un problema técnico + cómo lo resolvieron.
-
-## Rúbrica breve
-
-- GitHub Pages implementado y funcionando (40%).
-- Coherencia con estructura IPO del repositorio (25%).
-- Claridad de la página principal del proyecto (20%).
-- Reporte del problema técnico y solución documentada (15%).
-
-## Cierre
+# Cierre
 
 :::{.incremental .highlight-last}
 - GitHub Pages permite publicar rápido y con trazabilidad.
 - La calidad final depende del flujo, no solo de la herramienta.
 - Publicar bien es parte del método de investigación abierta.
+- hypothes.is es una herramienta sencilla para obtener comentarios  discusión de resultados publicados en html
 :::
 
-## Próximos pasos
 
-1. Dejar configurado un workflow de publicación automática.
-2. Estandarizar checklist para todo material del curso.
-3. Definir calendario de actualización y responsables por sección.

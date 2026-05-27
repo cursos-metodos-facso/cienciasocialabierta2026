@@ -27,72 +27,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="06-github-pages_files/libs/revealjs/dist/theme/quarto-59e9558f5b602c975c9372295c0d8301.css">
   <link href="06-github-pages_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -268,6 +202,7 @@
 <li class="fragment">Publicar un sitio estático desde un repositorio.</li>
 <li class="fragment">Diferenciar un flujo manual y uno automatizado con GitHub Actions.</li>
 <li class="fragment">Aplicar una lista mínima de control de calidad antes de publicar.</li>
+<li class="fragment">Anotar sitios web con hypothes.is</li>
 </ul>
 </div>
 </section>
@@ -275,13 +210,13 @@
 <section id="contenidos" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
 <p><br></p>
-<p><span style="color: #f8fafb;">1. Por qué publicar resultados en la web</span><br> <span style="color: #f8fafb;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #f8fafb;">3. Flujos de publicación</span><br> <span style="color: #f8fafb;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #f8fafb;">5. Actividad aplicada</span></p>
+<p><span style="color: #f8fafb;">1. Por qué publicar resultados en la web</span><br> <span style="color: #f8fafb;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #f8fafb;">3. Flujos de publicación</span><br> <span style="color: #f8fafb;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #f8fafb;">5. Anotación web con hypothes.is</span></p>
 </section>
 
 <section id="contenidos-1" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
 <p><br></p>
-<p><span style="color: #f8fafb;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Actividad aplicada</span></p>
+<p><span style="color: #f8fafb;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Anotación web con hypothes.is</span></p>
 </section>
 
 <section>
@@ -312,118 +247,32 @@
 <section id="contenidos-2" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
 <p><br></p>
-<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #ffffff;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Actividad aplicada</span></p>
+<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #ffffff;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Anotación web con hypothes.is</span></p>
 </section>
 <section id="qué-es-github-pages" class="slide level2">
 <h2>Qué es GitHub Pages</h2>
 <ul>
 <li>Servicio de hosting para sitios estáticos.</li>
 <li>Publica HTML, CSS, JS e imágenes directamente desde GitHub.</li>
-<li>No ejecuta backend (sin base de datos o API del lado servidor).</li>
+<li>La lógica es que se genera una acción automática (github action) cada vez que se actualiza el repositorio.</li>
 </ul>
-</section>
-<section id="arquitectura-mínima" class="slide level2">
-<h2>Arquitectura mínima</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href=""></a>contenido fuente (.qmd/.md/.html)</span>
-<span id="cb1-2"><a href=""></a>        -&gt;</span>
-<span id="cb1-3"><a href=""></a>proceso de construcción (quarto render)</span>
-<span id="cb1-4"><a href=""></a>        -&gt;</span>
-<span id="cb1-5"><a href=""></a>salida estática (docs/ o rama gh-pages)</span>
-<span id="cb1-6"><a href=""></a>        -&gt;</span>
-<span id="cb1-7"><a href=""></a>publicación web (GitHub Pages)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="estructura-sugerida-del-repositorio" class="slide level2">
-<h2>Estructura sugerida del repositorio</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href=""></a>raiz/</span>
-<span id="cb2-2"><a href=""></a>  _quarto.yml</span>
-<span id="cb2-3"><a href=""></a>  index.qmd</span>
-<span id="cb2-4"><a href=""></a>  syllabus.qmd</span>
-<span id="cb2-5"><a href=""></a>  schedule.qmd</span>
-<span id="cb2-6"><a href=""></a>  docs/              # salida publicada</span>
-<span id="cb2-7"><a href=""></a>  slides/</span>
-<span id="cb2-8"><a href=""></a>  assignment/</span>
-<span id="cb2-9"><a href=""></a>  content/</span>
-<span id="cb2-10"><a href=""></a>  files/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="dos-estrategias-de-despliegue" class="slide level2">
-<h2>Dos estrategias de despliegue</h2>
-<div class="highlight-last">
-<ul>
-<li class="fragment">Estrategia A: publicar carpeta docs desde main.</li>
-<li class="fragment">Estrategia B: publicar rama gh-pages generada automáticamente.</li>
-</ul>
-</div>
-<div class="fragment">
-<p>Regla práctica: usar docs es simple para cursos, gh-pages es cómoda cuando hay CI más avanzado.</p>
-</div>
+<p>-&gt; Es decir, cada vez que se hace un commit/push, se ejecuta un proceso de construcción que genera la página web y la publica automáticamente.</p>
 </section></section>
 <section>
 <section id="contenidos-3" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
 <p><br></p>
-<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #ffffff;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Actividad aplicada</span></p>
+<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #ffffff;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Anotación web con hypothes.is</span></p>
 </section>
-<section id="flujo-manual-primer-acercamiento" class="slide level2 scrollable">
-<h2>Flujo manual (primer acercamiento)</h2>
+<section id="flujo" class="slide level2 scrollable">
+<h2>Flujo</h2>
 <ol type="1">
 <li>Editar contenido.</li>
 <li>Renderizar sitio localmente.</li>
-<li>Confirmar que docs quedó actualizado.</li>
+<li>Confirmar que carpeta docs se está actualizando correctamente.</li>
 <li>Commit + push.</li>
 <li>Verificar página publicada.</li>
 </ol>
-</section>
-<section id="flujo-automatizado-recomendado" class="slide level2 scrollable">
-<h2>Flujo automatizado (recomendado)</h2>
-<ol type="1">
-<li>Editar contenido.</li>
-<li>Commit + push.</li>
-<li>GitHub Actions ejecuta render.</li>
-<li>Action publica automáticamente.</li>
-<li>Revisar logs y sitio final.</li>
-</ol>
-</section>
-<section id="ejemplo-de-workflow-de-github-actions" class="slide level2">
-<h2>Ejemplo de workflow de GitHub Actions</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href=""></a><span class="fu">name</span><span class="kw">:</span><span class="at"> Publish Quarto site</span></span>
-<span id="cb3-2"><a href=""></a></span>
-<span id="cb3-3"><a href=""></a><span class="fu">on</span><span class="kw">:</span></span>
-<span id="cb3-4"><a href=""></a><span class="at">  </span><span class="fu">push</span><span class="kw">:</span></span>
-<span id="cb3-5"><a href=""></a><span class="at">    </span><span class="fu">branches</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">main</span><span class="kw">]</span></span>
-<span id="cb3-6"><a href=""></a><span class="at">  </span><span class="fu">workflow_dispatch</span><span class="kw">:</span></span>
-<span id="cb3-7"><a href=""></a></span>
-<span id="cb3-8"><a href=""></a><span class="fu">jobs</span><span class="kw">:</span></span>
-<span id="cb3-9"><a href=""></a><span class="at">  </span><span class="fu">build-deploy</span><span class="kw">:</span></span>
-<span id="cb3-10"><a href=""></a><span class="at">    </span><span class="fu">runs-on</span><span class="kw">:</span><span class="at"> ubuntu-latest</span></span>
-<span id="cb3-11"><a href=""></a><span class="at">    </span><span class="fu">permissions</span><span class="kw">:</span></span>
-<span id="cb3-12"><a href=""></a><span class="at">      </span><span class="fu">contents</span><span class="kw">:</span><span class="at"> write</span></span>
-<span id="cb3-13"><a href=""></a><span class="at">      </span><span class="fu">pages</span><span class="kw">:</span><span class="at"> write</span></span>
-<span id="cb3-14"><a href=""></a><span class="at">      </span><span class="fu">id-token</span><span class="kw">:</span><span class="at"> write</span></span>
-<span id="cb3-15"><a href=""></a></span>
-<span id="cb3-16"><a href=""></a><span class="at">    </span><span class="fu">steps</span><span class="kw">:</span></span>
-<span id="cb3-17"><a href=""></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> actions/checkout@v4</span></span>
-<span id="cb3-18"><a href=""></a></span>
-<span id="cb3-19"><a href=""></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Setup Quarto</span></span>
-<span id="cb3-20"><a href=""></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/setup@v2</span></span>
-<span id="cb3-21"><a href=""></a></span>
-<span id="cb3-22"><a href=""></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Render site</span></span>
-<span id="cb3-23"><a href=""></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/render@v2</span></span>
-<span id="cb3-24"><a href=""></a></span>
-<span id="cb3-25"><a href=""></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Deploy to GitHub Pages</span></span>
-<span id="cb3-26"><a href=""></a><span class="at">        </span><span class="fu">uses</span><span class="kw">:</span><span class="at"> quarto-dev/quarto-actions/publish@v2</span></span>
-<span id="cb3-27"><a href=""></a><span class="at">        </span><span class="fu">with</span><span class="kw">:</span></span>
-<span id="cb3-28"><a href=""></a><span class="at">          </span><span class="fu">target</span><span class="kw">:</span><span class="at"> gh-pages</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="ventajas-del-flujo-automatizado" class="slide level2">
-<h2>Ventajas del flujo automatizado</h2>
-<div class="highlight-last">
-<ul>
-<li class="fragment">Menos errores manuales al publicar.</li>
-<li class="fragment">Historial claro de builds y despliegues.</li>
-<li class="fragment">Fácil de escalar a trabajo colaborativo.</li>
-<li class="fragment">Base para pruebas y checks adicionales.</li>
-</ul>
-</div>
 </section>
 <section id="configuración-visual-en-github-paso-a-paso" class="slide level2 scrollable">
 <h2>Configuración visual en GitHub (paso a paso)</h2>
@@ -449,7 +298,7 @@
 <section id="contenidos-4" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
 <h1>Contenidos</h1>
 <p><br></p>
-<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #ffffff;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Actividad aplicada</span></p>
+<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #ffffff;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #686868;">5. Anotación web con hypothes.is</span></p>
 </section>
 <section id="checklist-antes-de-publicar" class="slide level2">
 <h2>Checklist antes de publicar</h2>
@@ -483,27 +332,23 @@
 <li>Confirmar carpeta de salida y rutas relativas.</li>
 <li>Probar en modo incógnito para descartar caché.</li>
 </ol>
+</section></section>
+<section id="contenidos-5" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
+<h1>Contenidos</h1>
+<p><br></p>
+<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #ffffff;">5. Anotación web con hypothes.is</span></p>
 </section>
-<section id="contenidos-adicionales-para-fortalecer-el-curso" class="slide level2">
-<h2>Contenidos adicionales para fortalecer el curso</h2>
-<div class="highlight-last">
-<ul>
-<li class="fragment">Reproducibilidad de entornos (versiones y dependencias).</li>
-<li class="fragment">Accesibilidad web básica (contraste, texto alternativo, jerarquía).</li>
-<li class="fragment">SEO académico mínimo (metadatos, sitemap, Open Graph).</li>
-<li class="fragment">Analítica ética y mínima para monitorear uso del sitio.</li>
-<li class="fragment">Gobernanza: ramas protegidas, revisiones y permisos del equipo.</li>
-</ul>
-</div>
-</section>
-<section id="comentar-sitios-web-con-hypothes.is" class="slide level2">
-<h2>Comentar sitios web con Hypothes.is</h2>
+
+<section>
+<section id="comentar-sitios-web-con-hypothes.is" class="title-slide slide level1 center">
+<h1>Comentar sitios web con Hypothes.is</h1>
 <p>Hypothes.is permite anotar y discutir textos directamente sobre páginas web y PDFs.</p>
 <div class="highlight-last">
 <ul>
-<li class="fragment">Útil para lectura guiada en clase.</li>
 <li class="fragment">Permite comentarios individuales o por grupos.</li>
+<li class="fragment">Se puede hacer réplica a los comentarios</li>
 <li class="fragment">Deja evidencia del proceso de lectura y argumentación.</li>
+<li class="fragment">Gratuito y funciona desde el navegador sin necesidad de instalar software adicional.</li>
 </ul>
 </div>
 </section>
@@ -526,70 +371,22 @@
 <li>Instalar la extensión de navegador de Hypothes.is.</li>
 <li>Abrir una página web y activar el panel de anotaciones.</li>
 <li>Seleccionar texto, escribir comentario y etiquetar.</li>
-<li>Elegir visibilidad: público o grupo privado del curso.</li>
+<li>Elegir visibilidad: público o grupo privado</li>
 </ol>
-</section>
-<section id="usos-recomendados-en-docencia" class="slide level2">
-<h2>Usos recomendados en docencia</h2>
-<div class="highlight-last">
-<ul>
-<li class="fragment">Preguntas de lectura obligatoria sobre papers o noticias.</li>
-<li class="fragment">Comentarios entre pares para discusión previa a clase.</li>
-<li class="fragment">Marcado de conceptos clave, métodos y evidencia empírica.</li>
-<li class="fragment">Revisión crítica de fuentes y trazabilidad de argumentos.</li>
-</ul>
-</div>
-</section>
-<section id="recursos-y-ejemplos-de-uso" class="slide level2">
-<h2>Recursos y ejemplos de uso</h2>
-
-<img data-src="img/hypothesis/03-blog-web-hypothesis.png" style="width:100.0%" alt="Blog de Hypothes.is con casos y recursos" class="r-stretch"></section></section>
-<section>
-<section id="contenidos-5" class="title-slide slide level1 center" data-background-color="#9B2626" style="text-align: right;">
-<h1>Contenidos</h1>
-<p><br></p>
-<p><span style="color: #686868;">1. Por qué publicar resultados en la web</span><br> <span style="color: #686868;">2. Fundamentos de GitHub Pages</span><br> <span style="color: #686868;">3. Flujos de publicación</span><br> <span style="color: #686868;">4. Buenas prácticas y errores frecuentes</span><br> <span style="color: #ffffff;">5. Actividad aplicada</span></p>
-</section>
-<section id="actividad-en-grupos-20-minutos" class="slide level2 scrollable">
-<h2>Actividad en grupos (20 minutos)</h2>
-<p>Objetivo: implementar GitHub Pages en el repositorio grupal del trabajo de reproducibilidad.</p>
-<p>Referencia de estructura base (protocolo IPO): <a href="https://github.com/data-soc/template-repro">https://github.com/data-soc/template-repro</a></p>
-<ol type="1">
-<li>Abrir el repositorio grupal y verificar estructura IPO (input/procesamiento/output).</li>
-<li>Definir una página principal del proyecto (index) con: objetivo del trabajo, equipo y estado de avance.</li>
-<li>Activar GitHub Pages (desde <code>docs/</code> o flujo con Actions, según su repo).</li>
-<li>Publicar al menos una sección de resultados o avances (tabla, figura o resumen analítico).</li>
-<li>Compartir la URL publicada y registrar un problema técnico + cómo lo resolvieron.</li>
-</ol>
-</section>
-<section id="rúbrica-breve" class="slide level2">
-<h2>Rúbrica breve</h2>
-<ul>
-<li>GitHub Pages implementado y funcionando (40%).</li>
-<li>Coherencia con estructura IPO del repositorio (25%).</li>
-<li>Claridad de la página principal del proyecto (20%).</li>
-<li>Reporte del problema técnico y solución documentada (15%).</li>
-</ul>
-</section>
-<section id="cierre" class="slide level2">
-<h2>Cierre</h2>
+<p>:::</p>
+</section></section>
+<section id="cierre" class="title-slide slide level1 center">
+<h1>Cierre</h1>
 <div class="highlight-last">
 <ul>
 <li class="fragment">GitHub Pages permite publicar rápido y con trazabilidad.</li>
 <li class="fragment">La calidad final depende del flujo, no solo de la herramienta.</li>
 <li class="fragment">Publicar bien es parte del método de investigación abierta.</li>
+<li class="fragment">hypothes.is es una herramienta sencilla para obtener comentarios discusión de resultados publicados en html</li>
 </ul>
 </div>
-</section>
-<section id="próximos-pasos" class="slide level2 scrollable">
-<h2>Próximos pasos</h2>
-<ol type="1">
-<li>Dejar configurado un workflow de publicación automática.</li>
-<li>Estandarizar checklist para todo material del curso.</li>
-<li>Definir calendario de actualización y responsables por sección.</li>
-</ol>
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/logo-ciencia-abierta.png" class="slide-logo"></p>

@@ -999,5 +999,67 @@
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.7 Tabla final de puntajes",
     "text": "2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección (para completar se sugiere utilizar el modo “Quarto edit in Visual Mode”, accesible desde Ctrl+shift+P).\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n\n\n\n2.1 Disponibilidad de datos\n0.5\n\n\n\n2.2 Disponibilidad de código\n0.5\n\n\n\n2.3 Documentación metodológica\n0.5\n\n\n\n2.4 Transparencia\n0.5\n\n\n\nTotal sección 2\n2.0\n\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n\n\n\nTotal sección 3\n3.0\n\n\n\n4. Conclusiones\n0.5\n\n\n\n5. Recomendaciones\n0.5\n\n\n\n6. Formato del reporte\n0.5\n\n\n\nTotal final\n7.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Ciencia Social Abierta\n        ",
+    "section": "",
+    "text": "Herramientas para la reproducilibidad, colaboración y comunicación de la investigación social\n        \n        \n            SOC01308/MCS • Primer Semestre 2026Departamento de Sociología, Facultad de Ciencias SocialesUniversidad de Chile"
+  },
+  {
+    "objectID": "index.html#últimas-informaciones",
+    "href": "index.html#últimas-informaciones",
+    "title": "\n            Ciencia Social Abierta\n        ",
+    "section": "Últimas informaciones",
+    "text": "Últimas informaciones\n\n\n\n\n\n\n\n\n\n\nTres lecturas recomendadas sobre reproducibilidad\n\n\nTres artículos recientes que abordan la reproducibilidad desde distintas perspectivas, con hallazgos clave sobre la incertidumbre en los resultados, la robustez de los…\n\n\n\nJuan C. Castillo\n\n\nMay 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatos de más de 100MB: almacenar en Zenodo y llamar desde R\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocumentos anidados en Quarto\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibilidad en scripts de R con renv\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nForo Trabajos - &gt; Giscus\n\n\n\n\n\n\nEquipo docente\n\n\nApr 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuenas prácticas para nombrar archivos\n\n\n\n\n\n\nEquipo docente\n\n\nApr 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReel sobre reproducibilidad en la investigación social\n\n\n\n\n\n\nEquipo docente\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenid@s al curso!\n\n\n\n\n\n\nEquipo docente\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/07-content.html",
+    "href": "content/07-content.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Sesión del jueves, 28 de mayo de 2026\n\n\n\n\n\nDocumento de presentación",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "Sesión 7"
+    ]
+  },
+  {
+    "objectID": "content/06-content.html",
+    "href": "content/06-content.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Sesión del jueves, 7 de mayo de 2026\n\n\n\n\n\nDocumento de presentación",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "Sesión 6"
+    ]
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Sobre clases y lecturas",
+    "section": "",
+    "text": "Cada clase tiene como referencia lecturas que deben completarse antes de la sesión correspondiente.\nEn esta sección se encuentran disponibles los documentos de presentación que sirven de base a cada clase. Para verlos en pantalla completa presionar F sobre el documento.",
+    "crumbs": [
+      "Clases",
+      "Sobre clases",
+      "Sobre clases y lecturas"
+    ]
+  },
+  {
+    "objectID": "content/04-content.html",
+    "href": "content/04-content.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Sesión del jueves, 10 de abril de 2025\n\n\n\n\n\nDocumento de presentación",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "Sesión 4"
+    ]
   }
 ]
