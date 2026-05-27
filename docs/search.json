@@ -1061,5 +1061,26 @@
       "Sesiones",
       "Sesión 4"
     ]
+  },
+  {
+    "objectID": "assignment/08-practico.html",
+    "href": "assignment/08-practico.html",
+    "title": "Práctico 8: Pre-registros y pre-prints",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 28 de mayo de 2026"
+  },
+  {
+    "objectID": "assignment/08-practico.html#cómo-crear-un-pre-registro",
+    "href": "assignment/08-practico.html#cómo-crear-un-pre-registro",
+    "title": "Práctico 8: Pre-registros y pre-prints",
+    "section": "1.1 ¿Cómo crear un pre-registro?",
+    "text": "1.1 ¿Cómo crear un pre-registro?\nPara crear un pre-registro debemos ingresar a la sección My Registrations y hacer click en el boton superior derecho Add a Registration.\n\nEsto los dirigirá a los primeros pasos del pre-registro. Si no tienen un proyecto previo, en el Step 1 seleccionan la opción no. En el Step 2 deben asegurarse que elijan OSF Preregistration, o si no van a registrar otro tipo de documento y formato.\n\nEn este punto se encontrarán en el proceso de inscripción de su pre-registro. Deben llenar todos los campos con la información verídica de su investigación.\n\nPor ejemplo, en la sección de Overview es donde deben declarar la pregunta de investigación y las hipótesis asociadas a su trabajo. Además, OSF exige clarificar el grado de cercanía que han tenido con los datos. Las secciones posteriores presentan la misma lógica, en las cuales deberán ir detallando el muestreo, el tratado de variables, el plan de análisis, entre otras cosas.\n\nAlgunos apartados dan la opción de subir documentos en caso de que los espacios ofrecidos por la página no permitan completar el campo satisfactoriamente.\nUna vez completado todos los pasos, el último apartado les mostrará un review de su pre-registro. Cuando confirmen que está todo correcto, deben hacer click en el botón inferior derecho Register, y su pre-registro comenzará a procesarse para ser publicado."
+  },
+  {
+    "objectID": "assignment/08-practico.html#cómo-crear-un-pre-print",
+    "href": "assignment/08-practico.html#cómo-crear-un-pre-print",
+    "title": "Práctico 8: Pre-registros y pre-prints",
+    "section": "2.1 ¿Cómo crear un pre-print?",
+    "text": "2.1 ¿Cómo crear un pre-print?\nPara crear un pre-print debemos ir a la sección My Preprints y hacer click en Add a Preprint.\n\nAquí se les pedirá seleccionar un servicio de Pre-prints. Les recomendamos SocArXiv ya que está orientada a la investigación en ciencias sociales.\n\nPosterior a la selección de servicio ya se encontrarán dentro de la plataforma de registro. Esto sigue una lógica similar a la inscripción del pre-pregistro, donde deberán rellenar los campos con la información correspondiente.\nEn el último paso podrán visualizar un preview de su pre-print, y una vez que estén seguros de subirlo, clickean en el botón inferior derecho Submit. Esto enviará su pre-print a un proceso de revisión por parte de SocArXiv, el cual será publicado una vez aceptado.\n\n\n\n\n\n\nNota\n\n\n\nEste proceso es más bien un chequeo de información del formulario del pre-print más que una revisión del contenido de su investigación, por lo que tienden a ser resueltos en el corto plazo."
   }
 ]
