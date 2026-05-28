@@ -20,7 +20,7 @@ Y algunas informaciones importantes:
 
 - Las sesiones que quedan de clases están orientadas a entregarles los conocimientos y herramientas para que puedan avanzar en la entrega del trabajo final, cuya pauta de elaboración se encuentra disponible en la sección de "[Trabajos](/trabajos/trabajos.qmd)" de este sitio.
 
-- Como paso inicial les pedimos un breve [reporte de avance](https://forms.gle/QPUvCU6KZ2Pt2FX56) para poder darles feedback sobre su propuesta. La fecha para completar la pre-entrega es el próximo viernes 5.
+- Como paso inicial les pedimos un breve [reporte de avance](https://forms.gle/QPUvCU6KZ2Pt2FX56) para poder darles feedback sobre su propuesta. La fecha para completar este reporte es el próximo viernes 5, y es opcional para los grupos que prefieran tener comentarios antes de la entrega final y asegurar una buena evaluación.
 
 - La sesión correspondiente a hoy se enfocará en entregarles herramientas para la elaboración de **pre-registros y pre-prints**, que son dos prácticas clave para mejorar la transparencia y la calidad de la investigación social. El [material de esta clase](/content/07-content.qmd) ya está disponible, e incluye un video de un taller que dimos sobre este tema en 2022, que les recomendamos revisar para complementar el material de esta clase.
 
