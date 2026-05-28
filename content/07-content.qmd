@@ -12,3 +12,9 @@ website:
 
 <iframe src=/slides/07-preregistros_osf.html height="550" width=100% allowfullscreen="true">
 </iframe> 
+
+
+# Video de taller de pre-registros y pre-prints 2022 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RsHmgi6gVH4?si=5s0oe_Q3Gd2-VIYN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

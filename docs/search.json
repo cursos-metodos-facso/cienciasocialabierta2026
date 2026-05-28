@@ -1012,14 +1012,14 @@
     "href": "index.html#últimas-informaciones",
     "title": "\n            Ciencia Social Abierta\n        ",
     "section": "Últimas informaciones",
-    "text": "Últimas informaciones\n\n\n\n\n\n\n\n\n\n\nTres lecturas recomendadas sobre reproducibilidad\n\n\nTres artículos recientes que abordan la reproducibilidad desde distintas perspectivas, con hallazgos clave sobre la incertidumbre en los resultados, la robustez de los…\n\n\n\nJuan C. Castillo\n\n\nMay 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatos de más de 100MB: almacenar en Zenodo y llamar desde R\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocumentos anidados en Quarto\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibilidad en scripts de R con renv\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nForo Trabajos - &gt; Giscus\n\n\n\n\n\n\nEquipo docente\n\n\nApr 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuenas prácticas para nombrar archivos\n\n\n\n\n\n\nEquipo docente\n\n\nApr 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReel sobre reproducibilidad en la investigación social\n\n\n\n\n\n\nEquipo docente\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenid@s al curso!\n\n\n\n\n\n\nEquipo docente\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Últimas informaciones\n\n\n\n\n\n\n\n\n\n\nSeguimos avanzando en Junio\n\n\n\n\n\n\nJuan C. Castillo\n\n\nMay 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nTres lecturas recomendadas sobre reproducibilidad\n\n\nTres artículos recientes que abordan la reproducibilidad desde distintas perspectivas, con hallazgos clave sobre la incertidumbre en los resultados, la robustez de los…\n\n\n\nJuan C. Castillo\n\n\nMay 6, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDatos de más de 100MB: almacenar en Zenodo y llamar desde R\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocumentos anidados en Quarto\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 28, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReproducibilidad en scripts de R con renv\n\n\n\n\n\n\nEquipo Docente\n\n\nApr 27, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nForo Trabajos - &gt; Giscus\n\n\n\n\n\n\nEquipo docente\n\n\nApr 24, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuenas prácticas para nombrar archivos\n\n\n\n\n\n\nEquipo docente\n\n\nApr 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nReel sobre reproducibilidad en la investigación social\n\n\n\n\n\n\nEquipo docente\n\n\nMar 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBienvenid@s al curso!\n\n\n\n\n\n\nEquipo docente\n\n\nMar 12, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/07-content.html",
     "href": "content/07-content.html",
     "title": "Presentación",
     "section": "",
-    "text": "Sesión del jueves, 28 de mayo de 2026\n\n\n\n\n\nDocumento de presentación",
+    "text": "Sesión del jueves, 28 de mayo de 2026\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nVideo de taller de pre-registros y pre-prints 2022",
     "crumbs": [
       "Clases",
       "Sesiones",
@@ -1096,5 +1096,48 @@
     "title": "Práctico 8: Pre-registros y pre-prints",
     "section": "2.1 ¿Cómo crear un pre-print en OSF?",
     "text": "2.1 ¿Cómo crear un pre-print en OSF?\nPara crear un pre-print debemos ir a la sección My Preprints y hacer click en Add a Preprint.\n\nAquí se les pedirá seleccionar un servicio de Pre-prints. Les recomendamos SocArXiv ya que está orientada a la investigación en ciencias sociales.\n\nPosterior a la selección de servicio ya se encontrarán dentro de la plataforma de registro. Esto sigue una lógica similar a la inscripción del pre-pregistro, donde deberán rellenar los campos con la información correspondiente.\nEn el último paso podrán visualizar un preview de su pre-print, y una vez que estén seguros de subirlo, clickean en el botón inferior derecho Submit. Esto enviará su pre-print a un proceso de moderación por parte de SocArXiv, el cual será publicado una vez aceptado.\n\n\n\n\n\n\nNota\n\n\n\nEl proceso de moderación es una revisión del documento pero que no es considerada como revisión par, por tanto, permite que el pre-print pueda ser enviado a revistas académicas y sometido a revisión par"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "Informaciones",
+    "section": "",
+    "text": "Acá las principales informaciones y actualizaciones del curso.\n\n\n   \n    \n    \n      Ordenar por\n      Por defecto\n      \n        Fecha - Menos reciente\n      \n      \n        Fecha - Más reciente\n      \n      \n        Título\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nFecha\n\n\n\nTítulo\n\n\n\nCategorías\n\n\n\n\n\n\n\n\njueves mayo 28, 2026 at 12:00 AM\n\n\nSeguimos avanzando en Junio\n\n\ninfo\n\n\n\n\n\n\nmiércoles mayo 6, 2026 at 12:00 AM\n\n\nTres lecturas recomendadas sobre reproducibilidad\n\n\ninfo\n\n\n\n\n\n\nmartes abril 28, 2026 at 12:00 AM\n\n\nDatos de más de 100MB: almacenar en Zenodo y llamar desde R\n\n\ninfo\n\n\n\n\n\n\nmartes abril 28, 2026 at 12:00 AM\n\n\nDocumentos anidados en Quarto\n\n\ninfo\n\n\n\n\n\n\nlunes abril 27, 2026 at 12:00 AM\n\n\nCreación de bibliotecas colaborativas en Zotero\n\n\ninfo\n\n\n\n\n\n\nlunes abril 27, 2026 at 12:00 AM\n\n\nReproducibilidad en scripts de R con renv\n\n\ninfo\n\n\n\n\n\n\nviernes abril 24, 2026 at 12:00 AM\n\n\nForo Trabajos - &gt; Giscus\n\n\ninfo\n\n\n\n\n\n\njueves abril 23, 2026 at 12:00 AM\n\n\nBuenas prácticas para nombrar archivos\n\n\ninfo\n\n\n\n\n\n\nmiércoles marzo 18, 2026 at 12:00 AM\n\n\nReel sobre reproducibilidad en la investigación social\n\n\ninfo\n\n\n\n\n\n\njueves marzo 12, 2026 at 12:00 AM\n\n\nBienvenid@s al curso!\n\n\ninfo\n\n\n\n\n\n\nNo hay resultados\n\n\n\n\n\n\n\nSuscribirse!\n\n\n\nPuedes usar un lector de feeds como Feedly o un servicio RSS-to-email como Blogtrottr para suscribirte a cualquiera de estos mensajes.\n\n\n\n\n\n RSS"
+  },
+  {
+    "objectID": "assignment/index.html#descripción",
+    "href": "assignment/index.html#descripción",
+    "title": "Instrucciones generales",
+    "section": "Descripción",
+    "text": "Descripción\n\nLos prácticos consisten en el desarrollo de una guía práctica (por lo general cada semana) donde se aplican y profundizan los contenidos de las clases, y donde también se abordan otras temáticas relacionadas al manejo y repote de datos. La organización semestras se puede revisar en la planificación del curso.\nEl trabajo con estas guías se organiza en los siguientes momentos:\n\ncada estudiante realiza la guía de manera autónoma durante la semana\nen caso de dudas que surjan durante la semana se recomienda preguntar en el foro de Giscus al final del práctico, para lo cual se requiere tener cuenta en Github. La cuenta gratis y fácil de obtener, y el servicio muy útil. Si se quiere saber en qué consiste se recomienda revisar la siguiente clase del curso Ciencia Social Abierta\n\nEn las prácticas vamos a trabajar con el software R, Versión 4.3.1.",
+    "crumbs": [
+      "Prácticos",
+      "Sobre prácticos",
+      "Instrucciones generales"
+    ]
+  },
+  {
+    "objectID": "assignment/index.html#trabajo-con-software-r",
+    "href": "assignment/index.html#trabajo-con-software-r",
+    "title": "Instrucciones generales",
+    "section": "Trabajo con software R",
+    "text": "Trabajo con software R\nPara los análisis estadísticos de este curso usamos el programa R, en parte porque es gratuito, pero la principal razón es que es de código abierto. Esto quiere decir que cualquier persona puede revisar cómo está hecho y aportar con modificaciones y procedimientos nuevos, como son las librerías que realizan funciones específicas.\nEl carácter de apertura de R posee muchas ventajas, pero también conlleva complicaciones. Se actualiza permanentemente, así como también las librerías, y esto puede generar problemas de compatibilidad y de fallas en ejecución del código de análisis.\nPara minimizar estos posibles problemas en este curso, vamos a:\n\ntrabajar con la misma y última versión de R, que es la 4.3\nevitar uso de tilde, ñ, espacios y mayúsculas tanto en carpetas y archivos, así como también en los nombres de las variables",
+    "crumbs": [
+      "Prácticos",
+      "Sobre prácticos",
+      "Instrucciones generales"
+    ]
+  },
+  {
+    "objectID": "assignment/index.html#sobre-errores-y-consultas-sobre-problemas-con-r-y-ejecución-de-código",
+    "href": "assignment/index.html#sobre-errores-y-consultas-sobre-problemas-con-r-y-ejecución-de-código",
+    "title": "Instrucciones generales",
+    "section": "Sobre errores y consultas sobre problemas con R y ejecución de código",
+    "text": "Sobre errores y consultas sobre problemas con R y ejecución de código\nEn caso de problemas con ejecución de código, se sugiere intentar solucionarlo autónomamente por no más de 10 minutos, si los problemas siguen entonces consultar.\nSe sugiere que las consultas sobre problemas en la ejecución del código y otros se realicen en los foros al final de los prácticos correspondientes (en Giscus), para lo cual se requiere solo habilitar una cuenta en Github. Al hacer la consulta, adjuntar la siguiente información:\n\nCódigo completo hasta que se produce el problema\nIndicar línea del código donde se produce el problema\nAdjuntar el resultado del output de la información de la sesión (sessionInfo())\n\n\nInstalación de R & RStudio\nPara esta versión del curso vamos a trabajar con el programa R Version 4.3 y con RStudio, que ofrece un entorno más amigable para trabajar con R.\nPara instalar R: ir a https://cran.r-project.org/index.html y bajar/instalar la versión correspondiente a la plataforma utilizada (Windows, Mac o Linux)\nPara instalar RStudio: ir a https://rstudio.com/products/rstudio/ y bajar/instalar RStudio desktop, Open Source License (libre).\nEn caso de dudas se puede revisar el siguiente video tutorial de instalación de R & RStudio, preparado por Julio Iturra (apoyo docente) del curso Estadística Multivariada 2020:\n\n\n\n\n\nSi por alguna razón se prefiere trabajar sin descargar, también se puede utilizar RCloud, abajo un tutorial preparado por Valentina Andrade para el curso de Estadística Multivariada:\n\n\n\n\n\n\nSobre el trabajo en hojas de código en RStudio\n\nEl trabajo de análisis en RStudio se efectua en una hoja de código (o R script o sintaxis, o para los usuarios de Stata la do-file), que es donde se anotan los comandos y funciones. Para abrir una hoja, en RStudio ir a File &gt; New File &gt; R Script (o ctrl+shift+N),y aparecerá un panel con una pestaña “Untitled” (sin título). Esta es la hoja de código donde se anotan los comandos.\nLos contenidos de las hojas de código son básicamente 2:\n\ncomandos o funciones: se escriben en la hoja, y para ejecutarlos se debe posicionar el cursor en la línea respectiva y ctrl+enter, el resultado aparecerá en el panel de resultados o Consola.\ntexto: para escribir títulos, comentarios, y todo lo que permita entender qué se está haciendo, al principio de la línea respectiva escribir el signo #\n\nPara grabar nuestra hoja de código y así respaldar nuestros análisis, File &gt; Save (o ctrl+s), y dar un nombre al archivo. Recordar: breve, sin espacios ni tildes ni eñes. Por defecto, la extensión de estos archivos es .R",
+    "crumbs": [
+      "Prácticos",
+      "Sobre prácticos",
+      "Instrucciones generales"
+    ]
   }
 ]

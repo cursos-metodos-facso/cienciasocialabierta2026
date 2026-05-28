@@ -225,7 +225,7 @@ Si realizamos muchas pruebas, la probabilidad acumulada de error tipo I aumenta:
 
 ::: {.column width="45%"}
 
-![](slides-xaringan-previas/03-preregistro-OSF/badge.png){fig-alt="Insignia de preregistro" width="90%" fig-align="center"}
+![](slid    es-xaringan-previas/03-preregistro-OSF/badge.png){fig-alt="Insignia de preregistro" width="90%" fig-align="center"}
 
 :::
 :::::
