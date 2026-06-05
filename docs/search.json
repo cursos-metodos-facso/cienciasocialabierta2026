@@ -956,42 +956,42 @@
     "href": "trabajos/template-revision-cruzada-trabajo1.html#selección-del-artículo-0.5",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.1 Selección del artículo (0.5)",
-    "text": "2.1 Selección del artículo (0.5)\nRevisar que el reporte:\n\nseleccione un artículo pertinente para ciencias sociales;\ntrabaje con un artículo accesible, abierto o disponible por biblioteca.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.1 Selección del artículo (0.5)\nRevisar que el reporte:\n\nseleccione un artículo pertinente para ciencias sociales;\ntrabaje con un artículo accesible, abierto o disponible por biblioteca.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#evaluación-de-reproducibilidad-2.0",
     "href": "trabajos/template-revision-cruzada-trabajo1.html#evaluación-de-reproducibilidad-2.0",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.2 Evaluación de reproducibilidad (2.0)",
-    "text": "2.2 Evaluación de reproducibilidad (2.0)\nRevisar los siguientes aspectos en el reporte:\n\n2.2.1 Disponibilidad de datos (0.5)\n\nIdentificar si los datos están disponibles.\nExplicar con claridad cómo acceder a ellos o qué dificultades existieron.\n\n\n\n2.2.2 Disponibilidad de código (0.5)\n\nIdentificar si el código está disponible.\nExplicar con claridad cómo acceder a él o si no fue posible obtenerlo.\n\n\n\n2.2.3 Documentación metodológica (0.5)\n\nEvaluar si la metodología está descrita con suficiente detalle.\nIndicar si esa documentación permite o no replicar razonablemente el análisis.\n\n\n\n2.2.4 Transparencia (0.5)\n\nRevisar conflictos de interés, financiamiento u otra información relevante.\nIndicar si el estudio reporta adecuadamente estos elementos.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.2 Evaluación de reproducibilidad (2.0)\nRevisar los siguientes aspectos en el reporte:\n\n2.2.1 Disponibilidad de datos (0.5)\n\nIdentificar si los datos están disponibles.\nExplicar con claridad cómo acceder a ellos o qué dificultades existieron.\n\n\n\n2.2.2 Disponibilidad de código (0.5)\n\nIdentificar si el código está disponible.\nExplicar con claridad cómo acceder a él o si no fue posible obtenerlo.\n\n\n\n2.2.3 Documentación metodológica (0.5)\n\nEvaluar si la metodología está descrita con suficiente detalle.\nIndicar si esa documentación permite o no replicar razonablemente el análisis.\n\n\n\n2.2.4 Transparencia (0.5)\n\nRevisar conflictos de interés, financiamiento u otra información relevante.\nIndicar si el estudio reporta adecuadamente estos elementos.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#análisis-reproducible-3.0",
     "href": "trabajos/template-revision-cruzada-trabajo1.html#análisis-reproducible-3.0",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.3 Análisis reproducible (3.0)",
-    "text": "2.3 Análisis reproducible (3.0)\nRevisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción.\n\n2.3.1 Definición precisa de la tabla o figura a reproducir (0.5)\n\nIdentificar con precisión la tabla, figura o resultado seleccionado.\nJustificar por qué ese resultado es adecuado para el ejercicio.\n\n\n\n2.3.2 Documentación de pasos, decisiones y dificultades (1.0)\n\nExplicar el proceso seguido para reproducir el resultado.\nDocumentar decisiones analíticas, ajustes realizados y dificultades encontradas.\n\n\n\n2.3.3 Reporte verificable de resultados de reproducción (1.0)\n\nPresentar resultados que puedan contrastarse con el artículo original.\nPermitir verificar si la reproducción fue total, parcial o fallida.\nCódigo y renderizado ok.\n\n\n\n2.3.4 Explicación de límites si no hay reproducción completa (0.5)\n\nSi no se logra reproducir completamente, explicar con claridad por qué.\nDistinguir entre limitaciones de datos, código, documentación u otras.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.3 Análisis reproducible (3.0)\nRevisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción.\n\n2.3.1 Definición precisa de la tabla o figura a reproducir (0.5)\n\nIdentificar con precisión la tabla, figura o resultado seleccionado.\nJustificar por qué ese resultado es adecuado para el ejercicio.\n\n\n\n2.3.2 Documentación de pasos, decisiones y dificultades (1.0)\n\nExplicar el proceso seguido para reproducir el resultado.\nDocumentar decisiones analíticas, ajustes realizados y dificultades encontradas.\n\n\n\n2.3.3 Reporte verificable de resultados de reproducción (1.0)\n\nPresentar resultados que puedan contrastarse con el artículo original.\nPermitir verificar si la reproducción fue total, parcial o fallida.\nCódigo y renderizado ok.\n\n\n\n2.3.4 Explicación de límites si no hay reproducción completa (0.5)\n\nSi no se logra reproducir completamente, explicar con claridad por qué.\nDistinguir entre limitaciones de datos, código, documentación u otras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#conclusiones-0.5",
     "href": "trabajos/template-revision-cruzada-trabajo1.html#conclusiones-0.5",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.4 Conclusiones (0.5)",
-    "text": "2.4 Conclusiones (0.5)\nRevisar que el reporte:\n\npresente una conclusión coherente con la evidencia;\ndistinga fortalezas y debilidades de reproducibilidad;\nevite afirmaciones no respaldadas por el análisis.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.4 Conclusiones (0.5)\nRevisar que el reporte:\n\npresente una conclusión coherente con la evidencia;\ndistinga fortalezas y debilidades de reproducibilidad;\nevite afirmaciones no respaldadas por el análisis.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#recomendaciones-0.5",
     "href": "trabajos/template-revision-cruzada-trabajo1.html#recomendaciones-0.5",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.5 Recomendaciones (0.5)",
-    "text": "2.5 Recomendaciones (0.5)\nRevisar que el reporte:\n\nproponga mejoras concretas y factibles;\nvincule las recomendaciones con problemas detectados;\npriorice acciones relevantes para mejorar reproducibilidad y apertura.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.5 Recomendaciones (0.5)\nRevisar que el reporte:\n\nproponga mejoras concretas y factibles;\nvincule las recomendaciones con problemas detectados;\npriorice acciones relevantes para mejorar reproducibilidad y apertura.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#formato-del-reporte-0.5",
     "href": "trabajos/template-revision-cruzada-trabajo1.html#formato-del-reporte-0.5",
     "title": "Revisión cruzada - Trabajo 1",
     "section": "2.6 Formato del reporte (0.5)",
-    "text": "2.6 Formato del reporte (0.5)\nRevisar que el reporte:\n\ntenga redacción clara y estructura ordenada;\npresente un repositorio organizado según la lógica IPO y la plantilla del curso;\nincluya citas y referencias en formato académico consistente;\nrenderice a HTML sin errores y con visualización adecuada de tablas y figuras.\n\n\n\n\n\n\n\nComentarios\n\n\n\nEscribir aquí sus observaciones."
+    "text": "2.6 Formato del reporte (0.5)\nRevisar que el reporte:\n\ntenga redacción clara y estructura ordenada;\npresente un repositorio organizado según la lógica IPO y la plantilla del curso;\nincluya citas y referencias en formato académico consistente;\nrenderice a HTML sin errores y con visualización adecuada de tablas y figuras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEscribir aquí sus observaciones."
   },
   {
     "objectID": "trabajos/template-revision-cruzada-trabajo1.html#tabla-final-de-puntajes",
@@ -1146,5 +1146,166 @@
     "title": "Seguimos avanzando en Junio",
     "section": "",
     "text": "← News\n\n\n\n\n\n\n\n\n\nEstimad_s estudiantes, como saben, nos han tocado varias semanas de paro y desde hoy se interrumpen las actividades nuevamente, y de manera indefinida. No queremos que esta situación perjudique el avance del curso ni sus progresos de aprendizaje, por lo que hemos decidido pasar a un formato asincrónico para las semanas que vienen. Esto significa que no habrá clases en vivo ni actividades sincrónicas, pero el material del curso seguirá disponible en la plataforma y se irán publicando nuevos contenidos y actividades cada semana.\nY algunas informaciones importantes:\n\nLas sesiones que quedan de clases están orientadas a entregarles los conocimientos y herramientas para que puedan avanzar en la entrega del trabajo final, cuya pauta de elaboración se encuentra disponible en la sección de “Trabajos” de este sitio.\nComo paso inicial les pedimos un breve reporte de avance para poder darles feedback sobre su propuesta. La fecha para completar este reporte es el próximo viernes 5, y es opcional para los grupos que prefieran tener comentarios antes de la entrega final y asegurar una buena evaluación.\nLa sesión correspondiente a hoy se enfocará en entregarles herramientas para la elaboración de pre-registros y pre-prints, que son dos prácticas clave para mejorar la transparencia y la calidad de la investigación social. El material de esta clase ya está disponible, e incluye un video de un taller que dimos sobre este tema en 2022, que les recomendamos revisar para complementar el material de esta clase.\nEl material de las clases se irá publicando cada semana en la sección de “Contenido” de este sitio, asi como en la sección de “Prácticos” y se irán anunciando por correo electrónico. La idea es que puedan avanzar a su propio ritmo, pero les recomendamos seguir el orden de los contenidos para no perderse ningún paso importante.\nPara cualquier duda o consulta, pueden escribirnos por correo electrónico o agendar una reunión a través de los enlaces respectivos en la página inicial de este sitio. También pueden usar el foro de discusión para compartir sus dudas y avances con sus compañeros y compañeras.\nLes recordamos que el trabajo final se entregará el próximo 25 de junio, por lo que les recomendamos organizar su tiempo para poder avanzar con tranquilidad y sin contratiempos.\n\nSabemos que esta situación no es ideal, pero confiamos en que con su compromiso y dedicación podrán sacar el máximo provecho de este formato asincrónico. Estamos aquí para apoyarlos en lo que necesiten, así que no duden en contactarnos si tienen alguna pregunta o necesitan ayuda.\nEquipo docente de Ciencia Social Abierta"
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo1-a-grupo-4.html",
+    "href": "trabajos/revision-cruzada/grupo1-a-grupo-4.html",
+    "title": "Evaluación",
+    "section": "",
+    "text": "Grupo a evaluar: Grupo 4\n2.1 Selección del artículo (0.5) Comentarios Selección de articulo pertinente.\n2.2 Evaluación de reproducibilidad (2.0) Revisar los siguientes aspectos en el reporte: 2.2.1 Disponibilidad de datos (0.5) Se da cuenta de la disponibilidad de los datos. Explican con claridad cómo acceder a ellos o qué dificultades existieron. 2.2.2 Disponibilidad de código (0.5) • Identificar si el código está disponible. • Explicar con claridad cómo acceder a él o si no fue posible obtenerlo. 2.2.3 Documentación metodológica (0.5) • Evaluar si la metodología está descrita con suficiente detalle. • Indicar si esa documentación permite o no replicar razonablemente el análisis. 2.2.4 Transparencia (0.5) • Revisar conflictos de interés, financiamiento u otra información relevante. • Indicar si el estudio reporta adecuadamente estos elementos.\nComentarios El apartado cumple con todo lo requerido.\n2.3 Análisis reproducible (3.0) Revisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción. 2.3.1 Definición precisa de la tabla o figura a reproducir (0.5) • Identificar con precisión la tabla, figura o resultado seleccionado. • Justificar por qué ese resultado es adecuado para el ejercicio. 2.3.2 Documentación de pasos, decisiones y dificultades (1.0) • Explicar el proceso seguido para reproducir el resultado. • Documentar decisiones analíticas, ajustes realizados y dificultades encontradas. 2.3.3 Reporte verificable de resultados de reproducción (1.0) • Presentar resultados que puedan contrastarse con el artículo original. • Permitir verificar si la reproducción fue total, parcial o fallida. • Código y renderizado ok. 2.3.4 Explicación de límites si no hay reproducción completa (0.5) • Si no se logra reproducir completamente, explicar con claridad por qué. • Distinguir entre limitaciones de datos, código, documentación u otras.\nComentarios Pertinente y buen trabajo; se identifica claramente el problema que impide la reproducibilidad. Se aprecia un gran esfuerzo en el intento de reconstrucción de variables bajo el esquema de Wright, lo que implica un estudio profundo del articulo. Además, se documentan adecuadamente los procedimientos y los problemas enfrentados. La redacción es clara y adecuada.\n2.4 Conclusiones (0.5) Revisar que el reporte: • presente una conclusión coherente con la evidencia; • distinga fortalezas y debilidades de reproducibilidad; • evite afirmaciones no respaldadas por el análisis.\nComentarios Se identifican las causas que podrían haber limitado la reproducibilidad. También se hacen recomendaciones concretas e implementables. Se aprecia también el intento de reproducir las variables según la propuesta de Wright, aquello conlleva un esfuerzo adicional de comprensión de la teoría del articulo.\n2.5 Recomendaciones (0.5) Revisar que el reporte: • proponga mejoras concretas y factibles; • vincule las recomendaciones con problemas detectados; • priorice acciones relevantes para mejorar reproducibilidad y apertura.\nComentarios Escribir aquí sus observaciones.\n2.6 Formato del reporte (0.5) Revisar que el reporte: • tenga redacción clara y estructura ordenada; • presente un repositorio organizado según la lógica IPO y la plantilla del curso; • incluya citas y referencias en formato académico consistente; • renderice a HTML sin errores y con visualización adecuada de tablas y figuras.\nComentarios Redacción clara y consistente. Tal vez podría organizarse de manera alternativa los pasos para el código; pero de cualquier manera se entiende bien. En un apartado el articulo sale citado con el año 2024 y 2025, Parece haber un pequeño error de tipeo. Ya que en el apartado de proceso de reproducción se menciona un n de 22.324 casos, y al final 22.384 casos. De cualquier forma son detalles mínimos.\n2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección (para completar se sugiere utilizar el modo “Quarto edit in Visual Mode”, accesible desde Ctrl+shift+P).\n\n\n\n\n\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n0.5\n\n\n2.1 Disponibilidad de datos\n0.5\n0.5\n\n\n2.2 Disponibilidad de código\n0.5\n0.5\n\n\n2.3 Documentación metodológica\n0.5\n0.5\n\n\n2.4 Transparencia\n0.5\n0.5\n\n\nTotal sección 2\n2.0\n2.0\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n0.5\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n1.0\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n1.0\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n0.5\n\n\nTotal sección 3\n3.0\n3.0\n\n\n4. Conclusiones\n0.5\n0.5\n\n\n5. Recomendaciones\n0.5\n0.5\n\n\n6. Formato del reporte\n0.5\n0.5\n\n\nTotal final\n7.0\n7.0\n\n\n\n\nEvaluación\nComentario de la revisión cruzada: En general, la evaluación entrega poca retroalimentación. Esto se expresa en la diferencia de profundidad de algunos comentarios de secciones. Si bien, hay algunas propuestas para el grupo evaluado, se observan otros comentarios muy escuetos que no permiten dar cuenta del objetivo del ejercicio, que es justamente analizar críticamente un trabajo de terceros y entregar una retroalimentación tanto de los aciertos como de las falencias. Además, los comentarios de la sección 2.3 y 2.4 mencionan casi lo mismo, lo cual es redundante y no aporta al análisis.\nNota sugerida: 5.5"
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#selección-del-artículo-0.5",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#selección-del-artículo-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.1 Selección del artículo (0.5)",
+    "text": "2.1 Selección del artículo (0.5)\nRevisar que el reporte:\n\nseleccionar un artículo pertinente para ciencias sociales;\ntrabajar con un artículo accesible, abierto o disponible por biblioteca.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nSelección pertinente para las ciencias sociales y articulo accesible de forma gratuita."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#evaluación-de-reproducibilidad-1.752.0",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#evaluación-de-reproducibilidad-1.752.0",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.2 Evaluación de reproducibilidad (1.75/2.0)",
+    "text": "2.2 Evaluación de reproducibilidad (1.75/2.0)\nRevisar los siguientes aspectos en el reporte:\n\n2.2.1 Disponibilidad de datos (0.25/0.5)\n\nIdentificar si los datos están disponibles.\nExplicar con claridad cómo acceder a ellos o qué dificultades existieron.\n\n\n\n2.2.2 Disponibilidad de código (0.5)\n\nIdentificar si el código está disponible.\nExplicar con claridad cómo acceder a él o si no fue posible obtenerlo.\n\n\n\n2.2.3 Documentación metodológica (0.5)\n\nEvaluar si la metodología está descrita con suficiente detalle.\nIndicar si esa documentación permite o no replicar razonablemente el análisis.\n\n\n\n2.2.4 Transparencia (0.5)\n\nRevisar conflictos de interés, financiamiento u otra información relevante.\nIndicar si el estudio reporta adecuadamente estos elementos.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nSe podría indicar con mayor claridad de donde se sacaron los datos, especificar sitio web o entidad responsable de la encuesta CASEN. Lo demás está muy bien explicado."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#análisis-reproducible-3.0",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#análisis-reproducible-3.0",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.3 Análisis reproducible (3.0)",
+    "text": "2.3 Análisis reproducible (3.0)\nRevisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción.\n\n2.3.1 Definición precisa de la tabla o figura a reproducir (0.25/05)\n\nIdentificar con precisión la tabla, figura o resultado seleccionado.\nJustificar por qué ese resultado es adecuado para el ejercicio.\n\n\n\n2.3.2 Documentación de pasos, decisiones y dificultades (1.0)\n\nExplicar el proceso seguido para reproducir el resultado.\nDocumentar decisiones analíticas, ajustes realizados y dificultades encontradas.\n\n\n\n2.3.3 Reporte verificable de resultados de reproducción (1.0)\n\nPresentar resultados que puedan contrastarse con el artículo original.\nPermitir verificar si la reproducción fue total, parcial o fallida.\n\n\n\n2.3.4 Explicación de límites si no hay reproducción completa (0.5)\n\nSi no se logra reproducir completamente, explicar con claridad por qué.\nDistinguir entre limitaciones de datos, código, documentación u otras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nSeidentifica la tabla a reproducir, pero no se describe el contenido de este ni se justifia su selección. Se logra la reproducción y se encuentra suficientemente explicado el paso a paso."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#conclusiones-0.5",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#conclusiones-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.4 Conclusiones (0.5)",
+    "text": "2.4 Conclusiones (0.5)\nRevisar que el reporte:\n\npresentar una conclusión coherente con la evidencia;\ndistinguir fortalezas y debilidades de reproducibilidad;\nevitar afirmaciones no respaldadas por el análisis.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nConclusión coherente con evidencia, distingue fortalezas y debiidades en la reproduccion y señala nivel de reproducibilidad."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#recomendaciones-0.5",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#recomendaciones-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.5 Recomendaciones (0.5)",
+    "text": "2.5 Recomendaciones (0.5)\nRevisar que el reporte:\n\nproponer mejoras concretas y factibles;\nvincular las recomendaciones con problemas detectados;\npriorizar acciones relevantes para mejorar reproducibilidad y apertura.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nVincula con éxito los problemas detectados con mejoras concretas, factibles y bien priorizadas hacia la reproducibilidad."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#formato-del-reporte-0.5",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#formato-del-reporte-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.6 Formato del reporte (0.5)",
+    "text": "2.6 Formato del reporte (0.5)\nRevisar que el reporte:\n\ntener redacción clara y estructura ordenada;\npresentar un repositorio organizado según la lógica IPO y la plantilla del curso;\nincluir citas y referencias en formato académico consistente;\nrenderizar a HTML sin errores y con visualización adecuada de tablas y figuras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nSEstructura clara y ordenada, citas en formato consistente y no hay problemas de renderización. No hay pagina de Github Pages."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo5-a-grupo7.html#tabla-final-de-puntajes",
+    "href": "trabajos/revision-cruzada/grupo5-a-grupo7.html#tabla-final-de-puntajes",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "2.7 Tabla final de puntajes",
+    "text": "2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección.\n\n\n\n\n\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n0.5\n\n\n2.1 Disponibilidad de datos\n0.5\n0.25\n\n\n2.2 Disponibilidad de código\n0.5\n0.5\n\n\n2.3 Documentación metodológica\n0.5\n0.5\n\n\n2.4 Transparencia\n0.5\n0.5\n\n\nTotal sección 2\n2.0\n1.75\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n0.25\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n1.0\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n1.0\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n0.5\n\n\nTotal sección 3\n3.0\n2.75\n\n\n4. Conclusiones\n0.5\n0.5\n\n\n5. Recomendaciones\n0.5\n0.5\n\n\n6. Formato del reporte\n0.5\n0.5\n\n\nTotal final\n7.0\n6.5"
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#selección-del-artículo-0.5",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#selección-del-artículo-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.1 Selección del artículo (0.5)",
+    "text": "1.1 Selección del artículo (0.5)\nLa elección de la Radiografía de la Cohesión Social en Chile 2016-2023 (COES) es muy pertinente para las ciencias sociales, este aborda objetos de importancia para la sociología como la confianza institucional, cohesión y pertenencia con datos longitudinales de gran cobertura. Indican que los datos son accesibles de forma abierta en el repositorio Harvard Dataverse.\nComo sugerencia menor, convendría que la introducción explicitara brevemente por qué este caso es especialmente interesante para un ejercicio de reproducibilidad (lo insinúan al señalar que el COES “suele ser proyectado como estándar de transparencia”, pero podría reforzarse).\nPuntaje: 0.5/0.5."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#evaluación-de-reproducibilidad-2.0",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#evaluación-de-reproducibilidad-2.0",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.2 Evaluación de reproducibilidad (2.0)",
+    "text": "1.2 Evaluación de reproducibilidad (2.0)\n\n1.2.1 Disponibilidad de datos (0.5)\nIdentifican con claridad la fuente (ELSOC/COES) y precisan que, aunque el informe no ofrece descarga directa, las bases están abiertas en Harvard Dataverse, con enlace al DOI. La explicación de cómo acceder es correcta.\nPuntaje: 0.5/0.5.\n\n\n1.2.2 Disponibilidad de código (0.5)\nIndican que no disponibilidad pública, ni en el informe ni en los GitHub de los autores, por lo tanto, lo obtuvieron por contacto directo con el investigador principal. Recomiendo explicitar el medio de contacto hacía el investigador y tiempo de demora en respuesta para obtener el código.\nPuntaje: 0.5/0.5.\n\n\n1.2.3 Documentación metodológica (0.5)\nReconocen que el informe describe diseño muestral, variables, y criterios para el análisis. Como comentario, convendría una o dos líneas de texto que expliquen los criterios de análisis.\nPuntaje: 0.5/0.5.\n\n\n1.2.4 Transparencia (0.5)\nIdentifican financiamiento por parte de ANID y respaldo institucional, y señalan la ausencia de una declaración explícita de conflictos de interés.\nPuntaje: 0.5/0.5. Subtotal sección 2: 2.0/2.0."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#análisis-reproducible-3.0",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#análisis-reproducible-3.0",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.3 Análisis reproducible (3.0)",
+    "text": "1.3 Análisis reproducible (3.0)\n\n1.3.1 Definición precisa de la tabla o figura a reproducir (0.5)\nDelimitan con precisión el bloque “Confianza en las instituciones” (Congreso, Poder Judicial, Partidos y Carabineros) y sus dos visualizaciones por indicador (barra de última observación y serie temporal), ocho gráficos en total. Incluyen las imágenes originales como referencia. Justifican la elección de forma adecuada.\nPuntaje: 0.5/0.5.\n\n\n1.3.2 Documentación de pasos, decisiones y dificultades (1.0)\nExplican el filtrado de no atrición y, sobre todo, validan el conteo con tres métodos independientes (group_by/n(), n_distinct(ola) y tipo_atricion == 1), todos convergiendo en 1.176 / 661 en lugar de los 1.303 / 770 declarados. La hipótesis de que el etiquetado quedó heredado de una versión previa (hasta Ola 6) está bien argumentada. También documentan que recurrieron al código original y, ante su baja legibilidad, a herramientas de IA para descifrarlo. Sugiero sintetizar las decisiones clave y separar las decisiones analíticas (recodificación en 3 categorías, exclusión de NS/NR) de las técnicas (uso de svydesign, ponderador ponderador02).\nPuntaje: 1.0/1.0.\n\n\n1.3.3 Reporte verificable de resultados de reproducción (1.0)\nLos chunks son ejecutables y están comentados línea a línea; las salidas finales coinciden con las figuras del informe original. En la sección de “Anexos de reproducción”) documentan el intento sin código y el código original completo, y logran realizar el ejercicio de reproducción y verificación. Como pequeña recomendación, convendría realizar una tabla pequeña para las discrepancias (señalan diferencias menores al punto porcentual) de los resultados del informe original con la reproducción.\nPuntaje: 1.0/1.0.\n\n\n1.3.4 Explicación de límites si no hay reproducción completa (0.5)\nClara y bien fundada. Atribuyen correctamente la imposibilidad de réplica exacta sin el código a (a) los ponderadores de diseño no documentados y (b) el tratamiento de perdidos, y distinguen la barrera de acceso (código no público) de la de inteligibilidad (código poco documentado). Las recomendaciones se derivan directamente de estos límites.\nPuntaje: 0.5/0.5. Subtotal sección 3: 3.0/3.0."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#conclusiones-0.5",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#conclusiones-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.4 Conclusiones (0.5)",
+    "text": "1.4 Conclusiones (0.5)\nLa conclusión contrapone bien la apertura de los datos con las brechas en la reproducibilidad del procesamiento, e introduce la distinción entre disponibilidad y legibilidad del código. No hay afirmaciones sin respaldo; incluso las diferencias menores al punto porcentual se atribuyen a criterios de redondeo. Sugiero cuidar el uso de “replicabilidad” y “reproducibilidad” para hablar de un mismo tema, son conceptos distintos que deben cuidarse, especialmente en una ciencia social muy sensible a conceptos.\nPuntaje: 0.5/0.5."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#recomendaciones-0.5",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#recomendaciones-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.5 Recomendaciones (0.5)",
+    "text": "1.5 Recomendaciones (0.5)\nLas recomendaciones son concretas y factibles (repositorios públicos tipo GitHub, documentación técnica explícita de ponderadores y tratamiento de perdidos, y archivos README/manuales de procesamiento) y se vinculan directamente con cada barrera detectada en el análisis.\nPuntaje: 0.5/0.5."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo10-a-grupo2.html#formato-del-reporte-0.5",
+    "href": "trabajos/revision-cruzada/grupo10-a-grupo2.html#formato-del-reporte-0.5",
+    "title": "Revisión cruzada - Trabajo 1",
+    "section": "1.6 Formato del reporte (0.5)",
+    "text": "1.6 Formato del reporte (0.5)\nLa estructura es ordenada y el repositorio sigue correctamente la lógica IPO (separación input/processing/output), incluye index.qmd en la raíz, el index.html renderizado, bibliografía en input/bib/ciencia_abierta.bib con CSL APA y citas integradas con clave BibTeX. El reporte renderiza a HTML sin errores y las figuras se visualizan bien.\nRestan algunos detalles de prolijidad que justifican un descuento menor:\n\nErrores de acentuación repartidos en el texto.\nCampos de plantilla sin completar: el email del segundo autor quedó como placeholder (mail@mail.com)\nUso indistinto de “replicabilidad/reproducibilidad”.\n\nPuntaje: 0.4/0.5."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "",
+    "text": "Esta pauta está pensada para realizar la revisión cruzada de los reportes del Trabajo 1: Reporte de reproducibilidad. En esta página aparecen las instrucciones generales para realizar la revisión, la rúbrica de evaluación y una tabla para registrar los puntajes asignados en cada sección del reporte revisado.\nPara completar la revisión, bajen este mismo archivo en formato qmd y luego enviarlo con el nombre “revisión-cruzada-trabajo1-GrupoX.qmd” (donde “GrupoX” es el número del grupo que revisaron) a través del formulario de entrega de la revisión cruzada, que se habilitará una vez entregados los reportes finales.\nLa revisión debe realizarse de forma anónima."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#grupo-a-revisar",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#grupo-a-revisar",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "Grupo a revisar:",
+    "text": "Grupo a revisar:"
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#selección-del-artículo-0.5",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#selección-del-artículo-0.5",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.1 Selección del artículo (0.5)",
+    "text": "2.1 Selección del artículo (0.5)\nRevisar que el reporte:\n\nseleccionar un artículo pertinente para ciencias sociales;\ntrabajar con un artículo accesible, abierto o disponible por biblioteca.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nEl artículo es pertinente para las ciencias sociales, es abierto y se encuentra disponible en la revista de sociología online."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#evaluación-de-reproducibilidad-2.0",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#evaluación-de-reproducibilidad-2.0",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.2 Evaluación de reproducibilidad (2.0)",
+    "text": "2.2 Evaluación de reproducibilidad (2.0)\nRevisar los siguientes aspectos en el reporte:\n\n2.2.1 Disponibilidad de datos (0.5)\n\nIdentificar si los datos están disponibles.\nExplicar con claridad cómo acceder a ellos o qué dificultades existieron.\n\n\n\n2.2.2 Disponibilidad de código (0.5)\n\nIdentificar si el código está disponible.\nExplicar con claridad cómo acceder a él o si no fue posible obtenerlo.\n\n\n\n2.2.3 Documentación metodológica (0.5)\n\nEvaluar si la metodología está descrita con suficiente detalle.\nIndicar si esa documentación permite o no replicar razonablemente el análisis.\n\n\n\n2.2.4 Transparencia (0.5)\n\nRevisar conflictos de interés, financiamiento u otra información relevante.\nIndicar si el estudio reporta adecuadamente estos elementos.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nLos datos están disponibles. Se tiene acceso a ellos mediante un link directo. Se menciona que hubo dificultades al cargar la base de datos debido a su extensión, por lo que se seleccionaron solo las variables a utilizar. Se menciona que el código no está disponible y no se pudo acceder a él. Se documenta la gestión realizada (contacto con la autora). Se menciona que el artículo presenta una metodología transparente pero no se detalla el manejo de los códigos para crear las figuras. Identifica correctamente la información sobre financiamiento (ANID) y ausencia de conflictos de interés."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#análisis-reproducible-3.0",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#análisis-reproducible-3.0",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.3 Análisis reproducible (3.0)",
+    "text": "2.3 Análisis reproducible (3.0)\nRevisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción.\n\n2.3.1 Definición precisa de la tabla o figura a reproducir (0.5)\n\nIdentificar con precisión la tabla, figura o resultado seleccionado.\nJustificar por qué ese resultado es adecuado para el ejercicio.\n\n\n\n2.3.2 Documentación de pasos, decisiones y dificultades (1.0)\n\nExplicar el proceso seguido para reproducir el resultado.\nDocumentar decisiones analíticas, ajustes realizados y dificultades encontradas.\n\n\n\n2.3.3 Reporte verificable de resultados de reproducción (1.0)\n\nPresentar resultados que puedan contrastarse con el artículo original.\nPermitir verificar si la reproducción fue total, parcial o fallida.\n\n\n\n2.3.4 Explicación de límites si no hay reproducción completa (0.5)\n\nSi no se logra reproducir completamente, explicar con claridad por qué.\nDistinguir entre limitaciones de datos, código, documentación u otras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nSe identifican las figuras, pero se recomienda mejorar las definiciones de estas. Se explica todo el proceso de reproducción. Se recomienda mejorar la redacción debido a que presenta redundancias que complejizan la lectura y se pierde el foco de la explicación en sí. “Lograron mostrar resultados y hacer la comparación, pero la verificabilidad real del proceso queda comprometida, ya que, para renderizar el código se debe recurrir a fuentes externas para resolver ciertos problemas. Por otro lado, se habla de”Figura 2” y “Figura 5” del artículo original, pero las réplicas se llaman “Figura 1” y “Figura 2” dentro del reporte, sin explicarlo dentro del proceso (solo se ve en las imágenes y en la conclusión). No se distinguen las limitaciones de los datos, código o documentación en este apartado a pesar de que no se logró reproducir correctamente la figura."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#conclusiones-0.5",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#conclusiones-0.5",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.4 Conclusiones (0.5)",
+    "text": "2.4 Conclusiones (0.5)\nRevisar que el reporte:\n\npresentar una conclusión coherente con la evidencia;\ndistinguir fortalezas y debilidades de reproducibilidad;\nevitar afirmaciones no respaldadas por el análisis.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nLa conclusión es coherente con la evidencia general, y contrasta las fortalezas con las debilidades pero tiene problemas de redacción: hay una frase incompleta (“por ejemplo…”) que evidencia que el texto no fue terminado."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#recomendaciones-0.5",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#recomendaciones-0.5",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.5 Recomendaciones (0.5)",
+    "text": "2.5 Recomendaciones (0.5)\nRevisar que el reporte:\n\nproponer mejoras concretas y factibles;\nvincular las recomendaciones con problemas detectados;\npriorizar acciones relevantes para mejorar reproducibilidad y apertura.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nPropone una mejora factible de hacer disponible el código, que se relaciona a la debilidad encontrada, pero hay una parte en la que dicen que no pudieron reproducir las figuras de forma idéntica por “algún procedimiento de procesamiento de la base de datos que no queda explicitado en el texto” pero no hacen recomendaciones del texto, solo del código."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#formato-del-reporte-0.5",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#formato-del-reporte-0.5",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.6 Formato del reporte (0.5)",
+    "text": "2.6 Formato del reporte (0.5)\nRevisar que el reporte:\n\ntener redacción clara y estructura ordenada;\npresentar un repositorio organizado según la lógica IPO y la plantilla del curso;\nincluir citas y referencias en formato académico consistente;\nrenderizar a HTML sin errores y con visualización adecuada de tablas y figuras.\n\n\n\n\n\n\n\nNotaComentarios\n\n\n\nPresenta IPO y citas en formato correcto, pero las carpeta de processing se encuentran vacías sin los códigos de procesamiento y análisis; hay errores para poder renderizar el html (pide correr códigos en la terminal de R e instalar paquetes), y en cuanto a redacción, si bien es clara en la mayoría del trabajo, hay una parte mal redactada en la conclusión, con oraciones que se repiten y otras que no están terminadas: “Por ello, se enfatiza la importancia de publicar de forma abierta los códigos empleados en cada investigación, como una práctica fundamental para garantizar una reproducibilidad plena. Ya que en algunos casos cambian los análisis, por ejemplo …”."
+  },
+  {
+    "objectID": "trabajos/revision-cruzada/grupo4-a-grupo6.html#tabla-final-de-puntajes",
+    "href": "trabajos/revision-cruzada/grupo4-a-grupo6.html#tabla-final-de-puntajes",
+    "title": "Revisión cruzada: Trabajo 1 - Grupo 6",
+    "section": "2.7 Tabla final de puntajes",
+    "text": "2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección.\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n0.5\n\n\n2.1 Disponibilidad de datos\n0.5\n0.5\n\n\n2.2 Disponibilidad de código\n0.5\n0.5\n\n\n2.3 Documentación metodológica\n0.5\n0.5\n\n\n2.4 Transparencia\n0.5\n0.5\n\n\nTotal sección 2\n2.0\n2.0\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n0.5\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n1.0\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n1.0\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n0\n\n\nTotal sección 3\n3.0\n2.5\n\n\n4. Conclusiones\n0.5\n0.25\n\n\n5. Recomendaciones\n0.5\n0.25\n\n\n6. Formato del reporte\n0.5\n0.25\n\n\nTotal final\n7.0\n5.8"
   }
 ]

@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+\<!DOCTYPE html\>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Ciencia Social Abierta">
 
 <title>Revisión cruzada - Trabajo 1 – Ciencia Social Abierta</title>
+
+```{=html}
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,28 +28,61 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
+```
 
+```{=html}
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+```
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../files/logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5df54514c0e00397a20b0409eab6ab00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+```{=html}
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+```
+
+<meta name="quarto:offset" content="../../">
+
+<link href="../../files/logo.png" rel="icon" type="image/png">
+
+```{=html}
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+```
+
+```{=html}
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+```
+
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet"> <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+
+```{=html}
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+```
+
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"> <link href="../../site_libs/bootstrap/bootstrap-f444981237ef2c2da2ea7c76384b50c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"> <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet"> <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+
+```{=html}
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -58,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No se han encontrado resultados",
+    "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -71,463 +110,645 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-
+```
 
 <meta property="og:title" content="Revisión cruzada - Trabajo 1 – Ciencia Social Abierta">
+
 <meta property="og:description" content="">
-<meta property="og:image" content="https://multinivel-facso.netlify.app/trabajos/files/logo.png">
+
+<meta property="og:image" content="https://multinivel-facso.netlify.app/files/templates/files/logo.png">
+
 <meta property="og:site_name" content="Ciencia Social Abierta">
+
 <meta property="og:locale" content="es">
+
 </head>
 
 <body class="nav-fixed quarto-light">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Ciencia Social Abierta</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Buscar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
+::: {#quarto-search-results}
+:::
+
+<header id="quarto-header" class="headroom fixed-top">
+
+<nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+
+::: {.navbar-container .container-fluid}
+```         
+  <div class="navbar-brand-container mx-auto">
+<a class='navbar-brand' href='/'>
+<span class="navbar-title">Ciencia Social Abierta</span>
+</a>
+```
+:::
+
+```         
+  <div id="quarto-search" class="" title="Buscar"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+```
+
 </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
-<span class="menu-text">Informaciones</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../syllabus.html"> 
-<span class="menu-text">Programa</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../schedule.html"> 
-<span class="menu-text">Planificación</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../content/index.html"> 
-<span class="menu-text">Clases</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../assignment/index.html"> 
-<span class="menu-text">Prácticos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../trabajos/trabajos.html"> 
-<span class="menu-text">Trabajos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resource/index.html"> 
-<span class="menu-text">Recursos</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../references/publications/index.html"> 
-<span class="menu-text">Referencias</span></a>
-  </li>  
+
+::: {#navbarCollapse .collapse .navbar-collapse}
+```         
+        <ul class="navbar-nav navbar-nav-scroll ms-auto">
+```
+
+<li class="nav-item">
+
+<a class='nav-link' href='/news/'> [Informaciones]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/syllabus'> [Programa]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/schedule'> [Planificación]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/content/'> [Clases]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/assignment/'> [Prácticos]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/trabajos/trabajos'> [Trabajos]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/resource/'> [Recursos]{.menu-text}</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class='nav-link' href='/references/publications/'> [Referencias]{.menu-text}</a>
+
+</li>
+
 </ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+
+```         
+      </div> <!-- /navcollapse -->
+        <div class="quarto-navbar-tools">
+```
+:::
+
 </div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
-  <li><a href="#instrucciones-generales-para-la-revisión" id="toc-instrucciones-generales-para-la-revisión" class="nav-link active" data-scroll-target="#instrucciones-generales-para-la-revisión"><span class="header-section-number">1</span> Instrucciones generales para la revisión</a>
-  <ul class="collapse">
-  <li><a href="#rúbrica-de-evaluación" id="toc-rúbrica-de-evaluación" class="nav-link" data-scroll-target="#rúbrica-de-evaluación">Rúbrica de evaluación</a></li>
-  </ul></li>
-  <li><a href="#evaluación" id="toc-evaluación" class="nav-link" data-scroll-target="#evaluación"><span class="header-section-number">2</span> Evaluación</a>
-  <ul class="collapse">
-  <li><a href="#selección-del-artículo-0.5" id="toc-selección-del-artículo-0.5" class="nav-link" data-scroll-target="#selección-del-artículo-0.5"><span class="header-section-number">2.1</span> Selección del artículo (0.5)</a></li>
-  <li><a href="#evaluación-de-reproducibilidad-2.0" id="toc-evaluación-de-reproducibilidad-2.0" class="nav-link" data-scroll-target="#evaluación-de-reproducibilidad-2.0"><span class="header-section-number">2.2</span> Evaluación de reproducibilidad (2.0)</a>
-  <ul class="collapse">
-  <li><a href="#disponibilidad-de-datos-0.5" id="toc-disponibilidad-de-datos-0.5" class="nav-link" data-scroll-target="#disponibilidad-de-datos-0.5"><span class="header-section-number">2.2.1</span> Disponibilidad de datos (0.5)</a></li>
-  <li><a href="#disponibilidad-de-código-0.5" id="toc-disponibilidad-de-código-0.5" class="nav-link" data-scroll-target="#disponibilidad-de-código-0.5"><span class="header-section-number">2.2.2</span> Disponibilidad de código (0.5)</a></li>
-  <li><a href="#documentación-metodológica-0.5" id="toc-documentación-metodológica-0.5" class="nav-link" data-scroll-target="#documentación-metodológica-0.5"><span class="header-section-number">2.2.3</span> Documentación metodológica (0.5)</a></li>
-  <li><a href="#transparencia-0.5" id="toc-transparencia-0.5" class="nav-link" data-scroll-target="#transparencia-0.5"><span class="header-section-number">2.2.4</span> Transparencia (0.5)</a></li>
-  </ul></li>
-  <li><a href="#análisis-reproducible-3.0" id="toc-análisis-reproducible-3.0" class="nav-link" data-scroll-target="#análisis-reproducible-3.0"><span class="header-section-number">2.3</span> Análisis reproducible (3.0)</a>
-  <ul class="collapse">
-  <li><a href="#definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5" id="toc-definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5" class="nav-link" data-scroll-target="#definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5"><span class="header-section-number">2.3.1</span> Definición precisa de la tabla o figura a reproducir (0.5)</a></li>
-  <li><a href="#documentación-de-pasos-decisiones-y-dificultades-1.0" id="toc-documentación-de-pasos-decisiones-y-dificultades-1.0" class="nav-link" data-scroll-target="#documentación-de-pasos-decisiones-y-dificultades-1.0"><span class="header-section-number">2.3.2</span> Documentación de pasos, decisiones y dificultades (1.0)</a></li>
-  <li><a href="#reporte-verificable-de-resultados-de-reproducción-1.0" id="toc-reporte-verificable-de-resultados-de-reproducción-1.0" class="nav-link" data-scroll-target="#reporte-verificable-de-resultados-de-reproducción-1.0"><span class="header-section-number">2.3.3</span> Reporte verificable de resultados de reproducción (1.0)</a></li>
-  <li><a href="#explicación-de-límites-si-no-hay-reproducción-completa-0.5" id="toc-explicación-de-límites-si-no-hay-reproducción-completa-0.5" class="nav-link" data-scroll-target="#explicación-de-límites-si-no-hay-reproducción-completa-0.5"><span class="header-section-number">2.3.4</span> Explicación de límites si no hay reproducción completa (0.5)</a></li>
-  </ul></li>
-  <li><a href="#conclusiones-0.5" id="toc-conclusiones-0.5" class="nav-link" data-scroll-target="#conclusiones-0.5"><span class="header-section-number">2.4</span> Conclusiones (0.5)</a></li>
-  <li><a href="#recomendaciones-0.5" id="toc-recomendaciones-0.5" class="nav-link" data-scroll-target="#recomendaciones-0.5"><span class="header-section-number">2.5</span> Recomendaciones (0.5)</a></li>
-  <li><a href="#formato-del-reporte-0.5" id="toc-formato-del-reporte-0.5" class="nav-link" data-scroll-target="#formato-del-reporte-0.5"><span class="header-section-number">2.6</span> Formato del reporte (0.5)</a></li>
-  <li><a href="#tabla-final-de-puntajes" id="toc-tabla-final-de-puntajes" class="nav-link" data-scroll-target="#tabla-final-de-puntajes"><span class="header-section-number">2.7</span> Tabla final de puntajes</a></li>
-  </ul></li>
-  </ul>
+
+<!-- /container-fluid -->
+
 </nav>
-    </div>
+
+</header>
+
+<!-- content -->
+
+::::::::::::::::::::::::::::::: {#quarto-content .quarto-container .page-columns .page-rows-contents .page-layout-article .page-navbar}
+<!-- sidebar -->
+
+<!-- margin-sidebar -->
+
+```         
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+<h2 id="toc-title">En esta página</h2>
+```
+
+<ul>
+
+<li><a href="#grupo-a-revisar" id="toc-grupo-a-revisar" class="nav-link active" data-scroll-target="#grupo-a-revisar">Grupo a revisar: Grupo 9</a></li>
+
+<li>
+
+<a href="#instrucciones-generales-para-la-revisión" id="toc-instrucciones-generales-para-la-revisión" class="nav-link" data-scroll-target="#instrucciones-generales-para-la-revisión">[1]{.header-section-number} Instrucciones generales para la revisión</a>
+
+<ul class="collapse">
+
+<li><a href="#rúbrica-de-evaluación" id="toc-rúbrica-de-evaluación" class="nav-link" data-scroll-target="#rúbrica-de-evaluación">Rúbrica de evaluación</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#evaluación" id="toc-evaluación" class="nav-link" data-scroll-target="#evaluación">[2]{.header-section-number} Evaluación</a>
+
+<ul class="collapse">
+
+<li><a href="#selección-del-artículo-0.5" id="toc-selección-del-artículo-0.5" class="nav-link" data-scroll-target="#selección-del-artículo-0.5">[2.1]{.header-section-number} Selección del artículo (0.5)</a></li>
+
+<li>
+
+<a href="#evaluación-de-reproducibilidad-2.0" id="toc-evaluación-de-reproducibilidad-2.0" class="nav-link" data-scroll-target="#evaluación-de-reproducibilidad-2.0">[2.2]{.header-section-number} Evaluación de reproducibilidad (2.0)</a>
+
+<ul class="collapse">
+
+<li><a href="#disponibilidad-de-datos-0.5" id="toc-disponibilidad-de-datos-0.5" class="nav-link" data-scroll-target="#disponibilidad-de-datos-0.5">[2.2.1]{.header-section-number} Disponibilidad de datos (0.5)</a></li>
+
+<li><a href="#disponibilidad-de-código-0.5" id="toc-disponibilidad-de-código-0.5" class="nav-link" data-scroll-target="#disponibilidad-de-código-0.5">[2.2.2]{.header-section-number} Disponibilidad de código (0.5)</a></li>
+
+<li><a href="#documentación-metodológica-0.5" id="toc-documentación-metodológica-0.5" class="nav-link" data-scroll-target="#documentación-metodológica-0.5">[2.2.3]{.header-section-number} Documentación metodológica (0.5)</a></li>
+
+<li><a href="#transparencia-0.5" id="toc-transparencia-0.5" class="nav-link" data-scroll-target="#transparencia-0.5">[2.2.4]{.header-section-number} Transparencia (0.5)</a></li>
+
+</ul>
+
+</li>
+
+<li>
+
+<a href="#análisis-reproducible-3.0" id="toc-análisis-reproducible-3.0" class="nav-link" data-scroll-target="#análisis-reproducible-3.0">[2.3]{.header-section-number} Análisis reproducible (3.0)</a>
+
+<ul class="collapse">
+
+<li><a href="#definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5" id="toc-definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5" class="nav-link" data-scroll-target="#definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5">[2.3.1]{.header-section-number} Definición precisa de la tabla o figura a reproducir (0.5)</a></li>
+
+<li><a href="#documentación-de-pasos-decisiones-y-dificultades-1.0" id="toc-documentación-de-pasos-decisiones-y-dificultades-1.0" class="nav-link" data-scroll-target="#documentación-de-pasos-decisiones-y-dificultades-1.0">[2.3.2]{.header-section-number} Documentación de pasos, decisiones y dificultades (1.0)</a></li>
+
+<li><a href="#reporte-verificable-de-resultados-de-reproducción-1.0" id="toc-reporte-verificable-de-resultados-de-reproducción-1.0" class="nav-link" data-scroll-target="#reporte-verificable-de-resultados-de-reproducción-1.0">[2.3.3]{.header-section-number} Reporte verificable de resultados de reproducción (1.0)</a></li>
+
+<li><a href="#explicación-de-límites-si-no-hay-reproducción-completa-0.5" id="toc-explicación-de-límites-si-no-hay-reproducción-completa-0.5" class="nav-link" data-scroll-target="#explicación-de-límites-si-no-hay-reproducción-completa-0.5">[2.3.4]{.header-section-number} Explicación de límites si no hay reproducción completa (0.5)</a></li>
+
+</ul>
+
+</li>
+
+<li><a href="#conclusiones-0.5" id="toc-conclusiones-0.5" class="nav-link" data-scroll-target="#conclusiones-0.5">[2.4]{.header-section-number} Conclusiones (0.5)</a></li>
+
+<li><a href="#recomendaciones-0.5" id="toc-recomendaciones-0.5" class="nav-link" data-scroll-target="#recomendaciones-0.5">[2.5]{.header-section-number} Recomendaciones (0.5)</a></li>
+
+<li><a href="#formato-del-reporte-0.5" id="toc-formato-del-reporte-0.5" class="nav-link" data-scroll-target="#formato-del-reporte-0.5">[2.6]{.header-section-number} Formato del reporte (0.5)</a></li>
+
+<li><a href="#tabla-final-de-puntajes" id="toc-tabla-final-de-puntajes" class="nav-link" data-scroll-target="#tabla-final-de-puntajes">[2.7]{.header-section-number} Tabla final de puntajes</a></li>
+
+</ul>
+
+</li>
+
+</ul>
+
+</nav>
+
+```         
+</div>
+```
+
 <!-- main -->
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Revisión cruzada - Trabajo 1</h1>
-</div>
 
+::: quarto-title
+<h1 class="title">
 
+Revisión cruzada - Trabajo 1
 
-<div class="quarto-title-meta">
+</h1>
+:::
 
-    
-  
-    
-  </div>
-  
-
+::: quarto-title-meta
+:::
 
 </header>
 
-
 <p>Esta pauta está pensada para realizar la <strong>revisión cruzada</strong> de los reportes del <strong>Trabajo 1: Reporte de reproducibilidad</strong>. En esta página aparecen las instrucciones generales para realizar la revisión, la rúbrica de evaluación y una tabla para registrar los puntajes asignados en cada sección del reporte revisado.</p>
-<p>Para completar la revisión, bajen <a href="../files/templates/template-revision-cruzada-trabajo1.qmd" download="template-revision-cruzada.qmd">este mismo archivo en formato qmd</a> y luego enviarlo con el nombre “revisión-cruzada-trabajo1-GrupoX.qmd” (donde “GrupoX” es el número del grupo que revisaron) a través del formulario de entrega de la revisión cruzada, que se habilitará una vez entregados los reportes finales.</p>
+
+<p>Para completar la revisión, bajen <a href='/trabajos/template-revision-cruzada-trabajo1'>este mismo archivo en formato qmd</a> y luego enviarlo con el nombre “revisión-cruzada-trabajo1-GrupoX.qmd” (donde “GrupoX” es el número del grupo que revisaron) a través del formulario de entrega de la revisión cruzada, que se habilitará una vez entregados los reportes finales.</p>
+
 <p>La revisión debe realizarse de forma <strong>anónima</strong>.</p>
-<p>Los repositorios para revisar se encuentran disponibles en la sección de <a href="../trabajos/trabajos.html#grupos-y-repositorios-de-entrega">Grupos y repositorios de entrega</a> de la página de trabajos.</p>
+
+<section id="grupo-a-revisar" class="level2 unnumbered">
+
+<h2 class="unnumbered anchored" data-anchor-id="grupo-a-revisar">
+
+Grupo a revisar: Grupo 9
+
+</h2>
+
+</section>
+
 <section id="instrucciones-generales-para-la-revisión" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Instrucciones generales para la revisión</h1>
+
+<h1 data-number="1">
+
+[1]{.header-section-number} Instrucciones generales para la revisión
+
+</h1>
+
 <ul>
-<li>Clonar el repositorio para revisar localmente, abrir el reporte en HTML y leerlo completo antes de asignar puntajes.</li>
-<li>Revisar los archivos de código y verificar que corren sin errores, siguiendo la lógica IPO y la plantilla del curso.</li>
+
+<li>Leer el reporte completo antes de asignar puntajes.</li>
+
 <li>Usar la rúbrica oficial del trabajo para justificar la evaluación.</li>
+
 <li>Asignar puntajes solo a partir de la evidencia disponible en el reporte y su repositorio.</li>
+
 <li>Usar el espacio de <strong>Comentarios</strong> en cada sección para entregar retroalimentación concreta, clara y útil.</li>
+
 </ul>
+
 <section id="rúbrica-de-evaluación" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="rúbrica-de-evaluación">Rúbrica de evaluación</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 24%">
-<col style="width: 24%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nivel</th>
-<th>Descripción general</th>
-<th style="text-align: right;">Puntaje si el ítem vale 0.5</th>
-<th style="text-align: right;">Puntaje si el ítem vale 1.0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Insuficiente</td>
-<td>No cumple o cumple de forma muy parcial</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-</tr>
-<tr class="even">
-<td>Básico</td>
-<td>Cumple parcialmente, con vacíos importantes</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.50</td>
-</tr>
-<tr class="odd">
-<td>Sobresaliente</td>
-<td>Cumple completamente, con claridad y evidencia</td>
-<td style="text-align: right;">0.50</td>
-<td style="text-align: right;">1.00</td>
-</tr>
-</tbody>
-</table>
+
+<h3 class="unnumbered anchored" data-anchor-id="rúbrica-de-evaluación">
+
+Rúbrica de evaluación
+
+</h3>
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|------------------|-------------------|-----------------:|-----------------:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
 </section>
+
 </section>
+
 <section id="evaluación" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Evaluación</h1>
-<p><strong>Grupo a evaluar: [Número del grupo que revisan]</strong></p>
+
+<h1 data-number="2">
+
+[2]{.header-section-number} Evaluación
+
+</h1>
+
 <section id="selección-del-artículo-0.5" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="selección-del-artículo-0.5"><span class="header-section-number">2.1</span> Selección del artículo (0.5)</h2>
+
+<h2 data-number="2.1" class="anchored" data-anchor-id="selección-del-artículo-0.5">
+
+[2.1]{.header-section-number} Selección del artículo (0.5)
+
+</h2>
+
 <p>Revisar que el reporte:</p>
+
 <ul>
-<li>seleccione un artículo pertinente para ciencias sociales;</li>
-<li>trabaje con un artículo accesible, abierto o disponible por biblioteca.</li>
+
+<li>seleccionar un artículo pertinente para ciencias sociales;</li>
+
+<li>trabajar con un artículo accesible, abierto o disponible por biblioteca.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**1. Selección del artículo → Sobresaliente (0.5)**
+
+El artículo de González-Bustamante & Olivares (2016) es pertinente a ciencias sociales (ciencia política), está publicado en una revista indexada (Colombia Internacional), y tiene repositorio abierto en GitHub/Zenodo.
+:::
+
 </section>
+
 <section id="evaluación-de-reproducibilidad-2.0" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="evaluación-de-reproducibilidad-2.0"><span class="header-section-number">2.2</span> Evaluación de reproducibilidad (2.0)</h2>
+
+<h2 data-number="2.2" class="anchored" data-anchor-id="evaluación-de-reproducibilidad-2.0">
+
+[2.2]{.header-section-number} Evaluación de reproducibilidad (2.0)
+
+</h2>
+
 <p>Revisar los siguientes aspectos en el reporte:</p>
+
 <section id="disponibilidad-de-datos-0.5" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="disponibilidad-de-datos-0.5"><span class="header-section-number">2.2.1</span> Disponibilidad de datos (0.5)</h3>
+
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="disponibilidad-de-datos-0.5">
+
+[2.2.1]{.header-section-number} Disponibilidad de datos (0.5)
+
+</h3>
+
 <ul>
+
 <li>Identificar si los datos están disponibles.</li>
+
 <li>Explicar con claridad cómo acceder a ellos o qué dificultades existieron.</li>
+
 </ul>
+
 </section>
+
 <section id="disponibilidad-de-código-0.5" class="level3" data-number="2.2.2">
-<h3 data-number="2.2.2" class="anchored" data-anchor-id="disponibilidad-de-código-0.5"><span class="header-section-number">2.2.2</span> Disponibilidad de código (0.5)</h3>
+
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="disponibilidad-de-código-0.5">
+
+[2.2.2]{.header-section-number} Disponibilidad de código (0.5)
+
+</h3>
+
 <ul>
+
 <li>Identificar si el código está disponible.</li>
+
 <li>Explicar con claridad cómo acceder a él o si no fue posible obtenerlo.</li>
+
 </ul>
+
 </section>
+
 <section id="documentación-metodológica-0.5" class="level3" data-number="2.2.3">
-<h3 data-number="2.2.3" class="anchored" data-anchor-id="documentación-metodológica-0.5"><span class="header-section-number">2.2.3</span> Documentación metodológica (0.5)</h3>
+
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="documentación-metodológica-0.5">
+
+[2.2.3]{.header-section-number} Documentación metodológica (0.5)
+
+</h3>
+
 <ul>
+
 <li>Evaluar si la metodología está descrita con suficiente detalle.</li>
+
 <li>Indicar si esa documentación permite o no replicar razonablemente el análisis.</li>
+
 </ul>
+
 </section>
+
 <section id="transparencia-0.5" class="level3" data-number="2.2.4">
-<h3 data-number="2.2.4" class="anchored" data-anchor-id="transparencia-0.5"><span class="header-section-number">2.2.4</span> Transparencia (0.5)</h3>
+
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="transparencia-0.5">
+
+[2.2.4]{.header-section-number} Transparencia (0.5)
+
+</h3>
+
 <ul>
+
 <li>Revisar conflictos de interés, financiamiento u otra información relevante.</li>
+
 <li>Indicar si el estudio reporta adecuadamente estos elementos.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**2 Evaluación de reproducibilidad**
+
+**2.1 Disponibilidad de datos → Sobresaliente (0.5)** El reporte identifica claramente que los datos están en GitHub y Zenodo, explica que probaron con dos versiones (v1 y la más reciente), y documenta que la base de datos original de 2016 no está disponible. Bien fundamentado.
+
+**2.2 Disponibilidad de código → Sobresaliente (0.5)** Identifican con precisión que el código del autor existe pero solo cubre EDA, y que no genera las tablas del artículo. Incluso reproducen el código original en el reporte como evidencia. 
+
+**2.3 Documentación metodológica → Sobresaliente (0.5)** Describen bien los modelos de Cox, la construcción del dataset y la operacionalización. Señalan correctamente que la réplica no sería directa por la necesidad de reconstruir los datos desde múltiples fuentes.
+
+**2.4 Transparencia → Sobresaliente (0.5)** Mencionan el financiamiento Fondecyt, ALACIP, afiliaciones, y el detalle del repositorio sobre cambios por revisores anónimos. Además matizan que la transparencia no es completa.
+:::
+
 </section>
+
 </section>
+
 <section id="análisis-reproducible-3.0" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="análisis-reproducible-3.0"><span class="header-section-number">2.3</span> Análisis reproducible (3.0)</h2>
+
+<h2 data-number="2.3" class="anchored" data-anchor-id="análisis-reproducible-3.0">
+
+[2.3]{.header-section-number} Análisis reproducible (3.0)
+
+</h2>
+
 <p>Revisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción.</p>
+
 <section id="definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5" class="level3" data-number="2.3.1">
-<h3 data-number="2.3.1" class="anchored" data-anchor-id="definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5"><span class="header-section-number">2.3.1</span> Definición precisa de la tabla o figura a reproducir (0.5)</h3>
+
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="definición-precisa-de-la-tabla-o-figura-a-reproducir-0.5">
+
+[2.3.1]{.header-section-number} Definición precisa de la tabla o figura a reproducir (0.5)
+
+</h3>
+
 <ul>
+
 <li>Identificar con precisión la tabla, figura o resultado seleccionado.</li>
+
 <li>Justificar por qué ese resultado es adecuado para el ejercicio.</li>
+
 </ul>
+
 </section>
+
 <section id="documentación-de-pasos-decisiones-y-dificultades-1.0" class="level3" data-number="2.3.2">
-<h3 data-number="2.3.2" class="anchored" data-anchor-id="documentación-de-pasos-decisiones-y-dificultades-1.0"><span class="header-section-number">2.3.2</span> Documentación de pasos, decisiones y dificultades (1.0)</h3>
+
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="documentación-de-pasos-decisiones-y-dificultades-1.0">
+
+[2.3.2]{.header-section-number} Documentación de pasos, decisiones y dificultades (1.0)
+
+</h3>
+
 <ul>
+
 <li>Explicar el proceso seguido para reproducir el resultado.</li>
+
 <li>Documentar decisiones analíticas, ajustes realizados y dificultades encontradas.</li>
+
 </ul>
+
 </section>
+
 <section id="reporte-verificable-de-resultados-de-reproducción-1.0" class="level3" data-number="2.3.3">
-<h3 data-number="2.3.3" class="anchored" data-anchor-id="reporte-verificable-de-resultados-de-reproducción-1.0"><span class="header-section-number">2.3.3</span> Reporte verificable de resultados de reproducción (1.0)</h3>
+
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="reporte-verificable-de-resultados-de-reproducción-1.0">
+
+[2.3.3]{.header-section-number} Reporte verificable de resultados de reproducción (1.0)
+
+</h3>
+
 <ul>
+
 <li>Presentar resultados que puedan contrastarse con el artículo original.</li>
+
 <li>Permitir verificar si la reproducción fue total, parcial o fallida.</li>
-<li>Código y renderizado ok.</li>
+
 </ul>
+
 </section>
+
 <section id="explicación-de-límites-si-no-hay-reproducción-completa-0.5" class="level3" data-number="2.3.4">
-<h3 data-number="2.3.4" class="anchored" data-anchor-id="explicación-de-límites-si-no-hay-reproducción-completa-0.5"><span class="header-section-number">2.3.4</span> Explicación de límites si no hay reproducción completa (0.5)</h3>
+
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="explicación-de-límites-si-no-hay-reproducción-completa-0.5">
+
+[2.3.4]{.header-section-number} Explicación de límites si no hay reproducción completa (0.5)
+
+</h3>
+
 <ul>
+
 <li>Si no se logra reproducir completamente, explicar con claridad por qué.</li>
+
 <li>Distinguir entre limitaciones de datos, código, documentación u otras.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**3. Análisis reproducible**
+
+**3.1 Definición precisa → Sobresaliente (0.5)**
+
+Identifican correctamente la Tabla 3 y presentan la imagen original. La justificación de por qué eligieron esa tabla es muy débil o implícita — se deduce que la eligieron porque era la más asequible, pero no lo dicen explícitamente. Sin embargo, lo anterior no estaba estipulado en la pauta del trabajo 1 antes de esta revisión, por lo que no se restará puntaje por esta ausencia.
+
+**3.2 Documentación de pasos → Sobresaliente (1.0)**
+
+Documentan: carga y limpieza, filtrado por presidente, construcción de la función de cálculo, decisiones como asignar 1 día a tiempos negativos, prueba con dos versiones del dataset, y búsqueda en Zenodo. 
+
+**3.3 Reporte verificable → Básico (0.5)**
+
+1.  La tabla reproducida (tabla_3_v1.png) no se renderiza en el HTML — está guardada en input/images/ pero no se muestra en el reporte publicado. Solo aparece la tabla original. Esto impide la comparación directa sin ir al repositorio.
+
+2.  El script principal del grupo utiliza rutas relativas de forma correcta. Sin embargo, en la sección 6.1 aparece una ruta absoluta local (C:/Users/franc/...) dentro del código presentado como del autor original, lo que sugiere que fue modificado localmente sin corregir ese detalle antes de incluirlo en el reporte. Para la sección “ReproduccionTabla.R” esta ruta absoluta local impide correr el código, se corrige modificando para ser relativa ("input/data/original/Chilean_cabinets_1990_2014_v1.csv") 
+
+3.  Dependencias no declaradas: survminer y DataExplorer no están listadas explícitamente al inicio del documento como requisito. Esto dificulta la reproducción independiente.
+
+**3.4 Explicación de límites → Sobresaliente (0.5)**
+
+Distinguen claramente entre: (1) código insuficiente del autor, (2) ausencia de la base de datos original de 2016, (3) actualizaciones no documentadas en el repositorio. La explicación es honesta y bien articulada.
+:::
+
 </section>
+
 </section>
+
 <section id="conclusiones-0.5" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="conclusiones-0.5"><span class="header-section-number">2.4</span> Conclusiones (0.5)</h2>
+
+<h2 data-number="2.4" class="anchored" data-anchor-id="conclusiones-0.5">
+
+[2.4]{.header-section-number} Conclusiones (0.5)
+
+</h2>
+
 <p>Revisar que el reporte:</p>
+
 <ul>
-<li>presente una conclusión coherente con la evidencia;</li>
-<li>distinga fortalezas y debilidades de reproducibilidad;</li>
-<li>evite afirmaciones no respaldadas por el análisis.</li>
+
+<li>presentar una conclusión coherente con la evidencia;</li>
+
+<li>distinguir fortalezas y debilidades de reproducibilidad;</li>
+
+<li>evitar afirmaciones no respaldadas por el análisis.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**4. Conclusiones → Sobresaliente (0.5)**
+
+La conclusión es coherente con la evidencia, no hace afirmaciones sin respaldo, y distingue el problema del protocolo IPO ausente en el repositorio del autor versus el código incompleto. Concisa y precisa.
+:::
+
 </section>
+
 <section id="recomendaciones-0.5" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="recomendaciones-0.5"><span class="header-section-number">2.5</span> Recomendaciones (0.5)</h2>
+
+<h2 data-number="2.5" class="anchored" data-anchor-id="recomendaciones-0.5">
+
+[2.5]{.header-section-number} Recomendaciones (0.5)
+
+</h2>
+
 <p>Revisar que el reporte:</p>
+
 <ul>
-<li>proponga mejoras concretas y factibles;</li>
-<li>vincule las recomendaciones con problemas detectados;</li>
-<li>priorice acciones relevantes para mejorar reproducibilidad y apertura.</li>
+
+<li>proponer mejoras concretas y factibles;</li>
+
+<li>vincular las recomendaciones con problemas detectados;</li>
+
+<li>priorizar acciones relevantes para mejorar reproducibilidad y apertura.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**5. Recomendaciones → Sobresaliente (0.5)**
+
+Proponen (1) publicar todas las versiones del dataset incluyendo la original, y (2) que el código sea completo e incluya los procedimientos para generar todas las tablas y gráficos. Son concretas y directamente vinculadas a los problemas detectados.
+:::
+
 </section>
+
 <section id="formato-del-reporte-0.5" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="formato-del-reporte-0.5"><span class="header-section-number">2.6</span> Formato del reporte (0.5)</h2>
+
+<h2 data-number="2.6" class="anchored" data-anchor-id="formato-del-reporte-0.5">
+
+[2.6]{.header-section-number} Formato del reporte (0.5)
+
+</h2>
+
 <p>Revisar que el reporte:</p>
+
 <ul>
-<li>tenga redacción clara y estructura ordenada;</li>
-<li>presente un repositorio organizado según la lógica IPO y la plantilla del curso;</li>
-<li>incluya citas y referencias en formato académico consistente;</li>
-<li>renderice a HTML sin errores y con visualización adecuada de tablas y figuras.</li>
+
+<li>tener redacción clara y estructura ordenada;</li>
+
+<li>presentar un repositorio organizado según la lógica IPO y la plantilla del curso;</li>
+
+<li>incluir citas y referencias en formato académico consistente;</li>
+
+<li>renderizar a HTML sin errores y con visualización adecuada de tablas y figuras.</li>
+
 </ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Comentarios">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Comentarios
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Escribir aquí sus observaciones.</p>
-</div>
-</div>
+
+::: {.callout-note title="Comentarios"}
+**6. Formato → Básico (0.25)**
+
+- Redacción clara y ordenada
+- Repositorio con estructura IPO (input, processing, output, scripts) — de hecho bastante bien organizado
+- Citas en formato APA
+- HTML renderiza sin errores
+- La tabla reproducida no aparece en el HTML — este es el fallo principal
+:::
+
 </section>
+
 <section id="tabla-final-de-puntajes" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="tabla-final-de-puntajes"><span class="header-section-number">2.7</span> Tabla final de puntajes</h2>
-<p>Completar la siguiente tabla con el puntaje asignado en cada sección y subsección (para completar se sugiere utilizar el modo “Quarto edit in Visual Mode”, accesible desde Ctrl+shift+P).</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Ítem evaluado</th>
-<th style="text-align: right;">Puntaje máximo</th>
-<th style="text-align: right;">Puntaje otorgado</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1. Selección del artículo</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>2.1 Disponibilidad de datos</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>2.2 Disponibilidad de código</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>2.3 Documentación metodológica</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>2.4 Transparencia</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td><strong>Total sección 2</strong></td>
-<td style="text-align: right;"><strong>2.0</strong></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>3.1 Definición precisa de la tabla o figura a reproducir</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>3.2 Documentación de pasos, decisiones y dificultades</td>
-<td style="text-align: right;">1.0</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>3.3 Reporte verificable de resultados de reproducción</td>
-<td style="text-align: right;">1.0</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>3.4 Explicación de límites si no hay reproducción completa</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td><strong>Total sección 3</strong></td>
-<td style="text-align: right;"><strong>3.0</strong></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>4. Conclusiones</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td>5. Recomendaciones</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="even">
-<td>6. Formato del reporte</td>
-<td style="text-align: right;">0.5</td>
-<td style="text-align: right;"></td>
-</tr>
-<tr class="odd">
-<td><strong>Total final</strong></td>
-<td style="text-align: right;"><strong>7.0</strong></td>
-<td style="text-align: right;"></td>
-</tr>
-</tbody>
-</table>
 
+<h2 data-number="2.7" class="anchored" data-anchor-id="tabla-final-de-puntajes">
+
+[2.7]{.header-section-number} Tabla final de puntajes
+
+</h2>
+
+<p>Completar la siguiente tabla con el puntaje asignado en cada sección y subsección.</p>
+
+| Ítem evaluado | Puntaje máximo | Puntaje otorgado |
+|-----------------------------------|-----------------:|-----------------:|
+| 1\. Selección del artículo | 0.5 | 0.5 |
+| 2.1 Disponibilidad de datos | 0.5 | 0.5 |
+| 2.2 Disponibilidad de código | 0.5 | 0.5 |
+| 2.3 Documentación metodológica | 0.5 | 0.5 |
+| 2.4 Transparencia | 0.5 | 0.5 |
+| **Total sección 2** | **2.0** | **2.0** |
+| 3.1 Definición precisa de la tabla o figura a reproducir | 0.5 | 0.5 |
+| 3.2 Documentación de pasos, decisiones y dificultades | 1.0 | 1.0 |
+| 3.3 Reporte verificable de resultados de reproducción | 1.0 | 0.5 |
+| 3.4 Explicación de límites si no hay reproducción completa | 0.5 | 0.5 |
+| **Total sección 3** | **3.0** | **2.5** |
+| 4\. Conclusiones | 0.5 | 0.5 |
+| 5\. Recomendaciones | 0.5 | 0.5 |
+| 6\. Formato del reporte | 0.5 | 0.25 |
+| **Total final** | **7.0** | **6.25** |
 
 </section>
+
 </section>
 
-</main> <!-- /main -->
+</main>
+
+<!-- /main -->
+
+```{=html}
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -579,14 +800,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -928,22 +1148,45 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+```
+:::::::::::::::::::::::::::::::
+
+<!-- /content -->
+
 <footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
+
+::: nav-footer
+```         
+<div class="nav-footer-left">
+```
+
 <p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://www.jc-castillo.com">Juan Castillo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/cursos-metodos-facso/cienciasocialabierta2026">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+:::
+
+::: nav-footer-center
+```         
+  &nbsp;
 </div>
-  </div>
+<div class="nav-footer-right">
+```
+
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/cursos-metodos-facso/cienciasocialabierta2026">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+:::
+
+</div>
+
 </footer>
 
+</body>
 
+</html>
 
+:::::
 
-</body></html>
+:::::::::
+
+::::::::::
+
+::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: ::::: ::::::::: :::::::::: :::::::::::::: :::::::::::::::::::::::::::::::::::::

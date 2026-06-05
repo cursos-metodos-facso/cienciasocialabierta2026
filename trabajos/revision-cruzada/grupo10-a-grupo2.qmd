@@ -1,0 +1,124 @@
+---
+title: "Revisión cruzada - Trabajo 1"
+lang: es
+number-sections: true
+---
+
+## Grupo a revisar: Grupo 2 — "Radiografía de la Cohesión Social en Chile 2016-2023" {.unnumbered}
+
+# Evaluación
+
+## Selección del artículo (0.5)
+
+La elección de la Radiografía de la Cohesión Social en Chile 2016-2023 (COES) es muy pertinente para las ciencias sociales, este aborda objetos de importancia para la sociología como la confianza institucional, cohesión y pertenencia con datos longitudinales de gran cobertura. Indican que los datos son accesibles de forma abierta en el repositorio Harvard Dataverse.
+
+Como sugerencia menor, convendría que la introducción explicitara brevemente por qué este caso es especialmente interesante para un ejercicio de reproducibilidad (lo insinúan al señalar que el COES "suele ser proyectado como estándar de transparencia", pero podría reforzarse).
+
+**Puntaje: 0.5/0.5.**
+
+## Evaluación de reproducibilidad (2.0)
+
+### Disponibilidad de datos (0.5)
+
+Identifican con claridad la fuente (ELSOC/COES) y precisan que, aunque el informe no ofrece descarga directa, las bases están abiertas en Harvard Dataverse, con enlace al DOI. La explicación de cómo acceder es correcta.
+
+**Puntaje: 0.5/0.5.**
+
+### Disponibilidad de código (0.5)
+
+Indican que no disponibilidad pública, ni en el informe ni en los GitHub de los autores, por lo tanto, lo obtuvieron por contacto directo con el investigador principal. Recomiendo explicitar el medio de contacto hacía el investigador y tiempo de demora en respuesta para obtener el código.
+
+**Puntaje: 0.5/0.5.**
+
+### Documentación metodológica (0.5)
+
+Reconocen que el informe describe diseño muestral, variables, y criterios para el análisis. Como comentario, convendría una o dos líneas de texto que expliquen los criterios de análisis.
+
+**Puntaje: 0.5/0.5.**
+
+### Transparencia (0.5)
+
+Identifican financiamiento por parte de ANID y respaldo institucional, y señalan la ausencia de una declaración explícita de conflictos de interés.
+
+**Puntaje: 0.5/0.5. Subtotal sección 2: 2.0/2.0.**
+
+## Análisis reproducible (3.0)
+
+### Definición precisa de la tabla o figura a reproducir (0.5)
+
+Delimitan con precisión el bloque "Confianza en las instituciones" (Congreso, Poder Judicial, Partidos y Carabineros) y sus dos visualizaciones por indicador (barra de última observación y serie temporal), ocho gráficos en total. Incluyen las imágenes originales como referencia. Justifican la elección de forma adecuada.
+
+**Puntaje: 0.5/0.5.**
+
+### Documentación de pasos, decisiones y dificultades (1.0)
+
+Explican el filtrado de no atrición y, sobre todo, validan el conteo con tres métodos independientes (group_by/n(), n_distinct(ola) y tipo_atricion == 1), todos convergiendo en 1.176 / 661 en lugar de los 1.303 / 770 declarados. La hipótesis de que el etiquetado quedó heredado de una versión previa (hasta Ola 6) está bien argumentada. También documentan que recurrieron al código original y, ante su baja legibilidad, a herramientas de IA para descifrarlo. Sugiero sintetizar las decisiones clave y separar las decisiones analíticas (recodificación en 3 categorías, exclusión de NS/NR) de las técnicas (uso de svydesign, ponderador ponderador02).
+
+**Puntaje: 1.0/1.0.**
+
+### Reporte verificable de resultados de reproducción (1.0)
+
+Los chunks son ejecutables y están comentados línea a línea; las salidas finales coinciden con las figuras del informe original. En la sección de "Anexos de reproducción") documentan el intento sin código y el código original completo, y logran realizar el ejercicio de reproducción y verificación. Como pequeña recomendación, convendría realizar una tabla pequeña para las discrepancias (señalan diferencias menores al punto porcentual) de los resultados del informe original con la reproducción.
+
+**Puntaje: 1.0/1.0.**
+
+### Explicación de límites si no hay reproducción completa (0.5)
+
+Clara y bien fundada. Atribuyen correctamente la imposibilidad de réplica exacta sin el código a (a) los ponderadores de diseño no documentados y (b) el tratamiento de perdidos, y distinguen la barrera de acceso (código no público) de la de inteligibilidad (código poco documentado). Las recomendaciones se derivan directamente de estos límites.
+
+**Puntaje: 0.5/0.5. Subtotal sección 3: 3.0/3.0.**
+
+## Conclusiones (0.5)
+
+La conclusión contrapone bien la apertura de los datos con las brechas en la reproducibilidad del procesamiento, e introduce la distinción entre disponibilidad y legibilidad del código. No hay afirmaciones sin respaldo; incluso las diferencias menores al punto porcentual se atribuyen a criterios de redondeo. Sugiero cuidar el uso de "replicabilidad" y "reproducibilidad" para hablar de un mismo tema, son conceptos distintos que deben cuidarse, especialmente en una ciencia social muy sensible a conceptos.
+
+**Puntaje: 0.5/0.5.**
+
+## Recomendaciones (0.5)
+
+Las recomendaciones son concretas y factibles (repositorios públicos tipo GitHub, documentación técnica explícita de ponderadores y tratamiento de perdidos, y archivos README/manuales de procesamiento) y se vinculan directamente con cada barrera detectada en el análisis.
+
+**Puntaje: 0.5/0.5.**
+
+## Formato del reporte (0.5)
+
+La estructura es ordenada y el repositorio sigue correctamente la lógica IPO (separación input/processing/output), incluye index.qmd en la raíz, el index.html renderizado, bibliografía en input/bib/ciencia_abierta.bib con CSL APA y citas integradas con clave BibTeX. El reporte renderiza a HTML sin errores y las figuras se visualizan bien.
+
+Restan algunos detalles de prolijidad que justifican un descuento menor:
+
+- Errores de acentuación repartidos en el texto.
+- Campos de plantilla sin completar: el email del segundo autor quedó como placeholder (mail@mail.com)
+- Uso indistinto de "replicabilidad/reproducibilidad".
+
+**Puntaje: 0.4/0.5.**
+
+# Tabla final de puntajes
+
+| Ítem evaluado | Puntaje máximo | Puntaje otorgado |
+|---|---:|---:|
+| 1. Selección del artículo | 0.5 | 0.5 |
+| 2.1 Disponibilidad de datos | 0.5 | 0.5 |
+| 2.2 Disponibilidad de código | 0.5 | 0.5 |
+| 2.3 Documentación metodológica | 0.5 | 0.5 |
+| 2.4 Transparencia | 0.5 | 0.5 |
+| **Total sección 2** | **2.0** | **2.0** |
+| 3.1 Definición precisa de la tabla o figura a reproducir | 0.5 | 0.5 |
+| 3.2 Documentación de pasos, decisiones y dificultades | 1.0 | 1.0 |
+| 3.3 Reporte verificable de resultados de reproducción | 1.0 | 1.0 |
+| 3.4 Explicación de límites si no hay reproducción completa | 0.5 | 0.5 |
+| **Total sección 3** | **3.0** | **3.0** |
+| 4. Conclusiones | 0.5 | 0.5 |
+| 5. Recomendaciones | 0.5 | 0.5 |
+| 6. Formato del reporte | 0.5 | 0.4 |
+| **Total final** | **7.0** | **6.9** |
+
+# Comentario general {.unnumbered}
+
+Destaca la validación del filtro muestral por tres vías independientes y la documentación transparente del proceso —incluida la dependencia del contacto directo con el autor y el recurso a IA para leer el código original—, lo que ilustra de forma concreta la diferencia entre datos abiertos y análisis reproducible. El análisis es plenamente verificable y las recomendaciones se derivan directamente de las barreras detectadas. Los únicos reparos son de prolijidad (ortografía, campos de plantilla sin completar) y la conveniencia de distinguir "replicabilidad" de "reproducibilidad". Total: 6.9/7.0.
+
+# Evaluación 
+
+Comentario revisión cruzada: El ejercicio de retroalimentación a pares cumple satisfactoriamente el objetivo. Se plantea explícitamente todos los aspectos que considera positivos del trabajo evaluado, así como las falencias que encontró. Queda claro que se realizó una revisión minuciosa del documento, expresado en el nivel de detalle de los comentarios a cada subsección. Las sugerencias son precisas y pertinentes para mejorar una investigación en el marco de la ciencia abierta. Muy buen trabajo.
+
+
+Nota sugerida: 7.0
