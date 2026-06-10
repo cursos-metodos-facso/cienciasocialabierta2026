@@ -132,7 +132,7 @@ Al final de esta clase podrán:
 :::{.incremental .highlight-last}
 - Explicar qué son los principios FAIR y por qué importan para compartir datos.
 - Identificar plataformas para publicar datos de investigación social (Dataverse, Zenodo y repositorio UChile).
-- Comparar rutas de publicación abierta y discutir el problema de los APCs.
+- Comparar rutas de publicación abierta y discutir el problema de los costos de procesamiento de artículos (APCs).
 - Comprender el rol de los preprints, con énfasis en SocArXiv.
 :::
 
@@ -165,7 +165,7 @@ Al final de esta clase podrán:
 - Productos clave: datos, código y publicaciones.
 :::
 
-## Pregunta guia de hoy
+## Pregunta guía de hoy
 
 Si nuestro artículo es abierto, pero los datos y decisiones de análisis no lo son, ¿cuán abierta es realmente la investigación?
 
@@ -235,11 +235,11 @@ FAIR significa que los datos deben ser fáciles de encontrar, acceder, interoper
 
 ## Checklist mínimo para compartir datos
 
-1. Base de datos limpia y versión final.
-2. Diccionario de variables y códigos de valores.
-3. README con contexto, fuentes y decisiones de procesamiento.
-4. Licencia de uso.
-5. Archivo de replicación (scripts de limpieza/análisis) cuando sea posible.
+  1. Base de datos limpia y versión final.
+  2. Diccionario de variables y códigos de valores.
+  3. README con contexto, fuentes y decisiones de procesamiento.
+  4. Licencia de uso.
+  5. Archivo de replicación (scripts de limpieza/análisis) cuando sea posible.
 
 # Contenidos {.indice data-background-color="#9B2626" style="text-align: right;"}
 
@@ -330,13 +330,13 @@ FAIR significa que los datos deben ser fáciles de encontrar, acceder, interoper
 
 ## Rutas de acceso abierto
 
-![](slides-xaringan-previas/10-openpub/greengold.gif){fig-alt="Rutas de acceso abierto" width="74%" fig-align="center"}
+![](img/greengold.gif){fig-alt="Rutas de acceso abierto" width="74%" fig-align="center"}
 
 ## Ruta verde, dorada y diamante
 
 :::{.incremental .highlight-last}
 - **Ruta verde:** autoarchivo en repositorio (preprint o postprint), con o sin embargo.
-- **Ruta dorada:** artículo abierto en revista OA, frecuentemente con APC.
+- **Ruta dorada:** artículo abierto en revista OA (open access), frecuentemente con APC.
 - **Ruta diamante:** revista OA sin cobro para autores ni lectores (financiamiento institucional/asociativo).
 :::
 
@@ -401,7 +401,7 @@ APC = *Article Processing Charge*: cobro por publicar en acceso abierto en algun
 ::::: columns
 ::: {.column width="42%"}
 
-![](slides-xaringan-previas/10-openpub/socarxiv.jpg){width="100%"}
+![](img/socarxiv.jpg){width="100%"}
 
 [socarxiv.org](https://osf.io/preprints/socarxiv)
 
@@ -429,11 +429,11 @@ APC = *Article Processing Charge*: cobro por publicar en acceso abierto en algun
 
 ## SocArXiv: interfaz de envio
 
-![](slides-xaringan-previas/10-openpub/socarxiv-submit.png){width="80%" fig-align="center"}
+![](img/socarxiv-submit.png){width="80%" fig-align="center"}
 
 ## SocArXiv: confirmación y metadatos
 
-![](slides-xaringan-previas/10-openpub/socarxiv-submit2.png){width="80%" fig-align="center"}
+![](img/socarxiv-submit2.png){width="80%" fig-align="center"}
 
 ## Referencias recomendadas
 
