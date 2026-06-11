@@ -1023,7 +1023,7 @@
     "crumbs": [
       "Clases",
       "Sesiones",
-      "Sesión 7"
+      "7: Preregistros y OSF"
     ]
   },
   {
@@ -1035,7 +1035,7 @@
     "crumbs": [
       "Clases",
       "Sesiones",
-      "Sesión 6"
+      "6: Github Pages"
     ]
   },
   {
@@ -1059,7 +1059,7 @@
     "crumbs": [
       "Clases",
       "Sesiones",
-      "Sesión 4"
+      "4: Control de versiones"
     ]
   },
   {
@@ -1761,6 +1761,42 @@
       "Prácticos",
       "Guías",
       "Práctico 7"
+    ]
+  },
+  {
+    "objectID": "content/08-content.html",
+    "href": "content/08-content.html",
+    "title": "Datos y publicaciones abiertas",
+    "section": "",
+    "text": "Sesión del jueves, 11 de junio de 2026",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "8: Datos y publicaciones abiertas"
+    ]
+  },
+  {
+    "objectID": "content/08-content.html#referencias-recomendadas",
+    "href": "content/08-content.html#referencias-recomendadas",
+    "title": "Datos y publicaciones abiertas",
+    "section": "Referencias recomendadas",
+    "text": "Referencias recomendadas\n\nWilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18\nConociendo la ciencia abierta: Rutas de Acceso Abierto https://usach.libguides.com/c.php?g=1312104&p=9665470\nSOCOPEN: Home of SocarXiv https://socopen.org/",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "8: Datos y publicaciones abiertas"
+    ]
+  },
+  {
+    "objectID": "content/05-content.html",
+    "href": "content/05-content.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Sesión del jueves, 23 de abril de 2026\n\n\n\n\n\nDocumento de presentación",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "5: IPO"
     ]
   }
 ]

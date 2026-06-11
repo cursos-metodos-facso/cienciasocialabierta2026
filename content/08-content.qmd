@@ -1,6 +1,6 @@
 ---
-title: "Presentación"
-date: "2023-05-29"
+title: "Datos y publicaciones abiertas"
+date: "2026-06-11"
 lang: es
 website:
   comments:
@@ -8,8 +8,33 @@ website:
       repo: cursos-metodos-facso/multinivel
 ---
 
-# Documento de presentación: Centrado
+# Documento de presentación
 
-<iframe src=/slides/08-centering.html height="550" width=100% allowfullscreen="true">
+<iframe src=/slides/08-open-data-pubs.html height="550" width=100% allowfullscreen="true">
 </iframe> 
+
+
+En esta sesión abordamos dos dimensiones centrales de la ciencia social abierta: los datos abiertos y las publicaciones abiertas. La idea principal es que abrir la ciencia no significa solo “mostrar resultados”, sino también transparentar cómo se producen, documentan y circulan los insumos de investigación. En ese sentido, compartir datos de manera responsable mejora la reproducibilidad, facilita la colaboración y aumenta el valor público del trabajo académico.
+
+En la primera parte revisamos los **principios FAIR**: que los datos sean encontrables, accesibles, interoperables y reutilizables. Esto implica buenas prácticas concretas: usar metadatos claros, formatos adecuados, diccionarios de variables, licencias explícitas y documentación del proceso de producción de datos. También discutimos dónde publicar datasets, comparando alternativas como Dataverse, Zenodo y el repositorio de datos de la Universidad de Chile, según necesidades de visibilidad, preservación y requisitos institucionales.
+
+En la segunda parte analizamos las **rutas de publicación** en acceso abierto (verde, dorada y diamante), con especial atención a los APCs y sus efectos en desigualdad académica. Si bien el acceso abierto amplía la circulación del conocimiento, los costos de publicación pueden transformarse en nuevas barreras para equipos con menos financiamiento. Por eso es clave evaluar estrategias combinadas: autoarchivo, revistas sin cobro y políticas editoriales transparentes.
+
+Finalmente, revisamos el rol de los **preprints** como mecanismo de difusión temprana y discusión académica, con énfasis en SocArXiv para ciencias sociales. Publicar preprints permite acelerar el intercambio de ideas, mejorar manuscritos mediante retroalimentación y fortalecer la visibilidad de la investigación antes de la publicación formal. El objetivo es que cada autor pueda tomar decisiones informadas sobre cómo abrir datos y publicaciones de forma ética, viable y estratégicamente útil para su proyecto. 
+
+Sobre los preprints, acá un video introductorio de SocArXiv, que es la plataforma de preprints más relevante para ciencias sociales:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zcVO4IWg0x8?si=jzeDHnwddj2L9B6p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Referencias recomendadas
+
+- Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
+- Conociendo la ciencia abierta: Rutas de Acceso Abierto [https://usach.libguides.com/c.php?g=1312104&p=9665470](https://usach.libguides.com/c.php?g=1312104&p=9665470)
+
+- SOCOPEN: Home of SocarXiv [https://socopen.org/](https://socopen.org/)
+
+
+
 

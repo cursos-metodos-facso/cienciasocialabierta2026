@@ -82,20 +82,22 @@ website:
             - content/index.qmd
         - section: "Sesiones"
           contents:
-            - text: "Sesión 1"
+            - text: "1: Introducción"
               file: content/01-content.qmd
-            - text: "Sesión 2"
+            - text: "2: Principios y estándares"
               file: content/02-content.qmd
-            - text: "Sesión 3"
+            - text: "3: Texto plano y citas"
               file: content/03-content.qmd    
-            - text: "Sesión 4"
+            - text: "4: Control de versiones"
               file: content/04-content.qmd          
-            - text: "Sesión 5"
+            - text: "5: IPO"
               file: content/05-content.qmd
-            - text: "Sesión 6"
+            - text: "6: Github Pages"
               file: content/06-content.qmd
-            - text: "Sesión 7"
+            - text: "7: Preregistros y OSF"
               file: content/07-content.qmd   
+            - text: "8: Datos y publicaciones abiertas"
+              file: content/08-content.qmd   
     - title: "Prácticos"
       contents:
         - section: "Sobre prácticos"
