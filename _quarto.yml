@@ -105,19 +105,19 @@ website:
             - assignment/index.qmd
         - section: "Guías"
           contents:
-            - text: "Práctico 1"
+            - text: "1: Editores de código"
               file: assignment/01-practico.qmd      
-            - text: "Práctico 2"
+            - text: "2: Automatización de referencias"
               file: assignment/02-practico.qmd    
-            - text: "Práctico 3"
+            - text: "3: Markdown y documentos dinámicos"
               file: assignment/03-practico.qmd
-            - text: "Práctico 4"
+            - text: "4: Git y GitHub"
               file: assignment/04-practico.qmd   
-            - text: "Práctico 5"
+            - text: "5: Ejercicio de reproducibilidad"
               file: assignment/05-practico.qmd
-            - text: "Práctico 6"
+            - text: "6: GitHub Pages"
               file: assignment/06-practico.qmd
-            - text: "Práctico 7"
+            - text: "7: Quarto Websites y Quarto Book"
               file: assignment/07-practico.qmd             
                        
   page-footer:

@@ -94,6 +94,6 @@ Completar la siguiente tabla con el puntaje asignado en cada sección y subsecci
 
 # Evaluación
 
-Comentario de la revisión cruzada: En general, la evaluación entrega poca retroalimentación. Esto se expresa en la diferencia de profundidad de algunos comentarios de secciones. Si bien, hay algunas propuestas para el grupo evaluado, se observan otros comentarios muy escuetos que no permiten dar cuenta del objetivo del ejercicio, que es justamente analizar críticamente un trabajo de terceros y entregar una retroalimentación tanto de los aciertos como de las falencias. Además, los comentarios de la sección 2.3 y 2.4 mencionan casi lo mismo, lo cual es redundante y no aporta a la evaluación.
+Comentario de la revisión cruzada: En general, la evaluación carece de una retroalimentación apropiada. Esto se expresa en la diferencia de profundidad de algunos comentarios de secciones. Si bien, hay algunas propuestas para el grupo evaluado, se observan otros comentarios muy escuetos que no permiten dar cuenta del objetivo del ejercicio, que es justamente analizar críticamente un trabajo de terceros y dar una retroalimentación tanto de los aciertos como de las falencias. Incluso hay una sección que no fue comentada. Por último, los comentarios de la sección 2.3 y 2.4 mencionan sustantivamente lo mismo, lo cual es redundante y no entrega un valor agregado a la evaluación.
 
 Nota sugerida: 5.5

@@ -30,18 +30,18 @@ Este curso se compone de tres actividades principales a la semana:
 | 19 | [**2. Ciencia Abierta y Reproducibilidad**](https://cienciasocialabierta.netlify.app/content/02-content) | Taller VSC | [Nassi-Calo (2014)](http://blog.scielo.org/es/2014/02/27/la-reproducibilidad-en-los-resultados-de-investigacion-la-punta-del-iceberg/)<br><br>[Fardella et al. (2020)](https://atheneadigital.net/article/view/v20-1-fardela-carriel-lazcano-et-al)<br><br>[Christensen et al. cap 2](https://2021-cienciasocialabierta.netlify.app/docs/CAP2%20Christensen%20et%20al%20(2019)%20Transparent%20and%20Reproducible%20Social%20Science%20Research.pdf)<br><br>[Kyriazos & Poga (2026)](https://link.springer.com/article/10.3758/s13428-025-02920-y) |
 | 26 | [**3. Citas en texto plano**](https://cienciasocialabierta.netlify.app/content/03-content) | Zotero, Bibtex y Betterbibtex | [Zotero](https://www.zotero.org/) |
 | <font color="orange">**ABRIL**</font> |  |  |  |
-| 2 | **4. Documentos dinámicos: Markdown, RMarkdown & Quarto**<br>- Presentación<br>- Pauta evaluación 1 | [Markdown](/assignment/02-code)<br>[RMarkdown/Knitr]() | [Healey (2019)](https://plain-text.co/)<br><br>[Introducción a Markdown](http://rusersgroup.com/blog/rmarkdown)<br><br>[Lenguaje reproducible](https://juancarloscastillo.github.io/in-socabi/lenguaje-reproducible.html)<br><br>[Bowers & Voors (2016)](https://scielo.conicyt.cl/pdf/revcipol/v36n3/art11.pdf)<br><br>[Hoja referencia RMarkdown](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf) |
+| 2 | [**4. Documentos dinámicos: Markdown, RMarkdown & Quarto**](https://cienciasocialabierta.netlify.app/assignment/03-practico)<br>- Presentación<br>- Pauta evaluación 1 | [Markdown](/assignment/02-code)<br>[RMarkdown/Knitr]() | [Healey (2019)](https://plain-text.co/)<br><br>[Introducción a Markdown](http://rusersgroup.com/blog/rmarkdown)<br><br>[Lenguaje reproducible](https://juancarloscastillo.github.io/in-socabi/lenguaje-reproducible.html)<br><br>[Bowers & Voors (2016)](https://scielo.conicyt.cl/pdf/revcipol/v36n3/art11.pdf)<br><br>[Hoja referencia RMarkdown](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf) |
 | 9 | **5. Informe de avance** |  |  |
-| 16 | **6. Control de versiones: Git & Github** |  | [Git](https://git-scm.com/)<br><br>[Github](https://github.com/) |
-| 23 | **7. Flujo de trabajo reproducible / Protocolo IPO** | Plantilla IPO<br>Rutas relativas | [IPO](https://juancarloscastillo.github.io/ipo/)<br><br>[TIER](https://www.projecttier.org/) |
+| 16 | [**6. Control de versiones: Git & Github**](https://cienciasocialabierta.netlify.app/content/04-content) |  | [Git](https://git-scm.com/)<br><br>[Github](https://github.com/) |
+| 23 | [**7. Flujo de trabajo reproducible / Protocolo IPO**](https://cienciasocialabierta.netlify.app/content/05-content) | Plantilla IPO<br>Rutas relativas | [IPO](https://juancarloscastillo.github.io/ipo/)<br><br>[TIER](https://www.projecttier.org/) |
 | 30 | **8. Asesorías trabajos** | <font color="red">**Entrega informe 1<br>(04 de mayo)**</font> |  |
 | <font color="orange">**MAYO**</font> |  |  |  |
 | 07 | ~~**9. Github Pages**~~ (Paro) |  | [Github Pages](https://pages.github.com/) |
 | 14 | ~~**10. Quarto Websites y Quarto Book**~~ (Paro) |  |  |
 | 21 | **FERIADO / Semana de receso** |  |  |
-| 28 | **11. Repaso GitHub Pages / Pre-registros y pre-prints**<br>- Comentarios entrega 1<br>- Pauta evaluación 2 | [OSF](https://osf.io/)<br>[SocArXiv](https://socopen.org/) | [García-Garzón et al. (2018)](/docs/ciencia_abierta_psicologia.pdf)<br><br>[Yamada (2018)](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01831/full) |
+| 28 | [**11. Repaso GitHub Pages**](https://cienciasocialabierta.netlify.app/content/06-content) / [**Pre-registros y pre-prints**](https://cienciasocialabierta.netlify.app/content/07-content)<br>- Comentarios entrega 1<br>- Pauta evaluación 2 | [OSF](https://osf.io/)<br>[SocArXiv](https://socopen.org/) | [García-Garzón et al. (2018)](/docs/ciencia_abierta_psicologia.pdf)<br><br>[Yamada (2018)](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01831/full) |
 | <font color="orange">**JUNIO**</font> |  |  |  |
-| 04 | **12. Quarto Website y Quarto Book** |  |  |
-| 11 | **13. Datos abiertos, acceso y publicación** | Asesoría informe 2 |  |
+| 04 | [**12. Quarto Website y Quarto Book**](https://cienciasocialabierta.netlify.app/assignment/07-practico) |  |  |
+| 11 | [**13. Datos abiertos, acceso y publicación**](https://cienciasocialabierta.netlify.app/content/08-content) | Asesoría informe 2 |  |
 | 18 | **14. Presentaciones en Quarto**  | Asesoría informe 2 |  |
 | 25 |  | <font color="red">**Entrega informe 2**</font> |  |

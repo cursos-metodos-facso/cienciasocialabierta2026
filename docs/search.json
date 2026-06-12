@@ -1558,7 +1558,7 @@
     "href": "trabajos/revision-cruzada/grupo2-a-grupo-4.html",
     "title": "Evaluación",
     "section": "",
-    "text": "Grupo a evaluar: Grupo 4\n2.1 Selección del artículo (0.5) Comentarios Selección de articulo pertinente.\n2.2 Evaluación de reproducibilidad (2.0) Revisar los siguientes aspectos en el reporte: 2.2.1 Disponibilidad de datos (0.5) Se da cuenta de la disponibilidad de los datos. Explican con claridad cómo acceder a ellos o qué dificultades existieron. 2.2.2 Disponibilidad de código (0.5) • Identificar si el código está disponible. • Explicar con claridad cómo acceder a él o si no fue posible obtenerlo. 2.2.3 Documentación metodológica (0.5) • Evaluar si la metodología está descrita con suficiente detalle. • Indicar si esa documentación permite o no replicar razonablemente el análisis. 2.2.4 Transparencia (0.5) • Revisar conflictos de interés, financiamiento u otra información relevante. • Indicar si el estudio reporta adecuadamente estos elementos.\nComentarios El apartado cumple con todo lo requerido.\n2.3 Análisis reproducible (3.0) Revisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción. 2.3.1 Definición precisa de la tabla o figura a reproducir (0.5) • Identificar con precisión la tabla, figura o resultado seleccionado. • Justificar por qué ese resultado es adecuado para el ejercicio. 2.3.2 Documentación de pasos, decisiones y dificultades (1.0) • Explicar el proceso seguido para reproducir el resultado. • Documentar decisiones analíticas, ajustes realizados y dificultades encontradas. 2.3.3 Reporte verificable de resultados de reproducción (1.0) • Presentar resultados que puedan contrastarse con el artículo original. • Permitir verificar si la reproducción fue total, parcial o fallida. • Código y renderizado ok. 2.3.4 Explicación de límites si no hay reproducción completa (0.5) • Si no se logra reproducir completamente, explicar con claridad por qué. • Distinguir entre limitaciones de datos, código, documentación u otras.\nComentarios Pertinente y buen trabajo; se identifica claramente el problema que impide la reproducibilidad. Se aprecia un gran esfuerzo en el intento de reconstrucción de variables bajo el esquema de Wright, lo que implica un estudio profundo del articulo. Además, se documentan adecuadamente los procedimientos y los problemas enfrentados. La redacción es clara y adecuada.\n2.4 Conclusiones (0.5) Revisar que el reporte: • presente una conclusión coherente con la evidencia; • distinga fortalezas y debilidades de reproducibilidad; • evite afirmaciones no respaldadas por el análisis.\nComentarios Se identifican las causas que podrían haber limitado la reproducibilidad. También se hacen recomendaciones concretas e implementables. Se aprecia también el intento de reproducir las variables según la propuesta de Wright, aquello conlleva un esfuerzo adicional de comprensión de la teoría del articulo.\n2.5 Recomendaciones (0.5) Revisar que el reporte: • proponga mejoras concretas y factibles; • vincule las recomendaciones con problemas detectados; • priorice acciones relevantes para mejorar reproducibilidad y apertura.\nComentarios Escribir aquí sus observaciones.\n2.6 Formato del reporte (0.5) Revisar que el reporte: • tenga redacción clara y estructura ordenada; • presente un repositorio organizado según la lógica IPO y la plantilla del curso; • incluya citas y referencias en formato académico consistente; • renderice a HTML sin errores y con visualización adecuada de tablas y figuras.\nComentarios Redacción clara y consistente. Tal vez podría organizarse de manera alternativa los pasos para el código; pero de cualquier manera se entiende bien. En un apartado el articulo sale citado con el año 2024 y 2025, Parece haber un pequeño error de tipeo. Ya que en el apartado de proceso de reproducción se menciona un n de 22.324 casos, y al final 22.384 casos. De cualquier forma son detalles mínimos.\n2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección (para completar se sugiere utilizar el modo “Quarto edit in Visual Mode”, accesible desde Ctrl+shift+P).\n\n\n\n\n\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n0.5\n\n\n2.1 Disponibilidad de datos\n0.5\n0.5\n\n\n2.2 Disponibilidad de código\n0.5\n0.5\n\n\n2.3 Documentación metodológica\n0.5\n0.5\n\n\n2.4 Transparencia\n0.5\n0.5\n\n\nTotal sección 2\n2.0\n2.0\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n0.5\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n1.0\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n1.0\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n0.5\n\n\nTotal sección 3\n3.0\n3.0\n\n\n4. Conclusiones\n0.5\n0.5\n\n\n5. Recomendaciones\n0.5\n0.5\n\n\n6. Formato del reporte\n0.5\n0.5\n\n\nTotal final\n7.0\n7.0\n\n\n\n\nEvaluación\nComentario de la revisión cruzada: En general, la evaluación entrega poca retroalimentación. Esto se expresa en la diferencia de profundidad de algunos comentarios de secciones. Si bien, hay algunas propuestas para el grupo evaluado, se observan otros comentarios muy escuetos que no permiten dar cuenta del objetivo del ejercicio, que es justamente analizar críticamente un trabajo de terceros y entregar una retroalimentación tanto de los aciertos como de las falencias. Además, los comentarios de la sección 2.3 y 2.4 mencionan casi lo mismo, lo cual es redundante y no aporta a la evaluación.\nNota sugerida: 5.5"
+    "text": "Grupo a evaluar: Grupo 4\n2.1 Selección del artículo (0.5) Comentarios Selección de articulo pertinente.\n2.2 Evaluación de reproducibilidad (2.0) Revisar los siguientes aspectos en el reporte: 2.2.1 Disponibilidad de datos (0.5) Se da cuenta de la disponibilidad de los datos. Explican con claridad cómo acceder a ellos o qué dificultades existieron. 2.2.2 Disponibilidad de código (0.5) • Identificar si el código está disponible. • Explicar con claridad cómo acceder a él o si no fue posible obtenerlo. 2.2.3 Documentación metodológica (0.5) • Evaluar si la metodología está descrita con suficiente detalle. • Indicar si esa documentación permite o no replicar razonablemente el análisis. 2.2.4 Transparencia (0.5) • Revisar conflictos de interés, financiamiento u otra información relevante. • Indicar si el estudio reporta adecuadamente estos elementos.\nComentarios El apartado cumple con todo lo requerido.\n2.3 Análisis reproducible (3.0) Revisar que el reporte desarrolle de manera clara y verificable el ejercicio de reproducción. 2.3.1 Definición precisa de la tabla o figura a reproducir (0.5) • Identificar con precisión la tabla, figura o resultado seleccionado. • Justificar por qué ese resultado es adecuado para el ejercicio. 2.3.2 Documentación de pasos, decisiones y dificultades (1.0) • Explicar el proceso seguido para reproducir el resultado. • Documentar decisiones analíticas, ajustes realizados y dificultades encontradas. 2.3.3 Reporte verificable de resultados de reproducción (1.0) • Presentar resultados que puedan contrastarse con el artículo original. • Permitir verificar si la reproducción fue total, parcial o fallida. • Código y renderizado ok. 2.3.4 Explicación de límites si no hay reproducción completa (0.5) • Si no se logra reproducir completamente, explicar con claridad por qué. • Distinguir entre limitaciones de datos, código, documentación u otras.\nComentarios Pertinente y buen trabajo; se identifica claramente el problema que impide la reproducibilidad. Se aprecia un gran esfuerzo en el intento de reconstrucción de variables bajo el esquema de Wright, lo que implica un estudio profundo del articulo. Además, se documentan adecuadamente los procedimientos y los problemas enfrentados. La redacción es clara y adecuada.\n2.4 Conclusiones (0.5) Revisar que el reporte: • presente una conclusión coherente con la evidencia; • distinga fortalezas y debilidades de reproducibilidad; • evite afirmaciones no respaldadas por el análisis.\nComentarios Se identifican las causas que podrían haber limitado la reproducibilidad. También se hacen recomendaciones concretas e implementables. Se aprecia también el intento de reproducir las variables según la propuesta de Wright, aquello conlleva un esfuerzo adicional de comprensión de la teoría del articulo.\n2.5 Recomendaciones (0.5) Revisar que el reporte: • proponga mejoras concretas y factibles; • vincule las recomendaciones con problemas detectados; • priorice acciones relevantes para mejorar reproducibilidad y apertura.\nComentarios Escribir aquí sus observaciones.\n2.6 Formato del reporte (0.5) Revisar que el reporte: • tenga redacción clara y estructura ordenada; • presente un repositorio organizado según la lógica IPO y la plantilla del curso; • incluya citas y referencias en formato académico consistente; • renderice a HTML sin errores y con visualización adecuada de tablas y figuras.\nComentarios Redacción clara y consistente. Tal vez podría organizarse de manera alternativa los pasos para el código; pero de cualquier manera se entiende bien. En un apartado el articulo sale citado con el año 2024 y 2025, Parece haber un pequeño error de tipeo. Ya que en el apartado de proceso de reproducción se menciona un n de 22.324 casos, y al final 22.384 casos. De cualquier forma son detalles mínimos.\n2.7 Tabla final de puntajes\nCompletar la siguiente tabla con el puntaje asignado en cada sección y subsección (para completar se sugiere utilizar el modo “Quarto edit in Visual Mode”, accesible desde Ctrl+shift+P).\n\n\n\n\n\n\n\n\nÍtem evaluado\nPuntaje máximo\nPuntaje otorgado\n\n\n\n\n1. Selección del artículo\n0.5\n0.5\n\n\n2.1 Disponibilidad de datos\n0.5\n0.5\n\n\n2.2 Disponibilidad de código\n0.5\n0.5\n\n\n2.3 Documentación metodológica\n0.5\n0.5\n\n\n2.4 Transparencia\n0.5\n0.5\n\n\nTotal sección 2\n2.0\n2.0\n\n\n3.1 Definición precisa de la tabla o figura a reproducir\n0.5\n0.5\n\n\n3.2 Documentación de pasos, decisiones y dificultades\n1.0\n1.0\n\n\n3.3 Reporte verificable de resultados de reproducción\n1.0\n1.0\n\n\n3.4 Explicación de límites si no hay reproducción completa\n0.5\n0.5\n\n\nTotal sección 3\n3.0\n3.0\n\n\n4. Conclusiones\n0.5\n0.5\n\n\n5. Recomendaciones\n0.5\n0.5\n\n\n6. Formato del reporte\n0.5\n0.5\n\n\nTotal final\n7.0\n7.0\n\n\n\n\nEvaluación\nComentario de la revisión cruzada: En general, la evaluación carece de una retroalimentación apropiada. Esto se expresa en la diferencia de profundidad de algunos comentarios de secciones. Si bien, hay algunas propuestas para el grupo evaluado, se observan otros comentarios muy escuetos que no permiten dar cuenta del objetivo del ejercicio, que es justamente analizar críticamente un trabajo de terceros y dar una retroalimentación tanto de los aciertos como de las falencias. Incluso hay una sección que no fue comentada. Por último, los comentarios de la sección 2.3 y 2.4 mencionan sustantivamente lo mismo, lo cual es redundante y no entrega un valor agregado a la evaluación.\nNota sugerida: 5.5"
   },
   {
     "objectID": "trabajos/revision-cruzada/grupo6-a-grupo8.html",
@@ -1688,7 +1688,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1700,7 +1700,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1712,7 +1712,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1724,7 +1724,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1736,7 +1736,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1748,7 +1748,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1760,7 +1760,7 @@
     "crumbs": [
       "Prácticos",
       "Guías",
-      "Práctico 7"
+      "7: Quarto Websites y Quarto Book"
     ]
   },
   {
@@ -1798,5 +1798,702 @@
       "Sesiones",
       "5: IPO"
     ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Planificación",
+    "section": "",
+    "text": "Este curso se compone de tres actividades principales a la semana:\n\n Clases lectivas presenciales: los jueves de 14:30 a 16:00 en Sala 345, donde en base a las lecturas correspondientes a esa semana se presentará un resumen de los contenidos principales y se resolverán dudas.\n Talleres prácticos: jueves seguido a las clases lectivas, de 16:15 a 17:45 en la misma sala.\n Lecturas: cada sesión lectiva tiene una lectura obligatoria asignada a la semana, la que se encuentra a disposición en esta página.\n\n\n\n\n\nFecha\n Contenidos\n Prácticas y evaluaciones\n Lecturas y links\n\n\n\n\nMARZO\n\n\n\n\n\n12\n1. Presentación- Programa y forma de trabajo- La crisis de la ciencia cerrada\nPelícula Paywall\nNosek et al. (2015)Iordanou et al. (2026)Soliman et al. (2025)\n\n\n19\n2. Ciencia Abierta y Reproducibilidad\nTaller VSC\nNassi-Calo (2014)Fardella et al. (2020)Christensen et al. cap 2Kyriazos & Poga (2026)\n\n\n26\n3. Citas en texto plano\nZotero, Bibtex y Betterbibtex\nZotero\n\n\nABRIL\n\n\n\n\n\n2\n4. Documentos dinámicos: Markdown, RMarkdown & Quarto- Presentación- Pauta evaluación 1\nMarkdownRMarkdown/Knitr\nHealey (2019)Introducción a MarkdownLenguaje reproducibleBowers & Voors (2016)Hoja referencia RMarkdown\n\n\n9\n5. Informe de avance\n\n\n\n\n16\n6. Control de versiones: Git & Github\n\nGitGithub\n\n\n23\n7. Flujo de trabajo reproducible / Protocolo IPO\nPlantilla IPORutas relativas\nIPOTIER\n\n\n30\n8. Asesorías trabajos\nEntrega informe 1(04 de mayo)\n\n\n\nMAYO\n\n\n\n\n\n07\n9. Github Pages (Paro)\n\nGithub Pages\n\n\n14\n10. Quarto Websites y Quarto Book (Paro)\n\n\n\n\n21\nFERIADO / Semana de receso\n\n\n\n\n28\n11. Repaso GitHub Pages / Pre-registros y pre-prints- Comentarios entrega 1- Pauta evaluación 2\nOSFSocArXiv\nGarcía-Garzón et al. (2018)Yamada (2018)\n\n\nJUNIO\n\n\n\n\n\n04\n12. Quarto Website y Quarto Book\n\n\n\n\n11\n13. Datos abiertos, acceso y publicación\nAsesoría informe 2\n\n\n\n18\n14. Presentaciones en Quarto\nAsesoría informe 2\n\n\n\n25\n\nEntrega informe 2"
+  },
+  {
+    "objectID": "schedule.html#forma-general-de-funcionamiento",
+    "href": "schedule.html#forma-general-de-funcionamiento",
+    "title": "Planificación",
+    "section": "",
+    "text": "Este curso se compone de tres actividades principales a la semana:\n\n Clases lectivas presenciales: los jueves de 14:30 a 16:00 en Sala 345, donde en base a las lecturas correspondientes a esa semana se presentará un resumen de los contenidos principales y se resolverán dudas.\n Talleres prácticos: jueves seguido a las clases lectivas, de 16:15 a 17:45 en la misma sala.\n Lecturas: cada sesión lectiva tiene una lectura obligatoria asignada a la semana, la que se encuentra a disposición en esta página.\n\n\n\n\n\nFecha\n Contenidos\n Prácticas y evaluaciones\n Lecturas y links\n\n\n\n\nMARZO\n\n\n\n\n\n12\n1. Presentación- Programa y forma de trabajo- La crisis de la ciencia cerrada\nPelícula Paywall\nNosek et al. (2015)Iordanou et al. (2026)Soliman et al. (2025)\n\n\n19\n2. Ciencia Abierta y Reproducibilidad\nTaller VSC\nNassi-Calo (2014)Fardella et al. (2020)Christensen et al. cap 2Kyriazos & Poga (2026)\n\n\n26\n3. Citas en texto plano\nZotero, Bibtex y Betterbibtex\nZotero\n\n\nABRIL\n\n\n\n\n\n2\n4. Documentos dinámicos: Markdown, RMarkdown & Quarto- Presentación- Pauta evaluación 1\nMarkdownRMarkdown/Knitr\nHealey (2019)Introducción a MarkdownLenguaje reproducibleBowers & Voors (2016)Hoja referencia RMarkdown\n\n\n9\n5. Informe de avance\n\n\n\n\n16\n6. Control de versiones: Git & Github\n\nGitGithub\n\n\n23\n7. Flujo de trabajo reproducible / Protocolo IPO\nPlantilla IPORutas relativas\nIPOTIER\n\n\n30\n8. Asesorías trabajos\nEntrega informe 1(04 de mayo)\n\n\n\nMAYO\n\n\n\n\n\n07\n9. Github Pages (Paro)\n\nGithub Pages\n\n\n14\n10. Quarto Websites y Quarto Book (Paro)\n\n\n\n\n21\nFERIADO / Semana de receso\n\n\n\n\n28\n11. Repaso GitHub Pages / Pre-registros y pre-prints- Comentarios entrega 1- Pauta evaluación 2\nOSFSocArXiv\nGarcía-Garzón et al. (2018)Yamada (2018)\n\n\nJUNIO\n\n\n\n\n\n04\n12. Quarto Website y Quarto Book\n\n\n\n\n11\n13. Datos abiertos, acceso y publicación\nAsesoría informe 2\n\n\n\n18\n14. Presentaciones en Quarto\nAsesoría informe 2\n\n\n\n25\n\nEntrega informe 2"
+  },
+  {
+    "objectID": "assignment/01-practico.html",
+    "href": "assignment/01-practico.html",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 19 de marzo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#qué-es-visual-studio-code",
+    "href": "assignment/01-practico.html#qué-es-visual-studio-code",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "¿Qué es Visual Studio Code?",
+    "text": "¿Qué es Visual Studio Code?\n\nEs un editor de código avanzado desarrollado por Microsoft que es de acceso gratuito. Actualmente es uno de los editores predilectos debido a su eficiencia y alto nivel de personalización.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#principales-ventajas",
+    "href": "assignment/01-practico.html#principales-ventajas",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Principales ventajas",
+    "text": "Principales ventajas\n\nEs un programa liviano y extensible, por tanto, personalizable\nSoporta múltiples lenguajes de programación (Python, R, HTML, etc)\nFacilita la aplicación de control de versiones\nTerminal integrada\nIdeal para flujos de trabajo reproducible (Git/GitHub y documentos dinámicos)\nIntegra copilot",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#instalación-del-programa",
+    "href": "assignment/01-practico.html#instalación-del-programa",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Instalación del programa",
+    "text": "Instalación del programa\nLink de descarga\n\n \n\nInstalación VSCode",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#interfaz",
+    "href": "assignment/01-practico.html#interfaz",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Interfaz",
+    "text": "Interfaz\n\n \n\nPaso a paso Interfaz VSCode\nEn este punto la idea es presentar cada sección de la interfaz y sus opciones\n\nMenú superior (describir los más importantes)\n\nArchivos\n\nAquí se encuentran las principales opciones que existen para trabajar con documentos y/o carpetas.\nEjemplo: Crear archivo; Guardar archivo; Abrir carpeta, etc.\n\n\n\nEdición\n\nOfrece alternativas de edición del documento.\nEjemplo: Copiar; Pegar; Deshacer; Encontrar, etc.\n\n\n\n\nBarra de herramientas\n\n Buscador\n\nEl software tiene un buscador de archivos integrado\nOpera en distintos niveles de anidación: permite ubicar palabras  buscando en todos los documentos y carpetas del directorio\n\n\n\n Documentos\n\nVSCode trabaja con carpetas como áreas de trabajo.\nCada carpeta puede contener múltiples archivos y subcarpetas.\nSe puede abrir una carpeta existente o crear una nueva desde VSCode.\nLos archivos pueden ser de cualquier tipo: código fuente, texto plano, datos, etc.\nLa estructura de carpetas y archivos es clave para la organización y reproducibilidad (ej: protocolo IPO).\n\n\n\n Extensiones\n\nLas extensiones son complementos que agregan funcionalidades a VSCode.\nExisten extensiones para diferentes lenguajes de programación, herramientas y flujos de trabajo.\nBuscar e instalar extensiones: desde el Marketplace de VSCode.\nAbre la vista de extensiones con el ícono de cuadrados en la barra lateral o con el atajo Ctrl+Shift+X.\nBusca las extensiones por nombre (ej: “Quarto”, “R”, “Zotero”).\nHaz clic en “Install” para instalar cada extensión.\nReinicia VS Code si es necesario para activar las extensiones.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#shortcuts",
+    "href": "assignment/01-practico.html#shortcuts",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Shortcuts",
+    "text": "Shortcuts\nCtrl + N: Crear documento\nCtrl + S: Guardar documento\nCtrl + Shift + P: Abrir barra de comandos\nCtrl + Shift + K: Preview Quarto\nCtrl + K + C: Añadir comentario\nCtrl + K + T: Cambiar tema de VSCode",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-1",
+    "href": "assignment/01-practico.html#actividad-1",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Actividad 1",
+    "text": "Actividad 1\nInstale las siguientes extensiones:\n\nQuarto\nMarkdown Preview Enhanced\nVSCode-pets",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-2",
+    "href": "assignment/01-practico.html#actividad-2",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Actividad 2",
+    "text": "Actividad 2\nCree una carpeta en el escritorio del computador siga las siguientes instrucciones:\n\nAbra la carpeta desde VSCode para que el programa la interprete como el directorio de trabajo\nGenere un nuevo archivo y escriba un breve texto en él\nGuárdelo en la carpeta que creó anteriormente\nBonus: Busque algún contenido clave del documento utilizando las herramientas dispuestas en la barra lateral",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/01-practico.html#actividad-3-opcional",
+    "href": "assignment/01-practico.html#actividad-3-opcional",
+    "title": "Pŕactico 1: Editores de código",
+    "section": "Actividad 3 (opcional)",
+    "text": "Actividad 3 (opcional)\n\nInstale la extensión de R\nCorra algún código en VSCode",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "1: Editores de código"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html",
+    "href": "assignment/02-practico.html",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 26 de marzo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#instalación",
+    "href": "assignment/02-practico.html#instalación",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Instalación",
+    "text": "Instalación\n\n \n\nInstalación de Zotero",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#uso-del-software",
+    "href": "assignment/02-practico.html#uso-del-software",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Uso del software",
+    "text": "Uso del software\n\nBibliotecas y colecciones\nAl entrar a Zotero, el software por defecto genera una  biblioteca personal. Dentro de su biblioteca pueden crear  colecciones, las cuales funcionan como carpetas para organizar de mejor manera los contenidos de la biblioteca.\nPara crear una colección, deben clickear el botón de la carpeta gris que está arriba de  My Librarie.\n\n\nCómo guardar citas\nPractiquemos cómo guardar las citas. Existen 3 maneras de guardarlas:\n\n\nMediante la extensión de Google Chrome\n\n\nPrimero hay que asegurar que esté abierto Zotero para que funcione la extensión\nDebemos abrir la página donde se encuentra alojado el artículo, como aquí\nClickeamos la extensión y nos dará la opción de guardar el artículo\nAparece una de nuestras bibliotecas por defecto. Al apretar la flecha que aparece al lado del nombre, se despliega la lista de las demás bibliotecas en caso de que necesitemos cambiarla\n\n\nMediante DOI/ISBN\n\n\nDebemos disponer del DOI y/o ISBN del artículo y copiarlo (Ctrl + C)\nEntramos a Zotero y abrimos la biblioteca en donde queremos guardar la referencia\nClickeamos la varita que se encuentra en la parte superior izquierda\nPegamos (Ctrl + V) el DOI/ISBN del texto y apretamos Enter para guardar\n\n\nVía manual\n\n\nAbrimos la biblioteca donde guardaremos la referencia\nClickeamos el botón de add item que se encuentra al lado izquierdo de la varita (parte superior izquierda)\nElegimos el tipo de documento que registraremos\nRellenamos las secciones con los datos del artículo",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#better-bibtex",
+    "href": "assignment/02-practico.html#better-bibtex",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Better BibTeX",
+    "text": "Better BibTeX\nEs un plugin de Zotero que permite exportar las referencias en un formato legible en Latex, Markdown y Quarto.\n\nPara utilizarlo, primero debemos instalar el plugin desde este link\nUna vez descargado, debemos abrir Zotero, ir al menú superior izquierdo y clickear en Tools &gt; Plugins &gt;  &gt; Install plugin from file y seleccionar el archivo descargado\nPara exportar referencias, debemos hacer click derecho en una biblioteca, colección o en los textos que necesitemos, y apretar Export items\nSeleccionamos el formato Betterbibtex y apretamos Ok.\nSe generará un archivo .bib que tendrá almacenadas nuestras referencias, las cuales podemos vincular a los documentos en VSCode",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#fundamentales",
+    "href": "assignment/02-practico.html#fundamentales",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Fundamentales",
+    "text": "Fundamentales\nPara referenciar correctamente nuestras citas en los documentos (Quarto), debemos tener en cuenta tres cosas: 1) incluir el archivo .bib en el YAML 2) añadir un archivo .csl (Citation Style Languaje) para especificar el estilo de citación 3) escribir correctamente la citation key\n\nEl archivo .bib debe estar idealmente dentro de nuestro directorio de trabajo para que sea sencillo agregarlo al YAML, ya que se debe escribir la ruta exacta de su ubicación\nEl archivo .csl debe integrarse al YAML al igual que el archivo .bib para que el documento reconozca el tipo de citación que necesitamos\nAquí pueden encontrar distintos tipos de .csl: www.zotero.org/styles\n\nEl YAML (donde van los metadatos del documento) debería verse algo así:\n---\ntitle: \"Práctico 2\"\nformat: html\nbibliography: references.bib\ncsl: apa.csl\neditor: source\n---\n\nPara agregar referencias al documento, la citation key debe estar escrita entre corchetes [] para que sea considerada como una referencia",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "href": "assignment/02-practico.html#maneras-de-citar-en-texto-plano-con-zotero",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Maneras de citar en texto plano con Zotero",
+    "text": "Maneras de citar en texto plano con Zotero\n\n\n\n\n\n\n\nSe escribe\nRenderiza\n\n\n\n\nComo dice @sabbagh_dimension_2003\nComo dice Sabbagh (2003)\n\n\n[@sabbagh_dimension_2003] dice …\n(Sabbagh, 2003) dice …\n\n\nSabbagh [-@sabbagh_dimension_2003, pp.35] dice …\nSabbagh (2003, p.35) dice …\n\n\n\nPara las actividades prácticas, necesitaremos que ingresen a las configuraciones de la extensión R Markdown Enhanced y marcar la siguiente opción:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-1-zotero",
+    "href": "assignment/02-practico.html#actividad-1-zotero",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 1: Zotero",
+    "text": "Actividad 1: Zotero\n\nCree una carpeta en su escritorio que se llame “practico-02”\nAbra Zotero y añada una nueva colección en su biblioteca\nEntre a Edit &gt; Settings &gt; BetterBibTeX y cambie la fórmula de la citation key a esta: auth.lower + \"_\" + title.select(1,1).lower + \"_\" + year\nGuarde 3 referencias en ella utilizando la extensión de Google Chrome o bien el DOI/ISBN\nExporte su colección en formato Better BibTeX y guárdelo en la carpeta del práctico\nDescargue un archivo .csl (idealmente APA) y guárdelo en la carpeta creada",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
+    "href": "assignment/02-practico.html#actividad-2-zotero-en-vscode",
+    "title": "Pŕactico 2: Automatización de referencias bibliográficas",
+    "section": "Actividad 2: Zotero en VSCode",
+    "text": "Actividad 2: Zotero en VSCode\n\nAbra la carpeta que creó antes dentro de VSCode para que la reconozca como su directorio de trabajo\nGenere un nuevo documento\nCambie el lenguaje del documento a Quarto\nAjuste el YAML para que reconozca los archivos .bib y .csl (puede guiarse con el que está en el ejemplo del práctico)\nEscriba un párrafo que le permita incluir al menos 2 de las referencias que guardó en el documento .bib\nRenderice el documento y verifique que las citas funcionen correctamente",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "2: Automatización de referencias"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html",
+    "href": "assignment/03-practico.html",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 2 de abril de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#marcas-de-edición-en-markdown",
+    "href": "assignment/03-practico.html#marcas-de-edición-en-markdown",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "1.1 Marcas de edición en markdown",
+    "text": "1.1 Marcas de edición en markdown\nEn markdown, podemos utilizar diferentes marcas de edición para dar formato a nuestro texto. Algunas de las más comunes incluyen:\n\nEncabezados: Se crean utilizando el símbolo # seguido del texto del encabezado. Por ejemplo, # Encabezado 1 para un encabezado de nivel 1, ## Encabezado 2 para un encabezado de nivel 2, y así sucesivamente. Los encabezados siguen una estructura jerárquica, lo que nos permite organizar nuestro documento de manera clara y ordenada.\nNegrita: Para resaltar texto en negrita, se utilizan dos asteriscos ** antes y después del texto. Por ejemplo, **texto en negrita** se renderizará como texto en negrita.\nCursiva: Para resaltar texto en cursiva, se utiliza un asterisco * antes y después del texto. Por ejemplo, *texto en cursiva* se renderizará como texto en cursiva.\nListas: Para crear listas, se pueden utilizar guiones - o asteriscos * para listas no ordenadas, y números seguidos de un punto para listas ordenadas. Por ejemplo:\n\nElemento 1\nElemento 2\nElemento 3\n\n\nPrimer elemento\nSegundo elemento\nTercer elemento\n\nEnlaces: Para crear enlaces, se utiliza la sintaxis [texto del enlace](URL). Por ejemplo, [Google](https://www.google.com) se renderizará como Google.\nImágenes: Para insertar imágenes, se utiliza la sintaxis ![](URL de la imagen). Por ejemplo, ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Zotero_logo.svg/960px-Zotero_logo.svg.png) se renderizará como",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#renderización-de-markdown",
+    "href": "assignment/03-practico.html#renderización-de-markdown",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "1.2 Renderización de markdown",
+    "text": "1.2 Renderización de markdown\nLa renderización de markdown se refiere al proceso de conversión del texto a un formato visualmente atractivo y legible. En el contexto de Quarto, cuando escribimos nuestro documento en markdown, al renderizarlo, se convierte en un documento HTML o PDF que muestra el formato aplicado a través de las marcas de edición. Esto nos permite ver nuestros encabezados, listas, enlaces, imágenes y otros elementos formateados correctamente, facilitando la lectura y comprensión del contenido.\nEsto se puede representar en el siguiente esquema:\n\nPandoc es la herramienta que se encarga de realizar esta conversión de markdown a HTML o PDF, permitiéndonos visualizar nuestro documento con el formato deseado. Este programa funciona como un puente entre el texto plano que escribimos en markdown y el documento final que se renderiza, asegurando que todas las marcas de edición se apliquen correctamente para una presentación óptima.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#escribiendo-en-markdown-en-vscode",
+    "href": "assignment/03-practico.html#escribiendo-en-markdown-en-vscode",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "1.3 Escribiendo en markdown en VSCode",
+    "text": "1.3 Escribiendo en markdown en VSCode\nEn VSCode, podemos escribir en markdown utilizando la extensión “Markdown Preview enhanced”. Esta extensión nos permite escribir en markdown y ver una vista previa de cómo se renderizará nuestro documento. Para instalarla, simplemente debemos ir a la sección de extensiones en VSCode, buscar “Markdown Preview enhanced” y hacer click en instalar. Una vez instalada, podemos abrir un archivo con extensión .md o .qmd y utilizar la función de preview para ver cómo se renderiza nuestro documento en tiempo real.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#actividad-intermedia",
+    "href": "assignment/03-practico.html#actividad-intermedia",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "1.4 Actividad intermedia",
+    "text": "1.4 Actividad intermedia\n\nCree una nueva carpeta para este práctico llamada “practico-03” y selecciónela como directorio de trabajo (carpeta de proyecto) en VSCode. Una vez hecho esto, realice las siguientes actividades:\n\n\nCree un archivo Quarto\nPiense una estructura anidada de contenidos utilizando los encabezados\nEscriba un texto de aproximadamente 100 palabras utilizando las marcas de edición enseñadas para dar formato al texto (negrita, cursiva, listas)\nInserte al menos un enlace y una imagen a lo largo del documento.\nRenderice el documento y confirme que se aplica el formato de salida.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#qué-son-los-documentos-dinámicos",
+    "href": "assignment/03-practico.html#qué-son-los-documentos-dinámicos",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.1 ¿Qué son los documentos dinámicos?",
+    "text": "2.1 ¿Qué son los documentos dinámicos?\nLos documentos dinámicos son un archivo que integra texto, código y resultados de un análisis, lo que permite que cualquier cambio en los datos se actualice automáticamente en el documento final. Este formato ayuda a disminuir errores manuales, reduce el tiempo de edición y asegura la reproducibilidad, ya que el documento no sólo muestra resultados, sino que los genera directamente. Por ello, se ha vuelto fundamental en contextos como la ciencia abierta, la docencia, los reportes periódicos y el trabajo colaborativo.\nLa base de los documentos dinámicos son Markdown, permitiendo crear documentos legibles para humanos, procesables por máquinas y exportables a múltiples formatos (informes, artículos, presentaciones o sitios web).\nEl potencial de los documentos dinámicos puede ser aprovechado al máximo con Quarto, un sistema moderno de publicación que se caracteriza por su multifuncionalidad y facilidad de uso.\nVentajas de usar Quarto:\n\nEstá basado en Markdown: conserva la lógica de texto plano con marcas mínimas.\nSoporte para múltiples lenguajes (R, Python, Julia, etc)\nMultitud de formatos de salida (HTML, PDF, Shiny, etc) gracias a Pandoc\nSoporte para publicación científica: integración con bibliografías, citaciones, Zotero",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#estructura",
+    "href": "assignment/03-practico.html#estructura",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.2 Estructura",
+    "text": "2.2 Estructura\nLos documentos dinámicos en Quarto tienen dos secciones principales: el YAML y el cuerpo del documento.\n\nEl YAML es una sección de metadatos que se encuentra al inicio del documento, delimitada por tres guiones --- al principio y al final. En esta sección se pueden definir el título, autor, fecha, formato de salida y otras opciones. Todo lo que se defina en el YAML afectará a la totalidad del documento.\n\nEjemplo de YAML:\n---\ntitle: \"Práctico 03\"\nauthor: \"Curso Ciencia Abierta\"\nformat: html\ndate: \"2026-04-02\"\n---\n\n\n\n\n\n\nNota\n\n\n\nEl YAML es altamente sensible a la sintaxis, por lo que es importante asegurarse de que esté correctamente escrito para evitar errores en la renderización del documento.\n\n\n\nEl cuerpo del documento es donde se escribe el contenido principal utilizando markdown. Aquí es donde se pueden incluir texto, código, imágenes, tablas y otros elementos que formarán parte del documento final.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#código-chunks",
+    "href": "assignment/03-practico.html#código-chunks",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.3 Código (chunks)",
+    "text": "2.3 Código (chunks)\nAl escribir código en un documento dinámico, se utilizan los llamados chunks o trozos de código. Estos bloques permiten insertar código en diferentes lenguajes de programación (como R, Python, Julia, etc.) dentro del documento.\n\nPara crear un chunk, debes apretar Ctrl + Shift + I (o Cmd + Option + I en Mac) y seleccionar el lenguaje de programación que deseas utilizar. Esto insertará un bloque de código con la sintaxis adecuada para ese lenguaje.\n\nEl chunk en el documento se verá así:\n```{r}\n\n```\n\nSi escribes código por fuera de un chunk, el sistema lo interpretará como texto plano.\nDentro de un chunk no todo es código. Puedes escribir texto plano siempre y cuando se anteponga un # al texto.\n\nVeamos un ejemplo de código en R dentro de un chunk:\n\n    # Este es un chunk de código en R\n    x &lt;- 1\n    y &lt;- 2^2\n\n    z = x + y\n\n    z\n\n[1] 5",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#opciones-de-chunk",
+    "href": "assignment/03-practico.html#opciones-de-chunk",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.4 Opciones de chunk",
+    "text": "2.4 Opciones de chunk\nUn chunk tiene una serie de opciones que permiten controlar su comportamiento y la forma en que se visualizan el código y el resultado. Las opciones de chunk se especifican en la parte superior antes de escribir código, y deben anotarse con el prefijo #|.\nAlgunas de las opciones de chunk más comunes incluyen:\n\n\n\n\n\n\n\nOpción\nDescripción\n\n\n\n\neval\nEvalúa la ejecución del bloque de código.\n\n\necho\nIncluye el código fuente en la salida.\n\n\nwarning\nIncluye las advertencias en la salida.\n\n\nerror\nIncluye los errores en la salida (esto implica que los errores al ejecutar el código no detendrán el procesamiento del documento).\n\n\ninclude\nOpción general para evitar que cualquier salida (código o resultados) sea incluida (por ejemplo, include: false suprime toda la salida del bloque de código).",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#referenciación-de-resultados",
+    "href": "assignment/03-practico.html#referenciación-de-resultados",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.5 Referenciación de resultados",
+    "text": "2.5 Referenciación de resultados\nEn los documentos dinámicos, es posible referenciar los resultados que están dentro de los chunks ajustando sus opciones.\nVeamos un ejemplo de cómo referenciar un resultado:\n#| label: fig-ejemplo\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| fig-cap-location: bottom\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \n#| label Le asigna una etiqueta al chunk. Si el chunk genera un gráfico como output, la etiqueta debe tener el prefijo fig- para que pueda ser referenciada correctamente. En cambio, si se genera una tabla, el nombre de la etiqueta debe llevar el prefijo tbl-.\n#| fig-caption Permite agregar un título o leyenda al output.\n#| fig-cap-location Define la ubicación de la leyenda del output.\nAl renderizar, este código se ve así:\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\nFigura 1: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nEl output del código es bastante largo, así que añadamos un par de opciones más para que la salida sea más limpia:\n#| label: fig-ejemplo-2\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| fig-cap-location: bottom\n#| echo: false\n#| warning: false\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \nEste código renderizado es ve así:\n\n\n\n\n\n\n\n\nFigura 2: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nPodemos observar que se eliminan todas las líneas de código y las advertencias, dejando únicamente el gráfico con su leyenda. Esto facilita la lectura del documento, especialmente cuando el código es largo o genera muchas advertencias que no son relevantes para el lector.\nPara referenciar una figura en el cuerpo del documento, hay que escribirlo de la siguiente manera: @ + label. Entonces, para referenciar la última figura debemos escribir: “Tal como se ve en la @fig-ejemplo-2”.\nAl renderizarse, esto se ve así: “Tal como se ve en la Figura 2”.\n\n\n\n\n\n\nNota\n\n\n\nDos chunks distintos no pueden tener el mismo label. La etiqueta opera como una marca de referencia del código, por lo que cada chunk debe tener un label único para evitar conflictos al referenciar los resultados.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#temas-y-css",
+    "href": "assignment/03-practico.html#temas-y-css",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.6 Temas y CSS",
+    "text": "2.6 Temas y CSS\nOtra de las ventajas de los documentos dinámicos es que son completamente personalizables. Quarto ofrece una amplia variedad de temas que permiten cambiar la apariencia de nuestros documentos de manera sencilla. Para aplicar un tema, simplemente debemos agregar la opción theme en el YAML de nuestro documento, seguida del nombre del tema que deseamos utilizar.\n---\ntitle: \"Práctico 03\"\nauthor: \"Curso Ciencia Abierta\"\nformat: html\ntheme: united\ndate: \"2026-04-02\"\n---\nTemas disponibles en Quarto\nAdemás de los temas predefinidos, también es posible personalizar la apariencia de nuestros documentos utilizando CSS (Cascading Style Sheets). Para ello, podemos crear un archivo CSS con las reglas de estilo que deseamos aplicar y luego vincularlo en el YAML de nuestro documento utilizando la opción theme.\n\n\n\n\n\n\nNota\n\n\n\nTambién existen los archivos SCSS (Sacy CSS) que son una extensión de CSS que permite utilizar variables, anidamiento y otras funcionalidades avanzadas para facilitar la escritura de estilos personalizados. Esencialmente, cumple la misma función que un archivo CSS.\n\n\nDescargar SCSS de ejemplo",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#otras-opciones-del-yaml",
+    "href": "assignment/03-practico.html#otras-opciones-del-yaml",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.7 Otras opciones del YAML",
+    "text": "2.7 Otras opciones del YAML\nExisten varias opciones adicionales que se pueden configurar en el YAML para personalizar aún más nuestros documentos dinámicos. Algunas de estas opciones son:\ntoc: Permite generar una tabla de contenidos automáticamente a partir de los encabezados del documento. Para habilitar esta opción, simplemente debemos agregar toc: true en el YAML.\nnumber-sections: Esta opción permite numerar automáticamente los encabezados del documento. Se activa al agregar number-sections: true en el YAML.\ntitle-block-banner: Añade un banner de fondo al título del documento. Para que funcione, debemos agregar title-block-banner: true en el YAML.\ncode-fold: Vuelve opcional la visualización de los bloques de código para mejorar la legibilidad del documento. Esto se activa agregando code-fold: true en el YAML.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/03-practico.html#indentación",
+    "href": "assignment/03-practico.html#indentación",
+    "title": "Pŕactico 3: Markdown y Documentos dinámicos",
+    "section": "2.8 Indentación",
+    "text": "2.8 Indentación\nLa indentación es la técnica de añadir espacios o tabulaciones al inicio de una línea de código para mejorar su legibilidad y estructura jerárquica. Este suele aplicarse en el YAML para organizar las opciones de manera clara y evitar errores de sintaxis.\nEjemplo:\n---\ntitle: \"Práctico 03\"\nauthor: \"Curso Ciencia Abierta\"\nformat: \n  html:\n    theme: \n      - united\n      - ejemplo.scss\ndate: \"2026-04-02\"\n---",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "3: Markdown y documentos dinámicos"
+    ]
+  },
+  {
+    "objectID": "assignment/04-practico.html",
+    "href": "assignment/04-practico.html",
+    "title": "Pŕactico 4: Git y Github",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 16 de abril de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "4: Git y GitHub"
+    ]
+  },
+  {
+    "objectID": "assignment/04-practico.html#descripción",
+    "href": "assignment/04-practico.html#descripción",
+    "title": "Pŕactico 4: Git y Github",
+    "section": "1.1 Descripción",
+    "text": "1.1 Descripción\nGithub es una plataforma de desarrollo colaborativo que permite alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas (software).\n\n\n\n\n\n\nNota\n\n\n\nEl 4 de junio de 2018 Microsoft compró GitHub por la cantidad de 7500 millones de dólares. Al inicio, el cambio de propietario generó preocupaciones y la salida de algunos proyectos de este sitio; sin embargo, no fueron representativos. GitHub continúa siendo la plataforma más importante de colaboración para proyectos de código abierto.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "4: Git y GitHub"
+    ]
+  },
+  {
+    "objectID": "assignment/04-practico.html#repositorios",
+    "href": "assignment/04-practico.html#repositorios",
+    "title": "Pŕactico 4: Git y Github",
+    "section": "1.2 Repositorios",
+    "text": "1.2 Repositorios\nUn repositorio contiene todo el código, tus archivos y el historial de revisiones y cambios de cada uno de ellos. Es el elemento más básico de Github.\nLos repositorios pueden contar con múltiples colaboradores y pueden ser públicos o privados.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "4: Git y GitHub"
+    ]
+  },
+  {
+    "objectID": "assignment/04-practico.html#principales-términos",
+    "href": "assignment/04-practico.html#principales-términos",
+    "title": "Pŕactico 4: Git y Github",
+    "section": "1.3 Principales términos",
+    "text": "1.3 Principales términos\n\n\n\n\n\n\n\nTérmino\nDefinición\n\n\n\n\nCommit\nAcción de registro de los cambios aplicados en un repositorio.\n\n\nPush\nAcción de subir los cambios locales a un repositorio remoto.\n\n\nPull\nAcción de descargar los cambios de un repositorio remoto al local.\n\n\nBranch\nUna versión paralela del código contenido en el repositorio, pero que no afecta a la rama principal.\n\n\nClonar\nPara descargar una copia completa de los datos de un repositorio de GitHub.com, incluidas todas las versiones de cada archivo y carpeta.\n\n\nFork\nUn nuevo repositorio que comparte la configuración de visibilidad y código con el repositorio «ascendente» original.\n\n\nMerge\nPara aplicar los cambios de una rama y en otra.\n\n\nPull request\nUna solicitud para combinar los cambios de una branch en otra.\n\n\nRemote\nUn repositorio almacenado en GitHub, no en el equipo.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "4: Git y GitHub"
+    ]
+  },
+  {
+    "objectID": "assignment/04-practico.html#crear-cuenta",
+    "href": "assignment/04-practico.html#crear-cuenta",
+    "title": "Pŕactico 4: Git y Github",
+    "section": "1.4 Crear cuenta",
+    "text": "1.4 Crear cuenta\n\nAcceder a la página de GitHub\n\nRegistrarse ingresando correo electrónico y siguiendo los pasos siguientes (crear contraseña y nombre de usuario)\n\nLa personalización de la cuenta se puede saltar haciendo click en skip abajo de la selección de opciones\n\nAbrir VSCode e ir a la sección de control de versiones en la barra lateral\n\n\n\nUna vez iniciada sesión, vamos a descargar un repositorio. Para esto, abrimos la barra de comandos (Ctrl + Shift + P) y escribimos Git: Clone y seleccionamos la opción que aparece (clone from Github).\n\n\n\nLuego, se abrirá una ventana con los repositorios disponibles en nuestra cuenta de Github. Como no hemos creado ninguno aún, vamos a clonar uno existente. Escriben: kevin-carrasco/taller-github-csa y seleccionan el repositorio que aparece.\nElegimos donde almacenar el repositorio en nuestro computador.\nCrear un nuevo archivo dentro del repositorio clonado, por ejemplo nombre.r, y escribir algo de texto dentro de este.\nGuardar el archivo (Ctrl + S).\nIr a la sección de control de versiones en la barra lateral, donde aparecerá el nuevo archivo creado.\nEscribir un mensaje de commit y hacer click en el ícono de check para hacer el commit.\n\n\n\nSincronizar los cambios\nEl nuevo archivo creado aparecerá en la rama principal del repositorio. Pueden descargar estos nuevos archivos sincronizando los cambios y haciendo un “pull” de la rama principal.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "4: Git y GitHub"
+    ]
+  },
+  {
+    "objectID": "assignment/05-practico.html",
+    "href": "assignment/05-practico.html",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 23 de abril de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "5: Ejercicio de reproducibilidad"
+    ]
+  },
+  {
+    "objectID": "assignment/05-practico.html#metadatos",
+    "href": "assignment/05-practico.html#metadatos",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.1 Metadatos",
+    "text": "3.1 Metadatos\nEl template se encuentra en formato .qmd, una estructura de documento con la cual ya estamos familiarizados. En primer lugar, debemos modificar los metadatos del documento (YAML), como el título, fecha y autoría. Luego, podemos ir editando las demás secciones con el contenido correspondiente.\n\nAl renderizar el documento, esta es la información que cambiará:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "5: Ejercicio de reproducibilidad"
+    ]
+  },
+  {
+    "objectID": "assignment/05-practico.html#referencias-en-la-escritura-del-reporte",
+    "href": "assignment/05-practico.html#referencias-en-la-escritura-del-reporte",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.2 Referencias en la escritura del reporte",
+    "text": "3.2 Referencias en la escritura del reporte\nPara integrar referencias en el documento, debemos considerar tres elementos fundamentales: el archivo de referencias (.bib), el estilo de citación (.csl) y la sintaxis para citar en el texto (citation keys).\nEjemplo: tenemos una carpeta en Zotero con nuestras referencias, la cual exportamos como cienciabierta.bib y la guardamos en la carpeta input de nuestro proyecto. Luego, para que Quarto pueda reconocer este archivo, debemos especificar su ubicación en el YAML del documento.\nEl template ya trae la opción de integrar bibliografía, pero está escrito como comentario. Solamente debemos eliminar el # al inicio de bibliography para que Quarto reconozca la opción, y luego escribimos el nombre del archivo, respetando su ubicación. Para el .csl debemos seguir el mismo procedimiento. Entonces, si nuestro archivo .csl se llama apa.csl, el YAML debería verse así:\n---\nbibliography: \"input/cienciabierta.bib\"\ncsl: \"input/apa.csl\"\n---\nUna vez que tenemos esto configurado, podemos citar en el texto utilizando las citation keys. Por ejemplo, si queremos citar un artículo cuya citation key es harvey_brief_2005, escribimos @harvey_brief_2005 en el texto, y al renderizar el documento, esta referencia se integrará automáticamente con el formato definido por el archivo .csl.\n\n\n\n\n\n\nNota\n\n\n\nSi tienen dudas respecto a referencias en texto plano, pueden revisitar el Práctico 02",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "5: Ejercicio de reproducibilidad"
+    ]
+  },
+  {
+    "objectID": "assignment/05-practico.html#datos-y-código",
+    "href": "assignment/05-practico.html#datos-y-código",
+    "title": "Pŕactico 5: Template para ejercicio de reproducibilidad",
+    "section": "3.3 Datos y código",
+    "text": "3.3 Datos y código\nTodo el análisis de código se realizará en el apartado de Análisis reproducible. Recordemos que para incluir datos y código en nuestro documento, debemos utilizar los chunks de Quarto. Por ejemplo, queremos reproducir la siguiente figura:\n\nConsiderando esto, nuestro código debería verse algo así:\n\n\nCódigo\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() \n\n\n\n\n\n\n\n\nFigura 1: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nAl renderizarlo, obtendremos la figura reproducida en nuestro documento\nEste ejemplo cumple con ilustrar cómo incluir código y datos en nuestro documento a partir de datos generados en el mismo chunk. En el caso de sus trabajos, deberán cargar los datos desde la carpeta input, o bien, con la url que dirija a la base de datos. Luego, reproducen la figura seleccionada utilizando el código proporcionado por los autores del artículo o reporte, en caso de que lo tengan a disposición.\n\n\n\n\n\n\nNota\n\n\n\nSi tienen dudas respecto a la escritura en texto plano, pueden revisitar el Práctico 03",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "5: Ejercicio de reproducibilidad"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html",
+    "href": "assignment/06-practico.html",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "",
+    "text": "Correspondiente a la sesión del jueves, 7 de mayo de 2026",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "6: GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#configurar-_quarto.yml-para-generar-docs",
+    "href": "assignment/06-practico.html#configurar-_quarto.yml-para-generar-docs",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "2.1 Configurar _quarto.yml para generar docs/",
+    "text": "2.1 Configurar _quarto.yml para generar docs/\nPara que Quarto genere la salida en docs/, generar un archivo nuevo en la raíz con el título _quarto.yml con el siguiente contenido:\n---\nproject:\n  type: website\n  output-dir: docs\n---\nLuego:\n\nRenderizar desde VS Code con Render (▶) en index.qmd.\nRevisar localmente con Quarto Preview.\nCommit + push.\n\nEsto hace que el archivo index.html y los recursos asociados se generen dentro de docs/, manteniendo la raíz del repositorio limpia.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "6: GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#crear-cuenta-en-hypothes.is",
+    "href": "assignment/06-practico.html#crear-cuenta-en-hypothes.is",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.1 Crear cuenta en Hypothes.is",
+    "text": "5.1 Crear cuenta en Hypothes.is\n\nIr a https://web.hypothes.is/ y hacer clic en Get Started.\nCompletar correo electrónico, nombre de usuario y contraseña.\nConfirmar la cuenta desde el correo.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "6: GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#instalar-la-extensión",
+    "href": "assignment/06-practico.html#instalar-la-extensión",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.2 Instalar la extensión",
+    "text": "5.2 Instalar la extensión\n\nChrome / Brave: instalar desde la Chrome Web Store.\nFirefox: usar el bookmarklet disponible en la página de inicio.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "6: GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "assignment/06-practico.html#anotar-el-sitio-del-grupo",
+    "href": "assignment/06-practico.html#anotar-el-sitio-del-grupo",
+    "title": "Práctico 6: Publicación de resultados con GitHub Pages",
+    "section": "5.3 Anotar el sitio del grupo",
+    "text": "5.3 Anotar el sitio del grupo\n\nAbrir la URL del sitio GitHub Pages del grupo.\nActivar la extensión (ícono en la barra del navegador).\nSeleccionar un fragmento de texto y escribir un comentario.\nElegir visibilidad:\n\nPublic: visible para todos.\nOnly me: anotación privada.\nGrupo del curso: crear un grupo en Hypothes.is e invitar a los compañeros.\n\n\n\n\n\n\n\n\nNota\n\n\n\nPara crear un grupo en Hypothes.is: ir a https://hypothes.is/groups/new, crear el grupo y compartir el enlace de invitación.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "6: GitHub Pages"
+    ]
+  },
+  {
+    "objectID": "content/01-content.html",
+    "href": "content/01-content.html",
+    "title": "Presentación",
+    "section": "",
+    "text": "Sesión del jueves, 12 de marzo de 2026\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "1: Introducción"
+    ]
+  },
+  {
+    "objectID": "content/02-content.html",
+    "href": "content/02-content.html",
+    "title": "2. Principios y estándares",
+    "section": "",
+    "text": "Sesión del jueves, 19 de marzo de 2026\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "2: Principios y estándares"
+    ]
+  },
+  {
+    "objectID": "content/03-content.html",
+    "href": "content/03-content.html",
+    "title": "Escritura y citas en Texto plano",
+    "section": "",
+    "text": "Sesión del jueves, 27 de marzo de 2025\n\n\n\n\n\nDocumento de presentación\n\n\n\n\nForo",
+    "crumbs": [
+      "Clases",
+      "Sesiones",
+      "3: Texto plano y citas"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Programa",
+    "section": "",
+    "text": "Prof. Juan Carlos Castillo\n   325 Sociología FACSO, Universidad de Chile\n   juancastillov@uchile.cl\n   Agendar reunión\n\n\n\n\n\n   Jueves\n   Marzo-Junio, 2026\n   14:30 - 17:45\n   Salas 345 - FACSO"
+  },
+  {
+    "objectID": "syllabus.html#descripción-general",
+    "href": "syllabus.html#descripción-general",
+    "title": "Programa",
+    "section": "Descripción general",
+    "text": "Descripción general\nPartiendo desde la concepción de Ciencia Abierta (Open Science) y de investigación reproducible, este curso presenta formas alternativas a la manera tradicional de concebir la generación de conocimiento de manera cerrada y competitiva, y desde ahí se proponen y ejercitan una serie de herramientas técnicas en el análisis de datos que facilitan la reproducibilidad, colaboración y comunicación de procesos de investigación.\nEl curso permitirá a los participantes lograr un producto de investigación (artículo, documento de trabajo) con foco en el análisis de datos realizado de manera abierta y reproducible."
+  },
+  {
+    "objectID": "syllabus.html#propósito-general",
+    "href": "syllabus.html#propósito-general",
+    "title": "Programa",
+    "section": "Propósito general",
+    "text": "Propósito general\nEl quehacer académico muchas veces es criticado por su falta de aporte, transparencia y relevancia para la sociedad, crítica que se acentúa en las ciencias sociales. Desde la academia misma han surgido cuestionamientos sobre la capacidad de un trabajo que sea más abierto y auditable, que favorezca la colaboración entre académic_s y no académic_s, y que se comunique de manera eficiente dentro de la academia y fuera de ella.\nPartiendo desde la concepción de Ciencia Abierta (Open Science) y de investigación reproducible, este curso presenta formas alternativas a la manera tradicional de concebir la generación de conocimiento de manera cerrada y competitiva, y desde ahí se proponen y ejercitan una serie de herramientas técnicas que facilitan la reproducibilidad, colaboración y comunicación de procesos de investigación.\nEl curso se dirige no solamente a aquellos estudiantes con interés principal en la investigación académica, sino también a quienes se quieran dedicar profesionalmente al análisis y reporte de información y datos sociales, trabajo en equipo multidisciplinario, y al vínculo entre academia y políticas públicas."
+  },
+  {
+    "objectID": "syllabus.html#resultados-de-aprendizaje",
+    "href": "syllabus.html#resultados-de-aprendizaje",
+    "title": "Programa",
+    "section": "Resultados de aprendizaje",
+    "text": "Resultados de aprendizaje\nAl finalizar el curso, ud. será capaz de:\n\nComprender las limitaciones y problemas de la manera tradicional de realizar investigación social.\nConocer las herramientas computacionales que permiten y promueven una apertura de los procesos de investigación social\nConocer los flujos de trabajo reproducibles y transparentes\nDesarrollar un proceso de investigación abierto basado en los propios intereses de investigación, orientados hacia la publicación de un producto académico (artículo, documento de trabajo)."
+  },
+  {
+    "objectID": "syllabus.html#contenidos",
+    "href": "syllabus.html#contenidos",
+    "title": "Programa",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nIntroducción a la ciencia abierta y transparencia\n\nCierre y crisis de la ciencia\nMarquetización de la academia y consecuencias para su quehacer\nPropuestas de políticas de apertura científica a nivel internacional\n\n\n\nUnidad 1: Reproducibilidad\n1.1 Programación literaria\n\nTrabajando en texto plano: Introducción a Rmarkdown y Latex\nGeneración de reportes dinámicos vía Knitr.\nGestión de fuentes bibliográficas: Zotero, BibTex y BetterBibTex\n\n1.2 Documentos dinámicos - Rmarkdown - Quarto\n1.3 Flujos, control y documentación\n\nFlujos reproducibles (protocolo IPO)\nControl de versiones con Git\nTrabajo colaborativo y versionado con Github\n\n\n\nUnidad 2: Comunicación, registro y publicación\n\nPre-registros y planes de pre-analisis\nPublicación abierta vía pre-prints (SoxArxiv) y página web (Github pages)\nGeneración de presentaciones dinámicas en Quarto\nProyectos de investigación en OSF (Open Science Framework)\nVisualización de datos"
+  },
+  {
+    "objectID": "syllabus.html#metodología",
+    "href": "syllabus.html#metodología",
+    "title": "Programa",
+    "section": "Metodología",
+    "text": "Metodología\nEl curso se organiza en sesiones semanales, con una parte lectiva seguida de una práctica. En la parte lectiva se transmiten y discuten los conceptos centrales de la ciencia abierta. En la parte práctica se aplicarán los conceptos transmitidos en la parte lectiva, además de resolver dudas en el avance de los trabajos de investigación.\nEl curso estará orientado a que l_s participantes puedan al final generar un producto de investigación con características de apertura científica. Para ello, pueden profundizar en algún trabajo previo que les permita avanzar hacia una publicación académica en un proceso de investigación supervisado y reproducible."
+  },
+  {
+    "objectID": "syllabus.html#evaluación",
+    "href": "syllabus.html#evaluación",
+    "title": "Programa",
+    "section": "Evaluación",
+    "text": "Evaluación\n\nEntrega 1 (40%): Ejercicio de reproducibilidad\nEl objetivo de esta entrega es evaluar la capacidad de los estudiantes para aplicar los conceptos de reproducibilidad en un proyecto de investigación, y para comunicar de manera efectiva el proceso y los resultados de su investigación a través de un reporte dinámico.\nPara este ejercicio de reproducibilidad, se les asignará un reporte de resultados de investigación social cuyos datos estén disponibles, y se les pedirá que repliquen el análisis y los resultados presentados en el reporte original, utilizando un flujo de trabajo reproducible basado en el protocolo IPO (Input-Process-Output).\nEl reporte debe incluir:\n\nUn repositorio abierto (por ejemplo, en GitHub) que contenga el código y los datos necesarios para reproducir el análisis.\nUn reporte dinámico generado a través de Rmarkdown/Quarto que documente el proceso de investigación, incluyendo la metodología, los resultados y las conclusiones. El reporte debe ser claro y detallado, permitiendo a otros investigadores seguir el mismo proceso y obtener los mismos resultados\nEl reporte debe ser presentado de manera clara y estructurada, siguiendo las secciones habituales de un trabajo académico (Resumen, Introducción, Antecedentes conceptuales/empíricos, Metodología, Análisis, Conclusiones)\nEl reporte debe ser reproducible, es decir, cualquier persona que tenga acceso al repositorio y al reporte dinámico debe ser capaz de ejecutar el código y obtener los mismos resultados que se presentan en el reporte\n\n\n\nEntrega 2 (10%): Evaluación cruzada de reproducibildiad\nLos estudiantes evaluarán de manera cruzada los reportes de reproducibilidad de sus compañeros, utilizando una rúbrica que se les proporcionará. Esta evaluación cruzada permitirá a los estudiantes reflexionar sobre los aspectos clave de la reproducibilidad y la comunicación efectiva en la investigación social, y les brindará la oportunidad de aprender de los enfoques y metodologías utilizados por sus compañeros.\n\n\nEntrega 3 (50%): Proyecto Abierto\nLos lineamientos de la entrega estarán disponibles próximamente."
+  },
+  {
+    "objectID": "syllabus.html#requisitos-de-aprobación",
+    "href": "syllabus.html#requisitos-de-aprobación",
+    "title": "Programa",
+    "section": "Requisitos de aprobación",
+    "text": "Requisitos de aprobación\nNota mínima de aprobación: 4,0 (en escala de 1 a 7)."
+  },
+  {
+    "objectID": "syllabus.html#palabras-clave",
+    "href": "syllabus.html#palabras-clave",
+    "title": "Programa",
+    "section": "Palabras clave",
+    "text": "Palabras clave\nCiencia abierta, reproducibilidad, acceso abierto, transparencia, pre-prints, repositorios, control de versiones, markdown."
+  },
+  {
+    "objectID": "syllabus.html#bibliografía-obligatoria-o-central",
+    "href": "syllabus.html#bibliografía-obligatoria-o-central",
+    "title": "Programa",
+    "section": "Bibliografía Obligatoria (… o central)",
+    "text": "Bibliografía Obligatoria (… o central)\nHay cuatro libros que son centrales para este curso:\n\nEl libro base del curso es “Transparent and Reproducible Social Science Research”, de Christensen, G. S., Freese, J., & Miguel, E. (2019). Es lo más cercano a los temas del curso, y como ven muy reciente, del tema no había bibliografía así de especializada hasta el año pasado. Lamentablemente, y también paradojicamente, es un libro no disponible de manera gratuita. Muy recomendable. Comentaremos algunos de sus contenidos en las primeras sesiones introductorias.\nUn segundo texto no tiene relación directa con apertura, pero sí muchos elementos que ayudan para llevar a cabo análisis reproducibles en R: R for Data Science (conocido como RDS) de Garrett Grolemund y Hadley Wickham (2017). Afortunadamente tenemos una versión traducida al español y disponible de manera abierta online: “R para Ciencia de Datos”\nEl tercero es más específico para la Unidad 2 sobre escritura en texto plano: “The Plain Person’s Guide to Plain Text Social Science”, de Kieran Healy en su última version 2019. Para mi gusto uno de los libros inspiradores sobre las implicancias para la escritura del trabajo académico abierto, y escrito por un gran sociólogo.\nY el cuarto es R Markdown: The definitive guide, de Yihui Xie, J. J. Allaire & Garrett Grolemund (2019). Abarca los detalles del proceso de investigación reproducible vinculando escritura y análisis, pero con mucho énfasis en publicación y presentación de resultados.\n\nEl detalle de otras lecturas sugeridas para cada clase aparece en la página de Planificación de las sesiones."
+  },
+  {
+    "objectID": "syllabus.html#software",
+    "href": "syllabus.html#software",
+    "title": "Programa",
+    "section": "Software",
+    "text": "Software\nComo software vamos a utilizar VSC, Quarto, Git/Github, Zotero. VSC es un editor de texto generalizado, con muchas funciones que van más allá del análisis de datos, y que es gratuito y de código abierto. Si bien me parece apropiado para el curso, corresponde decir que la opción por editores también es algo abierto, sobre todo en un curso que tiene que ver con apertura. Otros editores muy usados son Emacs, Sublime y Atom. Si a alguien le interesa podemos hacer alguna sesión adicional sobre Atom, que es el editor que yo uso."
+  },
+  {
+    "objectID": "syllabus.html#planificación-de-las-sesiones-y-materiales-respectivos",
+    "href": "syllabus.html#planificación-de-las-sesiones-y-materiales-respectivos",
+    "title": "Programa",
+    "section": "Planificación de las sesiones y materiales respectivos",
+    "text": "Planificación de las sesiones y materiales respectivos\nConsultar la página Planificación."
+  },
+  {
+    "objectID": "syllabus.html#inasistencias-y-atraso-en-entregas",
+    "href": "syllabus.html#inasistencias-y-atraso-en-entregas",
+    "title": "Programa",
+    "section": "Inasistencias y atraso en entregas",
+    "text": "Inasistencias y atraso en entregas\nLos justificativos por ausencia o atraso se realizan en la secretaría de carrera. Lo que la carrera informe como justificado, es lo que se va a considerar en el curso. No enviar justificativos directamente, no es necesario ni apropiado para l_s estudiantes tener que exponer situaciones personales.\nEn caso de atrasos en las entregas se descontará 0.5 por día adicional. Si el trabajo no se entrega luego del tercer día de atraso será calificado con nota 1.0"
+  },
+  {
+    "objectID": "syllabus.html#requisitos-de-aprobación-1",
+    "href": "syllabus.html#requisitos-de-aprobación-1",
+    "title": "Programa",
+    "section": "Requisitos de aprobación",
+    "text": "Requisitos de aprobación\nRequisitos de eximición a examen:\n\ncontar con un promedio ponderado igual o superior a 5.5\nno tener nota bajo 4.0 en ninguna de las evaluaciones\n\nRequisitos para presentación a examen:\n\nPodrán presentarse al examen de primera oportunidad los estudiantes que hayan obtenido una calificación final igual o superior a 3.5.\nEl examen de segunda oportunidad será para aquellos estudiantes que presenten una nota igual o inferior a 3.5 o aquellos que en el examen de primera oportunidad no hubiesen logrado una nota igual o superior a 4.0."
+  },
+  {
+    "objectID": "syllabus.html#bibliografía-obligatoria",
+    "href": "syllabus.html#bibliografía-obligatoria",
+    "title": "Programa",
+    "section": "Bibliografía Obligatoria",
+    "text": "Bibliografía Obligatoria\nCapítulos correspondientes a cada sesión se indican en la página de Planificación."
+  },
+  {
+    "objectID": "syllabus.html#varios",
+    "href": "syllabus.html#varios",
+    "title": "Programa",
+    "section": "VARIOS",
+    "text": "VARIOS\n\nSe espera asistencia y participación activa, tanto a las sesiones lectivas como a las prácticas.\nSe pasará asistencia en todas las sesiones. Quienes tengan menos de un 70% de asistencia y deban rendir examen pasarán directo al de segunda.\nSobre situaciones de paro/tomas: este curso electivo se ofrece tanto a estudiantes de pre como de postgrado. Por lo tanto, las actividades docentes se suspenderán por paro o tomas solo en caso que tanto en pre como en postgrado se haya votado y aprobado la medida. De otra manera, las actividades docentes se mantienen, de ser necesario de manera online.\nLas clases en general se acompañan de documentos de presentación, que estarán disponibles antes de la sesión en la página de Contenidos, y están desarrollados con base en Rmarkdown/Xaringan, y eventualmente en Quarto. Estos documentos no son:\n\n“la clase”\nautoexplicativos (ni aspiran a serlo)\n“el ppt” (ni “la ppt”)\n\nPolíticas de participación y trato: se espera y enfatiza la participación por distintos canales disponibles. También se enfatiza un trato respetuoso y horizontal. Quienes están tomando este curso serán referidos como participantes y/o estudiantes, evitar el uso de “l_s cabr_s” o “l_s chiquill_s”, que si bien puede intentar transmitir cercanía finalmente expresan minimización de la contraparte. Quien no se sienta tratad_ apropiadamente o vea que otr_s no lo están siendo, se solicita reportar para solucionar la situación."
+  },
+  {
+    "objectID": "syllabus.html#programación-de-sesiones",
+    "href": "syllabus.html#programación-de-sesiones",
+    "title": "Programa",
+    "section": "Programación de sesiones",
+    "text": "Programación de sesiones\nVisitar la página de Planificación."
   }
 ]
