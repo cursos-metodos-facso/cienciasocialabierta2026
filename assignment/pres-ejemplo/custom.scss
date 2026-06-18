@@ -1,0 +1,20 @@
+/*-- scss:rules --*/
+
+/* Fondo general */
+.reveal {
+  background-color: #212525;
+}
+
+/* Fondo de las slides */
+.reveal .slides section {
+  background-color: #212525;
+  color: white;
+}
+
+/* Títulos de nivel 1 (#) */
+.reveal .slides section h1,
+.reveal .slides section h2,
+.reveal .slides section h3,
+.reveal .slides section h4 {
+  color: #ffffff;
+}

@@ -9,6 +9,8 @@ number-sections: true
 
 Para la divulgación científica en el marco de conferencias, ponencias y cátedras, Quarto ofrece el formato de salida de presentaciones. El objetivo de este práctico es entender la estructura general de una presentación en Quarto y las funcionalidades que ofrece.
 
+Para ello, utilizaremos una [presentación de ejemplo](https://cienciasocialabierta.netlify.app/assignment/pres-ejemplo/pres-ejemplo.html)
+
 **¿Por qué usar Quarto para presentaciones?**
 
 - Permite controlar las versiones (Git)
@@ -142,6 +144,32 @@ Al renderizar, se verá de esta forma:
 
 ![](images/pres-quarto-4.png)
 
+## Menú 
+
+Al clickear en el menú inferior izquierdo, se despliega una barra con dos opciones principales: Slides y Tools. La primera nos permite ver las slides que componen nuestra presentación y digirirnos a una en específico sin tener que transitar una por una. 
+
+![](images/pres-quarto-slide.png)
+
+Además, al apretar `Esc` dentro de la presentación, podrán ver las slides minimizadas y navegar por ellas.
+
+Por su parte, Tools ofrece distintas maneras de visualizar la presentación. El más útil es el Speaker mode, ya que da la posibilidad de ver la presentación desde una vista panorámica: se puede ver la slide actual, la siguiente y notas ancladas a cada slide.
+
+![](images/pres-quarto-speaker.png)
+
+Para incluir notas en las slides, debe generarse un bloque así:
+
+```r
+:::{.notes}
+
+:::
+```
+
+Y dentro del bloque escribir el contenido que los oriente en la presentación.
+
+:::{.callout-important}
+Las notas sólo se visualizan en el Speaker view; no podrán verlas si están en el modo default de la presentación
+:::
+
 # Personalización
 
 ## Formato: columnas
@@ -153,7 +181,7 @@ Las presentaciones en Quarto tienen un gran margen de personalización, el cual 
 
 ::::{.columns}
 :::{.column width="50%"}
-- **La información puede ser presentada de distintas maneras**
+- La información puede ser presentada de distintas maneras
 
 - Organizando los espacios
 :::
@@ -161,7 +189,7 @@ Las presentaciones en Quarto tienen un gran margen de personalización, el cual 
 :::{.column width="50%"}
 - Separando el texto en columnas
   
-- *Y variando el estilo*
+- Y variando el estilo
 :::
 ::::
 ```
@@ -193,20 +221,22 @@ Aquí pueden revisar todos los [temas disponibles de presentaciones en Quarto](h
 Los temas se aplican a la totalidad del documento. Si se quisiera cambiar el color de una slide en específico, debe aplicarse `{background-color=""}` en la misma línea donde se define la slide:
 
 
-```r
+```{r}
+#| eval: false
+
 ## {background-color="#212525"}
 
 ::::{.columns}
 :::{.column width="50%"}
-- **La información puede ser presentada de distintas maneras**
+- La información puede ser presentada de distintas maneras
 
 - Puede verse secuencialmente
 :::
 
 :::{.column width="50%"}
 - Separando el texto en columnas
-  
-- *Y variando el estilo*
+
+- Y variando el estilo
 :::
 ::::
 ```
@@ -215,3 +245,38 @@ El resultado es el siguiente:
 
 ![](images/pres-quarto-7.png)
 
+## SCSS
+
+En la línea de los cambios estéticos, hay cosas que se puedenr regular dentro del mismo documento y otras que se deben señalar en un archivo separado. En este contexto, SCSS (Sacy Cascade Style Sheets) es un lenguaje de programación dedicado específicamente a modificaciones del formato observable, cuyo antecesor es el CSS. Este código se debe integrar al YAML de una presentación (se modifica la opción de `theme`) para que se apliquen las reglas de estilo. Por ejemplo, si nuestro CSS se llama custom.css:
+
+    --- # <1>
+    format:
+      revealjs:
+        theme: 
+          - custom.scss
+    editor: source
+    --- # <1>
+
+Volviendo al último ejemplo, si queremos que todas las slides sean del color #212525, nuestro archivo CSS se vería algo así:
+
+```r
+.reveal .slides section {
+  background-color: #212525;
+}
+```
+
+Y esto hará que todas las slides tengan el color #212525 de fondo.
+
+:::{.callout-note}
+Para aprender más sobre CSS: [aquí](https://lenguajecss.com/css/introduccion/que-es-css/)
+:::
+
+## Opciones de YAML
+
+Por último, aquí se muestran algunas de las opciones más útiles para integrar en las presentaciones en Quarto
+
+| Opción             | Acción                                                        |
+|--------------------|---------------------------------------------------------------|
+| `number-slide`     | Se visualiza el número de las slides de la presentación       |
+| `transition`       | Define el estilo de transición de una slide a otra            |
+| `transition-speed` | Ajusta la velocidad en que se cambia de una slide a otra      |

@@ -192,11 +192,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#referencias-zotero" id="toc-referencias-zotero" class="nav-link" data-scroll-target="#referencias-zotero"><span class="header-section-number">2.1</span> Referencias (Zotero)</a></li>
   <li><a href="#figuras-a-partir-de-código" id="toc-figuras-a-partir-de-código" class="nav-link" data-scroll-target="#figuras-a-partir-de-código"><span class="header-section-number">2.2</span> Figuras a partir de código</a></li>
+  <li><a href="#menú" id="toc-menú" class="nav-link" data-scroll-target="#menú"><span class="header-section-number">2.3</span> Menú</a></li>
   </ul></li>
   <li><a href="#personalización" id="toc-personalización" class="nav-link" data-scroll-target="#personalización"><span class="header-section-number">3</span> Personalización</a>
   <ul class="collapse">
   <li><a href="#formato-columnas" id="toc-formato-columnas" class="nav-link" data-scroll-target="#formato-columnas"><span class="header-section-number">3.1</span> Formato: columnas</a></li>
   <li><a href="#temas" id="toc-temas" class="nav-link" data-scroll-target="#temas"><span class="header-section-number">3.2</span> Temas</a></li>
+  <li><a href="#scss" id="toc-scss" class="nav-link" data-scroll-target="#scss"><span class="header-section-number">3.3</span> SCSS</a></li>
+  <li><a href="#opciones-de-yaml" id="toc-opciones-de-yaml" class="nav-link" data-scroll-target="#opciones-de-yaml"><span class="header-section-number">3.4</span> Opciones de YAML</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -216,6 +219,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="introducción" class="level1 unnumbered">
 <h1 class="unnumbered">Introducción</h1>
 <p>Para la divulgación científica en el marco de conferencias, ponencias y cátedras, Quarto ofrece el formato de salida de presentaciones. El objetivo de este práctico es entender la estructura general de una presentación en Quarto y las funcionalidades que ofrece.</p>
+<p>Para ello, utilizaremos una <a href="https://cienciasocialabierta.netlify.app/assignment/pres-ejemplo/pres-ejemplo.html">presentación de ejemplo</a></p>
 <p><strong>¿Por qué usar Quarto para presentaciones?</strong></p>
 <ul>
 <li><p>Permite controlar las versiones (Git)</p></li>
@@ -343,34 +347,60 @@ Nota
 <p>Al renderizar, se verá de esta forma:</p>
 <p><img src="images/pres-quarto-4.png" class="img-fluid"></p>
 </section>
+<section id="menú" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="menú"><span class="header-section-number">2.3</span> Menú</h2>
+<p>Al clickear en el menú inferior izquierdo, se despliega una barra con dos opciones principales: Slides y Tools. La primera nos permite ver las slides que componen nuestra presentación y digirirnos a una en específico sin tener que transitar una por una.</p>
+<p><img src="images/pres-quarto-slide.png" class="img-fluid"></p>
+<p>Además, al apretar <code>Esc</code> dentro de la presentación, podrán ver las slides minimizadas y navegar por ellas.</p>
+<p>Por su parte, Tools ofrece distintas maneras de visualizar la presentación. El más útil es el Speaker mode, ya que da la posibilidad de ver la presentación desde una vista panorámica: se puede ver la slide actual, la siguiente y notas ancladas a cada slide.</p>
+<p><img src="images/pres-quarto-speaker.png" class="img-fluid"></p>
+<p>Para incluir notas en las slides, debe generarse un bloque así:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span>{.notes}</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Y dentro del bloque escribir el contenido que los oriente en la presentación.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Las notas sólo se visualizan en el Speaker view; no podrán verlas si están en el modo default de la presentación</p>
+</div>
+</div>
+</section>
 </section>
 <section id="personalización" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Personalización</h1>
 <section id="formato-columnas" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="formato-columnas"><span class="header-section-number">3.1</span> Formato: columnas</h2>
 <p>Las presentaciones en Quarto tienen un gran margen de personalización, el cual puede ser aplicado a toda la presentación como a slides específicas. En temas de formato de contenido, el texto dentro de una slide puede ser presentado en columnas, las cuales ayudan a organizar de mejor manera la información. Este es un ejemplo de las columnas:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span><span class="er">:</span>{.columns}</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> <span class="er">**</span>La información puede ser presentada de distintas maneras<span class="sc">**</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Organizando los espacios</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Separando el texto en columnas</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> <span class="er">*</span>Y variando el estilo<span class="sc">*</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="er">::::</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## </span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span><span class="er">:</span>{.columns}</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> La información puede ser presentada de distintas maneras</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Organizando los espacios</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Separando el texto en columnas</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Y variando el estilo</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="er">::::</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Las columnas funcionan en bloques anidados, es decir, primero se señala un bloque general (<code>:::{.columns}</code>) y dentro de él se pueden generar múltiples columnas. En este caso, se generan dos columnas con el mismo ancho para que compartan un espacio uniforme en la slide. Al renderizar, esto se verá así:</p>
 <p><img src="images/pres-quarto-5.png" class="img-fluid"></p>
 </section>
 <section id="temas" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="temas"><span class="header-section-number">3.2</span> Temas</h2>
 <p>Las presentaciones en Quarto tienen distintos temas disponibles para personalizaciones estéticas, los cuales son propios de revealjs. Para integrar un tema a la presentación, solamente se debe ajustar la opción <code>theme</code> en el YAML:</p>
-<pre id="annotated-cell-6" class="code-annotation-code"><code>---
+<pre id="annotated-cell-7" class="code-annotation-code"><code>---
 format:
   revealjs:
     theme: 
@@ -393,23 +423,84 @@ Nota
 </div>
 </div>
 <p>Los temas se aplican a la totalidad del documento. Si se quisiera cambiar el color de una slide en específico, debe aplicarse <code>{background-color=""}</code> en la misma línea donde se define la slide:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="do">## {background-color="#212525"}</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span><span class="er">:</span>{.columns}</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> <span class="er">**</span>La información puede ser presentada de distintas maneras<span class="sc">**</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Puede verse secuencialmente</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Separando el texto en columnas</span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> <span class="er">*</span>Y variando el estilo<span class="sc">*</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="er">::::</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="do">## {background-color="#212525"}</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span><span class="er">:</span>{.columns}</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> La información puede ser presentada de distintas maneras</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Puede verse secuencialmente</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="er">:::</span>{.column width<span class="ot">=</span><span class="st">"50%"</span>}</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Separando el texto en columnas</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span> Y variando el estilo</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="sc">:::</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="er">::::</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
 <p>El resultado es el siguiente:</p>
 <p><img src="images/pres-quarto-7.png" class="img-fluid"></p>
+</section>
+<section id="scss" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="scss"><span class="header-section-number">3.3</span> SCSS</h2>
+<p>En la línea de los cambios estéticos, hay cosas que se puedenr regular dentro del mismo documento y otras que se deben señalar en un archivo separado. En este contexto, SCSS (Sacy Cascade Style Sheets) es un lenguaje de programación dedicado específicamente a modificaciones del formato observable, cuyo antecesor es el CSS. Este código se debe integrar al YAML de una presentación (se modifica la opción de <code>theme</code>) para que se apliquen las reglas de estilo. Por ejemplo, si nuestro CSS se llama custom.css:</p>
+<pre id="annotated-cell-9" class="code-annotation-code"><code>---
+format:
+  revealjs:
+    theme: 
+      - custom.scss
+editor: source
+---</code></pre>
+<p>Volviendo al último ejemplo, si queremos que todas las slides sean del color #212525, nuestro archivo CSS se vería algo así:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>.reveal .slides section {</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  background<span class="sc">-</span>color<span class="sc">:</span> <span class="co">#212525;</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Y esto hará que todas las slides tengan el color #212525 de fondo.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para aprender más sobre CSS: <a href="https://lenguajecss.com/css/introduccion/que-es-css/">aquí</a></p>
+</div>
+</div>
+</section>
+<section id="opciones-de-yaml" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="opciones-de-yaml"><span class="header-section-number">3.4</span> Opciones de YAML</h2>
+<p>Por último, aquí se muestran algunas de las opciones más útiles para integrar en las presentaciones en Quarto</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opción</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>number-slide</code></td>
+<td>Se visualiza el número de las slides de la presentación</td>
+</tr>
+<tr class="even">
+<td><code>transition</code></td>
+<td>Define el estilo de transición de una slide a otra</td>
+</tr>
+<tr class="odd">
+<td><code>transition-speed</code></td>
+<td>Ajusta la velocidad en que se cambia de una slide a otra</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
