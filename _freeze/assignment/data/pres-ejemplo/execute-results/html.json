@@ -1,0 +1,17 @@
+{
+  "hash": "a7662e2ee6bb73fe9f0583bb718e0864",
+  "result": {
+    "engine": "knitr",
+    "markdown": "--- \nformat:\n  revealjs:\n    theme: \n      - default\n    transition: slide\n    transition-speed: slow\n    slide-number: true\neditor: source\nbibliography: ejemplo.bib\n--- \n\n# Práctico 9: Presentaciones en Quarto\n\nPresentación de ejemplo\n\n<br>\n\n18 de junio de 2026\n\n:::{.notes}\nEsta es la slide introductoria de la presentación \n:::\n\n# Slide con un '#'\n\n\n## Subtítulo con 2 '#'\n\n### Subtítulo con 3 '#'\n\n#### Subtítulo con 4 '#'\n\n\n##\n\nLa literatura respalda los hallazgos encontrados [@breznau_does_2021; @healy_plain_2018; @christensen_transparent_2019].\n\n\n##\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo <- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Relación entre variables X e Y por categoría\",\n    subtitle = \"Datos ficticios para demostración\",\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(hjust = 0.5, size = 14, face = \"bold\"),\n    plot.subtitle = element_text(hjust = 0.5, size = 12),\n    legend.position = \"bottom\"\n  ) +\n  scale_color_viridis_d(option = \"plasma\") +\n  scale_size_continuous(range = c(1, 4))\n```\n\n::: {.cell-output-display}\n![Gráfico de ejemplo con datos ficticios](pres-ejemplo_files/figure-html/fig-ejemplo-1.png){#fig-ejemplo width=672}\n:::\n:::\n\n\nEsta es la @fig-ejemplo\n\n## \n\n::::{.columns}\n:::{.column width=\"50%\"}\n- La información puede ser presentada de distintas maneras\n\n- Organizando los espacios\n:::\n\n:::{.column width=\"50%\"}\n- Separando el texto en columnas\n  \n- Y variando el estilo\n:::\n::::\n\n## Referencias",
+    "supporting": [
+      "pres-ejemplo_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

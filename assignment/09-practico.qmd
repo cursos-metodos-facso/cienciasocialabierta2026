@@ -5,11 +5,21 @@ lang: es
 number-sections: true
 ---
 
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAHM-JPzqkE/rAeqYGHnRn0n1KfwirL82A/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHM-JPzqkE&#x2F;rAeqYGHnRn0n1KfwirL82A&#x2F;watch?utm_content=DAHM-JPzqkE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Práctico 9</a>
+
+
 # Introducción {.unnumbered}
 
 Para la divulgación científica en el marco de conferencias, ponencias y cátedras, Quarto ofrece el formato de salida de presentaciones. El objetivo de este práctico es entender la estructura general de una presentación en Quarto y las funcionalidades que ofrece.
 
-Para ello, utilizaremos una [presentación de ejemplo](https://cienciasocialabierta.netlify.app/assignment/pres-ejemplo/pres-ejemplo.html)
+Para ello, utilizaremos esta [presentación de ejemplo](data/pres-ejemplo.qmd){download="pres-ejemplo.qmd"}
 
 **¿Por qué usar Quarto para presentaciones?**
 
@@ -31,7 +41,7 @@ Para ello, utilizaremos una [presentación de ejemplo](https://cienciasocialabie
     format:
       revealjs:
         theme: 
-          - cosmo
+          - default
     editor: source
     --- # <1>
 
@@ -277,6 +287,6 @@ Por último, aquí se muestran algunas de las opciones más útiles para integra
 
 | Opción             | Acción                                                        |
 |--------------------|---------------------------------------------------------------|
-| `number-slide`     | Se visualiza el número de las slides de la presentación       |
+| `slide-number`     | Se visualiza el número de las slides de la presentación       |
 | `transition`       | Define el estilo de transición de una slide a otra            |
 | `transition-speed` | Ajusta la velocidad en que se cambia de una slide a otra      |

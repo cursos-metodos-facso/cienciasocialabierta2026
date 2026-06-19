@@ -2516,21 +2516,36 @@
     "href": "assignment/09-practico.html",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "",
-    "text": "Correspondiente a la sesión del jueves, 18 de junio de 2026"
+    "text": "Correspondiente a la sesión del jueves, 18 de junio de 2026\nPráctico 9",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#yaml",
     "href": "assignment/09-practico.html#yaml",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "1.1 YAML",
-    "text": "1.1 YAML\n---\nformat:\n  revealjs:\n    theme: \n      - cosmo\neditor: source\n---\nUna de las ventajas de Quarto es que todos sus formatos de salida se construyen a partir de un YAML. Como recordarán, en el YAML se señalan las opciones generales de su documento. Aquí pueden observar un ejemplo básico de un YAML para presentación.\n\n\n\n\n\n\nImportante\n\n\n\nDentro del YAML, el formato debe especificarse como revealjs. En cualquier otro caso, el documento no se renderizará como presentación."
+    "text": "1.1 YAML\n---\nformat:\n  revealjs:\n    theme: \n      - default\neditor: source\n---\nUna de las ventajas de Quarto es que todos sus formatos de salida se construyen a partir de un YAML. Como recordarán, en el YAML se señalan las opciones generales de su documento. Aquí pueden observar un ejemplo básico de un YAML para presentación.\n\n\n\n\n\n\nImportante\n\n\n\nDentro del YAML, el formato debe especificarse como revealjs. En cualquier otro caso, el documento no se renderizará como presentación.",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#slides",
     "href": "assignment/09-practico.html#slides",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "1.2 Slides",
-    "text": "1.2 Slides\nTodo el contenido de su presentación se contiene dentro de slides.\n\nCada slide se define a partir de un ‘#’\nUna slide puede ser indicada con ‘#’ o ‘##’. Si se utilizan más numerales (#), estos serán leídos como subtítulos dentro de una slide (sigue la lógica de anidación de contenido ofrecida por markdown).\n\nPor ejemplo, una slide como esta:\n# Slide con un '#'\nSe vería así renderizada:\n\nMientras que una slide así:\n## Subtítulo con 2 '#'\n\n### Subtítulo con 3 '#'\n\n#### Subtítulo con 4 '#'\n\nTexto sin '#'\nAl renderizarse, se vería como esto:"
+    "text": "1.2 Slides\nTodo el contenido de su presentación se contiene dentro de slides.\n\nCada slide se define a partir de un ‘#’\nUna slide puede ser indicada con ‘#’ o ‘##’. Si se utilizan más numerales (#), estos serán leídos como subtítulos dentro de una slide (sigue la lógica de anidación de contenido ofrecida por markdown).\n\nPor ejemplo, una slide como esta:\n# Slide con un '#'\nSe vería así renderizada:\n\nMientras que una slide así:\n## Subtítulo con 2 '#'\n\n### Subtítulo con 3 '#'\n\n#### Subtítulo con 4 '#'\n\nTexto sin '#'\nAl renderizarse, se vería como esto:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#funcionalidades",
@@ -2558,28 +2573,48 @@
     "href": "assignment/09-practico.html#temas",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "3.2 Temas",
-    "text": "3.2 Temas\nLas presentaciones en Quarto tienen distintos temas disponibles para personalizaciones estéticas, los cuales son propios de revealjs. Para integrar un tema a la presentación, solamente se debe ajustar la opción theme en el YAML:\n---\nformat:\n  revealjs:\n    theme: \n      - solarized\neditor: source\n---\nDespués de renderizar, esto se verá así:\n\n\n\n\n\n\n\nNota\n\n\n\nAquí pueden revisar todos los temas disponibles de presentaciones en Quarto\n\n\nLos temas se aplican a la totalidad del documento. Si se quisiera cambiar el color de una slide en específico, debe aplicarse {background-color=\"\"} en la misma línea donde se define la slide:\n\n## {background-color=\"#212525\"}\n\n::::{.columns}\n:::{.column width=\"50%\"}\n- La información puede ser presentada de distintas maneras\n\n- Puede verse secuencialmente\n:::\n\n:::{.column width=\"50%\"}\n- Separando el texto en columnas\n\n- Y variando el estilo\n:::\n::::\n\nEl resultado es el siguiente:"
+    "text": "3.2 Temas\nLas presentaciones en Quarto tienen distintos temas disponibles para personalizaciones estéticas, los cuales son propios de revealjs. Para integrar un tema a la presentación, solamente se debe ajustar la opción theme en el YAML:\n---\nformat:\n  revealjs:\n    theme: \n      - solarized\neditor: source\n---\nDespués de renderizar, esto se verá así:\n\n\n\n\n\n\n\nNota\n\n\n\nAquí pueden revisar todos los temas disponibles de presentaciones en Quarto\n\n\nLos temas se aplican a la totalidad del documento. Si se quisiera cambiar el color de una slide en específico, debe aplicarse {background-color=\"\"} en la misma línea donde se define la slide:\n\n## {background-color=\"#212525\"}\n\n::::{.columns}\n:::{.column width=\"50%\"}\n- La información puede ser presentada de distintas maneras\n\n- Puede verse secuencialmente\n:::\n\n:::{.column width=\"50%\"}\n- Separando el texto en columnas\n\n- Y variando el estilo\n:::\n::::\n\nEl resultado es el siguiente:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#referencias-zotero",
     "href": "assignment/09-practico.html#referencias-zotero",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "2.1 Referencias (Zotero)",
-    "text": "2.1 Referencias (Zotero)\nLas presentaciones en Quarto también son compatibles con funcionalidades que hemos visto anteriormente. Dentro de una presentación se pueden integrar las referencias bibliográficas almacenadas en Zotero. Para ello, se debe agregar la carpeta .bib en el YAML de nuestro documento de presentación, y con ello ya se podrán utilizar las referencias exportadas.\n\n\n\n\n\n\nNota\n\n\n\nAquí pueden revisitar el práctico de automatización de referencias bibliográficas\n\n\nEste es un ejemplo de una presentación utilizando referencias de Zotero:"
+    "text": "2.1 Referencias (Zotero)\nLas presentaciones en Quarto también son compatibles con funcionalidades que hemos visto anteriormente. Dentro de una presentación se pueden integrar las referencias bibliográficas almacenadas en Zotero. Para ello, se debe agregar la carpeta .bib en el YAML de nuestro documento de presentación, y con ello ya se podrán utilizar las referencias exportadas.\n\n\n\n\n\n\nNota\n\n\n\nAquí pueden revisitar el práctico de automatización de referencias bibliográficas\n\n\nEste es un ejemplo de una presentación utilizando referencias de Zotero:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#figuras-a-partir-de-código",
     "href": "assignment/09-practico.html#figuras-a-partir-de-código",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "2.2 Figuras a partir de código",
-    "text": "2.2 Figuras a partir de código\nAdemás de las referencias, es posible ejecutar código y visualizar figuras en las presentaciones de Quarto. Esto sigue la misma lógica que los documentos dinámicos, solamente que debe localizarse el output de la tabla y/o gráfico dentro de una slide. Por ejemplo, tenemos este código en una slide:\n##\n\n#| label: fig-ejemplo\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| warning: false\n#| message: false\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Relación entre variables X e Y por categoría\",\n    subtitle = \"Datos ficticios para demostración\",\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(hjust = 0.5, size = 14, face = \"bold\"),\n    plot.subtitle = element_text(hjust = 0.5, size = 12),\n    legend.position = \"bottom\"\n  ) +\n  scale_color_viridis_d(option = \"plasma\") +\n  scale_size_continuous(range = c(1, 4))\n\nLa @fig-ejemplo respalda lo planteado en la literatura [@breznau_does_2021; @healy_plain_2018; @christensen_transparent_2019].\nAl renderizar, se verá de esta forma:"
+    "text": "2.2 Figuras a partir de código\nAdemás de las referencias, es posible ejecutar código y visualizar figuras en las presentaciones de Quarto. Esto sigue la misma lógica que los documentos dinámicos, solamente que debe localizarse el output de la tabla y/o gráfico dentro de una slide. Por ejemplo, tenemos este código en una slide:\n##\n\n#| label: fig-ejemplo\n#| fig-cap: \"Gráfico de ejemplo con datos ficticios\"\n#| warning: false\n#| message: false\n\n# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Relación entre variables X e Y por categoría\",\n    subtitle = \"Datos ficticios para demostración\",\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(hjust = 0.5, size = 14, face = \"bold\"),\n    plot.subtitle = element_text(hjust = 0.5, size = 12),\n    legend.position = \"bottom\"\n  ) +\n  scale_color_viridis_d(option = \"plasma\") +\n  scale_size_continuous(range = c(1, 4))\n\nLa @fig-ejemplo respalda lo planteado en la literatura [@breznau_does_2021; @healy_plain_2018; @christensen_transparent_2019].\nAl renderizar, se verá de esta forma:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#formato-columnas",
     "href": "assignment/09-practico.html#formato-columnas",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "3.1 Formato: columnas",
-    "text": "3.1 Formato: columnas\nLas presentaciones en Quarto tienen un gran margen de personalización, el cual puede ser aplicado a toda la presentación como a slides específicas. En temas de formato de contenido, el texto dentro de una slide puede ser presentado en columnas, las cuales ayudan a organizar de mejor manera la información. Este es un ejemplo de las columnas:\n## \n\n::::{.columns}\n:::{.column width=\"50%\"}\n- La información puede ser presentada de distintas maneras\n\n- Organizando los espacios\n:::\n\n:::{.column width=\"50%\"}\n- Separando el texto en columnas\n  \n- Y variando el estilo\n:::\n::::\nLas columnas funcionan en bloques anidados, es decir, primero se señala un bloque general (:::{.columns}) y dentro de él se pueden generar múltiples columnas. En este caso, se generan dos columnas con el mismo ancho para que compartan un espacio uniforme en la slide. Al renderizar, esto se verá así:"
+    "text": "3.1 Formato: columnas\nLas presentaciones en Quarto tienen un gran margen de personalización, el cual puede ser aplicado a toda la presentación como a slides específicas. En temas de formato de contenido, el texto dentro de una slide puede ser presentado en columnas, las cuales ayudan a organizar de mejor manera la información. Este es un ejemplo de las columnas:\n## \n\n::::{.columns}\n:::{.column width=\"50%\"}\n- La información puede ser presentada de distintas maneras\n\n- Organizando los espacios\n:::\n\n:::{.column width=\"50%\"}\n- Separando el texto en columnas\n  \n- Y variando el estilo\n:::\n::::\nLas columnas funcionan en bloques anidados, es decir, primero se señala un bloque general (:::{.columns}) y dentro de él se pueden generar múltiples columnas. En este caso, se generan dos columnas con el mismo ancho para que compartan un espacio uniforme en la slide. Al renderizar, esto se verá así:",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/pres-ejemplo/pres-ejemplo.html#práctico-9-presentaciones-en-quarto",
@@ -2642,20 +2677,70 @@
     "href": "assignment/09-practico.html#menú",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "2.3 Menú",
-    "text": "2.3 Menú\nAl clickear en el menú inferior izquierdo, se despliega una barra con dos opciones principales: Slides y Tools. La primera nos permite ver las slides que componen nuestra presentación y digirirnos a una en específico sin tener que transitar una por una.\n\nAdemás, al apretar Esc dentro de la presentación, podrán ver las slides minimizadas y navegar por ellas.\nPor su parte, Tools ofrece distintas maneras de visualizar la presentación. El más útil es el Speaker mode, ya que da la posibilidad de ver la presentación desde una vista panorámica: se puede ver la slide actual, la siguiente y notas ancladas a cada slide.\n\nPara incluir notas en las slides, debe generarse un bloque así:\n:::{.notes}\n\n:::\nY dentro del bloque escribir el contenido que los oriente en la presentación.\n\n\n\n\n\n\nImportante\n\n\n\nLas notas sólo se visualizan en el Speaker view; no podrán verlas si están en el modo default de la presentación"
+    "text": "2.3 Menú\nAl clickear en el menú inferior izquierdo, se despliega una barra con dos opciones principales: Slides y Tools. La primera nos permite ver las slides que componen nuestra presentación y digirirnos a una en específico sin tener que transitar una por una.\n\nAdemás, al apretar Esc dentro de la presentación, podrán ver las slides minimizadas y navegar por ellas.\nPor su parte, Tools ofrece distintas maneras de visualizar la presentación. El más útil es el Speaker mode, ya que da la posibilidad de ver la presentación desde una vista panorámica: se puede ver la slide actual, la siguiente y notas ancladas a cada slide.\n\nPara incluir notas en las slides, debe generarse un bloque así:\n:::{.notes}\n\n:::\nY dentro del bloque escribir el contenido que los oriente en la presentación.\n\n\n\n\n\n\nImportante\n\n\n\nLas notas sólo se visualizan en el Speaker view; no podrán verlas si están en el modo default de la presentación",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#scss",
     "href": "assignment/09-practico.html#scss",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "3.3 SCSS",
-    "text": "3.3 SCSS\nEn la línea de los cambios estéticos, hay cosas que se puedenr regular dentro del mismo documento y otras que se deben señalar en un archivo separado. En este contexto, SCSS (Sacy Cascade Style Sheets) es un lenguaje de programación dedicado específicamente a modificaciones del formato observable, cuyo antecesor es el CSS. Este código se debe integrar al YAML de una presentación (se modifica la opción de theme) para que se apliquen las reglas de estilo. Por ejemplo, si nuestro CSS se llama custom.css:\n---\nformat:\n  revealjs:\n    theme: \n      - custom.scss\neditor: source\n---\nVolviendo al último ejemplo, si queremos que todas las slides sean del color #212525, nuestro archivo CSS se vería algo así:\n.reveal .slides section {\n  background-color: #212525;\n}\nY esto hará que todas las slides tengan el color #212525 de fondo.\n\n\n\n\n\n\nNota\n\n\n\nPara aprender más sobre CSS: aquí"
+    "text": "3.3 SCSS\nEn la línea de los cambios estéticos, hay cosas que se puedenr regular dentro del mismo documento y otras que se deben señalar en un archivo separado. En este contexto, SCSS (Sacy Cascade Style Sheets) es un lenguaje de programación dedicado específicamente a modificaciones del formato observable, cuyo antecesor es el CSS. Este código se debe integrar al YAML de una presentación (se modifica la opción de theme) para que se apliquen las reglas de estilo. Por ejemplo, si nuestro CSS se llama custom.css:\n---\nformat:\n  revealjs:\n    theme: \n      - custom.scss\neditor: source\n---\nVolviendo al último ejemplo, si queremos que todas las slides sean del color #212525, nuestro archivo CSS se vería algo así:\n.reveal .slides section {\n  background-color: #212525;\n}\nY esto hará que todas las slides tengan el color #212525 de fondo.\n\n\n\n\n\n\nNota\n\n\n\nPara aprender más sobre CSS: aquí",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
   },
   {
     "objectID": "assignment/09-practico.html#opciones-de-yaml",
     "href": "assignment/09-practico.html#opciones-de-yaml",
     "title": "Práctico 9: Presentaciones en Quarto",
     "section": "3.4 Opciones de YAML",
-    "text": "3.4 Opciones de YAML\nPor último, aquí se muestran algunas de las opciones más útiles para integrar en las presentaciones en Quarto\n\n\n\n\n\n\n\nOpción\nAcción\n\n\n\n\nnumber-slide\nSe visualiza el número de las slides de la presentación\n\n\ntransition\nDefine el estilo de transición de una slide a otra\n\n\ntransition-speed\nAjusta la velocidad en que se cambia de una slide a otra"
+    "text": "3.4 Opciones de YAML\nPor último, aquí se muestran algunas de las opciones más útiles para integrar en las presentaciones en Quarto\n\n\n\n\n\n\n\nOpción\nAcción\n\n\n\n\nslide-number\nSe visualiza el número de las slides de la presentación\n\n\ntransition\nDefine el estilo de transición de una slide a otra\n\n\ntransition-speed\nAjusta la velocidad en que se cambia de una slide a otra",
+    "crumbs": [
+      "Prácticos",
+      "Guías",
+      "9: Presentaciones en Quarto"
+    ]
+  },
+  {
+    "objectID": "assignment/data/pres-ejemplo.html",
+    "href": "assignment/data/pres-ejemplo.html",
+    "title": "Práctico 9: Presentaciones en Quarto",
+    "section": "",
+    "text": "Presentación de ejemplo\n\n18 de junio de 2026\n\nEsta es la slide introductoria de la presentación"
+  },
+  {
+    "objectID": "assignment/data/pres-ejemplo.html#subtítulo-con-2",
+    "href": "assignment/data/pres-ejemplo.html#subtítulo-con-2",
+    "title": "Práctico 9: Presentaciones en Quarto",
+    "section": "Subtítulo con 2 ‘#’",
+    "text": "Subtítulo con 2 ‘#’\n\nSubtítulo con 3 ‘#’\n\nSubtítulo con 4 ‘#’"
+  },
+  {
+    "objectID": "assignment/data/pres-ejemplo.html#section",
+    "href": "assignment/data/pres-ejemplo.html#section",
+    "title": "Práctico 9: Presentaciones en Quarto",
+    "section": "",
+    "text": "La literatura respalda los hallazgos encontrados (Breznau 2021; Healy 2018; Christensen, Freese, and Miguel 2019)."
+  },
+  {
+    "objectID": "assignment/data/pres-ejemplo.html#section-1",
+    "href": "assignment/data/pres-ejemplo.html#section-1",
+    "title": "Práctico 9: Presentaciones en Quarto",
+    "section": "",
+    "text": "# Cargar librerías necesarias\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# Crear datos ficticios\nset.seed(123)  # Para reproducibilidad\ndatos_ejemplo &lt;- data.frame(\n  categoria = rep(c(\"Grupo A\", \"Grupo B\", \"Grupo C\", \"Grupo D\"), each = 50),\n  valor_x = rnorm(200, mean = 50, sd = 10),\n  valor_y = rnorm(200, mean = 30, sd = 8),\n  satisfaccion = sample(1:10, 200, replace = TRUE)\n)\n\n# Crear el gráfico\nggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +\n  geom_point(aes(size = satisfaccion), alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE) +\n  labs(\n    title = \"Relación entre variables X e Y por categoría\",\n    subtitle = \"Datos ficticios para demostración\",\n    x = \"Variable X\",\n    y = \"Variable Y\",\n    color = \"Categoría\",\n    size = \"Satisfacción (1-10)\"\n  ) +\n  theme_minimal() +\n  theme(\n    plot.title = element_text(hjust = 0.5, size = 14, face = \"bold\"),\n    plot.subtitle = element_text(hjust = 0.5, size = 12),\n    legend.position = \"bottom\"\n  ) +\n  scale_color_viridis_d(option = \"plasma\") +\n  scale_size_continuous(range = c(1, 4))\n\n\n\n\n\n\n\nFigure 1: Gráfico de ejemplo con datos ficticios\n\n\n\n\n\nEsta es la Figure 1"
+  },
+  {
+    "objectID": "assignment/data/pres-ejemplo.html#section-2",
+    "href": "assignment/data/pres-ejemplo.html#section-2",
+    "title": "Práctico 9: Presentaciones en Quarto",
+    "section": "",
+    "text": "La información puede ser presentada de distintas maneras\nOrganizando los espacios\n\n\n\nSeparando el texto en columnas\nY variando el estilo"
   }
 ]

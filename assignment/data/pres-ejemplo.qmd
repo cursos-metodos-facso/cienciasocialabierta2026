@@ -2,10 +2,10 @@
 format:
   revealjs:
     theme: 
-      - custom.scss
-    slide-number: true
+      - default
     transition: slide
-    transition-speed: default
+    transition-speed: slow
+    slide-number: true
 editor: source
 bibliography: ejemplo.bib
 --- 
@@ -82,7 +82,7 @@ ggplot(datos_ejemplo, aes(x = valor_x, y = valor_y, color = categoria)) +
 
 Esta es la @fig-ejemplo
 
-## {background-color="#212525"}
+## 
 
 ::::{.columns}
 :::{.column width="50%"}

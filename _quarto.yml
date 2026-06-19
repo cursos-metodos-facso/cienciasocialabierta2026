@@ -120,7 +120,9 @@ website:
             - text: "7: Quarto Websites y Quarto Book"
               file: assignment/07-practico.qmd
             - text: "8: Pre-registro y pre-prints"
-              file: assignment/08-practico.qmd             
+              file: assignment/08-practico.qmd
+            - text: "9: Presentaciones en Quarto"
+              file: assignment/09-practico.qmd             
                        
   page-footer:
     left: |
