@@ -1,0 +1,295 @@
+---
+engine: knitr
+format:
+  revealjs:
+    slide-number: true
+    slide-number-style: [bottom-right]
+    scrollable: true
+    logo: img/logo-ciencia-abierta.png
+    theme: [css/custom_2025.scss]
+    title-slide-attributes:
+      visibility: false
+    transition: fade
+    transition-speed: slow
+    auto-play-media: true
+    title-slide-logo: false
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <style>
+          .reveal .slide-number {
+            font-size: 0.2em !important;
+          }
+
+          /* Local typography tuning for this deck to avoid vertical overflow. */
+          .reveal .slides section {
+            font-size: 0.90em;
+            padding-bottom: 1.8em;
+          }
+
+          .reveal .slides section h1,
+          .reveal h1 {
+            font-size: 1.5em !important;
+            line-height: 1.1;
+          }
+
+          .reveal h2 {
+            font-size: 1.3em;
+            line-height: 1.15;
+          }
+
+          .reveal p,
+          .reveal li {
+            line-height: 1.2;
+          }
+
+          .reveal .footer,
+          .reveal .footer p,
+          .reveal .footer a,
+          .reveal .footer i,
+          .reveal .footer.has-dark-background,
+          .reveal .footer.has-dark-background a,
+          .reveal .footer.has-light-background,
+          .reveal .footer.has-light-background a {
+            color: orange !important;
+          }
+        </style>
+    footer: '<span style="font-size: 0.5em; display: inline-block; width: 100%; box-sizing: border-box; padding-left: 54px; text-align: left;"><i class="fa-brands fa-github"></i> [Ciencia Social Abierta](https://github.com/cursos-metodos-facso/cienciasocialabierta2026) | FACSO 2026 | © Hecho en <a href="https://quarto.org/">Quarto <i class="fa-solid fa-mug-hot"></i></a></span>'
+
+editor: source
+---
+
+# {.hide-logo data-background-color="#9B2626"}
+
+::::: columns
+::: {.column width="33%"}
+
+![](img/logo-ciencia-abierta.png){width="100%" fig-align="right"}
+:::
+
+:::{.column width="2%"}
+
+:::
+
+::: {.column style="width: 65%; font-size: 22px; text-align: right; margin: 0 auto;"}
+
+###
+
+<span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
+
+----
+<span style="font-size: 1.5em; color: #dfc117;">Sesión 10: Síntesis y cierre del curso</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Juan Carlos Castillo & Tomás Urzúa</span>
+
+<span style="font-size: 1em; color: white;">Sociología FACSO UChile</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Primer Semestre 2026</span>
+
+[cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
+
+:::
+:::::
+
+# Al inicio del curso {background-color="#212525"}
+
+## 
+
+### Diagnóstico actual de la producción del conocimiento científico
+
+:::{.incremental .highlight-last}
+- Transparencia
+
+- Reproducibilidad 
+
+- Acceso
+:::
+
+## Transparencia
+
+:::: columns
+::: {.column width="50%" .incremental}
+- Diseño
+
+  - Adaptación de hipótesis post análisis de resultados
+
+  - HARKing y P-hacking como malas prácticas de investigación
+:::
+::: {.column width="50%" .incremental}
+- Datos 
+
+  - Disponibilidad de los datos
+
+  - Carencia de documentación para comprender la información
+:::
+::::
+
+
+## Reproducibilidad
+
+A partir los problemas que se presentan en las etapas de diseño, recolección y análisis, un número importante de las investigaciones en ciencias sociales tienden a no ser reproducibles (40% aproximadamente)
+
+![](img/01/reproducibility_science.png)
+
+## Acceso
+
+:::{.incremental .highlight-last}
+- El ecosistema de publicación científica se organiza en base a la privatización del conocimiento
+
+  - barreras de pago para el acceso y publicación de artículos de investigación.
+
+- Bajo este contexto, la apertura no resultaría rentable para las revistas y las compañías que administran la divulgación de conocimiento.
+
+- ¿Para quién sí, entonces?
+
+  - Investigadores
+
+  - Creadores de políticas públicas
+
+  - Ciudadanía en general
+:::
+
+# Alternativas {background-color="#212525"}
+
+
+
+## Texto plano (markdown)
+
+:::{.incremental .highlight-last}
+- Ofrece un marco de trabajo alterno al de los procesadores tradicionales de texto (Microsoft)
+
+- Es independiente de plataformas específicas
+
+- Permite **combinar texto y código** en un mismo documento
+
+![](img/markdown_logo.svg){width="30%"}
+:::
+
+## Documentos dinámicos (Quarto)
+
+:::: columns
+::: {.column width="40%"}
+![](img/logo-quarto.png)
+:::
+::: {.column width="60%" .incremental .highlight-last}
+- Integra la naturaleza de markdown
+
+- Alto nivel de personalización de los documentos
+
+- Distintos formatos de salida gracias a [Pandoc](https://pandoc.org/) (PDF, HTML, entre otros)
+
+- Soporta programas externos para la publicación científica
+:::
+::::
+
+
+
+## Gestión de referencias
+
+:::: columns
+::: {.column width="60%" .incremental .highlight-last}
+- Almacenamiento de referencias para su organización y exportación (.bib)
+
+- Posibilidad de gestionar la bilbiografía a nivel individual y grupal 
+
+- Automatización en documentos dinámicos: reducción considerable de tiempo de trabajo en el apartado de referencias
+:::
+::: {.column width="40%"}
+![](img/zotero.png)
+:::
+::::
+
+
+## Control de versiones
+
+:::: columns
+::: {.column width="50%" .incremental .highlight-last}
+- Historial de cambios detallado: quién, cuándo y qué
+
+- Organización de proyectos: repositorios
+
+- Trabajo colaborativo y abierto
+
+- Vinculación de repositorios en línea con unidades locales
+:::
+::: {.column width="50%"}
+![](img/03/git.png)
+
+![](img/03/github.png)
+:::
+::::
+
+
+## Estructura de archivos (IPO)
+
+:::: columns
+::: {.column width="60%" .incremental .highlight-last}
+- Estructura de carpetas para el orden de información
+
+  - Input, Processing, Output
+
+- Facilitación del flujo de trabajo
+
+- Ayuda a comprender el entorno de trabajo a personas externas al pryecto
+
+:::
+::: {.column width="40%"}
+![](https://lisacoes.com/protocolos/a-ipo-rep/ipo-hex.png)
+:::
+::::
+
+
+
+## Publicación web de resultados
+
+:::: columns
+::: {.column width="40%"}
+![](img/logo-netlify.png)
+
+![](img/03/github.png)
+:::
+:::{.column width="60%" .incremental .highlight-last}
+- Mayor alcance en la difusión de la investigación
+
+- Acceso público sencillo 
+
+- Permite reproducibilidad de los resultados
+
+- Publicación en distintas plataformas (GitHub Pages/Netlify)
+:::
+::::
+
+
+## Datos y publicaciones abiertas
+
+:::{.incremental .highlight-last}
+- Disponibilidad de datos mediante reglas que facilitan su uso (FAIR)
+
+- Existen plataformas para alojar datos de manera pública (Dataverse, Zenodo, etc)
+
+- Publicación de momentos de la investigación orientado a la apertura (SocArXiv)
+
+  - Pre-registro: transparencia de las hipótesis ex ante del análisis
+
+  - Pre-print: versión de un manuscrito previo a la revisión por pares
+:::
+
+##
+
+![](img/02/herramientas_reproducibilidad.png)
+
+# Ideas centrales
+
+:::{.incremental .highlight-last}
+- La apertura de la investigación como concepto central
+
+  - Abrir la ciencia no significa solo “mostrar resultados”, sino también transparentar cómo se producen, documentan y circulan los insumos de investigación
+
+- Los objetivos del curso estuvieron orientados a que aprendieran cómo incorporar la apertura en sus investigaciones 
+
+- Tanto las herramientas como los debates en torno a la apertura de la investigación se actualizan constantemente: aprendizaje continuo
+:::
