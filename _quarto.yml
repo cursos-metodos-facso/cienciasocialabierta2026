@@ -122,7 +122,7 @@ website:
             - text: "8: Pre-registro y pre-prints"
               file: assignment/08-practico.qmd
             - text: "9: Presentaciones en Quarto"
-              file: assignment/09-practico.qmd             
+              file: assignment/09-practico.qmd           
                        
   page-footer:
     left: |
