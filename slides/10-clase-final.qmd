@@ -95,6 +95,30 @@ editor: source
 :::
 :::::
 
+# {background-color="#9B2626"}
+
+### [Esta sesión]{style="color: #ffffff;"}
+
+<br>
+
+[1. Contexto retorno a clases]{style="color: #f9e98a;"}
+
+<br>
+
+[2. Resumen de contenidos]{style="color: #8c8c8c;"} 
+
+<br>
+
+[3. Repaso Quarto Book]{style="color: #8c8c8c;"} 
+
+<br>
+
+[4. Dudas trabajo final]{style="color: #8c8c8c;"}
+
+
+
+
+
 
 # {background-color="#9B2626"}
 
