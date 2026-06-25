@@ -95,25 +95,28 @@ editor: source
 :::
 :::::
 
+
 # {background-color="#9B2626"}
 
-### [Esta sesión]{style="color: #ffffff"}
+### [Esta sesión]{style="color: #ffffff;"}
 
 <br>
 
-[1. Contexto retorno a clases]{style="color: #dfc117;"}
+[1. Contexto retorno a clases]{style="color: #8c8c8c;"}
 
 <br>
 
-[2. Resumen de contenidos]{style="color: #dfc117;"} 
+[2. Resumen de contenidos]{style="color: #f9e98a;"} 
 
 <br>
 
-[3. Repaso Quarto Book]{style="color: #dfc117;"} 
+[3. Repaso Quarto Book]{style="color: #8c8c8c;"} 
 
 <br>
 
-[4. Dudas trabajo final]{style="color: #dfc117;"}
+[4. Dudas trabajo final]{style="color: #8c8c8c;"}
+
+
 
 
 #
@@ -357,3 +360,88 @@ A partir los problemas que se presentan en las etapas de diseño, recolección y
 
 - Tanto las herramientas como los debates en torno a la apertura de la investigación se actualizan constantemente: aprendizaje continuo
 :::
+
+# {background-color="#9B2626"}
+
+### [Esta sesión]{style="color: #ffffff;"}
+
+<br>
+
+[1. Contexto retorno a clases]{style="color: #8c8c8c;"}
+
+<br>
+
+[2. Resumen de contenidos]{style="color: #8c8c8c;"} 
+
+<br>
+
+[3. Repaso Quarto Book]{style="color: #f9e98a;"} 
+
+<br>
+
+[4. Dudas trabajo final]{style="color: #8c8c8c;"}
+
+
+# Práctico 7
+
+
+-> al [práctico 7](https://cienciasocialabierta.netlify.app/assignment/07-practico)
+
+
+# {background-color="#9B2626"}
+
+### [Esta sesión]{style="color: #ffffff;"}
+
+<br>
+
+[1. Contexto retorno a clases]{style="color: #8c8c8c;"}
+
+<br>
+
+[2. Resumen de contenidos]{style="color: #8c8c8c;"} 
+
+<br>
+
+[3. Repaso Quarto Book]{style="color: #8c8c8c;"} 
+
+<br>
+
+[4. Dudas trabajo final]{style="color: #f9e98a;"}
+
+
+# Trabajo final -> a la [pauta](https://cienciasocialabierta.netlify.app/trabajos/trabajos#trabajo-2-reporte-abierto)
+
+# {.hide-logo data-background-color="#9B2626"}
+
+::::: columns
+::: {.column width="33%"}
+
+![](img/logo-ciencia-abierta.png){width="100%" fig-align="right"}
+:::
+
+:::{.column width="2%"}
+
+:::
+
+::: {.column style="width: 65%; font-size: 22px; text-align: right; margin: 0 auto;"}
+
+###
+
+<span style="font-size: 2em; color: white;">Ciencia Social Abierta</span>
+
+----
+
+<br>
+
+<span style="font-size: 1em; color: white;">Juan Carlos Castillo & Tomás Urzúa</span>
+
+<span style="font-size: 1em; color: white;">Sociología FACSO UChile</span>
+
+<br>
+
+<span style="font-size: 1em; color: white;">Primer Semestre 2026</span>
+
+[cienciasocialabierta.netlify.app](https://cienciasocialabierta.netlify.app/)
+
+:::
+:::::
