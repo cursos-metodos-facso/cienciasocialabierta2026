@@ -95,18 +95,64 @@ editor: source
 :::
 :::::
 
-# Al inicio del curso {background-color="#212525"}
+# {background-color="#9B2626"}
+
+### [Esta sesión]{style="color: #ffffff"}
+
+<br>
+
+[1. Contexto retorno a clases]{style="color: #dfc117;"}
+
+<br>
+
+[2. Resumen de contenidos]{style="color: #dfc117;"} 
+
+<br>
+
+[3. Repaso Quarto Book]{style="color: #dfc117;"} 
+
+<br>
+
+[4. Dudas trabajo final]{style="color: #dfc117;"}
+
+
+#
+
+:::: columns
+::: {.column width="70%"}
+[¿Qué conceptos asocian a ciencia abierta?]{style="font-size: 60px; color: #9B2626;"}
+
+[Menti code: 5688 4740]{style="font-size: 40px;"}
+:::
+::: {.column width="30%"}
+![](img/menti-clase-final.png)
+:::
+::::
+
+
+##
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-popups allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/al5ch4f3ygrvo6a9usgu2hj24hnd6hon/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+
+# Resumen de contenidos {background-color="#212525"}
 
 ## 
 
 ### Diagnóstico actual de la producción del conocimiento científico
 
+<br>
+
 :::{.incremental .highlight-last}
-- Transparencia
+- [Transparencia]{style="font-size: 38px;"}
 
-- Reproducibilidad 
+<br>
 
-- Acceso
+- [Reproducibilidad]{style="font-size: 38px;"}
+
+<br>
+
+- [Acceso]{style="font-size: 38px;"}
 :::
 
 ## Transparencia
@@ -140,15 +186,13 @@ A partir los problemas que se presentan en las etapas de diseño, recolección y
 :::{.incremental .highlight-last}
 - El ecosistema de publicación científica se organiza en base a la privatización del conocimiento
 
-  - barreras de pago para el acceso y publicación de artículos de investigación.
-
 - Bajo este contexto, la apertura no resultaría rentable para las revistas y las compañías que administran la divulgación de conocimiento.
 
 - ¿Para quién sí, entonces?
 
   - Investigadores
 
-  - Creadores de políticas públicas
+  - Encargados de políticas públicas
 
   - Ciudadanía en general
 :::
@@ -172,10 +216,10 @@ A partir los problemas que se presentan en las etapas de diseño, recolección y
 ## Documentos dinámicos (Quarto)
 
 :::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 ![](img/logo-quarto.png)
 :::
-::: {.column width="60%" .incremental .highlight-last}
+::: {.column width="50%" .incremental .highlight-last}
 - Integra la naturaleza de markdown
 
 - Alto nivel de personalización de los documentos
@@ -264,19 +308,39 @@ A partir los problemas que se presentan en las etapas de diseño, recolección y
 ::::
 
 
-## Datos y publicaciones abiertas
+## Datos abiertos
 
-:::{.incremental .highlight-last}
+:::: columns
+::: {.column width="25%"}
+![](img/fair.jpg)
+
+![](img/zenodo.png)
+
+![](img/dataverse.png)
+:::
+::: {.column width="75%" .incremental .highlight-last}
 - Disponibilidad de datos mediante reglas que facilitan su uso (FAIR)
 
-- Existen plataformas para alojar datos de manera pública (Dataverse, Zenodo, etc)
+<br>
 
+- Existen plataformas para alojar datos de manera pública (Dataverse, Zenodo, etc)
+:::
+::::
+
+## Publicaciones abiertas
+
+:::: columns
+::: {.column width="60%" .incremental .highlight-last}
 - Publicación de momentos de la investigación orientado a la apertura (SocArXiv)
 
   - Pre-registro: transparencia de las hipótesis ex ante del análisis
 
   - Pre-print: versión de un manuscrito previo a la revisión por pares
 :::
+::: {.column width="40%"}
+![](img/socarxiv.jpg)
+:::
+::::
 
 ##
 

@@ -1,6 +1,6 @@
 ---
 title: "Presentación"
-date: "2023-11-10"
+date: "2026-06-25"
 lang: es
 website:
   comments:
@@ -10,7 +10,7 @@ website:
 
 # Documento de presentación
 
-<iframe src=/slides/10extensiones.html height="550" width=100% allowfullscreen="true">
+<iframe src=/slides/10-clase-final.html height="550" width=100% allowfullscreen="true">
 </iframe> 
 
 
