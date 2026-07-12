@@ -1,0 +1,87 @@
+---
+title: "Pauta de corrección - Trabajo 2"
+lang: es
+number-sections: true
+---
+
+Esta pauta se aplica al **Trabajo 2: Informe final**. 
+
+## Puntaje y rúbrica
+
+La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+
+| Sección | Puntaje máximo |
+|---|---:|
+| 1. Abtract | 0.5 |
+| 2. Introducción | 1.0 |
+| 3. Antecedentes | 1.0 |
+| 4. Hipótesis y Métodos | 1.0 |
+| 5. Resultados | 1.0 |
+| 6. Conclusiones | 1.0 |
+| 7. Prácticas Ciencia Abierta | 1.0 |
+| 8. Formato del reporte | 0.5 |
+| **Total** | **7.0** |
+
+### Rúbrica de evaluación
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|---|---|---:|---:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
+
+## Criterios específicos por sección
+
+### 1. Abstract
+
+- Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
+- No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
+
+### 2. Introducción
+
+- Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
+- Contextualiza el estudio a partir de literatura previa pertinente.
+- Formula de manera clara el objetivo general del trabajo.
+- Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
+
+### 3. Antecedentes
+
+- Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.
+- Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.
+- Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
+- Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
+
+### 4. Hipótesis y Métodos
+
+- Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
+- Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
+- Especifica las variables consideradas y su operacionalización.
+- Justifica la pertinencia del método elegido para responder la pregunta de investigación.
+
+### 5. Resultados
+
+- Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.
+- Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.
+- Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
+- Distingue entre resultados esperados y no esperados según la hipótesis.
+
+### 6. Conclusiones
+
+- Presenta una conclusión coherente con la evidencia del reporte.
+- Distingue claramente fortalezas y debilidades de reproducibilidad.
+- Evita afirmaciones no respaldadas por el análisis.
+
+### 7. Prácticas Ciencia Abierta
+
+- Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.
+- Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
+- Genera el pre-print de las hipótesis en la plataforma OSF.
+
+
+### 8. Formato del reporte
+
+- Redacción clara y estructura ordenada.
+- Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
+- Citas y referencias en formato académico consistente.
+- Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
