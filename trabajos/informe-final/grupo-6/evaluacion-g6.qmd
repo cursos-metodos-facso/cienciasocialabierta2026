@@ -1,0 +1,111 @@
+---
+title: "Evaluación Grupo 6"
+lang: es
+number-sections: true
+---
+
+Esta pauta se aplica al **Trabajo 2: Informe final**.
+
+## Puntaje y rúbrica
+
+La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+
+| Sección | Puntaje máximo |
+|---|---:|
+| 1. Abstract | 0.5 |
+| 2. Introducción | 1.0 |
+| 3. Antecedentes | 1.0 |
+| 4. Hipótesis y Métodos | 1.0 |
+| 5. Resultados | 1.0 |
+| 6. Conclusiones | 1.0 |
+| 7. Prácticas Ciencia Abierta | 1.0 |
+| 8. Formato del reporte | 0.5 |
+| **Total** | **7.0** |
+
+### Rúbrica de evaluación
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|---|---|---:|---:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
+## Criterios específicos por sección
+
+### 1. Abstract
+
+- Resume problema, método y hallazgos centrales con buena cobertura.
+- Presenta resultados cuantitativos e interpretación general.
+
+**Puntaje sugerido: 0.5**
+
+### 2. Introducción
+
+- Introducción clara y pertinente al problema de envejecimiento y cuidados.
+- Objetivo general y específicos bien explicitados.
+- Buena justificación social del tema.
+
+**Puntaje sugerido: 0.9**
+
+Comentario: La introducción está bien articulada y contextualiza de forma consistente. Como mejora, conviene pulir redacción y algunas frases extensas para ganar precisión argumentativa.
+
+### 3. Antecedentes
+
+- Cobertura temática amplia y relevante para el objeto de estudio.
+- Articula envejecimiento, género y cuidado no remunerado.
+- Identifica brechas y necesidad de investigación.
+
+**Puntaje sugerido: 0.8**
+
+Comentario: El apartado es sólido, pero se observan referencias con clave incompleta y algunos pasajes descriptivos que podrían integrarse mejor con la pregunta de investigación.
+
+### 4. Hipótesis y Métodos
+
+- Hipótesis claras y coherentes con el problema.
+- Métodos detallados, con trazabilidad de variables y procesamiento.
+- Estructura IPO correctamente descrita.
+
+**Puntaje sugerido: 0.9**
+
+Comentario: Muy buen nivel de detalle metodológico. Se recomienda sintetizar parte del bloque técnico para equilibrar extensión entre capítulos.
+
+### 5. Resultados
+
+- Resultados claros, con figuras pertinentes y discusión de significancia.
+- Contraste explícito de hipótesis con evidencia empírica.
+- Presentación robusta de submuestras por sexo.
+
+**Puntaje sugerido: 0.9**
+
+Comentario: La sección presenta buena evidencia y lectura sustantiva. Puede mejorar separando con mayor nitidez resultado descriptivo y comentario interpretativo.
+
+### 6. Conclusiones
+
+- Conclusiones consistentes con los hallazgos reportados.
+- Incluye proyecciones e implicancias para investigación futura.
+
+**Puntaje sugerido: 0.9**
+
+### 7. Prácticas Ciencia Abierta
+
+- Incluye preregistro OSF y repositorio público.
+- Se explicita la limitación respecto del preprint.
+- Hay estructura reproducible y documentación de insumos.
+
+**Puntaje sugerido: 0.75**
+
+Comentario: Buen estándar de transparencia metodológica. La sección baja puntaje por no contar con preprint y por quedar algunos elementos abiertos para completar en difusión final.
+
+### 8. Formato del reporte
+
+- Estructura general correcta y navegación funcional.
+- Render en formato libro con salidas visibles.
+- Se observan detalles de estilo/ortografía a corregir.
+
+**Puntaje sugerido: 0.4**
+
+## Evaluación final
+
+**Nota final: 6.1**
+
+Comentario general: Informe consistente y técnicamente bien trabajado, con una muy buena base metodológica y resultados claros. Para subir de nivel, se sugiere fortalecer la edición final del texto, depurar referencias y cerrar completamente los productos de apertura (especialmente preprint).

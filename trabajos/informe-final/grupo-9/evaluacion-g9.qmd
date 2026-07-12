@@ -1,0 +1,100 @@
+---
+title: "Evaluación Grupo 9"
+lang: es
+number-sections: true
+---
+
+Esta pauta se aplica al **Trabajo 2: Informe final**.
+
+## Puntaje y rúbrica
+
+La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+
+| Sección | Puntaje máximo |
+|---|---:|
+| 1. Abstract | 0.5 |
+| 2. Introducción | 1.0 |
+| 3. Antecedentes | 1.0 |
+| 4. Hipótesis y Métodos | 1.0 |
+| 5. Resultados | 1.0 |
+| 6. Conclusiones | 1.0 |
+| 7. Prácticas Ciencia Abierta | 1.0 |
+| 8. Formato del reporte | 0.5 |
+| **Total** | **7.0** |
+
+### Rúbrica de evaluación
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|---|---|---:|---:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
+## Criterios específicos por sección
+
+### 1. Abstract
+
+- Presenta el tema y la base de datos usada.
+- Queda breve y con poco desarrollo de método/hallazgos.
+
+**Puntaje sugerido: 0.35**
+
+### 2. Introducción
+
+- Problema y objetivos bien presentados.
+- Hay buena motivación de relevancia pública.
+
+**Puntaje sugerido: 0.85**
+
+### 3. Antecedentes
+
+- Marco teórico/empírico adecuado y pertinente al tema.
+- Puede fortalecerse la integración de fuentes con hipótesis.
+
+**Puntaje sugerido: 0.8**
+
+### 4. Hipótesis y Métodos
+
+- Hipótesis claras en general.
+- Métodos descriptos de forma suficiente para seguir el flujo básico.
+- Faltan precisiones operativas en trazabilidad completa de insumos.
+
+**Puntaje sugerido: 0.8**
+
+Comentario: El diseño es adecuado, pero conviene reforzar documentación de decisiones analíticas y referencias técnicas para mayor reproducibilidad.
+
+### 5. Resultados
+
+- Resultados claros y con apoyo de visualizaciones.
+- Se contrasta adecuadamente H1 y H2.
+
+**Puntaje sugerido: 0.8**
+
+### 6. Conclusiones
+
+- Conclusiones coherentes con hallazgos principales.
+- Incluye implicancias de política y límites.
+
+**Puntaje sugerido: 0.85**
+
+### 7. Prácticas Ciencia Abierta
+
+- Se declara preregistro en OSF y uso de repositorio.
+- La implementación queda parcial en consistencia de citación/documentación final.
+
+**Puntaje sugerido: 0.6**
+
+Comentario: Hay avances claros en apertura, pero se recomienda cerrar completamente enlaces y referencias reproducibles para cumplir el estándar esperado del curso.
+
+### 8. Formato del reporte
+
+- Estructura general correcta.
+- Se observan detalles de redacción, ortografía y consistencia formal.
+
+**Puntaje sugerido: 0.35**
+
+## Evaluación final
+
+**Nota final: 5.4**
+
+Comentario general: El trabajo cumple con la base analítica y responde la pregunta de investigación. Para mejorar su evaluación global, se recomienda fortalecer abstract, trazabilidad metodológica y cierre formal de prácticas de ciencia abierta.

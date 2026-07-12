@@ -1,0 +1,93 @@
+---
+title: "Evaluación Grupo 10"
+lang: es
+number-sections: true
+---
+
+Esta pauta se aplica al **Trabajo 2: Informe final**.
+
+## Puntaje y rúbrica
+
+La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+
+| Sección | Puntaje máximo |
+|---|---:|
+| 1. Abstract | 0.5 |
+| 2. Introducción | 1.0 |
+| 3. Antecedentes | 1.0 |
+| 4. Hipótesis y Métodos | 1.0 |
+| 5. Resultados | 1.0 |
+| 6. Conclusiones | 1.0 |
+| 7. Prácticas Ciencia Abierta | 1.0 |
+| 8. Formato del reporte | 0.5 |
+| **Total** | **7.0** |
+
+### Rúbrica de evaluación
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|---|---|---:|---:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
+## Criterios específicos por sección
+
+### 1. Abstract
+
+- Abstract claro, con hipótesis, muestra y hallazgos centrales.
+
+**Puntaje sugerido: 0.5**
+
+### 2. Introducción
+
+- Muy buena formulación del problema y objetivos.
+- Adecuada delimitación de alcances del estudio.
+
+**Puntaje sugerido: 0.95**
+
+### 3. Antecedentes
+
+- Excelente síntesis conceptual y contextualización teórica.
+- Vínculo explícito con el vacío en la literatura.
+
+**Puntaje sugerido: 0.95**
+
+### 4. Hipótesis y Métodos
+
+- Hipótesis bien definidas y consistentes con el diseño.
+- Métodos replicables y protocolo de análisis claro.
+
+**Puntaje sugerido: 0.95**
+
+### 5. Resultados
+
+- Resultados robustos, claros y bien presentados.
+- Contraste explícito de H1 (confirmada) y H2 (no confirmada).
+
+**Puntaje sugerido: 0.95**
+
+### 6. Conclusiones
+
+- Conclusiones sólidas, bien ancladas en evidencia.
+- Buena discusión de límites y proyección.
+
+**Puntaje sugerido: 0.95**
+
+### 7. Prácticas Ciencia Abierta
+
+- Muy buen estándar de apertura: preregistro OSF, preprint, GitHub Pages y protocolo IPO.
+- Transparencia metodológica consistente con el curso.
+
+**Puntaje sugerido: 1.0**
+
+### 8. Formato del reporte
+
+- Formato ordenado, navegación adecuada y buena legibilidad.
+
+**Puntaje sugerido: 0.45**
+
+## Evaluación final
+
+**Nota final: 6.7**
+
+Comentario general: Informe de alto nivel, coherente en su lógica teórica y empírica, y con muy buen cumplimiento de prácticas de ciencia abierta. Para perfeccionar la entrega final, basta con ajustes menores de estilo/edición.

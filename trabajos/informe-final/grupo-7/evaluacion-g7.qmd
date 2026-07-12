@@ -1,0 +1,104 @@
+---
+title: "Evaluación Grupo 7"
+lang: es
+number-sections: true
+---
+
+Esta pauta se aplica al **Trabajo 2: Informe final**.
+
+## Puntaje y rúbrica
+
+La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+
+| Sección | Puntaje máximo |
+|---|---:|
+| 1. Abstract | 0.5 |
+| 2. Introducción | 1.0 |
+| 3. Antecedentes | 1.0 |
+| 4. Hipótesis y Métodos | 1.0 |
+| 5. Resultados | 1.0 |
+| 6. Conclusiones | 1.0 |
+| 7. Prácticas Ciencia Abierta | 1.0 |
+| 8. Formato del reporte | 0.5 |
+| **Total** | **7.0** |
+
+### Rúbrica de evaluación
+
+| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
+|---|---|---:|---:|
+| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
+| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
+| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+
+## Criterios específicos por sección
+
+### 1. Abstract
+
+- Abstract completo, claro y con resultados concretos.
+- Buen balance entre contexto, método y hallazgos.
+
+**Puntaje sugerido: 0.5**
+
+### 2. Introducción
+
+- Introducción sólida, con motivación y pregunta bien delimitadas.
+- Objetivos general y específicos claros.
+- Buena conexión entre teoría y contribución esperada.
+
+**Puntaje sugerido: 0.9**
+
+### 3. Antecedentes
+
+- Marco conceptual y teórico bien trabajado.
+- Buena articulación entre literatura y diseño del estudio.
+
+**Puntaje sugerido: 0.9**
+
+Comentario: El capítulo está bien logrado. Como ajuste, se recomienda revisar enlaces internos entre capítulos para evitar referencias rotas en navegación.
+
+### 4. Hipótesis y Métodos
+
+- Hipótesis claras y operacionalización adecuada.
+- Métodos bien documentados, con estrategia jerárquica coherente.
+- Protocolo IPO claramente presentado.
+
+**Puntaje sugerido: 0.9**
+
+### 5. Resultados
+
+- Excelente detalle analítico y lectura de coeficientes.
+- Buena secuencia entre análisis univariado, bivariado y multivariado.
+
+**Puntaje sugerido: 0.85**
+
+Comentario: El contenido es robusto, pero el apartado es muy extenso para una lectura fluida. Se sugiere resumir algunos bloques y priorizar resultados clave.
+
+### 6. Conclusiones
+
+- Conclusiones consistentes con resultados.
+- Discusión teórica y proyección futura bien construidas.
+
+**Puntaje sugerido: 0.9**
+
+### 7. Prácticas Ciencia Abierta
+
+- Se documenta preregistro y protocolo abierto.
+- Hay esfuerzo explícito de transparencia del proceso.
+- Persisten elementos de implementación final pendientes en el repositorio.
+
+**Puntaje sugerido: 0.7**
+
+Comentario: Buen desempeño en ciencia abierta, aunque quedan puntos por cerrar en consistencia de publicación final (vínculos y checklist operativo).
+
+### 8. Formato del reporte
+
+- Presentación ordenada, estructura clara y secciones completas.
+- El estilo general es adecuado para informe académico.
+
+**Puntaje sugerido: 0.45**
+
+## Evaluación final
+
+**Nota final: 6.1**
+
+Comentario general: Informe de muy buen nivel en diseño y análisis. Para fortalecer la entrega final, se recomienda priorizar síntesis en resultados y revisar consistencia de enlaces/publicación para cerrar completamente el estándar de apertura.
