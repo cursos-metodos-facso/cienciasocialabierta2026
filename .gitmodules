@@ -1,3 +1,18 @@
+[submodule "trabajos/informe-final/grupo-1/Trabajo-Final-CS-Abierta"]
+	path = trabajos/informe-final/grupo-1/Trabajo-Final-CS-Abierta
+	url = https://github.com/nonJaako/Trabajo-Final-CS-Abierta.git
+[submodule "trabajos/informe-final/grupo-2/cohesion-vertical"]
+	path = trabajos/informe-final/grupo-2/cohesion-vertical
+	url = https://github.com/x0czz/cohesion-vertical.git
+[submodule "trabajos/informe-final/grupo-3/T2_cienciabierta_g3"]
+	path = trabajos/informe-final/grupo-3/T2_cienciabierta_g3
+	url = https://github.com/Cabvens/T2_cienciabierta_g3.git
+[submodule "trabajos/informe-final/grupo-4/CSA-Trabajo2"]
+	path = trabajos/informe-final/grupo-4/CSA-Trabajo2
+	url = https://github.com/pipoowo/CSA-Trabajo2.git
+[submodule "trabajos/informe-final/grupo-5/evaluacion-final-cienciasocialabierta-grupo5"]
+	path = trabajos/informe-final/grupo-5/evaluacion-final-cienciasocialabierta-grupo5
+	url = https://github.com/amarantagonzalez-09/evaluacion-final-cienciasocialabierta-grupo5.git
 [submodule "trabajos/informe-final/grupo-6/evaluacion-final-grupo-6"]
 	path = trabajos/informe-final/grupo-6/evaluacion-final-grupo-6
 	url = https://github.com/renatodeluca/evaluacion-final-grupo-6
