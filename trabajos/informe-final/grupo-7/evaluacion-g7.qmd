@@ -6,99 +6,28 @@ number-sections: true
 
 Esta pauta se aplica al **Trabajo 2: Informe final**.
 
-## Puntaje y rúbrica
+## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
-| Sección | Puntaje máximo |
-|---|---:|
-| 1. Abstract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
-| **Total** | **7.0** |
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---------------|---------------|--------------:|--------------:|---------------|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.5 | Abstract claro y completo, con una buena síntesis del problema, la estrategia de análisis y los hallazgos centrales. El cierre explícita sobre alcances y límites del proyecto abierto. |
+| **2. Introducción** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.50 | Introducción bien delimitada, con motivación clara y una justificación consistente de la relevancia del tema. La conexión entre problema y objetivos es buena. El punto a reforzar es la explicitación de si el trabajo deriva de una adaptación o de un proyecto nuevo. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.50 | Hipótesis bien formuladas y coherentes con el objeto de estudio. Se aprecia una secuencia lógica entre pregunta, hipótesis y estrategia analítica. Conviene dejar aún más visible el momento y alcance del pre-registro dentro del flujo del manuscrito. |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.50 | El uso de datos abiertos está bien justificado y documentado. El origen de los datos y el acceso están claros. Como mejora menor, podría reforzarse la descripción operativa del procedimiento de descarga y organización de insumos. |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.90 | El protocolo está bien armado y permite seguir el flujo general del análisis. La estructura metodológica es comprensible y consistente. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 0.75 | El proyecto muestra avances claros en apertura en términos de código y documentación. Se adjunta link al preregistro, pero en el OSF el proyecto se encuentra vacío. |
+| **7. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 0.80 | No se observa un preprint formal, pero sí una versión pública del manuscrito y del proyecto en línea. Si no hay pre-print como establece la pauta, corresponde justificación para tener el puntaje completo. |
+| **8. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.95 | El reporte está bien estructurado y desplegado, con una base reproducible clara. Los scripts de preparación y análisis corren bien. |
+| **Subtotal** |  | **6.0** | **5.40** |  |
+| **Punto base** |  | **1.0** | **1.00** |  |
+| **Nota final** |  | **7.0** | **6.40** |  |
 
-### Rúbrica de evaluación
+: {tbl-colwidths="\[13,22,5,6,54\]"}
+:::
 
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+## Comentario general
 
-## Criterios específicos por sección
-
-### 1. Abstract
-
-- Abstract completo, claro y con resultados concretos.
-- Buen balance entre contexto, método y hallazgos.
-
-**Puntaje sugerido: 0.5**
-
-### 2. Introducción
-
-- Introducción sólida, con motivación y pregunta bien delimitadas.
-- Objetivos general y específicos claros.
-- Buena conexión entre teoría y contribución esperada.
-
-**Puntaje sugerido: 0.9**
-
-### 3. Antecedentes
-
-- Marco conceptual y teórico bien trabajado.
-- Buena articulación entre literatura y diseño del estudio.
-
-**Puntaje sugerido: 0.9**
-
-Comentario: El capítulo está bien logrado. Como ajuste, se recomienda revisar enlaces internos entre capítulos para evitar referencias rotas en navegación.
-
-### 4. Hipótesis y Métodos
-
-- Hipótesis claras y operacionalización adecuada.
-- Métodos bien documentados, con estrategia jerárquica coherente.
-- Protocolo IPO claramente presentado.
-
-**Puntaje sugerido: 0.9**
-
-### 5. Resultados
-
-- Excelente detalle analítico y lectura de coeficientes.
-- Buena secuencia entre análisis univariado, bivariado y multivariado.
-
-**Puntaje sugerido: 0.85**
-
-Comentario: El contenido es robusto, pero el apartado es muy extenso para una lectura fluida. Se sugiere resumir algunos bloques y priorizar resultados clave.
-
-### 6. Conclusiones
-
-- Conclusiones consistentes con resultados.
-- Discusión teórica y proyección futura bien construidas.
-
-**Puntaje sugerido: 0.9**
-
-### 7. Prácticas Ciencia Abierta
-
-- Se documenta preregistro y protocolo abierto.
-- Hay esfuerzo explícito de transparencia del proceso.
-- Persisten elementos de implementación final pendientes en el repositorio.
-
-**Puntaje sugerido: 0.7**
-
-Comentario: Buen desempeño en ciencia abierta, aunque quedan puntos por cerrar en consistencia de publicación final (vínculos y checklist operativo).
-
-### 8. Formato del reporte
-
-- Presentación ordenada, estructura clara y secciones completas.
-- El estilo general es adecuado para informe académico.
-
-**Puntaje sugerido: 0.45**
-
-## Evaluación final
-
-**Nota final: 6.1**
-
-Comentario general: Informe de muy buen nivel en diseño y análisis. Para fortalecer la entrega final, se recomienda priorizar síntesis en resultados y revisar consistencia de enlaces/publicación para cerrar completamente el estándar de apertura.
+El informe del Grupo 7 presenta una estructura sólida, con hipótesis bien delimitadas, una metodología comprensible y una ejecución analítica consistente. Si bien no es algo central en la evaluación de este curso, se recomienda que los resultados hagan uso de tablas y gráficos, que en este reporte están ausentes. El trabajo gana mucho por su claridad argumental y por el esfuerzo de apertura metodológica. Como mejoras concretas, conviene reforzar la visibilidad del preregistro.

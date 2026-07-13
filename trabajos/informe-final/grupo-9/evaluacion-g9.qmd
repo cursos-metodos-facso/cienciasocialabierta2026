@@ -6,95 +6,28 @@ number-sections: true
 
 Esta pauta se aplica al **Trabajo 2: Informe final**.
 
-## Puntaje y rúbrica
+## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
-| Sección | Puntaje máximo |
-|---|---:|
-| 1. Abstract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
-| **Total** | **7.0** |
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---|---|---:|---:|---|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.35 | El abstract presenta bien el tema y la base de datos, pero queda algo corto en la síntesis de método y hallazgos. Es correcto, aunque puede fortalecerse para que dialogue mejor con el resto del informe. |
+| **2. Introducción** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.40 | La introducción plantea con claridad el problema y sus objetivos. La relevancia pública está bien argumentada. Aun así, podría explicitarse mejor el vínculo entre el proyecto y trabajos previos o decisiones de adaptación. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.40 | Las hipótesis están bien encaminadas y se conectan con el problema empírico. La formulación general es correcta. Conviene reforzar un poco más la explicitación del preregistro y su relación con el análisis principal. |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.40 | El uso de datos está bien enmarcado y el acceso es comprensible. La documentación es suficiente para seguir la lógica general. Se beneficiaría de una descripción más precisa del flujo de obtención y organización de insumos. |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.75 | El protocolo permite seguir la estrategia de análisis, pero todavía puede ganar en precisión operativa. Hace falta dejar más explícitas algunas decisiones de trazabilidad para que la reproducibilidad quede más cerrada. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 0.80 | Hay avances claros en prácticas de ciencia abierta y un esfuerzo real por transparentar el trabajo. El preregistro y el uso del repositorio están presentes. Falta cerrar mejor la consistencia entre citación, documentación y publicación final. |
+| **7. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 0.55 | No se dispone de un preprint formal, pero sí de una versión pública del proyecto y del manuscrito. La ausencia del preprint resta puntaje, aunque el material accesible ayuda a sostener la apertura general del trabajo. |
+| **8. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.65 | La estructura del informe es correcta y existe una base reproducible. Para mejorar, conviene fortalecer la documentación técnica y la claridad del flujo de regeneración de resultados. |
+| **Subtotal** | | **6.0** | **4.30** | |
+| **Punto base** | | **1.0** | **1.00** | |
+| **Nota final** | | **7.0** | **5.30** | |
 
-### Rúbrica de evaluación
+: {tbl-colwidths="[13,22,5,6,54]"}
+:::
 
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+## Comentario general
 
-## Criterios específicos por sección
-
-### 1. Abstract
-
-- Presenta el tema y la base de datos usada.
-- Queda breve y con poco desarrollo de método/hallazgos.
-
-**Puntaje sugerido: 0.35**
-
-### 2. Introducción
-
-- Problema y objetivos bien presentados.
-- Hay buena motivación de relevancia pública.
-
-**Puntaje sugerido: 0.85**
-
-### 3. Antecedentes
-
-- Marco teórico/empírico adecuado y pertinente al tema.
-- Puede fortalecerse la integración de fuentes con hipótesis.
-
-**Puntaje sugerido: 0.8**
-
-### 4. Hipótesis y Métodos
-
-- Hipótesis claras en general.
-- Métodos descriptos de forma suficiente para seguir el flujo básico.
-- Faltan precisiones operativas en trazabilidad completa de insumos.
-
-**Puntaje sugerido: 0.8**
-
-Comentario: El diseño es adecuado, pero conviene reforzar documentación de decisiones analíticas y referencias técnicas para mayor reproducibilidad.
-
-### 5. Resultados
-
-- Resultados claros y con apoyo de visualizaciones.
-- Se contrasta adecuadamente H1 y H2.
-
-**Puntaje sugerido: 0.8**
-
-### 6. Conclusiones
-
-- Conclusiones coherentes con hallazgos principales.
-- Incluye implicancias de política y límites.
-
-**Puntaje sugerido: 0.85**
-
-### 7. Prácticas Ciencia Abierta
-
-- Se declara preregistro en OSF y uso de repositorio.
-- La implementación queda parcial en consistencia de citación/documentación final.
-
-**Puntaje sugerido: 0.6**
-
-Comentario: Hay avances claros en apertura, pero se recomienda cerrar completamente enlaces y referencias reproducibles para cumplir el estándar esperado del curso.
-
-### 8. Formato del reporte
-
-- Estructura general correcta.
-- Se observan detalles de redacción, ortografía y consistencia formal.
-
-**Puntaje sugerido: 0.35**
-
-## Evaluación final
-
-**Nota final: 5.4**
-
-Comentario general: El trabajo cumple con la base analítica y responde la pregunta de investigación. Para mejorar su evaluación global, se recomienda fortalecer abstract, trazabilidad metodológica y cierre formal de prácticas de ciencia abierta.
+El trabajo cumple la base analítica y responde la pregunta de investigación con una estructura académica correcta. Su principal potencial de mejora está en reforzar el resumen inicial, afinar la trazabilidad metodológica y cerrar con mayor consistencia la dimensión de ciencia abierta. Con esos ajustes, el informe quedaría mucho más sólido en términos de reproducibilidad y comunicación.
