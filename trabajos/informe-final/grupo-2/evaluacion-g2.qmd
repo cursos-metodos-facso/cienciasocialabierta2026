@@ -1,5 +1,5 @@
 ---
-title: "Pauta de corrección - Trabajo 2"
+title: "Evaluación Grupo 2"
 lang: es
 number-sections: true
 ---
@@ -38,12 +38,16 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 - Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
 - No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
 
+Puntaje sugerido: 0.5
+
 ### 2. Introducción
 
 - Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
 - Contextualiza el estudio a partir de literatura previa pertinente.
 - Formula de manera clara el objetivo general del trabajo.
 - Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
+
+Puntaje sugerido: 1.0
 
 ### 3. Antecedentes
 
@@ -52,12 +56,16 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 - Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
 - Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
 
+Puntaje sugerido: 1.0
+
 ### 4. Hipótesis y Métodos
 
 - Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
 - Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
 - Especifica las variables consideradas y su operacionalización.
 - Justifica la pertinencia del método elegido para responder la pregunta de investigación.
+
+Puntaje sugerido: 1.0
 
 ### 5. Resultados
 
@@ -66,11 +74,17 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 - Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
 - Distingue entre resultados esperados y no esperados según la hipótesis.
 
+Puntaje sugerido: 1.0
+
 ### 6. Conclusiones
 
 - Presenta una conclusión coherente con la evidencia del reporte.
 - Distingue claramente fortalezas y debilidades de reproducibilidad.
 - Evita afirmaciones no respaldadas por el análisis.
+
+Puntaje sugerido: 0.9
+
+Comentario: Faltó un párrafo de síntesis general que permitiera dar un cierre a la investigación, pues parece más bien una síntesis de los resultados; además, no se explicita qué hipótesis fueron rechazadas y cuáles son respaldadas
 
 ### 7. Prácticas Ciencia Abierta
 
@@ -78,10 +92,20 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 - Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
 - Genera el pre-print de las hipótesis en la plataforma OSF.
 
+Puntaje sugerido: 1.0
 
-### Formato del reporte
+### 8. Formato del reporte
 
 - Redacción clara y estructura ordenada.
 - Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
 - Citas y referencias en formato académico consistente.
 - Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
+
+Puntaje sugerido: 0.4
+
+Comentario: faltas ortográficas a lo largo del informe, por ejemplo: erocion; coherte; timepo.
+
+## Evaluación final
+
+**Nota final: 6.8**
+

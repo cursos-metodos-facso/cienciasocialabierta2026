@@ -1,5 +1,5 @@
 ---
-title: "Pauta de corrección - Trabajo 2"
+title: "Evaluación Grupo 1"
 lang: es
 number-sections: true
 ---
@@ -85,3 +85,8 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 - Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
 - Citas y referencias en formato académico consistente.
 - Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
+
+error de reporte de resultados
+falta de antecedentes para respaldar el estudio en un marco sociologico
+
+hipotesis no se confirman

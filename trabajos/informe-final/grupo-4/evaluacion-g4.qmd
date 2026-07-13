@@ -1,5 +1,5 @@
 ---
-title: "Pauta de corrección - Trabajo 2"
+title: "Evaluación Grupo 4"
 lang: es
 number-sections: true
 ---
@@ -13,75 +13,35 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 | Sección | Puntaje máximo |
 |---|---:|
 | 1. Abtract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
+| 2. Tema y motivación | 0.5 |
+| 3. Preguntas e hipótesis | 0.5 |
+| 4. Datos abiertos | 0.5 |
+| 5. Protocolo de investigación | 1.0 |
+| 6. Prácticas Ciencia Abierta | 1.0 |
+| 7. Implementación reproducible | 1.0 |
 | **Total** | **7.0** |
 
-### Rúbrica de evaluación
 
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+## Evaluación
 
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---|---|---:|---:|---|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.45 | El abstract cumple satisfactoriamente con su propósito. Resume de gran manera la investigación, desde su relevancia, datos, métodos y resultados. Podría mejorar con una breve mención de los alcances y limitaciones del proyecto. |
+| **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.45 | Tema claramente definido y pertinente de una investigación social. Se presenta una justificación adecuada de la temática, dilucidando un fenómeno global de la contingencia política que es sometido a análisis en el contexto nacional. No se indica si es un trabajo inédito o previo. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.50 | Hipótesis claras en su formulación y pre-registradas en OSF. Se desprenden de los antecedentes presentados y aportan a cumplir los objetivos de la investigación. **Cumple completamente.** |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.50 | Utilizan la encuesta CEP N°95, la cual es de libre acceso. Se especifican los criterios y el tamaño muestrales; no se menciona dónde se almacenan los archivos, aunque se encuentra fácilmente al entrar al repositorio debido al uso del protocolo IPO. |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 1.00 | Protocolo muy detallado que describe diseño, variables (8 variables de caracterización e interés), criterios de selección y procedimiento de recodificación exhaustivo. Sigue estructura IPO clara. Código reproducible adjunto. **Cumple completamente.** |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 1.00 | La investigación cumple de gran manera con criterios de acceso, transparencia y reproducibilidad. El proyecto se encuentra alojado en GitHub con su respectivo deploy en GitHub Pages, además de haber pre-registrado las hipótesis del estudio en OSF. |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 1.00 | Formato Quarto Book con 8 capítulos. Código reproducible visible con opciones code-fold. Salidas gráficas regenerables y referenciadas. Uso de Zotero para la gestión y reproducibilidad de la bibliografía. Falta README técnico explícito, pero está implícito en la estructura del libro. |
+| **8. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 1.00 | No cuenta con pre-print. Opcional, así que no se quita puntaje |
+| **Subtotal** | | **6.0** | **5.90** | |
+| **Punto base** | | **1.0** | **1.00** | |
+| **Nota final** | | **7.0** | **6.90** | |
+: {tbl-colwidths="[13,22,5,6,54]"}
+:::
 
-## Criterios específicos por sección
+## Comentario general
 
-### 1. Abstract
+El informe destaca por un gran nivel de rigurosidad académica; los antecedentes fundamentan el problema de investigación y las hipótesis planteadas permiten dar una respuesta plausible. Además, el proyecto es altamente reproducible al contar con datos públicos accesibles, una buena documentación del procesamiento y posterior análisis de los datos y el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). Se recomienda: (1) explicitar el cierre de la investigación en el abstract (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En suma, el trabajo exhibe un cumplimiento satisfactorio de los criterios de ciencia abierta.
 
-- Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
-- No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
-
-### 2. Introducción
-
-- Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
-- Contextualiza el estudio a partir de literatura previa pertinente.
-- Formula de manera clara el objetivo general del trabajo.
-- Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
-
-### 3. Antecedentes
-
-- Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.
-- Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.
-- Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
-- Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
-
-### 4. Hipótesis y Métodos
-
-- Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
-- Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
-- Especifica las variables consideradas y su operacionalización.
-- Justifica la pertinencia del método elegido para responder la pregunta de investigación.
-
-### 5. Resultados
-
-- Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.
-- Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.
-- Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
-- Distingue entre resultados esperados y no esperados según la hipótesis.
-
-### 6. Conclusiones
-
-- Presenta una conclusión coherente con la evidencia del reporte.
-- Distingue claramente fortalezas y debilidades de reproducibilidad.
-- Evita afirmaciones no respaldadas por el análisis.
-
-### 7. Prácticas Ciencia Abierta
-
-- Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.
-- Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
-- Genera el pre-print de las hipótesis en la plataforma OSF.
-
-
-### Formato del reporte
-
-- Redacción clara y estructura ordenada.
-- Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
-- Citas y referencias en formato académico consistente.
-- Renderizado a html sin errores y con visualización adecuada de tablas y figuras.

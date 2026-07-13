@@ -13,108 +13,36 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 | Sección | Puntaje máximo |
 |---|---:|
 | 1. Abtract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
+| 2. Tema y motivación | 0.5 |
+| 3. Preguntas e hipótesis | 0.5 |
+| 4. Datos abiertos | 0.5 |
+| 5. Protocolo de investigación | 1.0 |
+| 6. Prácticas Ciencia Abierta | 1.0 |
+| 7. Implementación reproducible | 1.0 |
+| 8. Pre-print | 1.0 |
 | **Total** | **7.0** |
-
-### Rúbrica de evaluación
-
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
 
 
 ## Criterios específicos por sección
 
-### 1. Abstract
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---|---|---:|---:|---|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.40 | El abstract cumple con la mayoría de contenidos que supone tener este apartado. Sin embargo, se pasa por alto la problematización y/o relevancia inicial de la investigación y el reporte de resultados principales. |
+| **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.30 | A grandes rasgos, introducción y antecedentes están bien construidos. La revisión de literatura permite dar cuenta de algunas de las investigaciones más recientes y relevantes respecto al objeto de estudio, pero habría sido fructífero incluir un par de referencias más para robustecer lo planteado (sólo utilizaron 3). En segundo lugar, a lo largo del apartado se releva el consumo de noticias como factor asociado, pero no existe ninguna hipótesis que se desprenda de esto. Aquí generan un flanco que no cubren en su investigación. Como recomendación, procuren que los factores asociados a su objeto de estudio siempre tengan un lugar en el planteamiento de hipótesis; en caso de que esto no sea posible, busquen la manera de presentarlo como contexto de su investigación. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.45 | En general, están bien planteadas las hipótesis, se entiende lo que intentan demostrar. Ahora, considerar que en la hipótesis 1 mencionan la diferencia entre estatus subjetivo bajo, medio y alto, pero en la hipótesis nula solo del bajo y alto. Como recomendación, para futuros trabajos no es necesario que mencionen la hipótesis nula, ya que se entiende de manera implícita. |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.30 | Se utilizan datos de Latinobarómetro 2024, los cuales son de acceso abierto. Sin embargo, se presentan de manera superficial, sin mencionar los criterios de diseño muestral que se emplearon para la recolección de datos; tampoco se menciona la muestra efectiva ni la muestra analítica. Estos elementos son clave para comprender la composición de los datos que sustentan su investigación. |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.70 | Existe un protocolo de investigación orientado a describir el diseño y las principales decisiones de recodificación, pero hay detalles importantes que no se mencionan explícitamente. Por ejemplo, es necesario explicar que, como el estudio está centrado en Chile, tuvieron que aplicar un filtrado por el país; en la misma línea, dar a entender por qué decidieron aplicar una escala en vez de un índice. El proyecto sigue el formato IPO, lo que facilita la ubicación de archivos. Por último, habría sido provechoso que agregaran el código (con code-fold) en la sección donde se describen los procesos de operacionalización en términos de transparencia. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 1.00 | La investigación cumple de gran manera con criterios de acceso, transparencia y reproducibilidad. El proyecto se encuentra alojado en GitHub con su respectivo deploy en GitHub Pages, además de haber pre-registrado las hipótesis del estudio en OSF. |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.90 | Formato Quarto Book con 8 capítulos. Código reproducible comprobado al ejecutar el repositorio de manera local. Salidas gráficas regenerables. Uso de Zotero para la gestión y reproducibilidad de la bibliografía. Falta README técnico, pero está implícito en la estructura del libro. Por último, el documento presenta faltas ortográficas leves, pero que le restan rigurosidad al escrito. |
+| **8. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 1.00 | No cuenta con pre-print. Opcional, así que no se quita puntaje. |
+| **Subtotal** | | **6.0** | **5.05** | |
+| **Punto base** | | **1.0** | **1.00** | |
+| **Nota final** | | **7.0** | **6.05** | |
+: {tbl-colwidths="[13,22,5,6,54]"}
+:::
 
-- Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
-- No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
+## Comentario general
 
-**Puntaje sugerido: 0.5**
+El trabajo demuestra la realización de una investigación utilizando de gran manera recursos de ciencia abierta. El proyecto es altamente reproducible al contar con una estructura ordenada de carpetas y la posibilidad de comprobar la ejecución de scripts de manera local. Además, cuenta con el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). No obstante, existen falencias en los antecedentes y el protocolo de investigación que obstaculizan tener el conocimiento completo del análisis. Como recomendaciones generales: (1) registrar las decisiones más importantes de procesamiento de sus datos en la sección de métodos (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En síntesis, este informe constituye un buen insumo para la investigación social abierta. 
 
-### 2. Introducción
-
-- Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
-- Contextualiza el estudio a partir de literatura previa pertinente.
-- Formula de manera clara el objetivo general del trabajo.
-- Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
-
-**Puntaje sugerido: 1.0**
-
-### 3. Antecedentes
-
-- Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.
-- Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.
-- Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
-- Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
-
-**Puntaje sugerido: 0.7**
-
-Comentario: A grandes rasgos, los antecedentes están bien construidos. La revisión de literatura permite dar cuenta de algunas de las investigaciones más recientes y relevantes respecto al objeto de estudio, pero habría sido fructífero incluir un par de referencias más para robustecer lo planteado (sólo utilizaron 3). En segundo lugar, a lo largo del apartado se releva el consumo de noticias como factor asociado, pero no existe ninguna hipótesis que se desprenda de esto. Aquí generan un flanco que no cubren en su investigación. Como recomendación, procuren que los factores asociados a su objeto de estudio siempre tengan un lugar en el planteamiento de hipótesis; en caso de que esto no sea posible, busquen la manera de presentarlo en los antecedentes explicitando su rol secundario en la investigación.
-
-### 4. Hipótesis y Métodos
-
-- Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
-- Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
-- Especifica las variables consideradas y su operacionalización.
-- Justifica la pertinencia del método elegido para responder la pregunta de investigación.
-
-**Puntaje sugerido: 0.8**
-
-Comentario: En general, buen apartado; solo dos consideraciones: 
-
-- (1) En la hipótesis 1 mencionan la diferencia entre estatus subjetivo bajo, medio y alto, pero en la hipótesis nula solo del bajo y alto. Para futuros trabajos no es necesario que mencionen la hipótesis nula, ya que se entiende de manera implícita 
-
-- (2) No queda claro cómo se reagrupan las categorías de respuesta de estatus social subjetivo para la recodificación en tres categorías; esto tiene que estar explícito en el informe más allá de que esté disponible el procesamiento, ya que son decisiones fundamentales sobre sus variables de interés
-
-### 5. Resultados
-
-- Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.
-- Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.
-- Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
-- Distingue entre resultados esperados y no esperados según la hipótesis.
-
-**Puntaje sugerido: 1.0**
-
-### 6. Conclusiones
-
-- Presenta una conclusión coherente con la evidencia del reporte.
-- Distingue claramente fortalezas y debilidades de reproducibilidad.
-- Evita afirmaciones no respaldadas por el análisis.
-
-**Puntaje sugerido: 0.9**
-
-Comentario: Las limitaciones y aportes deben ir en este apartado, no en resultados
-
-### 7. Prácticas Ciencia Abierta
-
-- Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.
-- Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
-- Genera el pre-print de las hipótesis en la plataforma OSF.
-
-**Puntaje sugerido: 1.0**
-
-### 8. Formato del reporte
-
-- Redacción clara y estructura ordenada.
-- Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
-- Citas y referencias en formato académico consistente.
-- Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
-
-**Puntaje sugerido: 0.4**
-
-Comentario: El informe presenta faltas de ortografía como falta de tildes y repetición de letras en palabras que le restan calidad al escrito. 
-
-## Evaluación final
-
-**Nota final: 6.3**
-
-Comentario general: En términos generales, el trabajo cumple con los objetivos esperados. Se presenta una investigación sociológica realizada en un marco de ciencia abierta, la cual cuenta con elementos de transparencia, acceso y reproducibilidad. A pesar de que el trabajo presenta debilidades en algunos apartados, estas no son determinantes, y por sobre todo, este informe constituye un buen insumo para la investigación social abierta. 

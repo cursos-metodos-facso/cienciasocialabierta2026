@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,14 +33,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../files/logo.png" rel="icon" type="image/png">
 <script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-f444981237ef2c2da2ea7c76384b50c6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-5df54514c0e00397a20b0409eab6ab00.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -57,7 +58,7 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sin resultados",
+    "search-no-results-text": "No se han encontrado resultados",
     "search-matching-documents-text": "documentos encontrados",
     "search-copy-link-title": "Copiar el enlace en la búsqueda",
     "search-hide-matches-text": "Ocultar resultados adicionales",
@@ -86,6 +87,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ciencia Social Abierta</span>
     </a>
@@ -144,22 +147,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#puntaje-y-rúbrica" id="toc-puntaje-y-rúbrica" class="nav-link active" data-scroll-target="#puntaje-y-rúbrica"><span class="header-section-number">1</span> Puntaje y rúbrica</a>
-  <ul class="collapse">
-  <li><a href="#rúbrica-de-evaluación" id="toc-rúbrica-de-evaluación" class="nav-link" data-scroll-target="#rúbrica-de-evaluación"><span class="header-section-number">1.1</span> Rúbrica de evaluación</a></li>
-  </ul></li>
-  <li><a href="#criterios-específicos-por-sección" id="toc-criterios-específicos-por-sección" class="nav-link" data-scroll-target="#criterios-específicos-por-sección"><span class="header-section-number">2</span> Criterios específicos por sección</a>
-  <ul class="collapse">
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract"><span class="header-section-number">2.1</span> 1. Abstract</a></li>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link" data-scroll-target="#introducción"><span class="header-section-number">2.2</span> 2. Introducción</a></li>
-  <li><a href="#antecedentes" id="toc-antecedentes" class="nav-link" data-scroll-target="#antecedentes"><span class="header-section-number">2.3</span> 3. Antecedentes</a></li>
-  <li><a href="#hipótesis-y-métodos" id="toc-hipótesis-y-métodos" class="nav-link" data-scroll-target="#hipótesis-y-métodos"><span class="header-section-number">2.4</span> 4. Hipótesis y Métodos</a></li>
-  <li><a href="#resultados" id="toc-resultados" class="nav-link" data-scroll-target="#resultados"><span class="header-section-number">2.5</span> 5. Resultados</a></li>
-  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones"><span class="header-section-number">2.6</span> 6. Conclusiones</a></li>
-  <li><a href="#prácticas-ciencia-abierta" id="toc-prácticas-ciencia-abierta" class="nav-link" data-scroll-target="#prácticas-ciencia-abierta"><span class="header-section-number">2.7</span> 7. Prácticas Ciencia Abierta</a></li>
-  <li><a href="#formato-del-reporte" id="toc-formato-del-reporte" class="nav-link" data-scroll-target="#formato-del-reporte"><span class="header-section-number">2.8</span> 8. Formato del reporte</a></li>
-  </ul></li>
-  <li><a href="#evaluación-final" id="toc-evaluación-final" class="nav-link" data-scroll-target="#evaluación-final"><span class="header-section-number">3</span> Evaluación final</a></li>
+  <li><a href="#puntaje-y-rúbrica" id="toc-puntaje-y-rúbrica" class="nav-link active" data-scroll-target="#puntaje-y-rúbrica"><span class="header-section-number">1</span> Puntaje y rúbrica</a></li>
+  <li><a href="#criterios-específicos-por-sección" id="toc-criterios-específicos-por-sección" class="nav-link" data-scroll-target="#criterios-específicos-por-sección"><span class="header-section-number">2</span> Criterios específicos por sección</a></li>
+  <li><a href="#comentario-general" id="toc-comentario-general" class="nav-link" data-scroll-target="#comentario-general"><span class="header-section-number">3</span> Comentario general</a></li>
   </ul>
 </nav>
     </div>
@@ -202,32 +192,32 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: right;">0.5</td>
 </tr>
 <tr class="even">
-<td>2. Introducción</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="odd">
-<td>3. Antecedentes</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="even">
-<td>4. Hipótesis y Métodos</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="odd">
-<td>5. Resultados</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="even">
-<td>6. Conclusiones</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="odd">
-<td>7. Prácticas Ciencia Abierta</td>
-<td style="text-align: right;">1.0</td>
-</tr>
-<tr class="even">
-<td>8. Formato del reporte</td>
+<td>2. Tema y motivación</td>
 <td style="text-align: right;">0.5</td>
+</tr>
+<tr class="odd">
+<td>3. Preguntas e hipótesis</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr class="even">
+<td>4. Datos abiertos</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr class="odd">
+<td>5. Protocolo de investigación</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr class="even">
+<td>6. Prácticas Ciencia Abierta</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr class="odd">
+<td>7. Implementación reproducible</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr class="even">
+<td>8. Pre-print</td>
+<td style="text-align: right;">1.0</td>
 </tr>
 <tr class="odd">
 <td><strong>Total</strong></td>
@@ -235,141 +225,112 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<section id="rúbrica-de-evaluación" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="rúbrica-de-evaluación"><span class="header-section-number">1.1</span> Rúbrica de evaluación</h3>
+</section>
+<section id="criterios-específicos-por-sección" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="criterios-específicos-por-sección"><span class="header-section-number">2</span> Criterios específicos por sección</h2>
+<div style="overflow-x: auto;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 21%">
-<col style="width: 28%">
-<col style="width: 28%">
+<col style="width: 13%">
+<col style="width: 22%">
+<col style="width: 5%">
+<col style="width: 6%">
+<col style="width: 54%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nivel</th>
-<th>Descripción general</th>
-<th style="text-align: right;">Puntaje si el ítem vale 0.5</th>
-<th style="text-align: right;">Puntaje si el ítem vale 1.0</th>
+<th>Sección</th>
+<th>Criterios</th>
+<th style="text-align: right;">Máx.</th>
+<th style="text-align: right;">Obtenido</th>
+<th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Insuficiente</td>
-<td>No cumple o cumple de forma muy parcial</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
+<td><strong>1. Abstract</strong></td>
+<td>Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales.</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.40</td>
+<td>El abstract cumple con la mayoría de contenidos que supone tener este apartado. Sin embargo, se pasa por alto la problematización y/o relevancia inicial de la investigación y el reporte de resultados principales.</td>
 </tr>
 <tr class="even">
-<td>Básico</td>
-<td>Cumple parcialmente, con vacíos importantes</td>
-<td style="text-align: right;">0.25</td>
-<td style="text-align: right;">0.50</td>
+<td><strong>2. Tema y motivación</strong></td>
+<td>Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo.</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.30</td>
+<td>A grandes rasgos, introducción y antecedentes están bien construidos. La revisión de literatura permite dar cuenta de algunas de las investigaciones más recientes y relevantes respecto al objeto de estudio, pero habría sido fructífero incluir un par de referencias más para robustecer lo planteado (sólo utilizaron 3). En segundo lugar, a lo largo del apartado se releva el consumo de noticias como factor asociado, pero no existe ninguna hipótesis que se desprenda de esto. Aquí generan un flanco que no cubren en su investigación. Como recomendación, procuren que los factores asociados a su objeto de estudio siempre tengan un lugar en el planteamiento de hipótesis; en caso de que esto no sea posible, busquen la manera de presentarlo como contexto de su investigación.</td>
 </tr>
 <tr class="odd">
-<td>Sobresaliente</td>
-<td>Cumple completamente, con claridad y evidencia</td>
-<td style="text-align: right;">0.50</td>
+<td><strong>3. Preguntas e hipótesis</strong></td>
+<td>Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal.</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.45</td>
+<td>En general, están bien planteadas las hipótesis, se entiende lo que intentan demostrar. Ahora, considerar que en la hipótesis 1 mencionan la diferencia entre estatus subjetivo bajo, medio y alto, pero en la hipótesis nula solo del bajo y alto. Como recomendación, para futuros trabajos no es necesario que mencionen la hipótesis nula, ya que se entiende de manera implícita.</td>
+</tr>
+<tr class="even">
+<td><strong>4. Datos abiertos</strong></td>
+<td>Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos.</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.30</td>
+<td>Se utilizan datos de Latinobarómetro 2024, los cuales son de acceso abierto. Sin embargo, se presentan de manera superficial, sin mencionar los criterios de diseño muestral que se emplearon para la recolección de datos; tampoco se menciona la muestra efectiva ni la muestra analítica. Estos elementos son clave para comprender la composición de los datos que sustentan su investigación.</td>
+</tr>
+<tr class="odd">
+<td><strong>5. Protocolo de investigación</strong></td>
+<td>Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente.</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.70</td>
+<td>Existe un protocolo de investigación orientado a describir el diseño y las principales decisiones de recodificación, pero hay detalles importantes que no se mencionan explícitamente. Por ejemplo, es necesario explicar que, como el estudio está centrado en Chile, tuvieron que aplicar un filtrado por el país; en la misma línea, dar a entender por qué decidieron aplicar una escala en vez de un índice. El proyecto sigue el formato IPO, lo que facilita la ubicación de archivos. Por último, habría sido provechoso que agregaran el código (con code-fold) en la sección donde se describen los procesos de operacionalización en términos de transparencia.</td>
+</tr>
+<tr class="even">
+<td><strong>6. Prácticas de ciencia abierta</strong></td>
+<td>Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos.</td>
+<td style="text-align: right;">1.0</td>
 <td style="text-align: right;">1.00</td>
+<td>La investigación cumple de gran manera con criterios de acceso, transparencia y reproducibilidad. El proyecto se encuentra alojado en GitHub con su respectivo deploy en GitHub Pages, además de haber pre-registrado las hipótesis del estudio en OSF.</td>
+</tr>
+<tr class="odd">
+<td><strong>7. Implementación reproducible</strong></td>
+<td>Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados.</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">0.90</td>
+<td>Formato Quarto Book con 8 capítulos. Código reproducible comprobado al ejecutar el repositorio de manera local. Salidas gráficas regenerables. Uso de Zotero para la gestión y reproducibilidad de la bibliografía. Falta README técnico, pero está implícito en la estructura del libro. Por último, el documento presenta faltas ortográficas leves, pero que le restan rigurosidad al escrito.</td>
+</tr>
+<tr class="even">
+<td><strong>8. Preprint</strong></td>
+<td>Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones.</td>
+<td style="text-align: right;">1.0</td>
+<td style="text-align: right;">1.00</td>
+<td>No cuenta con pre-print. Opcional, así que no se quita puntaje.</td>
+</tr>
+<tr class="odd">
+<td><strong>Subtotal</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>6.0</strong></td>
+<td style="text-align: right;"><strong>5.05</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Punto base</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>1.0</strong></td>
+<td style="text-align: right;"><strong>1.00</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Nota final</strong></td>
+<td></td>
+<td style="text-align: right;"><strong>7.0</strong></td>
+<td style="text-align: right;"><strong>6.05</strong></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+</div>
 </section>
-</section>
-<section id="criterios-específicos-por-sección" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="criterios-específicos-por-sección"><span class="header-section-number">2</span> Criterios específicos por sección</h2>
-<section id="abstract" class="level3" data-number="2.1">
-<h3 data-number="2.1" class="anchored" data-anchor-id="abstract"><span class="header-section-number">2.1</span> 1. Abstract</h3>
-<ul>
-<li>Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.</li>
-<li>No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.</li>
-</ul>
-<p><strong>Puntaje sugerido: 0.5</strong></p>
-</section>
-<section id="introducción" class="level3" data-number="2.2">
-<h3 data-number="2.2" class="anchored" data-anchor-id="introducción"><span class="header-section-number">2.2</span> 2. Introducción</h3>
-<ul>
-<li>Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.</li>
-<li>Contextualiza el estudio a partir de literatura previa pertinente.</li>
-<li>Formula de manera clara el objetivo general del trabajo.</li>
-<li>Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).</li>
-</ul>
-<p><strong>Puntaje sugerido: 1.0</strong></p>
-</section>
-<section id="antecedentes" class="level3" data-number="2.3">
-<h3 data-number="2.3" class="anchored" data-anchor-id="antecedentes"><span class="header-section-number">2.3</span> 3. Antecedentes</h3>
-<ul>
-<li>Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.</li>
-<li>Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.</li>
-<li>Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.</li>
-<li>Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.</li>
-</ul>
-<p><strong>Puntaje sugerido: 0.7</strong></p>
-<p>Comentario: A grandes rasgos, los antecedentes están bien construidos. La revisión de literatura permite dar cuenta de algunas de las investigaciones más recientes y relevantes respecto al objeto de estudio, pero habría sido fructífero incluir un par de referencias más para robustecer lo planteado (sólo utilizaron 3). En segundo lugar, a lo largo del apartado se releva el consumo de noticias como factor asociado, pero no existe ninguna hipótesis que se desprenda de esto. Aquí generan un flanco que no cubren en su investigación. Como recomendación, procuren que los factores asociados a su objeto de estudio siempre tengan un lugar en el planteamiento de hipótesis; en caso de que esto no sea posible, busquen la manera de presentarlo en los antecedentes explicitando su rol secundario en la investigación.</p>
-</section>
-<section id="hipótesis-y-métodos" class="level3" data-number="2.4">
-<h3 data-number="2.4" class="anchored" data-anchor-id="hipótesis-y-métodos"><span class="header-section-number">2.4</span> 4. Hipótesis y Métodos</h3>
-<ul>
-<li>Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.</li>
-<li>Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.</li>
-<li>Especifica las variables consideradas y su operacionalización.</li>
-<li>Justifica la pertinencia del método elegido para responder la pregunta de investigación.</li>
-</ul>
-<p><strong>Puntaje sugerido: 0.8</strong></p>
-<p>Comentario: En general, buen apartado; solo dos consideraciones:</p>
-<ul>
-<li><ol type="1">
-<li>En la hipótesis 1 mencionan la diferencia entre estatus subjetivo bajo, medio y alto, pero en la hipótesis nula solo del bajo y alto. Para futuros trabajos no es necesario que mencionen la hipótesis nula, ya que se entiende de manera implícita</li>
-</ol></li>
-<li><ol start="2" type="1">
-<li>No queda claro cómo se reagrupan las categorías de respuesta de estatus social subjetivo para la recodificación en tres categorías; esto tiene que estar explícito en el informe más allá de que esté disponible el procesamiento, ya que son decisiones fundamentales sobre sus variables de interés</li>
-</ol></li>
-</ul>
-</section>
-<section id="resultados" class="level3" data-number="2.5">
-<h3 data-number="2.5" class="anchored" data-anchor-id="resultados"><span class="header-section-number">2.5</span> 5. Resultados</h3>
-<ul>
-<li>Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.</li>
-<li>Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.</li>
-<li>Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).</li>
-<li>Distingue entre resultados esperados y no esperados según la hipótesis.</li>
-</ul>
-<p><strong>Puntaje sugerido: 1.0</strong></p>
-</section>
-<section id="conclusiones" class="level3" data-number="2.6">
-<h3 data-number="2.6" class="anchored" data-anchor-id="conclusiones"><span class="header-section-number">2.6</span> 6. Conclusiones</h3>
-<ul>
-<li>Presenta una conclusión coherente con la evidencia del reporte.</li>
-<li>Distingue claramente fortalezas y debilidades de reproducibilidad.</li>
-<li>Evita afirmaciones no respaldadas por el análisis.</li>
-</ul>
-<p><strong>Puntaje sugerido: 0.9</strong></p>
-<p>Comentario: Las limitaciones y aportes deben ir en este apartado, no en resultados</p>
-</section>
-<section id="prácticas-ciencia-abierta" class="level3" data-number="2.7">
-<h3 data-number="2.7" class="anchored" data-anchor-id="prácticas-ciencia-abierta"><span class="header-section-number">2.7</span> 7. Prácticas Ciencia Abierta</h3>
-<ul>
-<li>Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.</li>
-<li>Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).</li>
-<li>Genera el pre-print de las hipótesis en la plataforma OSF.</li>
-</ul>
-<p><strong>Puntaje sugerido: 1.0</strong></p>
-</section>
-<section id="formato-del-reporte" class="level3" data-number="2.8">
-<h3 data-number="2.8" class="anchored" data-anchor-id="formato-del-reporte"><span class="header-section-number">2.8</span> 8. Formato del reporte</h3>
-<ul>
-<li>Redacción clara y estructura ordenada.</li>
-<li>Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.</li>
-<li>Citas y referencias en formato académico consistente.</li>
-<li>Renderizado a html sin errores y con visualización adecuada de tablas y figuras.</li>
-</ul>
-<p><strong>Puntaje sugerido: 0.4</strong></p>
-<p>Comentario: El informe presenta faltas de ortografía como falta de tildes y repetición de letras en palabras que le restan calidad al escrito.</p>
-</section>
-</section>
-<section id="evaluación-final" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="evaluación-final"><span class="header-section-number">3</span> Evaluación final</h2>
-<p><strong>Nota final: 6.3</strong></p>
-<p>Comentario general: En términos generales, el trabajo cumple con los objetivos esperados. Se presenta una investigación sociológica realizada en un marco de ciencia abierta, la cual cuenta con elementos de transparencia, acceso y reproducibilidad. A pesar de que el trabajo presenta debilidades en algunos apartados, estas no son determinantes, y por sobre todo, este informe constituye un buen insumo para la investigación social abierta.</p>
+<section id="comentario-general" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="comentario-general"><span class="header-section-number">3</span> Comentario general</h2>
+<p>El trabajo demuestra la realización de una investigación utilizando de gran manera recursos de ciencia abierta. El proyecto es altamente reproducible al contar con una estructura ordenada de carpetas y la posibilidad de comprobar la ejecución de scripts de manera local. Además, cuenta con el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). No obstante, existen falencias en los antecedentes y el protocolo de investigación que obstaculizan tener el conocimiento completo del análisis. Como recomendaciones generales: (1) registrar las decisiones más importantes de procesamiento de sus datos en la sección de métodos (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En síntesis, este informe constituye un buen insumo para la investigación social abierta.</p>
 
 
 </section>
@@ -426,13 +387,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
