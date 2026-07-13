@@ -17,9 +17,9 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 | 3. Preguntas e hipótesis | 0.5 |
 | 4. Datos abiertos | 0.5 |
 | 5. Protocolo de investigación | 1.0 |
-| 6. Prácticas Ciencia Abierta | 1.0 |
-| 7. Implementación reproducible | 1.0 |
-| 8. Pre-print | 1.0 |
+| 6. Prácticas Ciencia Abierta | 1.5 |
+| 7. Implementación reproducible | 1.5 |
+| 8. Pre-print (bonus) | 0.5 |
 | **Total** | **7.0** |
 
 

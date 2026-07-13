@@ -228,7 +228,7 @@
     "href": "trabajos/informe-final/grupo-5/evaluacion-g5.html#puntaje-y-rúbrica",
     "title": "Evaluación Grupo 5",
     "section": "1 Puntaje y rúbrica",
-    "text": "1 Puntaje y rúbrica\nLa evaluación se realiza sobre un total de 7 puntos, sin punto base.\n\n\n\nSección\nPuntaje máximo\n\n\n\n\n1. Abtract\n0.5\n\n\n2. Tema y motivación\n0.5\n\n\n3. Preguntas e hipótesis\n0.5\n\n\n4. Datos abiertos\n0.5\n\n\n5. Protocolo de investigación\n1.0\n\n\n6. Prácticas Ciencia Abierta\n1.0\n\n\n7. Implementación reproducible\n1.0\n\n\n8. Pre-print\n1.0\n\n\nTotal\n7.0"
+    "text": "1 Puntaje y rúbrica\nLa evaluación se realiza sobre un total de 7 puntos, sin punto base.\n\n\n\nSección\nPuntaje máximo\n\n\n\n\n1. Abtract\n0.5\n\n\n2. Tema y motivación\n0.5\n\n\n3. Preguntas e hipótesis\n0.5\n\n\n4. Datos abiertos\n0.5\n\n\n5. Protocolo de investigación\n1.0\n\n\n6. Prácticas Ciencia Abierta\n1.5\n\n\n7. Implementación reproducible\n1.5\n\n\n8. Pre-print (bonus)\n0.5\n\n\nTotal\n7.0"
   },
   {
     "objectID": "trabajos/informe-final/grupo-5/evaluacion-g5.html#criterios-específicos-por-sección",
@@ -243,5 +243,26 @@
     "title": "Evaluación Grupo 5",
     "section": "3 Comentario general",
     "text": "3 Comentario general\nEl trabajo demuestra la realización de una investigación utilizando de gran manera recursos de ciencia abierta. El proyecto es altamente reproducible al contar con una estructura ordenada de carpetas y la posibilidad de comprobar la ejecución de scripts de manera local. Además, cuenta con el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). No obstante, existen falencias en los antecedentes y el protocolo de investigación que obstaculizan tener el conocimiento completo del análisis. Como recomendaciones generales: (1) registrar las decisiones más importantes de procesamiento de sus datos en la sección de métodos (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En síntesis, este informe constituye un buen insumo para la investigación social abierta."
+  },
+  {
+    "objectID": "trabajos/pauta-correccion-informe2.html",
+    "href": "trabajos/pauta-correccion-informe2.html",
+    "title": "Pauta de corrección - Trabajo 2",
+    "section": "",
+    "text": "Esta pauta se aplica al Trabajo 2: Informe final."
+  },
+  {
+    "objectID": "trabajos/pauta-correccion-informe2.html#puntaje-y-rúbrica",
+    "href": "trabajos/pauta-correccion-informe2.html#puntaje-y-rúbrica",
+    "title": "Pauta de corrección - Trabajo 2",
+    "section": "1 Puntaje y rúbrica",
+    "text": "1 Puntaje y rúbrica\nLa evaluación se realiza sobre un total de 7 puntos, sin punto base.\n\n\n\nSección\nPuntaje máximo\n\n\n\n\n1. Abtract\n0.5\n\n\n2. Tema y motivación\n0.5\n\n\n3. Preguntas e hipótesis\n0.5\n\n\n4. Datos abiertos\n0.5\n\n\n5. Protocolo de investigación\n1.0\n\n\n6. Prácticas Ciencia Abierta\n1.5\n\n\n7. Implementación reproducible\n1.5\n\n\n8. Pre-print (bonus)\n0.5\n\n\nTotal\n7.0\n\n\n\n\n1.1 Rúbrica de evaluación\n\n\n\n\n\n\n\n\n\nNivel\nDescripción general\nPuntaje si el ítem vale 0.5\nPuntaje si el ítem vale 1.0\n\n\n\n\nInsuficiente\nNo cumple o cumple de forma muy parcial\n0.00\n0.00\n\n\nBásico\nCumple parcialmente, con vacíos importantes\n0.25\n0.50\n\n\nSobresaliente\nCumple completamente, con claridad y evidencia\n0.50\n1.00"
+  },
+  {
+    "objectID": "trabajos/pauta-correccion-informe2.html#criterios-específicos-por-sección",
+    "href": "trabajos/pauta-correccion-informe2.html#criterios-específicos-por-sección",
+    "title": "Pauta de corrección - Trabajo 2",
+    "section": "2 Criterios específicos por sección",
+    "text": "2 Criterios específicos por sección\n\n\n\n\n\n\n\n\nSección\nCriterios\nMáx.\n\n\n\n\n1. Abstract\nResume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales.\n0.5\n\n\n2. Tema y motivación\nTema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo.\n0.5\n\n\n3. Preguntas e hipótesis\nAl menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal.\n0.5\n\n\n4. Datos abiertos\nUtiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos.\n0.5\n\n\n5. Protocolo de investigación\nDescribe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente.\n1.0\n\n\n6. Prácticas de ciencia abierta\nProyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos.\n1.5\n\n\n7. Implementación reproducible\nReporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados.\n1.5\n\n\n8. Preprint (bonus)\nExiste preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones.\n0.5"
   }
 ]

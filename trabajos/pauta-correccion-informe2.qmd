@@ -13,13 +13,13 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 | Sección | Puntaje máximo |
 |---|---:|
 | 1. Abtract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
+| 2. Tema y motivación | 0.5 |
+| 3. Preguntas e hipótesis | 0.5 |
+| 4. Datos abiertos | 0.5 |
+| 5. Protocolo de investigación | 1.0 |
+| 6. Prácticas Ciencia Abierta | 1.5 |
+| 7. Implementación reproducible | 1.5 |
+| 8. Pre-print (bonus) | 0.5 |
 | **Total** | **7.0** |
 
 ### Rúbrica de evaluación
@@ -33,55 +33,13 @@ La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
 
 ## Criterios específicos por sección
 
-### 1. Abstract
-
-- Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
-- No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
-
-### 2. Introducción
-
-- Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
-- Contextualiza el estudio a partir de literatura previa pertinente.
-- Formula de manera clara el objetivo general del trabajo.
-- Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
-
-### 3. Antecedentes
-
-- Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.
-- Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.
-- Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
-- Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
-
-### 4. Hipótesis y Métodos
-
-- Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
-- Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
-- Especifica las variables consideradas y su operacionalización.
-- Justifica la pertinencia del método elegido para responder la pregunta de investigación.
-
-### 5. Resultados
-
-- Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.
-- Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.
-- Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
-- Distingue entre resultados esperados y no esperados según la hipótesis.
-
-### 6. Conclusiones
-
-- Presenta una conclusión coherente con la evidencia del reporte.
-- Distingue claramente fortalezas y debilidades de reproducibilidad.
-- Evita afirmaciones no respaldadas por el análisis.
-
-### 7. Prácticas Ciencia Abierta
-
-- Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.
-- Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
-- Genera el pre-print de las hipótesis en la plataforma OSF.
-
-
-### 8. Formato del reporte
-
-- Redacción clara y estructura ordenada.
-- Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
-- Citas y referencias en formato académico consistente.
-- Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
+| Sección | Criterios | Máx. |
+|---|---|---:|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 |
+| **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.5 |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.5 |
+| **8. Preprint (bonus)** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 0.5 |
