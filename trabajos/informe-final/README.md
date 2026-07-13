@@ -1,10 +1,3 @@
----
-title: "Informe Final - Links a HTML"
-format:
-  html:
-    embed-resources: true
----
-
 # Informe Final - Links a HTML
 
 Este directorio reúne las evaluaciones renderizadas en HTML para los grupos del informe final.

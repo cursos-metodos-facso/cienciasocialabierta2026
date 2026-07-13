@@ -119,6 +119,23 @@ El objetivo de este trabajo es que los estudiantes apliquen los conceptos de cie
 
 8.  Implementación reproducible: Desarrollar el reporte final como un Quarto Book desplegado en un repositorio público, con instrucciones claras para reproducir el análisis y regenerar los resultados.
 
+## Grupos y repositorios de entrega
+
+En la siguiente tabla se indican los grupos asignados para el Trabajo 2 (Informe final), sus respectivos repositorios de entrega en GitHub y, cuando corresponde, el enlace a GitHub Pages.
+
+| Grupo | Repositorio de entrega | GitHub Pages | Integrantes |
+|------------------------|------------------------|------------------------|------------------------|
+| Grupo 1 | Repositorio por confirmar | - | \- Bianca Balmaceda<br>- Joaquín Núñez<br>- Amalia Santa |
+| Grupo 2 | [Repositorio Grupo 2](https://github.com/x0czz/cohesion-vertical) | [Informe Grupo 2](https://x0czz.github.io/cohesion-vertical/) | \- Nicolás Outerbridge<br>- Vicente Rojas |
+| Grupo 3 | Repositorio por confirmar | - | \- Josefina Bustos<br>- Benjamín Casacuberta |
+| Grupo 4 | [Repositorio Grupo 4](https://github.com/pipoowo/CSA-Trabajo2) | [Informe Grupo 4](https://pipoowo.github.io/CSA-Trabajo2/docs/) | \- Elisa Calderón<br>- Valentina Montecinos<br>- Amalia Tsukame<br>- Felipe Vega |
+| Grupo 5 | Repositorio por confirmar | - | \- Amaranta González<br>- Amanda Rojo<br>- Elena Yáñez |
+| Grupo 6 | [Repositorio Grupo 6](https://github.com/renatodeluca/evaluacion-final-grupo-6) | [Informe Grupo 6](https://renatodeluca.github.io/evaluacion-final-grupo-6/) | \- Benjamín Belmar<br>- Renato De Luca<br>- Maite Julian<br>- Bastián Martín |
+| Grupo 7 | [Repositorio Grupo 7](https://github.com/Sebagarz/trabajo-2-grupo-7) | [Informe Grupo 7](https://sebagarz.github.io/trabajo-2-grupo-7/) | \- Juan Gutiérrez<br>- Eduardo Ortiz<br>- Catalina Parra |
+| Grupo 8 | [Repositorio Grupo 8](https://github.com/ElSenorDeLasMoscas/reporte-abierto-cuech) | [Informe Grupo 8](https://elsenordelasmoscas.github.io/reporte-abierto-cuech/) | \- Cristóbal Merchan |
+| Grupo 9 | [Repositorio Grupo 9](https://github.com/Fran1129/Trabajo-2) | [Informe Grupo 9](https://fran1129.github.io/Trabajo-2/) | \- Violeta Mansilla<br>- Francisca Osorio<br>- Martina Soto |
+| Grupo 10 | [Repositorio Grupo 10](https://github.com/dariobriceno-uch/reporte-conflicto-democracia) | [Informe Grupo 10](https://dariobriceno-uch.github.io/reporte-conflicto-democracia/) | \- Darío Briceño |
+
 
 
 

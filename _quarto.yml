@@ -13,6 +13,9 @@ project:
     - "!trabajos/informe1/grupo8/**"
     - "!trabajos/informe1/grupo9/**"
     - "!trabajos/informe1/template-correccion-trabajo1.qmd"
+    - "!trabajos/informe-final/**"
+    - "trabajos/informe-final/informe-final.qmd"
+    - "!trabajos/revision-cruzada/**"
     - "!slides/"
     - "!files/templates/*.qmd"
   resources:

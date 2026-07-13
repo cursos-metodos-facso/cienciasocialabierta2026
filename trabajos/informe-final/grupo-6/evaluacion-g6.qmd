@@ -6,106 +6,30 @@ number-sections: true
 
 Esta pauta se aplica al **Trabajo 2: Informe final**.
 
-## Puntaje y rúbrica
+## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
-| Sección | Puntaje máximo |
-|---|---:|
-| 1. Abstract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
-| **Total** | **7.0** |
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---|---|---:|---:|---|
+| **1. Introducción** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.45 | Abstract bien estructurado que resume eficientemente el problema (carga de cuidados en adultos mayores), estrategia (correlaciones a partir de II ENUT), y hallazgos centrales con estadísticos precisos. La síntesis es clara y cubre los elementos solicitados. Podría mejorar con una breve línea sobre los alcances y límites del proyecto abierto. |
+| **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.45 | Tema claramente definido (relación entre carga de cuidados y bienestar en adultos mayores) con buena pertinencia social. Justificación adecuada desde perspectiva de género y relevancia en contexto chileno. Indica claramente que es adaptación de trabajo previo. Se sugiere profundizar en la declaración de independencia frente al proyecto original. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.50 | Tres hipótesis claras, coherentes y pre-registradas en OSF. Formulación académica precisa. Están bien contextualizadas en el problema de investigación. **Cumple completamente.** |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.50 | Usa II ENUT 2023 (datos públicos del INE), con descripción detallada del origen, procedimiento de acceso, licencia implícita (datos gubernamentales públicos) y período de recolección. Especifica tamaño muestral y ubicación de archivos. **Cumple completamente.** |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.95 | Protocolo muy detallado que describe diseño (muestreo probabilístico con filtrado de adultos mayores), variables (8 variables de caracterización e interés), criterios de selección y procedimiento de recodificación exhaustivo. Sigue estructura IPO clara. Código reproducible adjunto. Muy buen nivel. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 0.70 | Proyecto registrado en OSF con hipótesis pre-registradas y acceso público. Repositorio disponible en GitHub con estructura reproducible. No cuenta con preprint (grupo indica que no fue posible por participación de terceros). Falta documentación exhaustiva de materiales en OSF. |
+| **7. Preprint** | Existe preprint del trabajo final disponible públicamente. Versión pública del manuscrito disponible antes o al momento de entrega. Identificador y acceso sin restricciones. | 1.0 | 0.00 | No existe preprint. El grupo reporta que no fue posible por restricciones de propiedad intelectual derivadas de participación de otros investigadores. Este criterio **no se cumple.** |
+| **8. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.95 | Quarto Book con 8 capítulos desplegado en GitHub Pages funcional. Código reproducible visible con opciones code-fold. Salidas gráficas regenerables. Falta README técnico explícito, pero está implícito en la estructura del libro. |
+| **Subtotal** | | **6.0** | **4.50** | |
+| **Punto base** | | **1.0** | **1.00** | |
+| **Nota final** | | **7.0** | **5.50** | |
 
-### Rúbrica de evaluación
+: {tbl-colwidths="[13,22,5,6,54]"}
+:::
 
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+## Comentario general
 
-## Criterios específicos por sección
+El informe del Grupo 6 es técnicamente sólido con una base metodológica muy bien documentada y datos públicos accesibles. Las hipótesis están pre-registradas y los resultados son presentados con claridad, incluyendo análisis desagregado por género que pone en evidencia desigualdades relevantes. Los principales puntos de mejora son: (1) la ausencia de preprint (limitación externa reconocida); (2) incluir una declaración explícita sobre los alcances y límites del proyecto abierto en la introducción; (3) documentar exhaustivamente en OSF todos los protocolos y materiales de análisis; y (4) desarrollar un archivo README técnico explícito para facilitar reproducibilidad futura. En conjunto, es un trabajo que cumple efectivamente con los criterios de ciencia abierta en sus dimensiones reproducibles y de transparencia metodológica, aunque con limitaciones en la difusión pública formal (preprint).
 
-### 1. Abstract
 
-- Resume problema, método y hallazgos centrales con buena cobertura.
-- Presenta resultados cuantitativos e interpretación general.
-
-**Puntaje sugerido: 0.5**
-
-### 2. Introducción
-
-- Introducción clara y pertinente al problema de envejecimiento y cuidados.
-- Objetivo general y específicos bien explicitados.
-- Buena justificación social del tema.
-
-**Puntaje sugerido: 0.9**
-
-Comentario: La introducción está bien articulada y contextualiza de forma consistente. Como mejora, conviene pulir redacción y algunas frases extensas para ganar precisión argumentativa.
-
-### 3. Antecedentes
-
-- Cobertura temática amplia y relevante para el objeto de estudio.
-- Articula envejecimiento, género y cuidado no remunerado.
-- Identifica brechas y necesidad de investigación.
-
-**Puntaje sugerido: 0.8**
-
-Comentario: El apartado es sólido, pero se observan referencias con clave incompleta y algunos pasajes descriptivos que podrían integrarse mejor con la pregunta de investigación.
-
-### 4. Hipótesis y Métodos
-
-- Hipótesis claras y coherentes con el problema.
-- Métodos detallados, con trazabilidad de variables y procesamiento.
-- Estructura IPO correctamente descrita.
-
-**Puntaje sugerido: 0.9**
-
-Comentario: Muy buen nivel de detalle metodológico. Se recomienda sintetizar parte del bloque técnico para equilibrar extensión entre capítulos.
-
-### 5. Resultados
-
-- Resultados claros, con figuras pertinentes y discusión de significancia.
-- Contraste explícito de hipótesis con evidencia empírica.
-- Presentación robusta de submuestras por sexo.
-
-**Puntaje sugerido: 0.9**
-
-Comentario: La sección presenta buena evidencia y lectura sustantiva. Puede mejorar separando con mayor nitidez resultado descriptivo y comentario interpretativo.
-
-### 6. Conclusiones
-
-- Conclusiones consistentes con los hallazgos reportados.
-- Incluye proyecciones e implicancias para investigación futura.
-
-**Puntaje sugerido: 0.9**
-
-### 7. Prácticas Ciencia Abierta
-
-- Incluye preregistro OSF y repositorio público.
-- Se explicita la limitación respecto del preprint.
-- Hay estructura reproducible y documentación de insumos.
-
-**Puntaje sugerido: 0.75**
-
-Comentario: Buen estándar de transparencia metodológica. La sección baja puntaje por no contar con preprint y por quedar algunos elementos abiertos para completar en difusión final.
-
-### 8. Formato del reporte
-
-- Estructura general correcta y navegación funcional.
-- Render en formato libro con salidas visibles.
-- Se observan detalles de estilo/ortografía a corregir.
-
-**Puntaje sugerido: 0.4**
-
-## Evaluación final
-
-**Nota final: 6.1**
-
-Comentario general: Informe consistente y técnicamente bien trabajado, con una muy buena base metodológica y resultados claros. Para subir de nivel, se sugiere fortalecer la edición final del texto, depurar referencias y cerrar completamente los productos de apertura (especialmente preprint).
