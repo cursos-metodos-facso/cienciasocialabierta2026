@@ -4,111 +4,30 @@ lang: es
 number-sections: true
 ---
 
-Esta pauta se aplica al **Trabajo 2: Informe final**. 
+Esta pauta se aplica al **Trabajo 2: Informe final**.
 
-## Puntaje y rúbrica
+## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
+La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
-| Sección | Puntaje máximo |
-|---|---:|
-| 1. Abtract | 0.5 |
-| 2. Introducción | 1.0 |
-| 3. Antecedentes | 1.0 |
-| 4. Hipótesis y Métodos | 1.0 |
-| 5. Resultados | 1.0 |
-| 6. Conclusiones | 1.0 |
-| 7. Prácticas Ciencia Abierta | 1.0 |
-| 8. Formato del reporte | 0.5 |
-| **Total** | **7.0** |
+::: {style="overflow-x: auto;"}
+| Sección | Criterios | Máx. | Obtenido | Comentarios |
+|---------------|---------------|--------------:|--------------:|---------------|
+| **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.3 | El abstract es bastante sintético, lo que no permite dar cuenta de todos los elementos centrales de la investigación. Por ejemplo, no se introduce la problemática y/o relevancia de la investigación, y además falta mencionar la base de datos con la cual trabajan. |
+| **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.45 | Los apartados que respaldan teórica y empíricamente la investigación cumplen su propósito. No obstante, habría sido ideal ahondar un poco más especialmente en los factores asociados, donde cada uno de ellos es justificado con sólo una frase dentro del último párrafo de antecedentes. |
+| **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.45 | Las hipótesis se desprenden de los antecedentes previamente presentados. En general, están bien planteadas. Solamente aclarar que las hipótesis de investigación no deben contener adjetivos tales como: *un aumento drástico* ($H_{3}$). |
+| **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.5 | Se utiliza ELSOC, la cual es una base de datos que cuenta con acceso abierto. Se explica de buena manera el diseño muestral implementado en el estudio, la ola que utilizan y el N que contiene la ola a analizar. |
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 1.0 | El apartado metodológico explica de buena manera las variables a utilizar junto con su respectiva operacionalización. Sin embargo, en el apartado de resultados no se presenta el modelo en el cual se basa la interpretación de tal sección. Esto constituye un problema en cuanto a la reproducibilidad debido a la imposibilidad de regenerar el output que presenta los hallazgos (modelo de regresión). Como sugerencia, los resultados siempre deben ir acompañados de su respectiva figura, incluso puede ir en la sección de anexos, pero la ausencia de esto le resta rigurosidad y reproducibilidad a la investigación. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.5 | 0.75 | Las hipótesis señaladas en el pre-registro son distintas a las del informe, perdiendo el sentido del pre-registro en sí mismo. Además, se señala causalidad cuando el método empleado en el análisis permite descubrir asociaciones, pero no efectos causales. Se recomienda aplicar uniformidad a sus investigaciones, esto es, mantener una sola línea en cómo se plantean sus preguntas, hipótesis y argumentos. Además, tener claridad del alcance que les permiten los métodos empleados en cuanto a la interpretación de resultados (por ejemplo: descripción, inferencia, causalidad). |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.5 | 1.0 | El trabajo está construido en un Quarto Book de 8 capítulos. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. No obstante, el hecho de que la tabla principal de resultados no esté disponible le resta reproducibilidad a la investigación. |
+| **8. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 0.5 | 0 | No se generó pre-print. |
+| **Subtotal** |  | **6.0** | **4.45** |  |
+| **Punto base** |  | **1.0** | **1.00** |  |
+| **Nota final** |  | **7.0** | **5.45** |  |
 
-### Rúbrica de evaluación
+: {tbl-colwidths="\[13,22,5,6,54\]"}
+:::
 
-| Nivel | Descripción general | Puntaje si el ítem vale 0.5 | Puntaje si el ítem vale 1.0 |
-|---|---|---:|---:|
-| Insuficiente | No cumple o cumple de forma muy parcial | 0.00 | 0.00 |
-| Básico | Cumple parcialmente, con vacíos importantes | 0.25 | 0.50 |
-| Sobresaliente | Cumple completamente, con claridad y evidencia | 0.50 | 1.00 |
+## Comentario general
 
-
-## Criterios específicos por sección
-
-### 1. Abstract
-
-- Resume de forma concisa el problema de investigación, la metodología y los principales hallazgos.
-- No incluye citas, referencias ni información que no aparezca en el cuerpo del reporte.
-
-Puntaje sugerido: 0.4
-
-Comentario: Faltó la base de datos con la cual trabajan
-
-### 2. Introducción
-
-- Presenta el problema de investigación y su relevancia dentro del área de las ciencias sociales.
-- Contextualiza el estudio a partir de literatura previa pertinente.
-- Formula de manera clara el objetivo general del trabajo.
-- Explicita el aporte o justificación del estudio (por qué es necesario realizarlo).
-
-Puntaje sugerido: 0.9
-
-### 3. Antecedentes
-
-- Sintetiza el estado del arte a partir de fuentes académicas relevantes y actualizadas.
-- Organiza la literatura de forma coherente (temática, cronológica o teórica) y no como un listado de resúmenes aislados.
-- Identifica vacíos o problemas no resueltos en la literatura que motivan el estudio.
-- Vincula explícitamente los antecedentes con la pregunta o hipótesis del trabajo.
-
-Puntaje sugerido: 0.9
-
-### 4. Hipótesis y Métodos
-
-- Formula hipótesis claras, coherentes con el marco teórico y contrastables empíricamente.
-- Describe el diseño del estudio (tipo de muestra, instrumentos, procedimientos) con suficiente detalle para su reproducibilidad.
-- Especifica las variables consideradas y su operacionalización.
-- Justifica la pertinencia del método elegido para responder la pregunta de investigación.
-
-Puntaje sugerido: 1.0
-
-### 5. Resultados
-
-- Presenta los resultados de forma clara, organizada y en coherencia con los objetivos/hipótesis planteados.
-- Utiliza tablas y/o figuras pertinentes, correctamente etiquetadas y referenciadas en el texto.
-- Reporta los análisis estadísticos o cualitativos de manera precisa, sin interpretación (la interpretación corresponde a Conclusiones).
-- Distingue entre resultados esperados y no esperados según la hipótesis.
-
-Puntaje sugerido: 0.2
-
-### 6. Conclusiones
-
-- Presenta una conclusión coherente con la evidencia del reporte.
-- Distingue claramente fortalezas y debilidades de reproducibilidad.
-- Evita afirmaciones no respaldadas por el análisis.
-
-Puntaje sugerido: 1.0
-
-### 7. Prácticas Ciencia Abierta
-
-- Proporciona acceso a los datos y/o código utilizados, o justifica explícitamente las restricciones de acceso.
-- Aplica las herramientas enseñadas a lo largo del curso (especialmente Zotero y GitHub Pages).
-- Genera el pre-print de las hipótesis en la plataforma OSF.
-
-Puntaje sugerido: 0.7
-
-Comentario: las hipótesis señaladas en el pre-registro son distintas a las del informe, perdiendo el sentido del pre-registro en sí mismo. Además, se señala causalidad cuando el método empleado en el análisis permite descubrir asociaciones, pero no efectos causales
-
-### 8. Formato del reporte
-
-- Redacción clara y estructura ordenada.
-- Repositorio organizado con archivos y carpetas de acuerdo al formato IPO (Input-Process-Output) y a la plantilla de reporte.
-- Citas y referencias en formato académico consistente.
-- Renderizado a html sin errores y con visualización adecuada de tablas y figuras.
-
-Puntaje sugerido: 0.4
-
-Comentario: faltas ortográficas
-
-## Evaluación final
-
-**Nota final: 5.5**
-
-Comentario general:
+La investigación da cuenta de la implementación de diversos recursos que permiten un alto nivel de apertura, pero presenta faltas importantes en la transparencia y la reproducibilidad. El hecho de pre-registrar hipótesis distintas a las que están en su investigación podría entenderse como manipulación de los planteamientos post análisis de resultados, restándole transparencia. Por otro lado, la falta del modelo que presenta los resultados obstaculiza la reproducción de los análisis. Si bien, queda claro que el proyecto promueve la investigación social abierta, los elementos mencionados dificultan un cumplimiento total de la reproducibilidad. En suma, es una buena investigación en términos temáticos, pero que requiere de ajustes importantes para alcanzar los objetivos esperados.

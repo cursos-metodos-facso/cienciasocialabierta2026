@@ -4,45 +4,30 @@ lang: es
 number-sections: true
 ---
 
-Esta pauta se aplica al **Trabajo 2: Informe final**. 
+Esta pauta se aplica al **Trabajo 2: Informe final**.
 
-## Puntaje y rúbrica
+## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **7 puntos**, sin punto base.
-
-| Sección | Puntaje máximo |
-|---|---:|
-| 1. Abtract | 0.5 |
-| 2. Tema y motivación | 0.5 |
-| 3. Preguntas e hipótesis | 0.5 |
-| 4. Datos abiertos | 0.5 |
-| 5. Protocolo de investigación | 1.0 |
-| 6. Prácticas Ciencia Abierta | 1.5 |
-| 7. Implementación reproducible | 1.5 |
-| 8. Pre-print (bonus) | 0.5 |
-| **Total** | **7.0** |
-
-
-## Criterios específicos por sección
+La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
 ::: {style="overflow-x: auto;"}
 | Sección | Criterios | Máx. | Obtenido | Comentarios |
-|---|---|---:|---:|---|
+|---------------|---------------|--------------:|--------------:|---------------|
 | **1. Abstract** | Resume problema de investigación, contexto teórico mínimo y estrategia empírica. Discute los alcances y límites del proyecto abierto. Síntesis clara de resultados principales. | 0.5 | 0.40 | El abstract cumple con la mayoría de contenidos que supone tener este apartado. Sin embargo, se pasa por alto la problematización y/o relevancia inicial de la investigación y el reporte de resultados principales. |
 | **2. Tema y motivación** | Tema de interés claramente definido dentro de las ciencias sociales. Justificación adecuada de la elección y relevancia. Indica si es un proyecto nuevo o adaptación de trabajo previo. | 0.5 | 0.30 | A grandes rasgos, introducción y antecedentes están bien construidos. La revisión de literatura permite dar cuenta de algunas de las investigaciones más recientes y relevantes respecto al objeto de estudio, pero habría sido fructífero incluir un par de referencias más para robustecer lo planteado (sólo utilizaron 3). En segundo lugar, a lo largo del apartado se releva el consumo de noticias como factor asociado, pero no existe ninguna hipótesis que se desprenda de esto. Aquí generan un flanco que no cubren en su investigación. Como recomendación, procuren que los factores asociados a su objeto de estudio siempre tengan un lugar en el planteamiento de hipótesis; en caso de que esto no sea posible, busquen la manera de presentarlo como contexto de su investigación. |
 | **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.45 | En general, están bien planteadas las hipótesis, se entiende lo que intentan demostrar. Ahora, considerar que en la hipótesis 1 mencionan la diferencia entre estatus subjetivo bajo, medio y alto, pero en la hipótesis nula solo del bajo y alto. Como recomendación, para futuros trabajos no es necesario que mencionen la hipótesis nula, ya que se entiende de manera implícita. |
 | **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.30 | Se utilizan datos de Latinobarómetro 2024, los cuales son de acceso abierto. Sin embargo, se presentan de manera superficial, sin mencionar los criterios de diseño muestral que se emplearon para la recolección de datos; tampoco se menciona la muestra efectiva ni la muestra analítica. Estos elementos son clave para comprender la composición de los datos que sustentan su investigación. |
-| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.70 | Existe un protocolo de investigación orientado a describir el diseño y las principales decisiones de recodificación, pero hay detalles importantes que no se mencionan explícitamente. Por ejemplo, es necesario explicar que, como el estudio está centrado en Chile, tuvieron que aplicar un filtrado por el país; en la misma línea, dar a entender por qué decidieron aplicar una escala en vez de un índice. El proyecto sigue el formato IPO, lo que facilita la ubicación de archivos. Por último, habría sido provechoso que agregaran el código (con code-fold) en la sección donde se describen los procesos de operacionalización en términos de transparencia. |
-| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 1.00 | La investigación cumple de gran manera con criterios de acceso, transparencia y reproducibilidad. El proyecto se encuentra alojado en GitHub con su respectivo deploy en GitHub Pages, además de haber pre-registrado las hipótesis del estudio en OSF. |
-| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.90 | Formato Quarto Book con 8 capítulos. Código reproducible comprobado al ejecutar el repositorio de manera local. Salidas gráficas regenerables. Uso de Zotero para la gestión y reproducibilidad de la bibliografía. Falta README técnico, pero está implícito en la estructura del libro. Por último, el documento presenta faltas ortográficas leves, pero que le restan rigurosidad al escrito. |
-| **8. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 1.00 | No cuenta con pre-print. Opcional, así que no se quita puntaje. |
-| **Subtotal** | | **6.0** | **5.05** | |
-| **Punto base** | | **1.0** | **1.00** | |
-| **Nota final** | | **7.0** | **6.05** | |
-: {tbl-colwidths="[13,22,5,6,54]"}
+| **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.75 | Existe un protocolo de investigación orientado a describir el diseño y las principales decisiones de recodificación, pero hay detalles importantes que no se mencionan explícitamente. Por ejemplo, es necesario explicar que, como el estudio está centrado en Chile, tuvieron que aplicar un filtrado por el país; en la misma línea, dar a entender por qué decidieron aplicar una escala en vez de un índice. El proyecto sigue el formato IPO, lo que facilita la ubicación de archivos. Por último, habría sido provechoso que agregaran el código (con code-fold) en la sección donde se describen los procesos de operacionalización en términos de transparencia. |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.5 | 1.5 | La investigación cumple de gran manera con criterios de acceso, transparencia y reproducibilidad. El proyecto se encuentra alojado en GitHub con su respectivo deploy en GitHub Pages, además de haber pre-registrado las hipótesis del estudio en OSF junto con los detalles principales de la investigación. |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.5 | 1.4 | Formato Quarto Book con 8 capítulos. Código reproducible comprobado al ejecutar el repositorio de manera local. Salidas gráficas regenerables. Uso de Zotero para la gestión y reproducibilidad de la bibliografía. Falta README técnico, pero está implícito en la estructura del libro. Por último, el documento presenta faltas ortográficas leves, pero que le restan rigurosidad al escrito. |
+| **8. Preprint (bonus)** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 0.5 | 0 | No cuenta con pre-print. |
+| **Subtotal** |  | **6.0** | **5.1** |  |
+| **Punto base** |  | **1.0** | **1.00** |  |
+| **Nota final** |  | **7.0** | **6.1** |  |
+
+: {tbl-colwidths="\[13,22,5,6,54\]"}
 :::
 
 ## Comentario general
 
-El trabajo demuestra la realización de una investigación utilizando de gran manera recursos de ciencia abierta. El proyecto es altamente reproducible al contar con una estructura ordenada de carpetas y la posibilidad de comprobar la ejecución de scripts de manera local. Además, cuenta con el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). No obstante, existen falencias en los antecedentes y el protocolo de investigación que obstaculizan tener el conocimiento completo del análisis. Como recomendaciones generales: (1) registrar las decisiones más importantes de procesamiento de sus datos en la sección de métodos (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En síntesis, este informe constituye un buen insumo para la investigación social abierta. 
-
+El trabajo demuestra la realización de una investigación utilizando de gran manera recursos de ciencia abierta. El proyecto es altamente reproducible al contar con una estructura ordenada de carpetas y la posibilidad de comprobar la ejecución de scripts de manera local. Además, cuenta con el despliegue del proyecto en diversas plataformas orientadas a la ciencia abierta (GitHub y OSF). No obstante, existen falencias en los antecedentes y el protocolo de investigación que obstaculizan tener el conocimiento completo del análisis. Como recomendaciones generales: (1) registrar las decisiones más importantes de procesamiento de sus datos en la sección de métodos (2) fortalecer la documentación técnica del repositorio dentro de un READme más detallado. En síntesis, este informe constituye un buen insumo para la investigación social abierta.
