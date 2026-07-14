@@ -2,23 +2,10 @@ project:
   type: website
   output-dir: docs
   render:
-    - "*.qmd"
-    - "trabajos/*.qmd"
-    - "trabajos/informe1/*.qmd"
-    - "trabajos/informe1/**/*.qmd"
-    - "!trabajos/informe1/grupo2/**"
-    - "!trabajos/informe1/grupo4/**"
-    - "!trabajos/informe1/grupo5/**"
-    - "!trabajos/informe1/grupo6/**"
-    - "!trabajos/informe1/grupo8/**"
-    - "!trabajos/informe1/grupo9/**"
-    - "!trabajos/informe1/template-correccion-trabajo1.qmd"
     - "trabajos/informe-final/informe-final.qmd"
     - "trabajos/informe-final/grupo-*/evaluacion-g*.qmd"
     - "!trabajos/informe-final/grupo-*/*/**"
     - "!trabajos/revision-cruzada/**"
-    - "!slides/"
-    - "!files/templates/*.qmd"
   resources:
     - "files/"
     - "projects/"

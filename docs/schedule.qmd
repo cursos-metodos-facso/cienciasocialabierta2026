@@ -1,0 +1,47 @@
+---
+title: "Planificación"
+sidebar: false
+toc: false
+page-layout: full
+---
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+## Forma general de funcionamiento
+
+Este curso se compone de tres actividades principales a la semana:
+
+-   <i class="fas fa-chalkboard-teacher"></i> [**Clases lectivas presenciales**](): los jueves de 14:30 a 16:00 en Sala 345, donde en base a las lecturas correspondientes a esa semana se presentará un resumen de los contenidos principales y se resolverán dudas.
+
+-   <i class="fas fa-user-edit"></i> [**Talleres prácticos**](): jueves seguido a las clases lectivas, de 16:15 a 17:45 en la misma sala.
+
+-   <i class="fas fa-book-reader"></i> [**Lecturas**](): cada sesión lectiva tiene una lectura obligatoria asignada a la semana, la que se encuentra a disposición en esta página.
+
+<br>
+
+| Fecha | <i class="fas fa-chalkboard-teacher"></i> Contenidos | <i class="fas fa-user-edit"></i> Prácticas y evaluaciones | <i class="fas fa-book-reader"></i> Lecturas y links |
+|------|------------------------------------------------------|-----------------------------------------------------------|----------------------------------------------------|
+| <font color="orange">**MARZO**</font> |  |  |  |
+| 12 | [**1. Presentación**](https://cienciasocialabierta.netlify.app/content/01-content)<br>- Programa y forma de trabajo<br>- La crisis de la ciencia cerrada | [Película Paywall](https://amara.org/en/videos/nTk5qVME6PP7/es/2350702/) | [Nosek et al. (2015)](https://doi.org/10.1126/science.aab2374)<br><br>[Iordanou et al. (2026)](https://www.springerprofessional.de/en/trust-in-science/52136648)<br><br>[Soliman et al. (2025)](https://link.springer.com/article/10.1007/s41471-025-00218-5) |
+| 19 | [**2. Ciencia Abierta y Reproducibilidad**](https://cienciasocialabierta.netlify.app/content/02-content) | Taller VSC | [Nassi-Calo (2014)](http://blog.scielo.org/es/2014/02/27/la-reproducibilidad-en-los-resultados-de-investigacion-la-punta-del-iceberg/)<br><br>[Fardella et al. (2020)](https://atheneadigital.net/article/view/v20-1-fardela-carriel-lazcano-et-al)<br><br>[Christensen et al. cap 2](https://2021-cienciasocialabierta.netlify.app/docs/CAP2%20Christensen%20et%20al%20(2019)%20Transparent%20and%20Reproducible%20Social%20Science%20Research.pdf)<br><br>[Kyriazos & Poga (2026)](https://link.springer.com/article/10.3758/s13428-025-02920-y) |
+| 26 | [**3. Citas en texto plano**](https://cienciasocialabierta.netlify.app/content/03-content) | Zotero, Bibtex y Betterbibtex | [Zotero](https://www.zotero.org/) |
+| <font color="orange">**ABRIL**</font> |  |  |  |
+| 2 | [**4. Documentos dinámicos: Markdown, RMarkdown & Quarto**](https://cienciasocialabierta.netlify.app/assignment/03-practico)<br>- Presentación<br>- Pauta evaluación 1 | [Markdown](/assignment/02-code)<br>[RMarkdown/Knitr]() | [Healey (2019)](https://plain-text.co/)<br><br>[Introducción a Markdown](http://rusersgroup.com/blog/rmarkdown)<br><br>[Lenguaje reproducible](https://juancarloscastillo.github.io/in-socabi/lenguaje-reproducible.html)<br><br>[Bowers & Voors (2016)](https://scielo.conicyt.cl/pdf/revcipol/v36n3/art11.pdf)<br><br>[Hoja referencia RMarkdown](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-spanish.pdf) |
+| 9 | **5. Informe de avance** |  |  |
+| 16 | [**6. Control de versiones: Git & Github**](https://cienciasocialabierta.netlify.app/content/04-content) |  | [Git](https://git-scm.com/)<br><br>[Github](https://github.com/) |
+| 23 | [**7. Flujo de trabajo reproducible / Protocolo IPO**](https://cienciasocialabierta.netlify.app/content/05-content) | Plantilla IPO<br>Rutas relativas | [IPO](https://juancarloscastillo.github.io/ipo/)<br><br>[TIER](https://www.projecttier.org/) |
+| 30 | **8. Asesorías trabajos** | <font color="red">**Entrega informe 1<br>(04 de mayo)**</font> |  |
+| <font color="orange">**MAYO**</font> |  |  |  |
+| 07 | ~~**9. Github Pages**~~ (Paro) |  | [Github Pages](https://pages.github.com/) |
+| 14 | ~~**10. Quarto Websites y Quarto Book**~~ (Paro) |  |  |
+| 21 | **FERIADO / Semana de receso** |  |  |
+| 28 | [**11. Repaso GitHub Pages**](https://cienciasocialabierta.netlify.app/content/06-content) / [**Pre-registros y pre-prints**](https://cienciasocialabierta.netlify.app/content/07-content)<br>- Comentarios entrega 1<br>- Pauta evaluación 2 | [OSF](https://osf.io/)<br>[SocArXiv](https://socopen.org/) | [García-Garzón et al. (2018)](/docs/ciencia_abierta_psicologia.pdf)<br><br>[Yamada (2018)](https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01831/full) |
+| <font color="orange">**JUNIO**</font> |  |  |  |
+| 04 | [**12. Quarto Website y Quarto Book**](https://cienciasocialabierta.netlify.app/assignment/07-practico) |  |  |
+| 11 | [**13. Datos abiertos, acceso y publicación**](https://cienciasocialabierta.netlify.app/content/08-content) | Asesoría informe 2 |  |
+| 18 | **14. Presentaciones en Quarto**  | Asesoría informe 2 |  |
+| 25 |  | <font color="red">**Entrega informe 2**</font> |  |
