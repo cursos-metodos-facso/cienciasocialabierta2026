@@ -8,7 +8,7 @@ Esta pauta se aplica al **Trabajo 2: Informe final**.
 
 ## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
+La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**. Además, el pre-print cumple como puntaje de bonificación de 0.5 décimas para los grupos que lo hayan realizado.
 
 ::: {style="overflow-x: auto;"}
 | Sección | Criterios | Máx. | Obtenido | Comentarios |
