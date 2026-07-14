@@ -2,10 +2,14 @@ project:
   type: website
   output-dir: docs
   render:
-    - "trabajos/informe-final/informe-final.qmd"
-    - "trabajos/informe-final/grupo-*/evaluacion-g*.qmd"
+    - "**/*.qmd"
+    - "!docs/**"
+    - "!_freeze/**"
+    - "!files/templates/*.qmd"
+    - "!assignment/data/pres-ejemplo.qmd"
+    - "!assignment/pres-ejemplo/**"
+    - "!trabajos/informe1/grupo*/**"
     - "!trabajos/informe-final/grupo-*/*/**"
-    - "!trabajos/revision-cruzada/**"
   resources:
     - "files/"
     - "projects/"
