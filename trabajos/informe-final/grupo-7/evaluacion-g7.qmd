@@ -2,13 +2,14 @@
 title: "Evaluación Grupo 7"
 lang: es
 number-sections: true
+editor: visual
 ---
 
 Esta pauta se aplica al **Trabajo 2: Informe final**.
 
 ## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
+La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
 ::: {style="overflow-x: auto;"}
 | Sección | Criterios | Máx. | Obtenido | Comentarios |
@@ -18,11 +19,9 @@ La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**,
 | **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.50 | Hipótesis bien formuladas y coherentes con el objeto de estudio. Se aprecia una secuencia lógica entre pregunta, hipótesis y estrategia analítica. Conviene dejar aún más visible el momento y alcance del pre-registro dentro del flujo del manuscrito. |
 | **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.50 | El uso de datos abiertos está bien justificado y documentado. El origen de los datos y el acceso están claros. Como mejora menor, podría reforzarse la descripción operativa del procedimiento de descarga y organización de insumos. |
 | **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.90 | El protocolo está bien armado y permite seguir el flujo general del análisis. La estructura metodológica es comprensible y consistente. |
-| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 0.75 | El proyecto muestra avances claros en apertura en términos de código y documentación. Se adjunta link al preregistro, pero en el OSF el proyecto se encuentra vacío. |
-| **7. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 0.80 | No se observa un preprint formal, pero sí una versión pública del manuscrito y del proyecto en línea. Si no hay pre-print como establece la pauta, corresponde justificación para tener el puntaje completo. |
-| **8. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.95 | El reporte está bien estructurado y desplegado, con una base reproducible clara. Los scripts de preparación y análisis corren bien. |
-| **Subtotal** |  | **6.0** | **5.40** |  |
-| **Punto base** |  | **1.0** | **1.00** |  |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.5 | 1.10 | El proyecto muestra avances claros en apertura en términos de código y documentación. Se adjunta link al preregistro, pero en el OSF el proyecto se encuentra vacío. |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.5 | 1.40 | El reporte está bien estructurado y desplegado, con una base reproducible clara. Los scripts de preparación y análisis corren bien. |
+| **8. Preprint (bonus)** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 0.5 | 0.20 | No se observa un preprint formal, pero sí una versión pública del manuscrito y del proyecto en línea. La ausencia de preprint formal reduce este bonus, aunque existe una justificación de publicación pública. |
 | **Nota final** |  | **7.0** | **6.40** |  |
 
 : {tbl-colwidths="\[13,22,5,6,54\]"}
@@ -30,4 +29,4 @@ La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**,
 
 ## Comentario general
 
-El informe del Grupo 7 presenta una estructura sólida, con hipótesis bien delimitadas, una metodología comprensible y una ejecución analítica consistente. Si bien no es algo central en la evaluación de este curso, se recomienda que los resultados hagan uso de tablas y gráficos, que en este reporte están ausentes. El trabajo gana mucho por su claridad argumental y por el esfuerzo de apertura metodológica. Como mejoras concretas, conviene reforzar la visibilidad del preregistro.
+El informe del Grupo 7 presenta una estructura sólida, con hipótesis bien delimitadas, una metodología comprensible y una ejecución analítica consistente. Si bien no es algo central en la evaluación de este curso, se recomienda que los resultados hagan uso de tablas y gráficos, que en este reporte están ausentes. El trabajo gana mucho por su claridad argumental y por el esfuerzo de apertura metodológica. Como mejoras concretas, conviene reforzar la visibilidad del preregistro y consolidar la publicación de un preprint formal. **Bonus preprint: No.**

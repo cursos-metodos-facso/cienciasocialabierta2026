@@ -2,13 +2,14 @@
 title: "Evaluación Grupo 8"
 lang: es
 number-sections: true
+editor: visual
 ---
 
 Esta pauta se aplica al **Trabajo 2: Informe final**.
 
 ## Puntaje, rúbrica y evaluación
 
-La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
+La evaluación se realiza sobre **6 puntos**, más **1 punto base**, para un total de **7 puntos**.
 
 ::: {style="overflow-x: auto;"}
 | Sección | Criterios | Máx. | Obtenido | Comentarios |
@@ -18,16 +19,14 @@ La evaluación se realiza sobre un total de **6 puntos**, más **1 punto base**,
 | **3. Preguntas e hipótesis** | Al menos dos hipótesis de investigación claramente formuladas. Hipótesis son coherentes con el problema y objeto de estudio. Se indica pre-registro de hipótesis antes del análisis principal. | 0.5 | 0.45 | Las hipótesis son precisas y se articulan bien con el objeto empírico. Hay coherencia entre planteamiento, análisis y resultados esperados. El preregistro está bien incorporado, aunque puede destacarse con mayor visibilidad en el hilo narrativo. |
 | **4. Datos abiertos** | Utiliza datos abiertos o públicamente accesibles. Especifica con precisión origen, licencia y condiciones de acceso. Describe procedimiento para obtener los datos. | 0.5 | 0.45 | El uso de datos abiertos está muy bien justificado, con referencias claras al origen y a las condiciones de acceso. La trazabilidad de los insumos es buena. La documentación del acceso podría quedar todavía un poco más operativa. |
 | **5. Protocolo de investigación** | Describe diseño del estudio, variables y criterios de selección/filtrado. Flujo completo de análisis es reproducible. Sigue estructura IPO (entrada, proceso, salida) o equivalente. | 1.0 | 0.85 | El protocolo está bien estructurado y la ruta analítica es fácil de seguir. La reproducibilidad general está bien resuelta. Como ajuste menor, conviene sintetizar algunos tramos para mejorar la lectura continua. |
-| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.0 | 0.85 | Hay una práctica de apertura muy robusta, con componentes de transparencia bien visibles. La documentación de insumos y del proceso está alineada con el estándar del curso. Puede fortalecerse un poco más la integración entre documentación y publicación final. |
-| **7. Preprint** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 1.0 | 0.50 | No aparece un preprint formal, pero sí existe una versión pública del trabajo y del repositorio que permite seguir la producción. La ausencia del preprint baja este criterio, aunque el nivel de apertura general sigue siendo alto. |
-| **8. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.0 | 0.30 | El reporte es sólido en su despliegue, pero la documentación técnica puede fortalecerse para que la replicación completa sea más directa. Aquí se concentra el principal espacio de mejora. |
-| **Subtotal** |  | **6.0** | **4.35** |  |
-| **Punto base** |  | **1.0** | **1.00** |  |
-| **Nota final** |  | **7.0** | **5.35** |  |
+| **6. Prácticas de ciencia abierta** | Proyecto registrado en OSF con documentación clara. Protocolo, hipótesis pre-registradas y materiales relevantes disponibles. Transparencia metodológica y accesibilidad de insumos. | 1.5 | 1.25 | Hay una práctica de apertura muy robusta, con componentes de transparencia bien visibles. La documentación de insumos y del proceso está alineada con el estándar del curso. Puede fortalecerse un poco más la integración entre documentación y publicación final. |
+| **7. Implementación reproducible** | Reporte final desarrollado como Quarto Book. Desplegado en repositorio público. Instrucciones claras para reproducir análisis y regenerar resultados. | 1.5 | 0.45 | El reporte es sólido en su despliegue, pero la documentación técnica puede fortalecerse para que la replicación completa sea más directa. Aquí se concentra el principal espacio de mejora. |
+| **8. Preprint (bonus)** | Existe preprint del trabajo final disponible públicamente (o justificación en caso de no existir). Versión pública del manuscrito disponible antes o al momento de entrega (por ejemplo, en github pages). Identificador y acceso sin restricciones. | 0.5 | 0.10 | No aparece un preprint formal, pero sí existe una versión pública del trabajo y del repositorio que permite seguir la producción. La ausencia de preprint deja este bonus en nivel mínimo. |
+| **Nota final** |  | **7.0** | **5.40** |  |
 
 : {tbl-colwidths="\[13,22,5,6,54\]"}
 :::
 
 ## Comentario general
 
-El Grupo 8 presenta un trabajo de muy buen nivel, con una formulación clara del problema, una estrategia metodológica robusta y un estándar alto de apertura. Destaca especialmente la coherencia entre hipótesis, análisis y presentación de resultados. Como mejoras concretas, conviene reforzar el cierre del preprint y precisar aún más la documentación técnica para que la reproducibilidad quede completamente cerrada.
+El Grupo 8 presenta un trabajo de muy buen nivel, con una formulación clara del problema, una estrategia metodológica robusta y un estándar alto de apertura. Destaca especialmente la coherencia entre hipótesis, análisis y presentación de resultados. Como mejoras concretas, conviene reforzar el cierre del preprint y precisar aún más la documentación técnica para que la reproducibilidad quede completamente cerrada. **Bonus preprint: No.**

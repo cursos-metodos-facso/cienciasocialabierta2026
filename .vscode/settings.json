@@ -15,5 +15,12 @@
   },
   "chat.tools.terminal.autoApprove": {
     "quarto": true
-  }
+  },
+  "git.ignoredRepositories": [
+    "trabajos/informe-final/grupo-6/evaluacion-final-grupo-6",
+    "trabajos/informe-final/grupo-7/trabajo-2-grupo-7",
+    "trabajos/informe-final/grupo-8/reporte-abierto-cuech",
+    "trabajos/informe-final/grupo-9/Trabajo-2",
+    "trabajos/informe-final/grupo-10/reporte-conflicto-democracia"
+  ]
 }
